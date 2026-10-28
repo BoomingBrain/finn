@@ -11,7 +11,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 2 | Skeleton deploy: static site on HF Space, API on Render | Wed | ✅ Done | Space e6a2ac6 | Live: https://ayush-rai-230265-finn.static.hf.space · Render https://finn-zztc.onrender.com (health + CORS OK) |
 | 3 | Announcements source and classification | Thu | ✅ Done | see log | 48 rule tests; live 30d: 224 filings, rules 92%, 1 LLM call |
 | 4 | Results card: column selection, units, lender layout | Thu | ✅ Done | see log | 25 tests; real INFY + HDFCBANK cards 100% match hand-checks |
-| 5 | Vertical slice: ingest → Brief for one stock, deployed | Thu | ⬜ Not started | | |
+| 5 | Vertical slice: ingest → Brief for one stock, deployed | Thu | ✅ Done | 367a14a | Live: INFY results card on the Brief (30d window) |
 | 6 | Widen to 18 stocks, event clustering, profiles | Fri | ⬜ Not started | | |
 | 7 | Prices, signals, alerts, Watch with backtest sliders | Fri | ⬜ Not started | | |
 | 8 | Scheduled ingestion | Fri | ⬜ Not started | | |
@@ -30,7 +30,7 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 | Night | "Demo must work" | Result |
 |---|---|---|
 | Wed 28 | Deployed shell opens on a phone; spikes recorded | ✅ Spikes done incl. cloud check; shell live on the Space, Ask shows Render ready (headless check). Phone check: user |
-| Thu 29 | Deployed Brief shows one real results card | |
+| Thu 29 | Deployed Brief shows one real results card | ✅ Met early (28 Oct): live Brief serves INFY Q2 FY27 card from events.json. Phone check: user |
 | Fri 30 | Brief + Watch on all 18 stocks; lender cards; backtest sliders | |
 | Sat 31 | 4 demo dossiers instant; unseen ticker streams or fails cleanly | |
 | Sun 1 | Accuracy in README; submission sent | |
@@ -42,6 +42,21 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 5 complete: vertical slice live
+- **Backend:**
+  - `finn/push/enrich.py`: results statement → `ResultsCard` (vision); other critical/notable → a one-line summary (bulk, ≤ 140 chars, clipped at a word); routine → no download, no LLM call; failures degrade only that item.
+  - `finn/push/events.py`: `to_event` plus `headline()`, which strips "X has informed the Exchange regarding".
+  - `finn/ingest.py`: incremental fetch → classify → enrich, 60-day retention, writes `push.json` and `events.json`; CLI `python -m finn.ingest`.
+  - Snapshot files are now written 0644.
+- **Real run (INFY, 30 days):** 14 filings, 7 enriched, ~31 s. The card reads Revenue 49,244 (+10.7% YoY), EBITDA 11,689, PBT 11,063, PAT 7,838; summaries are concrete (₹26 interim dividend, record date 3 Nov).
+- **Web:**
+  - Brief with window chips (24h/3d/7d/30d, remembered per device), tiered event rows, results table (Indian grouping, true minus, up/down colour), collapsed routine group, quiet/stale/empty/error states.
+  - A dev-only Vite plugin serves `data/snapshot` at `/data`; a path-traversal probe returns only the SPA fallback.
+- **Tests:** web 7 (ResultsCard 4 per plan, plus 3 small digest tests); backend still 76.
+- **Visual check** at a true 390 px via a same-origin frame wrapper (a file:// wrapper failed because third-party storage is blocked in the frame).
+- **Deployed:** `make deploy-space` (8 files, 208 KB); live `events.json` verified; live page renders the Brief.
+- **Known:** INFY's newspaper ad and auditor's report show as separate critical rows until Task 6 clustering.
 
 ### 2026-10-28 — Task 4 complete: results card
 - **`finn/sources/documents.py`:** PDF download validated with `page_count > 0`, with fallback URLs (for NSE truncation), a disk cache, page text, and page PNGs (fit 1664×2048 or a set dpi).
