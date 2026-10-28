@@ -63,6 +63,14 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-10-28 — Portfolio tab (user request)
+- **New bottom-bar tab between Brief and Watch:**
+  - **Headline:** the equal-weighted move over 1W / 1M / 3M (the mock portfolio has no position sizes, and the subtitle says so).
+  - **Rows:** one per holding, with the closing-price line drawn against a dotted line at the range's starting price; the range change in up/down colour, today's change beneath; biggest absolute movers first.
+  - **Tap a row:** opens the company's research.
+  - Watch's icon became a bell, so the rising-chart icon no longer clashes with Portfolio.
+- **Data:** `signals.json` closes (60 sessions); no new backend. `lib/portfolio.ts` + 3 tests. Checked at 390 and 360 px.
+
 ### 2026-10-28 — Dossiers saved permanently and kept current (user request)
 - **`finn/persist.py`:** a `GitHubStore` commits a finished live dossier to `data/snapshot/dossiers/{SYM}.json` via GitHub's contents API. The server replays saved dossiers before building, so after a restart a dossier is not rebuilt. It is a no-op without the `GITHUB_TOKEN` env var on Render, and a dossier with a failed section is never saved. 4 tests with a mocked API, plus 2 API tests (saved and replayed after a restart; failed one not saved).
 - **Staleness:** `source_fingerprint(company)` = latest results quarter, latest concall date, latest annual-report year, stored on every dossier. `needs_build()` returns "missing", "a section failed" or "new sources". CLI `--mode all|missing|failed|refresh`; `--all` now includes every saved dossier.

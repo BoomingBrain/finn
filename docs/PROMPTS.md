@@ -47,6 +47,8 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 41 | 2026-10-28 | "finish unfinished task from the plan" | Task 14 (cross-check + eval), then the Task 11 precompute wrap-up, Task 15 README/writeup/build history and a submission draft (not sent). |
 | 42 | 2026-10-28 | "i have some questions like the data of company which are available instantly are in the portfolio? if i want a new company analysis how its done and it will take how much time" | Explained the 22 precomputed tickers and the live path with timings. |
 | 43 | 2026-10-28 | "i want you to analysis of the company generated is saved permanently and the holdings in my portfolio shoul the always be present. and how it handles the outdated info?" | Live dossiers saved to the repo via GitHub API; daily workflow builds missing/failed/outdated dossiers by source fingerprint; coverage line in the app. |
+| 44 | 2026-10-28 | "github token is done how much is left for report generation" | Confirmed Render runs the persistence code; reported 14/22 dossiers done and ~1 h left. |
+| 45 | 2026-10-28 | `/frontend-design` (no brief), then "i want you to add a portfolio section in the bottom bar which shows all the holdings and their movement in graph shortly" | Added a Portfolio tab: equal-weighted move headline, 1W/1M/3M range, one row per holding with a price line against its starting price, biggest movers first, tap to research. Watch icon changed to a bell. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)
