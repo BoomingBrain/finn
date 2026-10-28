@@ -1,11 +1,11 @@
 {
  "symbol": "INFY",
  "name": "Infosys Ltd",
- "built_at": "2026-10-28T13:05:18.592079Z",
+ "built_at": "2026-10-28T15:04:24.102955Z",
  "basis": "consolidated",
  "sources": {
   "quarter": "Sep 2026",
-  "transcript": "2026-07-01",
+  "transcript": "2026-10-01",
   "annual_report": 2026
  },
  "sections": [
@@ -17,10 +17,10 @@
     "name": "Infosys Ltd",
     "about": "Infosys Ltd provides consulting, technology, outsourcing and next-generation digital services to enable clients to execute strategies for their digital transformation.[1]It is the 2nd largest Information Technology company in India behind TCS.[2]",
     "basis": "consolidated",
-    "built_at": "2026-10-28T13:03:03.256804+00:00",
+    "built_at": "2026-10-28T14:44:40.070240+00:00",
     "sources": {
      "quarter": "Sep 2026",
-     "transcript": "2026-07-01",
+     "transcript": "2026-10-01",
      "annual_report": 2026
     },
     "lender": false,
@@ -92,32 +92,32 @@
    "reason": null,
    "data": {
     "transcripts": [
+     "Transcript Oct 2026",
      "Transcript Jul 2026",
      "Transcript Apr 2026",
-     "Transcript Feb 2026",
-     "Transcript Jan 2026"
+     "Transcript Feb 2026"
     ],
     "rows": [
      {
       "target": {
        "metric": "revenue_growth_yoy",
-       "raw_metric": "revenue guidance",
+       "raw_metric": "revenue growth",
        "comparison": "between",
-       "value": 3.0,
-       "value_high": 3.5,
+       "value": 1.0,
+       "value_high": 2.0,
        "unit": "pct",
-       "period": "FY26",
-       "quote": "Strong year-to-date performance and robust deal wins have enabled us to revise our revenue guidance for FY'26 upward to 3% to 3.5%.",
-       "source_id": "T:2026-01-01:p24",
-       "said_on": "2026-01-01"
+       "period": "FY27",
+       "quote": "At this point in time, what we have guided for is 1% to 2% on an overall basis in terms of revenue growth for the year.",
+       "source_id": "T:2026-10-01:p36",
+       "said_on": "2026-10-01"
       },
       "actual": {
-       "value": 9.6,
-       "quarters_in": 4,
+       "value": 12.3,
+       "quarters_in": 2,
        "quarters_needed": 4
       },
-      "verdict": "met",
-      "explanation": "Revenue grew 9.6% over the full year, exceeding the 3%–3.5% guided."
+      "verdict": "pending",
+      "explanation": "Revenue growth 1%–2% for FY27, delivered 12.3% (2 of 4 quarters reported)."
      },
      {
       "target": {
@@ -127,31 +127,10 @@
        "value": 20.0,
        "value_high": 22.0,
        "unit": "pct",
-       "period": "FY26",
-       "quote": "Our operating margin guidance remains at 20% to 22%.",
-       "source_id": "T:2026-01-01:p24",
-       "said_on": "2026-01-01"
-      },
-      "actual": {
-       "value": 23.7,
-       "quarters_in": 4,
-       "quarters_needed": 4
-      },
-      "verdict": "met",
-      "explanation": "Operating margin reached 23.7% for the full year, topping the 20%–22% guided."
-     },
-     {
-      "target": {
-       "metric": "ebitda_margin",
-       "raw_metric": "acquisition impact on EBITDA margin",
-       "comparison": "approx",
-       "value": 0.5,
-       "value_high": null,
-       "unit": "pct",
        "period": "FY27",
-       "quote": "And of course, there will be a 50 bps impact on account of the acquisitions that we have called out.",
-       "source_id": "T:2026-07-01:p45",
-       "said_on": "2026-07-01"
+       "quote": "Our operating margin guidance remains at 20% to 22% for the year.",
+       "source_id": "T:2026-10-01:p4",
+       "said_on": "2026-10-01"
       },
       "actual": {
        "value": 23.7,
@@ -159,28 +138,28 @@
        "quarters_needed": 4
       },
       "verdict": "pending",
-      "explanation": "Acquisition impact on EBITDA margin remained ≈ 0.5% for FY27, as guided."
+      "explanation": "Operating margin guidance 20%–22% for FY27, delivered 23.7% (2 of 4 quarters reported)."
      },
      {
       "target": {
        "metric": "revenue_growth_yoy",
-       "raw_metric": "revenue guidance",
-       "comparison": "between",
-       "value": 1.5,
-       "value_high": 3.0,
+       "raw_metric": "mega deal revenue growth contribution",
+       "comparison": "gte",
+       "value": 1.0,
+       "value_high": null,
        "unit": "pct",
-       "period": "FY27",
-       "quote": "Considering lower-than-expected Q1 revenues and revised view of the rest of the year, we are revising our revenue guidance to 1.5% to 3%.",
-       "source_id": "T:2026-07-01:p33",
-       "said_on": "2026-07-01"
+       "period": "FY28",
+       "quote": "This deal is expected to contribute over 1% revenue growth in the coming financial year.",
+       "source_id": "T:2026-10-01:p4",
+       "said_on": "2026-10-01"
       },
       "actual": {
-       "value": 12.3,
-       "quarters_in": 2,
+       "value": null,
+       "quarters_in": 0,
        "quarters_needed": 4
       },
       "verdict": "pending",
-      "explanation": "Revenue grew 12.3% over the partial year, within the 1.5%–3% guided range."
+      "explanation": "Mega deal revenue growth contribution ≥ 1% for FY28, delivered n/a (0 of 4 quarters reported)."
      },
      {
       "target": {
@@ -192,8 +171,8 @@
        "unit": "pct",
        "period": "FY27",
        "quote": "We expect effective tax rate for the year to be in the range of 29% to 30%.",
-       "source_id": "T:2026-07-01:p31",
-       "said_on": "2026-07-01"
+       "source_id": "T:2026-10-01:p28",
+       "said_on": "2026-10-01"
       },
       "actual": {
        "value": null,
@@ -206,15 +185,15 @@
      {
       "target": {
        "metric": "other",
-       "raw_metric": "operating margin",
+       "raw_metric": "technical subcontractor as a percentage of revenue",
        "comparison": "between",
-       "value": 20.0,
-       "value_high": 22.0,
+       "value": 8.0,
+       "value_high": 9.0,
        "unit": "pct",
        "period": "FY27",
-       "quote": "Margin guidance is maintained at 20% to 22%.",
-       "source_id": "T:2026-07-01:p33",
-       "said_on": "2026-07-01"
+       "quote": "So, it has been between 8% to 9% of the revenue, and we expect it to remain in the same range.",
+       "source_id": "T:2026-10-01:p21",
+       "said_on": "2026-10-01"
       },
       "actual": {
        "value": null,
@@ -222,20 +201,20 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided operating margin 20%–22% for FY27; not checkable from reported financials."
+      "explanation": "Guided technical subcontractor as a percentage of revenue 8%–9% for FY27; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "onsite mix reduction (excluding new acquisitions)",
-       "comparison": "between",
-       "value": 0.75,
-       "value_high": 1.0,
+       "raw_metric": "revenue growth contribution from mega deal",
+       "comparison": "approx",
+       "value": 1.0,
+       "value_high": null,
        "unit": "pct",
-       "period": "FY27",
-       "quote": "We expect Onsite mix excluding new acquisitions to reduce by 75 bps to 1% for the year.",
-       "source_id": "T:2026-07-01:p31",
-       "said_on": "2026-07-01"
+       "period": "FY28",
+       "quote": "we estimate something like a 1% revenue growth outlook from that one deal that we have signed in Q2.",
+       "source_id": "T:2026-10-01:p42",
+       "said_on": "2026-10-01"
       },
       "actual": {
        "value": null,
@@ -243,12 +222,33 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided onsite mix reduction (excluding new acquisitions) 0.8%–1% for FY27; not checkable from reported financials."
+      "explanation": "Guided revenue growth contribution from mega deal ≈ 1% for FY28; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "onsite mix reduction",
+       "raw_metric": "impact of offshoring and large deal not pursued",
+       "comparison": "between",
+       "value": 1.8,
+       "value_high": 2.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "both of them put together would roughly mean 1.8% to 2% for the year.",
+       "source_id": "T:2026-10-01:p47",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided impact of offshoring and large deal not pursued 1.8%–2% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "reduction in onsite mix",
        "comparison": "between",
        "value": 0.75,
        "value_high": 1.0,
@@ -264,7 +264,70 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided onsite mix reduction 0.8%–1% for FY27; not checkable from reported financials."
+      "explanation": "Guided reduction in onsite mix 0.8%–1% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "operating margin guidance",
+       "comparison": "between",
+       "value": 20.0,
+       "value_high": 22.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Our operating margin guidance remains the same at 20% to 22%.",
+       "source_id": "T:2026-07-01:p29",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided operating margin guidance 20%–22% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Onsite mix excluding new acquisitions reduction",
+       "comparison": "between",
+       "value": 0.75,
+       "value_high": 1.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We expect Onsite mix excluding new acquisitions to reduce by 75 bps to 1% for the year.",
+       "source_id": "T:2026-07-01:p31",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Onsite mix excluding new acquisitions reduction 0.8%–1% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "acquisition impact on margin",
+       "comparison": "approx",
+       "value": 0.5,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "And of course, there will be a 50 bps impact on account of the acquisitions that we have called out.",
+       "source_id": "T:2026-07-01:p45",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided acquisition impact on margin ≈ 0.5% for FY27; not checkable from reported financials."
      },
      {
       "target": {
@@ -290,57 +353,15 @@
      {
       "target": {
        "metric": "other",
-       "raw_metric": "reduction due to lower revenue from large European manufacturing client",
-       "comparison": "between",
-       "value": 0.75,
-       "value_high": 1.0,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "Reduction of 0.75% to 1% due to lower revenue from one of our large European manufacturing client.",
-       "source_id": "T:2026-04-01:p31",
-       "said_on": "2026-04-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided reduction due to lower revenue from large European manufacturing client 0.8%–1% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "reduction in onsite mix",
-       "comparison": "between",
-       "value": 0.75,
-       "value_high": 1.0,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "Further reduction in onsite mix by 0.75% to 1%, we expect third-party cost for FY27 to remain at similar levels as FY26.",
-       "source_id": "T:2026-04-01:p31",
-       "said_on": "2026-04-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided reduction in onsite mix 0.8%–1% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "ongoing impact of labor code",
+       "raw_metric": "onsite mix reduction",
        "comparison": "approx",
-       "value": 0.15,
+       "value": 0.7,
        "value_high": null,
        "unit": "pct",
        "period": "FY27",
-       "quote": "There will be an ongoing impact of roughly around 15 basis points. That will happen on an annual basis. That is a regular impact of the labor code as we go ahead.",
-       "source_id": "T:2026-01-01:p9",
-       "said_on": "2026-01-01"
+       "quote": "The 70 basis points is a reduction in onsite mix we are expecting.",
+       "source_id": "T:2026-04-01:p39",
+       "said_on": "2026-04-01"
       },
       "actual": {
        "value": null,
@@ -348,30 +369,61 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided ongoing impact of labor code ≈ 0.1% for FY27; not checkable from reported financials."
+      "explanation": "Guided onsite mix reduction ≈ 0.7% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "percentage of loyalty programs with AI component",
+       "comparison": "approx",
+       "value": 70.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "Q3FY27",
+       "quote": "As of 2026, 70% of all loyalty programs we will engage in will have an AI component in them.",
+       "source_id": "T:2026-02-01:p39",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided percentage of loyalty programs with AI component ≈ 70% for Q3FY27; not checkable from reported financials."
      }
     ]
    },
    "citations": [
     {
-     "source_id": "T:2026-01-01:p24",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=373b3501-e2a7-4ba4-bdd1-83f6bc21c25c.pdf",
-     "page": 24
+     "source_id": "T:2026-10-01:p36",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+     "page": 36
     },
     {
-     "source_id": "T:2026-07-01:p45",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
-     "page": 45
+     "source_id": "T:2026-10-01:p4",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+     "page": 4
     },
     {
-     "source_id": "T:2026-07-01:p33",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
-     "page": 33
+     "source_id": "T:2026-10-01:p28",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+     "page": 28
     },
     {
-     "source_id": "T:2026-07-01:p31",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
-     "page": 31
+     "source_id": "T:2026-10-01:p21",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+     "page": 21
+    },
+    {
+     "source_id": "T:2026-10-01:p42",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+     "page": 42
+    },
+    {
+     "source_id": "T:2026-10-01:p47",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+     "page": 47
     },
     {
      "source_id": "T:2026-07-01:p37",
@@ -379,14 +431,34 @@
      "page": 37
     },
     {
+     "source_id": "T:2026-07-01:p29",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
+     "page": 29
+    },
+    {
+     "source_id": "T:2026-07-01:p31",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
+     "page": 31
+    },
+    {
+     "source_id": "T:2026-07-01:p45",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
+     "page": 45
+    },
+    {
      "source_id": "T:2026-04-01:p31",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf",
      "page": 31
     },
     {
-     "source_id": "T:2026-01-01:p9",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=373b3501-e2a7-4ba4-bdd1-83f6bc21c25c.pdf",
-     "page": 9
+     "source_id": "T:2026-04-01:p39",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf",
+     "page": 39
+    },
+    {
+     "source_id": "T:2026-02-01:p39",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4632b94-2a41-4103-876d-cdb1f6848d64.pdf",
+     "page": 39
     }
    ]
   },
@@ -395,7 +467,7 @@
    "status": "ready",
    "reason": null,
    "data": {
-    "what_it_does": "Infosys sells AI-first business consulting and technology services to global enterprises, helping them unlock AI value at scale and accelerate business transformation. Its offerings span software application development and maintenance, IT consulting, and next-generation digital services, with over 95% of revenue derived from these services. The company serves clients across 84 countries and derives 97.40% of turnover from exports (in relation to India).",
+    "what_it_does": "Infosys sells AI-first business consulting and technology services to global enterprises, enabling them to unlock AI value at scale. Its offerings span software and IT consulting, with 95.23% of turnover coming from software application development, IT consulting, and next-generation digital services, primarily exported (97.40% of total turnover).",
     "segments": [
      {
       "name": "Financial Services and Insurance",
@@ -464,72 +536,75 @@
    "data": {
     "bull": [
      {
-      "text": "Infosys delivered 9.6% revenue growth in FY'26 against guidance of 3-3.5%, with operating margin of 23.7% exceeding the 20-22% guidance range.",
+      "text": "Infosys delivers strong profitability with a 23.7% operating margin exceeding its 20-22% guidance, a 40% ROCE, and a low 0.09 debt-to-equity ratio.",
       "source_ids": [
-       "T:2026-01-01:p24"
+       "SCR",
+       "T:2026-10-01:p4"
       ]
      },
      {
-      "text": "The company generated ₹189,336 Cr revenue and ₹30,788 Cr PAT TTM with 3-year CAGR of 6.8% and 6.9% respectively, ROCE of 40%, debt-to-equity of 0.09, and operating cash flow to PAT of 1.15 over three years.",
+      "text": "Revenue and PAT have grown at 3-year CAGRs of 6.8% and 6.9% respectively, with quarterly revenue rising sequentially from ₹45,479 Cr to ₹49,244 Cr over the last four quarters.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Quarterly revenue showed consistent sequential growth from ₹45,479 Cr in Dec 2025 to ₹49,244 Cr in Sep 2026, while PAT remained robust between ₹7,775 Cr and ₹8,509 Cr.",
+      "text": "The company converts earnings to cash effectively with a 1.15x operating cash flow to PAT ratio over three years, while 95.23% of turnover comes from high-value software and digital services exported globally.",
       "source_ids": [
-       "SCR"
+       "SCR",
+       "AR:2026:p143"
       ]
      }
     ],
     "bear": [
      {
-      "text": "Management cut FY'26 revenue guidance to 1.5-3% in July 2026 from 3-3.5% in January 2026, citing lower-than-expected Q1 revenues.",
-      "source_ids": [
-       "T:2026-07-01:p33"
-      ]
-     },
-     {
-      "text": "Acquisitions are expected to dilute operating margin by approximately 50 bps in the near term and 0.7% on a full-year annualized basis, while a large European manufacturing client's revenue reduction will further impact margin by 0.75-1%.",
-      "source_ids": [
-       "T:2026-07-01:p45",
-       "T:2026-04-01:p31"
-      ]
-     },
-     {
-      "text": "Operating margin has slightly declined from 23.9% three years ago to 23.7% currently, despite the company guiding for 20-22% and consistently delivering above that range.",
+      "text": "Management guides only 1-2% revenue growth for the year, a sharp deceleration from the 6.8% 3-year revenue CAGR.",
       "source_ids": [
        "SCR",
-       "T:2026-01-01:p24"
+       "T:2026-10-01:p36"
+      ]
+     },
+     {
+      "text": "Operating margin guidance of 20-22% implies potential compression from the current 23.7% level.",
+      "source_ids": [
+       "SCR",
+       "T:2026-10-01:p4"
+      ]
+     },
+     {
+      "text": "The business derives 97.40% of turnover from exports and is concentrated in segments like Financial Services, creating geographic and client concentration risk.",
+      "source_ids": [
+       "AR:2026:p143",
+       "AR:2026:p22"
       ]
      }
     ]
    },
    "citations": [
     {
-     "source_id": "T:2026-01-01:p24",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=373b3501-e2a7-4ba4-bdd1-83f6bc21c25c.pdf",
-     "page": 24
-    },
-    {
      "source_id": "SCR",
      "url": "https://www.screener.in/company/INFY/consolidated/",
      "page": null
     },
     {
-     "source_id": "T:2026-07-01:p33",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
-     "page": 33
+     "source_id": "T:2026-10-01:p4",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+     "page": 4
     },
     {
-     "source_id": "T:2026-07-01:p45",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
-     "page": 45
+     "source_id": "AR:2026:p143",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+     "page": 143
     },
     {
-     "source_id": "T:2026-04-01:p31",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf",
-     "page": 31
+     "source_id": "T:2026-10-01:p36",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+     "page": 36
+    },
+    {
+     "source_id": "AR:2026:p22",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf",
+     "page": 22
     }
    ]
   }
