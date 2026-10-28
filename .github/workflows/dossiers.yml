@@ -1,0 +1,70 @@
+name: dossiers
+# Keeps research dossiers present and current, daily after the evening ingest:
+#   - every holding and demo ticker always has a dossier (missing ones are built)
+#   - a dossier with a failed section is retried
+#   - a dossier whose sources changed (new results quarter, new concall, new annual report) is rebuilt;
+#     unchanged ones cost one cached screener fetch and no model calls
+# Dossiers saved live by the research server are in data/snapshot/dossiers too, so they are kept current the same way.
+on:
+  schedule:
+    - cron: "30 14 * * *"   # 20:00 IST daily
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "refresh | failed | missing | all"
+        default: "refresh"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dossiers
+  cancel-in-progress: false
+
+jobs:
+  dossiers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - uses: actions/cache@v4
+        with:
+          path: backend/.cache
+          key: finn-cache-${{ github.run_id }}
+          restore-keys: finn-cache-
+
+      - name: Build missing, failed and outdated dossiers
+        working-directory: backend
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          FINN_CONCURRENCY_REASON: "3"
+        run: uv run python -m finn.pull.dossier --all --mode "${{ github.event.inputs.mode || 'refresh' }}" --parallel 2
+
+      - name: Commit dossiers
+        id: commit
+        run: |
+          git config user.name "finn-dossiers[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/snapshot
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -q -m "chore: refresh dossiers $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull -q --rebase origin main
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy site + data to the HF Space
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_SPACE: ${{ secrets.HF_SPACE }}
+          RENDER_URL: ${{ secrets.RENDER_URL }}
+        run: make deploy-space

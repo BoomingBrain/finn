@@ -44,6 +44,12 @@ The scarce skill is not collecting information but deciding what to ignore, so F
 
 Four demo tickers (PIDILITIND, HAL, CDSL, NAUKRI) and all 18 holdings are precomputed and open instantly. Any other ticker is researched live on the server, and its sections stream in as they finish.
 
+**Every dossier is built once and kept current:**
+- **Saved permanently.** A finished live dossier is committed to the repo next to the precomputed ones (`finn/persist.py`). The server replays it from there instead of rebuilding, and the next deploy makes it a static, instant page. A dossier with a failed section is never saved.
+- **Holdings always present.** A daily job (`.github/workflows/dossiers.yml`, 20:00 IST) builds any missing dossier for a holding or demo ticker and retries any with a failed section.
+- **Outdated dossiers are rebuilt.** Each dossier records what it was built from: the latest results quarter, concall and annual report. The daily job compares that with screener.in (no model calls) and rebuilds only the ones with new inputs. Older transcripts come from the LLM cache, so a rebuild pays only for what is new.
+- **Freshness is visible.** Each dossier says what it covers: "Covers results to Sep 2026, the Aug 2026 call and the FY26 annual report. Updated 28 Oct 2026."
+
 ## Architecture
 
 ```
@@ -53,7 +59,9 @@ GitHub Actions (every 2 h on market days + 19:00 IST)
   screener.in ───────┘                                                    │
                                                     commit data/snapshot/*.json ─► redeploy the static Space
 Hugging Face Static Space: React PWA + snapshot JSON + precomputed dossiers  (Brief, Watch, demo dossiers)
-Render (free): FastAPI, only for live research on tickers without a precomputed dossier (SSE)
+Render (free): FastAPI, only for live research on tickers without a precomputed dossier (SSE);
+  a finished live dossier is committed back to the repo, so it ships with the next deploy
+GitHub Actions (daily 20:00 IST): build missing, failed and outdated dossiers ─► commit ─► redeploy
 ```
 
 - **Viewers cost nothing.** Brief and Watch, and every precomputed dossier, are static files, so a viewer triggers no model call.

@@ -9,6 +9,7 @@ import { Statement } from "../components/Statement";
 import { SymbolSearch } from "../components/SymbolSearch";
 import { useApiHealth, type ApiHealth } from "../hooks/useApiHealth";
 import { useResearch } from "../hooks/useResearch";
+import { coverageText } from "../lib/research";
 
 const SERVER_COPY: Record<ApiHealth, string> = {
   unset: "Live research for other companies isn't connected yet.",
@@ -54,7 +55,9 @@ function ServerStatus() {
 function Dossier({ symbol, eventId }: { symbol: string; eventId: string | null }) {
   const { sections, done, waking, error } = useResearch(symbol);
   const snapshot = sections.find((s) => s.section === "snapshot");
-  const name = (snapshot?.data as SnapshotData | undefined)?.name ?? symbol;
+  const snapData = snapshot?.data as SnapshotData | undefined;
+  const name = snapData?.name ?? symbol;
+  const coverage = coverageText(snapData?.sources, snapData?.built_at);
 
   if (error && sections.length === 0)
     return (
@@ -67,7 +70,7 @@ function Dossier({ symbol, eventId }: { symbol: string; eventId: string | null }
   return (
     <>
       {eventId && <ContextStrip eventId={eventId} />}
-      <Statement detail={waking ? "Waking the research server — about a minute." : !done ? "Reading transcripts and the annual report. Sections appear as they're ready." : undefined}>
+      <Statement detail={waking ? "Waking the research server — about a minute." : !done ? "Reading transcripts and the annual report. Sections appear as they're ready." : coverage ?? undefined}>
         {name}
       </Statement>
       {ORDER.map(({ name: section, title }) => {

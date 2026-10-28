@@ -63,6 +63,13 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-10-28 — Dossiers saved permanently and kept current (user request)
+- **`finn/persist.py`:** a `GitHubStore` commits a finished live dossier to `data/snapshot/dossiers/{SYM}.json` via GitHub's contents API. The server replays saved dossiers before building, so after a restart a dossier is not rebuilt. It is a no-op without the `GITHUB_TOKEN` env var on Render, and a dossier with a failed section is never saved. 4 tests with a mocked API, plus 2 API tests (saved and replayed after a restart; failed one not saved).
+- **Staleness:** `source_fingerprint(company)` = latest results quarter, latest concall date, latest annual-report year, stored on every dossier. `needs_build()` returns "missing", "a section failed" or "new sources". CLI `--mode all|missing|failed|refresh`; `--all` now includes every saved dossier.
+- **`.github/workflows/dossiers.yml`:** daily 20:00 IST, `--mode refresh`, commit (rebase first) and deploy. The ingest workflow also rebases before pushing now.
+- **Web:** the dossier header says what it covers and when it was built.
+- **Needs from the user:** a fine-grained GitHub token (Contents: read and write, this repo only) as `GITHUB_TOKEN` on Render.
+
 ### 2026-10-28 — Task 14 complete: accuracy eval and screener cross-check
 - **`push/crosscheck.py`:** each readable results card is compared with screener's matching quarter (Revenue and PAT; PAT only for lenders) at 2% tolerance. Result: `verified` True/False with `mismatches`, or None (other basis, quarter not on screener, unreadable card). Runs in ingest; a screener failure leaves cards unmarked. 7 tests.
 - **Dry run on the live cards:** 8/8 verified (KPITTECH, LT, INFY, BAJFINANCE, HDFCBANK, PERSISTENT, POLYCAB, DMART).

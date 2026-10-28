@@ -43,11 +43,23 @@ async def unreachable_build(symbol, llm, **kwargs):
     yield  # an async generator, like build_dossier
 
 
-def client(tmp_path, build=fake_build, per_hour=3, budget=10) -> TestClient:
+class FakeSaved:
+    def __init__(self, files=None):
+        self.files = dict(files or {})
+
+    def load(self, symbol):
+        return self.files.get(symbol)
+
+    def save(self, symbol, dossier):
+        self.files[symbol] = dossier
+        return True
+
+
+def client(tmp_path, build=fake_build, per_hour=3, budget=10, saved=None) -> TestClient:
     store = SnapshotStore(tmp_path)
     store.save_dossier("PIDILITIND", {"symbol": "PIDILITIND", "sections": [section("snapshot").model_dump()]})
     app = create_app(store=store, build=build, limiter=RateLimiter(per_hour=per_hour),
-                     budget=RequestBudget(daily_requests=budget), llm=object())
+                     budget=RequestBudget(daily_requests=budget), llm=object(), saved=saved or FakeSaved())
     return TestClient(app)
 
 
@@ -111,3 +123,24 @@ def test_symbols_json_marks_precomputed(tmp_path):
     rows = {r["symbol"]: r for r in json.loads((tmp_path / "symbols.json").read_text())}
     assert rows["PIDILITIND"]["precomputed"] is True and rows["KOTAKBANK"]["precomputed"] is False
     assert rows["KOTAKBANK"]["name"] == "Kotak Mahindra Bank Limited"
+
+
+def test_live_build_is_saved_and_replayed_after_restart(tmp_path):
+    saved = FakeSaved()
+    client(tmp_path, saved=saved).get("/api/research/KOTAKBANK")
+    assert [sec["section"] for sec in saved.files["KOTAKBANK"]["sections"]] == ["snapshot", "delivery", "business",
+                                                                                "bull_bear"]
+    restarted = client(tmp_path, build=unreachable_build, per_hour=0, budget=0, saved=saved)  # fresh process
+    sent = events(restarted.get("/api/research/KOTAKBANK"))
+    assert [n for n, _ in sent] == ["message"] * 4 + ["done"]
+
+
+async def failing_section_build(symbol, llm, **kwargs):
+    yield section("snapshot")
+    yield SectionEvent(section="delivery", status="unavailable", reason="Analysis failed")
+
+
+def test_dossier_with_failed_section_is_not_saved(tmp_path):
+    saved = FakeSaved()
+    client(tmp_path, build=failing_section_build, saved=saved).get("/api/research/KOTAKBANK")
+    assert saved.files == {}

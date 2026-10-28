@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import type { DeliveryRow } from "../api/types";
 import { parseHash } from "../hooks/useHashRoute";
 import { parseSSE, refusal } from "../hooks/useResearch";
-import { citationHref, citationLabel, deliveredText, deliverySummary, targetText } from "./research";
+import { citationHref, citationLabel, coverageText, deliveredText, deliverySummary, targetText } from "./research";
 
 const row = (verdict: DeliveryRow["verdict"], value: number | null = 24.1, quarters_in = 4): DeliveryRow => ({
   target: { metric: "ebitda_margin", raw_metric: "EBITDA margin", comparison: "between", value: 20, value_high: 24,
@@ -47,5 +47,14 @@ describe("streaming", () => {
 
   it("reads the originating event from the hash", () => {
     expect(parseHash("#/ask/PIDILITIND?event=abc")).toEqual({ tab: "ask", param: "PIDILITIND", query: { event: "abc" } });
+  });
+});
+
+describe("coverage", () => {
+  it("says which sources a dossier covers and when it was built", () => {
+    expect(coverageText({ quarter: "Sep 2026", transcript: "2026-08-01", annual_report: 2026 }, "2026-10-28T10:00:00Z"))
+      .toBe("Covers results to Sep 2026, the Aug 2026 call and the FY26 annual report. Updated 28 Oct 2026.");
+    expect(coverageText({ quarter: "Sep 2026", transcript: null, annual_report: null }, undefined)).toBe("Covers results to Sep 2026.");
+    expect(coverageText(undefined, undefined)).toBeNull();
   });
 });

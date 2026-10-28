@@ -1,9 +1,11 @@
 """The Render service. It exists only for live research on tickers without a precomputed dossier;
-everything else is served as static files from the Hugging Face Space."""
+everything else is served as static files from the Hugging Face Space. A finished live dossier is committed to the
+repo (finn.persist), so it is built once and becomes a static, instant dossier after the next deploy."""
 import asyncio
 import json
 import os
 import time
+from datetime import datetime, timezone
 from typing import AsyncIterator, Callable
 
 from fastapi import FastAPI, Request
@@ -12,7 +14,8 @@ from fastapi.responses import JSONResponse, RedirectResponse, StreamingResponse
 
 from finn.guard import RateLimiter, nse_symbols
 from finn.llm import LLM, BudgetExceeded, RequestBudget
-from finn.pull.dossier import SectionEvent, build_dossier
+from finn.persist import GitHubStore
+from finn.pull.dossier import Dossier, SectionEvent, build_dossier, needs_build
 from finn.snapshot import SnapshotStore
 from finn.sources.screener import CompanyNotFound, SourceUnreachable
 
@@ -31,7 +34,7 @@ def _force_fail(symbol: str):
 
 def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIterator[SectionEvent]] = build_dossier,
                limiter: RateLimiter | None = None, budget: RequestBudget | None = None,
-               llm: LLM | None = None) -> FastAPI:
+               llm: LLM | None = None, saved: GitHubStore | None = None) -> FastAPI:
     app = FastAPI(title="FINN research API", docs_url=None, redoc_url=None)
     origins = [o.strip() for o in os.environ.get("WEB_ORIGIN", "").split(",") if o.strip()]
     app.add_middleware(CORSMiddleware, allow_origins=origins + [LOCAL_DEV_ORIGIN], allow_methods=["GET"],
@@ -39,6 +42,7 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
     store = store or SnapshotStore()
     limiter = limiter or RateLimiter(per_hour=int(os.environ.get("LIVE_RESEARCH_PER_IP_PER_HOUR", "3")))
     budget = budget or RequestBudget(daily_requests=int(os.environ.get("DAILY_LLM_REQUEST_BUDGET", "1500")))
+    saved = saved or GitHubStore.from_env()  # live dossiers, kept permanently in the repo
     live: dict[str, list[dict]] = {}  # finished live dossiers, for the life of the process
     state = {"llm": llm}
 
@@ -89,6 +93,12 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
             return
         live[symbol] = sent
         yield _sse("{}", event="done")
+        snap = (sent[0].get("data") or {}) if sent else {}
+        dossier = Dossier(symbol=symbol, name=snap.get("name", symbol), basis=snap.get("basis", ""),
+                          built_at=datetime.now(timezone.utc), sources=snap.get("sources", {}),
+                          sections=[SectionEvent(**e) for e in sent]).model_dump(mode="json")
+        if needs_build(dossier) is None:  # never persist a dossier with a failed section; the daily job retries
+            await asyncio.to_thread(saved.save, symbol, dossier)
 
     @app.get("/api/research/{symbol}")
     async def research(symbol: str, request: Request):
@@ -100,6 +110,10 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
             return JSONResponse({"error": "unknown_symbol"}, status_code=404)
         if symbol in live:
             return replay(live[symbol])
+        kept = await asyncio.to_thread(saved.load, symbol)  # built live earlier, not yet on the static site
+        if kept:
+            live[symbol] = kept["sections"]
+            return replay(kept["sections"])
         forwarded = request.headers.get("x-forwarded-for", "")
         ip = forwarded.split(",")[0].strip() or (request.client.host if request.client else "unknown")
         if not limiter.allow(ip, now=time.time()):

@@ -43,7 +43,18 @@ class Dossier(BaseModel):
     name: str
     built_at: datetime
     basis: str
+    sources: dict = {}  # what it was built from; see source_fingerprint
     sections: list[SectionEvent]
+
+
+def source_fingerprint(c: CompanyData) -> dict:
+    """The newest inputs a dossier depends on. When any changes (new results quarter, new concall, new annual
+    report), the dossier is out of date. Comes from the screener page alone, so checking costs no model call."""
+    dated = [t.date for t in c.transcripts if t.date]
+    reports = [a.date.year for a in c.annual_reports if a.date]
+    return {"quarter": c.quarters.columns[-1] if c.quarters.columns else None,
+            "transcript": max(dated).isoformat() if dated else None,
+            "annual_report": max(reports) if reports else None}
 
 
 class _NoText(Exception):
@@ -117,7 +128,9 @@ async def build_dossier(symbol: str, llm: LLM, fetch_company: Callable[[str], Co
 
     snapshot = compute_snapshot(c)
     yield SectionEvent(section="snapshot", status="ready",
-                       data={"name": c.name, "about": c.about[:600], "basis": c.basis, **snapshot.model_dump()},
+                       data={"name": c.name, "about": c.about[:600], "basis": c.basis,
+                             "built_at": datetime.now(timezone.utc).isoformat(), "sources": source_fingerprint(c),
+                             **snapshot.model_dump()},
                        citations=_citations(["SCR"], urls))
 
     delivery: list[DeliveryRow] = []
@@ -158,7 +171,7 @@ async def collect_dossier(symbol: str, llm: LLM, **kwargs) -> Dossier:
     sections = [s async for s in build_dossier(symbol, llm, **kwargs)]
     snap = sections[0].data or {}
     return Dossier(symbol=symbol.upper(), name=snap.get("name", symbol), basis=snap.get("basis", ""),
-                   built_at=datetime.now(timezone.utc), sections=sections)
+                   built_at=datetime.now(timezone.utc), sources=snap.get("sources", {}), sections=sections)
 
 
 def demo_symbols() -> list[str]:
@@ -166,21 +179,39 @@ def demo_symbols() -> list[str]:
     return [h.symbol for h in p.holdings] + list(p.research)
 
 
-def needs_build(existing: dict | None, retry_failed: bool) -> bool:
-    """With retry_failed, rebuild only dossiers that are missing or have a section that failed transiently
-    (a missing source such as "No concall transcripts" is a real answer, not a failure)."""
-    if existing is None or not retry_failed:
-        return True
-    return any(s.get("reason") in (FAILED, BUDGET) for s in existing.get("sections", []))
+def needs_build(existing: dict | None, current_sources: dict | None = None) -> str | None:
+    """Why a dossier must be (re)built, or None if it is fine. Missing; a section that failed transiently (a missing
+    source such as "No concall transcripts" is a real answer, not a failure); or, when `current_sources` is given,
+    built from older inputs than screener now lists."""
+    if existing is None:
+        return "missing"
+    if any(s.get("reason") in (FAILED, BUDGET) for s in existing.get("sections", [])):
+        return "a section failed"
+    if current_sources is not None and existing.get("sources") != current_sources:
+        return "new sources"
+    return None
 
 
-async def _precompute(symbols: list[str], store: SnapshotStore, llm: LLM, skip_existing: bool, parallel: int,
-                      retry_failed: bool = False):
+async def _precompute(symbols: list[str], store: SnapshotStore, llm: LLM, mode: str, parallel: int):
+    """mode: "all" rebuilds every symbol; "missing" only absent ones; "failed" adds failed ones; "refresh" adds
+    ones whose sources changed (one cached screener fetch each, no model calls)."""
     gate = asyncio.Semaphore(parallel)
 
     async def one(symbol: str):
         existing = store.load_dossier(symbol)
-        if (skip_existing and existing) or not needs_build(existing, retry_failed):
+        if mode == "all":
+            why = "requested"
+        elif mode == "missing":
+            why = None if existing else "missing"
+        else:
+            current = None
+            if mode == "refresh" and existing is not None:
+                try:
+                    current = source_fingerprint(await asyncio.to_thread(fetch_company, symbol))
+                except Exception as e:
+                    log.warning("%s: can't check sources, keeping the saved dossier: %r", symbol, e)
+            why = needs_build(existing, current)
+        if why is None:
             return
         async with gate:
             started = datetime.now()
@@ -191,7 +222,7 @@ async def _precompute(symbols: list[str], store: SnapshotStore, llm: LLM, skip_e
                 return
             store.save_dossier(symbol, d.model_dump(mode="json"))
             states = " ".join(f"{s.section}={s.status}" for s in d.sections)
-            log.info("%s done in %.0fs: %s", symbol, (datetime.now() - started).total_seconds(), states)
+            log.info("%s rebuilt (%s) in %.0fs: %s", symbol, why, (datetime.now() - started).total_seconds(), states)
 
     await asyncio.gather(*(one(s) for s in symbols))
 
@@ -200,17 +231,19 @@ def main():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     logging.getLogger("httpx").setLevel(logging.WARNING)
     parser = argparse.ArgumentParser(description="Precompute research dossiers")
-    parser.add_argument("--all", action="store_true", help="every holding plus the research demo tickers")
+    parser.add_argument("--all", action="store_true",
+                        help="every holding, the research demo tickers and every saved dossier")
     parser.add_argument("--symbols", help="comma-separated tickers")
-    parser.add_argument("--skip-existing", action="store_true")
-    parser.add_argument("--retry-failed", action="store_true", help="rebuild only missing or failed dossiers")
+    parser.add_argument("--mode", choices=["all", "missing", "failed", "refresh"], default="all",
+                        help="all: rebuild; missing: only absent; failed: absent or failed; refresh: also outdated")
     parser.add_argument("--parallel", type=int, default=3)
     args = parser.parse_args()
-    symbols = demo_symbols() if args.all else [s.strip().upper() for s in (args.symbols or "").split(",") if s.strip()]
+    store = SnapshotStore()
+    symbols = (sorted(set(demo_symbols()) | set(store.list_dossiers())) if args.all
+               else [s.strip().upper() for s in (args.symbols or "").split(",") if s.strip()])
     if not symbols:
         parser.error("pass --all or --symbols")
-    store = SnapshotStore()
-    asyncio.run(_precompute(symbols, store, LLM(), args.skip_existing, args.parallel, args.retry_failed))
+    asyncio.run(_precompute(symbols, store, LLM(), args.mode, args.parallel))
     write_symbols(store)
     print(LLM().usage())
 

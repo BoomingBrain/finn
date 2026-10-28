@@ -3,7 +3,7 @@ import json
 from datetime import date
 
 from finn.llm import LLM
-from finn.pull.dossier import build_dossier, needs_build
+from finn.pull.dossier import build_dossier, needs_build, source_fingerprint
 from finn.pull.sections import Point, business_pages, drop_uncited
 from finn.sources.documents import DocText
 from finn.sources.screener import CompanyData, DocLink, Table
@@ -105,12 +105,20 @@ def test_business_pages_always_include_brsr_activities():
     assert business_pages(DocText(url="ar", pages=pages)) == [4, 5, 6, 7, 8, 9, 10, 15]
 
 
-def test_retry_failed_skips_complete_and_missing_source_dossiers():
-    ok = {"sections": [{"reason": None}, {"reason": "No concall transcripts on screener.in"}]}
-    failed = {"sections": [{"reason": None}, {"reason": "Analysis failed"}]}
-    assert not needs_build(ok, retry_failed=True)
-    assert needs_build(failed, retry_failed=True) and needs_build(None, retry_failed=True)
-    assert needs_build(ok, retry_failed=False)
+def test_needs_build_reasons():
+    sources = {"quarter": "Sep 2026", "transcript": "2026-08-01", "annual_report": 2026}
+    ok = {"sources": sources, "sections": [{"reason": None}, {"reason": "No concall transcripts on screener.in"}]}
+    assert needs_build(None) == "missing"
+    assert needs_build({"sections": [{"reason": "Analysis failed"}]}) == "a section failed"
+    assert needs_build(ok) is None and needs_build(ok, sources) is None
+    assert needs_build(ok, {**sources, "quarter": "Dec 2026"}) == "new sources"  # new results are out
+
+
+def test_fingerprint_tracks_latest_inputs():
+    c = company(transcripts=[DocLink(label="T", date=date(2026, 8, 1), url="t1"),
+                             DocLink(label="T", date=date(2026, 5, 1), url="t0")],
+                annual_reports=[DocLink(label="AR", date=date(2026, 3, 31), url="ar")])
+    assert source_fingerprint(c) == {"quarter": "Jun 2026", "transcript": "2026-08-01", "annual_report": 2026}
 
 
 def test_bull_bear_sees_plain_verdicts(tmp_path):

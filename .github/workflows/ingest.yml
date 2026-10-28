@@ -53,6 +53,7 @@ jobs:
           git add data/snapshot
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -q -m "chore: ingest $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull -q --rebase origin main   # the dossier job and the research server also commit
           git push
 
       - name: Deploy site + data to the HF Space

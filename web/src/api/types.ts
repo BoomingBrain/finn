@@ -108,8 +108,16 @@ export interface QuarterPoint {
   pat: number | null;
 }
 
+export interface DossierSources {
+  quarter: string | null; // latest results quarter on screener, "Sep 2026"
+  transcript: string | null; // latest concall, ISO date
+  annual_report: number | null; // fiscal year of the latest annual report
+}
+
 export interface SnapshotData {
   name: string;
+  built_at?: string;
+  sources?: DossierSources;
   about: string;
   basis: string;
   lender: boolean;
