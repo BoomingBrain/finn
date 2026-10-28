@@ -1,0 +1,261 @@
+{
+ "symbol": "TRENT",
+ "name": "Trent Ltd",
+ "built_at": "2026-10-28T13:13:16.330407Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": null,
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Trent Ltd",
+    "about": "Trent Ltd is engaged in retailing of apparels, footwear, accessories, toys, games, food, grocery & non food products through various of its retail formats/ concepts.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T13:13:16.304525+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": null,
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 20946.0,
+    "pat_ttm": 1814.0,
+    "revenue_cagr_3y": 34.5,
+    "pat_cagr_3y": 63.5,
+    "opm_latest": 18.7,
+    "opm_3y_ago": 13.5,
+    "roce_latest": 28.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.37,
+    "cfo_to_pat_3y": 1.2,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 4157.0,
+      "pat": 335.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 4657.0,
+      "pat": 497.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 4217.0,
+      "pat": 312.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 4883.0,
+      "pat": 425.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 4818.0,
+      "pat": 373.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 5345.0,
+      "pat": 510.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 5028.0,
+      "pat": 413.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 5755.0,
+      "pat": 518.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/TRENT/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "unavailable",
+   "reason": "No concall transcripts on screener.in",
+   "data": null,
+   "citations": []
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Trent operates a portfolio of lifestyle fashion and retail brands in India, selling apparel, footwear, accessories, and FMCG products directly to consumers through its owned store network and digital channels. Its brands cater to diverse customer segments across price tiers, from premium to value, leveraging an integrated supply chain and own-brand strategy.",
+    "segments": [
+     {
+      "name": "Westside",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p117"
+      ]
+     },
+     {
+      "name": "Zudio",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p81",
+       "AR:2026:p123"
+      ]
+     },
+     {
+      "name": "Star",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p123"
+      ]
+     },
+     {
+      "name": "Westside (Beauty & Personal Care / StudioWest)",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p117"
+      ]
+     },
+     {
+      "name": "Footwear and innerwear (emerging categories)",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p117"
+      ]
+     },
+     {
+      "name": "POME (lab-grown diamond jewellery)",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p117"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p8",
+     "AR:2026:p78",
+     "AR:2026:p81",
+     "AR:2026:p92",
+     "AR:2026:p117",
+     "AR:2026:p123",
+     "AR:2026:p128",
+     "AR:2026:p141"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p8",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
+     "page": 8
+    },
+    {
+     "source_id": "AR:2026:p78",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
+     "page": 78
+    },
+    {
+     "source_id": "AR:2026:p81",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
+     "page": 81
+    },
+    {
+     "source_id": "AR:2026:p92",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
+     "page": 92
+    },
+    {
+     "source_id": "AR:2026:p117",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
+     "page": 117
+    },
+    {
+     "source_id": "AR:2026:p123",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
+     "page": 123
+    },
+    {
+     "source_id": "AR:2026:p128",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
+     "page": 128
+    },
+    {
+     "source_id": "AR:2026:p141",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
+     "page": 141
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Trent achieved a 3-year revenue CAGR of 34.5% and PAT CAGR of 63.5%, reaching TTM revenue of ₹20,946 Cr and PAT of ₹1,814 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin improved from 13.5% to 18.7% over three years, and ROCE stands at 28%.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Debt-to-equity is low at 0.37, and operating cash flow covered PAT 1.2x over the last three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Return on equity is not disclosed (n/a), making it difficult to evaluate capital efficiency for shareholders.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Quarterly PAT fluctuated between ₹373 Cr and ₹518 Cr over the last four quarters, signaling earnings volatility.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The company's operations are confined to India with no international presence mentioned, concentrating geographic risk.",
+      "source_ids": [
+       "AR:2026:p8"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/TRENT/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "AR:2026:p8",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
+     "page": 8
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,287 @@
+{
+ "symbol": "CDSL",
+ "name": "Central Depository Services (India) Ltd",
+ "built_at": "2026-10-28T12:50:10.928734Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": "2026-08-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Central Depository Services (India) Ltd",
+    "about": "Central Depository Services Limited is a Market Infrastructure Institution (MII), part of the capital market structure, providing services to all market participants - exchanges, clearing corporations, depository participants (DPs), issuers and investors. It is a facilitator for holding of securities in the dematerialised form and an enabler for securities transactions.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T12:48:46.028874+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": "2026-08-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 1179.0,
+    "pat_ttm": 471.0,
+    "revenue_cagr_3y": 27.3,
+    "pat_cagr_3y": 18.1,
+    "opm_latest": 50.8,
+    "opm_3y_ago": 57.5,
+    "roce_latest": 32.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.0,
+    "cfo_to_pat_3y": 1.0,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 322.0,
+      "pat": 162.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 278.0,
+      "pat": 130.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 224.0,
+      "pat": 100.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 259.0,
+      "pat": 102.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 319.0,
+      "pat": 140.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 304.0,
+      "pat": 133.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 263.0,
+      "pat": 80.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 293.0,
+      "pat": 118.0
+     }
+    ],
+    "flags": [
+     "Margins compressing"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/CDSL/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Aug 2026",
+     "Transcript May 2026",
+     "Transcript Feb 2026",
+     "Transcript Nov 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "average tax rate",
+       "comparison": "between",
+       "value": 22.0,
+       "value_high": 25.0,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "our average tax rate would range from 22% to 25%, depending upon various kind of impact of the deferred tax assets or deferred tax liability.",
+       "source_id": "T:2025-11-01:p10",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided average tax rate 22%–25% for FY26; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2025-11-01:p10",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_06112025192633_NSEintimationtranscript_03112025_Signed.pdf",
+     "page": 10
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "CDSL is India's leading Market Infrastructure Institution that provides depository services for dematerialization and settlement of securities. It serves the Indian securities market ecosystem, including investors, issuers, and market participants, by maintaining demat accounts, managing ISINs, and enabling electronic record-keeping for securities transactions.",
+    "segments": [
+     {
+      "name": "Depository Services",
+      "share_pct": 80.0,
+      "source_ids": [
+       "AR:2026:p16",
+       "AR:2026:p18"
+      ]
+     },
+     {
+      "name": "Issuer Services",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p18"
+      ]
+     },
+     {
+      "name": "Investor Education & Protection",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p152"
+      ]
+     },
+     {
+      "name": "Risk Management & Technology",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p29",
+       "AR:2026:p77"
+      ]
+     },
+     {
+      "name": "Regulatory Compliance & Filings",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p152"
+      ]
+     },
+     {
+      "name": "Digital Services & Innovation",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p77"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p152",
+     "AR:2026:p16",
+     "AR:2026:p18"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p152",
+     "url": "https://archives.nseindia.com/annual_reports/AR_29665_CDSL_2025_2026_A_15773086_08072026190152.pdf",
+     "page": 152
+    },
+    {
+     "source_id": "AR:2026:p16",
+     "url": "https://archives.nseindia.com/annual_reports/AR_29665_CDSL_2025_2026_A_15773086_08072026190152.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "AR:2026:p18",
+     "url": "https://archives.nseindia.com/annual_reports/AR_29665_CDSL_2025_2026_A_15773086_08072026190152.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "AR:2026:p29",
+     "url": "https://archives.nseindia.com/annual_reports/AR_29665_CDSL_2025_2026_A_15773086_08072026190152.pdf",
+     "page": 29
+    },
+    {
+     "source_id": "AR:2026:p77",
+     "url": "https://archives.nseindia.com/annual_reports/AR_29665_CDSL_2025_2026_A_15773086_08072026190152.pdf",
+     "page": 77
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "CDSL delivered strong 3-year CAGR of 27.3% in revenue and 18.1% in PAT, reaching TTM revenue of ₹1,179 Cr and PAT of ₹471 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The company maintains high profitability with 50.8% operating margin, 32% ROCE, zero debt (debt-to-equity 0.0), and operating cash flow equal to PAT over three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "As India's leading Market Infrastructure Institution, CDSL derives 80% of revenue from depository services, providing a dominant market position in dematerialization and settlement of securities.",
+      "source_ids": [
+       "AR:2026:p16",
+       "AR:2026:p18"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Operating margin has compressed from 57.5% three years ago to 50.8% currently, signaling potential pricing pressure or cost increases.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Quarterly PAT shows volatility and a declining trend: ₹140 Cr (Sep 2025), ₹133 Cr (Dec 2025), ₹80 Cr (Mar 2026), ₹118 Cr (Jun 2026).",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Revenue concentration risk is high with 80% dependent on depository services, exposing the business to regulatory or market structure changes in a single segment.",
+      "source_ids": [
+       "AR:2026:p16",
+       "AR:2026:p18"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/CDSL/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "AR:2026:p16",
+     "url": "https://archives.nseindia.com/annual_reports/AR_29665_CDSL_2025_2026_A_15773086_08072026190152.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "AR:2026:p18",
+     "url": "https://archives.nseindia.com/annual_reports/AR_29665_CDSL_2025_2026_A_15773086_08072026190152.pdf",
+     "page": 18
+    }
+   ]
+  }
+ ]
+}

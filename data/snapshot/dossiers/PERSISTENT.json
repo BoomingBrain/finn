@@ -1,0 +1,521 @@
+{
+ "symbol": "PERSISTENT",
+ "name": "Persistent Systems Ltd",
+ "built_at": "2026-10-28T13:11:58.056173Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-10-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Persistent Systems Ltd",
+    "about": "Persistent Systems provides software engineering and strategy services to help companies implement and modernize their businesses. It has its own software and frameworks with pre-built integration and acceleration[1]. It also has partnership with providers such as Salesforce and AWS[2].",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T13:10:08.107855+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-10-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 16801.0,
+    "pat_ttm": 1803.0,
+    "revenue_cagr_3y": 20.9,
+    "pat_cagr_3y": 26.5,
+    "opm_latest": 19.0,
+    "opm_3y_ago": 18.2,
+    "roce_latest": 34.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.07,
+    "cfo_to_pat_3y": 0.97,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 3062.0,
+      "pat": 373.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 3242.0,
+      "pat": 396.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 3334.0,
+      "pat": 425.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 3581.0,
+      "pat": 471.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 3778.0,
+      "pat": 439.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 4056.0,
+      "pat": 529.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 4303.0,
+      "pat": 483.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 4664.0,
+      "pat": 352.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/PERSISTENT/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Oct 2026",
+     "Transcript Aug 2026",
+     "Transcript Apr 2026",
+     "Transcript Jan 2026"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "revenue",
+       "raw_metric": "aspiration of $5 billion",
+       "comparison": "gte",
+       "value": 500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY31",
+       "quote": "Many of you have asked us in Earning Calls before, do we need additional verticals to scale to the aspiration of $5 billion that we have? By FY31, we get that as well at a nice scale.",
+       "source_id": "T:2026-08-01:p10",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Aspiration of $5 billion ≥ ₹500 Cr for FY31, n/a (0 of 4 quarters reported)."
+     },
+     {
+      "target": {
+       "metric": "revenue",
+       "raw_metric": "$2 billion revenue run rate",
+       "comparison": "gte",
+       "value": 16600.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "the $2 billion by FY27, that's a run rate. We are marching towards it steadily. And again, look, if the macro goes in a different direction going ahead, we'll tackle it as it comes. But otherwise, the run rate wise, we are confident, we are marching towards it steadily and we'll get there plus minus a quarter at worst.",
+       "source_id": "T:2026-04-01:p18",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": 8967.0,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "$2 billion revenue run rate ≥ ₹16,600 Cr for FY27, delivered ₹8,967 Cr (2 of 4 quarters reported)."
+     },
+     {
+      "target": {
+       "metric": "revenue",
+       "raw_metric": "quarterly revenue run rate at Q4 FY27 exit",
+       "comparison": "approx",
+       "value": 4150.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "Q4FY27",
+       "quote": "FY'27, Q4 exit is where we are looking at the run rate being in the range of $500 million or so.",
+       "source_id": "T:2026-04-01:p19",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 1
+      },
+      "verdict": "pending",
+      "explanation": "Quarterly revenue run rate at Q4 FY27 exit ≈ ₹4,150 Cr for Q4FY27, n/a (0 of 1 quarters reported)."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin",
+       "comparison": "between",
+       "value": 16.0,
+       "value_high": 17.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Our aspiration continues to be in the 16 to 17% range.",
+       "source_id": "T:2026-04-01:p26",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": 14.8,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "EBITDA margin 16%–17% for FY27, delivered 14.8% (2 of 4 quarters reported)."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "cost of debt for acquisition",
+       "comparison": "between",
+       "value": 5.0,
+       "value_high": 6.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "you can right now assume between 5 to 6% on a net basis.",
+       "source_id": "T:2026-10-01:p22",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided cost of debt for acquisition 5%–6% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Net Debt over combined EBITDA",
+       "comparison": "approx",
+       "value": 100.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY30",
+       "quote": "The leverage, that is the Net Debt over the combined EBITDA, is going to be 1.9 times-2.5 times based on how much will be the open offer acceptance. So, at 50% plus 1 share to 100%, it is expected to reduce down to 1X by FY2030.",
+       "source_id": "T:2026-08-01:p12",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Net Debt over combined EBITDA ≈ 100% for FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "interest rate on acquisition debt",
+       "comparison": "between",
+       "value": 4.1,
+       "value_high": 4.5,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "The interest rate, as I said, a billion dollar plus acquisition and debt will cost us roughly anywhere between 4.1 to 4.5% sort of interest rate at this point of time.",
+       "source_id": "T:2026-08-01:p26",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided interest rate on acquisition debt 4.1%–4.5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "management stake in open tender offer",
+       "comparison": "between",
+       "value": 13.0,
+       "value_high": 14.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "the management also has expressed their intent to offer their shares into the open tender offer. And that roughly is in the range of around 13-14%, you know, so that takes us closer to around 35%.",
+       "source_id": "T:2026-08-01:p28",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided management stake in open tender offer 13%–14% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "other shareholders committed stake in tender offer",
+       "comparison": "between",
+       "value": 35.0,
+       "value_high": 40.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "There are certain other stakes, other shareholders who also expressed their interest, that we have a confident bet between 35 to 40, it is, you know, more or less committed.",
+       "source_id": "T:2026-08-01:p28",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided other shareholders committed stake in tender offer 35%–40% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "open offer acceptance threshold",
+       "comparison": "gte",
+       "value": 50.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "we are paying a reasonably good premium to the existing share price. That gives us a confidence that, you know, we should be able to get easily above the 50% part of it.",
+       "source_id": "T:2026-08-01:p28",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided open offer acceptance threshold ≥ 50% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "intangible spend",
+       "comparison": "between",
+       "value": 66.4,
+       "value_high": 74.7,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "as far as the intangible sort of spend that we do on an annual basis, it's in the range of around $8 to $9 million a year.",
+       "source_id": "T:2026-04-01:p22",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided intangible spend ₹66.4 Cr–₹74.7 Cr for FY27; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-08-01:p10",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "T:2026-04-01:p18",
+     "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-04-01:p19",
+     "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2026-04-01:p26",
+     "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf",
+     "page": 26
+    },
+    {
+     "source_id": "T:2026-10-01:p22",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf",
+     "page": 22
+    },
+    {
+     "source_id": "T:2026-08-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-08-01:p26",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf",
+     "page": 26
+    },
+    {
+     "source_id": "T:2026-08-01:p28",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf",
+     "page": 28
+    },
+    {
+     "source_id": "T:2026-04-01:p22",
+     "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf",
+     "page": 22
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Persistent Systems is a global services and solutions company delivering AI-led, platform-driven Digital Engineering and Enterprise Modernisation to businesses across industries. It offers a comprehensive suite of services including software engineering, product development, data and analytics, cloud computing, and intelligent automation to enterprise customers in sectors such as Software, Hi-Tech & Emerging Industries, Banking, Financial Services & Insurance, and Healthcare & Life Sciences.",
+    "segments": [
+     {
+      "name": "BFSI",
+      "share_pct": 39.9,
+      "source_ids": [
+       "AR:2026:p274"
+      ]
+     },
+     {
+      "name": "Healthcare & Life Sciences",
+      "share_pct": 41.1,
+      "source_ids": [
+       "AR:2026:p274"
+      ]
+     },
+     {
+      "name": "Software, Hi-Tech and Emerging Industries",
+      "share_pct": 25.6,
+      "source_ids": [
+       "AR:2026:p274"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p184"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p184",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2aa02df7-243d-4455-afba-6c149c763f01.pdf",
+     "page": 184
+    },
+    {
+     "source_id": "AR:2026:p274",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2aa02df7-243d-4455-afba-6c149c763f01.pdf",
+     "page": 274
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "The company has delivered strong 3-year CAGR of 20.9% in revenue and 26.5% in PAT with a high ROCE of 34%, low debt-to-equity of 0.07, and operating cash flow to PAT of 0.97 over three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management is marching steadily toward a $2 billion run rate by FY27 (with 8,967 delivered in 2 of 4 quarters) and aspires to reach $5 billion by FY31.",
+      "source_ids": [
+       "T:2026-04-01:p18",
+       "T:2026-08-01:p10"
+      ]
+     },
+     {
+      "text": "Revenue is well diversified across BFSI (39.9%), Healthcare & Life Sciences (41.1%), and Software, Hi-Tech & Emerging Industries (25.6%), supported by AI-led digital engineering services.",
+      "source_ids": [
+       "AR:2026:p274",
+       "AR:2026:p184"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Despite sequential revenue growth, PAT declined sharply to ₹352 Cr in Sep 2026 from ₹529 Cr in Mar 2026, indicating margin pressure.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management's operating margin aspiration of 16-17% has only delivered 14.8% in 2 of 4 quarters, suggesting execution risk.",
+      "source_ids": [
+       "T:2026-04-01:p26"
+      ]
+     },
+     {
+      "text": "A planned $1 billion-plus acquisition will raise net debt/EBITDA to 1.9-2.5x initially at 4.1-4.5% interest, increasing leverage significantly.",
+      "source_ids": [
+       "T:2026-08-01:p12",
+       "T:2026-08-01:p26"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/PERSISTENT/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-04-01:p18",
+     "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-08-01:p10",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "AR:2026:p274",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2aa02df7-243d-4455-afba-6c149c763f01.pdf",
+     "page": 274
+    },
+    {
+     "source_id": "AR:2026:p184",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2aa02df7-243d-4455-afba-6c149c763f01.pdf",
+     "page": 184
+    },
+    {
+     "source_id": "T:2026-04-01:p26",
+     "url": "https://www.persistent.com/wp-content/uploads/2026/04/Analyst-Call-Transcript-Q4FY26.pdf",
+     "page": 26
+    },
+    {
+     "source_id": "T:2026-08-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-08-01:p26",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c49752-0908-4750-9177-398a60654630.pdf",
+     "page": 26
+    }
+   ]
+  }
+ ]
+}

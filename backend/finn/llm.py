@@ -153,6 +153,30 @@ class NvidiaCompleter:
             return text, usage.get("prompt_tokens", 0), usage.get("completion_tokens", 0)
 
 
+def close_truncated(text: str) -> str:
+    """Closes the brackets a reply left open when it hit its token limit, e.g. '{"targets": [{...}' gains ']}'.
+    Only complete items survive validation; a reply cut mid-string is returned unchanged."""
+    stack, in_string, escaped = [], False, False
+    for ch in text:
+        if in_string:
+            if escaped:
+                escaped = False
+            elif ch == "\\":
+                escaped = True
+            elif ch == '"':
+                in_string = False
+            continue
+        if ch == '"':
+            in_string = True
+        elif ch in "{[":
+            stack.append("}" if ch == "{" else "]")
+        elif ch in "}]" and stack:
+            stack.pop()
+    if in_string:
+        return text
+    return text.rstrip().rstrip(",") + "".join(reversed(stack))
+
+
 def _extract_json(text: str) -> str:
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip(), flags=re.M)
     starts = [i for i in (text.find("{"), text.find("[")) if i >= 0]
@@ -200,7 +224,10 @@ class LLM:
             with self._slots[tier]:
                 text = self._call(model, system, prompt, images, max_tokens, THINKING.get(tier, False))
             try:
-                result = schema.model_validate_json(_extract_json(text))
+                try:
+                    result = schema.model_validate_json(_extract_json(text))
+                except (ValidationError, ValueError):
+                    result = schema.model_validate_json(close_truncated(text[text.find("{"):]))
             except (ValidationError, ValueError) as e:
                 error = e
                 prompt = (f"{user}\n\nYour previous reply was not valid: {str(e)[:500]}\n"

@@ -1,0 +1,1045 @@
+{
+ "symbol": "LT",
+ "name": "Larsen & Toubro Ltd",
+ "built_at": "2026-10-28T13:08:57.699470Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-07-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Larsen & Toubro Ltd",
+    "about": "Larsen & Toubro Ltd is a multinational conglomerate which is primarily engaged in providing engineering, procurement and construction (EPC) solutions in key sectors such as Infrastructure, Hydrocarbon, Power, Process Industries and Defence, Information Technology and Financial Services in domestic and international markets.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T13:07:56.941390+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-07-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 300904.0,
+    "pat_ttm": 20895.0,
+    "revenue_cagr_3y": 16.0,
+    "pat_cagr_3y": 14.8,
+    "opm_latest": 12.7,
+    "opm_3y_ago": 14.8,
+    "roce_latest": 15.0,
+    "roe_latest": null,
+    "debt_to_equity": 1.24,
+    "cfo_to_pat_3y": 0.85,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 64668.0,
+      "pat": 3974.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 74392.0,
+      "pat": 6156.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 63679.0,
+      "pat": 4318.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 67984.0,
+      "pat": 4678.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 71450.0,
+      "pat": 3825.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 82762.0,
+      "pat": 6133.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 67942.0,
+      "pat": 4988.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 78750.0,
+      "pat": 5949.0
+     }
+    ],
+    "flags": [
+     "High leverage"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/LT/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Jul 2026",
+     "Transcript May 2026",
+     "Transcript Jan 2026",
+     "Transcript Oct 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "revenue growth guidance",
+       "comparison": "approx",
+       "value": 15.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "On Revenue - The Group Revenue grew by 12% in 9-month FY '26 and is broadly in line with our estimates. We expect the customary ramp-up in project execution during Q4 and are reasonably confident of achieving our full year revenue growth guidance of 15%.",
+       "source_id": "T:2026-01-01:p8",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": 11.8,
+       "quarters_in": 4,
+       "quarters_needed": 4
+      },
+      "verdict": "missed",
+      "explanation": "Revenue fell short of 15% guidance, delivering 11.8%."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "margin guidance of 8.5%",
+       "comparison": "approx",
+       "value": 8.5,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "So Sumit, just to add, I did emphasize that the margin guidance of 8.5% remains the effort for taking into account that we have had a good 9 months despite the fact of Hydrocarbon margins having moved southwards this year.",
+       "source_id": "T:2026-01-01:p10",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": 12.6,
+       "quarters_in": 4,
+       "quarters_needed": 4
+      },
+      "verdict": "missed",
+      "explanation": "Margin exceeded 8.5% guidance, delivering 12.6%."
+     },
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "revenue growth",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 12.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "For now, we remain committed to our FY '27 growth guidance of 10% to 12% revenue growth guidance.",
+       "source_id": "T:2026-07-01:p11",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": 11.4,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Revenue tracked within 10%–12% guidance, delivering 11.4%."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "margin",
+       "comparison": "approx",
+       "value": 7.8,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "In line with our Revenue growth guidance, we continue to target the margin of around 7.8% for FY '27 with respect to the PPM portfolio.",
+       "source_id": "T:2026-07-01:p11",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": 11.6,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Margin exceeded 7.8% guidance, delivering 11.6%."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "working capital",
+       "comparison": "approx",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Factoring in the expected utilization of customer advances and increased vendor payments as the execution accelerates in H2, we are maintaining our FY '27 working capital guidance of around 10%.",
+       "source_id": "T:2026-07-01:p11",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided working capital ≈ 10% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "order inflow growth",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 12.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Given the strength of our opportunity pipeline and the underlying market dynamics, we remain confident of achieving our order inflow growth guidance of 10% to 12% band for the current year.",
+       "source_id": "T:2026-07-01:p10",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided order inflow growth 10%–12% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "domestic order prospects",
+       "comparison": "approx",
+       "value": 745000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "So, out of Rs. 15.07 trillion, the domestic order prospects is Rs. 7.45 trillion, which is 49%. And the share of private sector will be around 45%.",
+       "source_id": "T:2026-07-01:p20",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided domestic order prospects ≈ ₹745,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "private sector share of domestic order prospects",
+       "comparison": "approx",
+       "value": 45.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "So, out of Rs. 15.07 trillion, the domestic order prospects is Rs. 7.45 trillion, which is 49%. And the share of private sector will be around 45%.",
+       "source_id": "T:2026-07-01:p20",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided private sector share of domestic order prospects ≈ 45% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "group order inflows growth",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 12.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Based on this visibility and the opportunities we are pursuing, we expect the group order inflows to grow in the range of 10% to 12% in FY27.",
+       "source_id": "T:2026-05-01:p13",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided group order inflows growth 10%–12% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "order inflow growth CAGR",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 12.0,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "over the next five years, we are targeting order inflow growth at a CAGR return of 10% to 12%",
+       "source_id": "T:2026-05-01:p13",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided order inflow growth CAGR 10%–12% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "revenue growth CAGR",
+       "comparison": "between",
+       "value": 12.0,
+       "value_high": 15.0,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "revenue growth of 12% to 15%",
+       "source_id": "T:2026-05-01:p13",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided revenue growth CAGR 12%–15% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Return on Equity",
+       "comparison": "between",
+       "value": 16.0,
+       "value_high": 17.0,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "Return on Equity in the range of 16% to 17%",
+       "source_id": "T:2026-05-01:p13",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Return on Equity 16%–17% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "LTM revenue CAGR",
+       "comparison": "between",
+       "value": 13.0,
+       "value_high": 15.0,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "The Lakshya L31 targets 13% to 15% revenue CAGR growth for over five years with EBIT margins of 16% to 17%",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided LTM revenue CAGR 13%–15% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "LTM EBIT margin",
+       "comparison": "between",
+       "value": 16.0,
+       "value_high": 17.0,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "The Lakshya L31 targets 13% to 15% revenue CAGR growth for over five years with EBIT margins of 16% to 17%",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided LTM EBIT margin 16%–17% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "loan book growth",
+       "comparison": "gte",
+       "value": 20.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "The strategy emphasizes disciplined portfolio expansion and strong risk management with targets of 20% plus loan book growth, while maintaining credit costs below 2%.",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided loan book growth ≥ 20% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "credit costs",
+       "comparison": "lte",
+       "value": 2.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "The strategy emphasizes disciplined portfolio expansion and strong risk management with targets of 20% plus loan book growth, while maintaining credit costs below 2%.",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided credit costs ≤ 2% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROA",
+       "comparison": "between",
+       "value": 3.0,
+       "value_high": 3.2,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "The financial outcomes under the plan are calibrated to deliver a 3% to 3.2% ROA and a 16% to 18% ROE",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROA 3%–3.2% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROE",
+       "comparison": "between",
+       "value": 16.0,
+       "value_high": 18.0,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "The financial outcomes under the plan are calibrated to deliver a 3% to 3.2% ROA and a 16% to 18% ROE",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROE 16%–18% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Industrial Electronics capex",
+       "comparison": "approx",
+       "value": 5000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY31",
+       "quote": "we envisage a capital outlay of approximately Rs 50 billion towards Industrial Electronics",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Industrial Electronics capex ≈ ₹5,000 Cr for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Semiconductor capex",
+       "comparison": "approx",
+       "value": 3000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY31",
+       "quote": "Rs 30 billion into the Semiconductor business largely for the creation of proprietary IPs",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Semiconductor capex ≈ ₹3,000 Cr for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Green Hydrogen capex",
+       "comparison": "approx",
+       "value": 15000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY31",
+       "quote": "Rs 150 billion in Green Hydrogen where we are also actively evaluating options for strategic partnerships to optimize capital deployment",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Green Hydrogen capex ≈ ₹15,000 Cr for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Data Center capex",
+       "comparison": "approx",
+       "value": 10000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY31",
+       "quote": "around Rs 100 billion towards the Data Center business",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Data Center capex ≈ ₹10,000 Cr for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Realty business allocation",
+       "comparison": "approx",
+       "value": 4400.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY31",
+       "quote": "We are allocating almost Rs 44 billion for the Realty business, primarily to fund development of commercial real estate.",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Realty business allocation ≈ ₹4,400 Cr for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Hydrocarbon yard and shipbuilding upgradation capex",
+       "comparison": "approx",
+       "value": 5000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY31",
+       "quote": "Additionally, we plan to invest around Rs 50 billion for upgradation of our existing hydrocarbon modular fabrication yard and the shipbuilding facility.",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Hydrocarbon yard and shipbuilding upgradation capex ≈ ₹5,000 Cr for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "Revenue CAGR over the L31 plan",
+       "comparison": "between",
+       "value": 12.0,
+       "value_high": 15.0,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "we are taking ourselves a target of 12% to 15% Revenue CAGR over the L31 plan",
+       "source_id": "T:2026-05-01:p14",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Revenue CAGR over the L31 plan 12%–15% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Data center return",
+       "comparison": "between",
+       "value": 13.0,
+       "value_high": 14.0,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "Our guess is it should be able to give about 13%, 14% return at the optimal level, which will have combination of hyperscalers and non-hyperscalers.",
+       "source_id": "T:2026-05-01:p18",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Data center return 13%–14% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Electronics manufacturing capex",
+       "comparison": "approx",
+       "value": 5000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY31",
+       "quote": "The capital investment outlay in this plan is as I said Rs 50 billion or Rs 5,000 crores which will be incurred over a period of time",
+       "source_id": "T:2026-05-01:p20",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Electronics manufacturing capex ≈ ₹5,000 Cr for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "New geographies order inflow contribution",
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "And the new geographies may contribute 5%.",
+       "source_id": "T:2026-05-01:p22",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided New geographies order inflow contribution ≈ 5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "trailing 12-month ROE",
+       "comparison": "approx",
+       "value": 18.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "The trailing 12-month ROE, excluding the impact of this onetime Labour Codes provision stood at 17.6%, broadly in line with the target of 18% that we have set ourselves to during this last year, that is FY '26 for the Lakshya plan.",
+       "source_id": "T:2026-01-01:p6",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided trailing 12-month ROE ≈ 18% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "order inflow growth guidance",
+       "comparison": "gte",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "On order inflows - Our nine months order inflow has seen a strong growth of 30% Y-on-Y based on a strong capex momentum. Basis the 9-month performance and the healthy prospects pipeline for the near term, we will be exceeding the 10% order inflow guidance for FY '26.",
+       "source_id": "T:2026-01-01:p8",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided order inflow growth guidance ≥ 10% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Net Working Capital to Revenue",
+       "comparison": "approx",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "Lastly, on Working Capital - We had earlier guided the Net Working Capital to Revenue of 12% by March '26. However, with stronger collection intensity and improved contractual terms, our Net Working Capital to Revenue has improved sharply to 8.2% as of December '25, and we expect to close the year with a revised target of around 10%.",
+       "source_id": "T:2026-01-01:p9",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Net Working Capital to Revenue ≈ 10% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "group order inflow growth",
+       "comparison": "gte",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "We are confident of exceeding our full year FY '26 guidance of 10% growth in group order inflows for the current year.",
+       "source_id": "T:2025-10-01:p9",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided group order inflow growth ≥ 10% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "working capital as percentage of revenue",
+       "comparison": "approx",
+       "value": 12.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "our guidance for working capital for FY '26 remains unchanged at around 12% by March 2026.",
+       "source_id": "T:2025-10-01:p10",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided working capital as percentage of revenue ≈ 12% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Hyderabad Metro divestment proceeds",
+       "comparison": "approx",
+       "value": 2000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY26",
+       "quote": "Around -- I did not tell a number. I said around Rs 20 billion or Rs 2,000-odd crores.",
+       "source_id": "T:2025-10-01:p21",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Hyderabad Metro divestment proceeds ≈ ₹2,000 Cr for FY26; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-01-01:p8",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf",
+     "page": 8
+    },
+    {
+     "source_id": "T:2026-01-01:p10",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "T:2026-07-01:p11",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "T:2026-07-01:p10",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "T:2026-07-01:p20",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf",
+     "page": 20
+    },
+    {
+     "source_id": "T:2026-05-01:p13",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-05-01:p12",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-05-01:p14",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-05-01:p18",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-05-01:p20",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf",
+     "page": 20
+    },
+    {
+     "source_id": "T:2026-05-01:p22",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf",
+     "page": 22
+    },
+    {
+     "source_id": "T:2026-01-01:p6",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2026-01-01:p9",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2025-10-01:p9",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2025-10-01:p10",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "T:2025-10-01:p21",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf",
+     "page": 21
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "L&T is an engineering and construction conglomerate that delivers EPC projects and industrial products to infrastructure, energy, manufacturing, and technology sectors globally. It serves diverse clients including governments, process industries, defence, and enterprises through integrated project execution and technology solutions.",
+    "segments": [
+     {
+      "name": "Infrastructure & Utilities",
+      "share_pct": 69.0,
+      "source_ids": [
+       "AR:2026:p349"
+      ]
+     },
+     {
+      "name": "Energy Projects",
+      "share_pct": 19.0,
+      "source_ids": [
+       "AR:2026:p349"
+      ]
+     },
+     {
+      "name": "Hi-Tech Manufacturing",
+      "share_pct": 9.0,
+      "source_ids": [
+       "AR:2026:p349"
+      ]
+     },
+     {
+      "name": "IT & Technology Services",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p107"
+      ]
+     },
+     {
+      "name": "Construction Equipment & Industrial Products Design & Development",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p155"
+      ]
+     },
+     {
+      "name": "Others",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p155"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p35",
+     "AR:2026:p349"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p35",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/825f9859-e7f2-4e90-8583-01a38850f795.pdf",
+     "page": 35
+    },
+    {
+     "source_id": "AR:2026:p349",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/825f9859-e7f2-4e90-8583-01a38850f795.pdf",
+     "page": 349
+    },
+    {
+     "source_id": "AR:2026:p107",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/825f9859-e7f2-4e90-8583-01a38850f795.pdf",
+     "page": 107
+    },
+    {
+     "source_id": "AR:2026:p155",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/825f9859-e7f2-4e90-8583-01a38850f795.pdf",
+     "page": 155
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "The company delivered a 3-year revenue CAGR of 16% and PAT CAGR of 14.8% with TTM revenue of ₹300,904 Cr and PAT of ₹20,895 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management reports a domestic order prospect pipeline of ₹7.45 trillion (49% of ₹15.07 trillion) with private sector contribution around 45%.",
+      "source_ids": [
+       "T:2026-07-01:p20"
+      ]
+     },
+     {
+      "text": "The Lakshya L31 strategic plan targets 13-15% revenue CAGR over five years with EBIT margins of 16-17%.",
+      "source_ids": [
+       "T:2026-05-01:p12"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "High leverage is flagged with debt-to-equity of 1.24 and operating cash flow to PAT of only 0.85 over three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin has declined from 14.8% three years ago to 12.7% currently despite revenue growth.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Massive capex commitments totaling over ₹374 billion across Green Hydrogen (₹150B), Data Centers (₹100B), Industrial Electronics (₹50B), Semiconductors (₹30B), Realty (₹44B), and hydrocarbon/shipbuilding (₹50B) pose execution risk.",
+      "source_ids": [
+       "T:2026-05-01:p12"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/LT/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-07-01:p20",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf",
+     "page": 20
+    },
+    {
+     "source_id": "T:2026-05-01:p12",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf",
+     "page": 12
+    }
+   ]
+  }
+ ]
+}

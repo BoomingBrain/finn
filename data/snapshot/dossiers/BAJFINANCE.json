@@ -1,0 +1,937 @@
+{
+ "symbol": "BAJFINANCE",
+ "name": "Bajaj Finance Ltd",
+ "built_at": "2026-10-28T12:48:46.011631Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-10-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Bajaj Finance Ltd",
+    "about": "Bajaj Finance is mainly engaged in the business of lending. BFL has a diversified lending portfolio across retail, SME and commercial customers with a significant presence in urban and rural India. It also accepts public and corporate deposits and offers variety of financial services products to its customers.(Source : 202003 Annual Report Page No:124)",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T12:47:59.484591+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-10-01",
+     "annual_report": 2026
+    },
+    "lender": true,
+    "revenue_ttm": 90330.0,
+    "pat_ttm": 22067.0,
+    "revenue_cagr_3y": 25.6,
+    "pat_cagr_3y": 18.9,
+    "opm_latest": null,
+    "opm_3y_ago": null,
+    "roce_latest": null,
+    "roe_latest": 18.0,
+    "debt_to_equity": null,
+    "cfo_to_pat_3y": null,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 18035.0,
+      "pat": 4308.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 18294.0,
+      "pat": 4546.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 19524.0,
+      "pat": 4765.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 19990.0,
+      "pat": 4948.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 21013.0,
+      "pat": 4066.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 21606.0,
+      "pat": 5553.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 23165.0,
+      "pat": 6081.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 24546.0,
+      "pat": 6367.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/BAJFINANCE/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Oct 2026",
+     "Transcript Aug 2026",
+     "Transcript May 2026",
+     "Transcript Apr 2026"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "full year growth",
+       "comparison": "between",
+       "value": 26.0,
+       "value_high": 27.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "I would say probably between 26%, 27% growth we should deliver now on a full year basis.",
+       "source_id": "T:2026-10-01:p12",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": 20.7,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Full year growth 26%–27% guided, delivered 20.7% so far with 2 quarters remaining."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "credit cost for open architecture two-wheeler",
+       "comparison": "between",
+       "value": 30.0,
+       "value_high": 35.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "On two-wheeler answer is, yes, because we are clear, we want to run open architecture two-wheeler 30% - 35% of the credit cost.",
+       "source_id": "T:2026-10-01:p7",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided credit cost for open architecture two-wheeler 30%–35% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "medium term growth guidance",
+       "comparison": "between",
+       "value": 20.0,
+       "value_high": 25.0,
+       "unit": "pct",
+       "period": "medium term",
+       "quote": "I think that's just medium term, we maintain a guidance of 20% to 25% on a year lower here and a year higher there.",
+       "source_id": "T:2026-10-01:p12",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided medium term growth guidance 20%–25% for medium term; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "fee income growth",
+       "comparison": "between",
+       "value": 15.0,
+       "value_high": 18.0,
+       "unit": "pct",
+       "period": "longer term",
+       "quote": "we remain comfortable in the longer term, we should be able to sustain a 15% to 18% fee income growth is what I would just say to you, Viral.",
+       "source_id": "T:2026-10-01:p13",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided fee income growth 15%–18% for longer term; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "gold loan AUM",
+       "comparison": "between",
+       "value": 29000.0,
+       "value_high": 31000.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "By year-end we foresee 2,700 to 2,800 branches, all goes well, maybe 3,000 branches and AUM of between INR29,000 crores and INR31,000 crores, all organic.",
+       "source_id": "T:2026-08-01:p4",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided gold loan AUM ₹29,000 Cr–₹31,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "digital platform volume",
+       "comparison": "approx",
+       "value": 100000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY28",
+       "quote": "I am targeting that next year we should be delivering INR100,000 crores volume between customer centricity, AI and tech transformation and digital transformation, all these three as they come together, that's really what we are aiming to do so that from a push business, we rapidly transition towards being a full business.",
+       "source_id": "T:2026-08-01:p6",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided digital platform volume ≈ ₹100,000 Cr for FY28; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "AI bot disbursements",
+       "comparison": "between",
+       "value": 11000.0,
+       "value_high": 12000.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "On disbursements, AI, voice and text bots did INR2,500 crores, we will do INR11,000 crores INR12,000 in the full year this year.",
+       "source_id": "T:2026-08-01:p6",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided AI bot disbursements ₹11,000 Cr–₹12,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "balance sheet size (AUM)",
+       "comparison": "between",
+       "value": 630000.0,
+       "value_high": 650000.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "we will have INR630,000 crores to INR650,000 crores of balance sheet",
+       "source_id": "T:2026-08-01:p14",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided balance sheet size (AUM) ₹630,000 Cr–₹650,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "BHFL stake dilution target",
+       "comparison": "approx",
+       "value": 75.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We will go down to 75%, while we have time and we are in no hurry.",
+       "source_id": "T:2026-08-01:p14",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided BHFL stake dilution target ≈ 75% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "margin moderation",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 15.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Whatever Sandeep has guided for or what we've said, I think that moderation 10 - 15 basis points is what we foresee at this juncture, give us a quarter.",
+       "source_id": "T:2026-08-01:p14",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided margin moderation 10%–15% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "gold loan capacity at maturity",
+       "comparison": "between",
+       "value": 37000.0,
+       "value_high": 38000.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "2,800 branches should mean from a capacity standpoint in our assessment to deliver a peak outcome at maturity, a INR14 crores per branch number. That's a INR37,000 crores, INR38,000 crores capacity.",
+       "source_id": "T:2026-08-01:p16",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided gold loan capacity at maturity ₹37,000 Cr–₹38,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "gold loan AUM for current year",
+       "comparison": "between",
+       "value": 29000.0,
+       "value_high": 31000.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "We think in the current year, we'll deliver between INR29,000 crores to INR31,000 crores AUM.",
+       "source_id": "T:2026-08-01:p16",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided gold loan AUM for current year ₹29,000 Cr–₹31,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "AUM growth",
+       "comparison": "between",
+       "value": 22.0,
+       "value_high": 24.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "For the next year, 22% and 24%, and then build on top of it in the future.",
+       "source_id": "T:2026-05-01:p16",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided AUM growth 22%–24% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "gold loan contribution to balance sheet",
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "All goes well, which should start to look towards 5% kind of number in the next year as well.",
+       "source_id": "T:2026-05-01:p11",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided gold loan contribution to balance sheet ≈ 5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROE",
+       "comparison": "between",
+       "value": 20.0,
+       "value_high": 22.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We will be a bulletproof business. While delivering as a firm a 20%, 22% ROE and a 22% to 24% balance sheet growth.",
+       "source_id": "T:2026-05-01:p18",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROE 20%–22% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "balance sheet growth",
+       "comparison": "between",
+       "value": 22.0,
+       "value_high": 24.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We will be a bulletproof business. While delivering as a firm a 20%, 22% ROE and a 22% to 24% balance sheet growth.",
+       "source_id": "T:2026-05-01:p18",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided balance sheet growth 22%–24% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "long-term ROA",
+       "comparison": "between",
+       "value": 4.3,
+       "value_high": 4.7,
+       "unit": "pct",
+       "period": "long-term",
+       "quote": "We orchestrate these 4 to deliver an outcome of 4.3% to 4.7% ROA and 20% to 22% ROE to investors on a long-term basis.",
+       "source_id": "T:2026-05-01:p10",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided long-term ROA 4.3%–4.7% for long-term; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "long-term ROE",
+       "comparison": "between",
+       "value": 20.0,
+       "value_high": 22.0,
+       "unit": "pct",
+       "period": "long-term",
+       "quote": "We orchestrate these 4 to deliver an outcome of 4.3% to 4.7% ROA and 20% to 22% ROE to investors on a long-term basis.",
+       "source_id": "T:2026-05-01:p10",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided long-term ROE 20%–22% for long-term; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "credit cost guidance",
+       "comparison": "between",
+       "value": 1.45,
+       "value_high": 1.7,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "your assessment is correct versus 165 to 175 that Rajeev -- that becomes 145 to 170 because of the change in the presentation.",
+       "source_id": "T:2026-05-01:p14",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided credit cost guidance 1.4%–1.7% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "gold loan portfolio as % of total AUM",
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We foresee gold loan portfolio to probably cross 5-odd percent of total AUM by FY'27.",
+       "source_id": "T:2026-04-01:p3",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided gold loan portfolio as % of total AUM ≈ 5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "captive 2-wheeler and 3-wheeler book",
+       "comparison": "lte",
+       "value": 1500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "Q2FY27",
+       "quote": "This book will principally just wind down to less than INR 1,500-odd crores by September '26",
+       "source_id": "T:2026-04-01:p4",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided captive 2-wheeler and 3-wheeler book ≤ ₹1,500 Cr for Q2FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROA",
+       "comparison": "between",
+       "value": 4.4,
+       "value_high": 4.6,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "the guidance that we are giving for next year is 4.4% to 4.6%.",
+       "source_id": "T:2026-04-01:p9",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROA 4.4%–4.6% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Return on equity",
+       "comparison": "between",
+       "value": 19.0,
+       "value_high": 20.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Return on equity came in at 20% in the current quarter, we continue to guide for 19% to 20%.",
+       "source_id": "T:2026-04-01:p7",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Return on equity 19%–20% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "credit cost to AUM (bps)",
+       "comparison": "between",
+       "value": 145.0,
+       "value_high": 160.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "you're guiding for 145 to 160 bps next year, full year.",
+       "source_id": "T:2026-04-01:p8",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided credit cost to AUM (bps) 145%–160% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROA (long-term)",
+       "comparison": "between",
+       "value": 4.3,
+       "value_high": 4.7,
+       "unit": "pct",
+       "period": "long-term",
+       "quote": "We orchestrate these 4 to deliver an outcome of 4.3% to 4.7% ROA and 20% to 22% ROE to investors on a long-term basis.",
+       "source_id": "T:2026-04-01:p9",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROA (long-term) 4.3%–4.7% for long-term; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROE (long-term)",
+       "comparison": "between",
+       "value": 20.0,
+       "value_high": 22.0,
+       "unit": "pct",
+       "period": "long-term",
+       "quote": "We orchestrate these 4 to deliver an outcome of 4.3% to 4.7% ROA and 20% to 22% ROE to investors on a long-term basis.",
+       "source_id": "T:2026-04-01:p9",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROE (long-term) 20%–22% for long-term; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "credit cost",
+       "comparison": "between",
+       "value": 1.45,
+       "value_high": 1.7,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "your assessment is correct versus 165 to 175 that Rajeev -- that becomes 145 to 170 because of the change in the presentation.",
+       "source_id": "T:2026-04-01:p14",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided credit cost 1.4%–1.7% for FY27; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-10-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7873abcb-7f97-487d-a474-028b0a26feea.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-10-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7873abcb-7f97-487d-a474-028b0a26feea.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-10-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7873abcb-7f97-487d-a474-028b0a26feea.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-08-01:p4",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b101e24e-b807-4c74-9025-90009f4b47a5.pdf",
+     "page": 4
+    },
+    {
+     "source_id": "T:2026-08-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b101e24e-b807-4c74-9025-90009f4b47a5.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2026-08-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b101e24e-b807-4c74-9025-90009f4b47a5.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-08-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b101e24e-b807-4c74-9025-90009f4b47a5.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-05-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a448b6b0-edb5-4b99-a122-d602950310af.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-05-01:p11",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a448b6b0-edb5-4b99-a122-d602950310af.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "T:2026-05-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a448b6b0-edb5-4b99-a122-d602950310af.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-05-01:p10",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a448b6b0-edb5-4b99-a122-d602950310af.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "T:2026-05-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a448b6b0-edb5-4b99-a122-d602950310af.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-04-01:p3",
+     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-fy26-earnings-conference-call-transcript?scl=1&fmt=pdf",
+     "page": 3
+    },
+    {
+     "source_id": "T:2026-04-01:p4",
+     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-fy26-earnings-conference-call-transcript?scl=1&fmt=pdf",
+     "page": 4
+    },
+    {
+     "source_id": "T:2026-04-01:p9",
+     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-fy26-earnings-conference-call-transcript?scl=1&fmt=pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-04-01:p7",
+     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-fy26-earnings-conference-call-transcript?scl=1&fmt=pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-04-01:p8",
+     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-fy26-earnings-conference-call-transcript?scl=1&fmt=pdf",
+     "page": 8
+    },
+    {
+     "source_id": "T:2026-04-01:p14",
+     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-fy26-earnings-conference-call-transcript?scl=1&fmt=pdf",
+     "page": 14
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Bajaj Finance Limited is a diversified non-banking financial company (NBFC) providing financial solutions to a broad customer base across India through a digital-first platform and a wide network of branches and distribution points. Its product suite includes consumer lending, home loans, loan against securities, deposits, insurance, and payment services, serving urban and rural customers, MSMEs, and corporate clients.",
+    "segments": [
+     {
+      "name": "Consumer Lending",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p81"
+      ]
+     },
+     {
+      "name": "Commercial Lending",
+      "share_pct": 16.32,
+      "source_ids": [
+       "AR:2026:p75"
+      ]
+     },
+     {
+      "name": "Loan Against Securities",
+      "share_pct": 23.0,
+      "source_ids": [
+       "AR:2026:p81"
+      ]
+     },
+     {
+      "name": "Deposits",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p81"
+      ]
+     },
+     {
+      "name": "Partnerships and Services",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p81"
+      ]
+     },
+     {
+      "name": "Payments",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p75"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p50",
+     "AR:2026:p75",
+     "AR:2026:p77",
+     "AR:2026:p81",
+     "AR:2026:p106",
+     "AR:2026:p194"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p50",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a2357f0b-2828-4790-8a02-61064bd1929b.pdf",
+     "page": 50
+    },
+    {
+     "source_id": "AR:2026:p75",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a2357f0b-2828-4790-8a02-61064bd1929b.pdf",
+     "page": 75
+    },
+    {
+     "source_id": "AR:2026:p77",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a2357f0b-2828-4790-8a02-61064bd1929b.pdf",
+     "page": 77
+    },
+    {
+     "source_id": "AR:2026:p81",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a2357f0b-2828-4790-8a02-61064bd1929b.pdf",
+     "page": 81
+    },
+    {
+     "source_id": "AR:2026:p106",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a2357f0b-2828-4790-8a02-61064bd1929b.pdf",
+     "page": 106
+    },
+    {
+     "source_id": "AR:2026:p194",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a2357f0b-2828-4790-8a02-61064bd1929b.pdf",
+     "page": 194
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Revenue grew at a 25.6% 3-year CAGR to ₹90,330 Cr TTM with PAT of ₹22,067 Cr and an 18% ROE.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Quarterly momentum accelerated with revenue rising from ₹21,013 Cr in Dec 2025 to ₹24,546 Cr in Sep 2026 and PAT from ₹4,066 Cr to ₹6,367 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The company operates a diversified NBFC with a digital-first platform spanning consumer lending, home loans, loan against securities, deposits, insurance, and payments.",
+      "source_ids": [
+       "AR:2026:p50"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Management's full-year growth guidance of 26-27% has delivered only 20.7% in the first two quarters.",
+      "source_ids": [
+       "T:2026-10-01:p12"
+      ]
+     },
+     {
+      "text": "Current ROE of 18% is below management's guided range of 19-20%.",
+      "source_ids": [
+       "SCR",
+       "T:2026-04-01:p7"
+      ]
+     },
+     {
+      "text": "Key medium-term targets such as 15-18% fee income growth and 22-24% balance sheet growth remain unverified per reported financials.",
+      "source_ids": [
+       "T:2026-10-01:p13",
+       "T:2026-05-01:p18"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/BAJFINANCE/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "AR:2026:p50",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a2357f0b-2828-4790-8a02-61064bd1929b.pdf",
+     "page": 50
+    },
+    {
+     "source_id": "T:2026-10-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7873abcb-7f97-487d-a474-028b0a26feea.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-04-01:p7",
+     "url": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-fy26-earnings-conference-call-transcript?scl=1&fmt=pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-10-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7873abcb-7f97-487d-a474-028b0a26feea.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-05-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a448b6b0-edb5-4b99-a122-d602950310af.pdf",
+     "page": 18
+    }
+   ]
+  }
+ ]
+}

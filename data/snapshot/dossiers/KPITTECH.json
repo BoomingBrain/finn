@@ -1,0 +1,463 @@
+{
+ "symbol": "KPITTECH",
+ "name": "KPIT Technologies Ltd",
+ "built_at": "2026-10-28T13:10:08.090517Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-08-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "KPIT Technologies Ltd",
+    "about": "KPIT is a global technology company with software solutions that will help mobility leapfrog towards autonomous, clean, smart and connected future. With 13000+ Automobelievers across the globe,  specializing in embedded software, AI & Digital solutions, KPIT enables customers accelerate implementation of next generation mobility technologies . With development centers in Europe, USA, Japan, China, Thailand and India[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T13:07:32.554257+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-08-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 6694.0,
+    "pat_ttm": 533.0,
+    "revenue_cagr_3y": 24.3,
+    "pat_cagr_3y": 18.1,
+    "opm_latest": 18.9,
+    "opm_3y_ago": 18.8,
+    "roce_latest": 26.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.24,
+    "cfo_to_pat_3y": 1.73,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 1478.0,
+      "pat": 187.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 1528.0,
+      "pat": 245.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 1539.0,
+      "pat": 172.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 1588.0,
+      "pat": 169.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 1617.0,
+      "pat": 133.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 1711.0,
+      "pat": 163.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 1675.0,
+      "pat": 116.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 1691.0,
+      "pat": 121.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Aug 2026",
+     "Transcript May 2026",
+     "Transcript Feb 2026",
+     "Transcript Nov 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA",
+       "comparison": "between",
+       "value": 20.5,
+       "value_high": 21.2,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "EBITDA 20.5 to 21.2 post increasing investment in AI solutions and products competency development and new markets.",
+       "source_id": "T:2026-05-01:p17",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 15.6,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "EBITDA 20.5%–21.2% for FY27, delivered 15.6% (2 of 4 quarters reported)"
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA",
+       "comparison": "between",
+       "value": 22.0,
+       "value_high": 24.0,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "So we expect the EBITDA to be between 22% to 24% from where we are today.",
+       "source_id": "T:2026-05-01:p18",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "EBITDA 22%–24% for FY29, delivered n/a (0 of 4 quarters reported)"
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "solutions and products growth rate",
+       "comparison": "gte",
+       "value": 30.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We'll grow with 30% plus growth rate in these solutions and products",
+       "source_id": "T:2026-05-01:p6",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided solutions and products growth rate ≥ 30% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "R&D investment as percentage of revenue",
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Continued investment in R&D, 5%, which I said, which is on top of this.",
+       "source_id": "T:2026-05-01:p6",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided R&D investment as percentage of revenue ≈ 5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "wallet share among top 25 clients",
+       "comparison": "gte",
+       "value": 15.0,
+       "value_high": 20.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Now, the goal for this year is whether we can push that up to more than 15 to 20%.",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided wallet share among top 25 clients ≥ 15% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "solution and products revenue growth",
+       "comparison": "approx",
+       "value": 30.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We expect 30% year-on-year revenue growth in solution and products, and we hope it will increase over the period.",
+       "source_id": "T:2026-05-01:p17",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided solution and products revenue growth ≈ 30% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "solutions and product revenue share",
+       "comparison": "approx",
+       "value": 60.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "the revenue part, which is in FY26, which is 85% of our, this 15% is solution and product, which will move to 60% in 3 years.",
+       "source_id": "T:2026-05-01:p18",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided solutions and product revenue share ≈ 60% for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "wallet share increase",
+       "comparison": "approx",
+       "value": 20.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Let me correct myself. The 10% wallet share, it will increase by 20%. In the immediate future, right? It will not move from 10% to 20% of their wallet share. It will increase by 20% this year. That's really the goal that we are taking in every cell.",
+       "source_id": "T:2026-05-01:p30",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided wallet share increase ≈ 20% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "interest cost per quarter",
+       "comparison": "approx",
+       "value": 23.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "No, it can lower a little bit, but yes, more or less in the same range.",
+       "source_id": "T:2026-02-01:p26",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided interest cost per quarter ≈ ₹23 Cr for FY27; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-05-01:p17",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+     "page": 17
+    },
+    {
+     "source_id": "T:2026-05-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-05-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2026-05-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-05-01:p30",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+     "page": 30
+    },
+    {
+     "source_id": "T:2026-02-01:p26",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a574a9b4-2ec3-4418-afd7-7deb13264328.pdf",
+     "page": 26
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "KPIT provides software, engineering, and technology solutions to the global mobility industry, helping OEMs and mobility companies develop software-defined vehicles, electrification, and AI-driven systems. Its clients are the largest mobility companies in the world, including OEMs across passenger cars, trucks, and off-highway segments.",
+    "segments": [
+     {
+      "name": "Passenger Cars",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p48"
+      ]
+     },
+     {
+      "name": "Commercial Vehicles",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p48"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p8",
+     "AR:2026:p9",
+     "AR:2026:p10",
+     "AR:2026:p11"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p8",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+     "page": 8
+    },
+    {
+     "source_id": "AR:2026:p9",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "AR:2026:p10",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "AR:2026:p11",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "AR:2026:p48",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+     "page": 48
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "KPIT has delivered strong historical growth with a 3-year revenue CAGR of 24.3% and PAT CAGR of 18.1%.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The company maintains high profitability with 18.9% operating margin, 26% ROCE, low leverage (0.24 debt/equity), and robust cash conversion (1.73x operating cash flow/PAT over 3 years).",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management targets 30%+ growth in solutions/products, aims to shift that segment from 15% to 60% of revenue in 3 years, and expects EBITDA margins to expand to 22-24%.",
+      "source_ids": [
+       "T:2026-05-01:p17",
+       "T:2026-05-01:p18",
+       "T:2026-05-01:p6"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Quarterly PAT has been volatile, falling from ₹163 Cr in Mar 2026 to ₹116 Cr in Jun 2026 and ₹121 Cr in Sep 2026 despite revenue remaining around ₹1,675-1,711 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management's EBITDA margin guidance of 20.5-21.2% has only delivered 15.6% in 2 of 4 quarters, and other targets (30% solutions growth, 60% mix shift, 22-24% EBITDA) remain unverified.",
+      "source_ids": [
+       "T:2026-05-01:p17",
+       "T:2026-05-01:p18",
+       "T:2026-05-01:p6"
+      ]
+     },
+     {
+      "text": "Operating margin has been flat over 3 years (18.8% to 18.9%) despite 24% revenue CAGR, and the business is concentrated on global mobility OEMs with a risky transition to higher-margin solutions/products.",
+      "source_ids": [
+       "SCR",
+       "AR:2026:p8",
+       "T:2026-05-01:p18"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/KPITTECH/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-05-01:p17",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+     "page": 17
+    },
+    {
+     "source_id": "T:2026-05-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-05-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "AR:2026:p8",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4d2467e3-e28a-472b-8492-7fd9e46e63c4.pdf",
+     "page": 8
+    }
+   ]
+  }
+ ]
+}

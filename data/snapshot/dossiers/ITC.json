@@ -1,0 +1,267 @@
+{
+ "symbol": "ITC",
+ "name": "ITC Ltd",
+ "built_at": "2026-10-28T13:07:32.548870Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": null,
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "ITC Ltd",
+    "about": "Established in 1910, ITC is the largest cigarette manufacturer and seller in the country. ITC operates in four business segments at present — FMCG Cigarettes, FMCG Others, Paperboards, Paper and Packaging, and Agri Business.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T13:07:32.528837+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": null,
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 76488.0,
+    "pat_ttm": 20184.0,
+    "revenue_cagr_3y": 3.6,
+    "pat_cagr_3y": 2.6,
+    "opm_latest": 34.6,
+    "opm_3y_ago": 36.2,
+    "roce_latest": 39.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.03,
+    "cfo_to_pat_3y": 0.69,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 19990.0,
+      "pat": 5054.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 18790.0,
+      "pat": 5013.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 18765.0,
+      "pat": 19808.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 21495.0,
+      "pat": 5343.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 19502.0,
+      "pat": 5187.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 20047.0,
+      "pat": 5018.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 17825.0,
+      "pat": 5470.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 19114.0,
+      "pat": 4509.0
+     }
+    ],
+    "flags": [
+     "Profits not converting to cash"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/ITC/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "unavailable",
+   "reason": "No concall transcripts on screener.in",
+   "data": null,
+   "citations": []
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "ITC Limited is a diversified FMCG and agri-major that sells branded packaged foods, personal care products, education and stationery, safety matches, incense sticks, and agri commodities to Indian households and export markets. Its portfolio of over 30 home-grown brands serves nearly 280 million Indian households, with annual consumer spend exceeding `37,000 crores.",
+    "segments": [
+     {
+      "name": "FMCG - Others",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p76"
+      ]
+     },
+     {
+      "name": "Branded Packaged Foods",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p78",
+       "AR:2026:p81",
+       "AR:2026:p82"
+      ]
+     },
+     {
+      "name": "Personal Care Products",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p84"
+      ]
+     },
+     {
+      "name": "Agri Business",
+      "share_pct": 15.21,
+      "source_ids": [
+       "AR:2026:p352"
+      ]
+     },
+     {
+      "name": "Paperboards, Paper & Packaging",
+      "share_pct": 8.57,
+      "source_ids": [
+       "AR:2026:p352"
+      ]
+     },
+     {
+      "name": "Cigarettes",
+      "share_pct": 45.88,
+      "source_ids": [
+       "AR:2026:p352"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p76",
+     "AR:2026:p77",
+     "AR:2026:p352"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p76",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+     "page": 76
+    },
+    {
+     "source_id": "AR:2026:p77",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+     "page": 77
+    },
+    {
+     "source_id": "AR:2026:p352",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+     "page": 352
+    },
+    {
+     "source_id": "AR:2026:p78",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+     "page": 78
+    },
+    {
+     "source_id": "AR:2026:p81",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+     "page": 81
+    },
+    {
+     "source_id": "AR:2026:p82",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+     "page": 82
+    },
+    {
+     "source_id": "AR:2026:p84",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+     "page": 84
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "ITC delivers a 39% ROCE with a 34.6% operating margin while maintaining a negligible debt-to-equity of 0.03.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The company's 30+ home-grown brands reach nearly 280 million Indian households with annual consumer spend exceeding ₹37,000 crores.",
+      "source_ids": [
+       "AR:2026:p76",
+       "AR:2026:p77",
+       "AR:2026:p352"
+      ]
+     },
+     {
+      "text": "Cigarettes contribute 45.88% of revenue, providing a high-margin anchor for the diversified FMCG portfolio.",
+      "source_ids": [
+       "AR:2026:p352"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Revenue and PAT growth are sluggish with 3-year CAGRs of only 3.6% and 2.6% respectively.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Profits are not converting to cash, evidenced by a 3-year operating cash flow to PAT ratio of just 0.69.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin has declined from 36.2% to 34.6% over three years, and the business carries concentration risk with cigarettes at 45.88% of revenue.",
+      "source_ids": [
+       "SCR",
+       "AR:2026:p352"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/ITC/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "AR:2026:p76",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+     "page": 76
+    },
+    {
+     "source_id": "AR:2026:p77",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+     "page": 77
+    },
+    {
+     "source_id": "AR:2026:p352",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf",
+     "page": 352
+    }
+   ]
+  }
+ ]
+}

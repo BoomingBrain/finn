@@ -1,0 +1,1133 @@
+{
+ "symbol": "HAL",
+ "name": "Hindustan Aeronautics Ltd",
+ "built_at": "2026-10-28T13:19:01.311478Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": "2026-05-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Hindustan Aeronautics Ltd",
+    "about": "Hindustan Aeronautics Ltd (HAL), a 71.64% Government-owned Maha-RatnaCPSE, designs, manufactures,upgrades and provides lifecycleMRO for aircraft, helicopters, aero-engines, avionics /accessoriesand aerostructures, principallyfor India’s armed forces.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T13:13:56.273901+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": "2026-05-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 33785.0,
+    "pat_ttm": 9322.0,
+    "revenue_cagr_3y": 7.1,
+    "pat_cagr_3y": 16.1,
+    "opm_latest": 29.6,
+    "opm_3y_ago": 24.8,
+    "roce_latest": 32.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.0,
+    "cfo_to_pat_3y": 1.31,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 5976.0,
+      "pat": 1510.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 6957.0,
+      "pat": 1440.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 13700.0,
+      "pat": 3977.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 4819.0,
+      "pat": 1384.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 6629.0,
+      "pat": 1669.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 7699.0,
+      "pat": 1867.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 13942.0,
+      "pat": 4196.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 5515.0,
+      "pat": 1590.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/HAL/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript May 2026",
+     "Transcript May 2025",
+     "Transcript May 2024",
+     "Transcript May 2023"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "revenue",
+       "raw_metric": "revenue from 12 LCA jets",
+       "comparison": "approx",
+       "value": 3000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY26",
+       "quote": "it will be in the range of Rs. 3,000 crores.",
+       "source_id": "T:2025-05-01:p14",
+       "said_on": "2025-05-01"
+      },
+      "actual": {
+       "value": 33089.0,
+       "quarters_in": 4,
+       "quarters_needed": 4
+      },
+      "verdict": "missed",
+      "explanation": "Revenue from 12 LCA jets ≈ ₹3,000 Cr for FY26, delivered ₹33,089 Cr, missed"
+     },
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "overall growth (manufacturing and repair & overhaul)",
+       "comparison": "approx",
+       "value": 13.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY25",
+       "quote": "And the repair and overall growth of around 9% to 10% growth, we will be able to sustain our growth what we have shown in the current financial year of 13% on an average, both manufacturing and repair and overhaul put together, we will be able to sustain that growth.",
+       "source_id": "T:2024-05-01:p18",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": 2.0,
+       "quarters_in": 4,
+       "quarters_needed": 4
+      },
+      "verdict": "missed",
+      "explanation": "Overall growth (manufacturing and repair & overhaul) ≈ 13% for FY25, delivered 2%, missed"
+     },
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "growth",
+       "comparison": "between",
+       "value": 12.0,
+       "value_high": 13.0,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "And after that, we expect the growth at around 12% to 13%",
+       "source_id": "T:2023-05-01:p14",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": 6.8,
+       "quarters_in": 4,
+       "quarters_needed": 4
+      },
+      "verdict": "missed",
+      "explanation": "Growth 12%–13% for FY26, delivered 6.8%, missed"
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin guidance",
+       "comparison": "between",
+       "value": 26.0,
+       "value_high": 27.0,
+       "unit": "pct",
+       "period": "FY25",
+       "quote": "The EBITDA margin guidance of 26%-27% that you have issued does not include any provision reversals or provision change if any?",
+       "source_id": "T:2024-05-01:p18",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": 31.0,
+       "quarters_in": 4,
+       "quarters_needed": 4
+      },
+      "verdict": "met",
+      "explanation": "EBITDA margin guidance 26%–27% for FY25, delivered 31%, met"
+     },
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "revenue growth",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 12.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "See, when I said double digit -- see current year, if you see it is around 7% growth. So double-digit means you cannot expect a significant increase like 15% to 20%. Yes, it will be in the range of 10% to 12% minimum.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 14.4,
+       "quarters_in": 1,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Revenue growth 10%–12% for FY27, delivered 14.4% (1 of 4), pending"
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin",
+       "comparison": "approx",
+       "value": 30.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "And that 30% will be maintained.",
+       "source_id": "T:2026-05-01:p15",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 27.7,
+       "quarters_in": 1,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "EBITDA margin ≈ 30% for FY27, delivered 27.7% (1 of 4), pending"
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex investment",
+       "comparison": "approx",
+       "value": 12000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "by 2030",
+       "quote": "We plan to invest around INR12,000 crores in these projects by 2030.",
+       "source_id": "T:2026-05-01:p5",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex investment ≈ ₹12,000 Cr for by 2030; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "order intake",
+       "comparison": "approx",
+       "value": 90000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "next 2 years",
+       "quote": "In total, we expect to receive orders of INR90,000 crores, including the ROH orders, during the next 2 years.",
+       "source_id": "T:2026-05-01:p5",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided order intake ≈ ₹90,000 Cr for next 2 years; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "CAPEX outlay",
+       "comparison": "between",
+       "value": 14000.0,
+       "value_high": 15000.0,
+       "unit": "cr",
+       "period": "FY26-FY30",
+       "quote": "In line with our strategic goals, we have formulated a comprehensive CAPEX plan for the next five years, with an estimated outlay of Rs. 14,000 to Rs. 15,000 crore.",
+       "source_id": "T:2025-05-01:p5",
+       "said_on": "2025-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided CAPEX outlay ₹14,000 Cr–₹15,000 Cr for FY26-FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "GE engine supply",
+       "comparison": "approx",
+       "value": 12.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY26",
+       "quote": "GE has promised a supply of 12 engines in this calendar year up to December.",
+       "source_id": "T:2025-05-01:p6",
+       "said_on": "2025-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided GE engine supply ≈ ₹12 Cr for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "LCA Mark 1A aircraft deliveries",
+       "comparison": "approx",
+       "value": 12.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY26",
+       "quote": "So, the visibility is that 12 aircraft will be ready this year with these engines.",
+       "source_id": "T:2025-05-01:p6",
+       "said_on": "2025-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided LCA Mark 1A aircraft deliveries ≈ ₹12 Cr for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "LCA Mark 2 prototype flight",
+       "comparison": "approx",
+       "value": 1.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "Q1FY27",
+       "quote": "we expect to fly the prototype in the next year, 1st Quarter of next year.",
+       "source_id": "T:2025-05-01:p6",
+       "said_on": "2025-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided LCA Mark 2 prototype flight ≈ ₹1 Cr for Q1FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "manufacturing revenue growth",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 10.0,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "What guidance we can give you is around 8% to 10%.",
+       "source_id": "T:2025-05-01:p15",
+       "said_on": "2025-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided manufacturing revenue growth 8%–10% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin with other income",
+       "comparison": "between",
+       "value": 38.0,
+       "value_high": 39.0,
+       "unit": "pct",
+       "period": "FY26-FY29",
+       "quote": "if you see our EBITDA, it is at the same level, hovering around 38%-39% with interest, I mean, other income.",
+       "source_id": "T:2025-05-01:p18",
+       "said_on": "2025-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided EBITDA margin with other income 38%–39% for FY26-FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "aggregate value of all these orders",
+       "comparison": "between",
+       "value": 160000.0,
+       "value_high": 170000.0,
+       "unit": "cr",
+       "period": "FY26-FY27",
+       "quote": "The aggregate value of all these orders is expected to be somewhere around 1,60,000 to 1,70,000 crores and our expectation it will all materialize in the next 18 months to 3 years' time frame.",
+       "source_id": "T:2024-05-01:p7",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided aggregate value of all these orders ₹160,000 Cr–₹170,000 Cr for FY26-FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin with interest income",
+       "comparison": "approx",
+       "value": 33.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY25-FY27",
+       "quote": "Yes, without interest income it should be somewhere around 26%-27% and with interest income it should be around 33%.",
+       "source_id": "T:2024-05-01:p11",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided EBITDA margin with interest income ≈ 33% for FY25-FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROH growth",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 9.0,
+       "unit": "pct",
+       "period": "FY25",
+       "quote": "ROH, we expect the growth to be consistent in line with the past and it should be somewhere between 8% to 9% growth should be there in ROH activities.",
+       "source_id": "T:2024-05-01:p12",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROH growth 8%–9% for FY25; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROH share of revenue",
+       "comparison": "approx",
+       "value": 60.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Mix will be probably in the ratio of 60 to 40. 60 will be the ROH activity, 40 should be the manufacturing activity.",
+       "source_id": "T:2024-05-01:p13",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROH share of revenue ≈ 60% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Manufacturing share of revenue",
+       "comparison": "approx",
+       "value": 40.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Mix will be probably in the ratio of 60 to 40. 60 will be the ROH activity, 40 should be the manufacturing activity.",
+       "source_id": "T:2024-05-01:p13",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Manufacturing share of revenue ≈ 40% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Indigenous content in LCA Mark 1A at 180th aircraft",
+       "comparison": "gte",
+       "value": 65.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "It should be in the range of around 65%, should be above 65%.",
+       "source_id": "T:2024-05-01:p14",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Indigenous content in LCA Mark 1A at 180th aircraft ≥ 65% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "repair and overhaul growth",
+       "comparison": "between",
+       "value": 9.0,
+       "value_high": 10.0,
+       "unit": "pct",
+       "period": "FY25",
+       "quote": "And the repair and overall growth of around 9% to 10% growth, we will be able to sustain our growth what we have shown in the current financial year of 13% on an average, both manufacturing and repair and overhaul put together, we will be able to sustain that growth.",
+       "source_id": "T:2024-05-01:p18",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided repair and overhaul growth 9%–10% for FY25; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "repair and overhaul order accretion",
+       "comparison": "approx",
+       "value": 20000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY25",
+       "quote": "The repair and overhaul order accretion will be on an average 20,000 crores per annum.",
+       "source_id": "T:2024-05-01:p18",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided repair and overhaul order accretion ≈ ₹20,000 Cr for FY25; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "manufacturing platforms order intake guidance",
+       "comparison": "approx",
+       "value": 47000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY25",
+       "quote": "The 470,00 crores orders guidance for FY25 is only for those 3-4 platforms that you mentioned that does not include the MRO orders?",
+       "source_id": "T:2024-05-01:p18",
+       "said_on": "2024-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided manufacturing platforms order intake guidance ≈ ₹47,000 Cr for FY25; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "anticipated order for light combat helicopter",
+       "comparison": "approx",
+       "value": 45000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY24-FY26",
+       "quote": "This is also expected at around INR45,000 crores, including the optional and rolled equipment put together. This will be an anticipated order. This again, there is some visibility, which will happen in the next 2 to 3 year timeframe.",
+       "source_id": "T:2023-05-01:p6",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided anticipated order for light combat helicopter ≈ ₹45,000 Cr for FY24-FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROH order book accretion year-on-year",
+       "comparison": "between",
+       "value": 17000.0,
+       "value_high": 18000.0,
+       "unit": "cr",
+       "period": "FY24-FY26",
+       "quote": "ROH, we expect the order book accretion year-on-year will be on an average, it should be INR17,000 crores to INR18,000 crores.",
+       "source_id": "T:2023-05-01:p7",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROH order book accretion year-on-year ₹17,000 Cr–₹18,000 Cr for FY24-FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "AL-31FP engine order value",
+       "comparison": "approx",
+       "value": 26000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY24",
+       "quote": "it is the 240 number AL-31-FP, which is around INR26,000 crores.",
+       "source_id": "T:2023-05-01:p15",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided AL-31FP engine order value ≈ ₹26,000 Cr for FY24; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "growth",
+       "comparison": "approx",
+       "value": 9.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY24",
+       "quote": "And the current financial year also, we have been maintaining that it will be a single-digit growth only, and it will be at around the 9% is what we have achieved",
+       "source_id": "T:2023-05-01:p14",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 4,
+       "quarters_needed": 4
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided growth ≈ 9% for FY24; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "net margin",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 11.0,
+       "unit": "pct",
+       "period": "FY25",
+       "quote": "FY '25, we have been maintaining it will be a double-digit growth, but it will be somewhere around 10% to 11%",
+       "source_id": "T:2023-05-01:p14",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided net margin 10%–11% for FY25; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "net margin",
+       "comparison": "gte",
+       "value": 12.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "Beyond FY '25, we will be improving the double-digit margins to 12%",
+       "source_id": "T:2023-05-01:p14",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided net margin ≥ 12% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "net margin",
+       "comparison": "approx",
+       "value": 15.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "And then subsequently, we expect it to get stabilized at 15%",
+       "source_id": "T:2023-05-01:p14",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided net margin ≈ 15% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "operating profit margin",
+       "comparison": "between",
+       "value": 18.0,
+       "value_high": 19.0,
+       "unit": "pct",
+       "period": "FY24",
+       "quote": "It will be hovering somewhere around 18%, 19%.",
+       "source_id": "T:2023-05-01:p15",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided operating profit margin 18%–19% for FY24; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "order pipeline realization",
+       "comparison": "approx",
+       "value": 48000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY24",
+       "quote": "So all this would make up for INR48,000 crores, which we expected to realize in the current financial year.",
+       "source_id": "T:2023-05-01:p15",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided order pipeline realization ≈ ₹48,000 Cr for FY24; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "RD-33 engine order value",
+       "comparison": "approx",
+       "value": 4500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY24",
+       "quote": "RD-33 is again some 80 numbers, which is expected to be around INR4,500 crores",
+       "source_id": "T:2023-05-01:p15",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided RD-33 engine order value ≈ ₹4,500 Cr for FY24; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ALH order value",
+       "comparison": "approx",
+       "value": 3500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY24",
+       "quote": "25 advanced light helicopter Dhruv grew should be around INR3,500 crores",
+       "source_id": "T:2023-05-01:p15",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ALH order value ≈ ₹3,500 Cr for FY24; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "LUH order value",
+       "comparison": "approx",
+       "value": 2500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY24",
+       "quote": "the light utility helicopters of 12 numbers should be in the range of almost INR2,500 crores",
+       "source_id": "T:2023-05-01:p15",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided LUH order value ≈ ₹2,500 Cr for FY24; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Su-30 order value",
+       "comparison": "approx",
+       "value": 12000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY24",
+       "quote": "additional SU-30 is what we are envisaging additional another 12 numbers, if it also materializes, that will give us an additional order of almost INR12,000 crores",
+       "source_id": "T:2023-05-01:p15",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Su-30 order value ≈ ₹12,000 Cr for FY24; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "AON approved order visibility",
+       "comparison": "approx",
+       "value": 36000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY26",
+       "quote": "the visibility where the AON that is the acceptance of necessity has been approved, where there is certainty of orders to HAL is around INR36,000 crores. So this process will start any time in this current financial year and will get concluded in the next 2 to 3 years' time line.",
+       "source_id": "T:2023-05-01:p16",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided AON approved order visibility ≈ ₹36,000 Cr for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "AON not approved order visibility",
+       "comparison": "approx",
+       "value": 65000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "So INR36,000 crores for already AON approved and INR65,000 crores is what, in our opinion, we will get the AON's approved, which will happen in the next 2 to 5 years' timeframe.",
+       "source_id": "T:2023-05-01:p16",
+       "said_on": "2023-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided AON not approved order visibility ≈ ₹65,000 Cr for FY27; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2025-05-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94da53ef-52aa-4fdd-8cc2-9dcf291a112d.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2024-05-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2023-05-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-05-01:p8",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344500e7-2fff-4cc6-a792-c4693e0340f6.pdf",
+     "page": 8
+    },
+    {
+     "source_id": "T:2026-05-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344500e7-2fff-4cc6-a792-c4693e0340f6.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2026-05-01:p5",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344500e7-2fff-4cc6-a792-c4693e0340f6.pdf",
+     "page": 5
+    },
+    {
+     "source_id": "T:2025-05-01:p5",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94da53ef-52aa-4fdd-8cc2-9dcf291a112d.pdf",
+     "page": 5
+    },
+    {
+     "source_id": "T:2025-05-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94da53ef-52aa-4fdd-8cc2-9dcf291a112d.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2025-05-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94da53ef-52aa-4fdd-8cc2-9dcf291a112d.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2025-05-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94da53ef-52aa-4fdd-8cc2-9dcf291a112d.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2024-05-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2024-05-01:p11",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "T:2024-05-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2024-05-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2024-05-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2023-05-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2023-05-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2023-05-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2023-05-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Hindustan Aeronautics Limited (HAL) manufactures aircraft, helicopters, and engines for the Indian Defence Forces and civil customers, and provides repair, overhaul, maintenance, and upgrade services for these platforms.",
+    "segments": [
+     {
+      "name": "Aircraft, Helicopters and Engines Manufacturing",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p117"
+      ]
+     },
+     {
+      "name": "Repair, Overhaul and Maintenance Services",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p117"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p117",
+     "AR:2026:p118"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p117",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+     "page": 117
+    },
+    {
+     "source_id": "AR:2026:p118",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf",
+     "page": 118
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "PAT has grown at a 16.1% 3-year CAGR with a high ROCE of 32% and zero debt, indicating strong profitability and balance sheet strength.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin expanded from 24.8% to 29.6% over three years while operating cash flow covered 1.31x of PAT, showing improving efficiency and cash conversion.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management expects a large order pipeline of ₹90,000 crores in the next two years and ₹1,60,000-1,70,000 crores over 18 months to three years, providing revenue visibility.",
+      "source_ids": [
+       "T:2026-05-01:p5",
+       "T:2024-05-01:p7"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Management has repeatedly missed growth guidance, with 3-year revenue CAGR at only 7.1% versus guided 12-13% and recent quarterly growth falling short of 9-10% targets.",
+      "source_ids": [
+       "SCR",
+       "T:2023-05-01:p14",
+       "T:2024-05-01:p18"
+      ]
+     },
+     {
+      "text": "The current FY26 EBITDA margin guidance of 30% is tracking at 27.7% in the first quarter, suggesting potential margin pressure.",
+      "source_ids": [
+       "T:2026-05-01:p15"
+      ]
+     },
+     {
+      "text": "A significant portion of the order book (₹45,000 crores anticipated, ₹36,000 crores AON-approved, ₹65,000 crores future AON) remains unmaterialized with long 2-5 year timelines, creating execution risk.",
+      "source_ids": [
+       "T:2023-05-01:p6",
+       "T:2023-05-01:p16"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/HAL/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-05-01:p5",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344500e7-2fff-4cc6-a792-c4693e0340f6.pdf",
+     "page": 5
+    },
+    {
+     "source_id": "T:2024-05-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2023-05-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2024-05-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-05-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344500e7-2fff-4cc6-a792-c4693e0340f6.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2023-05-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2023-05-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf",
+     "page": 16
+    }
+   ]
+  }
+ ]
+}

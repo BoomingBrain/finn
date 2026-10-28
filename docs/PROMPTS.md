@@ -50,6 +50,11 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 44 | 2026-10-28 | "github token is done how much is left for report generation" | Confirmed Render runs the persistence code; reported 14/22 dossiers done and ~1 h left. |
 | 45 | 2026-10-28 | `/frontend-design` (no brief), then "i want you to add a portfolio section in the bottom bar which shows all the holdings and their movement in graph shortly" | Added a Portfolio tab: equal-weighted move headline, 1W/1M/3M range, one row per holding with a price line against its starting price, biggest movers first, tap to research. Watch icon changed to a bell. |
 | 46 | 2026-10-28 | "in ask section i want you to add all the listing on front that are instantly available" | Ask now lists every ready dossier (holdings, then other researched companies) from symbols.json; saved live dossiers join after the next deploy. |
+| 47 | 2026-10-28 | "how much time it more take/" | Progress estimate (~45–50 min). |
+| 48 | 2026-10-28 | "how much done?" | 19/22 written, 3 with a failed section after NVIDIA 429s. |
+| 49 | 2026-10-28 | "how much is left/" | 17/22 complete; final pass planned. |
+| 50 | 2026-10-28 | "done?" | Final pass 6/22. |
+| 51 | 2026-10-28 | "is it done?" | 12/22; fixed a truncated-JSON failure (HAL) with a larger budget and bracket repair; all 22 complete, audited, committed, deployed. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

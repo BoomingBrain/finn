@@ -1,0 +1,611 @@
+{
+ "symbol": "DMART",
+ "name": "Avenue Supermarts Ltd",
+ "built_at": "2026-10-28T12:50:53.620491Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-08-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Avenue Supermarts Ltd",
+    "about": "Avenue Supermarts Limited (DMart) is a national supermarket chain, with a focus on value-retailing. We offer a wide range of products with a focus on the Foods, Non-Foods (FMCG) and General Merchandise& Apparel product categories.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T12:50:10.946869+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-08-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 74224.0,
+    "pat_ttm": 3115.0,
+    "revenue_cagr_3y": 17.1,
+    "pat_cagr_3y": 7.7,
+    "opm_latest": 7.5,
+    "opm_3y_ago": 8.5,
+    "roce_latest": 17.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.16,
+    "cfo_to_pat_3y": 1.06,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 15973.0,
+      "pat": 724.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 14872.0,
+      "pat": 551.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 16360.0,
+      "pat": 773.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 16676.0,
+      "pat": 685.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 18101.0,
+      "pat": 856.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 17684.0,
+      "pat": 656.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 18795.0,
+      "pat": 860.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 19644.0,
+      "pat": 743.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/DMART/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Aug 2026",
+     "Transcript Aug 2025",
+     "Transcript Aug 2024",
+     "Transcript Jul 2024"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "annual store base growth percentage",
+       "comparison": "approx",
+       "value": 15.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "internally, our benchmarks will remain that we should be opening around 15% of our store base as the number that we want to increase annually.",
+       "source_id": "T:2026-08-01:p4",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided annual store base growth percentage ≈ 15% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "gross margin",
+       "comparison": "approx",
+       "value": 15.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "15% kind of a gross margin and let's say around a 5% kind of a net margin should be the North Star for this business even in the future.",
+       "source_id": "T:2026-08-01:p19",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided gross margin ≈ 15% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "store expansion target",
+       "comparison": "approx",
+       "value": 15.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "internally we go for this 15% number. We plan our land acquisitions, the building of the real estate, the property, all of that on the basis this type of an internal number.",
+       "source_id": "T:2026-08-01:p15",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided store expansion target ≈ 15% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "store opening growth rate",
+       "comparison": "approx",
+       "value": 15.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "But again, coming back, we believe that going for this kind of a number of 15% provides us the bandwidth to do these stores properly so that we can run the operations as per our DMart ways of working to be able to serve the customers. And if we can achieve that type of target, we'll also be able to get into that good growth band that we would want to have in the medium to long term.",
+       "source_id": "T:2026-08-01:p16",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided store opening growth rate ≈ 15% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "same store growth (SSG)",
+       "comparison": "between",
+       "value": 7.0,
+       "value_high": 8.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "SSG for the business should hover around current levels, which is hovering between 7%-8%, maybe at that level.",
+       "source_id": "T:2026-08-01:p19",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided same store growth (SSG) 7%–8% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "net margin",
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "15% kind of a gross margin and let's say around a 5% kind of a net margin should be the North Star for this business even in the future.",
+       "source_id": "T:2026-08-01:p19",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided net margin ≈ 5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "total borrowing",
+       "comparison": "approx",
+       "value": 2000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "So we might go to an INR2,000 crores borrowing by the end of the year, but that is all going towards managing capex.",
+       "source_id": "T:2026-08-01:p21",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided total borrowing ≈ ₹2,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "store expansion CAGR",
+       "comparison": "between",
+       "value": 13.0,
+       "value_high": 17.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Yes, so I think as I've said, the internal number or internal ambition that we will look at will be that 15% number. And again, depending on how the situation turns out on the real estate development, the permissions, etcetera, it could be a couple of percentage points higher or lower.",
+       "source_id": "T:2026-08-01:p22",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided store expansion CAGR 13%–17% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "store growth target",
+       "comparison": "approx",
+       "value": 15.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "when you say 15% of the baseline, it also is an increasing target year-on-year, right?",
+       "source_id": "T:2026-08-01:p26",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided store growth target ≈ 15% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "store openings as % of base stores",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 20.0,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "We have opened 50 stores last year and we hope to continue the acceleration and actually try and open as many more than we have opened in the past. Like we have always said that the right method of expansion in the offline space is to open on an average every year at least 10% to 15% or maybe 10% to 20% of your base stores – every year.",
+       "source_id": "T:2025-08-01:p4",
+       "said_on": "2025-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided store openings as % of base stores 10%–20% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "margin (long-term)",
+       "comparison": "lte",
+       "value": 15.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "long-term (5-10 years)",
+       "quote": "We are very clear, we'll not earn more than 15% or thereabouts.",
+       "source_id": "T:2025-08-01:p29",
+       "said_on": "2025-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided margin (long-term) ≤ 15% for long-term (5-10 years); not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "new store openings as % of store count",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 15.0,
+       "unit": "pct",
+       "period": "FY25",
+       "quote": "I've been saying this repeatedly that typically 10% to 15% of my number count should be my new store opening, broadly.",
+       "source_id": "T:2024-08-01:p9",
+       "said_on": "2024-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided new store openings as % of store count 10%–15% for FY25; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "gross margin",
+       "comparison": "between",
+       "value": 14.5,
+       "value_high": 15.5,
+       "unit": "pct",
+       "period": "FY25",
+       "quote": "14.5%, 15%, 15.5%, those are the kind of ranges we play in from a gross margin standpoint.",
+       "source_id": "T:2024-08-01:p21",
+       "said_on": "2024-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided gross margin 14.5%–15.5% for FY25; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "new store openings as percentage of store count",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 15.0,
+       "unit": "pct",
+       "period": "FY25",
+       "quote": "typically 10% to 15% of my number count should be my new store opening, broadly.",
+       "source_id": "T:2024-07-01:p9",
+       "said_on": "2024-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided new store openings as percentage of store count 10%–15% for FY25; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "store addition CAGR",
+       "comparison": "between",
+       "value": 15.0,
+       "value_high": 20.0,
+       "unit": "pct",
+       "period": "FY25",
+       "quote": "No, it is the same. The theme is the same, 15%, 20%. Okay? You replace everything that I said, 15% with 20% even for this year, right? That's the aspiration. We want to add more stores. The store addition will drive the CAGR.",
+       "source_id": "T:2024-07-01:p56",
+       "said_on": "2024-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided store addition CAGR 15%–20% for FY25; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-08-01:p4",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+     "page": 4
+    },
+    {
+     "source_id": "T:2026-08-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2026-08-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2026-08-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-08-01:p21",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+     "page": 21
+    },
+    {
+     "source_id": "T:2026-08-01:p22",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+     "page": 22
+    },
+    {
+     "source_id": "T:2026-08-01:p26",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+     "page": 26
+    },
+    {
+     "source_id": "T:2025-08-01:p4",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cebd20-3888-45ae-8c70-85fd68d60a74.pdf",
+     "page": 4
+    },
+    {
+     "source_id": "T:2025-08-01:p29",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cebd20-3888-45ae-8c70-85fd68d60a74.pdf",
+     "page": 29
+    },
+    {
+     "source_id": "T:2024-08-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2024-08-01:p21",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf",
+     "page": 21
+    },
+    {
+     "source_id": "T:2024-07-01:p9",
+     "url": "https://api.dmartindia.com/corporate/content/file/v1/2/nxWmnRKchjDixyjyLNUUq0wp1722949766/Transcript%20of%20Analyst%20Institutional%20Investor%20Call%20-%2030.07.2024.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2024-07-01:p56",
+     "url": "https://api.dmartindia.com/corporate/content/file/v1/2/nxWmnRKchjDixyjyLNUUq0wp1722949766/Transcript%20of%20Analyst%20Institutional%20Investor%20Call%20-%2030.07.2024.pdf",
+     "page": 56
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Avenue Supermarts Limited (DMart) is a national supermarket chain offering a wide range of Foods, Non-Foods (FMCG), and General Merchandise & Apparel products to everyday shoppers across India, focused on value retailing with an Everyday Low Cost/Everyday Low Price model.",
+    "segments": [
+     {
+      "name": "Foods",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p87"
+      ]
+     },
+     {
+      "name": "Non-Foods (FMCG)",
+      "share_pct": 19.82,
+      "source_ids": [
+       "AR:2026:p87"
+      ]
+     },
+     {
+      "name": "General Merchandise and Apparel",
+      "share_pct": 22.28,
+      "source_ids": [
+       "AR:2026:p87"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p43",
+     "AR:2026:p87",
+     "AR:2026:p92"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p43",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+     "page": 43
+    },
+    {
+     "source_id": "AR:2026:p87",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+     "page": 87
+    },
+    {
+     "source_id": "AR:2026:p92",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf",
+     "page": 92
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Revenue has grown at a 17.1% 3-year CAGR to ₹74,224 Cr TTM, with PAT at ₹3,115 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The balance sheet is strong with debt-to-equity of 0.16, ROCE of 17%, and operating cash flow covering PAT 1.06x over three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management targets 15% annual store-base expansion and 7-8% same-store sales growth to drive long-term CAGR.",
+      "source_ids": [
+       "T:2026-08-01:p4",
+       "T:2026-08-01:p19"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Operating margin has declined from 8.5% three years ago to 7.5% currently.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "PAT growth lags revenue with a 7.7% 3-year CAGR versus 17.1% for revenue.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management caps gross margin at ~15% and targets only ~5% net margin as a \"North Star\".",
+      "source_ids": [
+       "T:2025-08-01:p29",
+       "T:2026-08-01:p19"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/DMART/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-08-01:p4",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+     "page": 4
+    },
+    {
+     "source_id": "T:2026-08-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2025-08-01:p29",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cebd20-3888-45ae-8c70-85fd68d60a74.pdf",
+     "page": 29
+    }
+   ]
+  }
+ ]
+}

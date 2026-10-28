@@ -1,0 +1,790 @@
+{
+ "symbol": "POLYCAB",
+ "name": "Polycab India Ltd",
+ "built_at": "2026-10-28T13:13:11.053072Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-10-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Polycab India Ltd",
+    "about": "Polycab is India’s leading manufacturers of cables and wires and allied products such as uPVC conduits and lugs and glands. We have a range of cables and wires for practically every application. More recently Polycab has also launched a wide range of consumer electrical products like Fans, Switches, Switchgear, LED lights and Luminaries, Solar Inverters, and Pumps.",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T13:11:37.424135+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-10-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 34609.0,
+    "pat_ttm": 3203.0,
+    "revenue_cagr_3y": 27.0,
+    "pat_cagr_3y": 28.3,
+    "opm_latest": 13.9,
+    "opm_3y_ago": 13.1,
+    "roce_latest": 33.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.02,
+    "cfo_to_pat_3y": 1.05,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 5226.0,
+      "pat": 464.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 6986.0,
+      "pat": 734.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 5906.0,
+      "pat": 600.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 6477.0,
+      "pat": 693.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 7636.0,
+      "pat": 630.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 8864.0,
+      "pat": 786.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 8210.0,
+      "pat": 797.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 9899.0,
+      "pat": 990.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Oct 2026",
+     "Transcript Jul 2026",
+     "Transcript May 2026",
+     "Transcript Jan 2026"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "cable and wire EBITDA margin",
+       "comparison": "between",
+       "value": 11.0,
+       "value_high": 13.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "long-term, we are still holding 11% to 13% range guidance",
+       "source_id": "T:2026-10-01:p16",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": 14.1,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Pending: cable and wire EBITDA margin 11%–13% for FY27, delivered 14.1% (2 of 4 quarters reported)"
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "FMEG EBITDA margin",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 10.0,
+       "unit": "pct",
+       "period": "FY30",
+       "quote": "over the longer term, I believe we would end up in that kind of a range of 8% to 10% of the EBITDA margin.",
+       "source_id": "T:2026-10-01:p9",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Pending: FMEG EBITDA margin 8%–10% for FY30, delivered n/a (0 of 4 quarters reported)"
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 10.0,
+       "unit": "pct",
+       "period": "FY2030",
+       "quote": "EBIT margins for the quarter were 8%, very much in line with the milestones laid out under Project Spring, where we target EBITDA margins of 8% to 10% by FY 2030.",
+       "source_id": "T:2026-07-01:p6",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Pending: EBITDA margin 8%–10% for FY2030, delivered n/a (0 of 4 quarters reported)"
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin under Project Spring",
+       "comparison": "between",
+       "value": 11.0,
+       "value_high": 13.0,
+       "unit": "pct",
+       "period": "medium_term",
+       "quote": "based on our long-term or medium- to long-term guidance of 11% to 13% under Project Spring, we definitely want to operate there.",
+       "source_id": "T:2026-07-01:p12",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided EBITDA margin under Project Spring 11%–13% for medium_term; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Bharat Net revenue",
+       "comparison": "between",
+       "value": 800.0,
+       "value_high": 1000.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "So we can safely say maybe 1/3rd of that should translate into revenue, maybe INR 800 crores to INR 1,000 crores may come from Bharat Net alone.",
+       "source_id": "T:2026-07-01:p14",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Bharat Net revenue ₹800 Cr–₹1,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "RDSS revenue",
+       "comparison": "approx",
+       "value": 800.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "And again, in case of RDSS, since the execution piece is around 3 years, we should expect about INR 800-odd crores translating this year.",
+       "source_id": "T:2026-07-01:p14",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided RDSS revenue ≈ ₹800 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "volume growth as multiple of market growth",
+       "comparison": "gte",
+       "value": 150.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27-FY30",
+       "quote": "We have guided that we'll continue to grow at 1.5x of market growth.",
+       "source_id": "T:2026-07-01:p18",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided volume growth as multiple of market growth ≥ 150% for FY27-FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "payout ratio",
+       "comparison": "gte",
+       "value": 30.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY30",
+       "quote": "goal of achieving a 30% payout ratio by financial year 2030.",
+       "source_id": "T:2026-05-01:p7",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided payout ratio ≥ 30% for FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "FMEG EBITDA margin",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 10.0,
+       "unit": "pct",
+       "period": "FY30",
+       "quote": "Project Spring trajectory of achieving 8% to 10% EBITDA margins by financial year 2030.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided FMEG EBITDA margin 8%–10% for FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "annual capex",
+       "comparison": "between",
+       "value": 1200.0,
+       "value_high": 1600.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "we are continuing to pump INR 1,200 crores to INR 1,600 crores every year, adding capacity.",
+       "source_id": "T:2026-05-01:p14",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided annual capex ₹1,200 Cr–₹1,600 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "export contribution to overall top line",
+       "comparison": "gte",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY30",
+       "quote": "And we have to get to 10% by FY30.",
+       "source_id": "T:2026-05-01:p11",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided export contribution to overall top line ≥ 10% for FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Project Spring capex guidance",
+       "comparison": "between",
+       "value": 6000.0,
+       "value_high": 8000.0,
+       "unit": "cr",
+       "period": "FY30",
+       "quote": "Project Spring guidance of INR 6,000 crores to INR 8,000 crores capex by financial year 2030.",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Project Spring capex guidance ₹6,000 Cr–₹8,000 Cr for FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "near to mid-term EBITDA margin",
+       "comparison": "between",
+       "value": 12.0,
+       "value_high": 14.0,
+       "unit": "pct",
+       "period": "FY27-FY28",
+       "quote": "in the near to mid term, we may expect 12% to 14% EBITDA.",
+       "source_id": "T:2026-05-01:p13",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided near to mid-term EBITDA margin 12%–14% for FY27-FY28; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex allocation to Cable & Wire capacity expansion",
+       "comparison": "approx",
+       "value": 90.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "So again, as per our Project Spring guidance, we've said that whatever we will pump, around 90% of that will go into Cable & Wire capacity expansion alone. And some 5% will go into backward integration and another 3-4% may go into FMEG expansion.",
+       "source_id": "T:2026-05-01:p16",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex allocation to Cable & Wire capacity expansion ≈ 90% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex allocation to backward integration",
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "So again, as per our Project Spring guidance, we've said that whatever we will pump, around 90% of that will go into Cable & Wire capacity expansion alone. And some 5% will go into backward integration and another 3-4% may go into FMEG expansion.",
+       "source_id": "T:2026-05-01:p16",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex allocation to backward integration ≈ 5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex allocation to FMEG expansion",
+       "comparison": "between",
+       "value": 3.0,
+       "value_high": 4.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "So again, as per our Project Spring guidance, we've said that whatever we will pump, around 90% of that will go into Cable & Wire capacity expansion alone. And some 5% will go into backward integration and another 3-4% may go into FMEG expansion.",
+       "source_id": "T:2026-05-01:p16",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex allocation to FMEG expansion 3%–4% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Project Spring capex guidance",
+       "comparison": "between",
+       "value": 1200.0,
+       "value_high": 1600.0,
+       "unit": "cr",
+       "period": "FY27-FY30",
+       "quote": "Capital expenditure for the quarter was ₹ 3.4 billion, taking the 9M FY26 total to ₹ 10.9 billion, in-line with our Project Spring guidance of investing ₹ 12 billion to ₹ 16 billion annually through FY30.",
+       "source_id": "T:2026-01-01:p5",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Project Spring capex guidance ₹1,200 Cr–₹1,600 Cr for FY27-FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "A&P spends as % of B2C top-line",
+       "comparison": "between",
+       "value": 3.0,
+       "value_high": 5.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "we've given a guidance that we want to spend around 3% to 5% of B2C top-line every year on A&P.",
+       "source_id": "T:2026-01-01:p14",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided A&P spends as % of B2C top-line 3%–5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "price hikes in fans business",
+       "comparison": "between",
+       "value": 2.0,
+       "value_high": 4.0,
+       "unit": "pct",
+       "period": "Q4FY26",
+       "quote": "I believe the price hikes would be in the range of 2% to 4% and which will be taken during the course of first 1-1.5 months of this calendar year itself.",
+       "source_id": "T:2026-01-01:p18",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided price hikes in fans business 2%–4% for Q4FY26; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-10-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-10-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-07-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2026-07-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-07-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-07-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-05-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-05-01:p8",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+     "page": 8
+    },
+    {
+     "source_id": "T:2026-05-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-05-01:p11",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "T:2026-05-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-05-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-05-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-01-01:p5",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf",
+     "page": 5
+    },
+    {
+     "source_id": "T:2026-01-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-01-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf",
+     "page": 18
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Polycab India is India's largest manufacturer of cables and wires, supplying global retail, industrial and institutional customers across core sectors, and a leading Fast-Moving Electrical Goods (FMEG) player delivering innovative electrical solutions to retail and commercial customers. Its portfolio spans wires and cables, FMEG products (fans, lighting, switches, switchgear), and engineering solutions for national grid development.",
+    "segments": [
+     {
+      "name": "Cables and Wires",
+      "share_pct": 87.0,
+      "source_ids": [
+       "AR:2026:p9",
+       "AR:2026:p141"
+      ]
+     },
+     {
+      "name": "Fast-Moving Electrical Goods",
+      "share_pct": 7.0,
+      "source_ids": [
+       "AR:2026:p9",
+       "AR:2026:p145"
+      ]
+     },
+     {
+      "name": "Engineering, Procurement & Construction",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p9"
+      ]
+     },
+     {
+      "name": "Special Purpose Cables",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p143"
+      ]
+     },
+     {
+      "name": "Domestic Wires",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p143"
+      ]
+     },
+     {
+      "name": "Conduits and Fittings",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p147"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p9",
+     "AR:2026:p140",
+     "AR:2026:p141",
+     "AR:2026:p143",
+     "AR:2026:p145",
+     "AR:2026:p147",
+     "AR:2026:p150"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p9",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "AR:2026:p140",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+     "page": 140
+    },
+    {
+     "source_id": "AR:2026:p141",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+     "page": 141
+    },
+    {
+     "source_id": "AR:2026:p143",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+     "page": 143
+    },
+    {
+     "source_id": "AR:2026:p145",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+     "page": 145
+    },
+    {
+     "source_id": "AR:2026:p147",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+     "page": 147
+    },
+    {
+     "source_id": "AR:2026:p150",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+     "page": 150
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Polycab delivered a 3-year revenue CAGR of 27% and PAT CAGR of 28.3% with ROCE of 33% and operating margin expanding to 13.9% from 13.1% three years ago.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The balance sheet is nearly debt-free with debt-to-equity of 0.02 and operating cash flow covered PAT 1.05x over the last three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management's Project Spring targets 11-13% EBIT margins long-term (14.1% achieved in 2 of 4 recent quarters), 8-10% EBITDA by FY2030, 1.5x market growth, and ₹12-16bn annual capex through FY30 (9M FY26 ₹10.9bn on track).",
+      "source_ids": [
+       "T:2026-10-01:p16",
+       "T:2026-07-01:p6",
+       "T:2026-07-01:p18",
+       "T:2026-01-01:p5"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Revenue is heavily concentrated with Cables & Wires at 87% and FMEG only 7%, creating single-segment dependency.",
+      "source_ids": [
+       "AR:2026:p141",
+       "AR:2026:p145"
+      ]
+     },
+     {
+      "text": "Key margin targets remain unproven: the 8-10% EBITDA goal by FY2030 has 0 of 4 quarters delivered, and near-term 12-14% EBITDA expectation has 0 of 0 quarters verified.",
+      "source_ids": [
+       "T:2026-10-01:p9",
+       "T:2026-05-01:p13"
+      ]
+     },
+     {
+      "text": "Government project revenue visibility is uncertain: Bharat Net (₹800-1,000 Cr) and RDSS (₹800 Cr this year) contributions have 0 of 0 quarters delivered and cannot be checked from financials.",
+      "source_ids": [
+       "T:2026-07-01:p14"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-10-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-07-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2026-07-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-01-01:p5",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf",
+     "page": 5
+    },
+    {
+     "source_id": "AR:2026:p141",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+     "page": 141
+    },
+    {
+     "source_id": "AR:2026:p145",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf",
+     "page": 145
+    },
+    {
+     "source_id": "T:2026-10-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-05-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-07-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+     "page": 14
+    }
+   ]
+  }
+ ]
+}

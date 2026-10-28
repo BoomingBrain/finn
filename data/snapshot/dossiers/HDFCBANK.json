@@ -1,0 +1,326 @@
+{
+ "symbol": "HDFCBANK",
+ "name": "HDFC Bank Ltd",
+ "built_at": "2026-10-28T13:03:03.225905Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-10-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "HDFC Bank Ltd",
+    "about": "HDFC Bank Limited (also known as HDFC) is an Indian banking and financial services company headquartered in Mumbai. It is India's largest private sector bank by assets and the world's tenth-largest bank by market capitalization as of May 2024.As of April 2024, HDFC Bank has a market capitalization of $145 billion, making it the third-largest company on the Indian stock exchanges.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T13:00:14.434742+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-10-01",
+     "annual_report": 2026
+    },
+    "lender": true,
+    "revenue_ttm": 359956.0,
+    "pat_ttm": 83685.0,
+    "revenue_cagr_3y": 26.9,
+    "pat_cagr_3y": 19.7,
+    "opm_latest": null,
+    "opm_3y_ago": null,
+    "roce_latest": null,
+    "roe_latest": 14.0,
+    "debt_to_equity": null,
+    "cfo_to_pat_3y": null,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 85040.0,
+      "pat": 18340.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 86779.0,
+      "pat": 19285.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 87372.0,
+      "pat": 17090.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 86994.0,
+      "pat": 20364.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 87067.0,
+      "pat": 20691.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 87182.0,
+      "pat": 21074.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 90575.0,
+      "pat": 20383.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 95132.0,
+      "pat": 21537.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/HDFCBANK/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Oct 2026",
+     "Transcript Jul 2026",
+     "Transcript Apr 2026",
+     "Transcript Mar 2026"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "LCR (Liquidity Coverage Ratio)",
+       "comparison": "between",
+       "value": 110.0,
+       "value_high": 120.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Yes, we would like to operate between 110 and 120, which we have told you over last few years, somewhere probably in the middle, 115. Yes, we are at 113 or so. That's part of how time to time space on growth that one has to use. You know that the regulatory standard is 100, but we do operate, want to operate between 110 and 115. Yes, we do need to keep that at that kind of a level for us to keep growing.",
+       "source_id": "T:2026-10-01:p16",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided LCR (Liquidity Coverage Ratio) 110%–120% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "bond maturities",
+       "comparison": "between",
+       "value": 40000.0,
+       "value_high": 50000.0,
+       "unit": "cr",
+       "period": "FY27-FY28",
+       "quote": "The annual report we just published few days ago will show you the profile of maturity of borrowings. You'll see that INR40,000 crores or INR50,000 crores over the next couple of years you'll see that.",
+       "source_id": "T:2026-07-01:p12",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided bond maturities ₹40,000 Cr–₹50,000 Cr for FY27-FY28; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "LCR",
+       "comparison": "between",
+       "value": 110.0,
+       "value_high": 120.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "our endeavor for LCR is to be between 110% and 120%. We are somewhere in the middle. Last quarter, I think we were about 116%. Now we are 114%. So thereabouts, that's the kind of range at which we intend to operate, to be in the middle.",
+       "source_id": "T:2026-04-01:p9",
+       "said_on": "2026-04-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided LCR 110%–120% for FY27; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-10-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-07-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-04-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf",
+     "page": 9
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "HDFC Bank provides financial services through three business verticals—Retail Banking, Wholesale/Corporate Banking, and Commercial/Rural Banking—to a diverse customer base of 101 million individuals, salaried professionals, MSMEs, large corporates, and government entities. It offers a wide range of products including deposits, loans, insurance distribution, and investment services, with a strong focus on digital delivery and priority sector lending.",
+    "segments": [
+     {
+      "name": "Retail Banking",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p582"
+      ]
+     },
+     {
+      "name": "Wholesale / Corporate Banking",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p582"
+      ]
+     },
+     {
+      "name": "Commercial / Rural Banking",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p582"
+      ]
+     },
+     {
+      "name": "Third Party Products (Insurance & Mutual Funds)",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p282"
+      ]
+     },
+     {
+      "name": "Home Loans",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p282"
+      ]
+     },
+     {
+      "name": "SmartWealth (Digital Investment Platform)",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p284"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p582"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p582",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf",
+     "page": 582
+    },
+    {
+     "source_id": "AR:2026:p282",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf",
+     "page": 282
+    },
+    {
+     "source_id": "AR:2026:p284",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf",
+     "page": 284
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "HDFC Bank delivered a 3-year revenue CAGR of 26.9% and PAT CAGR of 19.7%, with TTM revenue of ₹359,956 Cr and PAT of ₹83,685 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The bank serves a diverse base of 101 million customers across retail, wholesale, and commercial/rural banking verticals.",
+      "source_ids": [
+       "AR:2026:p582"
+      ]
+     },
+     {
+      "text": "Management maintains a liquidity coverage ratio (LCR) of 114%, comfortably above the 100% regulatory minimum, targeting a 110-120% range.",
+      "source_ids": [
+       "T:2026-04-01:p9"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Sequential PAT declined 3.3% in the June 2026 quarter to ₹20,383 Cr from ₹21,074 Cr in March 2026.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The bank faces significant borrowing maturities of ₹40,000-50,000 Cr over the next couple of years.",
+      "source_ids": [
+       "T:2026-07-01:p12"
+      ]
+     },
+     {
+      "text": "The LCR has decreased from 116% to 114% quarter-over-quarter, per management commentary.",
+      "source_ids": [
+       "T:2026-04-01:p9"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/HDFCBANK/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "AR:2026:p582",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7d621500-082a-4342-b98d-ba677d3890c5.pdf",
+     "page": 582
+    },
+    {
+     "source_id": "T:2026-04-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-07-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf",
+     "page": 12
+    }
+   ]
+  }
+ ]
+}

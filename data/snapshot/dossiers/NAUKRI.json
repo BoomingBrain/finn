@@ -1,0 +1,476 @@
+{
+ "symbol": "NAUKRI",
+ "name": "Info Edge (India) Ltd",
+ "built_at": "2026-10-28T13:10:46.925273Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-08-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Info Edge (India) Ltd",
+    "about": "Info Edge is India’s premier online classified company with a portfolio of brands. It owns various brands in different fields like naukri.com (online recruitment), 99acres.com (online real estate), jeevansathi.com (online matrimonial) as well as shiksha.com (online education information services). It also acts as an investor and has invested in many start-ups in the online space and is actively growing its investment portfolio.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T13:08:57.717424+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-08-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 3473.0,
+    "pat_ttm": 2213.0,
+    "revenue_cagr_3y": 11.9,
+    "pat_cagr_3y": null,
+    "opm_latest": 36.1,
+    "opm_3y_ago": 14.8,
+    "roce_latest": 3.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.01,
+    "cfo_to_pat_3y": 0.72,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 722.0,
+      "pat": 288.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 750.0,
+      "pat": 678.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 791.0,
+      "pat": 343.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 805.0,
+      "pat": 348.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 819.0,
+      "pat": 317.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 869.0,
+      "pat": 756.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 881.0,
+      "pat": 490.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 904.0,
+      "pat": 650.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/NAUKRI/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Aug 2026",
+     "Transcript May 2026",
+     "Transcript Feb 2026",
+     "Transcript Nov 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "JobHai revenue growth year on year",
+       "comparison": "approx",
+       "value": 100.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We would like to grow it 100% year on year for the next few years.",
+       "source_id": "T:2026-05-01:p11",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 11.8,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "JobHai revenue growth year on year ≈ 100% for FY27, delivered 11.8% (2 of 4 quarters reported)."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin",
+       "comparison": "between",
+       "value": 25.0,
+       "value_high": 30.0,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "If we are able to do that, then we should be able to generate at least a 25-30% EBITDA margin as well. That should be our medium-term goal in 99acres.",
+       "source_id": "T:2026-05-01:p16",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "EBITDA margin 25%–30% for FY29, delivered n/a (0 of 4 quarters reported)."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Job Hai revenue",
+       "comparison": "gte",
+       "value": 30.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "Last year we did about Rs.15 crores. We would like to more than double this year in Job Hai.",
+       "source_id": "T:2026-08-01:p20",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Job Hai revenue ≥ ₹30 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Job Hai revenue",
+       "comparison": "approx",
+       "value": 100.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY29",
+       "quote": "If we execute well, can it get to a hundred crores in maybe two, three years and more? Yes, it can.",
+       "source_id": "T:2026-08-01:p20",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Job Hai revenue ≈ ₹100 Cr for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "provisioning rate for cost per lead model",
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Second, going forward, instead of creating this 20% provision, we'll be now provisioning it at 5%.",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided provisioning rate for cost per lead model ≈ 5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "billings growth",
+       "comparison": "gte",
+       "value": 100.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "Our billings last year was about Rs. 497 crores. We should aim to at least double our business, if you ask me, over the next 3 years.",
+       "source_id": "T:2026-05-01:p16",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided billings growth ≥ 100% for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "market share",
+       "comparison": "approx",
+       "value": 60.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "Our goal in 99acres should be, if you ask me, given where we are today, because we made substantial gains in share over the last few quarters, we should now be aiming to get to 60% share.",
+       "source_id": "T:2026-05-01:p16",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided market share ≈ 60% for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "take rate",
+       "comparison": "approx",
+       "value": 1.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "in our heads, we targeted take rate of 1% from our clients, but if we are able to make recruiters more productive, then this take rate can actually go up over time.",
+       "source_id": "T:2026-05-01:p17",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided take rate ≈ 1% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "JobHai as % of Naukri India",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 15.0,
+       "unit": "pct",
+       "period": "FY31-FY32",
+       "quote": "if in five years or six years, this becomes 10-15% of Naukri India, then I think that is what success will look like in JobHai.",
+       "source_id": "T:2026-02-01:p19",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided JobHai as % of Naukri India 10%–15% for FY31-FY32; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "99acres revenue growth",
+       "comparison": "between",
+       "value": 20.0,
+       "value_high": 25.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We've been in the mid-teens for a while now, we need to get to the 20-25% level and we need to stay there for several years.",
+       "source_id": "T:2025-11-01:p9",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided 99acres revenue growth 20%–25% for FY27; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-05-01:p11",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259064fd-4f19-47d0-b132-0848f67473dd.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "T:2026-05-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259064fd-4f19-47d0-b132-0848f67473dd.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-08-01:p20",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d1f5c76-a45b-47ae-9339-94dcd6f7468a.pdf",
+     "page": 20
+    },
+    {
+     "source_id": "T:2026-05-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259064fd-4f19-47d0-b132-0848f67473dd.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-05-01:p17",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259064fd-4f19-47d0-b132-0848f67473dd.pdf",
+     "page": 17
+    },
+    {
+     "source_id": "T:2026-02-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a195232e-629e-4049-92ae-029080af0ee1.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2025-11-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c947fc1d-05de-4704-83f1-67ee03994ba4.pdf",
+     "page": 9
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Info Edge (India) Limited operates web portals and online classified media across four verticals—Recruitment, Real Estate, Matchmaking, and Education—serving corporate clients and consumers in India and select international markets. Its platforms, led by Naukri, deliver market-leading online classifieds and related services.",
+    "segments": [
+     {
+      "name": "Recruitment",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p125"
+      ]
+     },
+     {
+      "name": "Real Estate",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p125"
+      ]
+     },
+     {
+      "name": "Matchmaking",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p125"
+      ]
+     },
+     {
+      "name": "Education",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p125"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p125"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p125",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a1e5af8e-9b28-475f-aca2-fbf49bd74bab.pdf",
+     "page": 125
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "The company delivers strong profitability with TTM revenue of ₹3,473 Cr and PAT of ₹2,213 Cr, while operating margin has expanded dramatically from 14.8% to 36.1% over three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management targets aggressive growth in 99acres, aiming to double billings from ₹497 Cr within three years, achieve 60% market share, and reach 25-30% EBITDA margin.",
+      "source_ids": [
+       "T:2026-05-01:p16"
+      ]
+     },
+     {
+      "text": "The Job Hai vertical shows high upside potential, with management planning to more than double revenue from ₹15 Cr and scale to ₹100 Cr in 2-3 years, eventually reaching 10-15% of Naukri India's size.",
+      "source_ids": [
+       "T:2026-08-01:p20",
+       "T:2026-02-01:p19"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Despite high operating margins, capital efficiency remains weak with ROCE at only 3%, indicating poor returns on invested capital.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Cash conversion is low, with operating cash flow at just 0.72x PAT over three years, raising concerns about earnings quality.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management's ambitious growth targets lack delivery track record, with the 100% YoY growth goal achieving only 11.8% in 2 of 4 quarters so far.",
+      "source_ids": [
+       "T:2026-05-01:p11",
+       "T:2026-05-01:p16"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/NAUKRI/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-05-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259064fd-4f19-47d0-b132-0848f67473dd.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-08-01:p20",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d1f5c76-a45b-47ae-9339-94dcd6f7468a.pdf",
+     "page": 20
+    },
+    {
+     "source_id": "T:2026-02-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a195232e-629e-4049-92ae-029080af0ee1.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2026-05-01:p11",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259064fd-4f19-47d0-b132-0848f67473dd.pdf",
+     "page": 11
+    }
+   ]
+  }
+ ]
+}

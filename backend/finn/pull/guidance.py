@@ -223,7 +223,7 @@ def extract_targets(doc: DocText, said_on: date, llm: LLM) -> list[GuidanceTarge
 
     def ask(chunk: str) -> _Targets:
         prompt = _EXTRACT_PROMPT.format(month=said_on.strftime("%B %Y"), fy=_fiscal_year(said_on), pages=chunk)
-        return llm.complete_json(EXTRACT_TIER, _EXTRACT_SYSTEM, prompt, _Targets, max_tokens=8192)
+        return llm.complete_json(EXTRACT_TIER, _EXTRACT_SYSTEM, prompt, _Targets, max_tokens=16384)  # thinking shares this budget
 
     with ThreadPoolExecutor(max_workers=4) as pool:
         replies = list(pool.map(ask, chunks))

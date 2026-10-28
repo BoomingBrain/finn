@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 import pytest
 from pydantic import BaseModel
 
-from finn.llm import CONCURRENCY, LLM, BudgetExceeded, RequestBudget
+from finn.llm import CONCURRENCY, LLM, BudgetExceeded, RequestBudget, close_truncated
 from tests.fakes import FakeCompleter
 
 
@@ -74,3 +74,15 @@ def test_reason_tier_calls_are_capped(tmp_path):
     for t in threads:
         t.join()
     assert state["peak"] == CONCURRENCY["reason"]
+
+
+def test_truncated_json_keeps_complete_items(tmp_path):
+    class Items(BaseModel):
+        targets: list[dict]
+
+    cut = '{"targets": [{"a": 1, "q": "x}y"},\n {"a": 2}'  # hit the token limit after the second item
+    assert close_truncated(cut) == '{"targets": [{"a": 1, "q": "x}y"},\n {"a": 2}]}'
+    assert close_truncated('{"targets": [{"q": "cut mid') == '{"targets": [{"q": "cut mid'  # mid-string: unchanged
+    assert close_truncated('{"t": [{"q": "say \\"hi\\" [ok"}') == '{"t": [{"q": "say \\"hi\\" [ok"}]}'  # escaped quotes
+    llm = LLM(cache_path=tmp_path / "llm.sqlite", completer=FakeCompleter([cut]))
+    assert llm.complete_json("bulk", "s", "u", Items).targets == [{"a": 1, "q": "x}y"}, {"a": 2}]

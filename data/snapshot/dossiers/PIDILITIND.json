@@ -1,0 +1,349 @@
+{
+ "symbol": "PIDILITIND",
+ "name": "Pidilite Industries Ltd",
+ "built_at": "2026-10-28T13:11:37.398740Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": "2026-08-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Pidilite Industries Ltd",
+    "about": "Pidilite Industries Limited is a leading manufacturer of adhesives and sealants, construction chemicals, craftsmen products, DIY  products and polymer emulsions in India. Most of the products have been developed through strong in-house R&D. Our brand name Fevicol has become synonymous with adhesives to millions in India and is ranked amongst the most trusted brands in the country. Some of our other major brands are M-Seal, Fevikwik, Fevistik, Roff, Dr. Fixit, Fevicryl, Motomax, Hobby Ideas, Araldite.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T13:10:46.942252+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": "2026-08-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 15399.0,
+    "pat_ttm": 2677.0,
+    "revenue_cagr_3y": 7.4,
+    "pat_cagr_3y": 24.2,
+    "opm_latest": 24.1,
+    "opm_3y_ago": 16.8,
+    "roce_latest": 31.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.04,
+    "cfo_to_pat_3y": 1.24,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 3235.0,
+      "pat": 540.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 3369.0,
+      "pat": 557.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 3141.0,
+      "pat": 428.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 3753.0,
+      "pat": 678.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 3554.0,
+      "pat": 585.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 3710.0,
+      "pat": 624.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 3583.0,
+      "pat": 584.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 4552.0,
+      "pat": 884.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Aug 2026",
+     "Transcript May 2026",
+     "Transcript Feb 2026",
+     "Transcript Nov 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin",
+       "comparison": "between",
+       "value": 20.0,
+       "value_high": 24.0,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "But if you look at full year, we are confident that we will be at the upper end of this 20%, 24% range.",
+       "source_id": "T:2026-02-01:p21",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": 24.1,
+       "quarters_in": 4,
+       "quarters_needed": 4
+      },
+      "verdict": "met",
+      "explanation": "EBITDA margin 24.1% exceeds the 20%–24% FY26 target."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin band",
+       "comparison": "between",
+       "value": 20.0,
+       "value_high": 24.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "The way we have managed our pricing and the way we have executed, if some of the things and I'll say, If the crude remains as you said and if the volatility is not going to increase and some situation eases a little bit there, even if it remains dynamic, your assumption is correct that we would manage the business well within the band. And it is quite possible that we could be middle to higher end of the band, easily.",
+       "source_id": "T:2026-08-01:p19",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": 26.2,
+       "quarters_in": 1,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "EBITDA margin 26.2% exceeds the 20%–24% FY27 target."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Capex as percentage of revenue",
+       "comparison": "between",
+       "value": 3.0,
+       "value_high": 5.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Our capex tends to be actually 3% to 5% of our revenue turnover. I think Sandeep also alluded to it in his opening commentary and last year, we have come in at about the median of that number or an average of that number. So I think that's the thing. And as far as our capex philosophy is concerned... suffice to say the band is 3% to 5%. And I think we'll remain in that band.",
+       "source_id": "T:2026-05-01:p15",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Capex as percentage of revenue 3%–5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "price growth over volume growth (bps)",
+       "comparison": "between",
+       "value": 1.0,
+       "value_high": 1.5,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "in the zone of about 100 to 150 bps, in and around there, I think you should continue to expect, I think it would be our endeavor",
+       "source_id": "T:2026-02-01:p12",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided price growth over volume growth (bps) 1%–1.5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "A&SP as % of sales",
+       "comparison": "between",
+       "value": 3.0,
+       "value_high": 5.0,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "I think we maintain that our A&SP will be in the band of 3% to 5%.",
+       "source_id": "T:2025-11-01:p5",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided A&SP as % of sales 3%–5% for FY26; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-02-01:p21",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecbc316a-5f8d-4143-8061-df7980b55a66.pdf",
+     "page": 21
+    },
+    {
+     "source_id": "T:2026-08-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d811437-b5ad-4bff-8b33-92b5b7032db3.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2026-05-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=badde5e7-23d3-4f3f-8c8f-4075465709a8.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2026-02-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecbc316a-5f8d-4143-8061-df7980b55a66.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2025-11-01:p5",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a2bb53f-48f2-4cc3-ae99-19720542aa0f.pdf",
+     "page": 5
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Pidilite sells a wide range of adhesives, sealants, art & craft materials, construction chemicals, and paint chemicals under its Branded Consumer & Bazaar segment to households, students, carpenters, painters, plumbers, mechanics, and offices. Its Business-to-Business segment supplies industrial adhesives, industrial resins, construction chemicals, organic pigments, and pigment preparations to industries including packaging, textiles, paints, printing inks, paper, and leather.",
+    "segments": [
+     {
+      "name": "Branded Consumer & Bazaar",
+      "share_pct": 81.6,
+      "source_ids": [
+       "AR:2026:p118",
+       "AR:2026:p124"
+      ]
+     },
+     {
+      "name": "Business to Business",
+      "share_pct": 18.0,
+      "source_ids": [
+       "AR:2026:p118",
+       "AR:2026:p124"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p73",
+     "AR:2026:p118",
+     "AR:2026:p124"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p73",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+     "page": 73
+    },
+    {
+     "source_id": "AR:2026:p118",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+     "page": 118
+    },
+    {
+     "source_id": "AR:2026:p124",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+     "page": 124
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "PAT grew at a 24.2% 3-year CAGR versus 7.4% revenue CAGR, driving operating margin expansion from 16.8% to 24.1% and a 31% ROCE.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management delivered on its 20-24% operating margin guidance, achieving 24.1% for four consecutive quarters.",
+      "source_ids": [
+       "T:2026-02-01:p21"
+      ]
+     },
+     {
+      "text": "The balance sheet shows minimal leverage with a debt-to-equity of 0.04 and strong cash conversion with operating cash flow to PAT of 1.24 over three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Revenue growth is modest at a 7.4% 3-year CAGR, indicating limited top-line momentum.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Return on equity is not reported (n/a), making it difficult to assess shareholder returns.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Revenue is heavily concentrated in the Branded Consumer & Bazaar segment at 81.6%, creating segment concentration risk.",
+      "source_ids": [
+       "AR:2026:p118"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/PIDILITIND/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-02-01:p21",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecbc316a-5f8d-4143-8061-df7980b55a66.pdf",
+     "page": 21
+    },
+    {
+     "source_id": "AR:2026:p118",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/84c374a7-10a3-4a3b-8693-cc7e75a0a6b8.pdf",
+     "page": 118
+    }
+   ]
+  }
+ ]
+}

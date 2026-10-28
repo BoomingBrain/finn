@@ -17,9 +17,9 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 8 | Scheduled ingestion | Fri | ✅ Done | 317dad2 | Actions every 2 h on market days + 19:00 IST daily; 2 runs green; Render ignores data commits |
 | 9 | screener.in source and deterministic metrics | Sat | ✅ Done | see log | 11 metric tests; live KOTAKBANK/NAUKRI/CDSL + unknown ticker OK |
 | 10 | Promised vs Delivered | Sat | ✅ Done | see log | 27 guidance tests; Pidilite 4 calls: FY26 margin met (24.1% vs 20–24%), FY27 pending at 26.2% |
-| 11 | Dossier builder, citation guard, precompute demo set | Sat | 🟨 In progress | cb2b03e | Code done; 22-ticker precompute running (reason tier is slow) |
+| 11 | Dossier builder, citation guard, precompute demo set | Wed | ✅ Done | see log | All 22 dossiers complete; 132 bull/bear points, every number traced to a source |
 | 12 | Research API, live fetch fallback, cost guard | Sat | ✅ Done | cb2b03e | Live on Render: 404 unknown, replay, Render reaches screener.in. 9 guard/API tests |
-| 13 | Ask screen and "Ask about this" | Sat | 🟨 In progress | | Built + 20 web tests; deploy after the precompute finishes |
+| 13 | Ask screen and "Ask about this" | Wed | ✅ Done | 2743417 | Live; lists every instant dossier; Portfolio tab added |
 | 14 | Accuracy eval and results cross-check | Wed | ✅ Done | see log | Results 57/57 fields; guidance recall 3/3, precision 100%; 8/8 live cards verified vs screener |
 | 15 | Polish, README, writeup, build history, submit | Sun | ⬜ Not started | | |
 
@@ -32,7 +32,7 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 | Wed 28 | Deployed shell opens on a phone; spikes recorded | ✅ Spikes done incl. cloud check; shell live on the Space, Ask shows Render ready (headless check). Phone check: user |
 | Thu 29 | Deployed Brief shows one real results card | ✅ Met early (28 Oct): live Brief serves INFY Q2 FY27 card from events.json. Phone check: user |
 | Fri 30 | Brief + Watch on all 18 stocks; lender cards; backtest sliders | ✅ Met early (28 Oct): all live, data refreshes on schedule |
-| Sat 31 | 4 demo dossiers instant; unseen ticker streams or fails cleanly | |
+| Sat 31 | 4 demo dossiers instant; unseen ticker streams or fails cleanly | ✅ Met early (28 Oct): 22 dossiers instant; Render streamed a live build |
 | Sun 1 | Accuracy in README; submission sent | |
 
 ## Accuracy (filled by Task 14)
@@ -62,6 +62,18 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 11 complete: all 22 dossiers, audited
+- **Every holding and demo ticker has a complete dossier.** ITC and TRENT show "No concall transcripts on screener.in": neither publishes call transcripts there, so this is the correct answer.
+- **Failures on the way, all fixed in code:**
+  - **429s at 4 reasoning calls in flight:** back to 2.
+  - **Empty or cut-off replies from the reasoning model**, whose thinking shares the output budget: guidance extraction now gets 16k tokens, and `llm.close_truncated` closes a reply cut after complete items (test covers escaped quotes and a mid-string cut).
+- **Bull/bear wording fix:** a raw "not_checkable" verdict was read as "not delivered" (Bharti Airtel). Verdicts now reach the model in plain words; regenerated for all 22.
+- **Audit:**
+  - **Numbers:** every number in all 132 bull/bear points traces to the dossier's computed data or the cited page.
+  - **Leaks:** no internal verdict codes in the text.
+  - **Spot-check:** 3 random cited claims read against their pages.
+- **Fingerprints:** every dossier now records its sources (latest quarter, concall, annual report) for the daily refresh.
 
 ### 2026-10-28 — Portfolio tab (user request)
 - **New bottom-bar tab between Brief and Watch:**

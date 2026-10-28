@@ -1,0 +1,696 @@
+{
+ "symbol": "DEEPAKNTR",
+ "name": "Deepak Nitrite Ltd",
+ "built_at": "2026-10-28T12:49:43.674157Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": "2026-08-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Deepak Nitrite Ltd",
+    "about": "Incorporated in 1970, Deepak Nitrite Ltd manufactures Basic Intermediates, Fine& Speciality Chemicals, PerformanceProducts, and Phenolics[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T12:49:08.092102+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": "2026-08-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 8575.0,
+    "pat_ttm": 784.0,
+    "revenue_cagr_3y": -0.4,
+    "pat_cagr_3y": -13.5,
+    "opm_latest": 12.5,
+    "opm_3y_ago": 16.2,
+    "roce_latest": 11.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.28,
+    "cfo_to_pat_3y": 0.99,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 2032.0,
+      "pat": 194.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 1903.0,
+      "pat": 98.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 2180.0,
+      "pat": 202.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 1890.0,
+      "pat": 112.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 1902.0,
+      "pat": 119.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 1975.0,
+      "pat": 100.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 2120.0,
+      "pat": 220.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 2578.0,
+      "pat": 345.0
+     }
+    ],
+    "flags": [
+     "Margins compressing"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/DEEPAKNTR/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Aug 2026",
+     "Transcript May 2026",
+     "Transcript Feb 2026",
+     "Transcript Nov 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "additional capex spend this year",
+       "comparison": "between",
+       "value": 1500.0,
+       "value_high": 1600.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "Further, this year, it will be around INR 1,500 crore to INR 1,600 crore.",
+       "source_id": "T:2026-08-01:p16",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided additional capex spend this year ₹1,500 Cr–₹1,600 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "total capex spend this year",
+       "comparison": "approx",
+       "value": 3200.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "So total spend will be around in the range of INR 3,200 crore.",
+       "source_id": "T:2026-08-01:p15",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided total capex spend this year ≈ ₹3,200 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex spend in 2027 and 2028",
+       "comparison": "approx",
+       "value": 3000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY28",
+       "quote": "Plus further, whatever we are going to spend in 2027, 2028 will be another INR 3,000 crore.",
+       "source_id": "T:2026-08-01:p16",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex spend in 2027 and 2028 ≈ ₹3,000 Cr for FY27-FY28; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "peak debt",
+       "comparison": "between",
+       "value": 8000.0,
+       "value_high": 8500.0,
+       "unit": "cr",
+       "period": "FY29",
+       "quote": "So today, at this INR 11,500 crore what we are having against that, we are borrowing around INR 6,800 crore plus working capital, whatever is required, in the business at the peak. So that would be somewhere around INR 8,000 crore to INR 8,500 crore.",
+       "source_id": "T:2026-08-01:p19",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided peak debt ₹8,000 Cr–₹8,500 Cr for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "debt-to-equity ratio",
+       "comparison": "lte",
+       "value": 1.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "But debt-to-equity ratio will be very, very comfortable. It will not cross even 1.",
+       "source_id": "T:2026-08-01:p19",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided debt-to-equity ratio ≤ 1% for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "EBITDA addition for nitric acid",
+       "comparison": "between",
+       "value": 90.0,
+       "value_high": 100.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "once the plant is under stable operations, we do anticipate the kind of target that we're looking at.",
+       "source_id": "T:2026-05-01:p7",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided EBITDA addition for nitric acid ₹90 Cr–₹100 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "total project capex",
+       "comparison": "approx",
+       "value": 11000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY29",
+       "quote": "the total project, what we have announced is around INR11,000 crore.",
+       "source_id": "T:2026-05-01:p15",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided total project capex ≈ ₹11,000 Cr for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "debt-equity ratio",
+       "comparison": "approx",
+       "value": 60.0,
+       "value_high": 40.0,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "It will be in the ratio of 60-40.",
+       "source_id": "T:2026-05-01:p15",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided debt-equity ratio ≈ 60% for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "equity contribution before debt drawdown",
+       "comparison": "gte",
+       "value": 25.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "once we put in 25% of equity as per the bank condition of 40%, we'll start drawing from the debt.",
+       "source_id": "T:2026-05-01:p15",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided equity contribution before debt drawdown ≥ 25% for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "nitric acid consumption integration",
+       "comparison": "approx",
+       "value": 100.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "Q4FY26",
+       "quote": "This quarter and next quarter will be the first period where we would have pretty much 100% consumption of nitric acid.",
+       "source_id": "T:2026-02-01:p9",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided nitric acid consumption integration ≈ 100% for Q4FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "asset utilization",
+       "comparison": "between",
+       "value": 95.0,
+       "value_high": 105.0,
+       "unit": "pct",
+       "period": "Q4 FY26",
+       "quote": "On the nitric acid investment, on the nitration and on the hydrogenation, we are expecting to run at 100% or close enough to 100% utilization from this quarter onwards. They may be between 95% to 100%, 105%. That's the kind of range we look at in terms of asset utilization on these fronts.",
+       "source_id": "T:2026-02-01:p12",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided asset utilization 95%–105% for Q4 FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex outlay for FY27",
+       "comparison": "approx",
+       "value": 2500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "INR 2,500 crore is for FY27, not FY26. FY26 is already underway, that would involve spending of around INR 100 crore, bringing the total to approximately INR 1,200–1,300 crore.",
+       "source_id": "T:2026-02-01:p19",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex outlay for FY27 ≈ ₹2,500 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "additional capex spending for FY26",
+       "comparison": "approx",
+       "value": 100.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY26",
+       "quote": "FY26 is already underway, that would involve spending of around INR 100 crore, bringing the total to approximately INR 1,200–1,300 crore.",
+       "source_id": "T:2026-02-01:p19",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided additional capex spending for FY26 ≈ ₹100 Cr for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "total capex for FY26",
+       "comparison": "between",
+       "value": 1200.0,
+       "value_high": 1300.0,
+       "unit": "cr",
+       "period": "FY26",
+       "quote": "FY26 is already underway, that would involve spending of around INR 100 crore, bringing the total to approximately INR 1,200–1,300 crore.",
+       "source_id": "T:2026-02-01:p19",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided total capex for FY26 ₹1,200 Cr–₹1,300 Cr for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "CAPEX guidance for FY26",
+       "comparison": "approx",
+       "value": 1500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY26",
+       "quote": "More or less same.",
+       "source_id": "T:2025-11-01:p15",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided CAPEX guidance for FY26 ≈ ₹1,500 Cr for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Polycarbonate project CAPEX outlay for next 3 years",
+       "comparison": "between",
+       "value": 3000.0,
+       "value_high": 4000.0,
+       "unit": "cr",
+       "period": "FY26-FY28",
+       "quote": "It will be around INR 3,000 crore to INR 4,000 crore.",
+       "source_id": "T:2025-11-01:p16",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Polycarbonate project CAPEX outlay for next 3 years ₹3,000 Cr–₹4,000 Cr for FY26-FY28; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Polycarbonate project CAPEX for FY26",
+       "comparison": "approx",
+       "value": 3500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY26",
+       "quote": "So, INR 3,000 crore, INR 3,500 crore this year and then INR 4,000 crore next year.",
+       "source_id": "T:2025-11-01:p16",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Polycarbonate project CAPEX for FY26 ≈ ₹3,500 Cr for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Polycarbonate project CAPEX for FY27",
+       "comparison": "approx",
+       "value": 4000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "So, INR 3,000 crore, INR 3,500 crore this year and then INR 4,000 crore next year.",
+       "source_id": "T:2025-11-01:p16",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Polycarbonate project CAPEX for FY27 ≈ ₹4,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Total outlay for polycarbonate project",
+       "comparison": "approx",
+       "value": 9000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY26-FY28",
+       "quote": "Because the total outlay is around INR 9,000 crore.",
+       "source_id": "T:2025-11-01:p16",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Total outlay for polycarbonate project ≈ ₹9,000 Cr for FY26-FY28; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-08-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=830edde9-d00b-4243-98bd-a0e7c77d716b.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-08-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=830edde9-d00b-4243-98bd-a0e7c77d716b.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2026-08-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=830edde9-d00b-4243-98bd-a0e7c77d716b.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2026-05-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=589629dc-be30-42d5-8ed4-bb605071a9bc.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-05-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=589629dc-be30-42d5-8ed4-bb605071a9bc.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2026-02-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe2e422-45bb-44a8-a6e2-c9677c942a8d.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-02-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe2e422-45bb-44a8-a6e2-c9677c942a8d.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-02-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe2e422-45bb-44a8-a6e2-c9677c942a8d.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2025-11-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cea937b-ae35-415f-bec1-eb4943130e05.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2025-11-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cea937b-ae35-415f-bec1-eb4943130e05.pdf",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Deepak Nitrite Limited manufactures and trades a broad portfolio of chemicals, serving diverse end-use industries including agrochemicals, construction, automotive, and homecare. Its products are sold globally and domestically, with a focus on enabling domestic manufacturing and global supply chains.",
+    "segments": [
+     {
+      "name": "Advanced Intermediates (AI)",
+      "share_pct": 21.0,
+      "source_ids": [
+       "AR:2026:p234"
+      ]
+     },
+     {
+      "name": "Sodium Nitrite",
+      "share_pct": 15.0,
+      "source_ids": [
+       "AR:2026:p234"
+      ]
+     },
+     {
+      "name": "EHN",
+      "share_pct": 13.0,
+      "source_ids": [
+       "AR:2026:p234"
+      ]
+     },
+     {
+      "name": "Optical Brightening Agents",
+      "share_pct": 12.0,
+      "source_ids": [
+       "AR:2026:p234"
+      ]
+     },
+     {
+      "name": "4Nox",
+      "share_pct": 5.0,
+      "source_ids": [
+       "AR:2026:p234"
+      ]
+     },
+     {
+      "name": "TFMAP",
+      "share_pct": 5.0,
+      "source_ids": [
+       "AR:2026:p234"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p234",
+     "AR:2026:p141"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p234",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e9576f6d-6ec3-4f36-b0e0-2af594782e65.pdf",
+     "page": 234
+    },
+    {
+     "source_id": "AR:2026:p141",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/e9576f6d-6ec3-4f36-b0e0-2af594782e65.pdf",
+     "page": 141
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Revenue and PAT showed strong sequential recovery in recent quarters, with Jun 2026 revenue at ₹2,578 Cr and PAT at ₹345 Cr versus Sep 2025 revenue ₹1,902 Cr and PAT ₹119 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Balance sheet remains conservative with debt-to-equity of 0.28 and operating cash flow closely tracking PAT (0.99x over 3 years).",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management expects near-full utilization (95-105%) on nitric acid, nitration and hydrogenation assets from the current quarter onwards.",
+      "source_ids": [
+       "T:2026-02-01:p12"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Three-year CAGR shows revenue declining -0.4% and PAT declining -13.5%, with operating margin compressed from 16.2% to 12.5%.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "ROCE is low at 11% and margins are flagged as compressing.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Large capex of ~INR 11,000-11,500 crore planned with significant debt funding (target debt up to INR 8,000-8,500 crore) could pressure returns.",
+      "source_ids": [
+       "T:2026-08-01:p19",
+       "T:2026-05-01:p15"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/DEEPAKNTR/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-02-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe2e422-45bb-44a8-a6e2-c9677c942a8d.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-08-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=830edde9-d00b-4243-98bd-a0e7c77d716b.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2026-05-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=589629dc-be30-42d5-8ed4-bb605071a9bc.pdf",
+     "page": 15
+    }
+   ]
+  }
+ ]
+}
