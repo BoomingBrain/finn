@@ -9,7 +9,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 0 | Data spikes | Wed | ✅ Done | see log | NSE ✅, screener ✅, yfinance ✅, NVIDIA vision extraction 97% ✅, BSE API ❌. Cloud check from GitHub Actions ✅ |
 | 1 | Foundation: models, snapshot store, LLM router, request budget | Wed | ✅ Done | see log | 3/3 budget tests; smoke: snapshot round trip, real cached NVIDIA call |
 | 2 | Skeleton deploy: static site on HF Space, API on Render | Wed | ✅ Done | Space e6a2ac6 | Live: https://ayush-rai-230265-finn.static.hf.space · Render https://finn-zztc.onrender.com (health + CORS OK) |
-| 3 | Announcements source and classification | Thu | ⬜ Not started | | |
+| 3 | Announcements source and classification | Thu | ✅ Done | see log | 48 rule tests; live 30d: 224 filings, rules 92%, 1 LLM call |
 | 4 | Results card: column selection, units, lender layout | Thu | ⬜ Not started | | |
 | 5 | Vertical slice: ingest → Brief for one stock, deployed | Thu | ⬜ Not started | | |
 | 6 | Widen to 18 stocks, event clustering, profiles | Fri | ⬜ Not started | | |
@@ -42,6 +42,17 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 3 complete: announcements + classification
+- **`finn/sources/announcements.py`:** an NSE client (cookie warm-up, re-warm on 401/403, 0.5 s spacing) using the Task 0 field mapping. One failing symbol never drops the rest.
+- **`finn/push/classify.py`:**
+  - ordered regex rules over NSE category + subject + attachment filename
+  - `TIER_BY_CATEGORY` per Decisions
+  - `tier_for()` makes scheduling notices routine (e.g. "Infosys to Announce Second Quarter Results")
+  - one bulk LLM call per 25 leftovers, with out-of-enum answers → unclassified
+- **TDD:** 48 tests, written from real filings. The first live run exposed 8 misses (order wins, "Action(s) initiated", "Non Convertible Securities", QIP inside a run-together filename, guarantees, "Analyst(s)/Investor(s) meet", Q2/H1 analyst presentations). Each was added as a failing test, then fixed.
+- **Live smoke, all 18 holdings over 30 days:** 224 announcements in 19 s, 0 failures. Rules classify 205 (92%); the 19 leftovers took **one** LLM call. Tiers: 75 critical / 35 notable / 114 routine (results season; Task 6 clustering will fold results-day bundles).
+- **Known limitation:** some leftovers say almost nothing ("Outcome of Committee Meeting"), so the LLM guesses (e.g. postal_ballot for a Persistent committee outcome). They land in routine or notable. A later improvement is to read the attachment's first page for leftovers only.
 
 ### 2026-10-28 — Task 2 complete: live deploy
 - **Render:** the user created `finn-research` at https://finn-zztc.onrender.com (Singapore, free). `/api/health` returns 200 in 0.3–0.7 s; the CORS preflight from the Space origin is allowed.
