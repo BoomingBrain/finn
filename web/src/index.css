@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* Dark-first. Colour carries meaning only: tier (critical, notable) and direction (up, down). */
+:root {
+  --bg: #121a24;
+  --surface: #1a2431;
+  --line: #26323f;
+  --text: #e6e1d6;
+  --muted: #8c96a3;
+  --critical: #e8a33d;
+  --notable: #7fa7c9;
+  --up: #5dbb8a;
+  --down: #e0645c;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #eef1f4;
+    --surface: #ffffff;
+    --line: #d5dce3;
+    --text: #15202b;
+    --muted: #5b6673;
+    --critical: #b5730f;
+    --notable: #3f6f98;
+    --up: #1e8a55;
+    --down: #c23b33;
+    color-scheme: light;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-critical: var(--critical);
+  --color-notable: var(--notable);
+  --color-up: var(--up);
+  --color-down: var(--down);
+  --font-sans: "Public Sans", system-ui, sans-serif;
+  --font-serif: "Newsreader", Georgia, serif;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--notable);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

@@ -13,3 +13,6 @@ web/dist/
 .env.*
 # os
 .DS_Store
+
+# deploy artifact
+build/
