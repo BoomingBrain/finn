@@ -40,6 +40,7 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 34 | 2026-10-28 | "choose A and then proceed with the task" | Setting secrets via gh was blocked by the permission classifier (secret-store write); asked the user to add them (option B) or allow the action. |
 | 35 | 2026-10-28 | "all secrets added on the github" | Verified secrets exist, pushed the workflow, ran it end to end. |
 | 36 | 2026-10-28 | "ok continue with task 9" | Implemented Task 9 (screener.in source + deterministic metrics). |
+| 37 | 2026-10-28 | "proceed to task 10" | Implemented Task 10 (Promised vs Delivered); switched extraction to the reason tier after a bulk-vs-reason comparison. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

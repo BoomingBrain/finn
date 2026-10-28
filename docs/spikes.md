@@ -135,6 +135,11 @@ Read from the rendered page images. Every column passes its internal arithmetic 
 ### Prices (Task 7)
 - yfinance returns **a partial bar for the current session during market hours**. On 28 Oct, INFY showed −4.8% on ~6.2 M shares vs ~20–26 M on full days. `detect_signals` must ignore today's bar unless it is past 16:00 IST. Ingest runs scheduled before the close must drop it.
 
+### Guidance (Task 10, PIDILITIND, checked by hand 28 Oct)
+- Gold seeds for Task 14: EBITDA margin corridor 20–24% stated in the Nov 2025 (p5, p8), Feb 2026 (p10, p21: "upper end" for FY26), May 2026 (p12) and Aug 2026 (p12, p19) calls. A&SP 3–5% of sales (Nov 2025 p5) and capex 3–5% of revenue (May 2026 p15) are real but not checkable from screener rows.
+- Delivered: FY26 OPM 24.1% (3,521 ÷ 14,601) → met; Q1 FY27 26.2% (1,194 ÷ 4,552) → pending.
+- "Double digit" volume growth and "1x–2x GDP" are vague by design and must not become targets.
+
 ## Choices
 
 - **Thursday slice stock: INFY.** Results were filed 23 Oct 2026 16:08 IST, with a newspaper ad (24 Oct) and the auditor's report (23 Oct) filed alongside. That is a natural clustering example. Screener has the matching quarter for the cross-check.

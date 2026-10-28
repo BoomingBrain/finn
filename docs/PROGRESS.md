@@ -16,7 +16,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 7 | Prices, signals, alerts, Watch with backtest sliders | Fri | ✅ Done | 8e7293f | Live: alerts inbox + badge, unusual moves in Brief, sliders with 30-day evidence. Step 5 (notifications) ✂️ cut |
 | 8 | Scheduled ingestion | Fri | ✅ Done | 317dad2 | Actions every 2 h on market days + 19:00 IST daily; 2 runs green; Render ignores data commits |
 | 9 | screener.in source and deterministic metrics | Sat | ✅ Done | see log | 11 metric tests; live KOTAKBANK/NAUKRI/CDSL + unknown ticker OK |
-| 10 | Promised vs Delivered | Sat | ⬜ Not started | | |
+| 10 | Promised vs Delivered | Sat | ✅ Done | see log | 27 guidance tests; Pidilite 4 calls: FY26 margin met (24.1% vs 20–24%), FY27 pending at 26.2% |
 | 11 | Dossier builder, citation guard, precompute demo set | Sat | ⬜ Not started | | |
 | 12 | Research API, live fetch fallback, cost guard | Sat | ⬜ Not started | | |
 | 13 | Ask screen and "Ask about this" | Sat | ⬜ Not started | | |
@@ -42,6 +42,21 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 10 complete: Promised vs Delivered
+- **`finn/pull/guidance.py`:** `GuidanceTarget`, `resolve_period` (Indian FY: FY27 = Jun 2026 … Mar 2027; Q/H/FY, 2- or 4-digit years), `actual_for` (growth = period ÷ same quarters a year earlier; margin = Σ op profit ÷ Σ revenue; sums for revenue/PAT; partial periods give the tracking value), `judge`, `extract_targets`, `explain`, `assess_delivery`.
+- **Code judges, model explains.** The verdict is computed before the model sees the row and is passed as fixed; a line that names a different verdict ("missed" for a met row) is replaced by the template. Not-checkable rows never reach the model.
+- **Grounding guards on extraction:**
+  - the page id must be one that was sent (brackets stripped)
+  - ≥ 80% of the quote's words must be on that page
+  - `forward_looking` must be true, which drops past results
+  - zero values are dropped
+  - unlisted metrics (e.g. `volume_growth`) become `other`; one malformed item is dropped alone instead of failing the reply
+- **Changes from the plan, with evidence:**
+  - **Extraction uses the reason tier, not bulk.** On the Pidilite Aug 2026 call the bulk model labelled past results, volume growth and "1x–2x GDP" as revenue targets; the reasoning model returned only the real target (20–24% EBITDA margin band). Chunks of 16k chars run in parallel (4 workers); about 45–115 s per transcript.
+  - **`between` counts beating the top of the range as met.** Every checkable metric is higher-is-better; Pidilite running at 26.2% against a 20–24% band is not a miss.
+- **Live smoke (Pidilite, last 4 transcripts):** 10 targets → 5 rows after dedupe. FY26 margin **met** (24.1% over 4 quarters, matches Task 9's annual OPM); FY27 margin **pending** (26.2% after Q1, hand-checked 1,194 ÷ 4,552); capex, A&SP and price-over-volume spread **not checkable**. Quotes verified on the cited pages (p12, p19 of the Aug 2026 call).
+- 167 backend tests pass.
 
 ### 2026-10-28 — Task 9 complete: screener.in source + metrics
 - **`finn/sources/screener.py`:**
