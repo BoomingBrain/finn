@@ -63,3 +63,16 @@ export interface EventsFile {
   as_of: string;
   events: Event[];
 }
+
+export interface DayMetric {
+  date: string;
+  close: number;
+  change_pct: number;
+  volume_multiple: number | null;
+}
+
+export interface SignalsFile {
+  as_of: string;
+  names: Record<string, string>;
+  series: Record<string, DayMetric[]>;
+}

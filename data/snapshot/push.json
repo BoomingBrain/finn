@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-28T13:54:19.707157+05:30",
+ "as_of": "2026-10-28T14:07:41.479024+05:30",
  "announcements": [
   {
    "announcement": {
@@ -14,44 +14,8 @@
     "source": "nse"
    },
    "category": "M&A",
-   "tier": "critical",
+   "tier": "notable",
    "summary": "Titan Company incorporated Titan Company Canada Inc. as a wholly owned subsidiary with 5000 CAD share capital to retail jewellery and…",
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "477b3af1891042206bf7437749059580d59c8f5c",
-    "symbol": "KPITTECH",
-    "company": "KPIT Technologies Limited",
-    "filed_at": "2026-10-28T13:28:05+05:30",
-    "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam.",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf",
-    "raw_category": "Acquisition",
-    "source": "nse"
-   },
-   "category": "M&A",
-   "tier": "critical",
-   "summary": "Board approved incorporation of a wholly owned subsidiary in Vietnam to leverage skilled talent, strengthen customer engagements…",
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "b4a6ea151a8fba4b83f11cc82497dc15686b1fa8",
-    "symbol": "KPITTECH",
-    "company": "KPIT Technologies Limited",
-    "filed_at": "2026-10-28T13:28:05+05:30",
-    "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf",
-    "raw_category": "Sale or disposal",
-    "source": "nse"
-   },
-   "category": "M&A",
-   "tier": "critical",
-   "summary": "Board approved strike-off of wholly owned step-down subsidiary Somit UK, fully integrated into KPIT UK, reducing compliance costs with no…",
    "results": null,
    "profile": null
   },
@@ -99,6 +63,42 @@
    "category": "unclassified",
    "tier": "routine",
    "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "477b3af1891042206bf7437749059580d59c8f5c",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-28T13:28:05+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf",
+    "raw_category": "Acquisition",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "notable",
+   "summary": "Board approved incorporation of a wholly owned subsidiary in Vietnam to leverage skilled talent, strengthen customer engagements…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b4a6ea151a8fba4b83f11cc82497dc15686b1fa8",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-28T13:28:05+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf",
+    "raw_category": "Sale or disposal",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "notable",
+   "summary": "Board approved strike-off of wholly owned step-down subsidiary Somit UK, fully integrated into KPIT UK, reducing compliance costs with no…",
    "results": null,
    "profile": null
   },
@@ -638,7 +638,7 @@
     "source": "nse"
    },
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "summary": "Sun Pharma allotted 781,600 unsecured NCDs with aggregate face value of INR 7,816 crore (Series A: 200,300 debentures at 8.05% p.a.…",
    "results": null,
    "profile": null
@@ -1164,7 +1164,7 @@
     "source": "nse"
    },
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "summary": "Bajaj Finance allotted 212,000 Secured Redeemable Non-Convertible Debentures of Rs. 1 Lakh each, aggregating Rs. 2,120 crore, with zero…",
    "results": null,
    "profile": null
@@ -1268,24 +1268,6 @@
   },
   {
    "announcement": {
-    "id": "08dd9af409d8c51119a1a4f7f4f1619c0bfffa8e",
-    "symbol": "BAJFINANCE",
-    "company": "Bajaj Finance Limited",
-    "filed_at": "2026-10-19T17:57:20+05:30",
-    "subject": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf",
-    "raw_category": "Issue of Securities",
-    "source": "nse"
-   },
-   "category": "fund_raise",
-   "tier": "critical",
-   "summary": "Board approved issue of 4,900,737 equity shares of face value Re. 1 to the BFL Employee Welfare Trust under the 2009 Stock Option Scheme.",
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
     "id": "96e5b009050b60d877ce088496daed5a4a17dc2d",
     "symbol": "BAJFINANCE",
     "company": "Bajaj Finance Limited",
@@ -1311,6 +1293,24 @@
      "security auditor and consultant"
     ]
    }
+  },
+  {
+   "announcement": {
+    "id": "08dd9af409d8c51119a1a4f7f4f1619c0bfffa8e",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-19T17:57:20+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf",
+    "raw_category": "Issue of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Board approved issue of 4,900,737 equity shares of face value Re. 1 to the BFL Employee Welfare Trust under the 2009 Stock Option Scheme.",
+   "results": null,
+   "profile": null
   },
   {
    "announcement": {
@@ -1457,7 +1457,7 @@
     "source": "nse"
    },
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "summary": "Titan Company fully redeemed ₹1000 crore of Commercial Paper (ISIN: INE280A14591) issued on 21st July 2026, with maturity proceeds paid to…",
    "results": null,
    "profile": null
@@ -2994,7 +2994,7 @@
     "source": "nse"
    },
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "summary": "Bajaj Finance allotted 51,000 Secured Redeemable Non-Convertible Debentures of Rs. 1 Lakh each at 7.78% p.a. interest, aggregating Rs.…",
    "results": null,
    "profile": null
@@ -3084,7 +3084,7 @@
     "source": "nse"
    },
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "summary": "Titan Company fully redeemed ₹825 crore of Commercial Paper (ISIN: INE280A14583) issued on 10 July 2026, with maturity proceeds paid to…",
    "results": null,
    "profile": null
@@ -3932,7 +3932,7 @@
     "source": "nse"
    },
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "summary": "Reliance allotted 1.3 million unsecured, redeemable NCDs (PPD Series R) of Rs. 1 lakh each on Oct 1, 2026, at 7.90% coupon, maturing Oct…",
    "results": null,
    "profile": null
@@ -4131,7 +4131,7 @@
     "source": "nse"
    },
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "summary": "Avenue Supermarts allotted Rs. 500 crores of unsecured Commercial Paper with ICRA A1+ rating, maturing on 29th December 2026 at 6.12%…",
    "results": null,
    "profile": null
@@ -4347,7 +4347,7 @@
     "source": "nse"
    },
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "summary": "Avenue Supermarts repaid 6,000 commercial papers (ISIN INE192R14352) worth Rs. 300 crores at maturity on 29th September 2026, leaving…",
    "results": null,
    "profile": null
@@ -4574,7 +4574,7 @@
     "source": "nse"
    },
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "summary": "Avenue Supermarts repaid 4,000 commercial papers (ISIN INE192R14345) worth Rs. 200 crores at maturity on 28th September 2026, leaving…",
    "results": null,
    "profile": null

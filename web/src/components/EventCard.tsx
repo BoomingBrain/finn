@@ -7,11 +7,11 @@ import { ResultsCard } from "./ResultsCard";
 
 const RULE: Record<Event["tier"], string> = { critical: "bg-critical", notable: "bg-notable", routine: "bg-line" };
 
-export function EventCard({ event }: { event: Event }) {
+export function EventCard({ event, focused = false }: { event: Event; focused?: boolean }) {
   const leadUrl = event.documents.find((d) => d.title === event.headline)?.url ?? event.documents[0]?.url ?? null;
   const hasCard = event.results?.status === "ok";
   return (
-    <article className="relative border-t border-line py-4 pl-4">
+    <article id={`event-${event.id}`} className={`relative scroll-mt-4 border-t border-line py-4 pl-4 ${focused ? "bg-surface" : ""}`}>
       <span aria-hidden="true" className={`absolute top-4 bottom-4 left-0 w-[3px] rounded-full ${RULE[event.tier]}`} />
       <header className="flex items-baseline justify-between gap-3">
         <h3 className="font-serif text-[19px] leading-tight font-medium">{event.company}</h3>

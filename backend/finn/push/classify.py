@@ -86,8 +86,24 @@ def classify_rule(subject: str, raw_category: str | None = None, attachment: str
     return next((category for category, rx in _COMPILED if rx.search(text)), None)
 
 
+# Housekeeping inside critical categories: setting up a subsidiary, or a routine debt allotment (lenders issue NCDs
+# weekly). Real acquisitions, divestments, QIPs, rights issues, preferential allotments and buybacks stay critical.
+_HOUSEKEEPING = {
+    "M&A": re.compile(r"^(?!.*(acqui|divest|merger|amalgamat|demerger|stake|joint venture)).*"
+                      r"(incorporat\w*|strike[- ]off|struck off|voluntary liquidation|winding up)\b.{0,80}\bsubsidiar",
+                      re.I),
+    "fund_raise": re.compile(r"non[- ]?convertible|debenture|\bncds?\b|commercial paper|\bbonds?\b", re.I),
+}
+_EQUITY_RAISE = re.compile(r"qip|qualified institution|rights issue|preferential|buy-?back|warrant", re.I)
+
+
 def tier_for(category: Category, subject: str) -> Tier:
-    return "routine" if _NOTICE.search(subject) else TIER_BY_CATEGORY[category]
+    if _NOTICE.search(subject):
+        return "routine"
+    housekeeping = _HOUSEKEEPING.get(category)
+    if housekeeping and housekeeping.search(subject) and not _EQUITY_RAISE.search(subject):
+        return "notable"
+    return TIER_BY_CATEGORY[category]
 
 
 class _Label(BaseModel):

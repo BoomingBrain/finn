@@ -6,7 +6,7 @@ from pathlib import Path
 
 from pydantic import TypeAdapter
 
-from finn.models import Bar, EventsFile, PushSnapshot
+from finn.models import Bar, EventsFile, PushSnapshot, SignalsFile
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_ROOT = REPO_ROOT / "data" / "snapshot"
@@ -33,6 +33,10 @@ class SnapshotStore:
 
     def save_events(self, feed: EventsFile) -> None:
         self._write("events.json", feed.model_dump_json(indent=1))
+
+    # signals.json
+    def save_signals(self, signals: SignalsFile) -> None:
+        self._write("signals.json", signals.model_dump_json(indent=1))
 
     # prices.json
     def load_prices(self) -> dict[str, list[Bar]]:

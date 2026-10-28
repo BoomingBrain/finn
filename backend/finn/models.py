@@ -108,6 +108,20 @@ class Bar(BaseModel):
     volume: float
 
 
+class DayMetric(BaseModel):
+    date: date
+    close: float
+    change_pct: float
+    volume_multiple: float | None  # None when there is too little history to compare against
+
+
+class SignalsFile(BaseModel):
+    """signals.json: per-day metrics the browser compares with the investor's thresholds."""
+    as_of: datetime
+    names: dict[str, str]
+    series: dict[str, list[DayMetric]]
+
+
 class Signal(BaseModel):
     id: str
     symbol: str

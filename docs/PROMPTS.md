@@ -35,6 +35,7 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 29 | 2026-10-28 | Task 5 description pasted ("The first end-to-end proof … calm empty and stale states.") | Implemented Task 5. |
 | 30 | 2026-10-28 | Task 6 description pasted ("Scales the slice to the whole portfolio and removes the noise of results day … or an honest \"No profile in filing\"") | Implemented Task 6. |
 | 31 | 2026-10-28 | "its done/" | Checked the finished 18-stock ingest. |
+| 32 | 2026-10-28 | Task 7 description pasted ("Adds the \"unusual move\" half of Push … chosen with evidence rather than guessed") | Implemented Task 7. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

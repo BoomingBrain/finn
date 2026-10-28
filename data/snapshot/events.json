@@ -1,12 +1,12 @@
 {
- "as_of": "2026-10-28T13:54:19.707157+05:30",
+ "as_of": "2026-10-28T14:07:41.479024+05:30",
  "events": [
   {
    "id": "e5ebb46ce6a6fd9a2d6a83ddc471e7fd740a2742",
    "symbol": "TITAN",
    "company": "Titan Company Limited",
    "category": "M&A",
-   "tier": "critical",
+   "tier": "notable",
    "first_at": "2026-10-28T13:49:00+05:30",
    "last_at": "2026-10-28T13:49:00+05:30",
    "headline": "The Company has incorporated Titan Company Canada Inc. as its wholly owned subsidiary",
@@ -53,34 +53,6 @@
    "price_date": null
   },
   {
-   "id": "477b3af1891042206bf7437749059580d59c8f5c",
-   "symbol": "KPITTECH",
-   "company": "KPIT Technologies Limited",
-   "category": "M&A",
-   "tier": "critical",
-   "first_at": "2026-10-28T13:28:05+05:30",
-   "last_at": "2026-10-28T13:28:05+05:30",
-   "headline": "The Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam",
-   "summary": "Board approved incorporation of a wholly owned subsidiary in Vietnam to leverage skilled talent, strengthen customer engagements…",
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "The Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam",
-     "url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf",
-     "filed_at": "2026-10-28T13:28:05+05:30"
-    },
-    {
-     "title": "The Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company",
-     "url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf",
-     "filed_at": "2026-10-28T13:28:05+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
    "id": "c95a5fca41bb77726f4bf01579772cbd3b860ccf",
    "symbol": "KPITTECH",
    "company": "KPIT Technologies Limited",
@@ -107,6 +79,34 @@
     {
      "title": "Appointment of Independent Director, Mr. Anant Talaulicar - Chairman of the Board, on the Board of KPIT Technologies Inc., material subsidiary of the Company w.e.f. October 28, 2026",
      "url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132119_1_Outcome.pdf",
+     "filed_at": "2026-10-28T13:28:05+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "477b3af1891042206bf7437749059580d59c8f5c",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "category": "M&A",
+   "tier": "notable",
+   "first_at": "2026-10-28T13:28:05+05:30",
+   "last_at": "2026-10-28T13:28:05+05:30",
+   "headline": "The Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam",
+   "summary": "Board approved incorporation of a wholly owned subsidiary in Vietnam to leverage skilled talent, strengthen customer engagements…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "The Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam",
+     "url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf",
+     "filed_at": "2026-10-28T13:28:05+05:30"
+    },
+    {
+     "title": "The Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf",
      "filed_at": "2026-10-28T13:28:05+05:30"
     }
    ],
@@ -589,9 +589,9 @@
      "filed_at": "2026-10-26T23:25:38+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.3,
+   "volume_multiple": 1.3,
+   "price_date": "2026-10-27"
   },
   {
    "id": "e50bb6d079b4279f7950b06d2d1088efebe8950a",
@@ -612,9 +612,9 @@
      "filed_at": "2026-10-26T23:21:37+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.3,
+   "volume_multiple": 1.3,
+   "price_date": "2026-10-27"
   },
   {
    "id": "dc75cd5c2871336362c7d50fe05da61b19954bd6",
@@ -667,7 +667,7 @@
    "symbol": "SUNPHARMA",
    "company": "Sun Pharmaceutical Industries Limited",
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "first_at": "2026-10-26T12:30:34+05:30",
    "last_at": "2026-10-26T12:30:34+05:30",
    "headline": "Allotment of 781600 securities pursuant to Non Convertible Securities at its meeting held on October 26, 2026",
@@ -1220,7 +1220,7 @@
    "symbol": "BAJFINANCE",
    "company": "Bajaj Finance Limited",
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "first_at": "2026-10-21T12:29:52+05:30",
    "last_at": "2026-10-21T12:29:52+05:30",
    "headline": "Allotment of 2,12,000 securities pursuant to Non Convertible Securities at its meeting held on October 21, 2026",
@@ -1361,29 +1361,6 @@
    "price_date": "2026-10-21"
   },
   {
-   "id": "08dd9af409d8c51119a1a4f7f4f1619c0bfffa8e",
-   "symbol": "BAJFINANCE",
-   "company": "Bajaj Finance Limited",
-   "category": "fund_raise",
-   "tier": "critical",
-   "first_at": "2026-10-19T17:57:20+05:30",
-   "last_at": "2026-10-19T17:57:20+05:30",
-   "headline": "Issue of Securities",
-   "summary": "Board approved issue of 4,900,737 equity shares of face value Re. 1 to the BFL Employee Welfare Trust under the 2009 Stock Option Scheme.",
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Issue of Securities",
-     "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf",
-     "filed_at": "2026-10-19T17:57:20+05:30"
-    }
-   ],
-   "price_change_pct": -3.3,
-   "volume_multiple": 2.4,
-   "price_date": "2026-10-21"
-  },
-  {
    "id": "96e5b009050b60d877ce088496daed5a4a17dc2d",
    "symbol": "BAJFINANCE",
    "company": "Bajaj Finance Limited",
@@ -1409,6 +1386,29 @@
     {
      "title": "Change in Management",
      "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175648_Change_in_SMT_Prashant_Verma_CISO_signed.pdf",
+     "filed_at": "2026-10-19T17:57:20+05:30"
+    }
+   ],
+   "price_change_pct": -3.3,
+   "volume_multiple": 2.4,
+   "price_date": "2026-10-21"
+  },
+  {
+   "id": "08dd9af409d8c51119a1a4f7f4f1619c0bfffa8e",
+   "symbol": "BAJFINANCE",
+   "company": "Bajaj Finance Limited",
+   "category": "fund_raise",
+   "tier": "critical",
+   "first_at": "2026-10-19T17:57:20+05:30",
+   "last_at": "2026-10-19T17:57:20+05:30",
+   "headline": "Issue of Securities",
+   "summary": "Board approved issue of 4,900,737 equity shares of face value Re. 1 to the BFL Employee Welfare Trust under the 2009 Stock Option Scheme.",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Issue of Securities",
+     "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf",
      "filed_at": "2026-10-19T17:57:20+05:30"
     }
    ],
@@ -1583,7 +1583,7 @@
    "symbol": "TITAN",
    "company": "Titan Company Limited",
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "first_at": "2026-10-19T16:11:44+05:30",
    "last_at": "2026-10-19T16:11:44+05:30",
    "headline": "Redemption of Commercial Paper",
@@ -3231,7 +3231,7 @@
    "symbol": "BAJFINANCE",
    "company": "Bajaj Finance Limited",
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "first_at": "2026-10-09T12:14:37+05:30",
    "last_at": "2026-10-09T12:14:37+05:30",
    "headline": "Allotment of 51000 securities pursuant to Non Convertible Securities at its meeting held on October 09, 2026",
@@ -3310,7 +3310,7 @@
    "symbol": "TITAN",
    "company": "Titan Company Limited",
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "first_at": "2026-10-08T16:12:50+05:30",
    "last_at": "2026-10-08T16:12:50+05:30",
    "headline": "Redemption of Commercial Paper",
@@ -4235,7 +4235,7 @@
    "symbol": "RELIANCE",
    "company": "Reliance Industries Limited",
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "first_at": "2026-10-01T15:02:20+05:30",
    "last_at": "2026-10-01T15:02:20+05:30",
    "headline": "We wish to inform that the Company has today allotted 13,00,000 Unsecured, Redeemable, Non-Convertible Debentures (\"NCDs\") of the face value of Rs. 1,00,000 each (\"PPD Series R\"), issued on private placement basis",
@@ -4411,7 +4411,7 @@
    "symbol": "DMART",
    "company": "Avenue Supermarts Limited",
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "first_at": "2026-09-30T17:29:51+05:30",
    "last_at": "2026-09-30T17:29:51+05:30",
    "headline": "Allotment of Commercial Paper of Rs. 500 crores",
@@ -4610,7 +4610,7 @@
    "symbol": "DMART",
    "company": "Avenue Supermarts Limited",
    "category": "fund_raise",
-   "tier": "critical",
+   "tier": "notable",
    "first_at": "2026-09-28T18:27:00+05:30",
    "last_at": "2026-09-29T18:39:20+05:30",
    "headline": "Repayment Of Commercial Paper",

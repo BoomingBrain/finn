@@ -11,10 +11,11 @@ from datetime import datetime, timedelta
 from pydantic import BaseModel
 
 from finn.llm import LLM
-from finn.models import IST, EventsFile, PushSnapshot
+from finn.models import IST, EventsFile, PushSnapshot, SignalsFile
 from finn.portfolio import load_portfolio
 from finn.push.classify import classify, classify_rule
 from finn.push.enrich import enrich
+from finn.push.signals import daily_metrics
 from finn.push.cluster import cluster_events
 from finn.snapshot import SnapshotStore
 from finn.sources.announcements import fetch_announcements
@@ -22,6 +23,7 @@ from finn.sources.prices import fetch_eod
 
 log = logging.getLogger(__name__)
 RETAIN_DAYS = 60
+SIGNAL_SESSIONS = 60
 
 
 class IngestReport(BaseModel):
@@ -64,6 +66,9 @@ def ingest(symbols: list[str] | None, days: int, store: SnapshotStore, llm: LLM,
     except Exception as e:  # keep the last good prices; events still publish
         log.warning("price fetch failed: %s", e)
     store.save_events(EventsFile(as_of=now, events=cluster_events(items, prices)))
+    store.save_signals(SignalsFile(
+        as_of=now, names={h.symbol: h.name for h in portfolio.holdings if h.symbol in prices},
+        series={s: daily_metrics(bars, now)[-SIGNAL_SESSIONS:] for s, bars in prices.items()}))
     return IngestReport(fetched=len(result.items), new=len(new),
                         enriched=sum(1 for e in enriched if e.results or e.summary or e.profile),
                         failed_sources=result.failed)

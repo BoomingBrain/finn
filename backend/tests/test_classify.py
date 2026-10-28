@@ -110,3 +110,24 @@ def test_tier_follows_category():
 ])
 def test_scheduling_notices_are_routine(subject):
     assert tier_for("results", subject) == "routine"
+
+
+# Task 7 review: routine corporate housekeeping inside "critical" categories is noise
+@pytest.mark.parametrize("category, subject, expected", [
+    ("M&A", "The Company has incorporated Titan Company Canada Inc. as its wholly owned subsidiary", "notable"),
+    ("M&A", "The Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary "
+            "of the Company in Vietnam", "notable"),
+    ("M&A", "The Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, a wholly owned "
+            "subsidiary", "notable"),
+    ("M&A", "Acquisition of 51% stake in ABC Pvt Ltd", "critical"),
+    ("M&A", "Acquisition of XYZ Pte Ltd, a company incorporated in Singapore, which becomes a wholly owned subsidiary",
+     "critical"),
+    ("M&A", "Proposed divestment of its entire shareholding (100%) in its wholly owned subsidiary", "critical"),
+    ("fund_raise", "Allotment of 781600 securities pursuant to Non Convertible Securities at its meeting held on "
+                   "October 26, 2026", "notable"),
+    ("fund_raise", "Issue of commercial paper", "notable"),
+    ("fund_raise", "Allotment of 7683981 securities pursuant to Qualified Institution Placement", "critical"),
+    ("fund_raise", "Board approves buyback of equity shares", "critical"),
+])
+def test_routine_housekeeping_is_notable(category, subject, expected):
+    assert tier_for(category, subject) == expected
