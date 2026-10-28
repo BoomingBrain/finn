@@ -59,6 +59,8 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 53 | 2026-10-28 | "can we add a progress bar which actually work for the analysis being done?" | Server reports real completed steps (financials, each call, delivery check, annual report, bull/bear) as `progress` SSE events; Ask shows the current step, a bar and "N of M steps". Unexpected failures now end with an error event instead of a silent close. |
 | 54 | 2026-10-28 | "how to solve this 3 request per hour thing" | Explained why the cap exists and the shared-office-IP problem; proposed a global queue. |
 | 55 | 2026-10-28 | "i want. you to increase the limit and also queue it and notify when its done" | Per-IP limit 3 → 20 (only new builds count); `ResearchHub` runs at most 2 builds at once with queue positions, joins duplicate requests and keeps building after the viewer leaves; app-level research store, "Notify me" (system notification) and an in-app ready banner. |
+| 56 | 2026-10-28 | "it updates all the report daily?" | Explained the daily check: rebuild only on new results, concall, annual report or a failed section. |
+| 57 | 2026-10-28 | "it should check only the holding for update not other companies" | Daily job now uses `--holdings` (18 holdings only); other dossiers keep their build date. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

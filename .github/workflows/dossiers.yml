@@ -1,10 +1,10 @@
 name: dossiers
-# Keeps research dossiers present and current, daily after the evening ingest:
-#   - every holding and demo ticker always has a dossier (missing ones are built)
+# Keeps the portfolio's research current, daily after the evening ingest. Only the 18 holdings are checked:
+#   - a holding without a dossier gets one
 #   - a dossier with a failed section is retried
 #   - a dossier whose sources changed (new results quarter, new concall, new annual report) is rebuilt;
 #     unchanged ones cost one cached screener fetch and no model calls
-# Dossiers saved live by the research server are in data/snapshot/dossiers too, so they are kept current the same way.
+# Other companies (demo tickers, dossiers saved from live research) keep the dossier as built; each shows its date.
 on:
   schedule:
     - cron: "30 14 * * *"   # 20:00 IST daily
@@ -42,12 +42,12 @@ jobs:
           key: finn-cache-${{ github.run_id }}
           restore-keys: finn-cache-
 
-      - name: Build missing, failed and outdated dossiers
+      - name: Build missing, failed and outdated dossiers for the holdings
         working-directory: backend
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           FINN_CONCURRENCY_REASON: "3"
-        run: uv run python -m finn.pull.dossier --all --mode "${{ github.event.inputs.mode || 'refresh' }}" --parallel 2
+        run: uv run python -m finn.pull.dossier --holdings --mode "${{ github.event.inputs.mode || 'refresh' }}" --parallel 2
 
       - name: Commit dossiers
         id: commit

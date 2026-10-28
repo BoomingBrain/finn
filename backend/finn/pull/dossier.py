@@ -280,16 +280,21 @@ def main():
     parser = argparse.ArgumentParser(description="Precompute research dossiers")
     parser.add_argument("--all", action="store_true",
                         help="every holding, the research demo tickers and every saved dossier")
+    parser.add_argument("--holdings", action="store_true", help="only the portfolio's holdings (the daily refresh)")
     parser.add_argument("--symbols", help="comma-separated tickers")
     parser.add_argument("--mode", choices=["all", "missing", "failed", "refresh"], default="all",
                         help="all: rebuild; missing: only absent; failed: absent or failed; refresh: also outdated")
     parser.add_argument("--parallel", type=int, default=3)
     args = parser.parse_args()
     store = SnapshotStore()
-    symbols = (sorted(set(demo_symbols()) | set(store.list_dossiers())) if args.all
-               else [s.strip().upper() for s in (args.symbols or "").split(",") if s.strip()])
+    if args.holdings:
+        symbols = [h.symbol for h in load_portfolio().holdings]
+    elif args.all:
+        symbols = sorted(set(demo_symbols()) | set(store.list_dossiers()))
+    else:
+        symbols = [s.strip().upper() for s in (args.symbols or "").split(",") if s.strip()]
     if not symbols:
-        parser.error("pass --all or --symbols")
+        parser.error("pass --holdings, --all or --symbols")
     asyncio.run(_precompute(symbols, store, LLM(), args.mode, args.parallel))
     write_symbols(store)
     print(LLM().usage())
