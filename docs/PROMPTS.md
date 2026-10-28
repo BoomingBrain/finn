@@ -15,6 +15,10 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 9 | 2026-10-28 | "complete task 0" | GitHub repo creation was blocked by the permission system; the API key is not set. Nothing uploaded. |
 | 10 | 2026-10-28 | "ignore the github repo creation for now add all things locally only rest task 0 is done/" | Marked Task 0 done with both open checks deferred; all work stays local. |
 | 11 | 2026-10-28 | "what are the results of task 0 every call and data retrival works?" | Per-source results summary (no new runs). |
+| 12 | 2026-10-28 | "instead of using antropic api key i will use nvdia free model APIs suggest me api that will work well" | Researched NVIDIA API catalog models; recommendation given. |
+| 13 | 2026-10-28 | "what 5 models we will use list them" | Listed the 5 NVIDIA models and their roles. |
+| 14 | 2026-10-28 | "i have to get 5 api key or just 1 api key" | Answered: one key covers all models. |
+| 15 | 2026-10-28 | "i have added the api key try it and complete task 0" | Ran NVIDIA model access check and the results extraction spike; closed Task 0. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

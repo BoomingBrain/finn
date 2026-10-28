@@ -6,7 +6,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 
 | # | Task | Day | Status | Commit | Notes |
 |---|---|---|---|---|---|
-| 0 | Data spikes | Wed | ✅ Done | 247448d | NSE ✅, screener ✅, yfinance ✅, BSE API ❌. Deferred: LLM extraction check (to Task 4), Actions cloud check (no remote) |
+| 0 | Data spikes | Wed | ✅ Done | see log | NSE ✅, screener ✅, yfinance ✅, NVIDIA vision extraction 97% ✅, BSE API ❌. Deferred: Actions cloud check (no remote) |
 | 1 | Foundation: models, snapshot store, LLM router, spend budget | Wed | ⬜ Not started | | |
 | 2 | Skeleton deploy: one service, web shell | Wed | ⬜ Not started | | |
 | 3 | Announcements source and classification | Thu | ⬜ Not started | | |
@@ -29,7 +29,7 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 | Night | "Demo must work" | Result |
 |---|---|---|
-| Wed 28 | Deployed shell opens on a phone; spikes recorded | Spikes done (2 checks deferred) |
+| Wed 28 | Deployed shell opens on a phone; spikes recorded | ✅ Spikes done (cloud check deferred); deploy not attempted (local-only) |
 | Thu 29 | Deployed Brief shows one real results card | |
 | Fri 30 | Brief + Watch on all 18 stocks; lender cards; backtest sliders | |
 | Sat 31 | 4 demo dossiers instant; unseen ticker streams or fails cleanly | |
@@ -42,6 +42,21 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 0 complete: LLM provider switched to NVIDIA
+- **Provider:** the user chose NVIDIA's free API catalog over Anthropic. One `nvapi-` key in `.env`.
+- **Model access:** NVIDIA's own Nemotron models work and are fast. Kimi K2.6 returned 404 (not on this account); DeepSeek V4.1 Flash and GLM 5.3 timed out.
+- **Models chosen:**
+  - vision `nemotron-3.5-super-vl-120b-a12b`
+  - bulk `nemotron-3.5-lightning-30b-a3b` (thinking off)
+  - reason `nemotron-3-ultra-550b-a55b`
+- **Results extraction, scored against the hand-checked values:**
+  - **page image → vision model: 97% (64/66 fields over 3 runs).**
+  - PDF OCR text → text model: 18%.
+  - nemotron-parse → text model: 3%.
+- **The single miss (HDFCBANK Q2 PBT, one digit) repeats on every run.** Arithmetic checks (PBT − tax ≠ PAT) catch it, and a 200-dpi re-read fixes it. Task 4 now uses read → check arithmetic → re-read once → else "unreadable".
+- **Plan updated:** Tech Stack, the Models decision, the cost constraint (a request budget plus a 35/min throttle, since the models are free), Task 1 `llm.py` interfaces and tests, the Task 2 secrets, Task 4 extraction, and Task 12 env vars.
+- **Removed** the unused `anthropic` package from the spike environment.
 
 ### 2026-10-28 — Task 0 closed
 - The user closed Task 0 and asked to keep everything **local**, with no GitHub repo for now.

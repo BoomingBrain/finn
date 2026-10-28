@@ -1,6 +1,6 @@
 # Task 0 — Data source spikes
 
-Run on **Wed 28 Oct 2026** from the developer's Mac (residential IP). Scripts are in `spikes/`; every real response is saved under `backend/tests/fixtures/`. Per the plan's Global Constraints, **this file overrides any endpoint, field name or source choice written in the plan.**
+Run on **Wed 28 Oct 2026** from the developer's Mac (residential IP). **Status: complete.** The cloud check is deferred because the user chose local-only, with no GitHub repo. Scripts are in `spikes/`; every real response is saved under `backend/tests/fixtures/`. Per the plan's Global Constraints, **this file overrides any endpoint, field name or source choice written in the plan.**
 
 ## Findings
 
@@ -12,7 +12,53 @@ Run on **Wed 28 Oct 2026** from the developer's Mac (residential IP). Scripts ar
 | screener.in company page | ✅ 200, **no login wall**, all sections present. 20 rapid requests → 20 × 200 (no 429). | ⏳ | none seen | **screener.in** | — (cache responses 24 h anyway) |
 | screener.in → transcript / AR PDFs | ✅ links point to `bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=…` and download fine (PIDILITIND Aug 2026 transcript, 305 KB). | ⏳ | none | screener links | — |
 | yfinance EOD (`.NS`) | ✅ INFY.NS, HDFCBANK.NS | ⏳ | none seen | **yfinance** | — |
-| Haiku extraction of results numbers | ⏳ **not run: `ANTHROPIC_API_KEY` not set.** Script ready: `cd spikes && uv run python results_llm_spike.py` | n/a | — | page **image** → Haiku (expected) | OCR text → Haiku (scored by the same script) |
+| LLM extraction of results numbers (NVIDIA API) | ✅ **97% (64/66 fields over 3 runs)** with `nemotron-3.5-super-vl` reading the page image; the one deterministic misread is fixed by a 200-dpi re-read | n/a | ~40 RPM per key (community figure) | **vision model on the page image** | OCR text is unusable (18%) |
+
+## LLM provider: NVIDIA API catalog (tested 28 Oct)
+
+The user chose NVIDIA's free hosted models over Anthropic.
+- Endpoint: `https://integrate.api.nvidia.com/v1/chat/completions`, using the OpenAI request format.
+- Key: one `nvapi-` key in `.env` as `NVIDIA_API_KEY`. The user's line has a space before `=`, so the loader must strip whitespace.
+- Limit: ~40 requests/min, shared across all models.
+
+### Model access
+
+| Model | Access | Latency ("Reply OK") | Role |
+|---|---|---|---|
+| `nvidia/nemotron-3.5-super-vl-120b-a12b` | ✅ | 13.5 s cold, ~7 s per results page | **Vision: results extraction** |
+| `nvidia/nemotron-3.5-lightning-30b-a3b` | ✅ | 1.6 s | **Bulk text:** classification fallback, summaries, profiles, guidance targets, explanations. Send `chat_template_kwargs: {"enable_thinking": false}`; otherwise it spends ~125 hidden reasoning tokens even on "OK". |
+| `nvidia/nemotron-3-ultra-550b-a55b` | ✅ | 2.8 s | **Reasoning:** Bull vs Bear |
+| `nvidia/nemotron-parse-2.0` | ✅ | 7 s/page | Not used. Its table output is excellent, but the 4,096-token total limit truncates long pages, and the parse → text → JSON chain mis-aligned columns (3%). |
+| `moonshotai/kimi-k2.6` | ❌ 404 "Function not found for account" | — | not available on this key |
+| `deepseek-ai/deepseek-v4.1-flash` | ❌ timed out (180 s) | — | — |
+| `z-ai/glm-5.3`, `z-ai/glm-5.3-flash` | ❌ timed out (90 s) | — | — |
+
+**Pattern:** third-party models on the free tier timed out or were unavailable; NVIDIA's own Nemotron models were fast. Stick to Nemotron. The bulk backup is the same lightning model with thinking enabled, not another vendor.
+
+### Results extraction accuracy
+
+Scored by `spikes/results_llm_spike.py` against the hand-checked values below: 33 fields per run (INFY 18, HDFCBANK 15).
+
+| Pipeline | INFY | HDFCBANK | Total | Time/page |
+|---|---|---|---|---|
+| **B: page image → super-vl → JSON** | 18/18 ×3 | 14/15 ×3 | **97%** | ~7 s |
+| C: PDF OCR text → lightning → JSON | 6/18 | 0/15 | 18% | 5–22 s |
+| A: nemotron-parse → lightning → JSON | 1/18 | 0/15 | 3% | 27–41 s |
+
+- **The miss is deterministic:** B misreads HDFCBANK Q2 PBT as 26,909.8 (true 25,909.8) on every run, so retrying identically won't help.
+- **Arithmetic catches it:** 26,909.8 − tax 6,399.84 ≠ PAT 19,509.96.
+- **A targeted re-read fixes it:** re-sending the page at **200 dpi** with the failed check named returns 25,909.8, and all checks pass (2 s). The same request at the lower resolution did not fix it.
+
+### Task 4 design (this overrides the plan)
+
+1. Select the statement page by keyword score on the OCR text, which is good enough to *find* the page but not to read it.
+2. Render the page to fit 1664×2048 and send the image to `nemotron-3.5-super-vl` with thinking off. Extract, per column: `revenue, other_income, total_income, finance_costs, depreciation, interest_earned, interest_expended, ppop, provisions, pbt, tax, pat`.
+3. Run arithmetic checks in code:
+   - corporates: `revenue + other_income ≈ total_income` and `pbt − tax ≈ pat`
+   - lenders: `ppop − provisions ≈ pbt` and `pbt − tax ≈ pat`
+   - tolerance 0.5%; skip a check whose inputs are null
+4. On a failed check, re-read once at 200 dpi with a hint naming the failed rows and column.
+5. If it still fails, mark the card `unreadable`. Then apply the screener cross-check (Task 14) as the last line of defence.
 
 ## Facts later tasks must use
 
@@ -84,10 +130,9 @@ Read from the rendered page images. Every column passes its internal arithmetic 
 - **Lender example: HDFCBANK.** Results filed 17 Oct, plus the earnings-call presentation, recording link and transcript, and two management-change filings (30 Sep, 1 Oct). Good for profile cards too.
 - **No BSE API fallback for announcements.** If NSE blocks the Actions runner, announcements are ingested locally (`make ingest`), and Actions only does what works from the cloud.
 
-## Deferred (Task 0 closed on 28 Oct by user decision)
+## Deferred
 
-1. **LLM extraction accuracy.** Deferred to the start of Task 4, which depends on it. Needs `ANTHROPIC_API_KEY`; then run `cd spikes && uv run python results_llm_spike.py` and record image vs OCR-text accuracy here. Until then, Task 4 assumes page-image extraction.
-2. **Cloud check from GitHub Actions.** Deferred: the user chose to keep everything local, with no GitHub repo for now. `.github/workflows/spike.yml` is ready for when a repo exists. Until then, assume ingestion runs **locally** (`make ingest`). Tasks 2 (deploy sync) and 8 (scheduled ingest) depend on a remote and must be revisited before they start.
+1. **Cloud check from GitHub Actions.** Deferred: the user chose to keep everything local, with no GitHub repo for now. `.github/workflows/spike.yml` is ready for when a repo exists. Until then, assume ingestion runs **locally** (`make ingest`). Tasks 2 (deploy sync) and 8 (scheduled ingest) depend on a remote and must be revisited before they start.
 
 ## Fixtures saved
 
