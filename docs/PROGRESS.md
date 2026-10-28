@@ -8,7 +8,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 |---|---|---|---|---|---|
 | 0 | Data spikes | Wed | ✅ Done | see log | NSE ✅, screener ✅, yfinance ✅, NVIDIA vision extraction 97% ✅, BSE API ❌. Cloud check from GitHub Actions ✅ |
 | 1 | Foundation: models, snapshot store, LLM router, request budget | Wed | ✅ Done | see log | 3/3 budget tests; smoke: snapshot round trip, real cached NVIDIA call |
-| 2 | Skeleton deploy: one service, web shell | Wed | ⬜ Not started | | |
+| 2 | Skeleton deploy: static site on HF Space, API on Render | Wed | 🟨 In progress | ae27f7e | Shell built and checked at 360/390 px; health API and CORS smoke OK; deploy dry run OK. Waiting: user OK to run `make deploy-space`; Render service setup |
 | 3 | Announcements source and classification | Thu | ⬜ Not started | | |
 | 4 | Results card: column selection, units, lender layout | Thu | ⬜ Not started | | |
 | 5 | Vertical slice: ingest → Brief for one stock, deployed | Thu | ⬜ Not started | | |
@@ -42,6 +42,15 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 2 (in progress)
+- **Plan updated** for the HF Static Space + Render split (Architecture, Decisions, Global Constraints, File Structure, Tasks 2, 5, 7, 8, 11, 12, 13). The digest, alerts and backtest now run in the browser over precomputed `events.json` / `signals.json`; Render does only live research; all 22 dossiers are precomputed.
+- **Web shell** (`web/`, Vite + React 18 + Tailwind v4, PWA manifest): three tabs (Brief / Watch / Ask), hash routes, and a Render health indicator on Ask. Design follows the frontend-design skill:
+  - blue-black ink background, marigold only for critical, colour only for tier and direction
+  - Newsreader for one statement per screen, Public Sans with tabular figures
+  - checked by headless-Chrome screenshots inside exact 360/390 px frames (raw headless screenshots enforce a ~500 px minimum width and looked clipped)
+- **`backend/finn/api.py`:** `/api/health` plus CORS limited to `WEB_ORIGIN` and localhost:5173. The smoke check confirmed allowed and denied origins.
+- **`scripts/deploy_space.sh` / `make deploy-space`:** builds, assembles only the site + `data/`, refuses `.env`/PDF/`.py`/`backend`, and force-pushes with a one-shot credential helper. The dry run produced 6 files (172 KB), and the guard was verified to fire.
 
 ### 2026-10-28 — Deploy setup and the cloud check
 - **Hosting:** Hugging Face Docker and Gradio Spaces are now paid for free accounts, so the user created a **Static** Space, `Ayush-Rai-230265/finn`. Live research moves to a **free Render web service**.
