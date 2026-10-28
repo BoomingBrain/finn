@@ -28,6 +28,38 @@ THINKING: dict[str, bool] = {"vision": False, "bulk": False, "reason": True}
 # Calls in flight per tier. The 550B reasoning model timed out and returned 429s with ~16 parallel calls
 # (dossier precompute, 28 Oct); the smaller models handled the same load.
 CONCURRENCY: dict[str, int] = {"vision": 4, "bulk": 6, "reason": 2}
+# Model pools: a job sent to a pool runs on whichever member has a free slot, each member capped at
+# POOL_CONCURRENCY calls in flight. Capacity is per model on the free tier, so a pool multiplies parallelism.
+# Members must pass `make eval` for the job; FINN_POOL_<NAME>="model,model" overrides.
+POOLS: dict[str, list[str]] = {"extract": [TIER_MODELS["reason"]]}
+POOL_CONCURRENCY = 2
+
+
+def pool_models(name: str) -> list[str]:
+    env = os.environ.get(f"FINN_POOL_{name.upper()}")
+    return [m.strip() for m in env.split(",") if m.strip()] if env else POOLS[name]
+
+
+class ModelPool:
+    """Hands out the first member with a free slot, waiting until one frees up."""
+
+    def __init__(self, models: list[str], per_model: int = POOL_CONCURRENCY):
+        self.free = {m: per_model for m in models}
+        self._cond = threading.Condition()
+
+    def acquire(self) -> str:
+        with self._cond:
+            while True:
+                model = next((m for m, n in self.free.items() if n > 0), None)
+                if model:
+                    self.free[model] -= 1
+                    return model
+                self._cond.wait()
+
+    def release(self, model: str) -> None:
+        with self._cond:
+            self.free[model] += 1
+            self._cond.notify()
 
 NVIDIA_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 DEFAULT_CACHE = REPO_ROOT / "backend" / ".cache" / "llm.sqlite"
@@ -202,6 +234,7 @@ class LLM:
         self._lock = threading.Lock()
         self._slots = {tier: threading.BoundedSemaphore(int(os.environ.get(f"FINN_CONCURRENCY_{tier.upper()}", n)))
                        for tier, n in CONCURRENCY.items()}
+        self._pools: dict[str, ModelPool] = {}
 
     @property
     def completer(self) -> Completer:
@@ -209,20 +242,39 @@ class LLM:
             self._completer = NvidiaCompleter()
         return self._completer
 
-    def complete_json(self, tier: Tier, system: str, user: str, schema: type[T], images: list[bytes] = [],
-                      max_tokens: int = 2048) -> T:
-        model = model_for(tier)
-        key = hashlib.sha256("|".join(
+    def _key(self, model: str, system: str, user: str, schema: type, images: list[bytes]) -> str:
+        return hashlib.sha256("|".join(
             [model, system, user, schema.__name__] + [hashlib.sha256(i).hexdigest() for i in images]).encode()).hexdigest()
-        with self._lock:
-            row = self._db.execute("SELECT value FROM cache WHERE key = ?", (key,)).fetchone()
-        if row:
-            return schema.model_validate_json(row[0])
 
-        prompt, error = user, None
+    def _pool(self, name: str) -> ModelPool:
+        with self._lock:
+            if name not in self._pools:
+                self._pools[name] = ModelPool(pool_models(name))
+            return self._pools[name]
+
+    def complete_json(self, tier: Tier, system: str, user: str, schema: type[T], images: list[bytes] = [],
+                      max_tokens: int = 2048, pool: str | None = None) -> T:
+        """`pool` runs the job on whichever pool member is free (see POOLS); a cached answer from any member is
+        reused, so moving work between members never pays twice."""
+        candidates = pool_models(pool) if pool else [model_for(tier)]
+        for m in candidates:
+            with self._lock:
+                row = self._db.execute("SELECT value FROM cache WHERE key = ?",
+                                       (self._key(m, system, user, schema, images),)).fetchone()
+            if row:
+                return schema.model_validate_json(row[0])
+
+        prompt, error, model = user, None, candidates[0]
         for _ in range(2):
-            with self._slots[tier]:
-                text = self._call(model, system, prompt, images, max_tokens, THINKING.get(tier, False))
+            if pool:
+                model = self._pool(pool).acquire()
+                try:
+                    text = self._call(model, system, prompt, images, max_tokens, THINKING.get(tier, False))
+                finally:
+                    self._pool(pool).release(model)
+            else:
+                with self._slots[tier]:
+                    text = self._call(model, system, prompt, images, max_tokens, THINKING.get(tier, False))
             try:
                 try:
                     result = schema.model_validate_json(_extract_json(text))
@@ -234,7 +286,8 @@ class LLM:
                           f"Reply with ONLY JSON matching this schema: {json.dumps(schema.model_json_schema())}")
                 continue
             with self._lock:
-                self._db.execute("INSERT OR REPLACE INTO cache VALUES (?, ?)", (key, result.model_dump_json()))
+                self._db.execute("INSERT OR REPLACE INTO cache VALUES (?, ?)",
+                                 (self._key(model, system, user, schema, images), result.model_dump_json()))
                 self._db.commit()
             return result
         raise LLMError(f"{model} returned invalid JSON twice: {error}")

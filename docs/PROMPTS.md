@@ -61,6 +61,9 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 55 | 2026-10-28 | "i want. you to increase the limit and also queue it and notify when its done" | Per-IP limit 3 → 20 (only new builds count); `ResearchHub` runs at most 2 builds at once with queue positions, joins duplicate requests and keeps building after the viewer leaves; app-level research store, "Notify me" (system notification) and an in-app ready banner. |
 | 56 | 2026-10-28 | "it updates all the report daily?" | Explained the daily check: rebuild only on new results, concall, annual report or a failed section. |
 | 57 | 2026-10-28 | "it should check only the holding for update not other companies" | Daily job now uses `--holdings` (18 holdings only); other dossiers keep their build date. |
+| 58 | 2026-10-28 | "how can we make things fast to do new reaserach" | Timed the live build (calls step ≈ 85%); proposed page pre-filtering, parallel annual report, prebuilt Nifty 50. |
+| 59 | 2026-10-28 | "can we add multiple model to the bottle neck step" | Built a model pool for extraction; tested 7 candidate models: none both available and accurate (GPT-OSS-20B recall 1/3), so the pool keeps one model for now. |
+| 60 | 2026-10-28 | "everything done?" | Status; found scheduled workflows not firing and triggered them manually. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

@@ -63,6 +63,15 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-10-28 — Multi-model extraction pool: built, no second model qualifies yet
+- **`llm.ModelPool` / `complete_json(pool=...)`:** a job runs on whichever member has a free slot (2 per member); a cached answer from any member is reused. Guidance extraction uses `pool="extract"`. 3 tests.
+- **Candidates on this key, tested 28 Oct 19:30–20:15 IST:**
+  - **Not available to this account (HTTP 404):** Kimi K2.6, Nemotron-3 Super 120B, Mistral Large 2.
+  - **Free endpoints not answering in 60 s:** DeepSeek V4.1 Flash, GLM 5.3 Flash, MiniMax M3.1 Flash.
+  - **GPT-OSS-20B:** responds, but guidance recall 1/3 (missed both HAL targets) and 624 s for the 3 gold calls.
+- **Result:** the pool stays `[nemotron-3-ultra-550b]`. Add a member with `FINN_POOL_EXTRACT` once it passes `make eval`.
+- **Scheduled workflows weren't firing** (no cron runs since they were added); ingest and dossiers were triggered manually.
+
 ### 2026-10-28 — Queued live research with notifications (user request)
 - **`finn/research_hub.py`:** at most `LIVE_RESEARCH_CONCURRENCY` (2) builds at once; waiting builds get `event: queued {"ahead": n}` whenever the line moves. A second request for the same symbol joins the running build and replays its history. A build is its own task, so a viewer leaving doesn't stop it. On completion it is remembered and saved (before "done" is sent). 4 hub tests.
 - **API:** joining a running build skips the limiter; the per-IP limit is 20 an hour (was 3; reviewers may share one IP).
