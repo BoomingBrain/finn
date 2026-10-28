@@ -20,6 +20,11 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 14 | 2026-10-28 | "i have to get 5 api key or just 1 api key" | Answered: one key covers all models. |
 | 15 | 2026-10-28 | "i have added the api key try it and complete task 0" | Ran NVIDIA model access check and the results extraction spike; closed Task 0. |
 | 16 | 2026-10-28 | Task 1 description pasted ("Sets up the repo and the small foundation everything else uses: … refuses to go past a daily request budget") | Implemented Task 1. |
+| 17 | 2026-10-28 | "what i have to do for option 2 i will prefer option 2" | Listed the Hugging Face Space setup steps for the user. |
+| 18 | 2026-10-28 | "docker sdk is paid static or gradio" | Checked HF Spaces pricing changes; recommended a Static Space plus a decision on live research. |
+| 19 | 2026-10-28 | "i have added the hf_token where to get HF_space" | Explained HF_SPACE format; checked .env keys without printing values. |
+| 20 | 2026-10-28 | Chose a Render API service for live research and a permission rule for pushing; asked "how to do these things guide me" | Checked Render free tier and deploy sources; wrote setup guide. |
+| 21 | 2026-10-28 | "https://github.com/BoomingBrain/finn.git this is the github repo" | Connected the private GitHub repo and pushed. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)
