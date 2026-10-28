@@ -1,6 +1,114 @@
 {
- "as_of": "2026-10-28T14:36:07.581845+05:30",
+ "as_of": "2026-10-28T20:14:33.765130+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "8b2632bd8ddb14a0d9edb273b7274b89681adceb",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-28T19:47:25+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_28102026194657_NewspaperAdvtSep2026.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2d7dcfae35cc409d9945ed4e7dcafb101eb531ac",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-10-28T19:09:29+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Schedule of meet.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_28102026185916_AirtelSTXEarningCallIntimation.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "495d4df25a8aea4daf5d2ffb58fa2a5452da3d9c",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-28T17:43:39+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102026174326_Intimationtostockexchange.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "44d470db8c209968fe27cb807e8c5de186ec6510",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-28T17:38:42+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Earnings Call Transcript'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "67fecf4b84d1987df0607cea83bbf71975755a6b",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-28T17:31:34+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Canada s UNI Financial Cooperation Advances Branch Modernization with Infosys Finacle Universal Banker'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173120_PR_28102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys Finacle Universal Banker deployed across all UNI Financial Cooperation branches in Atlantic Canada, enabling unified teller…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "56e335589edb811fa948dab73cbffe1f17501d9a",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-10-28T17:26:00+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_28102026172546_SEnewspaperadlossofshares.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "e5ebb46ce6a6fd9a2d6a83ddc471e7fd740a2742",
@@ -190,7 +298,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -446,7 +554,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -911,7 +1019,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -1402,7 +1510,7 @@
      "EBITDA"
     ],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -1685,7 +1793,7 @@
      "EBITDA"
     ],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -2125,7 +2233,7 @@
     "missing": [
      "EBITDA"
     ],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -2248,7 +2356,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -2788,7 +2896,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },

@@ -1,6 +1,159 @@
 {
- "as_of": "2026-10-28T14:36:07.581845+05:30",
+ "as_of": "2026-10-28T20:14:33.765130+05:30",
  "events": [
+  {
+   "id": "11a84a66e29dee121fdefc6b4064a66f35b7ccc4",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-10-27T13:29:18+05:30",
+   "last_at": "2026-10-28T19:47:25+05:30",
+   "headline": "Allotment of 21098 securities pursuant to ESOP/ESPS at its meeting held on October 27, 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Allotment of 21098 securities pursuant to ESOP/ESPS at its meeting held on October 27, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/PAM_27102026132854_ESOPAllotment27102026.pdf",
+     "filed_at": "2026-10-27T13:29:18+05:30"
+    },
+    {
+     "title": "Copy of Newspaper Publication",
+     "url": "https://nsearchives.nseindia.com/corporate/PAM_28102026194657_NewspaperAdvtSep2026.pdf",
+     "filed_at": "2026-10-28T19:47:25+05:30"
+    }
+   ],
+   "price_change_pct": -0.4,
+   "volume_multiple": 0.8,
+   "price_date": "2026-10-27"
+  },
+  {
+   "id": "2d7dcfae35cc409d9945ed4e7dcafb101eb531ac",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-10-28T19:09:29+05:30",
+   "last_at": "2026-10-28T19:09:29+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_28102026185916_AirtelSTXEarningCallIntimation.pdf",
+     "filed_at": "2026-10-28T19:09:29+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "011425abbd31bc8ad417a093ddbd6f272e59b97e",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-10-27T19:04:27+05:30",
+   "last_at": "2026-10-28T17:43:39+05:30",
+   "headline": "Analyst(s)/Investor(s) meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Analyst(s)/Investor(s) meet",
+     "url": "https://nsearchives.nseindia.com/corporate/POLYCAB_27102026190410_Intimationtostockexchange.pdf",
+     "filed_at": "2026-10-27T19:04:27+05:30"
+    },
+    {
+     "title": "Analyst(s)/Investor(s) meet",
+     "url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102026174326_Intimationtostockexchange.pdf",
+     "filed_at": "2026-10-28T17:43:39+05:30"
+    }
+   ],
+   "price_change_pct": -0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-10-28"
+  },
+  {
+   "id": "44d470db8c209968fe27cb807e8c5de186ec6510",
+   "symbol": "INFY",
+   "company": "Infosys Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-10-28T17:38:42+05:30",
+   "last_at": "2026-10-28T17:38:42+05:30",
+   "headline": "Earnings Call Transcript",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Earnings Call Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+     "filed_at": "2026-10-28T17:38:42+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "51dcac7edbd121fe3dc2c13abf82b415c7ea0015",
+   "symbol": "INFY",
+   "company": "Infosys Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-10-27T16:38:30+05:30",
+   "last_at": "2026-10-28T17:31:34+05:30",
+   "headline": "Infosys Successfully Delivers Syngenta s Global SAP S/4HANA Transformation for Crop Protection Business",
+   "summary": "Infosys and Syngenta successfully implemented CP Core, a unified SAP S/4HANA platform replacing multiple ERPs for over 10,000 employees…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Infosys Successfully Delivers Syngenta s Global SAP S/4HANA Transformation for Crop Protection Business",
+     "url": "https://nsearchives.nseindia.com/corporate/Infosys_27102026163727_PR_27102026.pdf",
+     "filed_at": "2026-10-27T16:38:30+05:30"
+    },
+    {
+     "title": "Canada s UNI Financial Cooperation Advances Branch Modernization with Infosys Finacle Universal Banker",
+     "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173120_PR_28102026.pdf",
+     "filed_at": "2026-10-28T17:31:34+05:30"
+    }
+   ],
+   "price_change_pct": -3.4,
+   "volume_multiple": 1.0,
+   "price_date": "2026-10-28"
+  },
+  {
+   "id": "56e335589edb811fa948dab73cbffe1f17501d9a",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-10-28T17:26:00+05:30",
+   "last_at": "2026-10-28T17:26:00+05:30",
+   "headline": "Copy of Newspaper Publication",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Copy of Newspaper Publication",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_28102026172546_SEnewspaperadlossofshares.pdf",
+     "filed_at": "2026-10-28T17:26:00+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "e5ebb46ce6a6fd9a2d6a83ddc471e7fd740a2742",
    "symbol": "TITAN",
@@ -20,9 +173,9 @@
      "filed_at": "2026-10-28T13:49:00+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.6,
+   "volume_multiple": 0.7,
+   "price_date": "2026-10-28"
   },
   {
    "id": "8a7ea3c8f0b1ab6677d87d7030b2e7b7dc056136",
@@ -48,9 +201,9 @@
      "filed_at": "2026-10-28T13:28:05+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.9,
+   "volume_multiple": 3.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "c95a5fca41bb77726f4bf01579772cbd3b860ccf",
@@ -82,9 +235,9 @@
      "filed_at": "2026-10-28T13:28:05+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.9,
+   "volume_multiple": 3.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "477b3af1891042206bf7437749059580d59c8f5c",
@@ -110,9 +263,9 @@
      "filed_at": "2026-10-28T13:28:05+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.9,
+   "volume_multiple": 3.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "6f2ee009e5e9a3086c4564cef1bbc362c3c6922c",
@@ -133,9 +286,9 @@
      "filed_at": "2026-10-28T13:15:54+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.9,
+   "volume_multiple": 3.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "dd5d9a3f1e0f688137ba7cc0dbe6f34991ce80b5",
@@ -184,7 +337,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -201,9 +354,9 @@
      "filed_at": "2026-10-28T12:57:10+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.9,
+   "volume_multiple": 3.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "8dc1b05e81942535938b3fe21e71c93e28313fee",
@@ -224,9 +377,9 @@
      "filed_at": "2026-10-28T12:23:25+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.4,
+   "volume_multiple": 0.5,
+   "price_date": "2026-10-28"
   },
   {
    "id": "bce618b1b00c1ce80485827dc260a8c0fe5606a6",
@@ -247,9 +400,9 @@
      "filed_at": "2026-10-28T10:24:43+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-10-28"
   },
   {
    "id": "20fe1f5c11018740cb1b7b3cd39a9811998c86e7",
@@ -270,9 +423,9 @@
      "filed_at": "2026-10-27T22:53:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.4,
+   "volume_multiple": 1.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "fb7ed8a231d208b027e86f43882fee448afc98bb",
@@ -293,9 +446,9 @@
      "filed_at": "2026-10-27T22:13:16+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.7,
+   "volume_multiple": 3.2,
+   "price_date": "2026-10-28"
   },
   {
    "id": "553ebd16025578eb87c93585c29d9b97699ad52d",
@@ -321,32 +474,9 @@
      "filed_at": "2026-10-27T22:11:29+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "011425abbd31bc8ad417a093ddbd6f272e59b97e",
-   "symbol": "POLYCAB",
-   "company": "Polycab India Limited",
-   "category": "investor_meetings",
-   "tier": "routine",
-   "first_at": "2026-10-27T19:04:27+05:30",
-   "last_at": "2026-10-27T19:04:27+05:30",
-   "headline": "Analyst(s)/Investor(s) meet",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Analyst(s)/Investor(s) meet",
-     "url": "https://nsearchives.nseindia.com/corporate/POLYCAB_27102026190410_Intimationtostockexchange.pdf",
-     "filed_at": "2026-10-27T19:04:27+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.2,
+   "volume_multiple": 1.5,
+   "price_date": "2026-10-28"
   },
   {
    "id": "8291ed2860f0d59ffd38848e9f3c9b2df293cec3",
@@ -367,9 +497,9 @@
      "filed_at": "2026-10-27T18:42:35+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-10-28"
   },
   {
    "id": "3f8c76fa9d26ff69a2a18240c092428f9d807b27",
@@ -418,7 +548,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -435,9 +565,9 @@
      "filed_at": "2026-10-27T18:37:19+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.7,
+   "volume_multiple": 3.2,
+   "price_date": "2026-10-28"
   },
   {
    "id": "6b3edde301af782b9c468bd8e5cddb927cd3ad38",
@@ -458,55 +588,9 @@
      "filed_at": "2026-10-27T17:14:06+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "51dcac7edbd121fe3dc2c13abf82b415c7ea0015",
-   "symbol": "INFY",
-   "company": "Infosys Limited",
-   "category": "press_release",
-   "tier": "notable",
-   "first_at": "2026-10-27T16:38:30+05:30",
-   "last_at": "2026-10-27T16:38:30+05:30",
-   "headline": "Infosys Successfully Delivers Syngenta s Global SAP S/4HANA Transformation for Crop Protection Business",
-   "summary": "Infosys and Syngenta successfully implemented CP Core, a unified SAP S/4HANA platform replacing multiple ERPs for over 10,000 employees…",
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Infosys Successfully Delivers Syngenta s Global SAP S/4HANA Transformation for Crop Protection Business",
-     "url": "https://nsearchives.nseindia.com/corporate/Infosys_27102026163727_PR_27102026.pdf",
-     "filed_at": "2026-10-27T16:38:30+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "11a84a66e29dee121fdefc6b4064a66f35b7ccc4",
-   "symbol": "LT",
-   "company": "Larsen & Toubro Limited",
-   "category": "unclassified",
-   "tier": "routine",
-   "first_at": "2026-10-27T13:29:18+05:30",
-   "last_at": "2026-10-27T13:29:18+05:30",
-   "headline": "Allotment of 21098 securities pursuant to ESOP/ESPS at its meeting held on October 27, 2026",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Allotment of 21098 securities pursuant to ESOP/ESPS at its meeting held on October 27, 2026",
-     "url": "https://nsearchives.nseindia.com/corporate/PAM_27102026132854_ESOPAllotment27102026.pdf",
-     "filed_at": "2026-10-27T13:29:18+05:30"
-    }
-   ],
-   "price_change_pct": -0.4,
-   "volume_multiple": 0.8,
-   "price_date": "2026-10-27"
+   "price_change_pct": -2.1,
+   "volume_multiple": 1.7,
+   "price_date": "2026-10-28"
   },
   {
    "id": "d6f7fe61da824412f8f79c42c7660ffc403f5541",
@@ -778,7 +862,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -1516,7 +1600,7 @@
      "EBITDA"
     ],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -1811,7 +1895,7 @@
      "EBITDA"
     ],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -2312,7 +2396,7 @@
     "missing": [
      "EBITDA"
     ],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -2380,7 +2464,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -2968,7 +3052,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
