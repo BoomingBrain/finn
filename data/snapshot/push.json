@@ -1,0 +1,297 @@
+{
+ "as_of": "2026-10-28T13:28:55.580064+05:30",
+ "announcements": [
+  {
+   "announcement": {
+    "id": "20fe1f5c11018740cb1b7b3cd39a9811998c86e7",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-27T22:53:15+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding ' Investor Conference'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_27102026225301_SE_filing_Investor_Conference_27102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "51dcac7edbd121fe3dc2c13abf82b415c7ea0015",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-27T16:38:30+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Infosys Successfully Delivers Syngenta s Global SAP S/4HANA Transformation for Crop Protection Business'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_27102026163727_PR_27102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys and Syngenta successfully implemented CP Core, a unified SAP S/4HANA platform replacing multiple ERPs for over 10,000 employees…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1d9b1509c64dd0fbd89181ba9b5a69c7da976d2f",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-24T19:43:00+05:30",
+    "subject": "Infosys Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_24102026194244_Financials_newspaper_ad_SE_filing.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c678aa6ee01e10fbb59ecbc40bf0703e50ed289d",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-23T20:07:11+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Report of auditors on financial statements for the quarter and half year ended September 30, 2026 withUDIN'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_23102026200652_SE_filing_Auditors_report_with_UDIN.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "21a84141aa5a216665ee6d5de71f564186cce517",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-23T16:10:52+05:30",
+    "subject": "Infosys Limited has informed the Exchange that Record date for the purpose of Dividend is 03-Nov-2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_23102026160926_BM_Outcome_Oct232026_1.pdf",
+    "raw_category": "Record Date",
+    "source": "nse"
+   },
+   "category": "dividend",
+   "tier": "notable",
+   "summary": "Infosys declared an interim dividend of ₹26 per share with record date November 3, 2026 and payout date November 11, 2026.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "7f17738c92c4e7dcfc28c32a812dcc92d9891e2f",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-23T16:08:26+05:30",
+    "subject": "Infosys Limited has submitted to the Exchange, Financial Results for the quarter and half year ended September 30, 2026 and declaration of interim dividend",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_23102026160704_BM_Outcome_Oct232026_1.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 49244.0,
+      "prev_q": 48211.0,
+      "year_ago": 44490.0,
+      "qoq_pct": 2.1,
+      "yoy_pct": 10.7
+     },
+     "EBITDA": {
+      "current": 11689.0,
+      "prev_q": 11409.0,
+      "year_ago": 10535.0,
+      "qoq_pct": 2.5,
+      "yoy_pct": 11.0
+     },
+     "PBT": {
+      "current": 11063.0,
+      "prev_q": 11028.0,
+      "year_ago": 10229.0,
+      "qoq_pct": 0.3,
+      "yoy_pct": 8.2
+     },
+     "PAT": {
+      "current": 7838.0,
+      "prev_q": 7775.0,
+      "year_ago": 7375.0,
+      "qoq_pct": 0.8,
+      "yoy_pct": 6.3
+     }
+    },
+    "not_applicable": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "39053c6a38c3a91fff3ffceeb6fed19e768cd189",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-19T15:40:54+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Infosys to Announce Second Quarter Results on October 23, 2026'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_19102026154028_PR_19102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b8ffc237e82b751ac485b818fc00c630369da851",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-19T15:34:02+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Infosys and Truist Strengthen Strategic Collaboration to Build a Global Capability Center in India'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_19102026153335_PR_19102026_2.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys and Truist expanded collaboration to build a Global Capability Center in Hyderabad, consolidating multiple India supplier…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d64acf23edfd338dde738598bb1302ca1fff77e4",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-13T12:26:48+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Infosys Foundation Enables Over 2.5 Lakh Job Offers Across India Through Infosys Springboard Livelihood Program'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_13102026122634_PR_13102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys Foundation's Springboard Livelihood Program has enabled over 2.5 lakh job offers across India, marking the halfway point toward…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8de5401adc74e83f3490546b33cd76af9e9dac10",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-10T22:45:31+05:30",
+    "subject": "Infosys Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/INFY_10102026224330_Infosys_October102026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "26665f6d475613d5ccb04f34d7f9b438d066a572",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-09T10:13:20+05:30",
+    "subject": "Infosys Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_09102026101311_SE_Intimation_adv_in_newspaper_1.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1cbce01fc58071c253f5ad9337a7aa1d88a2b42a",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-01T22:20:53+05:30",
+    "subject": "Infosys Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/INFY_01102026222039_SE_filing_Reg_74_Q2FY27.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "7136a0b28fb4774d583cbe523c2f4fd33b6537c8",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-01T17:32:39+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Infosys and Columbia University Launch Strategic Collaboration Across Deep Research to Drive Innovation and Unlock Business Value'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_01102026173153_PR_01102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys and Columbia University launched the Infosys Topaz - Columbia University Enterprise AI Center in New York to advance AI-first…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "faacad24a127ff85ad4106482b736a2f86b7ae70",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-09-30T15:29:57+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Infosys and ABN Amro Extend Strategic Collaboration to Simplify IT Landscape and Accelerate AI-Driven Transformation'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/INFY_30092026152928_PR_30092026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys and ABN AMRO extend strategic collaboration to simplify IT landscape and accelerate AI-driven transformation using Infosys Topaz…",
+   "results": null,
+   "profile": null
+  }
+ ],
+ "failed_sources": []
+}

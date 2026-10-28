@@ -32,6 +32,7 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 26 | 2026-10-28 | Task 3 description pasted ("Fetches announcements from whichever exchange feed Task 0 proved works … mapped to critical, notable or routine") | Implemented Task 3. |
 | 27 | 2026-10-28 | Task 4 description pasted ("Turns a raw results PDF into the four headline numbers … refuses to show numbers that don't add up") | Implemented Task 4. |
 | 28 | 2026-10-28 | "i can not see anythong on that render link" | Explained Render is API-only; added a root redirect to the app. |
+| 29 | 2026-10-28 | Task 5 description pasted ("The first end-to-end proof … calm empty and stale states.") | Implemented Task 5. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

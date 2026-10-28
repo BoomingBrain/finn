@@ -138,3 +138,9 @@ class PushSnapshot(BaseModel):
     as_of: datetime
     announcements: list[EnrichedAnnouncement]
     failed_sources: list[str] = []
+
+
+class EventsFile(BaseModel):
+    """events.json: what the browser's Brief reads."""
+    as_of: datetime
+    events: list[Event]

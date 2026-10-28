@@ -6,7 +6,7 @@ from pathlib import Path
 
 from pydantic import TypeAdapter
 
-from finn.models import Bar, PushSnapshot
+from finn.models import Bar, EventsFile, PushSnapshot
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_ROOT = REPO_ROOT / "data" / "snapshot"
@@ -25,6 +25,14 @@ class SnapshotStore:
 
     def save_push(self, snapshot: PushSnapshot) -> None:
         self._write("push.json", snapshot.model_dump_json(indent=1))
+
+    # events.json
+    def load_events(self) -> EventsFile | None:
+        text = self._read("events.json")
+        return EventsFile.model_validate_json(text) if text else None
+
+    def save_events(self, feed: EventsFile) -> None:
+        self._write("events.json", feed.model_dump_json(indent=1))
 
     # prices.json
     def load_prices(self) -> dict[str, list[Bar]]:
@@ -65,6 +73,7 @@ class SnapshotStore:
         try:
             with os.fdopen(fd, "w", encoding="utf-8") as f:
                 f.write(text)
+            os.chmod(tmp, 0o644)  # mkstemp creates 0600; snapshots are plain readable data
             os.replace(tmp, path)  # atomic on the same filesystem
         except BaseException:
             Path(tmp).unlink(missing_ok=True)
