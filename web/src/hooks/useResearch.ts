@@ -3,7 +3,14 @@ import { apiBase, loadData } from "../api/client";
 import type { Dossier, SectionEvent } from "../api/types";
 
 export type ResearchError = { code: string; message: string };
-export type Research = { sections: SectionEvent[]; done: boolean; waking: boolean; error: ResearchError | null };
+export type BuildProgress = { done: number; total: number; label: string };
+export type Research = {
+  sections: SectionEvent[];
+  done: boolean;
+  waking: boolean;
+  error: ResearchError | null;
+  progress: BuildProgress | null; // live builds only: completed steps, reported by the server as they happen
+};
 
 const WAKING_AFTER_MS = 5_000;
 
@@ -47,10 +54,10 @@ export function parseSSE(buffer: string): { messages: SSEMessage[]; rest: string
  * Render service. fetch + a stream reader instead of EventSource, because EventSource can't see 404/429 statuses.
  */
 export function useResearch(symbol: string | null): Research {
-  const [state, setState] = useState<Research>({ sections: [], done: false, waking: false, error: null });
+  const [state, setState] = useState<Research>({ sections: [], done: false, waking: false, error: null, progress: null });
 
   useEffect(() => {
-    setState({ sections: [], done: false, waking: false, error: null });
+    setState({ sections: [], done: false, waking: false, error: null, progress: null });
     if (!symbol) return;
     const ctrl = new AbortController();
     let cancelled = false;
@@ -59,7 +66,7 @@ export function useResearch(symbol: string | null): Research {
 
     async function live(sym: string) {
       if (!apiBase) return update((s) => ({ ...s, error: unreachable(sym), done: true }));
-      wakeTimer = setTimeout(() => update((s) => (s.sections.length ? s : { ...s, waking: true })), WAKING_AFTER_MS);
+      wakeTimer = setTimeout(() => update((s) => (s.sections.length || s.progress ? s : { ...s, waking: true })), WAKING_AFTER_MS);
       let res: Response;
       try {
         res = await fetch(`${apiBase}/api/research/${encodeURIComponent(sym)}`, { signal: ctrl.signal });
@@ -81,6 +88,7 @@ export function useResearch(symbol: string | null): Research {
           buffer = parsed.rest;
           for (const m of parsed.messages) {
             if (m.event === "done") update((s) => ({ ...s, done: true }));
+            else if (m.event === "progress") update((s) => ({ ...s, waking: false, progress: JSON.parse(m.data) }));
             else if (m.event === "error") update((s) => ({ ...s, waking: false, error: JSON.parse(m.data), done: true }));
             else update((s) => ({ ...s, waking: false, sections: [...s.sections, JSON.parse(m.data) as SectionEvent] }));
           }
@@ -93,7 +101,7 @@ export function useResearch(symbol: string | null): Research {
     }
 
     loadData<Dossier>(`dossiers/${symbol}.json`)
-      .then((d) => update(() => ({ sections: d.sections, done: true, waking: false, error: null })))
+      .then((d) => update(() => ({ sections: d.sections, done: true, waking: false, error: null, progress: null })))
       // NotFound, or a host that answers a missing file with the app's HTML: either way, research it live.
       .catch(() => live(symbol));
 

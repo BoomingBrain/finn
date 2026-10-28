@@ -3,6 +3,7 @@ everything else is served as static files from the Hugging Face Space. A finishe
 repo (finn.persist), so it is built once and becomes a static, instant dossier after the next deploy."""
 import asyncio
 import json
+import logging
 import os
 import time
 from datetime import datetime, timezone
@@ -19,6 +20,7 @@ from finn.pull.dossier import Dossier, SectionEvent, build_dossier, needs_build
 from finn.snapshot import SnapshotStore
 from finn.sources.screener import CompanyNotFound, SourceUnreachable
 
+log = logging.getLogger(__name__)
 LOCAL_DEV_ORIGIN = "http://localhost:5173"
 KEEPALIVE_SECONDS = 15  # a comment line while a section is still building, so proxies keep the stream open
 
@@ -64,22 +66,48 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
         return StreamingResponse(stream(), media_type="text/event-stream")
 
     async def live_stream(symbol: str) -> AsyncIterator[str]:
+        """Sections and progress share one queue: progress is reported from worker threads, sections from the
+        build itself. A comment line goes out whenever nothing has happened for KEEPALIVE_SECONDS."""
         kwargs = {"fetch_company": _force_fail} if os.environ.get("FINN_FORCE_SOURCE_FAIL") else {}
-        sections = build(symbol, get_llm(), **kwargs)
+        loop = asyncio.get_running_loop()
+        queue: asyncio.Queue = asyncio.Queue()
+
+        def report(step: dict) -> None:
+            try:
+                on_loop = asyncio.get_running_loop() is loop
+            except RuntimeError:  # a worker thread
+                on_loop = False
+            if on_loop:
+                queue.put_nowait(("progress", step))
+            else:
+                loop.call_soon_threadsafe(queue.put_nowait, ("progress", step))
+
+        async def run():
+            try:
+                async for event in build(symbol, get_llm(), progress=report, **kwargs):
+                    await queue.put(("section", event))
+                await queue.put(("end", None))
+            except Exception as e:  # handed to the stream, which turns it into an error event
+                await queue.put(("error", e))
+
+        task = asyncio.create_task(run())
         sent = []
         try:
             while True:
-                step = asyncio.ensure_future(anext(sections))
-                while not step.done():
-                    await asyncio.wait({step}, timeout=KEEPALIVE_SECONDS)
-                    if not step.done():
-                        yield ": building\n\n"
                 try:
-                    event = step.result()
-                except StopAsyncIteration:
+                    kind, item = await asyncio.wait_for(queue.get(), timeout=KEEPALIVE_SECONDS)
+                except asyncio.TimeoutError:
+                    yield ": building\n\n"
+                    continue
+                if kind == "progress":
+                    yield _sse(item, event="progress")
+                elif kind == "section":
+                    sent.append(item.model_dump(mode="json"))
+                    yield _sse(sent[-1])
+                elif kind == "end":
                     break
-                sent.append(event.model_dump(mode="json"))
-                yield _sse(sent[-1])
+                else:
+                    raise item
         except SourceUnreachable:
             yield _sse({"code": "sources_unreachable",
                         "message": f"Couldn't fetch sources for {symbol} from the server."}, event="error")
@@ -91,6 +119,13 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
             yield _sse({"code": "budget_exhausted", "message": "Today's AI budget for live research is used up."},
                        event="error")
             return
+        except Exception as e:
+            log.exception("live research for %s failed", symbol)
+            yield _sse({"code": "failed", "message": f"Research on {symbol} stopped unexpectedly: {type(e).__name__}."},
+                       event="error")
+            return
+        finally:
+            task.cancel()
         live[symbol] = sent
         yield _sse("{}", event="done")
         snap = (sent[0].get("data") or {}) if sent else {}

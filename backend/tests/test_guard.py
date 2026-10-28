@@ -33,12 +33,14 @@ def section(name: str) -> SectionEvent:
     return SectionEvent(section=name, status="ready", data={"name": name})
 
 
-async def fake_build(symbol, llm, **kwargs):
-    for name in ("snapshot", "delivery", "business", "bull_bear"):
+async def fake_build(symbol, llm, progress=None, **kwargs):
+    for i, name in enumerate(("snapshot", "delivery", "business", "bull_bear")):
+        if progress:
+            progress({"done": i, "total": 4, "label": f"Working on {name}"})
         yield section(name)
 
 
-async def unreachable_build(symbol, llm, **kwargs):
+async def unreachable_build(symbol, llm, progress=None, **kwargs):
     raise SourceUnreachable("screener.in: ConnectTimeout")
     yield  # an async generator, like build_dossier
 
@@ -90,6 +92,9 @@ def test_unknown_symbol_404(tmp_path):
 def test_live_build_streams_sections_in_order(tmp_path):
     r = client(tmp_path).get("/api/research/KOTAKBANK")
     sent = events(r)
+    progress = [json.loads(d) for n, d in sent if n == "progress"]
+    assert [p["done"] for p in progress] == [0, 1, 2, 3] and progress[0]["label"] == "Working on snapshot"
+    sent = [e for e in sent if e[0] != "progress"]
     assert [json.loads(d)["section"] for n, d in sent if n == "message"] == ["snapshot", "delivery", "business",
                                                                             "bull_bear"]
     assert sent[-1][0] == "done"
@@ -135,7 +140,7 @@ def test_live_build_is_saved_and_replayed_after_restart(tmp_path):
     assert [n for n, _ in sent] == ["message"] * 4 + ["done"]
 
 
-async def failing_section_build(symbol, llm, **kwargs):
+async def failing_section_build(symbol, llm, progress=None, **kwargs):
     yield section("snapshot")
     yield SectionEvent(section="delivery", status="unavailable", reason="Analysis failed")
 
@@ -144,3 +149,14 @@ def test_dossier_with_failed_section_is_not_saved(tmp_path):
     saved = FakeSaved()
     client(tmp_path, build=failing_section_build, saved=saved).get("/api/research/KOTAKBANK")
     assert saved.files == {}
+
+
+async def crashing_build(symbol, llm, progress=None, **kwargs):
+    yield section("snapshot")
+    raise RuntimeError("worker died")
+
+
+def test_unexpected_failure_ends_with_an_error_event(tmp_path):
+    sent = events(client(tmp_path, build=crashing_build).get("/api/research/KOTAKBANK"))
+    assert sent[0][0] == "message" and sent[-1][0] == "error"
+    assert json.loads(sent[-1][1])["code"] == "failed"

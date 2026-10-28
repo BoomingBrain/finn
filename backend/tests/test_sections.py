@@ -39,9 +39,9 @@ def company(transcripts=(), annual_reports=()) -> CompanyData:
                        transcripts=list(transcripts), annual_reports=list(annual_reports))
 
 
-def run(llm, c, docs):
+def run(llm, c, docs, progress=None):
     async def collect():
-        return [s async for s in build_dossier("ACME", llm, lambda _: c, lambda url: docs[url])]
+        return [s async for s in build_dossier("ACME", llm, lambda _: c, lambda url: docs[url], progress=progress)]
     return asyncio.run(collect())
 
 
@@ -50,7 +50,9 @@ def test_missing_sources_give_fixed_reasons(tmp_path):
                           {"text": "Market leader in adhesives", "source_ids": []}],
                  "bear": [{"text": "Analysts expect a slowdown", "source_ids": ["NEWS:1"]}]}
     llm = LLM(cache_path=tmp_path / "c.sqlite", completer=FakeCompleter([json.dumps(bull_bear)]))
-    sections = run(llm, company(), {})
+    steps = []
+    sections = run(llm, company(), {}, progress=steps.append)
+    assert steps[-1]["done"] == steps[-1]["total"]  # missing sources still complete the bar
     assert [s.section for s in sections] == ["snapshot", "delivery", "business", "bull_bear"]
     assert sections[0].status == "ready" and sections[0].citations[0].source_id == "SCR"
     assert (sections[1].status, sections[1].reason) == ("unavailable", "No concall transcripts on screener.in")
@@ -77,8 +79,14 @@ def test_full_dossier_cites_real_pages(tmp_path):
     replies = [{"targets": [target]}, {"lines": [{"i": 0, "text": "Running at 25% after one quarter."}]},
                business, bull_bear]
     fake = FakeCompleter([json.dumps(r) for r in replies])
-    sections = run(LLM(cache_path=tmp_path / "c.sqlite", completer=fake), company([transcript], [report]), docs)
+    steps = []
+    sections = run(LLM(cache_path=tmp_path / "c.sqlite", completer=fake), company([transcript], [report]), docs,
+                   progress=steps.append)
     assert all(s.status == "ready" for s in sections)
+    # 1 financials + 1 call + delivery check + annual report + bull/bear = 5 real steps, never going backwards
+    assert [(x["done"], x["total"]) for x in steps][-1] == (5, 5)
+    assert all(a["done"] <= b["done"] for a, b in zip(steps, steps[1:]))
+    assert "Read the Aug 2026 earnings call (1 of 1)" in [x["label"] for x in steps]
 
     delivery = sections[1]
     [row] = delivery.data["rows"]

@@ -1,4 +1,5 @@
 import type { BullBearData, BusinessData, DeliveryData, SectionEvent, SectionName, SnapshotData } from "../api/types";
+import { BuildProgress } from "../components/BuildProgress";
 import { BullBearSection } from "../components/BullBearSection";
 import { BusinessSection } from "../components/BusinessSection";
 import { ContextStrip } from "../components/ContextStrip";
@@ -53,7 +54,7 @@ function ServerStatus() {
 }
 
 function Dossier({ symbol, eventId }: { symbol: string; eventId: string | null }) {
-  const { sections, done, waking, error } = useResearch(symbol);
+  const { sections, done, waking, error, progress } = useResearch(symbol);
   const snapshot = sections.find((s) => s.section === "snapshot");
   const snapData = snapshot?.data as SnapshotData | undefined;
   const name = snapData?.name ?? symbol;
@@ -70,9 +71,8 @@ function Dossier({ symbol, eventId }: { symbol: string; eventId: string | null }
   return (
     <>
       {eventId && <ContextStrip eventId={eventId} />}
-      <Statement detail={waking ? "Waking the research server — about a minute." : !done ? "Reading transcripts and the annual report. Sections appear as they're ready." : coverage ?? undefined}>
-        {name}
-      </Statement>
+      <Statement detail={done ? coverage ?? undefined : undefined}>{name}</Statement>
+      {!done && <BuildProgress progress={progress} waking={waking} />}
       {ORDER.map(({ name: section, title }) => {
         const s = sections.find((x) => x.section === section);
         if (!s) return done ? null : <SectionSkeleton key={section} title={title} />;

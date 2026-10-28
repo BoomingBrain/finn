@@ -63,6 +63,14 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-10-28 — Real progress for live research (user request)
+- **Backend:**
+  - `dossier.Progress` counts real units: financials 1, one per earnings call read, delivery check 1, annual report 1, bull/bear 1. It is thread-safe, because calls are read in worker threads.
+  - `build_dossier(progress=...)` reports after each completed step with a plain label ("Read the Aug 2026 earnings call (2 of 4)"), and still completes the bar when a source is missing.
+  - The API streams `event: progress` through one queue with the sections. An unexpected exception now ends the stream with `event: error` (code `failed`) instead of closing silently.
+  - Tests: monotonic progress ending at total; progress events in the stream; crash → error event.
+- **Web:** `useResearch` keeps the latest progress. `BuildProgress` shows the current step, a 3 px bar and "N of M steps" (`role=progressbar`), or "Waking the research server" before the first step.
+
 ### 2026-10-28 — Task 11 complete: all 22 dossiers, audited
 - **Every holding and demo ticker has a complete dossier.** ITC and TRENT show "No concall transcripts on screener.in": neither publishes call transcripts there, so this is the correct answer.
 - **Failures on the way, all fixed in code:**

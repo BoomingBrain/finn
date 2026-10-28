@@ -58,3 +58,11 @@ describe("coverage", () => {
     expect(coverageText(undefined, undefined)).toBeNull();
   });
 });
+
+describe("build progress", () => {
+  it("parses progress events alongside sections", () => {
+    const { messages } = parseSSE('event: progress\ndata: {"done":2,"total":8,"label":"Read the Aug 2026 earnings call (1 of 4)"}\n\n');
+    expect(messages[0].event).toBe("progress");
+    expect(JSON.parse(messages[0].data)).toEqual({ done: 2, total: 8, label: "Read the Aug 2026 earnings call (1 of 4)" });
+  });
+});

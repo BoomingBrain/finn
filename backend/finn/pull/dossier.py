@@ -5,6 +5,7 @@ CLI: `uv run python -m finn.pull.dossier --all` (or `--symbols A,B`) writes data
 import argparse
 import asyncio
 import logging
+import threading
 from datetime import datetime, timezone
 from typing import AsyncIterator, Callable, Literal
 
@@ -61,6 +62,30 @@ class _NoText(Exception):
     pass
 
 
+class Progress:
+    """Real progress for a live build: completed steps out of the total, plus what is happening now.
+
+    Units: financials 1, one per transcript read (at least 1), delivery check 1, annual report 1, bull vs bear 1.
+    Thread-safe: transcripts are read in parallel worker threads."""
+
+    def __init__(self, report: Callable[[dict], None] | None):
+        self.report = report
+        self.done, self.total, self.label = 0, 8, ""
+        self._lock = threading.Lock()
+
+    def _emit(self) -> None:
+        if self.report:
+            self.report({"done": self.done, "total": self.total, "label": self.label})
+
+    def update(self, label: str | None = None, done: int | None = None, total: int | None = None,
+               advance: int = 0) -> None:
+        with self._lock:
+            self.total = total if total is not None else self.total
+            self.done = min(self.total, max(self.done + advance, done if done is not None else 0))
+            self.label = label if label is not None else self.label
+            self._emit()
+
+
 def _unavailable(section, e: Exception) -> SectionEvent:
     if isinstance(e, BudgetExceeded):
         reason = BUDGET
@@ -82,26 +107,38 @@ def _citations(ids, urls: dict[str, str]) -> list[Citation]:
     return list(out.values())
 
 
-async def _delivery(c: CompanyData, llm: LLM, fetch_text, urls: dict[str, str]) -> list[DeliveryRow]:
+def _call_name(d) -> str:
+    return d.strftime("%b %Y")
+
+
+async def _delivery(c: CompanyData, llm: LLM, fetch_text, urls: dict[str, str], progress: Progress) -> list[DeliveryRow]:
     transcripts = [t for t in c.transcripts if t.date][:TRANSCRIPTS_USED]
     if not transcripts:
         raise LookupError(NO_TRANSCRIPTS)
+    read = [0]
 
     def one(link):
         try:
-            doc = fetch_text(link.url)
-        except Exception as e:  # one unreachable transcript shouldn't sink the other three
-            log.warning("transcript %s unavailable: %r", link.url, e)
-            return None
-        if not doc.readable:
-            return None
-        urls[f"T:{link.date.isoformat()}"] = link.url
-        return extract_targets(doc, link.date, llm)
+            try:
+                doc = fetch_text(link.url)
+            except Exception as e:  # one unreachable transcript shouldn't sink the other three
+                log.warning("transcript %s unavailable: %r", link.url, e)
+                return None
+            if not doc.readable:
+                return None
+            urls[f"T:{link.date.isoformat()}"] = link.url
+            return extract_targets(doc, link.date, llm)
+        finally:
+            read[0] += 1
+            progress.update(f"Read the {_call_name(link.date)} earnings call ({read[0]} of {len(transcripts)})",
+                            advance=1)
 
+    progress.update(f"Reading the last {len(transcripts)} earnings calls for management's targets")
     results = await asyncio.gather(*(asyncio.to_thread(one, t) for t in transcripts))
     if all(r is None for r in results):
         raise _NoText()
     targets = [t for r in results if r for t in r]
+    progress.update("Checking each target against the reported quarters")
     return await asyncio.to_thread(assess_delivery, targets, c.quarters, llm)
 
 
@@ -119,10 +156,17 @@ async def _business(c: CompanyData, llm: LLM, fetch_text, urls: dict[str, str]) 
 
 
 async def build_dossier(symbol: str, llm: LLM, fetch_company: Callable[[str], CompanyData] = fetch_company,
-                        fetch_text: Callable[[str], DocText] = fetch_pdf_text) -> AsyncIterator[SectionEvent]:
-    """Yields the four sections in order. `CompanyNotFound` / `SourceUnreachable` from fetch_company propagate
-    before anything is yielded, so the caller can answer 404 or a sources error."""
+                        fetch_text: Callable[[str], DocText] = fetch_pdf_text,
+                        progress: Callable[[dict], None] | None = None) -> AsyncIterator[SectionEvent]:
+    """Yields the four sections in order, reporting real progress to `progress` as each step completes.
+    `CompanyNotFound` / `SourceUnreachable` from fetch_company propagate before anything is yielded, so the caller
+    can answer 404 or a sources error."""
+    p = Progress(progress)
+    p.update("Reading reported financials from screener.in")
     c = await asyncio.to_thread(fetch_company, symbol)
+    calls = max(1, len([t for t in c.transcripts if t.date][:TRANSCRIPTS_USED]))
+    after_delivery, after_business = 1 + calls + 1, 1 + calls + 2
+    p.update(done=1, total=after_business + 1)
     path = f"/company/{c.symbol}/consolidated/" if c.basis == "consolidated" else f"/company/{c.symbol}/"
     urls = {"SCR": BASE + path}
 
@@ -135,7 +179,7 @@ async def build_dossier(symbol: str, llm: LLM, fetch_company: Callable[[str], Co
 
     delivery: list[DeliveryRow] = []
     try:
-        delivery = await _delivery(c, llm, fetch_text, urls)
+        delivery = await _delivery(c, llm, fetch_text, urls, p)
         yield SectionEvent(section="delivery", status="ready",
                            data={"transcripts": [t.label for t in c.transcripts[:TRANSCRIPTS_USED]],
                                  "rows": [r.model_dump(mode="json") for r in delivery]},
@@ -145,6 +189,7 @@ async def build_dossier(symbol: str, llm: LLM, fetch_company: Callable[[str], Co
     except Exception as e:
         yield _unavailable("delivery", e)
 
+    p.update("Reading the latest annual report", done=after_delivery)
     business = None
     try:
         business = await _business(c, llm, fetch_text, urls)
@@ -158,6 +203,7 @@ async def build_dossier(symbol: str, llm: LLM, fetch_company: Callable[[str], Co
     except Exception as e:
         yield _unavailable("business", e)
 
+    p.update("Weighing the bull and bear cases", done=after_business)
     try:
         bb = await asyncio.to_thread(bull_bear, snapshot, delivery, business, llm)
         ids = [i for p in bb.bull + bb.bear for i in p.source_ids]
@@ -165,6 +211,7 @@ async def build_dossier(symbol: str, llm: LLM, fetch_company: Callable[[str], Co
                            citations=_citations(ids, urls))
     except Exception as e:
         yield _unavailable("bull_bear", e)
+    p.update("Done", done=p.total)
 
 
 async def collect_dossier(symbol: str, llm: LLM, **kwargs) -> Dossier:

@@ -55,6 +55,8 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 49 | 2026-10-28 | "how much is left/" | 17/22 complete; final pass planned. |
 | 50 | 2026-10-28 | "done?" | Final pass 6/22. |
 | 51 | 2026-10-28 | "is it done?" | 12/22; fixed a truncated-JSON failure (HAL) with a larger budget and bracket repair; all 22 complete, audited, committed, deployed. |
+| 52 | 2026-10-28 | "ok now if i click a new company will it return all the new analysis/" | Explained the live path; ran a real KOTAKBANK test on Render (first stream closed after the snapshot; rerun in progress). |
+| 53 | 2026-10-28 | "can we add a progress bar which actually work for the analysis being done?" | Server reports real completed steps (financials, each call, delivery check, annual report, bull/bear) as `progress` SSE events; Ask shows the current step, a bar and "N of M steps". Unexpected failures now end with an error event instead of a silent close. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)
