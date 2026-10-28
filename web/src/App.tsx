@@ -7,7 +7,7 @@ import { Brief } from "./screens/Brief";
 import { Watch } from "./screens/Watch";
 
 export default function App() {
-  const { tab, param } = useHashRoute();
+  const { tab, param, query } = useHashRoute();
   const [settings, setSettings] = useSettings();
   const inbox = useAlerts(settings); // one instance, so the badge and the Watch list stay in step
   return (
@@ -15,7 +15,7 @@ export default function App() {
       <main className="mx-auto w-full max-w-xl px-4 pt-[calc(env(safe-area-inset-top)+28px)] pb-[calc(env(safe-area-inset-bottom)+88px)]">
         {tab === "brief" && <Brief settings={settings} focusId={param} />}
         {tab === "watch" && <Watch inbox={inbox} settings={settings} onSettings={setSettings} />}
-        {tab === "ask" && <Ask symbol={param} />}
+        {tab === "ask" && <Ask symbol={param} eventId={query.event ?? null} />}
       </main>
       <TabBar active={tab} unread={inbox.unread} />
     </div>

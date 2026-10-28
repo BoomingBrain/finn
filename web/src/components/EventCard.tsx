@@ -23,7 +23,12 @@ export function EventCard({ event, focused = false }: { event: Event; focused?: 
       {event.results && <ResultsCard card={event.results} filingUrl={leadUrl} />}
       {event.category === "management_change" && <ProfileCard profile={event.profile} filingUrl={leadUrl} />}
       <PriceChip event={event} />
-      <DocumentList documents={event.documents} />
+      <div className="flex flex-wrap items-baseline gap-x-5">
+        <DocumentList documents={event.documents} />
+        <a href={`#/ask/${encodeURIComponent(event.symbol)}?event=${encodeURIComponent(event.id)}`} className="mt-3 inline-block text-[13px] text-notable underline-offset-2 hover:underline">
+          Ask about this
+        </a>
+      </div>
     </article>
   );
 }

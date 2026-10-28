@@ -76,3 +76,98 @@ export interface SignalsFile {
   names: Record<string, string>;
   series: Record<string, DayMetric[]>;
 }
+
+/** Research dossiers: mirrors backend/finn/pull/{dossier,sections,guidance,metrics}.py */
+export interface Citation {
+  source_id: string; // "T:2026-08-01:p12" | "AR:2026:p73" | "SCR"
+  url: string;
+  page: number | null;
+}
+
+export type SectionName = "snapshot" | "delivery" | "business" | "bull_bear";
+
+export interface SectionEvent {
+  section: SectionName;
+  status: "ready" | "unavailable";
+  reason: string | null;
+  data: Record<string, unknown> | null;
+  citations: Citation[];
+}
+
+export interface Dossier {
+  symbol: string;
+  name: string;
+  built_at: string;
+  basis: string;
+  sections: SectionEvent[];
+}
+
+export interface QuarterPoint {
+  label: string;
+  revenue: number | null;
+  pat: number | null;
+}
+
+export interface SnapshotData {
+  name: string;
+  about: string;
+  basis: string;
+  lender: boolean;
+  revenue_ttm: number | null;
+  pat_ttm: number | null;
+  revenue_cagr_3y: number | null;
+  pat_cagr_3y: number | null;
+  opm_latest: number | null;
+  opm_3y_ago: number | null;
+  roce_latest: number | null;
+  roe_latest: number | null;
+  debt_to_equity: number | null;
+  cfo_to_pat_3y: number | null;
+  quarterly: QuarterPoint[];
+  flags: string[];
+}
+
+export type Verdict = "met" | "partly" | "missed" | "pending" | "not_checkable";
+
+export interface DeliveryRow {
+  target: {
+    metric: string;
+    raw_metric: string;
+    comparison: "gte" | "lte" | "between" | "approx";
+    value: number;
+    value_high: number | null;
+    unit: "pct" | "cr";
+    period: string;
+    quote: string;
+    source_id: string;
+    said_on: string;
+  };
+  actual: { value: number | null; quarters_in: number; quarters_needed: number };
+  verdict: Verdict;
+  explanation: string;
+}
+
+export interface DeliveryData {
+  transcripts: string[];
+  rows: DeliveryRow[];
+}
+
+export interface Cited {
+  source_ids: string[];
+}
+
+export interface BusinessData extends Cited {
+  what_it_does: string;
+  segments: ({ name: string; share_pct: number | null } & Cited)[];
+}
+
+export interface BullBearData {
+  bull: ({ text: string } & Cited)[];
+  bear: ({ text: string } & Cited)[];
+}
+
+export interface SymbolEntry {
+  symbol: string;
+  name: string;
+  precomputed: boolean;
+}

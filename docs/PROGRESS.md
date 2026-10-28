@@ -17,9 +17,9 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 8 | Scheduled ingestion | Fri | ✅ Done | 317dad2 | Actions every 2 h on market days + 19:00 IST daily; 2 runs green; Render ignores data commits |
 | 9 | screener.in source and deterministic metrics | Sat | ✅ Done | see log | 11 metric tests; live KOTAKBANK/NAUKRI/CDSL + unknown ticker OK |
 | 10 | Promised vs Delivered | Sat | ✅ Done | see log | 27 guidance tests; Pidilite 4 calls: FY26 margin met (24.1% vs 20–24%), FY27 pending at 26.2% |
-| 11 | Dossier builder, citation guard, precompute demo set | Sat | ⬜ Not started | | |
-| 12 | Research API, live fetch fallback, cost guard | Sat | ⬜ Not started | | |
-| 13 | Ask screen and "Ask about this" | Sat | ⬜ Not started | | |
+| 11 | Dossier builder, citation guard, precompute demo set | Sat | 🟨 In progress | cb2b03e | Code done; 22-ticker precompute running (reason tier is slow) |
+| 12 | Research API, live fetch fallback, cost guard | Sat | ✅ Done | cb2b03e | Live on Render: 404 unknown, replay, Render reaches screener.in. 9 guard/API tests |
+| 13 | Ask screen and "Ask about this" | Sat | 🟨 In progress | | Built + 20 web tests; deploy after the precompute finishes |
 | 14 | Accuracy eval and results cross-check | Sun | ⬜ Not started | | |
 | 15 | Polish, README, writeup, build history, submit | Sun | ⬜ Not started | | |
 
@@ -42,6 +42,16 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Tasks 11–13: dossiers, research API, Ask screen
+- **Task 11 (`pull/sections.py`, `pull/dossier.py`):** `GROUNDING_RULES` opens every prompt; `drop_uncited` runs on every model output; segment shares not printed on the cited page are blanked. Sections stream in fixed order with fixed reasons.
+  - **First precompute exposed two bugs, both fixed with tests:**
+    - The 550B reasoning model timed out and returned 429s with about 16 parallel calls. `llm.py` now caps calls in flight per tier (reason = 2), gives thinking calls a 300 s timeout, and retries with 5/20/60 s backoff.
+    - Every annual report names the "Independent Auditor's Report" in its contents (pages 2–4), which cut the narrative to zero pages; mentions in the first 10% are now ignored. The BRSR "Description of Business Activity" table is always included: it gives each business's share (ITC: Cigarettes 45.88%, p352).
+  - PDF cache writes are now atomic (temp + rename).
+  - ITC has no concall transcripts (it holds no earnings calls), so its delivery section correctly reads "No concall transcripts on screener.in".
+- **Task 12 (`guard.py`, `api.py`):** `RateLimiter` (sliding hour), `nse_symbols.csv` (2,618 NSE symbols), `symbols.json` written by ingest and the dossier CLI. `GET /api/research/{symbol}` (SSE): precomputed replay → 404 unknown → in-memory live cache → per-IP limit → daily budget → live build with keep-alive comments every 15 s; `SourceUnreachable` → fixed error event. Render: commit live in ~80 s; NOTATICKER → 404; a live PIDILITIND build streamed its snapshot within 30 s, so **Render reaches screener.in**.
+- **Task 13 (web):** `useResearch` (static file first, else fetch-streamed SSE so 404/429 are visible; "Waking the research server" after 5 s), SymbolSearch (≤ 8 matches, demo chips), ContextStrip from `#/ask/SYM?event=id`, Snapshot tiles + sparklines + flags, Delivery scorecard ("N of M checkable promises met", quotes with page chips), Business, Bull vs bear, "Ask about this" on every event card. Checked at 390 px.
 
 ### 2026-10-28 — Task 10 complete: Promised vs Delivered
 - **`finn/pull/guidance.py`:** `GuidanceTarget`, `resolve_period` (Indian FY: FY27 = Jun 2026 … Mar 2027; Q/H/FY, 2- or 4-digit years), `actual_for` (growth = period ÷ same quarters a year earlier; margin = Σ op profit ÷ Σ revenue; sums for revenue/PAT; partial periods give the tracking value), `judge`, `extract_targets`, `explain`, `assess_delivery`.
