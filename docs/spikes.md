@@ -1,17 +1,17 @@
 # Task 0 — Data source spikes
 
-Run on **Wed 28 Oct 2026** from the developer's Mac (residential IP). **Status: complete.** The cloud check is deferred because the user chose local-only, with no GitHub repo. Scripts are in `spikes/`; every real response is saved under `backend/tests/fixtures/`. Per the plan's Global Constraints, **this file overrides any endpoint, field name or source choice written in the plan.**
+Run on **Wed 28 Oct 2026** from the developer's Mac (residential IP). **Status: complete**, including the cloud check from GitHub Actions. Scripts are in `spikes/`; every real response is saved under `backend/tests/fixtures/`. Per the plan's Global Constraints, **this file overrides any endpoint, field name or source choice written in the plan.**
 
 ## Findings
 
 | Source | Works locally | Works from GitHub Actions | Auth / limits | Primary choice | Fallback |
 |---|---|---|---|---|---|
-| NSE announcements API (`/api/corporate-announcements`) | ✅ 200 for INFY, HDFCBANK, RELIANCE (13–19 items each, ~0.7 s) with httpx after a cookie warm-up GET on the homepage. Plain `curl` gets 403. | ⏳ not run yet (needs a GitHub repo) | Cookie warm-up + browser UA + `Referer`. No limit seen at 3 req / 2 s. | **NSE** | Local ingest via `make ingest` if Actions is blocked. BSE is **not** a fallback (see next row). |
+| NSE announcements API (`/api/corporate-announcements`) | ✅ 200 for INFY, HDFCBANK, RELIANCE (13–19 items each, ~0.7 s) with httpx after a cookie warm-up GET on the homepage. Plain `curl` gets 403. | ✅ 200 for all 3 (14/19/13 items). The homepage warm-up got 403, yet the API still answered. | Cookie warm-up + browser UA + `Referer`. No limit seen at 3 req / 2 s. | **NSE** | Local ingest via `make ingest` if Actions is blocked. BSE is **not** a fallback (see next row). |
 | BSE announcements API (`api.bseindia.com`) | ❌ 403 "Access Denied" (Akamai) | — | Bot protection. Getting past it would need TLS-fingerprint impersonation, which we **will not do**. | — | — |
-| NSE archive PDFs (`nsearchives.nseindia.com`) | ⚠️ INFY OK (26.7 MB). **HDFCBANK truncated**: server sends `content-length: 983040` while the real file is ~1.14 MB; the PDF won't open (0 pages). Range requests are ignored. | ⏳ | none | NSE archive | **BSE file server** via screener.in's quarter "Raw PDF" link (`/company/source/quarter/{id}/{M}/{YYYY}/` → 302 → `bseindia.com/xml-data/corpfiling/AttachHis/…pdf`). Got the full 24-page HDFCBANK file with a plain client. |
-| screener.in company page | ✅ 200, **no login wall**, all sections present. 20 rapid requests → 20 × 200 (no 429). | ⏳ | none seen | **screener.in** | — (cache responses 24 h anyway) |
-| screener.in → transcript / AR PDFs | ✅ links point to `bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=…` and download fine (PIDILITIND Aug 2026 transcript, 305 KB). | ⏳ | none | screener links | — |
-| yfinance EOD (`.NS`) | ✅ INFY.NS, HDFCBANK.NS | ⏳ | none seen | **yfinance** | — |
+| NSE archive PDFs (`nsearchives.nseindia.com`) | ⚠️ INFY OK (26.7 MB). **HDFCBANK truncated**: server sends `content-length: 983040` while the real file is ~1.14 MB; the PDF won't open (0 pages). Range requests are ignored. | ✅ 200, full 26.7 MB INFY file | none | NSE archive | **BSE file server** via screener.in's quarter "Raw PDF" link (`/company/source/quarter/{id}/{M}/{YYYY}/` → 302 → `bseindia.com/xml-data/corpfiling/AttachHis/…pdf`). Got the full 24-page HDFCBANK file with a plain client. |
+| screener.in company page | ✅ 200, **no login wall**, all sections present. 20 rapid requests → 20 × 200 (no 429). | ✅ 200, no login wall, document links present | none seen | **screener.in** | — (cache responses 24 h anyway) |
+| screener.in → transcript / AR PDFs | ✅ links point to `bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=…` and download fine (PIDILITIND Aug 2026 transcript, 305 KB). | ✅ BSE file server 200, full HDFCBANK PDF (1,193,121 bytes) | none | screener links | — |
+| yfinance EOD (`.NS`) | ✅ INFY.NS, HDFCBANK.NS | ✅ returns bars | none seen | **yfinance** | — |
 | LLM extraction of results numbers (NVIDIA API) | ✅ **97% (64/66 fields over 3 runs)** with `nemotron-3.5-super-vl` reading the page image; the one deterministic misread is fixed by a 200-dpi re-read | n/a | ~40 RPM per key (community figure) | **vision model on the page image** | OCR text is unusable (18%) |
 
 ## LLM provider: NVIDIA API catalog (tested 28 Oct)
@@ -130,9 +130,9 @@ Read from the rendered page images. Every column passes its internal arithmetic 
 - **Lender example: HDFCBANK.** Results filed 17 Oct, plus the earnings-call presentation, recording link and transcript, and two management-change filings (30 Sep, 1 Oct). Good for profile cards too.
 - **No BSE API fallback for announcements.** If NSE blocks the Actions runner, announcements are ingested locally (`make ingest`), and Actions only does what works from the cloud.
 
-## Deferred
+## Cloud check (GitHub Actions run 40646213614, 28 Oct, Azure IP)
 
-1. **Cloud check from GitHub Actions.** Deferred: the user chose to keep everything local, with no GitHub repo for now. `.github/workflows/spike.yml` is ready for when a repo exists. Until then, assume ingestion runs **locally** (`make ingest`). Tasks 2 (deploy sync) and 8 (scheduled ingest) depend on a remote and must be revisited before they start.
+Every source works from a cloud runner. NSE announcements, screener.in, the NSE archive, the BSE file server and yfinance all returned 200 with full payloads. So scheduled ingestion (Task 8) can run on Actions, and the Render live-research service should reach screener.in and BSE. Render's own IPs are still untested and will be verified in Task 12.
 
 ## Fixtures saved
 

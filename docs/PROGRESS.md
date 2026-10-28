@@ -6,7 +6,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 
 | # | Task | Day | Status | Commit | Notes |
 |---|---|---|---|---|---|
-| 0 | Data spikes | Wed | ✅ Done | see log | NSE ✅, screener ✅, yfinance ✅, NVIDIA vision extraction 97% ✅, BSE API ❌. Deferred: Actions cloud check (no remote) |
+| 0 | Data spikes | Wed | ✅ Done | see log | NSE ✅, screener ✅, yfinance ✅, NVIDIA vision extraction 97% ✅, BSE API ❌. Cloud check from GitHub Actions ✅ |
 | 1 | Foundation: models, snapshot store, LLM router, request budget | Wed | ✅ Done | see log | 3/3 budget tests; smoke: snapshot round trip, real cached NVIDIA call |
 | 2 | Skeleton deploy: one service, web shell | Wed | ⬜ Not started | | |
 | 3 | Announcements source and classification | Thu | ⬜ Not started | | |
@@ -42,6 +42,13 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Deploy setup and the cloud check
+- **Hosting:** Hugging Face Docker and Gradio Spaces are now paid for free accounts, so the user created a **Static** Space, `Ayush-Rai-230265/finn`. Live research moves to a **free Render web service**.
+- **GitHub:** a private repo, `BoomingBrain/finn`, is connected and pushed. A repo-local credential helper uses the `BoomingBrain` gh login; the global active account (`debugat2am`) is unchanged. `.env` and the challenge PDFs are not in the repo (verified).
+- **Permission rules** the user added: `Bash(make deploy-space)`, `Bash(git push origin main)`.
+- **Task 0's cloud check ran on GitHub Actions** (run 40646213614): every source returned 200 from a cloud IP.
+- **Next:** update the plan for the static Space + Render split, then build Task 2.
 
 ### 2026-10-28 — Task 1 foundation
 - `backend/` is a uv project (Python 3.12). Added `finn/models.py` (all shared shapes; `filed_at` is normalised to IST), `finn/snapshot.py` (atomic JSON writes under `data/snapshot/`), `finn/portfolio.yaml` and `finn/portfolio.py` (18 holdings + 4 research tickers; HDFCBANK = Banks, BAJFINANCE = NBFC), and `finn/llm.py`.
