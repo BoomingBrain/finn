@@ -37,6 +37,8 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 31 | 2026-10-28 | "its done/" | Checked the finished 18-stock ingest. |
 | 32 | 2026-10-28 | Task 7 description pasted ("Adds the \"unusual move\" half of Push … chosen with evidence rather than guessed") | Implemented Task 7. |
 | 33 | 2026-10-28 | "proceed to task 8" | Implemented Task 8 (scheduled ingestion workflow). |
+| 34 | 2026-10-28 | "choose A and then proceed with the task" | Setting secrets via gh was blocked by the permission classifier (secret-store write); asked the user to add them (option B) or allow the action. |
+| 35 | 2026-10-28 | "all secrets added on the github" | Verified secrets exist, pushed the workflow, ran it end to end. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)
