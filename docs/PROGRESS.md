@@ -13,7 +13,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 4 | Results card: column selection, units, lender layout | Thu | ✅ Done | see log | 25 tests; real INFY + HDFCBANK cards 100% match hand-checks |
 | 5 | Vertical slice: ingest → Brief for one stock, deployed | Thu | ✅ Done | 367a14a | Live: INFY results card on the Brief (30d window) |
 | 6 | Widen to 18 stocks, event clustering, profiles | Fri | ✅ Done | 2ba5d7b | 18 stocks: 230 filings → 184 events; 8 results cards; 11 profiles; deployed |
-| 7 | Prices, signals, alerts, Watch with backtest sliders | Fri | ⬜ Not started | | |
+| 7 | Prices, signals, alerts, Watch with backtest sliders | Fri | ✅ Done | 8e7293f | Live: alerts inbox + badge, unusual moves in Brief, sliders with 30-day evidence. Step 5 (notifications) ✂️ cut |
 | 8 | Scheduled ingestion | Fri | ⬜ Not started | | |
 | 9 | screener.in source and deterministic metrics | Sat | ⬜ Not started | | |
 | 10 | Promised vs Delivered | Sat | ⬜ Not started | | |
@@ -42,6 +42,20 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 7 complete: signals, alerts, Watch
+- **Backend:** `finn/push/signals.daily_metrics` gives per-session change % and volume ÷ the 20 previous sessions. It skips NaN bars and today's bar before 16:00 IST (6 tests). Ingest writes `signals.json` (18 symbols × 60 sessions, with names).
+- **Browser** (`web/src/lib/signals.ts`, 4 tests): `signalsFor` / `backtest` / `alertsFor` apply the investor's thresholds to the precomputed metrics. Settings (clamped) and seen alerts live in localStorage and are lifted to `App`, so the badge, the inbox and the Brief stay in step.
+- **Watch:**
+  - "N new alerts." with an inbox (unread dots, two-line titles, "Mark all as seen"); tapping a filing alert opens its card in the Brief (`#/brief/<id>`, widening the window if needed).
+  - Sliders with live evidence ("Would have fired 6 times in the last 30 days. Mostly KPIT (2) …").
+  - Category toggles.
+- **Brief:** "Unusual moves, by your thresholds" between critical and notable.
+- **Review of the live data led to a judgment change.** 7 days showed 15 critical items, including Titan setting up a CAD 5,000 Canadian subsidiary and routine NCD allotments. Housekeeping is now notable (subsidiary incorporation, strike-off or winding up, unless it's an acquisition or divestment; NCD/CP/bond allotments, while equity raises stay critical), and filing alerts need critical. Result: 12 critical in 7 days (results ×4, management ×2, regulatory ×3, a QIP, the Jio IPO, Trent's divestment). 10 tier tests.
+- **Evidence the sliders surface:** the default 2× volume threshold would have fired 30 times in 30 days, price ±5% 6 times.
+- **Cut:** Step 5 (in-app notifications): the data only changes on redeploy, so it would never fire mid-visit.
+- **Next step noted:** grade regulatory fines by size relative to the company (IRCTC ₹10 lakh and DMart ₹55.75 lakh are still critical).
+- **Tests:** backend 129, web 11. Deployed (10 files, 844 KB); live `signals.json` and the Watch sliders verified.
 
 ### 2026-10-28 — Task 6 complete: whole portfolio, clustering, profiles
 - **`finn/push/cluster.py`:**
