@@ -1,6 +1,24 @@
 {
- "as_of": "2026-10-28T21:53:18.307311+05:30",
+ "as_of": "2026-10-29T00:29:47.584817+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "6b97d8a9e9243035114f26d12cb8eca2b723baf8",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-28T21:53:40+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about Link of Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026215259_Earnings_call_Audio_Recording_Link_S.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "8b2632bd8ddb14a0d9edb273b7274b89681adceb",
