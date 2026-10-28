@@ -166,11 +166,21 @@ def demo_symbols() -> list[str]:
     return [h.symbol for h in p.holdings] + list(p.research)
 
 
-async def _precompute(symbols: list[str], store: SnapshotStore, llm: LLM, skip_existing: bool, parallel: int):
+def needs_build(existing: dict | None, retry_failed: bool) -> bool:
+    """With retry_failed, rebuild only dossiers that are missing or have a section that failed transiently
+    (a missing source such as "No concall transcripts" is a real answer, not a failure)."""
+    if existing is None or not retry_failed:
+        return True
+    return any(s.get("reason") in (FAILED, BUDGET) for s in existing.get("sections", []))
+
+
+async def _precompute(symbols: list[str], store: SnapshotStore, llm: LLM, skip_existing: bool, parallel: int,
+                      retry_failed: bool = False):
     gate = asyncio.Semaphore(parallel)
 
     async def one(symbol: str):
-        if skip_existing and store.load_dossier(symbol):
+        existing = store.load_dossier(symbol)
+        if (skip_existing and existing) or not needs_build(existing, retry_failed):
             return
         async with gate:
             started = datetime.now()
@@ -193,13 +203,14 @@ def main():
     parser.add_argument("--all", action="store_true", help="every holding plus the research demo tickers")
     parser.add_argument("--symbols", help="comma-separated tickers")
     parser.add_argument("--skip-existing", action="store_true")
+    parser.add_argument("--retry-failed", action="store_true", help="rebuild only missing or failed dossiers")
     parser.add_argument("--parallel", type=int, default=3)
     args = parser.parse_args()
     symbols = demo_symbols() if args.all else [s.strip().upper() for s in (args.symbols or "").split(",") if s.strip()]
     if not symbols:
         parser.error("pass --all or --symbols")
     store = SnapshotStore()
-    asyncio.run(_precompute(symbols, store, LLM(), args.skip_existing, args.parallel))
+    asyncio.run(_precompute(symbols, store, LLM(), args.skip_existing, args.parallel, args.retry_failed))
     write_symbols(store)
     print(LLM().usage())
 

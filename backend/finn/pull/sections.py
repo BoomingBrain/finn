@@ -149,6 +149,12 @@ def snapshot_text(s: FinancialSnapshot) -> str:
     return "\n".join(lines)
 
 
+# Plain words for the model: a raw "not_checkable" was read as "not delivered" (Bharti Airtel, 28 Oct).
+VERDICT_WORDS = {"met": "met", "partly": "partly met", "missed": "missed",
+                 "pending": "in progress (the period is not over yet)",
+                 "not_checkable": "cannot be checked from reported financials; this says nothing about delivery"}
+
+
 def bull_bear(snapshot: FinancialSnapshot, delivery: list[DeliveryRow], business: BusinessSnapshot | None,
               llm: LLM) -> BullBear:
     """Reason tier; at most 3 grounded points a side."""
@@ -158,7 +164,7 @@ def bull_bear(snapshot: FinancialSnapshot, delivery: list[DeliveryRow], business
         sources[r.target.source_id] += (f"Management said: \"{r.target.quote}\" | delivered: "
                                         f"{r.actual.value if r.actual.value is not None else 'n/a'} "
                                         f"({r.actual.quarters_in} of {r.actual.quarters_needed} quarters) | "
-                                        f"verdict: {r.verdict}\n")
+                                        f"verdict: {VERDICT_WORDS[r.verdict]}\n")
     if business:
         for sid in business.source_ids:
             sources.setdefault(sid, "")

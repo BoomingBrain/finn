@@ -11,6 +11,7 @@ web/dist/
 # secrets
 .env
 .env.*
+!.env.example
 # os
 .DS_Store
 

@@ -176,7 +176,8 @@ class LLM:
                          "input_tokens INTEGER, output_tokens INTEGER)")
         self._db.commit()
         self._lock = threading.Lock()
-        self._slots = {tier: threading.BoundedSemaphore(n) for tier, n in CONCURRENCY.items()}
+        self._slots = {tier: threading.BoundedSemaphore(int(os.environ.get(f"FINN_CONCURRENCY_{tier.upper()}", n)))
+                       for tier, n in CONCURRENCY.items()}
 
     @property
     def completer(self) -> Completer:

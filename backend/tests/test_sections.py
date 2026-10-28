@@ -3,7 +3,7 @@ import json
 from datetime import date
 
 from finn.llm import LLM
-from finn.pull.dossier import build_dossier
+from finn.pull.dossier import build_dossier, needs_build
 from finn.pull.sections import Point, business_pages, drop_uncited
 from finn.sources.documents import DocText
 from finn.sources.screener import CompanyData, DocLink, Table
@@ -103,3 +103,29 @@ def test_business_pages_always_include_brsr_activities():
     pages = (["Contents"] * 3 + ["Our business segments and brands"] * 10 + ["Independent Auditor's Report"]
              + ["BRSR: Description of Business Activity | % of turnover"])
     assert business_pages(DocText(url="ar", pages=pages)) == [4, 5, 6, 7, 8, 9, 10, 15]
+
+
+def test_retry_failed_skips_complete_and_missing_source_dossiers():
+    ok = {"sections": [{"reason": None}, {"reason": "No concall transcripts on screener.in"}]}
+    failed = {"sections": [{"reason": None}, {"reason": "Analysis failed"}]}
+    assert not needs_build(ok, retry_failed=True)
+    assert needs_build(failed, retry_failed=True) and needs_build(None, retry_failed=True)
+    assert needs_build(ok, retry_failed=False)
+
+
+def test_bull_bear_sees_plain_verdicts(tmp_path):
+    from finn.pull.guidance import Actual, DeliveryRow, GuidanceTarget
+    from finn.pull.metrics import FinancialSnapshot
+    from finn.pull.sections import bull_bear
+
+    t = GuidanceTarget(metric="other", raw_metric="capex", comparison="approx", value=20000, unit="cr", period="FY27",
+                       quote="capex of about 20,000 crore", source_id="T:2026-02-01:p16", said_on=date(2026, 2, 1))
+    row = DeliveryRow(target=t, actual=Actual(value=None, quarters_in=0, quarters_needed=0), verdict="not_checkable",
+                      explanation="")
+    snap = FinancialSnapshot(lender=False, revenue_ttm=None, pat_ttm=None, revenue_cagr_3y=None, pat_cagr_3y=None,
+                             opm_latest=None, opm_3y_ago=None, roce_latest=None, roe_latest=None, debt_to_equity=None,
+                             cfo_to_pat_3y=None, quarterly=[], flags=[])
+    fake = FakeCompleter([json.dumps({"bull": [], "bear": []})])
+    bull_bear(snap, [row], None, LLM(cache_path=tmp_path / "c.sqlite", completer=fake))
+    sent = fake.calls[0].user
+    assert "not_checkable" not in sent and "says nothing about delivery" in sent
