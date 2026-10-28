@@ -15,7 +15,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 6 | Widen to 18 stocks, event clustering, profiles | Fri | ✅ Done | 2ba5d7b | 18 stocks: 230 filings → 184 events; 8 results cards; 11 profiles; deployed |
 | 7 | Prices, signals, alerts, Watch with backtest sliders | Fri | ✅ Done | 8e7293f | Live: alerts inbox + badge, unusual moves in Brief, sliders with 30-day evidence. Step 5 (notifications) ✂️ cut |
 | 8 | Scheduled ingestion | Fri | ✅ Done | 317dad2 | Actions every 2 h on market days + 19:00 IST daily; 2 runs green; Render ignores data commits |
-| 9 | screener.in source and deterministic metrics | Sat | ⬜ Not started | | |
+| 9 | screener.in source and deterministic metrics | Sat | ✅ Done | see log | 11 metric tests; live KOTAKBANK/NAUKRI/CDSL + unknown ticker OK |
 | 10 | Promised vs Delivered | Sat | ⬜ Not started | | |
 | 11 | Dossier builder, citation guard, precompute demo set | Sat | ⬜ Not started | | |
 | 12 | Research API, live fetch fallback, cost guard | Sat | ⬜ Not started | | |
@@ -42,6 +42,15 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 9 complete: screener.in source + metrics
+- **`finn/sources/screener.py`:**
+  - lexbor parser: tables with "+" stripped from row names, "Raw PDF" links per quarter, annual reports (dated 31 Mar of the year), and concall transcripts (month dates, newest first)
+  - `fetch_company`: consolidated, else the standalone fallback; 24 h disk cache
+  - `CompanyNotFound` (404) / `SourceUnreachable`
+- **`finn/pull/metrics.py`:** TTM (last 4 quarters), 3-year revenue/PAT CAGR, operating margin now vs 3 years ago (computed from rows, because screener's OPM % is integer-rounded), ROCE/ROE, D/E, 3-year CFO÷PAT, the last 8 quarters, and red flags (cash conversion < 0.7, D/E > 1, margins down > 3 points). Lenders get no OPM, D/E or CFO/PAT. Missing inputs give None, never 0; a CAGR from a non-positive base is None.
+- **TDD:** 11 tests on the real PIDILITIND and HDFCBANK fixtures (values worked from the printed table numbers, arithmetic in comments) plus synthetic flag, missing-value and negative-base cases.
+- **Live smoke:** KOTAKBANK (unseen bank) is auto-detected as a lender (rev CAGR 18.3%, ROE 11%). CDSL flags "Margins compressing" (57.5% → 50.8%). NAUKRI's PAT CAGR is None (negative base). NOTATICKER123 raises CompanyNotFound.
 
 ### 2026-10-28 — Task 8 complete: scheduled ingestion
 - **`.github/workflows/ingest.yml`:**
