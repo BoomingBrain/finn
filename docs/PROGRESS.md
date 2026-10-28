@@ -12,7 +12,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 3 | Announcements source and classification | Thu | ✅ Done | see log | 48 rule tests; live 30d: 224 filings, rules 92%, 1 LLM call |
 | 4 | Results card: column selection, units, lender layout | Thu | ✅ Done | see log | 25 tests; real INFY + HDFCBANK cards 100% match hand-checks |
 | 5 | Vertical slice: ingest → Brief for one stock, deployed | Thu | ✅ Done | 367a14a | Live: INFY results card on the Brief (30d window) |
-| 6 | Widen to 18 stocks, event clustering, profiles | Fri | ⬜ Not started | | |
+| 6 | Widen to 18 stocks, event clustering, profiles | Fri | ✅ Done | 2ba5d7b | 18 stocks: 230 filings → 184 events; 8 results cards; 11 profiles; deployed |
 | 7 | Prices, signals, alerts, Watch with backtest sliders | Fri | ⬜ Not started | | |
 | 8 | Scheduled ingestion | Fri | ⬜ Not started | | |
 | 9 | screener.in source and deterministic metrics | Sat | ⬜ Not started | | |
@@ -42,6 +42,27 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 6 complete: whole portfolio, clustering, profiles
+- **`finn/push/cluster.py`:**
+  - same symbol + category within 36 h → one event
+  - headline member: results > profile > tier > earliest
+  - all documents linked
+  - price move and volume multiple on the first tradable session of the headline filing (after-close filings → next session; an unsettled session → none)
+  - 14 tests
+- **`finn/sources/prices.py` (`fetch_eod`)** was pulled forward from Task 7. It drops today's bar before 16:00 IST.
+- **`extract_profile`:** the appointee (or leaver) from the filing; scanned filings are read as images; "Not Applicable" becomes an empty bio, shown as "No profile in filing".
+- **Real run, 18 stocks × 30 days:** 230 filings → 184 events (55 critical / 33 notable / 96 routine), ~6.6 min, 94 bulk + 15 vision calls. **8 results cards:** BAJFINANCE (NII), DMART, HDFCBANK (NII/PPOP), INFY, KPITTECH, LT, PERSISTENT (₹ millions → Cr; EBITDA missing), POLYCAB. **11 management-change profiles**, e.g. HDFC Bank's new MD & CEO Anup Bagchi.
+- **Smoke-found fixes, each with a failing test first:**
+  1. ZIP attachments (3 KMP filings).
+  2. Persistent's results sat under "Outcome of the Board Meeting": the PDF now decides whether there's a statement, and a rule replaces a flaky LLM label.
+  3. "Not Applicable" bios.
+  4. Regulation 30 boilerplate in headlines.
+  5. NBFC total-income check (interest income ≠ total revenue).
+  6. Tax: accept the printed total or the summed components (Bajaj's components were incomplete).
+  7. A missing EBITDA input no longer hides verified Revenue/PBT/PAT.
+  8. `ingest --reprocess` keeps categories (it had re-asked the LLM, which flipped a label).
+- **Tests:** backend 113, web 7. Deployed (9 files, 712 KB); live events.json verified.
 
 ### 2026-10-28 — Task 5 complete: vertical slice live
 - **Backend:**
