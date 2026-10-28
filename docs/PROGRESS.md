@@ -14,7 +14,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 5 | Vertical slice: ingest → Brief for one stock, deployed | Thu | ✅ Done | 367a14a | Live: INFY results card on the Brief (30d window) |
 | 6 | Widen to 18 stocks, event clustering, profiles | Fri | ✅ Done | 2ba5d7b | 18 stocks: 230 filings → 184 events; 8 results cards; 11 profiles; deployed |
 | 7 | Prices, signals, alerts, Watch with backtest sliders | Fri | ✅ Done | 8e7293f | Live: alerts inbox + badge, unusual moves in Brief, sliders with 30-day evidence. Step 5 (notifications) ✂️ cut |
-| 8 | Scheduled ingestion | Fri | ⬜ Not started | | |
+| 8 | Scheduled ingestion | Fri | ✅ Done | 317dad2 | Actions every 2 h on market days + 19:00 IST daily; 2 runs green; Render ignores data commits |
 | 9 | screener.in source and deterministic metrics | Sat | ⬜ Not started | | |
 | 10 | Promised vs Delivered | Sat | ⬜ Not started | | |
 | 11 | Dossier builder, citation guard, precompute demo set | Sat | ⬜ Not started | | |
@@ -31,7 +31,7 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 |---|---|---|
 | Wed 28 | Deployed shell opens on a phone; spikes recorded | ✅ Spikes done incl. cloud check; shell live on the Space, Ask shows Render ready (headless check). Phone check: user |
 | Thu 29 | Deployed Brief shows one real results card | ✅ Met early (28 Oct): live Brief serves INFY Q2 FY27 card from events.json. Phone check: user |
-| Fri 30 | Brief + Watch on all 18 stocks; lender cards; backtest sliders | |
+| Fri 30 | Brief + Watch on all 18 stocks; lender cards; backtest sliders | ✅ Met early (28 Oct): all live, data refreshes on schedule |
 | Sat 31 | 4 demo dossiers instant; unseen ticker streams or fails cleanly | |
 | Sun 1 | Accuracy in README; submission sent | |
 
@@ -42,6 +42,18 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 8 complete: scheduled ingestion
+- **`.github/workflows/ingest.yml`:**
+  - cron `0 4-12/2 * * 1-5` plus `30 13 * * *`, and `workflow_dispatch` with a `days` input
+  - a rolling `actions/cache` of `backend/.cache` (LLM responses + PDFs)
+  - ingest → commit `data/snapshot` as finn-ingest[bot] → `make deploy-space`
+  - `concurrency: ingest`; `permissions: contents: write`
+- **`make ingest`** is the local fallback: pull, ingest, commit, push, deploy.
+- **Secrets:** my `gh secret set` (option A) was blocked by the permission system (secret-store write), so the user added the 4 repo secrets by hand.
+- **Run 40661158462:** all steps green. 59 fetched, 0 new (no LLM calls), snapshot committed, Space redeployed; live `as_of` 14:32 IST.
+- **Render check:** `/api/health` now reports `RENDER_GIT_COMMIT`. A code push deployed in ~45 s (2a68757). After the data-only ingest commit 5e8905e (run 40661573309), Render stayed on 2a68757 for 4+ min, confirming the root-directory filter, so the 2-hourly runs cost no Render build minutes.
+- **Workflow change:** the bot now commits to `main`, so local work must `git pull --rebase` before pushing.
 
 ### 2026-10-28 — Task 7 complete: signals, alerts, Watch
 - **Backend:** `finn/push/signals.daily_metrics` gives per-session change % and volume ÷ the 20 previous sessions. It skips NaN bars and today's bar before 16:00 IST (6 tests). Ingest writes `signals.json` (18 symbols × 60 sessions, with names).
