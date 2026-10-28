@@ -1,0 +1,15 @@
+# challenge brief (not ours to publish)
+/*.pdf
+# python
+.venv/
+__pycache__/
+*.pyc
+backend/.cache/
+# node
+node_modules/
+web/dist/
+# secrets
+.env
+.env.*
+# os
+.DS_Store

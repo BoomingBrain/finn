@@ -1,0 +1,25 @@
+name: spike
+# Task 0 cloud check: do the data sources answer a GitHub Actions runner (a cloud IP)?
+on: workflow_dispatch
+
+jobs:
+  spike:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: NSE announcements
+        working-directory: spikes
+        run: uv run python announcements_spike.py nse "$RUNNER_TEMP/out" || true
+      - name: screener.in
+        working-directory: spikes
+        run: uv run python screener_spike.py "$RUNNER_TEMP/out" || true
+      - name: NSE archive + BSE file server PDFs
+        run: |
+          curl -s -o /dev/null -w 'nse archive: %{http_code} %{size_download} bytes\n' -A 'Mozilla/5.0' -e 'https://www.nseindia.com/' \
+            https://nsearchives.nseindia.com/corporate/Infosys_23102026160704_BM_Outcome_Oct232026_1.pdf || true
+          curl -s -L -o /dev/null -w 'bse file server: %{http_code} %{size_download} bytes\n' -A 'Mozilla/5.0' \
+            'https://www.bseindia.com/xml-data/corpfiling/AttachHis/f5d5fb37-aa66-401c-85d6-58ccd3982828.pdf' || true
+      - name: yfinance
+        working-directory: spikes
+        run: uv run python -c "import yfinance as yf; print(yf.download('INFY.NS', period='5d', progress=False).tail(2))" || true
