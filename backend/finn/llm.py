@@ -25,6 +25,9 @@ TIER_MODELS: dict[str, str] = {
 }
 # Thinking burns ~125 hidden tokens even on trivial replies; only the reason tier keeps it.
 THINKING: dict[str, bool] = {"vision": False, "bulk": False, "reason": True}
+# Calls in flight per tier. The 550B reasoning model timed out and returned 429s with ~16 parallel calls
+# (dossier precompute, 28 Oct); the smaller models handled the same load.
+CONCURRENCY: dict[str, int] = {"vision": 4, "bulk": 6, "reason": 2}
 
 NVIDIA_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 DEFAULT_CACHE = REPO_ROOT / "backend" / ".cache" / "llm.sqlite"
@@ -113,10 +116,12 @@ def load_api_key() -> str:
 class NvidiaCompleter:
     """Calls NVIDIA's OpenAI-compatible chat completions endpoint."""
 
-    def __init__(self, api_key: str | None = None, timeout: float = 120, retry_wait: float = 5):
+    def __init__(self, api_key: str | None = None, timeout: float = 120, thinking_timeout: float = 300,
+                 retry_waits: tuple[float, ...] = (5, 20, 60)):
         self.api_key = api_key or load_api_key()
         self.timeout = timeout
-        self.retry_wait = retry_wait
+        self.thinking_timeout = thinking_timeout
+        self.retry_waits = retry_waits
 
     def __call__(self, model, system, user, images, max_tokens, thinking):
         content = [{"type": "image_url", "image_url": {"url": "data:image/png;base64," + base64.b64encode(img).decode()}}
@@ -127,16 +132,18 @@ class NvidiaCompleter:
         if not thinking:
             body["chat_template_kwargs"] = {"enable_thinking": False}
         headers = {"Authorization": f"Bearer {self.api_key}", "Accept": "application/json"}
-        for attempt in range(2):
+        waits = list(self.retry_waits)
+        while True:
             try:
-                r = httpx.post(NVIDIA_URL, json=body, headers=headers, timeout=self.timeout)
+                r = httpx.post(NVIDIA_URL, json=body, headers=headers,
+                               timeout=self.thinking_timeout if thinking else self.timeout)
             except httpx.HTTPError as e:
-                if attempt == 0:
-                    time.sleep(self.retry_wait)
+                if waits:
+                    time.sleep(waits.pop(0))
                     continue
                 raise LLMError(f"{model}: {type(e).__name__}: {e}") from e
-            if (r.status_code == 429 or r.status_code >= 500) and attempt == 0:
-                time.sleep(self.retry_wait)
+            if (r.status_code == 429 or r.status_code >= 500) and waits:
+                time.sleep(waits.pop(0))
                 continue
             if r.status_code != 200:
                 raise LLMError(f"{model}: HTTP {r.status_code} {r.text[:300]}")
@@ -144,7 +151,6 @@ class NvidiaCompleter:
             usage = data.get("usage") or {}
             text = data["choices"][0]["message"].get("content") or ""
             return text, usage.get("prompt_tokens", 0), usage.get("completion_tokens", 0)
-        raise LLMError(f"{model}: no response")  # unreachable
 
 
 def _extract_json(text: str) -> str:
@@ -170,6 +176,7 @@ class LLM:
                          "input_tokens INTEGER, output_tokens INTEGER)")
         self._db.commit()
         self._lock = threading.Lock()
+        self._slots = {tier: threading.BoundedSemaphore(n) for tier, n in CONCURRENCY.items()}
 
     @property
     def completer(self) -> Completer:
@@ -189,7 +196,8 @@ class LLM:
 
         prompt, error = user, None
         for _ in range(2):
-            text = self._call(model, system, prompt, images, max_tokens, THINKING.get(tier, False))
+            with self._slots[tier]:
+                text = self._call(model, system, prompt, images, max_tokens, THINKING.get(tier, False))
             try:
                 result = schema.model_validate_json(_extract_json(text))
             except (ValidationError, ValueError) as e:

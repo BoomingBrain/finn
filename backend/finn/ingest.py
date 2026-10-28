@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 
 from pydantic import BaseModel
 
+from finn.guard import write_symbols
 from finn.llm import LLM
 from finn.models import IST, EventsFile, PushSnapshot, SignalsFile
 from finn.portfolio import load_portfolio
@@ -84,6 +85,7 @@ def main() -> None:
     llm = LLM()
     report = ingest(args.symbols, args.days, SnapshotStore(), llm, datetime.now(IST),
                     reprocess=frozenset(args.reprocess))
+    write_symbols(SnapshotStore())
     print(report.model_dump_json(indent=1))
     print("LLM usage:", llm.usage())
 

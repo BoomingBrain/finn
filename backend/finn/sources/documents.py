@@ -3,6 +3,8 @@ caches them on disk, and gives page text (for finding pages) and page images (fo
 import hashlib
 import io
 import json
+import os
+import tempfile
 import zipfile
 from pathlib import Path
 
@@ -52,6 +54,14 @@ def pdf_from_zip(data: bytes) -> bytes | None:
     return None
 
 
+def _atomic_write(path: Path, data: bytes) -> None:
+    """Write via a temp file and rename, so a concurrent reader never sees a half-written cache file."""
+    fd, tmp = tempfile.mkstemp(dir=path.parent, suffix=".part")
+    with os.fdopen(fd, "wb") as f:
+        f.write(data)
+    os.replace(tmp, path)
+
+
 def fetch_pdf(url: str, cache_dir: Path = DEFAULT_CACHE, fallback_urls: tuple[str, ...] = ()) -> Path:
     """Local path of a valid PDF for `url`, trying `fallback_urls` (e.g. screener's Raw PDF link) if it is broken."""
     cache_dir.mkdir(parents=True, exist_ok=True)
@@ -65,7 +75,7 @@ def fetch_pdf(url: str, cache_dir: Path = DEFAULT_CACHE, fallback_urls: tuple[st
                           headers={"User-Agent": UA, "Referer": "https://www.nseindia.com/"})
             content = pdf_from_zip(r.content) if r.content[:2] == b"PK" else r.content
             if r.status_code == 200 and content and _valid_pdf(content):
-                path.write_bytes(content)
+                _atomic_write(path, content)
                 return path
             errors.append(f"{candidate}: HTTP {r.status_code}, {len(r.content)} bytes, not a valid PDF")
         except httpx.HTTPError as e:
@@ -84,7 +94,7 @@ def fetch_pdf_text(url: str, cache_dir: Path = DEFAULT_CACHE, fallback_urls: tup
     if text_cache.exists():
         return DocText(url=url, pages=json.loads(text_cache.read_text()))
     pages = pdf_text(path)
-    text_cache.write_text(json.dumps(pages))
+    _atomic_write(text_cache, json.dumps(pages).encode())
     return DocText(url=url, pages=pages)
 
 

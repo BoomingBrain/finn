@@ -62,6 +62,10 @@ class SnapshotStore:
     def save_dossier(self, symbol: str, data: dict) -> None:
         self._write(f"dossiers/{symbol}.json", json.dumps(data, indent=1, ensure_ascii=False, default=str))
 
+    # symbols.json: the browser's ticker search list
+    def save_symbols(self, symbols: list[dict]) -> None:
+        self._write("symbols.json", json.dumps(symbols, separators=(",", ":"), ensure_ascii=False))
+
     def list_dossiers(self) -> list[str]:
         folder = self.root / "dossiers"
         return sorted(p.stem for p in folder.glob("*.json")) if folder.exists() else []

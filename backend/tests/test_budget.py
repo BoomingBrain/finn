@@ -1,9 +1,11 @@
+import threading
+import time
 from datetime import datetime, timedelta, timezone
 
 import pytest
 from pydantic import BaseModel
 
-from finn.llm import LLM, BudgetExceeded, RequestBudget
+from finn.llm import CONCURRENCY, LLM, BudgetExceeded, RequestBudget
 from tests.fakes import FakeCompleter
 
 
@@ -47,3 +49,28 @@ def test_llm_checks_budget_before_calling(tmp_path):
     with pytest.raises(BudgetExceeded):
         llm.complete_json("bulk", "system", "user", Answer)
     assert fake.calls == []
+
+
+def test_reason_tier_calls_are_capped(tmp_path):
+    class Reply(BaseModel):
+        ok: bool
+
+    state = {"now": 0, "peak": 0}
+    lock = threading.Lock()
+
+    def slow(model, system, user, images, max_tokens, thinking):
+        with lock:
+            state["now"] += 1
+            state["peak"] = max(state["peak"], state["now"])
+        time.sleep(0.05)
+        with lock:
+            state["now"] -= 1
+        return '{"ok": true}', 1, 1
+
+    llm = LLM(cache_path=tmp_path / "llm.sqlite", completer=slow)
+    threads = [threading.Thread(target=llm.complete_json, args=("reason", "s", f"u{i}", Reply)) for i in range(8)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+    assert state["peak"] == CONCURRENCY["reason"]
