@@ -30,6 +30,7 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 24 | 2026-10-28 | "how i have to do now give in detail" | Wrote a detailed click-by-click guide for the Render service, .env and deploy. |
 | 25 | 2026-10-28 | "done everything deploy it" | Checked Render health, ran `make deploy-space`, verified the live Space. |
 | 26 | 2026-10-28 | Task 3 description pasted ("Fetches announcements from whichever exchange feed Task 0 proved works … mapped to critical, notable or routine") | Implemented Task 3. |
+| 27 | 2026-10-28 | Task 4 description pasted ("Turns a raw results PDF into the four headline numbers … refuses to show numbers that don't add up") | Implemented Task 4. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

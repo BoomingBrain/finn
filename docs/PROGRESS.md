@@ -10,7 +10,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 1 | Foundation: models, snapshot store, LLM router, request budget | Wed | ✅ Done | see log | 3/3 budget tests; smoke: snapshot round trip, real cached NVIDIA call |
 | 2 | Skeleton deploy: static site on HF Space, API on Render | Wed | ✅ Done | Space e6a2ac6 | Live: https://ayush-rai-230265-finn.static.hf.space · Render https://finn-zztc.onrender.com (health + CORS OK) |
 | 3 | Announcements source and classification | Thu | ✅ Done | see log | 48 rule tests; live 30d: 224 filings, rules 92%, 1 LLM call |
-| 4 | Results card: column selection, units, lender layout | Thu | ⬜ Not started | | |
+| 4 | Results card: column selection, units, lender layout | Thu | ✅ Done | see log | 25 tests; real INFY + HDFCBANK cards 100% match hand-checks |
 | 5 | Vertical slice: ingest → Brief for one stock, deployed | Thu | ⬜ Not started | | |
 | 6 | Widen to 18 stocks, event clustering, profiles | Fri | ⬜ Not started | | |
 | 7 | Prices, signals, alerts, Watch with backtest sliders | Fri | ⬜ Not started | | |
@@ -42,6 +42,17 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 4 complete: results card
+- **`finn/sources/documents.py`:** PDF download validated with `page_count > 0`, with fallback URLs (for NSE truncation), a disk cache, page text, and page PNGs (fit 1664×2048 or a set dpi).
+- **`finn/push/results.py`:**
+  - `select_statement_page` needs income + PBT rows, prefers a results title and consolidated, and skips fact sheets/IFRS/auditor pages.
+  - `select_quarter_columns` matches end dates 80–100 / 355–375 days apart, with a SEBI column-order fallback when dates are garbled.
+  - `check_arithmetic`: total income; PPOP − provisions = PBT; PBT − tax + after-tax items = PAT.
+  - `compute_results`: corporate or lender layout; it refuses (`unreadable`) on any failed check, missing value, or |PAT| > Revenue.
+  - `extract_results`: a vision read, plus one 200-dpi re-read naming the failed checks.
+- **TDD:** 25 tests, including the deterministic Task 0 HDFCBANK PBT misread, after-tax items (associates), lenient "(173)"/"49,244"/garbled-date parsing, the re-read flow with a fake LLM, and page selection on the real fixtures.
+- **Smoke found a real bug:** the model *added* INFY's current + deferred tax wrongly (2,225 vs 3,225), and the check correctly refused the card. Fix: the model copies `tax_current`/`tax_deferred`, and code sums them. After the fix, **INFY (consolidated) and HDFCBANK (consolidated) match the hand-checks exactly**; HDFCBANK PBT/PAT also match screener.in. HDFCBANK consolidated gold values were added to `docs/spikes.md`.
 
 ### 2026-10-28 — Task 3 complete: announcements + classification
 - **`finn/sources/announcements.py`:** an NSE client (cookie warm-up, re-warm on 401/403, 0.5 s spacing) using the Task 0 field mapping. One failing symbol never drops the rest.

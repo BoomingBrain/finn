@@ -106,6 +106,17 @@ Read from the rendered page images. Every column passes its internal arithmetic 
 | PBT | 25,909.80 | 25,108.30 | 24,423.07 |
 | PAT | 19,509.96 | 19,059.72 | 18,641.28 |
 
+**HDFCBANK** — consolidated, ₹ crore, fixture `results/HDFCBANK_q2fy27.pdf` page 9 (index 8). Hand-checked in Task 4. This is the page the pipeline selects, because consolidated is preferred.
+
+| | Q2 FY27 | Q1 FY27 | Q2 FY26 |
+|---|---|---|---|
+| Interest earned | 95,131.63 | 90,575.33 | 86,993.84 |
+| Interest expended | 50,667.43 | 47,625.63 | 46,740.86 |
+| **NII** | **44,464.20** | **42,949.70** | **40,252.98** |
+| PPOP | 32,871.54 | 30,996.00 | 30,940.72 |
+| PBT | 28,662.54 | 27,193.16 | 26,658.89 |
+| PAT (before minority interest) | 21,537.09 | 20,382.69 | 20,363.77 |
+
 ### screener.in (Tasks 9, 10, 14)
 - **Parser:** selectolax ≥ 1.0 removed the old parser, so use `from selectolax.lexbor import LexborHTMLParser`.
 - **Sections:** `section#quarters`, `#profit-loss`, `#balance-sheet`, `#cash-flow`, `#ratios`, `#shareholding`, `#documents`. Row labels carry a trailing `+` (strip it).
