@@ -1,4 +1,4 @@
-.PHONY: test web api deploy-space
+.PHONY: test web api deploy-space ingest
 
 test:
 	cd backend && uv run pytest -q
@@ -10,4 +10,12 @@ api:
 	cd backend && uv run uvicorn finn.api:app --reload --port 8000
 
 deploy-space:
+	./scripts/deploy_space.sh
+
+# Local fallback for the scheduled GitHub Actions ingest (.github/workflows/ingest.yml).
+ingest:
+	git pull --rebase origin main
+	cd backend && uv run python -m finn.ingest --days 7
+	git add data/snapshot && (git diff --cached --quiet || git commit -m "chore: ingest (local)")
+	git push origin main
 	./scripts/deploy_space.sh
