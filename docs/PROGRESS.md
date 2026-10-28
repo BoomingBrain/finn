@@ -8,7 +8,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 |---|---|---|---|---|---|
 | 0 | Data spikes | Wed | ✅ Done | see log | NSE ✅, screener ✅, yfinance ✅, NVIDIA vision extraction 97% ✅, BSE API ❌. Cloud check from GitHub Actions ✅ |
 | 1 | Foundation: models, snapshot store, LLM router, request budget | Wed | ✅ Done | see log | 3/3 budget tests; smoke: snapshot round trip, real cached NVIDIA call |
-| 2 | Skeleton deploy: static site on HF Space, API on Render | Wed | 🟨 In progress | ae27f7e | Shell built and checked at 360/390 px; health API and CORS smoke OK; deploy dry run OK. Waiting: user OK to run `make deploy-space`; Render service setup |
+| 2 | Skeleton deploy: static site on HF Space, API on Render | Wed | ✅ Done | Space e6a2ac6 | Live: https://ayush-rai-230265-finn.static.hf.space · Render https://finn-zztc.onrender.com (health + CORS OK) |
 | 3 | Announcements source and classification | Thu | ⬜ Not started | | |
 | 4 | Results card: column selection, units, lender layout | Thu | ⬜ Not started | | |
 | 5 | Vertical slice: ingest → Brief for one stock, deployed | Thu | ⬜ Not started | | |
@@ -29,7 +29,7 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 | Night | "Demo must work" | Result |
 |---|---|---|
-| Wed 28 | Deployed shell opens on a phone; spikes recorded | ✅ Spikes done (cloud check deferred); deploy not attempted (local-only) |
+| Wed 28 | Deployed shell opens on a phone; spikes recorded | ✅ Spikes done incl. cloud check; shell live on the Space, Ask shows Render ready (headless check). Phone check: user |
 | Thu 29 | Deployed Brief shows one real results card | |
 | Fri 30 | Brief + Watch on all 18 stocks; lender cards; backtest sliders | |
 | Sat 31 | 4 demo dossiers instant; unseen ticker streams or fails cleanly | |
@@ -42,6 +42,12 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 2 complete: live deploy
+- **Render:** the user created `finn-research` at https://finn-zztc.onrender.com (Singapore, free). `/api/health` returns 200 in 0.3–0.7 s; the CORS preflight from the Space origin is allowed.
+- **Space:** `make deploy-space` pushed 6 files (172 KB) to `Ayush-Rai-230265/finn` (Space commit e6a2ac6). https://ayush-rai-230265-finn.static.hf.space serves `<title>FINN</title>`, and the bundle contains the Render URL. `.env` and backend paths are not served.
+- **End to end:** a headless load of the live Ask tab shows the green "Live research server is ready", proving the Space → Render cross-origin call works.
+- **Remaining for the Wed checkpoint:** the user opens the URL on a phone.
 
 ### 2026-10-28 — Task 2 (in progress)
 - **Plan updated** for the HF Static Space + Render split (Architecture, Decisions, Global Constraints, File Structure, Tasks 2, 5, 7, 8, 11, 12, 13). The digest, alerts and backtest now run in the browser over precomputed `events.json` / `signals.json`; Render does only live research; all 22 dossiers are precomputed.

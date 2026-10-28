@@ -27,6 +27,8 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 21 | 2026-10-28 | "https://github.com/BoomingBrain/finn.git this is the github repo" | Connected the private GitHub repo and pushed. |
 | 22 | 2026-10-28 | "web app deployemnet on hf is ok ? what to do next" | Checked the Space state (nothing deployed yet); explained next steps. |
 | 23 | 2026-10-28 | "step to next task if previous task are completed" | Updated the plan for the Static Space + Render split; started Task 2. |
+| 24 | 2026-10-28 | "how i have to do now give in detail" | Wrote a detailed click-by-click guide for the Render service, .env and deploy. |
+| 25 | 2026-10-28 | "done everything deploy it" | Checked Render health, ran `make deploy-space`, verified the live Space. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)
