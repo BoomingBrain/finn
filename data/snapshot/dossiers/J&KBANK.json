@@ -1,0 +1,748 @@
+{
+ "symbol": "J&KBANK",
+ "name": "Jammu and Kashmir Bank Ltd",
+ "built_at": "2026-10-28T15:12:41.034939Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-10-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Jammu and Kashmir Bank Ltd",
+    "about": "Jammu & Kashmir Bank (J&K Bank), incorporated in Jammu & Kashmir, India, is a publicly held banking company engaged in providing a wide range of banking services including Retail Banking, Corporate Banking & Treasury Operations.[1]It is the only Private Sector Bank in the country assigned with responsibility of convening State/UT Level Bankers’ Committee (SLBC/UTLBC) meetings.The Bank continued to discharge its lead bank responsibility satisfactorily in 12 districts of UT of J&K, i.e. Srinagar, Ganderbal, Budgam, Baramulla, Bandipora, Kupwara, Anantnag, Kulgam, Pulwama, Shopian, Poonch and Raj",
+    "basis": "consolidated",
+    "built_at": "2026-10-28T14:56:18.512199+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-10-01",
+     "annual_report": 2026
+    },
+    "lender": true,
+    "revenue_ttm": 13864.0,
+    "pat_ttm": 2362.0,
+    "revenue_cagr_3y": 12.0,
+    "pat_cagr_3y": 26.0,
+    "opm_latest": null,
+    "opm_3y_ago": null,
+    "roce_latest": null,
+    "roe_latest": 15.0,
+    "debt_to_equity": null,
+    "cfo_to_pat_3y": null,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 3210.0,
+      "pat": 529.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 3213.0,
+      "pat": 582.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 3269.0,
+      "pat": 485.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 3293.0,
+      "pat": 495.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 3315.0,
+      "pat": 581.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 3273.0,
+      "pat": 799.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 3547.0,
+      "pat": 429.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 3729.0,
+      "pat": 553.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/J&KBANK/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Oct 2026",
+     "Transcript Aug 2026",
+     "Transcript Jan 2026",
+     "Transcript Oct 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "equity capital raise",
+       "comparison": "approx",
+       "value": 1000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "The Bank is already in the process of raising both equity and debt capital to the tune of INR1,000 crores and INR500 crores respectively and will raise the capital at an opportune time to support its future growth.",
+       "source_id": "T:2026-10-01:p6",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided equity capital raise ≈ ₹1,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "debt capital raise",
+       "comparison": "approx",
+       "value": 500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "The Bank is already in the process of raising both equity and debt capital to the tune of INR1,000 crores and INR500 crores respectively and will raise the capital at an opportune time to support its future growth.",
+       "source_id": "T:2026-10-01:p6",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided debt capital raise ≈ ₹500 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "credit growth target",
+       "comparison": "gte",
+       "value": 14.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Yes. The target for the year, which we had earlier set at a lower rate, we have revised it a little bit higher now at 14%. But I said 14% plus. So my aim is to reach to around 18% provided that we continue with the retail growth.",
+       "source_id": "T:2026-10-01:p9",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided credit growth target ≥ 14% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "retail share of loan growth",
+       "comparison": "approx",
+       "value": 60.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "60% and 40%, 60% retail and 40% corporate.",
+       "source_id": "T:2026-10-01:p9",
+       "said_on": "2026-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided retail share of loan growth ≈ 60% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "loan growth",
+       "comparison": "between",
+       "value": 18.0,
+       "value_high": 20.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "And the reason why I said it will be around 18% to 20% around the growth, while we have already grown at more than 25%",
+       "source_id": "T:2026-08-01:p12",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided loan growth 18%–20% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "growth of advances coming this year from retail",
+       "comparison": "between",
+       "value": 55.0,
+       "value_high": 60.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "I expect almost 55% to 60% growth of advances coming this year from retail itself.",
+       "source_id": "T:2026-08-01:p12",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided growth of advances coming this year from retail 55%–60% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROA",
+       "comparison": "gte",
+       "value": 1.25,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "ROA will be 1.25% plus. In fact, it should be somewhere around what it was last year.",
+       "source_id": "T:2026-08-01:p12",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROA ≥ 1.2% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "credit growth",
+       "comparison": "between",
+       "value": 18.0,
+       "value_high": 20.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "I expect the credit growth to be somewhere around 18% to 20%.",
+       "source_id": "T:2026-08-01:p17",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided credit growth 18%–20% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROA",
+       "comparison": "approx",
+       "value": 1.25,
+       "value_high": null,
+       "unit": "pct",
+       "period": "Q2FY27",
+       "quote": "It should be from quarter 2 itself.",
+       "source_id": "T:2026-08-01:p17",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROA ≈ 1.2% for Q2FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "credit growth",
+       "comparison": "approx",
+       "value": 12.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "Speaking of advances now, with an above 17% Y-o-Y growth, the bank is comfortably poised to achieve the guidance of 12% credit growth for the fiscal.",
+       "source_id": "T:2026-01-01:p4",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided credit growth ≈ 12% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "NIM guidance",
+       "comparison": "approx",
+       "value": 3.7,
+       "value_high": null,
+       "unit": "pct",
+       "period": "Q4FY26",
+       "quote": "Definitely, if you look at my guidance it is 3.7%.",
+       "source_id": "T:2026-01-01:p7",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided NIM guidance ≈ 3.7% for Q4FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "loan-to-deposit ratio",
+       "comparison": "between",
+       "value": 77.0,
+       "value_high": 78.0,
+       "unit": "pct",
+       "period": "medium term",
+       "quote": "my target would in the medium term will be to take it to around 77%, 78%.",
+       "source_id": "T:2026-01-01:p12",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided loan-to-deposit ratio 77%–78% for medium term; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "deposit growth",
+       "comparison": "approx",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
+       "source_id": "T:2025-10-01:p5",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided deposit growth ≈ 10% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "CASA ratio",
+       "comparison": "approx",
+       "value": 48.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "We have a very strong focus on CASA growth, and we believe that we'll be able to reach the guidance number of 48%.",
+       "source_id": "T:2025-10-01:p7",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided CASA ratio ≈ 48% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "NIM",
+       "comparison": "gte",
+       "value": 3.6,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "I think we will be meeting the annual guidance that we have given of more than 3.6%.",
+       "source_id": "T:2025-10-01:p8",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided NIM ≥ 3.6% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "RoA",
+       "comparison": "between",
+       "value": 1.2,
+       "value_high": 1.25,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
+       "source_id": "T:2025-10-01:p5",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided RoA 1.2%–1.2% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "RoE",
+       "comparison": "between",
+       "value": 15.0,
+       "value_high": 16.0,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
+       "source_id": "T:2025-10-01:p5",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided RoE 15%–16% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "GNPA ratio",
+       "comparison": "lte",
+       "value": 3.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "So the market guidance for FY '25-'26, credit growth 12%, deposit growth 10% CASA 48%, NIM 3.65% to 3.70%, RoA 1.20% to 1.25%, RoE 15% to 16%, GNPA below 3%.",
+       "source_id": "T:2025-10-01:p5",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided GNPA ratio ≤ 3% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "credit cost",
+       "comparison": "lte",
+       "value": 1.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "The credit cost, I have always said it will be below 1%.",
+       "source_id": "T:2025-10-01:p6",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided credit cost ≤ 1% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "NPA level",
+       "comparison": "lte",
+       "value": 3.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "I will stick to the guidance of NPA level less than 3%.",
+       "source_id": "T:2025-10-01:p8",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided NPA level ≤ 3% for FY26; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-10-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36dee2ae-f56a-4670-8a67-cdff652eb791.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2026-10-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36dee2ae-f56a-4670-8a67-cdff652eb791.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-08-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e97a54ef-a4c4-43ee-8c57-e93e53cb4c20.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-08-01:p17",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e97a54ef-a4c4-43ee-8c57-e93e53cb4c20.pdf",
+     "page": 17
+    },
+    {
+     "source_id": "T:2026-01-01:p4",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffa08c0d-c454-4069-be40-e9c1d5f2fae9.pdf",
+     "page": 4
+    },
+    {
+     "source_id": "T:2026-01-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffa08c0d-c454-4069-be40-e9c1d5f2fae9.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-01-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffa08c0d-c454-4069-be40-e9c1d5f2fae9.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2025-10-01:p5",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf",
+     "page": 5
+    },
+    {
+     "source_id": "T:2025-10-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2025-10-01:p8",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf",
+     "page": 8
+    },
+    {
+     "source_id": "T:2025-10-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf",
+     "page": 6
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Jammu and Kashmir Bank Limited is a commercial bank offering banking and financial services including retail banking (housing, vehicle, personal finance), agriculture lending, corporate banking, MSME financing, and treasury operations. It serves retail customers, government and public sector entities, corporates and MSMEs, priority sector borrowers, institutional customers, and emerging segments such as start-ups.",
+    "segments": [
+     {
+      "name": "Retail Banking",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p17"
+      ]
+     },
+     {
+      "name": "Agriculture",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p17"
+      ]
+     },
+     {
+      "name": "Corporate Banking",
+      "share_pct": 35.0,
+      "source_ids": [
+       "AR:2026:p17"
+      ]
+     },
+     {
+      "name": "MSME",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p17"
+      ]
+     },
+     {
+      "name": "Treasury and Balance Sheet Management",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p140"
+      ]
+     },
+     {
+      "name": "Fee-Based Income (non-interest income)",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p140"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p17",
+     "AR:2026:p229"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p17",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5661b2c4-8f7a-4bed-8ff0-fc6cf94ed5db.pdf",
+     "page": 17
+    },
+    {
+     "source_id": "AR:2026:p229",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5661b2c4-8f7a-4bed-8ff0-fc6cf94ed5db.pdf",
+     "page": 229
+    },
+    {
+     "source_id": "AR:2026:p140",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5661b2c4-8f7a-4bed-8ff0-fc6cf94ed5db.pdf",
+     "page": 140
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "The bank achieved a 3-year PAT CAGR of 26% versus a 12% revenue CAGR, showing strong profit momentum.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Current ROE of 15% meets the lower end of management's 15-16% guidance for FY26.",
+      "source_ids": [
+       "SCR",
+       "T:2025-10-01:p5"
+      ]
+     },
+     {
+      "text": "Corporate banking contributes 35% of revenue while management targets a 60% retail advance mix, providing diversification.",
+      "source_ids": [
+       "AR:2026:p17",
+       "T:2026-10-01:p9"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Quarterly PAT dropped 46% from ₹799 Cr (Mar 2026) to ₹429 Cr (Jun 2026) despite revenue growth, highlighting earnings instability.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The bank intends to raise ₹1,000 Cr equity and ₹500 Cr debt, which may dilute shareholders or increase leverage.",
+      "source_ids": [
+       "T:2026-10-01:p6"
+      ]
+     },
+     {
+      "text": "Management's target of 55-60% retail advance growth could challenge the sub-1% credit cost guidance and sub-3% GNPA goal.",
+      "source_ids": [
+       "T:2026-08-01:p12",
+       "T:2025-10-01:p6",
+       "T:2025-10-01:p8"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/J&KBANK/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2025-10-01:p5",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf",
+     "page": 5
+    },
+    {
+     "source_id": "AR:2026:p17",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5661b2c4-8f7a-4bed-8ff0-fc6cf94ed5db.pdf",
+     "page": 17
+    },
+    {
+     "source_id": "T:2026-10-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36dee2ae-f56a-4670-8a67-cdff652eb791.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-10-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36dee2ae-f56a-4670-8a67-cdff652eb791.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2026-08-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e97a54ef-a4c4-43ee-8c57-e93e53cb4c20.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2025-10-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2025-10-01:p8",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8e74164-bc5e-4680-a0bc-b321aac5c747.pdf",
+     "page": 8
+    }
+   ]
+  }
+ ]
+}
