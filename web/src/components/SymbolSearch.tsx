@@ -92,7 +92,7 @@ export function SymbolSearch() {
       {!query.trim() && (
         <>
           <p className="mt-4 text-[13px] text-muted">
-            These open instantly. Any other NSE company is researched live: usually 10–30 minutes, and FINN tells you when it\u2019s ready.
+            These open instantly. Any other NSE company is researched live: usually 10–30 minutes, and FINN tells you when it’s ready.
           </p>
           <InstantList title={`Your holdings (${groups.holdings.length})`} entries={groups.holdings} />
           <InstantList title={`Also researched (${groups.others.length})`} entries={groups.others} />
