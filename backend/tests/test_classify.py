@@ -81,6 +81,8 @@ ANALYST_MEET = "Analysts/Institutional Investor Meet/Con. Call Updates"
      "becoming a surety for any third party'.", "Updates", None, "unclassified"),
     ("Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.", "General Updates", None,
      "investor_meetings"),
+    # Persistent Q2 FY27: the LLM labelled this results once and unclassified on a re-run; a rule makes it stable
+    ("Outcome of the Board Meeting", "Outcome of Board Meeting", None, "results"),
 ])
 def test_rules(subject, raw_category, attachment, expected):
     assert classify_rule(subject, raw_category, attachment) == expected

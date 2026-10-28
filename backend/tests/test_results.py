@@ -193,3 +193,32 @@ def test_select_statement_page_infy():
 def test_select_statement_page_hdfcbank_prefers_consolidated():
     doc = DocText(url="hdfc", pages=pdf_text(FIXTURES / "HDFCBANK_q2fy27.pdf"))
     assert select_statement_page(doc) == 8
+
+
+# Task 6 smoke: Bajaj Finance (NBFC) Q2 FY27, real extracted values
+def test_nbfc_total_income_check_needs_total_revenue():
+    # NBFC total income = all revenue from operations + other income; interest income alone never adds up
+    c = col(3, date(2026, 9, 30), interest_earned=21936.39, other_income=29.45, total_income=24575.82, pbt=8537.20,
+            tax=2170.63, pat=6366.57)
+    assert check_arithmetic(c, "lender") == []
+
+
+def test_check_accepts_printed_total_tax_when_components_are_incomplete():
+    c = col(3, date(2026, 6, 30), interest_earned=20512.73, pbt=8149.00, tax_current=2442.67, tax=2068.40, pat=6080.60)
+    assert check_arithmetic(c, "lender") == []
+
+
+def test_check_still_fails_when_no_tax_reading_adds_up():
+    c = col(3, date(2026, 6, 30), pbt=8149.00, tax_current=2442.67, tax=2000.00, pat=6080.60)
+    assert check_arithmetic(c, "lender") == ["pat"]
+
+
+def test_missing_ebitda_input_drops_only_ebitda():
+    # Task 6 smoke: Persistent's finance-cost line wasn't read; Revenue/PBT/PAT were verified, so show them
+    raw = corporate((46639.04, 244.45, None, 1666.73, 4536.84, 3515.14), (43032.27, 706.36, None, 1152.87, 6231.01, 4830.43),
+                    (35807.20, 517.76, None, 1000.47, 6168.32, 4714.70), unit="millions")
+    card = compute_results(raw)
+    assert card.status == "ok"
+    assert list(card.metrics) == ["Revenue", "PBT", "PAT"]
+    assert card.missing == ["EBITDA"]
+    assert card.metrics["Revenue"].current == 4663.9

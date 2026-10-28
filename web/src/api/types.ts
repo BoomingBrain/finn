@@ -20,6 +20,7 @@ export interface ResultsCard {
   period_end: string | null;
   metrics: Record<string, MetricRow>;
   not_applicable: string[];
+  missing: string[];
   verified: boolean | null;
   mismatches: string[];
   unit: string;
@@ -55,6 +56,7 @@ export interface Event {
   documents: DocRef[];
   price_change_pct: number | null;
   volume_multiple: number | null;
+  price_date: string | null;
 }
 
 export interface EventsFile {

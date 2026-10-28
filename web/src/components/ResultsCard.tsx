@@ -47,6 +47,9 @@ export function ResultsCard({ card, filingUrl }: { card: Card; filingUrl: string
       {card.layout === "lender" && card.not_applicable.includes("EBITDA") && (
         <p className="mt-1 text-[12px] text-muted">EBITDA n/a for lenders</p>
       )}
+      {(card.missing ?? []).length > 0 && (
+        <p className="mt-1 text-[12px] text-muted">{card.missing.join(", ")} couldn't be read from this filing.</p>
+      )}
     </div>
   );
 }

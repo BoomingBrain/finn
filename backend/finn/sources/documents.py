@@ -1,7 +1,9 @@
 """Downloads filing PDFs (validated: the NSE archive sometimes serves a truncated file, see docs/spikes.md),
 caches them on disk, and gives page text (for finding pages) and page images (for reading numbers)."""
 import hashlib
+import io
 import json
+import zipfile
 from pathlib import Path
 
 import httpx
@@ -35,6 +37,21 @@ def _valid_pdf(data: bytes) -> bool:
         return False
 
 
+def pdf_from_zip(data: bytes) -> bytes | None:
+    """The largest valid PDF inside a ZIP attachment (some companies file e.g. ..._KMP_Doc.zip), else None."""
+    try:
+        with zipfile.ZipFile(io.BytesIO(data)) as z:
+            names = sorted((i for i in z.infolist() if i.filename.lower().endswith(".pdf")),
+                           key=lambda i: i.file_size, reverse=True)
+            for info in names:
+                pdf = z.read(info)
+                if _valid_pdf(pdf):
+                    return pdf
+    except zipfile.BadZipFile:
+        return None
+    return None
+
+
 def fetch_pdf(url: str, cache_dir: Path = DEFAULT_CACHE, fallback_urls: tuple[str, ...] = ()) -> Path:
     """Local path of a valid PDF for `url`, trying `fallback_urls` (e.g. screener's Raw PDF link) if it is broken."""
     cache_dir.mkdir(parents=True, exist_ok=True)
@@ -46,8 +63,9 @@ def fetch_pdf(url: str, cache_dir: Path = DEFAULT_CACHE, fallback_urls: tuple[st
         try:
             r = httpx.get(candidate, timeout=120, follow_redirects=True,
                           headers={"User-Agent": UA, "Referer": "https://www.nseindia.com/"})
-            if r.status_code == 200 and _valid_pdf(r.content):
-                path.write_bytes(r.content)
+            content = pdf_from_zip(r.content) if r.content[:2] == b"PK" else r.content
+            if r.status_code == 200 and content and _valid_pdf(content):
+                path.write_bytes(content)
                 return path
             errors.append(f"{candidate}: HTTP {r.status_code}, {len(r.content)} bytes, not a valid PDF")
         except httpx.HTTPError as e:

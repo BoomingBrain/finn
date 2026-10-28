@@ -54,6 +54,7 @@ class ResultsCard(BaseModel):
     period_end: date | None
     metrics: dict[str, MetricRow]  # ordered: insertion order is display order
     not_applicable: list[str] = []
+    missing: list[str] = []  # metrics that apply but could not be read (e.g. EBITDA without a finance-cost line)
     verified: bool | None = None
     mismatches: list[str] = []
     unit: Literal["₹ Cr"] = "₹ Cr"
@@ -98,6 +99,7 @@ class Event(BaseModel):
     documents: list[DocRef]
     price_change_pct: float | None
     volume_multiple: float | None
+    price_date: date | None = None  # the trading day the price move refers to
 
 
 class Bar(BaseModel):

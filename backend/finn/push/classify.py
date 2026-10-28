@@ -63,6 +63,9 @@ _RULES: list[tuple[Category, str]] = [
     ("press_release", r"press release|media (release|statement)|\bpr\b"),
     ("investor_meetings", r"analysts?(\(s\))?/(institutional )?investors?(\(s\))? meet|analysts? meet|investors? meet|roadshow|non-deal"),
     ("unclassified", r"newspaper|clipping|advertisement|informed the exchange about general updates"),
+    # Last: a board outcome no other rule explains is, in practice, a results meeting; the PDF decides whether
+    # a statement is there to read. Left to the LLM it flipped between runs (Persistent Q2 FY27).
+    ("results", r"outcome of (the )?board meeting"),
 ]
 _COMPILED = [(category, re.compile(pattern, re.I)) for category, pattern in _RULES]
 

@@ -9,7 +9,7 @@ const row = (current: number, qoq: number | null, yoy: number | null) => ({
 const corporate: Card = {
   status: "ok", layout: "corporate", basis: "consolidated", period_end: "2026-09-30",
   metrics: { Revenue: row(49244, 12.4, -3.1), EBITDA: row(11689, 2.5, 11), PBT: row(11063, 0.3, 8.2), PAT: row(7838, 0.8, 6.3) },
-  not_applicable: [], verified: null, mismatches: [], unit: "₹ Cr",
+  not_applicable: [], missing: [], verified: null, mismatches: [], unit: "₹ Cr",
 };
 
 describe("ResultsCard", () => {

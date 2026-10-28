@@ -135,23 +135,29 @@ def _close(a: float, b: float) -> bool:
     return abs(a - b) <= max(TOLERANCE * max(abs(a), abs(b)), 0.05)
 
 
-def _tax(c: RawColumn) -> float | None:
-    """Total tax. Printed component lines win: the model copies numbers, code adds them (Task 4 smoke)."""
+def _tax_readings(c: RawColumn) -> list[float]:
+    """Possible total-tax readings: the printed total line, and the printed component lines added by code.
+    Either may be the right one: INFY prints only components (the model's own sum was wrong); Bajaj Finance's
+    components were incomplete but its printed total was right (Tasks 4 and 6 smoke runs)."""
+    readings = [c.tax] if c.tax is not None else []
     if c.tax_current is not None or c.tax_deferred is not None:
-        return (c.tax_current or 0) + (c.tax_deferred or 0)
-    return c.tax
+        readings.append((c.tax_current or 0) + (c.tax_deferred or 0))
+    return readings
 
 
 def check_arithmetic(c: RawColumn, layout: Layout) -> list[str]:
     """Names of failed checks; a check is skipped when its inputs were not read."""
     failed = []
-    top = c.revenue if layout == "corporate" else c.interest_earned
+    # Total revenue from operations; for banks, interest earned is the whole of it. NBFCs (no interest_expended
+    # line) earn fees and fair-value gains too, so interest income alone cannot be checked against total income.
+    top = c.revenue if c.revenue is not None else (c.interest_earned if c.interest_expended is not None else None)
     if None not in (top, c.other_income, c.total_income) and not _close(top + c.other_income, c.total_income):
         failed.append("total_income")
     if layout == "lender" and None not in (c.ppop, c.provisions, c.pbt) and not _close(c.ppop - c.provisions, c.pbt):
         failed.append("pbt")
-    tax = _tax(c)
-    if None not in (c.pbt, tax, c.pat) and not _close(c.pbt - tax + (c.after_tax_items or 0), c.pat):
+    taxes = _tax_readings(c)
+    if None not in (c.pbt, c.pat) and taxes and not any(
+            _close(c.pbt - tax + (c.after_tax_items or 0), c.pat) for tax in taxes):
         failed.append("pat")
     return failed
 
@@ -187,10 +193,10 @@ def compute_results(raw: RawResults, sector: str | None = None) -> ResultsCard:
         revenue = series(lambda c: c.revenue)
         ebitda = series(lambda c: None if None in (c.pbt, c.finance_costs, c.depreciation, c.other_income)
                         else c.pbt + c.finance_costs + c.depreciation - c.other_income)
-        if None in (revenue, ebitda, pbt, pat) or any(abs(p) > abs(r) for p, r in zip(pat, revenue)):
+        if None in (revenue, pbt, pat) or any(abs(p) > abs(r) for p, r in zip(pat, revenue)):
             return unreadable
-        metrics = {"Revenue": revenue, "EBITDA": ebitda, "PBT": pbt, "PAT": pat}
-        not_applicable = []
+        metrics = {"Revenue": revenue, **({"EBITDA": ebitda} if ebitda else {}), "PBT": pbt, "PAT": pat}
+        not_applicable, missing = [], [] if ebitda else ["EBITDA"]
     else:
         expense = "interest_expended" if all(c.interest_expended is not None for c in triplet) else "finance_costs"
         nii = series(diff("interest_earned", expense))
@@ -198,9 +204,9 @@ def compute_results(raw: RawResults, sector: str | None = None) -> ResultsCard:
         if None in (nii, pbt, pat):
             return unreadable
         metrics = {"NII": nii, **({"PPOP": ppop} if ppop else {}), "PBT": pbt, "PAT": pat}
-        not_applicable = ["EBITDA"]
+        not_applicable, missing = ["EBITDA"], []
     return ResultsCard(status="ok", layout=layout, basis=raw.basis, period_end=triplet[0].period_end,
-                       metrics={k: _row(v) for k, v in metrics.items()}, not_applicable=not_applicable)
+                       metrics={k: _row(v) for k, v in metrics.items()}, not_applicable=not_applicable, missing=missing)
 
 
 # --- extraction -------------------------------------------------------------------------------------------

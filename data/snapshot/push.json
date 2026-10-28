@@ -1,6 +1,237 @@
 {
- "as_of": "2026-10-28T13:28:55.580064+05:30",
+ "as_of": "2026-10-28T13:54:19.707157+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "e5ebb46ce6a6fd9a2d6a83ddc471e7fd740a2742",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-10-28T13:49:00+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about the Company has incorporated Titan Company Canada Inc. as its wholly owned subsidiary.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_28102026134838_SEIntimation_-_Canada_Incorporation.pdf",
+    "raw_category": "Acquisition",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "Titan Company incorporated Titan Company Canada Inc. as a wholly owned subsidiary with 5000 CAD share capital to retail jewellery and…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "477b3af1891042206bf7437749059580d59c8f5c",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-28T13:28:05+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf",
+    "raw_category": "Acquisition",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "Board approved incorporation of a wholly owned subsidiary in Vietnam to leverage skilled talent, strengthen customer engagements…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b4a6ea151a8fba4b83f11cc82497dc15686b1fa8",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-28T13:28:05+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf",
+    "raw_category": "Sale or disposal",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "Board approved strike-off of wholly owned step-down subsidiary Somit UK, fully integrated into KPIT UK, reducing compliance costs with no…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c95a5fca41bb77726f4bf01579772cbd3b860ccf",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-28T13:28:05+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange regarding Appointment of Independent Director, Mr. Anant Talaulicar - Chairman of the Board, on the Board of KPIT Technologies Inc., material subsidiary of the Company w.e.f. October 28, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132119_1_Outcome.pdf",
+    "raw_category": "Appointment",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. Anant Talaulicar",
+    "role": "Independent Director, Chairman of the Board",
+    "change": "appointed",
+    "effective_date": "October 28, 2026",
+    "background": "Holds a bachelor's degree in Mechanical Engineering from Mysore University, a master's degree from the University of Michigan in Ann Arbor and an MBA from Tulane University, USA. He was the Chairman and Managing Director of the Cummins Group in India from March 2004 through…",
+    "prior_roles": [
+     "Chairman and Managing Director of the Cummins Group in India",
+     "Member of the Cummins Inc. global leadership team",
+     "President of the Cummins Inc. Components Group"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "219ea4651b8bf04d0ca15811d17be77739babcd6",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-28T13:28:05+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about Issue of Letter of Comfort in favor of KPIT Technologies (UK) Limited, a wholly-owned subsidiary of the Company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132739_1_Outcome.pdf",
+    "raw_category": "Giving guarantees/indemnity/ becoming a surety for third party",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6f2ee009e5e9a3086c4564cef1bbc362c3c6922c",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-28T13:15:54+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about the Investor Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026131505_Investor_Presentation_Sept_2026_Signed.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "19b0b9cfa719b6c864ffd495e5c1ca8e36feda89",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-28T12:57:10+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange regarding Outcome of Board Meeting held on October 28, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026125528_1_Outcome.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "dd5d9a3f1e0f688137ba7cc0dbe6f34991ce80b5",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-28T12:52:46+05:30",
+    "subject": "KPIT Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026124748_Outcome_NSE.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 1690.97,
+      "prev_q": 1674.99,
+      "year_ago": 1587.71,
+      "qoq_pct": 1.0,
+      "yoy_pct": 6.5
+     },
+     "EBITDA": {
+      "current": 267.26,
+      "prev_q": 257.45,
+      "year_ago": 297.94,
+      "qoq_pct": 3.8,
+      "yoy_pct": -10.3
+     },
+     "PBT": {
+      "current": 168.04,
+      "prev_q": 160.3,
+      "year_ago": 230.56,
+      "qoq_pct": 4.8,
+      "yoy_pct": -27.1
+     },
+     "PAT": {
+      "current": 120.66,
+      "prev_q": 116.41,
+      "year_ago": 169.09,
+      "qoq_pct": 3.7,
+      "yoy_pct": -28.6
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8dc1b05e81942535938b3fe21e71c93e28313fee",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-10-28T12:23:25+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange about Board Comments on fines levied by the Exchanges for non-compliances of certain Regulations of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_28102026122246_BoardCommentonStockExchangepenalty.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "IRCTC was fined ₹10.23 lakh each by NSE and BSE for non-compliance with SEBI LODR Regulations 17(1), 18(1), 19(1)/(2), 20(2)/(2A) and…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "bce618b1b00c1ce80485827dc260a8c0fe5606a6",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-28T10:24:43+05:30",
+    "subject": "Polycab India Limited has informed the Exchange on the update of NCLAT order dated October 27, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102026102430_StockExchangeintimation27102026.pdf",
+    "raw_category": "Corporate Insolvency Resolution Process",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "NCLAT ordered MSCI to halt Polycab's delisting pending appeal outcome on October 27, 2026.",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "20fe1f5c11018740cb1b7b3cd39a9811998c86e7",
@@ -21,6 +252,208 @@
   },
   {
    "announcement": {
+    "id": "fb7ed8a231d208b027e86f43882fee448afc98bb",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-27T22:13:16+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Link of Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026221257_Intimation27102026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f42b3ecabf2b965731cd8ada28c4f9821d404ed2",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-27T22:11:29+05:30",
+    "subject": "Trading in equity shares of Jio Platforms Limited (JPL) will commence from October 28, 2026.Further, a meeting of board of directors of JPL is scheduled to be held on Friday, October 30, 2026, inter alia, to consider and approve the standalone and consolidated unaudited financial results of JPL for the quarter and half year ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_27102026220855_RIL_SELETTER_271026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8a7ea3c8f0b1ab6677d87d7030b2e7b7dc056136",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-27T19:45:47+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about the grant of 54,100 Options to the eligible employees covered under the KPIT Technologies Limited - Restricted Stock Unit Plan 2022",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_27102026194517_NRC_Outcome_October_2026_S.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "553ebd16025578eb87c93585c29d9b97699ad52d",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-27T19:17:10+05:30",
+    "subject": "The meeting of the Board of Directors of the Company is scheduled on October 30, 2026, inter alia, to consider and approve a. the standalone and consolidated unaudited financial results of the Company for the quarter and half year ended September 30, 2026; and b. raising of funds by way of issuance of listed, secured / unsecured, redeemable non-convertible debentures on private placement basis, in one or more tranches. The Company will hold an analyst meet, post the Board Meeting, to discuss the financial results for the quarter and half year ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_27102026191700_SE_27102026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "011425abbd31bc8ad417a093ddbd6f272e59b97e",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-27T19:04:27+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_27102026190410_Intimationtostockexchange.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8291ed2860f0d59ffd38848e9f3c9b2df293cec3",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-27T18:42:35+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_27102026184209_IntimationtoStockExchange.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "4f9773540bceb36fd854c90febbe583ed5859a14",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-27T18:37:19+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange regarding 'Analyst Presentation.- Q2 / H1 FY27'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026183653_AnalystPresentationSep2026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6b3edde301af782b9c468bd8e5cddb927cd3ad38",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-27T17:14:06+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about Action(s) initiated or orders passed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_27102026171345_ASLInitmationReg30_27102026.pdf",
+    "raw_category": "Action(s) initiated or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "Gujarat International Finance Tec-City Company Limited imposed a penalty of Rs. 55.75 lakhs on Avenue Supermarts Limited for…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "3f8c76fa9d26ff69a2a18240c092428f9d807b27",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-27T17:13:09+05:30",
+    "subject": "Larsen & Toubro Limited has submitted to the Exchange, the consolidated and standalone un-audited financial results of the Company for the quarter and half-year ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026171156_LTSep2026.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 78749.94,
+      "prev_q": 67941.74,
+      "year_ago": 67983.53,
+      "qoq_pct": 15.9,
+      "yoy_pct": 15.8
+     },
+     "EBITDA": {
+      "current": 6844.65,
+      "prev_q": 6116.48,
+      "year_ago": 6806.41,
+      "qoq_pct": 11.9,
+      "yoy_pct": 0.6
+     },
+     "PBT": {
+      "current": 7641.06,
+      "prev_q": 6922.26,
+      "year_ago": 6336.11,
+      "qoq_pct": 10.4,
+      "yoy_pct": 20.6
+     },
+     "PAT": {
+      "current": 5940.15,
+      "prev_q": 4988.03,
+      "year_ago": 4678.01,
+      "qoq_pct": 19.1,
+      "yoy_pct": 27.0
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
     "id": "51dcac7edbd121fe3dc2c13abf82b415c7ea0015",
     "symbol": "INFY",
     "company": "Infosys Limited",
@@ -34,6 +467,215 @@
    "category": "press_release",
    "tier": "notable",
    "summary": "Infosys and Syngenta successfully implemented CP Core, a unified SAP S/4HANA platform replacing multiple ERPs for over 10,000 employees…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "11a84a66e29dee121fdefc6b4064a66f35b7ccc4",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-27T13:29:18+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange regarding allotment of 21098 securities pursuant to ESOP/ESPS at its meeting held on October 27, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026132854_ESOPAllotment27102026.pdf",
+    "raw_category": "Allotment of Securities",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d6f7fe61da824412f8f79c42c7660ffc403f5541",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-27T10:16:48+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_27102026101631_PressRelease27102026.pdf",
+    "raw_category": "Bagging/Receiving of orders/contracts",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "L&T Transportation Infrastructure secured major Design & Build orders for Dhaka Metro Line 1: CP09 (Track Works & Electrical Systems) and…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "43b47a2e28df4c3f68827bb13b7273986064f7f2",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-27T08:02:54+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Change in Managing Director and Chief Executive Officer of the Bank",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_27102026080232_SEIntimation_appt_of_AB.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. Anup Bagchi",
+    "role": "Managing Director and Chief Executive Officer",
+    "change": "appointed",
+    "effective_date": "October 27, 2026",
+    "background": "Anup Bagchi has extensive experience in the banking sector, having held various leadership roles at HDFC Bank prior to his appointment as MD & CEO.",
+    "prior_roles": [
+     "Deputy Managing Director",
+     "Executive Director",
+     "Chief Financial Officer"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "52af69792d8a3142b90bb76e535d4b725c3734ad",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-26T23:25:38+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding allotment of 7683981 securities pursuant to Qualified Institution Placement at its meeting held on October 26, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_26102026232529_PersistentSEOutcomeAllotmentofsharesOct262026IIFLSigned.pdf",
+    "raw_category": "Allotment of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Persistent Systems allotted 7,683,981 equity shares at INR 5,550 each to qualified institutional buyers, raising INR 42,646.09 million and…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e50bb6d079b4279f7950b06d2d1088efebe8950a",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-26T23:21:37+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding Outcome of Committee Meeting held on October 26, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_26102026232129_PersistentSEOutcomeAllotmentofsharesOct262026IIFLSigned.pdf",
+    "raw_category": "Committee Meeting Updates",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "bd24e3d3149ab25817f0190a9990da17e4c4aa09",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-26T19:30:09+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding Outcome of Committee Meeting held on October 26, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_26102026192958_PersistentSEOutcomeQIPissueclosingOct262026signed.pdf",
+    "raw_category": "Committee Meeting Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Special Committee approved closure of QIP issue, allotment of 7,683,981 equity shares at INR 5,550 each (3.66% discount to floor price of…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "dc75cd5c2871336362c7d50fe05da61b19954bd6",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-26T19:26:31+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_26102026192457_BSENSE_Intimation_Investor_meet.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "5c344172a52fbd869fb2ba66f4436b78305ed89b",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-10-26T19:01:02+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018 for the period from July 01, 2026 to September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_26102026190028_BhartiAirtelReg74_5_disclosure.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6f3deb1c3c25e6486cc82f9b025b5352598e4aff",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-26T12:30:34+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding allotment of 781600 securities pursuant to Non Convertible Securities at its meeting held on October 26, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_26102026122925_SE_Intimation_of_allotment_of_NCDs_26_Oct_2026.pdf",
+    "raw_category": "Allotment of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Sun Pharma allotted 781,600 unsecured NCDs with aggregate face value of INR 7,816 crore (Series A: 200,300 debentures at 8.05% p.a.…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1571fd36f09b6531fbcd1f9ef664d99e153eb856",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-24T22:27:22+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding Grant of 1302379 Options.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_24102026222634_SE_Intimation_grant_of_ESOPs.pdf",
+    "raw_category": "ESOP/ESOS/ESPS",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "9a18fb760f074fa37c3a40ebce359fd44554b2c9",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-24T21:48:04+05:30",
+    "subject": "Initial Public Offer of Jio Platforms Limited",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_24102026214355_RIL_SE_241026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Jio Platforms IPO finalized issue price at ₹1,119 per share for 27 crore fresh equity shares, opened Oct 21 and closed Oct 23, 2026.",
    "results": null,
    "profile": null
   },
@@ -57,6 +699,42 @@
   },
   {
    "announcement": {
+    "id": "400a0de1ee45ff762bf558322ac98691b53e153b",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-23T22:50:22+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about Transcript",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_23102026224657_SEintimationTranscriptofearningscall17oct2026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "4faa0285f4ed18fe86eeb020ac4fe87a1b4513ce",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-23T20:43:45+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Transcript",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_23102026204328_PSLTranscriptSubmissionOctober2026Sd.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
     "id": "c678aa6ee01e10fbb59ecbc40bf0703e50ed289d",
     "symbol": "INFY",
     "company": "Infosys Limited",
@@ -69,6 +747,96 @@
    },
    "category": "results",
    "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b085c85a039258cc8bdd582cd9478a1e926e0769",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-10-23T19:58:53+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Earnings call for Q2 and half year ended FY 2026-27",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_23102026195704_SEQ2FY27EarningCall.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "118c80c5f227c3e09ddedf598ebf9d3b70269ff9",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-23T19:48:20+05:30",
+    "subject": "Trent Limited has informed the Exchange about Nahar Retail Trading Services Limited ( Nahar ), a wholly owned subsidiary of the Company, has entered into a binding term sheet dated 22nd October 2026 with TreBits Investment Trust, a Small and Medium Real Estate Investment Trust registered with the Securities and Exchange Board of India (the Trust ), in relation to the proposed divestment of its entire shareholding (100%) in its wholly owned subsidiary, Netria Property Holdings Limited.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_23102026194710_Reg30DivestmentofstepdownsubsidiaryofNahar.pdf",
+    "raw_category": "Sale or disposal",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "Nahar Retail Trading Services entered a binding term sheet on 22 Oct 2026 to sell its entire 100% stake in Netria Property Holdings…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f42cbfa2ddbc340ec14a1a7f01a12fe2d94cc1a4",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-23T18:10:54+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_23102026181003_Q2ResultsConferenceCallIntimation30102026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "dcdb025483531f12e9d5e7799ea00b3c4f9da5fc",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-23T18:01:41+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 23, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_23102026180028_SE_Intimation_of_Press_Release_-_ESMO.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Sun Pharma's UNLOXCYT achieved 34% CR in locally advanced and 17-21% CR in metastatic aCSCC patients, with durable responses (69-82% at 2…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "9bf0df347787a52efb9c7bf23a1de5ff3f984ee3",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-23T16:34:41+05:30",
+    "subject": "Trent Limited has informed the Exchange about Reminder letter for transfer of equity shares to the Investor Education and Protection Fund ( IEPF )",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_23102026163319_Reg30Reminderlettertoshareholder2026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
    "summary": null,
    "results": null,
    "profile": null
@@ -142,10 +910,556 @@
      }
     },
     "not_applicable": [],
+    "missing": [],
     "verified": null,
     "mismatches": [],
     "unit": "₹ Cr"
    },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "511fcd78acc89cf3b90dae1c3497c6fe669d358c",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-23T14:53:17+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about Transcript",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_23102026145254_BFL_Investor_Call_outcome_Transcript_for_filing.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "4bcca4ad49539b6b9524034082bebed56a591b7c",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-23T14:34:30+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_23102026143418_Intimationtostockexchange.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "746ea8271ce253b6d4d020c68df99f19afc4ef48",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-22T23:01:42+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Credit Rating",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_22102026230112_PSLCreditRatingIntimationICRA22102026Sd.pdf",
+    "raw_category": "Credit Rating",
+    "source": "nse"
+   },
+   "category": "credit_rating",
+   "tier": "notable",
+   "summary": "ICRA continued the company's [ICRA]AA+ issuer rating and assigned [ICRA]A1+ to a new INR 1,000 crore Commercial Paper programme, while…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "4ba0b9f9b99c4fbec474f6db39033a16a0e9f6b5",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-22T13:57:50+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 9138522 Shares.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_22102026135701_SELetterESOP22102026.pdf",
+    "raw_category": "ESOP/ESOS/ESPS",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e2696debcec18e1713afed7c7cf0a952e4a246d5",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-22T11:55:18+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_22102026115451_PB_adv_22102026.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f704a7a639763fb244c68dddc0ab7afe1a344c9e",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-21T22:44:39+05:30",
+    "subject": "Please find attached a media statement issued by the Company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_21102026224413_SE_21102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Reliance Chairman Mukesh Ambani and Executive Director Anant Ambani hosted US Secretary of State Marco Rubio and Ambassador Sergio Gor for…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "0622b1ab99a4bbef83f9d9b44dc33f5060944df1",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-21T20:52:10+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Credit Rating",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_21102026205156_PSLIntimationofCreditRatingNCDsd.pdf",
+    "raw_category": "Credit Rating",
+    "source": "nse"
+   },
+   "category": "credit_rating",
+   "tier": "notable",
+   "summary": "CRISIL Ratings assigned 'AA+; Rating Watch with Developing Implications' to the company's proposed Non-Convertible Debentures on October…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "afd35d9882081e0eaaa327da880c4530a14d8727",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-21T20:43:30+05:30",
+    "subject": "Reliance Industries Limited has informed the Exchange about Credit Rating",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_21102026204310_SE_ICRA.pdf",
+    "raw_category": "Credit Rating",
+    "source": "nse"
+   },
+   "category": "credit_rating",
+   "tier": "notable",
+   "summary": "ICRA reaffirmed Reliance's [ICRA]AAA rating for NCDs and [ICRA]A1+ for commercial paper, and assigned [ICRA]AAA for a new Rs. 50,000 crore…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "9bfabfe5910a6d0e45c73adfb417f31d70cd0ad4",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-21T19:59:41+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding Outcome of Committee Meeting held on October 21, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_21102026195926_PersistentUpdateonSEOutcomeQIPissueopeningOct212026signed.pdf",
+    "raw_category": "Committee Meeting Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "The Special Committee approved a floor price of INR 5,761.00 per equity share for the issue, based on SEBI ICDR regulations.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8e680b4bab57e4831fbf07088dcec63f35ffee6e",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-21T19:22:58+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about issue of Securities",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_21102026192219_PersistentSEOutcomeQIPissueopeningOct212026V3signed.pdf",
+    "raw_category": "Issue of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Persistent Systems approved a Qualified Institutional Placement of up to USD 450 million (INR 42,646.10 million) at a floor price of INR…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6fd3d4e085310d93d8501e6dc0b48c91917ec192",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-21T19:16:46+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding Outcome of Committee Meeting held on October 21, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_21102026191632_PersistentSEOutcomeQIPissueopeningOct212026V3signed.pdf",
+    "raw_category": "Committee Meeting Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Persistent Systems approved a QIP issue at a floor price of INR 5,550 per share, raising up to USD 450 million (INR 42,646.10 million)…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2b800c5b734ddbc0b491a45a360add7cfe3317d8",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-21T18:41:55+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange regarding 'Giving of guarantees or indemnity or becoming a surety for any third party'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_21102026184143_Regulation30GuaranteeQuanta21102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "731f59ec0701ffd54c32066bd6a1b37efbe95c3c",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-21T17:31:30+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about Post Earnings Conference Call of the Company is scheduled on Wednesday, October 28, 2026, at 17:30 Hrs. (IST). The details of the said call are enclosed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_21102026173055_KPIT_Earnings_Call_Intimation_Signed.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "fa3acfb2dfaa1272a08b2623de915b9eaebab478",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-21T12:29:52+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange regarding allotment of 2,12,000 securities pursuant to Non Convertible Securities at its meeting held on October 21, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_21102026122914_REG30_Allotment_intimation.pdf",
+    "raw_category": "Allotment of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Bajaj Finance allotted 212,000 Secured Redeemable Non-Convertible Debentures of Rs. 1 Lakh each, aggregating Rs. 2,120 crore, with zero…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "3d24651cc28a7c21700e4e7b2ff897933fa85e8e",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-21T11:52:36+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_21102026115151_SEIntimationPostalBallotNoticeOct2026.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "92a88e16fbd415f688ececdda6004c38d09e9884",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-21T09:46:52+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_21102026094637_PressRelease21102026.pdf",
+    "raw_category": "Bagging/Receiving of orders/contracts",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "L&T's PAH vertical won two orders: a 32.8 lakh sq. ft. Central Secretariat project in New Delhi and a 37.5 lakh sq. ft. design & build…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "30f47b81b00b7396bd50035fa754a89e7a035a4b",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-20T17:35:31+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 20, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_20102026173321_SE_Intimation_of_Press_Release_on_NCCN_Gudelines_Update.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Sun Pharma's UNLOXCYT (cosibelimab-ipdl) received NCCN Category 2A recommendation for locally advanced cutaneous squamous cell carcinoma…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "77c1c356e54d66f3dc09f773dfd09ccc1d8ab599",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-10-19T22:05:06+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange about change in Management",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_19102026220457_stxintimationggmservices19102026.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Sh. Suresh Kumar Sharma",
+    "role": "Group General Manager/Services/IRCTC/CO",
+    "change": "resigned",
+    "effective_date": "19.10.2026 (AN)",
+    "background": "Group General Manager/Services/IRCTC/CO working on deputation. No further profile details provided in the filing.",
+    "prior_roles": []
+   }
+  },
+  {
+   "announcement": {
+    "id": "11f22a4e2e0aa19a257e6fa6561e74eaf80bb8c0",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-19T21:00:04+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about Link of Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026205822_Outcome_of_investor_call_-_Q2FY27.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "08dd9af409d8c51119a1a4f7f4f1619c0bfffa8e",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-19T17:57:20+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf",
+    "raw_category": "Issue of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Board approved issue of 4,900,737 equity shares of face value Re. 1 to the BFL Employee Welfare Trust under the 2009 Stock Option Scheme.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "96e5b009050b60d877ce088496daed5a4a17dc2d",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-19T17:57:20+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about change in Management",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175648_Change_in_SMT_Prashant_Verma_CISO_signed.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Prashant Verma",
+    "role": "Chief Information Security Officer",
+    "change": "appointed",
+    "effective_date": "1 February 2027",
+    "background": "Prashant Verma is the Chief Information Security Officer of Bajaj Finance Ltd since February 1, 2024.",
+    "prior_roles": [
+     "head of Cyber Risk Unit",
+     "security auditor and consultant"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "a763d63234733f6876ad250bf095c8f3f4a14c75",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-19T17:26:39+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about Investor Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026172612_SEIntimation_InvestorPPT_19102026.pdf",
+    "raw_category": "Investor Presentation",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "9cd4953faa42feb80fc7cc6c1fa533111956ff49",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-19T17:25:08+05:30",
+    "subject": "Trent Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_ROID_100856_KMP_Doc.zip",
+    "raw_category": "Resignation of Director/KMP/SMP",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Harish Bhat",
+    "role": "Non-Executive Non-Independent Director",
+    "change": "resigned",
+    "effective_date": "17th October 2026",
+    "background": "",
+    "prior_roles": []
+   }
+  },
+  {
+   "announcement": {
+    "id": "853bd81e2686585a05206590e3b859c6779f63c4",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-19T17:20:38+05:30",
+    "subject": "Bajaj Finance Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026172017_BMOutcome_19102026.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "lender",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "NII": {
+      "current": 13334.66,
+      "prev_q": 12570.64,
+      "year_ago": 10785.37,
+      "qoq_pct": 6.1,
+      "yoy_pct": 23.6
+     },
+     "PBT": {
+      "current": 8537.2,
+      "prev_q": 8149.0,
+      "year_ago": 6608.13,
+      "qoq_pct": 4.8,
+      "yoy_pct": 29.2
+     },
+     "PAT": {
+      "current": 6366.57,
+      "prev_q": 6080.6,
+      "year_ago": 4947.76,
+      "qoq_pct": 4.7,
+      "yoy_pct": 28.7
+     }
+    },
+    "not_applicable": [
+     "EBITDA"
+    ],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c9643a09b19b4e79b71bb419c2a66388d16869e5",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-19T16:39:28+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Transcript",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_19102026163912_Intimation_of_Earnings_Call_Transcript.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "656744ec3d8b649ae6bae0bd83471fe965411ab5",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-19T16:23:29+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_19102026162313_Intimationtostockexchange.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b909ea902507d208a2c48344469c09bbc61871c0",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-10-19T16:11:44+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Redemption of Commercial Paper",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_19102026161128_SECPRedemption16102026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Titan Company fully redeemed ₹1000 crore of Commercial Paper (ISIN: INE280A14591) issued on 21st July 2026, with maturity proceeds paid to…",
+   "results": null,
    "profile": null
   },
   {
@@ -186,6 +1500,996 @@
   },
   {
    "announcement": {
+    "id": "2d86316e309b057518bd1ddf5df82c14893a39c3",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-19T11:00:59+05:30",
+    "subject": "Trent Limited has informed the Exchange about Notice of Special Window for re-lodgement of transfer requests of physical shares",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_19102026105951_Reg30Noticeofrelodgementoftransferrequestsofphysicalshares.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c60be298f1c71a718b5e0d4ee819b998e9af2ec1",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-19T10:18:20+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_19102026101805_PressRelease19102026.pdf",
+    "raw_category": "Bagging/Receiving of orders/contracts",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "L&T's PAH vertical secured a Limited Notice to Proceed for the New Tashkent International Airport EPC project in Uzbekistan, with…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1dc7dd647e27fe7ddda04ec6a30807e91b68afc4",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-18T18:47:05+05:30",
+    "subject": "Trent Limited has informed the Exchange regarding Intimation of resignation of Non-Executive Non-Independent Director of the Company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_18102026184315_Intimation_of_Resignation_of_NED.pdf",
+    "raw_category": "Resignation",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Harish Bhat",
+    "role": "Non-Executive Non-Independent Director",
+    "change": "resigned",
+    "effective_date": "17th October 2026",
+    "background": "",
+    "prior_roles": []
+   }
+  },
+  {
+   "announcement": {
+    "id": "b4cf61aae57587d1853d08ee6348c3482bb33dc9",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-17T22:09:24+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about Link of Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026220738_SEintimation-RECORDING-17oct2026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e1ce7c0f468c1f46665646386c715aba7d61ee9f",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-17T19:32:52+05:30",
+    "subject": "The newspaper clippings of the advertisement on the captioned subject published today are enclosed.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_17102026193113_RIL_SE_171026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d2a32da10b5b83d5d7080eba325ac63579ba81e0",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-17T16:14:18+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026161248_Stockexchangeintimation_LV_KB.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Board approved re-appointment of Independent Director Lily Vadera for 3 years from Nov 26, 2026, and accepted Deputy Managing Director…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "5f964ab5f6a5991ad8b50ff43689da659999fd95",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-17T15:15:29+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026151509_SE_Intimation_earningcall_presentation17oct2026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "bb9a13d7c00bcf6fd69d58619e9b1107e18db83b",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-17T13:56:22+05:30",
+    "subject": "HDFC Bank Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026135520_OutcomeofBMResults_17oct2026.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "lender",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "NII": {
+      "current": 44464.2,
+      "prev_q": 42949.7,
+      "year_ago": 40252.98,
+      "qoq_pct": 3.5,
+      "yoy_pct": 10.5
+     },
+     "PPOP": {
+      "current": 32871.54,
+      "prev_q": 30996.0,
+      "year_ago": 30940.72,
+      "qoq_pct": 6.1,
+      "yoy_pct": 6.2
+     },
+     "PBT": {
+      "current": 28662.54,
+      "prev_q": 27193.16,
+      "year_ago": 26658.89,
+      "qoq_pct": 5.4,
+      "yoy_pct": 7.5
+     },
+     "PAT": {
+      "current": 21537.09,
+      "prev_q": 20382.69,
+      "year_ago": 20363.77,
+      "qoq_pct": 5.7,
+      "yoy_pct": 5.8
+     }
+    },
+    "not_applicable": [
+     "EBITDA"
+    ],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "5bcbe68be7da184e0aac9928af506187c9ce113e",
+    "symbol": "DEEPAKNTR",
+    "company": "Deepak Nitrite Limited",
+    "filed_at": "2026-10-16T22:53:10+05:30",
+    "subject": "Deepak Nitrite Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_16102026225230_NSE-CONCALL-16-10-2026-FINAL.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "4a9ee1cf57a22b6eaa867a505ea77ef5423d803d",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-16T22:33:53+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_16102026223342_PSLIntimationoftheNewspaper_clippingsigned.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d22bc51fa9cb1f6f5805a8f25089f818112a12fc",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-16T20:58:26+05:30",
+    "subject": "Newspaper Clippings Proposed Initial Public Offer of Jio Platforms Limited - Reservation for eligible RIL shareholders",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_16102026205736_RILSELetter_16102026.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "db890b644cfd723044edb46ee4f1791bfe0ec68c",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-16T17:09:10+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_16102026170806_Intimation16102026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "61a7c7dfea8a597d0ec571e9d19e11cc9ad6ca5d",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-16T16:35:12+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_16102026162906_SEintimatiomReg74_530Sep2025.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "683359624c199ab56bca80aa71b79614db095c50",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-16T16:06:42+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_16102026160355_SE_Analyst_Meet.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "cd7bab69c798fc8cba284f0bc1ea60d537830157",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-16T10:55:31+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about issue of Securities",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_16102026105516_PersistentSystemsStExchangeOutcomeOctober162026Signed.pdf",
+    "raw_category": "Issue of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Special Committee approved issuance of up to INR 8,000 Crore NCDs and Commercial Paper for Nagarro SE acquisition.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "7784d231e8bb5748d7861187ecd0c9779831ccba",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-16T10:44:49+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding Outcome of Committee Meeting held on October 16, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_16102026104432_PersistentSystemsStExchangeOutcomeOctober162026Signed.pdf",
+    "raw_category": "Committee Meeting Updates",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1c36083d37af20a68cad57a86a8e91daeee01bc6",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-16T09:40:15+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_16102026093958_CIRP15102026.pdf",
+    "raw_category": "Corporate Insolvency Resolution Process",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "Appeal in Asier Metals vs. Polycab case heard by NCLAT on Oct 15, 2026 and reserved for order.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "48ca5dd90ec225bd82a3c1fe627d5391075e3e57",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-15T22:59:03+05:30",
+    "subject": "Please find enclosed herewith the Certificate received from MUFG Intime India Private Limited (formerly Link Intime India Private Limited), Company s Registrar and Share Transfer Agent for the quarter ended 30th September 2026 certifying compliance with Regulation 74(5) of the SEBI (Depositories and Participants) Regulations, 2018.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_15102026225755_Regulation74DPRegulations30092026signed.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "ee60b4e18de58f31f0f045c9595698c0a05e8ab2",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-15T21:19:19+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026211842_PSLOutcomeofInvestorAnalystCallOctober152026Sd.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "5230f1fb0f4b4113309e7986d54c91ddbb77098c",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-15T20:50:13+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Link of Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026204957_Audio_Recording_of_Earnings_Call.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "5991dcb44b16f02c0ada22ba71fcc305cf4edb61",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-10-15T19:41:53+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"IRCTC Partners with Quality Council of India (QCI) for Digital, Third-Party Food Safety and Hygiene Audit\".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_15102026194146_STXintimationpressrelease.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "IRCTC signed an MoU with Quality Council of India on Oct 15, 2026, to launch a digital, third-party food safety and hygiene audit across…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "940e6b85cae349ed6c5a60f2ac06b216cc5b9cd9",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-10-15T19:31:28+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_15102026193117_GSTATcaseReply.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6845d9c77b597ec2178cd299e4ec97759bbd5170",
+    "symbol": "ITC",
+    "company": "ITC Limited",
+    "filed_at": "2026-10-15T19:20:08+05:30",
+    "subject": "ITC Limited has informed the Exchange regarding Allotment of 1395500 Shares.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ITC_15102026192000_SE.pdf",
+    "raw_category": "ESOP/ESOS/ESPS",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "322852a3e4bc2b2ed6cf9561c7946f15c26ebe27",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-15T18:18:52+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_15102026181814_IntimationSE20261015_Q2FY27_Earnings_Call_Signed.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d619901e48031e4cacf3835397a3186a1f218a20",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-15T18:06:36+05:30",
+    "subject": "Newspaper clippings Special Window for transfer and dematerialisation (demat) of physical sharesThe newspaper clippings of the advertisement on the captioned subject published today i.e., October 15, 2026 in the newspapers viz. The Indian Express (English), Financial Express (English), Loksatta (Marathi) and Jansatta (Hindi) are enclosed for information and records.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_15102026180155_RILSpecialWindowAdvt.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "cfd7185eb727078e807de17fde7cef75d2c81d89",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-10-15T17:24:12+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange about change in Management",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_15102026172401_STXintimationregappointmentRajKumarVerma.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Shri Raj Kumar Verma",
+    "role": "Group General Manager",
+    "change": "appointed",
+    "effective_date": "15.10.2026",
+    "background": "Officer of Indian Railway Service of Mechanical Engineers (IRSME) of 2008 Batch with approx. 18 years of experience with Indian Railways.",
+    "prior_roles": [
+     "Sr.DME/O&F/Agra, North Central Railway"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "5da3d772d1d4580caf7451da003e9a12ea044e10",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-15T16:51:43+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026165133_PSLSubmissionofFinancialsSeptember2026signed.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "9552028753b2f90f4ce70ad279e280c79d3a4945",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-15T16:12:31+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Press Release regarding financial results for the quarter and half year ended September 30, 2026\".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026161221_SEIntimationpressrelease15102026Sd.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "dd88e852aef4717597651e7eada25cf2bb36448b",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-15T16:06:03+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Investor Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026160546_PSLFactSheetQ2FY27160Sd.pdf",
+    "raw_category": "Investor Presentation",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d232f9c16dcf43de6e625be6fc9e4d168ee4b255",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-15T15:56:36+05:30",
+    "subject": "Outcome of the Board Meeting",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_15102026155331_PSLBMOutcomeOctober152026159signed.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 4663.9,
+      "prev_q": 4303.23,
+      "year_ago": 3580.72,
+      "qoq_pct": 8.4,
+      "yoy_pct": 30.3
+     },
+     "PBT": {
+      "current": 453.68,
+      "prev_q": 623.1,
+      "year_ago": 616.83,
+      "qoq_pct": -27.2,
+      "yoy_pct": -26.4
+     },
+     "PAT": {
+      "current": 351.51,
+      "prev_q": 483.04,
+      "year_ago": 471.47,
+      "qoq_pct": -27.2,
+      "yoy_pct": -25.4
+     }
+    },
+    "not_applicable": [],
+    "missing": [
+     "EBITDA"
+    ],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "fe15ec4e022631556b24e3837ce27075537e3a8f",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-15T15:33:36+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Unaudited Interim Condensed (Standalone and Consolidated) Financial Statements for the quarter ended September 30, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026153319_UnauditedInterimCondensed15102026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "unreadable",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": null,
+    "metrics": {},
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "90bef337a2bda1d87babda6ec04ca5073bbc3018",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-15T13:52:19+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Earnings Presentation on Unaudited Financial Results for the quarter and half year ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026135028_EarningsPresentation15102026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "89aecdcb52baad5ea670cdac3275509e86a1afe9",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-15T13:08:53+05:30",
+    "subject": "Polycab India Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Financial results for the quarter ended 30th September 2026\".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026130834_PressRelease.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b262ad62424d12f36a9e6f334daa3ca8134a4da5",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-15T12:58:53+05:30",
+    "subject": "Polycab India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026125737_OutcomeofBoardMeeting.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 9898.9,
+      "prev_q": 8209.73,
+      "year_ago": 6477.21,
+      "qoq_pct": 20.6,
+      "yoy_pct": 52.8
+     },
+     "EBITDA": {
+      "current": 1422.5,
+      "prev_q": 1136.2,
+      "year_ago": 1020.75,
+      "qoq_pct": 25.2,
+      "yoy_pct": 39.4
+     },
+     "PBT": {
+      "current": 1306.22,
+      "prev_q": 1058.22,
+      "year_ago": 921.0,
+      "qoq_pct": 23.4,
+      "yoy_pct": 41.8
+     },
+     "PAT": {
+      "current": 990.0,
+      "prev_q": 796.65,
+      "year_ago": 692.96,
+      "qoq_pct": 24.3,
+      "yoy_pct": 42.9
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "42297e0ec5b176103a435582bcdb39e07afa180a",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-14T20:12:49+05:30",
+    "subject": "Proposed Initial Public Offer of Jio Platforms Limited.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_14102026201111_RIL_SE_14102026_.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Jio Platforms IPO price band set at ₹1,065–₹1,119 per share, employee discount of ₹54, and minimum bid lot of 12 shares.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1db41a994e78205356f818a241fdf23c8ba398b8",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-14T20:03:57+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_14102026200315_PSLCertificateRegulation74ofSEBIDPReg2018Sd.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "701aca9e0acbf41b43e2743272c84d4bf9dd8663",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-14T18:35:12+05:30",
+    "subject": "Proposed Initial Public Offer of Jio Platforms Limited - filing of the Red Herring Prospectus.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_14102026183404_RIL_SE14102026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Jio Platforms filed its Red Herring Prospectus on Oct 14, 2026, for an IPO of up to 27 crore equity shares of Rs. 10 each, with 5%…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "df5cc63ffc037356eee9c165ea5e8ab8c0606b66",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-14T18:25:23+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange ESG Rating by Crisil ESG Ratings & Analystics Ltd.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_14102026182232_ESGRatingDisclousureCrisil14102026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "33e902e147f22ab9c5e5f08cc59b986ac5957165",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-14T17:38:55+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_14102026173741_SEintimationfor74signed.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "dc7b20ea4b8f55d4aa1b42a36f47a4ab7332c2da",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-10-14T16:05:04+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_14102026160249_BhartiAirtelReg30disclosure.pdf",
+    "raw_category": "Action(s) taken or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "DoT imposed a penalty of Rs. 1.5 lakh on Bharti Airtel for alleged subscriber verification norm violations in July 2026 CAF Audit; company…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "53c3cbe6da2437e0075aed9cdadf8ca820a1aee4",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-14T11:22:27+05:30",
+    "subject": "Polycab India Limited has informed the Exchange that Hon''ble NCLAT has granted the request for early listing and the appeal is now scheduled to be held on October 15, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf",
+    "raw_category": "Corporate Insolvency Resolution Process",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "NCLAT granted Polycab's request for early listing; the Asier Metals appeal is now scheduled for October 15, 2026.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "038992f2b65652308042d294d9d2dd3fa2d29aaf",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-13T21:20:01+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about the Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations, 2018 for the quarter ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_13102026211938_Reg745Sept302026signed.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "79e84664ee3a66a0f0731af074b60f89d3051dea",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-13T21:09:13+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about Reconciliation of Share Capital Audit for the quarter ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_13102026210844_CoveringletterSept26Reg76_signed.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "936a9f6f95190dd38f417dde90241edf48dc699b",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-13T17:54:34+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Credit Rating",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_13102026175414_Intimation_to_SE_-_NCDs_Credit_Ratings.pdf",
+    "raw_category": "Credit Rating",
+    "source": "nse"
+   },
+   "category": "credit_rating",
+   "tier": "notable",
+   "summary": "CRISIL and ICRA assigned AAA/Stable ratings to Sun Pharma's proposed NCD programme and reaffirmed existing ratings, citing strong…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "17d0c1e0d59722c0ca047b71ed3ec3e0c11b64d8",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-13T16:47:39+05:30",
+    "subject": "Polycab India Limited has informed the Exchange regarding a press release dated October 13, 2026, titled \"Press Release on NCLAT Order\".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_13102026164554_StockExchangeIntimation-Press_Release.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "NCLAT stayed and kept in abeyance the NCLT order admitting CIRP against Polycab for a ₹2.79 crore operational debt; appeal scheduled for…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "03249cc89f1f0d93b493d52b1d78d2c104eb8ad0",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-13T16:19:52+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_13102026161935_SE_Intimation_-_Earnings_call.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d0d0172413bb5319a98904fd841f462f33062ad9",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-13T14:55:44+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding a press release dated October 13, 2026, titled \"Persistent Opens Third Hyderabad Facility to Strengthen AI and Modernization Delivery \".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_13102026145534_PSLPressRelease13102026Sd.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Persistent Systems opened its third Hyderabad facility at Phoenix Equinox in Gachibowli to strengthen AI and modernization delivery for…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
     "id": "d64acf23edfd338dde738598bb1302ca1fff77e4",
     "symbol": "INFY",
     "company": "Infosys Limited",
@@ -199,6 +2503,146 @@
    "category": "press_release",
    "tier": "notable",
    "summary": "Infosys Foundation's Springboard Livelihood Program has enabled over 2.5 lakh job offers across India, marking the halfway point toward…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f5bfe749da793c864fd0f67aaafcbfd191833acf",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-13T11:58:02+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of Investor Meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_13102026115736_BSENSE_Intimation_Investor_meet_13102026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "ac9ee0cf5da92d4566e4f55902b5bbe8eee46fd7",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-10-13T10:23:55+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_13102026102335_SERegulation745.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e54f398c571e11962d8396a6a68eaccebb3ef4df",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-12T20:34:43+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_ROID_100278_KMP_Doc.zip",
+    "raw_category": "Resignation of Director/KMP/SMP",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Gautam Doshi",
+    "role": "Independent Director",
+    "change": "resigned",
+    "effective_date": "immediate effect",
+    "background": "",
+    "prior_roles": []
+   }
+  },
+  {
+   "announcement": {
+    "id": "024445089338e5e619e800761ac8b054864c4e60",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-12T20:05:00+05:30",
+    "subject": "Resignation of Director of the Company",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf",
+    "raw_category": "Resignation",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. Gautam Doshi",
+    "role": "Non-Executive Independent Director",
+    "change": "resigned",
+    "effective_date": "12 October 2026",
+    "background": "",
+    "prior_roles": []
+   }
+  },
+  {
+   "announcement": {
+    "id": "7c61f15ec7264fb8d35adcd057213e7b347b31ec",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-12T19:57:07+05:30",
+    "subject": "Outcome of the Board Meeting held on 12 October 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026195625_BMOutcome12October2026.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "0ad9fd672ba9ad77f8881d28cbd7df428afdedd2",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-12T18:30:27+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_12102026183004_Intimation745Sep2026.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "65be8eed9e3670b406b065c3b2eca0fd299c2488",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-12T17:41:17+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_12102026173747_ASLNewspaperADIntimation12102026.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
    "results": null,
    "profile": null
   },
@@ -222,6 +2666,341 @@
   },
   {
    "announcement": {
+    "id": "f79b9bb39b35350be9392b78936c132a386084a9",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-10T20:24:14+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_10102026202405_Intimation_of_Earnings_Call.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "69de24fd8f0ebb8b32e3d716ccafa6bb2364d6d1",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-10T17:19:27+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10102026171855_SEIntimationnewspaperadvt_Sd.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "55f552740c79fd1c15dbe290298308e9efea8afe",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-10T15:37:59+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about Investor Presentation for the quarter and half year ended 30th September, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_10102026153516_ASLInvestorPresentation10102026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "7580588528c9c0e4f4902d8744bbcb9b21daa677",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-10T15:33:24+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange regarding a press release dated October 10, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_10102026153213_ASLPressRelease10102026.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Standalone revenue rose 18.4% to Rs.19,206 crore and PAT grew 7.6% to Rs.804 crore for Q2FY27; 15 stores were added in the quarter.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "ca8f8e9ef4d22d52f6e1f04c1570692926055b63",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-10T15:22:43+05:30",
+    "subject": "Avenue Supermarts Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_10102026151828_ASLOutcomeofBM10102026.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 19644.01,
+      "prev_q": 18794.53,
+      "year_ago": 16676.3,
+      "qoq_pct": 4.5,
+      "yoy_pct": 17.8
+     },
+     "EBITDA": {
+      "current": 1392.96,
+      "prev_q": 1499.34,
+      "year_ago": 1213.65,
+      "qoq_pct": -7.1,
+      "yoy_pct": 14.8
+     },
+     "PBT": {
+      "current": 1024.84,
+      "prev_q": 1183.14,
+      "year_ago": 944.79,
+      "qoq_pct": -13.4,
+      "yoy_pct": 8.5
+     },
+     "PAT": {
+      "current": 742.98,
+      "prev_q": 860.44,
+      "year_ago": 684.85,
+      "qoq_pct": -13.7,
+      "yoy_pct": 8.5
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "785ebcdb07fff10e02778ee5bb6fd3c8dfd45bc4",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-10T13:41:35+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investor Meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_10102026134116_InvestorMeetOutcome10102026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "7df6bbd15ecd78f3cc7aa2be6b34bef48c834309",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-09T22:47:29+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange regarding Notice of Extraordinary General Meeting to be held on November 02, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_09102026224649_SEIntimationEGMNotice.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "agm_egm",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d769b0b93c4081f579aae093eb0b5e652639390e",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-09T20:31:50+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Credit Rating- New",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_09102026203133_PSLIntimationofCreditRatingNCDsd.pdf",
+    "raw_category": "Credit Rating- New",
+    "source": "nse"
+   },
+   "category": "credit_rating",
+   "tier": "notable",
+   "summary": "ICRA assigned [ICRA]AA+ with Rating Watch Negative to Persistent Systems' proposed NCDs of Rs. 5,000 crore, maintaining the Issuer Rating…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c3b3f910a12fddbe81bd41a874a7a3a41467cba1",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-09T19:57:29+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENT_ROID_100125_KMP_Doc.zip",
+    "raw_category": "Resignation of Director/KMP/SMP",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Dr. Rajesh Gharpure",
+    "role": "Chief Delivery Officer",
+    "change": "resigned",
+    "effective_date": "closure of business hours on October 14, 2026 (IST)",
+    "background": "",
+    "prior_roles": []
+   }
+  },
+  {
+   "announcement": {
+    "id": "47033d6c233018ef0f0c9fc37d101e5ab555329e",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-09T19:45:26+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_09102026194506_StockexchangeCIRP09102026.pdf",
+    "raw_category": "Corporate Insolvency Resolution Process",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "NCLAT stayed the Ahmedabad NCLT's order admitting CIRP against Polycab India for a ₹2.79 crore operational debt from Asier Metals, pending…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "545cb4aa4386a4ed652192f2792dad3bd0af1245",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-09T19:24:04+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_09102026192354_PSLSMPResignationIntimation9102026sd.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "ce0a004b12c96e52d21723801ea77ce3b731ea2a",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-09T19:00:33+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding a press release dated October 09, 2026, titled \"Persistent Secures Strong Majority Stake\".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_09102026190022_PSLPressReleaseOctober92026sd.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Persistent secured approx. 94.04% of Nagarro's share capital after the takeover offer ended, exceeding the 50%+1 threshold and enabling a…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "492a43515d90bfc1d77c0f233f6cebdcfe1870dd",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-09T18:41:12+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about Credit Rating",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_09102026183437_ASLICRACreditRatingIntimation09102026.pdf",
+    "raw_category": "Credit Rating",
+    "source": "nse"
+   },
+   "category": "credit_rating",
+   "tier": "notable",
+   "summary": "ICRA reaffirmed ICRA A1+ rating for Avenue Supermarts' enhanced Commercial Paper limit of Rs. 1,500 crores (up from Rs. 1,300 crores).",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "a6919a66ce793986bbe2592c1b4ba974cab3cacd",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-09T18:23:50+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Certificate under 74(5) SEBI (Depositories and Participants) Regulations, 2018 for the quarter ended on 30th September, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_09102026182235_Reg74_5_Disclosure09102026.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b594ff4cf96046a09dec4b370c45ebdace68bc1d",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-09T17:37:49+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding 'Update on Voluntary Public Takeover Offer made by Persistent Systems Limited to the shareholders of Nagarro SE'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_09102026173743_PSLUpdateonVoluntaryPublicTakeoverOfferofNagarroSigned.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "Persistent Systems acquired 1,335,114 additional Nagarro shares (10.79%) in the additional acceptance period, bringing its total holding…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2783ae09bbf262ec2259bea8291a7cb3b334affc",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-09T12:14:37+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange regarding allotment of 51000 securities pursuant to Non Convertible Securities at its meeting held on October 09, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_09102026121406_REG30_Allotment_intimation_T7.pdf",
+    "raw_category": "Allotment of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Bajaj Finance allotted 51,000 Secured Redeemable Non-Convertible Debentures of Rs. 1 Lakh each at 7.78% p.a. interest, aggregating Rs.…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
     "id": "26665f6d475613d5ccb04f34d7f9b438d066a572",
     "symbol": "INFY",
     "company": "Infosys Limited",
@@ -235,6 +3014,789 @@
    "category": "unclassified",
    "tier": "routine",
    "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d81497b026dc59270b2a21c19a4ea6b383dfcb4d",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-08T20:41:15+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_08102026204050_StockExchangeIntimationCIRPupdate08102026F.pdf",
+    "raw_category": "Corporate Insolvency Resolution Process",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "Polycab India filed an appeal before NCLAT on October 8, 2026, to set aside the NCLT's October 7, 2026 order admitting a CIRP petition by…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d2b86eeaa2b57694796b0e25d35e1bbaf80e3ee9",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-08T19:01:27+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_08102026190117_Intimation_to_Stock_Exchange.pdf",
+    "raw_category": "Corporate Insolvency Resolution Process",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "NCLT admitted a CIRP petition against Polycab India for a ₹2.79 crore operational debt; the company has appealed to NCLAT with a hearing…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "9af8e1453946655fba4d57c512b5f855d174f264",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-08T17:20:13+05:30",
+    "subject": "Corrigendum to our earlier letter under Ref. no. NSE & BSE / 2026-27 / 143 dated September 30, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_08102026171702_PSLCorrigendumtotheOutcomeofInvestorsCallOct82026Sd.pdf",
+    "raw_category": "Corrigendum",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "68d25635756e8c20330e4384c9a72452c9119621",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-10-08T16:12:50+05:30",
+    "subject": "Titan Company Limited has informed the Exchange regarding 'Redemption of Commercial Paper'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_08102026161235_SECPRedemption08102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Titan Company fully redeemed ₹825 crore of Commercial Paper (ISIN: INE280A14583) issued on 10 July 2026, with maturity proceeds paid to…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c931155fd83a869c755b808ce5376233cc531022",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-08T15:13:26+05:30",
+    "subject": "Please find enclosed newspaper advertisement published on 8th October 2026 informing about the resolution proposed to be passed through Postal Ballot and details relating to e-Voting facility.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_08102026151258_SE_Intimation_Newspaper_Advertisement_signed.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b99906cce2659caec00af99412acfc317b85c034",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-08T12:23:50+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_08102026122324_SE_Intimation-_Newspaper_adv.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "68c6b634c60a4d56135427d8a2c0349f37ed9f7c",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-08T09:52:50+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_08102026095146_PSLIntimationofEarningsCallOctober152026Sd.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "473e66ca4f144cd165ab2bafea9335ca5a40cc04",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-07T22:45:52+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about intimation of NCLT order",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_07102026224543_Intimationtostockexchange.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "NCLT admitted CIRP against Polycab India for a ₹2.79 crore operational debt; the company plans to appeal and states no material impact on…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c84cb156c02c53a68b1312bcb071ff79e963b5c5",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-07T22:36:08+05:30",
+    "subject": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 is attached.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_07102026223504_RIL_SEletter07102026.pdf",
+    "raw_category": "Action(s) taken or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "Reliance Industries received a customs order levying a redemption fine and penalty of Rs. 18,74,978 for alleged incorrect classification…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "86d11a4cc624666e91f1f9b18e6b3978f18e6b02",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-07T21:29:23+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about change in Management",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_07102026212904_IntimationSRMGT07102026.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Dr. C Jayakumar",
+    "role": "Senior Vice President & Head - Corporate Human Resources",
+    "change": "appointed",
+    "effective_date": "July 1, 2026",
+    "background": "Dr. C. Jayakumar is a distinguished HR leader with over 38 years of rich and diverse experience in strategic HRM & organizational transformation. As the CHRO of L&T Ltd., he has played a pivotal role in shaping the people agenda of one of India's top conglomerates.",
+    "prior_roles": [
+     "Senior Vice President & Head - Corporate Human Resources"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "5bea4009f20973516905db598ca800f79a69717f",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-07T20:44:07+05:30",
+    "subject": "Please find enclosed the Postal Ballot Notice dated 7th September 2026 together with the Explanatory Statement being sent to the members of the Company seeking their approval for appointment of Mr. Leo Puri as an Independent Director of the Company for a term of five consecutive years commencing from 7th September 2026 to 6th September 2031.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07102026204250_SE_Intimation_-_Postal_ballot_Notice.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "13ad4c33f5d6650dcf983edb6691d077f6f6b724",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-07T18:52:28+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_07102026185211_74_5__sd.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "cc9bf9847e15efead1756d15fb20b9308725f02a",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-07T17:09:21+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_07102026170847_ASLComplianceCertificateUnderRegulation74_5_30092026.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2d8c8e26242e3800cd5cddac19e799520eff6217",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-07T17:01:22+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange regarding Allotment of 63546 Shares under Avenue Supermarts Limited ESOP Scheme 2023",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_07102026170028_ASLESOPAllotment_07102026.pdf",
+    "raw_category": "ESOP/ESOS/ESPS",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b72f6f7933edd56b1369e04233cba9fdda1afbc3",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-07T16:10:26+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_07102026160736_SEIntimationPostalBallotNoticeOct2026.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "84fee5b67d56fa2d9931000ccad6ed1dd23b1198",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-07T15:01:51+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Joint Venture Agreement executed between Dixon Technologies (India) Limited, Dixon Electroconnect Private Limited and Gemtek Technology Co., Ltd",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_07102026150006_Regulation30_DisclosureGemtek07102026.pdf",
+    "raw_category": "Agreements",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "Dixon Technologies and Gemtek executed a JV agreement on Oct 7, 2026, to form a subsidiary manufacturing optical transceivers, with Dixon…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "bfc6fb20c32127e147a76c1fa4386822f3b00e00",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-10-07T11:00:56+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange regarding a press release dated October 07, 2026, titled \"Airtel offers Free International Roaming on All Postpaid Plans\".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_07102026110048_BhartiAirtelPR.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Airtel launched new postpaid plans from Oct 8 2026 offering 1 free international roaming trip per SIM per year, with 5GB data, 60 mins…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "fdc6ba01c71da78cbadf10ea50caf70a0b8bfc67",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-07T10:13:23+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_07102026101304_PressRelease07102026.pdf",
+    "raw_category": "Bagging/Receiving of orders/contracts",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "L&T Energy CarbonLite Solutions secured a Limited Notice to Proceed for a 1,600 MW thermal power plant in Jharkhand.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "857c36a554af07adfffd890fde48a5de5abc4b29",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-06T21:54:06+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding the Amendment to AOA/MOA of the company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_06102026215352_IntimationofalterationAOASd.pdf",
+    "raw_category": "Amendment to AOA/MOA",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "041d9dbca38dc3b814c63a9fe93c898508e2ef99",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-06T21:36:33+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding voting results of Extraordinary General Meeting held on October 05, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_06102026213622_PSLIntimationofvotingresultsEGM2026Sd.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "agm_egm",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "bd02999af176d951160a98186958d8073700cf81",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-06T20:12:08+05:30",
+    "subject": "The Company will hold a conference with investors on 29th October 2026 at 5 p.m. IST.on the business and financial performance of the Company for the quarter and half year ended 30th September 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026201150_Investor_conference_Q22026-27.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d9329931324cc40e72b9839ea95e62c8a628d34b",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-06T19:59:04+05:30",
+    "subject": "Persistent Systems Limited has submitted the Exchange a copy Srutinizers report of Extraordinary General Meeting held on October 05, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_06102026195846_PSLSubmissionoftheScrutinisersReportEGMSigned.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "agm_egm",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "60a435e8065d4da7c358a20308218471a30a42e4",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-06T19:12:54+05:30",
+    "subject": "Asian Paints Limited has informed the Exchange that Record date for the purpose of Dividend is 04-Nov-2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026191216_BMintimationtoStockExchangesOct26.pdf",
+    "raw_category": "Record Date",
+    "source": "nse"
+   },
+   "category": "dividend",
+   "tier": "notable",
+   "summary": "Record date for interim dividend is 4th November 2026.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "efa59257860c69241fb003c51b535717bf8e600b",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-06T19:10:16+05:30",
+    "subject": "Asian Paints Limited has informed the Exchange regarding 'This is to inform you that a meeting of the Board of Directors of the Company will be held on Thursday, 29th October 2026, inter alia, to consider the declaration of interim dividend, if any, for the financial year ending 31st March 2027. It is further informed that the record date for payment of interim dividend, if declared, will be Wednesday, 4th November 2026.'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026190837_BMintimationtoStockExchangesOct26.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "dividend",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8429ca863d629de9fc8542f68c383a7568211d43",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-06T18:25:27+05:30",
+    "subject": "Sun Pharma Establishes Endowed Professorship at Mount Sinai to Advance Dermatologic Care",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_06102026182517_SEintimationPRforMSP.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Sun Pharma established a $2.5 million endowed professorship in Dermatology at Mount Sinai's Icahn School of Medicine, installing Dr. Mark…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d3de02800dc9de5f09986c267185eee272008d56",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-10-06T18:22:46+05:30",
+    "subject": "Titan Company Limited has informed the Exchange regarding 'Quarterly Update Q2 FY 2026-27'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_06102026182232_Q2update202627.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "4fd148a1cbc369ae0539949bc1b56583afdaf36b",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-10-06T15:37:55+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_06102026153740_STXIntimationREG74_30092026.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2f3f095f3019fee2dabd21057298beebbc9f0b88",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-06T14:30:39+05:30",
+    "subject": "Polycab India Limited has informed the Exchange regarding Allotment of 10,150 Shares.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_06102026143016_Intimation_of_Stock_Exchange.pdf",
+    "raw_category": "ESOP/ESOS/ESPS",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "764cbffb765bd4babc4409ecf8eee7cd500cbb85",
+    "symbol": "DEEPAKNTR",
+    "company": "Deepak Nitrite Limited",
+    "filed_at": "2026-10-06T14:24:19+05:30",
+    "subject": "Deepak Nitrite Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_06102026142338_NSE-Regulation_74_Disclosure.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "df497343632b140af7b99effd76a4da4016438f7",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-05T19:21:09+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding Proceedings of Extraordinary General Meeting held on October 05, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_05102026192055_PSLIntimationofEGMProceedingsOctober52026Signed.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "agm_egm",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "087469d4f76fab08ef13705974bd4c8d9569104b",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-05T18:42:52+05:30",
+    "subject": "Trent Limited has informed the Exchange regarding Update for Q2FY27 and H1FY27.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_05102026183958_Press_release_Q2FY27.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Trent reported standalone revenue of Rs 5,788 crore in Q2FY27 (up 23% YoY) and 1,342 stores across Westside, Zudio and other brands as of…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "43d0bf52f5230b9708d9ab06816d707566088486",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-05T14:52:55+05:30",
+    "subject": "Trent Limited has informed the Exchange about Certificate under Regulation 74(5) of the Securities Exchange Board of India (Depositories and Participants) Regulations, 2018 for the quarter ended 30th September 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_05102026145012_Letter_to_Stock_Exchange_-_Reg_74_5_.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2b502e494333d6e156d186adfe3e76f973a6f356",
+    "symbol": "ITC",
+    "company": "ITC Limited",
+    "filed_at": "2026-10-05T14:21:07+05:30",
+    "subject": "ITC Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ITC_05102026142025_Demat_Remat_quarterly_Sept26.pdf",
+    "raw_category": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "fcc4ab6378b5931b29720292f48b0836ee4494db",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-10-05T12:04:28+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange regarding a press release dated October 05, 2026, titled \"Airtel Business launches IQ Gateway India s first business communications platform with telco-grade network intelligence for safe enterprise messaging\".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05102026120416_BhartiAirtelSTXIntimation.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Airtel Business launched IQ Gateway, a DPDP-compliant unified platform combining SMS, WhatsApp, RCS and voice on a single control plane…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "193538a7bd17d5a0b8cef3d65d8a337d1427aecb",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-05T09:35:26+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_05102026093512_PressRelease05102026.pdf",
+    "raw_category": "Bagging/Receiving of orders/contracts",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "L&T's PT&D vertical secured multiple EPC orders in Saudi Arabia (380 kV transmission/substation) and UAE (132/11 kV substations), plus a…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1c7799a2201fef587caba55d1d9c4c703c204b2a",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-04T22:03:36+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding intimation under SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_04102026220033_initial_Final_disclosure_Sep2026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "dividend",
+   "tier": "notable",
+   "summary": "HDFC Bank reported 14.0% YoY growth in average advances to ₹31.87 trillion and 16.8% growth in average deposits to ₹31.67 trillion for Q2…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "56b438deff49e60ae6dde62e80ad7565490d22c3",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-03T12:23:41+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Company Update at the end of Quarter 2 (Q2) of Financial Year 2026-27'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_03102026122118_ASLQuarterUpdateSep2026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "ea860a2eb6d4658df2bb983d4535e3ed137c511a",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-03T11:02:00+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about information under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015 r/w Schedule A of Regulation 8 of SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_03102026110139_BFL_Pre-results_earning_intimation_Q2FY2027.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Customer franchise grew to 128.85 million and AUM reached ₹584,750 crore as of 30 September 2026, up from 110.64 million customers and…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c5522075d12d2b551ff036fb58379daee95d55ed",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-10-02T23:16:35+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding allotment of 400000 securities pursuant to ESOP/ESPS at its meeting held on October 02, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_02102026231621_PSLIntimationofallotmentofEquityShares02102026signed.pdf",
+    "raw_category": "Allotment of Securities",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b8542d74ecf765428d3f6370685cbc1afb5ccc00",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-02T17:15:38+05:30",
+    "subject": "Newspaper Publication about Postal Ballot/E-voting October 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_02102026171502_SE_intimation_for_PB_Newspaper_Advertisement.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "214760827f107d6f4de8dcac53ca157d73e9d3d4",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-01T23:24:08+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about qualified Institutional Placement",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026232348_Outcome_post_SE_Intimation_01102026_Final.pdf",
+    "raw_category": "Qualified Institutional Placement",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Board approved QIP of equity shares up to Rs. 11,700 Crore and PI of warrants convertible into equity shares up to Rs. 5,800 Crore, with…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c489b8429130727890c308fbb457bf21b38d8375",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-01T23:21:29+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about Preferential issue",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026232111_Outcome_post_SE_Intimation_01102026_Final.pdf",
+    "raw_category": "Preferential issue",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Board approved a preferential issue of warrants convertible into equity shares for up to Rs. 5,800 Crore, allotted to Bajaj Finserv…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d8ff2dafc9b6fbdad52995f6edb4c9e025055558",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-01T23:17:02+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange regarding Outcome of Board Meeting held on October 01, 2026 - Capital raise through QIP and Preferential Issue.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026231622_Outcome_post_SE_Intimation_01102026_Final.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Board approved QIP of up to Rs. 11,700 Crore and preferential issue of warrants convertible into equity shares for up to Rs. 5,800 Crore…",
    "results": null,
    "profile": null
   },
@@ -258,6 +3820,71 @@
   },
   {
    "announcement": {
+    "id": "b0db6a364d015aa29663cda7894dda56d11f7d74",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-01T18:51:31+05:30",
+    "subject": "Notice of Postal Ballot October 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_01102026184724_SEintimationfornoticeofpostalballot.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6642b780e51515817105a6a8c6c5b0343938ccee",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-01T18:23:52+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf",
+    "raw_category": "Change in Director(s)",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Anup Bagchi",
+    "role": "Managing Director & Chief Executive Officer",
+    "change": "appointed",
+    "effective_date": "October 27, 2026",
+    "background": "Seasoned financial services leader with over three decades of experience across banking, capital markets, wealth management and insurance. A member of the ICICI Group since 1992.",
+    "prior_roles": [
+     "CEO & MD of ICICI Securities",
+     "Executive Director of ICICI Bank",
+     "MD & CEO of ICICI Prudential Life Insurance"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "80c6ae7b3aeed666cefd5033ed4edd451c9ac4cd",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-01T17:47:03+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"New LEQSELVI® (deuruxolitinib) Two-YearData in Severe Alopecia Areata Showed Sustained Efficacy and Safety at EADV Congress 2026\".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA123_01102026174411_SEIntimationPR_1Oct2026.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Sun Pharma's LEQSELVI (deuruxolitinib) showed sustained efficacy and safety through two years in severe alopecia areata, with 93.9% of…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
     "id": "7136a0b28fb4774d583cbe523c2f4fd33b6537c8",
     "symbol": "INFY",
     "company": "Infosys Limited",
@@ -276,6 +3903,277 @@
   },
   {
    "announcement": {
+    "id": "9b6d1ebd43185b1947828a44df5680b3a329bade",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-01T15:59:23+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_01102026155912_InvestorMeetOutcome01102026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "522a0a1e5250b0ec0061c79d468e94223ca7e245",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-01T15:02:20+05:30",
+    "subject": "We wish to inform that the Company has today allotted 13,00,000 Unsecured, Redeemable, Non-Convertible Debentures (\"NCDs\") of the face value of Rs. 1,00,000 each (\"PPD Series R\"), issued on private placement basis.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_01102026150203_SE_01102026.pdf",
+    "raw_category": "Allotment of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Reliance allotted 1.3 million unsecured, redeemable NCDs (PPD Series R) of Rs. 1 lakh each on Oct 1, 2026, at 7.90% coupon, maturing Oct…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "67c4731e1af837883949f937904d6d359371e85c",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-10-01T13:00:40+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_01102026125929_BhartiAirtel-Reg30.pdf",
+    "raw_category": "Action(s) taken or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "Airtel received two DoT penalty notices on Sep 30, 2026: Rs.7.36 lakh for Assam LSA subscriber verification violation and Rs.1.27 lakh for…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "362beddde79a85d7a41b7e61bbcd8bbf0f37b949",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-09-30T20:36:35+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about change in Management",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026203611_SE_intimation-_sudhir.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. Sudhir Kumar Jha",
+    "role": "Group Head - Legal & Group General Counsel",
+    "change": "resigned",
+    "effective_date": "September 30, 2026",
+    "background": "Group Head - Legal & Group General Counsel with 22 years of association with HDFC Group (including Housing Development Finance Corporation Limited and the Bank).",
+    "prior_roles": [
+     "Group Head - Legal & Group General Counsel"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "a767f180f3d0dde8bde36709c9ad2552179b69f6",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-09-30T19:41:40+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_30092026194107_PSL_Intimation_of_closure_of_trading_window_sd.pdf",
+    "raw_category": "Trading Window",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "ede3c6c544d5c0503a3451ebe045eabae5c6683e",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-09-30T19:18:56+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_30092026191838_PSLOutcomeofInvestorSessionsSeptember302026sd.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "0d31eeb313b8a5a8da5eb3bb682a61c7419f0167",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-09-30T18:33:10+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about change in Management",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026183242_SE_Intimation-_CCO.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. V.N. Srivatsan",
+    "role": "Chief Compliance Officer",
+    "change": "appointed",
+    "effective_date": "January 4, 2027",
+    "background": "Mr. V.N. Srivatsan has approximately 34 years of overall professional experience, including around 25 years in the BFSI sector and close to 10 years of direct experience in Compliance and Regulatory Inspection. He currently serves as Head – Compliance: Overseas Banking and…",
+    "prior_roles": [
+     "Head – Compliance: Overseas Banking and Subsidiaries & Data Privacy Officer at ICICI Bank Limited",
+     "led Retail Banking Compliance and Regulatory Inspection for more than 8 years"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "29860612bfb074fa553f1bdfe0871e375565553e",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-09-30T18:14:33+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has submitted the Exchange a copy Srutinizers report of Annual General Meeting held on September 29, 2026. Further, the company has informed the Exchange regarding voting results.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_30092026181409_SEfillingvotingresultsof27thAGM.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "agm_egm",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6db3e4e61f7d423fc3256d1141faea57daf3c157",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-09-30T18:05:46+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange regarding the Amendment to AOA/MOA of the company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_30092026180539_STXintimation_AOA_Amendment.pdf",
+    "raw_category": "Amendment to AOA/MOA",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e04b16ba5447604c89c3f5560c2b64d73f7a3683",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-09-30T17:59:52+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_30092026175942_SEchairmanspeech27AGM.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "9a149a333d862eae1436df614df5ef9c80e1dedc",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-09-30T17:47:10+05:30",
+    "subject": "Newspaper Publication about the opening of Special Window for transfer of physical shares",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30092026174654_SEIntimationfor_Special_Window_30092026.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b6829c7bd0a2e85b90b360f60a25754785aaab87",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-09-30T17:29:51+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about allotment of Commercial Paper of Rs. 500 crores",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_30092026172908_CPAllotmentIntimation30092026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Avenue Supermarts allotted Rs. 500 crores of unsecured Commercial Paper with ICRA A1+ rating, maturing on 29th December 2026 at 6.12%…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "18ef0e5cb6782493588ff047a111361bfcbc0b4f",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-09-30T17:19:17+05:30",
+    "subject": "Reliance Industries Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_30092026170527_SE_TWC_300926.pdf",
+    "raw_category": "Trading Window",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "fa24fad1e6fddcc09c78fc912e81783f7ed6c35e",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-09-30T16:06:46+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_30092026160548_TWC_September_30_2026Signed.pdf",
+    "raw_category": "Trading Window",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
     "id": "faacad24a127ff85ad4106482b736a2f86b7ae70",
     "symbol": "INFY",
     "company": "Infosys Limited",
@@ -289,6 +4187,431 @@
    "category": "press_release",
    "tier": "notable",
    "summary": "Infosys and ABN AMRO extend strategic collaboration to simplify IT landscape and accelerate AI-driven transformation using Infosys Topaz…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "eec77a33150038355d3f18e15e276fe3d46ff4f6",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-09-30T15:29:11+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_30092026152845_IntimationLTMRHL30092026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "fd054e80ef9b7c27bf966d315a38787babc469eb",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-09-30T14:45:57+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Execution of Intellectual Property License Agreement between Dixon Electro Appliances Private Limited, a Subsidiary / Joint Venture of Dixon Technologies (India) Limited and Aviat Networks (India) Private Limited",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30092026144453_AnnouncementAviat30092026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "Dixon Electro Appliances Private Limited, a subsidiary/joint venture of Dixon Technologies, entered into an Intellectual Property License…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6895c4ed4b5d3108ab1b471806ca157acba18853",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-09-30T12:16:57+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_30092026121641_PressRelease30092026.pdf",
+    "raw_category": "Bagging/Receiving of orders/contracts",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "L&T Transportation Infrastructure secured twin contracts from Dubai's Roads and Transport Authority to develop the Latifa Bint Hamdan…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "887ff87396d716a0cc4d66f006576114e350af82",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-09-29T19:22:25+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding 'ESG Overview for FY 2025-26'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_29092026192130_ESGOVerview2025-26.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "0a84915fd8d00686c78446e1e29d93088aadf001",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-09-29T19:01:27+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_29092026190118_PSLIntimationUpdateSeptember292026sd.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f88129a71165ac8d0c7de8775926bebf627789a6",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-09-29T18:51:10+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_29092026185028_PSLOutcomeofInvestorSessionsSeptember292026sd.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "a6b7d8cffab23d28668f41a058f8c95c9efe4ca9",
+    "symbol": "DEEPAKNTR",
+    "company": "Deepak Nitrite Limited",
+    "filed_at": "2026-09-29T18:47:19+05:30",
+    "subject": "Deepak Nitrite Limited has informed the Exchange about General Updates-Disclosure under Regulation 30 of SEBI LODR Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_29092026184031_NSE-REGULATION_30_Disclosure-29-9-2026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "200d5cbe168fd902525d99507ff95b68bc3cedd0",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-09-29T18:41:40+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on September 29, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_29092026183516_SEFilingforProceedingsof27AGM.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "agm_egm",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8728254ca3341ed9adce592ecea7e447e6fe2b7e",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-09-29T18:39:20+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Repayment of Commercial Paper'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_29092026183814_RedemptionofCP2909026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Avenue Supermarts repaid 6,000 commercial papers (ISIN INE192R14352) worth Rs. 300 crores at maturity on 29th September 2026, leaving…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "a83153d6cf0e5772ebac715ffa0ce563f11356d8",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-09-29T18:33:09+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_29092026182828_Regulation30DisclosureAGM28092026.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. Sunil Vachani",
+    "role": "Whole Time Director",
+    "change": "appointed",
+    "effective_date": "5th May, 2027",
+    "background": "Mr. Sunil Vachani has over three decades of experience in the EMS industry. He is associated with the Company since its inception and under his reins, the Company has been adjudged as one of the leading Indian EMS by various trade journals and industry bodies.",
+    "prior_roles": [
+     "associated with Benin for over 10 years as their Honorary Consul General",
+     "Vice President (South) of Consumer Electronics and Appliances Manufacturers Association",
+     "chairman of the Electronics and Computer Software Export Promotion Council of India"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "a278a59fac3b7dbd57782ba73fc2a64307be8a44",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-09-29T18:11:56+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_29092026181144_TradingWindowClosureIntimation30092026.pdf",
+    "raw_category": "Trading Window",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "640146d8f06513b9685f08ab1b322590392ba362",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-09-29T17:38:55+05:30",
+    "subject": "Dixon Technologies (India) Limited has submitted the Exchange a copy Srutinizers report of Annual General Meeting held on September 28, 2026. Further, the company has informed the Exchange regarding voting results.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_29092026173545_Scrutinizer_Report_Cover_Page29092026.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "agm_egm",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "20e5a1e235cd3504c0bf6d1dc97ae42e7fda36b2",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-09-29T17:29:24+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_29092026172859_BhartiAirtel-Reg30disclosure.pdf",
+    "raw_category": "Action(s) taken or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "Bharti Airtel received two penalty notices from DoT (Delhi and Karnataka LSAs) totaling Rs.3.53 lakh for alleged subscriber verification…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b8b8b5747fb2cccc686613ce6d2e0b7de3001111",
+    "symbol": "DEEPAKNTR",
+    "company": "Deepak Nitrite Limited",
+    "filed_at": "2026-09-29T13:43:23+05:30",
+    "subject": "Deepak Nitrite Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_29092026134249_NSE_Letter-investment-29-9-2026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "099706cd847e1a9a54ef6cefb638834fb505779e",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-09-29T12:12:17+05:30",
+    "subject": "Newspaper publication regarding special window for transfer and dematerialization of physical shares of HDFC Bank Limited.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_29092026121137_SE_Intimation_-_Special_window.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "72f38020fe795f6820a72e42701649fdaa1774e8",
+    "symbol": "ITC",
+    "company": "ITC Limited",
+    "filed_at": "2026-09-28T20:28:57+05:30",
+    "subject": "ITC Limited has informed the Exchange about Acquisition of shares of Sproutlife Foods Private Limited",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ITC_28092026202850_SE_SFPL_.pdf",
+    "raw_category": "Acquisition",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "ITC acquired 13,445 shares for ~₹645 crores, increasing its stake in Sproutlife Foods from ~47.50% to 100%, making it a wholly owned…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "72c0468cf57b16981bddf222deef759ae9e28d88",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-09-28T20:09:05+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding 'Completion and Result of Postal Ballot dated 25 August 2026'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_28092026200828_SEIntimationforVR.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "39c671852efdca70717a0fb952b740cf3628031c",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-09-28T19:44:25+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_28092026194403_PSLOutcomeofInvestorSessionsSeptember282026Sd.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "319238f796cfa632fff77f89783dfb6b48792eca",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-09-28T19:26:50+05:30",
+    "subject": "Proceeding of 33rd AGM of Dixon Technologies (India) Limited held on 28th September, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_28092026192515_Proceedingsof33rdAGM28092026.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "agm_egm",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "7a8c31682f8e0293ce4ed2d857e9b19e1a88d409",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-09-28T19:22:37+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_28092026192213_TWC_Intimation-BFL.pdf",
+    "raw_category": "Trading Window",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "282a92e10e30070f3b928a2b05509c8caa602098",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-09-28T18:27:00+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Repayment Of Commercial Paper'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_28092026182626_RedemptionofCP2809026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Avenue Supermarts repaid 4,000 commercial papers (ISIN INE192R14345) worth Rs. 200 crores at maturity on 28th September 2026, leaving…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "7a13c543fa000af9bdd7b3e5146dfb6a78742fe2",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-09-28T17:25:05+05:30",
+    "subject": "Polycab India Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28092026172448_Intimation_Trading_Window_Closure.pdf",
+    "raw_category": "Trading Window",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e2c860df046ab3015b1174afd6a903f6d775673a",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-09-28T08:20:40+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release for Lerodalcibep licensing agreement.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_28092026082027_SE_Intimation_of_PR_for_lerodalcibep_licensing.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Sun Pharma and LIB Therapeutics signed a global licensing agreement for lerodalcibep (Lyrokaul/Lerochol), a PCSK9 inhibitor, granting Sun…",
    "results": null,
    "profile": null
   }

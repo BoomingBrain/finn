@@ -6,7 +6,7 @@ const now = new Date("2026-10-28T12:00:00+05:30");
 const ev = (id: string, tier: Event["tier"], hoursAgo: number): Event => {
   const at = new Date(now.getTime() - hoursAgo * 3_600_000).toISOString();
   return { id, symbol: "INFY", company: "Infosys", category: "results", tier, first_at: at, last_at: at, headline: id,
-    summary: null, results: null, profile: null, documents: [], price_change_pct: null, volume_multiple: null };
+    summary: null, results: null, profile: null, documents: [], price_change_pct: null, volume_multiple: null, price_date: null };
 };
 
 describe("buildDigest", () => {
