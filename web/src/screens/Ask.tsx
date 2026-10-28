@@ -42,7 +42,7 @@ function Body({ s }: { s: SectionEvent }) {
 function ServerStatus() {
   const health = useApiHealth();
   return (
-    <p className="mt-6 flex items-start gap-2 text-[13px] text-muted" role="status">
+    <p className="mb-4 flex items-start gap-2 text-[13px] text-muted" role="status">
       <span
         aria-hidden="true"
         className={`mt-[6px] h-2 w-2 shrink-0 rounded-full ${health === "ok" ? "bg-up" : health === "down" ? "bg-down" : "bg-line"}`}
@@ -95,8 +95,8 @@ export function Ask({ symbol, eventId = null }: { symbol: string | null; eventId
       <Statement detail="Every answer comes from the company's own annual reports, earnings-call transcripts and filed results, with a link to the page it came from.">
         Ask about any NSE company.
       </Statement>
-      <SymbolSearch />
       <ServerStatus />
+      <SymbolSearch />
     </>
   );
 }

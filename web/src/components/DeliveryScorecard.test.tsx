@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import type { DeliveryData, DeliveryRow } from "../api/types";
 import { DeliveryScorecard } from "./DeliveryScorecard";
-import { matchSymbols } from "./SymbolSearch";
+import { instantGroups, matchSymbols, shortName } from "./SymbolSearch";
 
 const row = (verdict: DeliveryRow["verdict"], raw_metric: string, value: number | null): DeliveryRow => ({
   target: { metric: "ebitda_margin", raw_metric, comparison: "between", value: 20, value_high: 24, unit: "pct",
@@ -39,5 +39,20 @@ describe("matchSymbols", () => {
   it("ranks symbol prefixes before name matches", () => {
     expect(matchSymbols(all, "bank").map((s) => s.symbol)).toEqual(["BANKBARODA", "KOTAKBANK", "HDFCBANK"]);
     expect(matchSymbols(all, "  ")).toEqual([]);
+  });
+});
+
+describe("instant list", () => {
+  it("puts holdings first and lists other ready dossiers after, by name", () => {
+    const all = [
+      { symbol: "PIDILITIND", name: "Pidilite Industries Limited", precomputed: true },
+      { symbol: "HDFCBANK", name: "HDFC Bank Limited", precomputed: true },
+      { symbol: "CDSL", name: "Central Depository Services (India) Limited", precomputed: true },
+      { symbol: "KOTAKBANK", name: "Kotak Mahindra Bank Limited", precomputed: false },
+    ];
+    const g = instantGroups(all, new Set(["HDFCBANK"]));
+    expect(g.holdings.map((s) => s.symbol)).toEqual(["HDFCBANK"]);
+    expect(g.others.map((s) => s.symbol)).toEqual(["CDSL", "PIDILITIND"]);
+    expect(shortName("Pidilite Industries Limited")).toBe("Pidilite Industries");
   });
 });

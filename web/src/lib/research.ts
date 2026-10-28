@@ -49,8 +49,6 @@ export function deliverySummary(rows: DeliveryRow[]): string {
   return pending ? `${head}; ${pending} still in progress.` : `${head}.`;
 }
 
-export const DEMO_TICKERS = ["PIDILITIND", "HAL", "CDSL", "NAUKRI"];
-
 const DAY = new Intl.DateTimeFormat("en-IN", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Kolkata" });
 
 /** "Covers results to Sep 2026, the Aug 2026 call and the FY26 annual report. Updated 28 Oct 2026." */

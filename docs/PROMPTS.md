@@ -49,6 +49,7 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 43 | 2026-10-28 | "i want you to analysis of the company generated is saved permanently and the holdings in my portfolio shoul the always be present. and how it handles the outdated info?" | Live dossiers saved to the repo via GitHub API; daily workflow builds missing/failed/outdated dossiers by source fingerprint; coverage line in the app. |
 | 44 | 2026-10-28 | "github token is done how much is left for report generation" | Confirmed Render runs the persistence code; reported 14/22 dossiers done and ~1 h left. |
 | 45 | 2026-10-28 | `/frontend-design` (no brief), then "i want you to add a portfolio section in the bottom bar which shows all the holdings and their movement in graph shortly" | Added a Portfolio tab: equal-weighted move headline, 1W/1M/3M range, one row per holding with a price line against its starting price, biggest movers first, tap to research. Watch icon changed to a bell. |
+| 46 | 2026-10-28 | "in ask section i want you to add all the listing on front that are instantly available" | Ask now lists every ready dossier (holdings, then other researched companies) from symbols.json; saved live dossiers join after the next deploy. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

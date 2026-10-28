@@ -1,7 +1,36 @@
 import { useMemo, useState } from "react";
-import type { SymbolEntry } from "../api/types";
+import type { SignalsFile, SymbolEntry } from "../api/types";
 import { useData } from "../hooks/useData";
-import { DEMO_TICKERS } from "../lib/research";
+
+/** "Pidilite Industries Limited" -> "Pidilite Industries" */
+export function shortName(name: string): string {
+  return name.replace(/\s+(Limited|Ltd\.?)$/i, "");
+}
+
+/** Every company with a ready dossier: the investor's holdings first, then everything else researched. */
+export function instantGroups(all: SymbolEntry[], holdings: Set<string>) {
+  const ready = all.filter((s) => s.precomputed).sort((a, b) => shortName(a.name).localeCompare(shortName(b.name)));
+  return { holdings: ready.filter((s) => holdings.has(s.symbol)), others: ready.filter((s) => !holdings.has(s.symbol)) };
+}
+
+function InstantList({ title, entries }: { title: string; entries: SymbolEntry[] }) {
+  if (entries.length === 0) return null;
+  return (
+    <section className="mt-6">
+      <h2 className="text-[13px] font-semibold text-muted">{title}</h2>
+      <ul className="mt-1">
+        {entries.map((s) => (
+          <li key={s.symbol} className="border-t border-line">
+            <a href={`#/ask/${encodeURIComponent(s.symbol)}`} className="flex items-baseline justify-between gap-3 py-2.5">
+              <span className="min-w-0 truncate font-serif text-[17px]">{shortName(s.name)}</span>
+              <span className="shrink-0 text-[12px] text-muted">{s.symbol}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
 
 /** ≤ 8 matches on symbol prefix or company-name substring. */
 export function matchSymbols(all: SymbolEntry[], query: string): SymbolEntry[] {
@@ -16,9 +45,14 @@ const open = (symbol: string) => (window.location.hash = `#/ask/${encodeURICompo
 
 export function SymbolSearch() {
   const symbols = useData<SymbolEntry[]>("symbols.json");
+  const signals = useData<SignalsFile>("signals.json"); // its names are the portfolio's holdings
   const [query, setQuery] = useState("");
   const all = symbols.status === "ok" ? symbols.data : [];
   const matches = useMemo(() => matchSymbols(all, query), [all, query]);
+  const groups = useMemo(
+    () => instantGroups(all, new Set(signals.status === "ok" ? Object.keys(signals.data.names) : [])),
+    [all, signals],
+  );
 
   return (
     <form
@@ -56,16 +90,13 @@ export function SymbolSearch() {
         </ul>
       )}
       {!query.trim() && (
-        <div className="mt-4">
-          <p className="text-[13px] text-muted">Ready to open instantly:</p>
-          <div className="mt-2 flex flex-wrap gap-2">
-            {DEMO_TICKERS.map((s) => (
-              <a key={s} href={`#/ask/${s}`} className="rounded-md border border-line px-3 py-1.5 text-[14px]">
-                {s}
-              </a>
-            ))}
-          </div>
-        </div>
+        <>
+          <p className="mt-4 text-[13px] text-muted">
+            These open instantly. Any other NSE company is researched live, in a few minutes.
+          </p>
+          <InstantList title={`Your holdings (${groups.holdings.length})`} entries={groups.holdings} />
+          <InstantList title={`Also researched (${groups.others.length})`} entries={groups.others} />
+        </>
       )}
     </form>
   );
