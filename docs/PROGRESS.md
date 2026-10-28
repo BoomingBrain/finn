@@ -7,7 +7,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | # | Task | Day | Status | Commit | Notes |
 |---|---|---|---|---|---|
 | 0 | Data spikes | Wed | ✅ Done | see log | NSE ✅, screener ✅, yfinance ✅, NVIDIA vision extraction 97% ✅, BSE API ❌. Deferred: Actions cloud check (no remote) |
-| 1 | Foundation: models, snapshot store, LLM router, spend budget | Wed | ⬜ Not started | | |
+| 1 | Foundation: models, snapshot store, LLM router, request budget | Wed | ✅ Done | see log | 3/3 budget tests; smoke: snapshot round trip, real cached NVIDIA call |
 | 2 | Skeleton deploy: one service, web shell | Wed | ⬜ Not started | | |
 | 3 | Announcements source and classification | Thu | ⬜ Not started | | |
 | 4 | Results card: column selection, units, lender layout | Thu | ⬜ Not started | | |
@@ -42,6 +42,19 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 1 foundation
+- `backend/` is a uv project (Python 3.12). Added `finn/models.py` (all shared shapes; `filed_at` is normalised to IST), `finn/snapshot.py` (atomic JSON writes under `data/snapshot/`), `finn/portfolio.yaml` and `finn/portfolio.py` (18 holdings + 4 research tickers; HDFCBANK = Banks, BAJFINANCE = NBFC), and `finn/llm.py`.
+- `finn/llm.py` has:
+  - tier → NVIDIA model routing, overridable with `FINN_MODEL_<TIER>`
+  - thinking off for the bulk and vision tiers
+  - a 35/min throttle and a daily `RequestBudget`
+  - a SQLite response cache keyed on model, prompt, schema and image hashes
+  - per-model usage totals
+  - one JSON-repair retry
+  - one retry on 429/5xx
+- **Tests:** `tests/test_budget.py` 3/3 pass (it failed first on the missing module, as TDD expects).
+- **Smoke:** a PushSnapshot round trip with the IST timezone preserved and no temp files left; the portfolio loads 18 + 4; Settings rejects out-of-range values. A real bulk call classified "Appointment of … CFO" as `management_change` in 1.0 s (59 in / 8 out tokens); the repeat came from the cache in 0 ms with usage unchanged.
 
 ### 2026-10-28 — Task 0 complete: LLM provider switched to NVIDIA
 - **Provider:** the user chose NVIDIA's free API catalog over Anthropic. One `nvapi-` key in `.env`.

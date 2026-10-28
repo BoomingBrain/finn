@@ -19,6 +19,7 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 13 | 2026-10-28 | "what 5 models we will use list them" | Listed the 5 NVIDIA models and their roles. |
 | 14 | 2026-10-28 | "i have to get 5 api key or just 1 api key" | Answered: one key covers all models. |
 | 15 | 2026-10-28 | "i have added the api key try it and complete task 0" | Ran NVIDIA model access check and the results extraction spike; closed Task 0. |
+| 16 | 2026-10-28 | Task 1 description pasted ("Sets up the repo and the small foundation everything else uses: … refuses to go past a daily request budget") | Implemented Task 1. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

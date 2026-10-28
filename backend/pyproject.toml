@@ -1,0 +1,29 @@
+[project]
+name = "finn"
+version = "0.1.0"
+description = "FINN — mobile-first financial investment agent"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "httpx",
+    "yfinance",
+    "pandas",
+    "selectolax",
+    "pymupdf",
+    "pydantic>=2",
+    "pyyaml",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["finn"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

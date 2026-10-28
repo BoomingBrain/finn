@@ -1,0 +1,22 @@
+# Mock portfolio: 18 NSE-listed holdings across sectors and sizes, plus the research demo set.
+# sector "Banks" / "NBFC" switches the results card to the lender layout (NII/PPOP, no EBITDA).
+holdings:
+  - {symbol: RELIANCE, name: Reliance Industries, sector: Energy & Conglomerate}
+  - {symbol: HDFCBANK, name: HDFC Bank, sector: Banks}
+  - {symbol: INFY, name: Infosys, sector: IT Services}
+  - {symbol: BHARTIARTL, name: Bharti Airtel, sector: Telecom}
+  - {symbol: ITC, name: ITC, sector: FMCG}
+  - {symbol: LT, name: Larsen & Toubro, sector: Capital Goods}
+  - {symbol: SUNPHARMA, name: Sun Pharmaceutical Industries, sector: Pharma}
+  - {symbol: TITAN, name: Titan Company, sector: Consumer Durables}
+  - {symbol: BAJFINANCE, name: Bajaj Finance, sector: NBFC}
+  - {symbol: ASIANPAINT, name: Asian Paints, sector: Paints}
+  - {symbol: DMART, name: Avenue Supermarts, sector: Retail}
+  - {symbol: POLYCAB, name: Polycab India, sector: Cables & Wires}
+  - {symbol: DIXON, name: Dixon Technologies, sector: Electronics Manufacturing}
+  - {symbol: PERSISTENT, name: Persistent Systems, sector: IT Services}
+  - {symbol: TRENT, name: Trent, sector: Retail}
+  - {symbol: IRCTC, name: Indian Railway Catering and Tourism Corporation, sector: Travel Services}
+  - {symbol: DEEPAKNTR, name: Deepak Nitrite, sector: Chemicals}
+  - {symbol: KPITTECH, name: KPIT Technologies, sector: Auto Software}
+research: [PIDILITIND, HAL, CDSL, NAUKRI]
