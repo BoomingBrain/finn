@@ -6,7 +6,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 
 | # | Task | Day | Status | Commit | Notes |
 |---|---|---|---|---|---|
-| 0 | Data spikes | Wed | 🟨 Mostly done | see log | NSE ✅, screener ✅, yfinance ✅, BSE API ❌; LLM extraction + Actions cloud check pending |
+| 0 | Data spikes | Wed | ✅ Done | 247448d | NSE ✅, screener ✅, yfinance ✅, BSE API ❌. Deferred: LLM extraction check (to Task 4), Actions cloud check (no remote) |
 | 1 | Foundation: models, snapshot store, LLM router, spend budget | Wed | ⬜ Not started | | |
 | 2 | Skeleton deploy: one service, web shell | Wed | ⬜ Not started | | |
 | 3 | Announcements source and classification | Thu | ⬜ Not started | | |
@@ -29,7 +29,7 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 | Night | "Demo must work" | Result |
 |---|---|---|
-| Wed 28 | Deployed shell opens on a phone; spikes recorded | Spikes recorded (2 items pending) |
+| Wed 28 | Deployed shell opens on a phone; spikes recorded | Spikes done (2 checks deferred) |
 | Thu 29 | Deployed Brief shows one real results card | |
 | Fri 30 | Brief + Watch on all 18 stocks; lender cards; backtest sliders | |
 | Sat 31 | 4 demo dossiers instant; unseen ticker streams or fails cleanly | |
@@ -42,6 +42,11 @@ _Not run yet._
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 0 closed
+- The user closed Task 0 and asked to keep everything **local**, with no GitHub repo for now.
+- **Deferred:** the LLM extraction check moves to the start of Task 4 (needs `ANTHROPIC_API_KEY`). The Actions cloud check waits until a repo exists. Ingestion is assumed local.
+- **Heads-up:** Task 2 (deploy sync from GitHub to HF Spaces) and Task 8 (Actions ingest cron) assume a GitHub remote. Revisit them before starting.
 
 ### 2026-10-28 — Task 0 data spikes
 - **NSE announcements work** locally with httpx plus a cookie warm-up (plain curl gets 403). Fixtures were saved for INFY, HDFCBANK and RELIANCE. `desc` is only a coarse category; the real subject is in `attchmntText`.

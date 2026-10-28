@@ -84,10 +84,10 @@ Read from the rendered page images. Every column passes its internal arithmetic 
 - **Lender example: HDFCBANK.** Results filed 17 Oct, plus the earnings-call presentation, recording link and transcript, and two management-change filings (30 Sep, 1 Oct). Good for profile cards too.
 - **No BSE API fallback for announcements.** If NSE blocks the Actions runner, announcements are ingested locally (`make ingest`), and Actions only does what works from the cloud.
 
-## Still open
+## Deferred (Task 0 closed on 28 Oct by user decision)
 
-1. **LLM extraction accuracy:** set `ANTHROPIC_API_KEY`, then run `cd spikes && uv run python results_llm_spike.py`. It scores image vs OCR-text extraction against the gold tables above. Record the result here before starting Task 4.
-2. **Cloud check:** `.github/workflows/spike.yml` is written but needs a GitHub repo to run (`workflow_dispatch`). Record the results in the "Works from GitHub Actions" column.
+1. **LLM extraction accuracy.** Deferred to the start of Task 4, which depends on it. Needs `ANTHROPIC_API_KEY`; then run `cd spikes && uv run python results_llm_spike.py` and record image vs OCR-text accuracy here. Until then, Task 4 assumes page-image extraction.
+2. **Cloud check from GitHub Actions.** Deferred: the user chose to keep everything local, with no GitHub repo for now. `.github/workflows/spike.yml` is ready for when a repo exists. Until then, assume ingestion runs **locally** (`make ingest`). Tasks 2 (deploy sync) and 8 (scheduled ingest) depend on a remote and must be revisited before they start.
 
 ## Fixtures saved
 
