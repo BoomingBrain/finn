@@ -17,7 +17,8 @@ def create_app() -> FastAPI:
 
     @app.get("/api/health")
     def health() -> dict:
-        return {"ok": True, "service": "finn-research"}
+        # Render sets RENDER_GIT_COMMIT: shows which commit is live (data-only ingest commits shouldn't redeploy)
+        return {"ok": True, "service": "finn-research", "commit": os.environ.get("RENDER_GIT_COMMIT", "")[:7] or None}
 
     @app.get("/", include_in_schema=False)
     def root():
