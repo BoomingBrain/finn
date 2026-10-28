@@ -9,7 +9,7 @@ import { SnapshotSection } from "../components/SnapshotSection";
 import { Statement } from "../components/Statement";
 import { SymbolSearch } from "../components/SymbolSearch";
 import { useApiHealth, type ApiHealth } from "../hooks/useApiHealth";
-import { useResearch } from "../hooks/useResearch";
+import { useResearch, useRunningBuilds } from "../hooks/useResearch";
 import { coverageText } from "../lib/research";
 
 const SERVER_COPY: Record<ApiHealth, string> = {
@@ -53,8 +53,26 @@ function ServerStatus() {
   );
 }
 
+/** Live analyses still building, so the investor can go back to one. */
+function Running() {
+  const running = useRunningBuilds();
+  if (running.length === 0) return null;
+  return (
+    <p className="mb-4 text-[14px]">
+      Researching{" "}
+      {running.map((sym, i) => (
+        <span key={sym}>
+          {i > 0 && ", "}
+          <a href={`#/ask/${encodeURIComponent(sym)}`} className="font-semibold text-notable">{sym}</a>
+        </span>
+      ))}{" "}
+      now.
+    </p>
+  );
+}
+
 function Dossier({ symbol, eventId }: { symbol: string; eventId: string | null }) {
-  const { sections, done, waking, error, progress } = useResearch(symbol);
+  const { sections, done, waking, error, progress, ahead } = useResearch(symbol);
   const snapshot = sections.find((s) => s.section === "snapshot");
   const snapData = snapshot?.data as SnapshotData | undefined;
   const name = snapData?.name ?? symbol;
@@ -72,7 +90,7 @@ function Dossier({ symbol, eventId }: { symbol: string; eventId: string | null }
     <>
       {eventId && <ContextStrip eventId={eventId} />}
       <Statement detail={done ? coverage ?? undefined : undefined}>{name}</Statement>
-      {!done && <BuildProgress progress={progress} waking={waking} />}
+      {!done && <BuildProgress progress={progress} waking={waking} ahead={ahead} />}
       {ORDER.map(({ name: section, title }) => {
         const s = sections.find((x) => x.section === section);
         if (!s) return done ? null : <SectionSkeleton key={section} title={title} />;
@@ -96,6 +114,7 @@ export function Ask({ symbol, eventId = null }: { symbol: string | null; eventId
         Ask about any NSE company.
       </Statement>
       <ServerStatus />
+      <Running />
       <SymbolSearch />
     </>
   );

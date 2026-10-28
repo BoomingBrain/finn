@@ -65,15 +65,16 @@ def client(tmp_path, build=fake_build, per_hour=3, budget=10, saved=None) -> Tes
     return TestClient(app)
 
 
-def events(response) -> list[tuple[str, str]]:
-    """(event name, data) pairs from an SSE body; keep-alive comments are skipped."""
+def events(response, keep_queued: bool = False) -> list[tuple[str, str]]:
+    """(event name, data) pairs from an SSE body; keep-alive comments (and queue positions) are skipped."""
     out = []
     for block in response.text.strip().split("\n\n"):
         lines = [l for l in block.splitlines() if not l.startswith(":")]
         if lines:
             name = next((l[7:] for l in lines if l.startswith("event: ")), "message")
             data = next((l[6:] for l in lines if l.startswith("data: ")), "")
-            out.append((name, data))
+            if name != "queued" or keep_queued:
+                out.append((name, data))
     return out
 
 
@@ -160,3 +161,8 @@ def test_unexpected_failure_ends_with_an_error_event(tmp_path):
     sent = events(client(tmp_path, build=crashing_build).get("/api/research/KOTAKBANK"))
     assert sent[0][0] == "message" and sent[-1][0] == "error"
     assert json.loads(sent[-1][1])["code"] == "failed"
+
+
+def test_live_stream_starts_with_queue_position(tmp_path):
+    sent = events(client(tmp_path).get("/api/research/KOTAKBANK"), keep_queued=True)
+    assert sent[0] == ("queued", json.dumps({"ahead": 0}))

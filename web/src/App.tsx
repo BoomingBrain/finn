@@ -1,3 +1,4 @@
+import { ReadyBanner } from "./components/ReadyBanner";
 import { TabBar } from "./components/TabBar";
 import { useAlerts } from "./hooks/useAlerts";
 import { useHashRoute } from "./hooks/useHashRoute";
@@ -19,6 +20,7 @@ export default function App() {
         {tab === "watch" && <Watch inbox={inbox} settings={settings} onSettings={setSettings} />}
         {tab === "ask" && <Ask symbol={param} eventId={query.event ?? null} />}
       </main>
+      <ReadyBanner />
       <TabBar active={tab} unread={inbox.unread} />
     </div>
   );

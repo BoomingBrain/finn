@@ -17,6 +17,7 @@ from finn.guard import RateLimiter, nse_symbols
 from finn.llm import LLM, BudgetExceeded, RequestBudget
 from finn.persist import GitHubStore
 from finn.pull.dossier import Dossier, SectionEvent, build_dossier, needs_build
+from finn.research_hub import Build, ResearchHub
 from finn.snapshot import SnapshotStore
 from finn.sources.screener import CompanyNotFound, SourceUnreachable
 
@@ -42,7 +43,7 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
     app.add_middleware(CORSMiddleware, allow_origins=origins + [LOCAL_DEV_ORIGIN], allow_methods=["GET"],
                        allow_headers=["*"])
     store = store or SnapshotStore()
-    limiter = limiter or RateLimiter(per_hour=int(os.environ.get("LIVE_RESEARCH_PER_IP_PER_HOUR", "3")))
+    limiter = limiter or RateLimiter(per_hour=int(os.environ.get("LIVE_RESEARCH_PER_IP_PER_HOUR", "20")))
     budget = budget or RequestBudget(daily_requests=int(os.environ.get("DAILY_LLM_REQUEST_BUDGET", "1500")))
     saved = saved or GitHubStore.from_env()  # live dossiers, kept permanently in the repo
     live: dict[str, list[dict]] = {}  # finished live dossiers, for the life of the process
@@ -65,75 +66,64 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
             yield _sse("{}", event="done")
         return StreamingResponse(stream(), media_type="text/event-stream")
 
-    async def live_stream(symbol: str) -> AsyncIterator[str]:
-        """Sections and progress share one queue: progress is reported from worker threads, sections from the
-        build itself. A comment line goes out whenever nothing has happened for KEEPALIVE_SECONDS."""
-        kwargs = {"fetch_company": _force_fail} if os.environ.get("FINN_FORCE_SOURCE_FAIL") else {}
-        loop = asyncio.get_running_loop()
-        queue: asyncio.Queue = asyncio.Queue()
-
-        def report(step: dict) -> None:
-            try:
-                on_loop = asyncio.get_running_loop() is loop
-            except RuntimeError:  # a worker thread
-                on_loop = False
-            if on_loop:
-                queue.put_nowait(("progress", step))
-            else:
-                loop.call_soon_threadsafe(queue.put_nowait, ("progress", step))
-
-        async def run():
-            try:
-                async for event in build(symbol, get_llm(), progress=report, **kwargs):
-                    await queue.put(("section", event))
-                await queue.put(("end", None))
-            except Exception as e:  # handed to the stream, which turns it into an error event
-                await queue.put(("error", e))
-
-        task = asyncio.create_task(run())
-        sent = []
-        try:
-            while True:
-                try:
-                    kind, item = await asyncio.wait_for(queue.get(), timeout=KEEPALIVE_SECONDS)
-                except asyncio.TimeoutError:
-                    yield ": building\n\n"
-                    continue
-                if kind == "progress":
-                    yield _sse(item, event="progress")
-                elif kind == "section":
-                    sent.append(item.model_dump(mode="json"))
-                    yield _sse(sent[-1])
-                elif kind == "end":
-                    break
-                else:
-                    raise item
-        except SourceUnreachable:
-            yield _sse({"code": "sources_unreachable",
-                        "message": f"Couldn't fetch sources for {symbol} from the server."}, event="error")
-            return
-        except CompanyNotFound:
-            yield _sse({"code": "not_found", "message": f"FINN can't find {symbol} on screener.in."}, event="error")
-            return
-        except BudgetExceeded:
-            yield _sse({"code": "budget_exhausted", "message": "Today's AI budget for live research is used up."},
-                       event="error")
-            return
-        except Exception as e:
-            log.exception("live research for %s failed", symbol)
-            yield _sse({"code": "failed", "message": f"Research on {symbol} stopped unexpectedly: {type(e).__name__}."},
-                       event="error")
-            return
-        finally:
-            task.cancel()
+    async def remember(symbol: str, sections: list[SectionEvent]) -> None:
+        """A finished build: replay it from memory, and keep it permanently unless a section failed."""
+        sent = [e.model_dump(mode="json") for e in sections]
         live[symbol] = sent
-        yield _sse("{}", event="done")
         snap = (sent[0].get("data") or {}) if sent else {}
         dossier = Dossier(symbol=symbol, name=snap.get("name", symbol), basis=snap.get("basis", ""),
                           built_at=datetime.now(timezone.utc), sources=snap.get("sources", {}),
-                          sections=[SectionEvent(**e) for e in sent]).model_dump(mode="json")
+                          sections=sections).model_dump(mode="json")
         if needs_build(dossier) is None:  # never persist a dossier with a failed section; the daily job retries
             await asyncio.to_thread(saved.save, symbol, dossier)
+
+    def run_build(symbol: str, report: Callable[[dict], None]) -> AsyncIterator[SectionEvent]:
+        kwargs = {"fetch_company": _force_fail} if os.environ.get("FINN_FORCE_SOURCE_FAIL") else {}
+        return build(symbol, get_llm(), progress=report, **kwargs)
+
+    hub = ResearchHub(run_build, concurrency=int(os.environ.get("LIVE_RESEARCH_CONCURRENCY", "2")),
+                      on_complete=remember)
+
+    def error_event(symbol: str, e: Exception) -> str:
+        if isinstance(e, SourceUnreachable):
+            return _sse({"code": "sources_unreachable",
+                         "message": f"Couldn't fetch sources for {symbol} from the server."}, event="error")
+        if isinstance(e, CompanyNotFound):
+            return _sse({"code": "not_found", "message": f"FINN can't find {symbol} on screener.in."}, event="error")
+        if isinstance(e, BudgetExceeded):
+            return _sse({"code": "budget_exhausted", "message": "Today's AI budget for live research is used up."},
+                        event="error")
+        return _sse({"code": "failed", "message": f"Research on {symbol} stopped unexpectedly: {type(e).__name__}."},
+                    event="error")
+
+    async def follow(symbol: str, b: Build) -> AsyncIterator[str]:
+        """Streams one viewer's view of a shared build. Leaving stops the stream, not the build."""
+        q = b.listen()
+        try:
+            while True:
+                try:
+                    kind, item = await asyncio.wait_for(q.get(), timeout=KEEPALIVE_SECONDS)
+                except asyncio.TimeoutError:
+                    yield ": building\n\n"
+                    continue
+                if kind == "queued":
+                    yield _sse(item, event="queued")
+                elif kind == "progress":
+                    yield _sse(item, event="progress")
+                elif kind == "section":
+                    yield _sse(item.model_dump(mode="json"))
+                elif kind == "end":
+                    yield _sse("{}", event="done")
+                    return
+                else:
+                    yield error_event(symbol, item)
+                    return
+        finally:
+            b.leave(q)
+
+    def stream(symbol: str, b: Build) -> StreamingResponse:
+        return StreamingResponse(follow(symbol, b), media_type="text/event-stream",
+                                 headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
     @app.get("/api/research/{symbol}")
     async def research(symbol: str, request: Request):
@@ -149,6 +139,9 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
         if kept:
             live[symbol] = kept["sections"]
             return replay(kept["sections"])
+        running = hub.get(symbol)
+        if running:  # someone already asked: join that build instead of starting another
+            return stream(symbol, running)
         forwarded = request.headers.get("x-forwarded-for", "")
         ip = forwarded.split(",")[0].strip() or (request.client.host if request.client else "unknown")
         if not limiter.allow(ip, now=time.time()):
@@ -157,8 +150,7 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
             budget.check()
         except BudgetExceeded:
             return JSONResponse({"error": "budget_exhausted"}, status_code=429)
-        return StreamingResponse(live_stream(symbol), media_type="text/event-stream",
-                                 headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
+        return stream(symbol, hub.start(symbol))
 
     @app.get("/", include_in_schema=False)
     def root():

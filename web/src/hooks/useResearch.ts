@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 import { apiBase, loadData } from "../api/client";
 import type { Dossier, SectionEvent } from "../api/types";
 
@@ -10,19 +10,22 @@ export type Research = {
   waking: boolean;
   error: ResearchError | null;
   progress: BuildProgress | null; // live builds only: completed steps, reported by the server as they happen
+  ahead: number | null; // live builds waiting in line: analyses that must finish first
+  live: boolean; // built on the server now, not a bundled file
 };
 
+const EMPTY: Research = { sections: [], done: false, waking: false, error: null, progress: null, ahead: null, live: false };
 const WAKING_AFTER_MS = 5_000;
 
 export function unreachable(symbol: string): ResearchError {
   return { code: "sources_unreachable", message: `Couldn't fetch sources for ${symbol} from the server.` };
 }
 
-/** Fixed copy for the server's refusals (Task 12 decides them before any work starts). */
+/** Fixed copy for the server's refusals (decided before any work starts). */
 export function refusal(symbol: string, status: number, code: string | undefined): ResearchError {
   if (status === 404) return { code: "unknown_symbol", message: `FINN can't find ${symbol} on NSE.` };
   if (code === "rate_limited")
-    return { code, message: "Live research is limited to 3 new tickers an hour. Precomputed tickers are always instant." };
+    return { code, message: "You've started 20 new analyses this hour. Try again later; ready companies still open instantly." };
   if (code === "budget_exhausted")
     return { code, message: "Today's AI budget for live research is used up. Precomputed tickers still work." };
   return unreachable(symbol);
@@ -49,68 +52,114 @@ export function parseSSE(buffer: string): { messages: SSEMessage[]; rest: string
   return { messages, rest };
 }
 
-/**
- * The dossier for `symbol`: the bundled static file when one exists, otherwise a live build streamed from the
- * Render service. fetch + a stream reader instead of EventSource, because EventSource can't see 404/429 statuses.
+/** How one server message changes a build's state. Pure, so it can be tested. */
+export function applyMessage(state: Research, m: SSEMessage): Research {
+  switch (m.event) {
+    case "queued":
+      return { ...state, waking: false, ahead: JSON.parse(m.data).ahead };
+    case "progress":
+      return { ...state, waking: false, ahead: null, progress: JSON.parse(m.data) };
+    case "done":
+      return { ...state, done: true, ahead: null };
+    case "error":
+      return { ...state, waking: false, ahead: null, error: JSON.parse(m.data), done: true };
+    default:
+      return { ...state, waking: false, ahead: null, sections: [...state.sections, JSON.parse(m.data) as SectionEvent] };
+  }
+}
+
+/*
+ * One store for the whole app, outside any screen: a live build keeps streaming while the investor reads the Brief,
+ * and the app can say when it finishes. Each symbol is fetched once per visit.
  */
-export function useResearch(symbol: string | null): Research {
-  const [state, setState] = useState<Research>({ sections: [], done: false, waking: false, error: null, progress: null });
+type Listener = () => void;
+type ReadyListener = (symbol: string, name: string) => void;
+const builds = new Map<string, Research>();
+const listeners = new Set<Listener>();
+const readyListeners = new Set<ReadyListener>();
+let version = 0;
 
-  useEffect(() => {
-    setState({ sections: [], done: false, waking: false, error: null, progress: null });
-    if (!symbol) return;
-    const ctrl = new AbortController();
-    let cancelled = false;
-    const update = (fn: (s: Research) => Research) => !cancelled && setState(fn);
-    let wakeTimer: ReturnType<typeof setTimeout> | undefined;
+function set(symbol: string, next: Research) {
+  builds.set(symbol, next);
+  version += 1;
+  listeners.forEach((l) => l());
+}
 
-    async function live(sym: string) {
-      if (!apiBase) return update((s) => ({ ...s, error: unreachable(sym), done: true }));
-      wakeTimer = setTimeout(() => update((s) => (s.sections.length || s.progress ? s : { ...s, waking: true })), WAKING_AFTER_MS);
-      let res: Response;
-      try {
-        res = await fetch(`${apiBase}/api/research/${encodeURIComponent(sym)}`, { signal: ctrl.signal });
-      } catch {
-        return update((s) => ({ ...s, waking: false, error: unreachable(sym), done: true }));
-      }
-      if (!res.ok || !res.body) {
-        const body = await res.json().catch(() => ({}));
-        return update((s) => ({ ...s, waking: false, error: refusal(sym, res.status, body.error), done: true }));
-      }
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-      let buffer = "";
-      try {
-        for (;;) {
-          const { value, done } = await reader.read();
-          if (done) break;
-          const parsed = parseSSE(buffer + decoder.decode(value, { stream: true }));
-          buffer = parsed.rest;
-          for (const m of parsed.messages) {
-            if (m.event === "done") update((s) => ({ ...s, done: true }));
-            else if (m.event === "progress") update((s) => ({ ...s, waking: false, progress: JSON.parse(m.data) }));
-            else if (m.event === "error") update((s) => ({ ...s, waking: false, error: JSON.parse(m.data), done: true }));
-            else update((s) => ({ ...s, waking: false, sections: [...s.sections, JSON.parse(m.data) as SectionEvent] }));
-          }
-        }
-      } catch {
-        if (!ctrl.signal.aborted) update((s) => ({ ...s, error: unreachable(sym), done: true }));
-        return;
-      }
-      update((s) => (s.done ? s : { ...s, error: s.error ?? unreachable(sym), done: true }));
+function update(symbol: string, fn: (s: Research) => Research) {
+  set(symbol, fn(builds.get(symbol) ?? EMPTY));
+}
+
+/** Called when a live build finishes with every section delivered (not for bundled dossiers). */
+export function onResearchReady(fn: ReadyListener): () => void {
+  readyListeners.add(fn);
+  return () => {
+    readyListeners.delete(fn);
+  };
+}
+
+async function streamLive(symbol: string) {
+  if (!apiBase) return update(symbol, (s) => ({ ...s, error: unreachable(symbol), done: true }));
+  update(symbol, (s) => ({ ...s, live: true }));
+  const wakeTimer = setTimeout(
+    () => update(symbol, (s) => (s.sections.length || s.progress || s.ahead !== null ? s : { ...s, waking: true })),
+    WAKING_AFTER_MS,
+  );
+  try {
+    const res = await fetch(`${apiBase}/api/research/${encodeURIComponent(symbol)}`);
+    if (!res.ok || !res.body) {
+      const body = await res.json().catch(() => ({}));
+      return update(symbol, (s) => ({ ...s, waking: false, error: refusal(symbol, res.status, body.error), done: true }));
     }
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = "";
+    for (;;) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      const parsed = parseSSE(buffer + decoder.decode(value, { stream: true }));
+      buffer = parsed.rest;
+      for (const m of parsed.messages) update(symbol, (s) => applyMessage(s, m));
+    }
+  } catch {
+    update(symbol, (s) => (s.done ? s : { ...s, error: unreachable(symbol), done: true }));
+  } finally {
+    clearTimeout(wakeTimer);
+  }
+  update(symbol, (s) => (s.done ? s : { ...s, error: s.error ?? unreachable(symbol), done: true }));
+  const final = builds.get(symbol)!;
+  if (!final.error) {
+    const name = (final.sections[0]?.data as { name?: string } | null)?.name ?? symbol;
+    readyListeners.forEach((l) => l(symbol, name));
+  }
+}
 
-    loadData<Dossier>(`dossiers/${symbol}.json`)
-      .then((d) => update(() => ({ sections: d.sections, done: true, waking: false, error: null, progress: null })))
-      // NotFound, or a host that answers a missing file with the app's HTML: either way, research it live.
-      .catch(() => live(symbol));
+/** Starts research on `symbol` unless it is already loaded or running. A failed attempt is retried. */
+export function startResearch(symbol: string) {
+  const existing = builds.get(symbol);
+  if (existing && !existing.error) return;
+  set(symbol, EMPTY);
+  loadData<Dossier>(`dossiers/${symbol}.json`)
+    .then((d) => set(symbol, { ...EMPTY, sections: d.sections, done: true }))
+    // NotFound, or a host that answers a missing file with the app's HTML: either way, research it live.
+    .catch(() => streamLive(symbol));
+}
 
-    return () => {
-      cancelled = true;
-      clearTimeout(wakeTimer);
-      ctrl.abort();
-    };
+function subscribe(l: Listener) {
+  listeners.add(l);
+  return () => {
+    listeners.delete(l);
+  };
+}
+
+export function useResearch(symbol: string | null): Research {
+  useEffect(() => {
+    if (symbol) startResearch(symbol);
   }, [symbol]);
+  return useSyncExternalStore(subscribe, () => (symbol ? builds.get(symbol) ?? EMPTY : EMPTY));
+}
 
-  return state;
+/** Symbols with a live build still running, re-rendered as builds change. */
+export function useRunningBuilds(): string[] {
+  useSyncExternalStore(subscribe, () => version);
+  return [...builds.entries()].filter(([, s]) => s.live && !s.done).map(([sym]) => sym);
 }

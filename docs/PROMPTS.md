@@ -57,6 +57,8 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 51 | 2026-10-28 | "is it done?" | 12/22; fixed a truncated-JSON failure (HAL) with a larger budget and bracket repair; all 22 complete, audited, committed, deployed. |
 | 52 | 2026-10-28 | "ok now if i click a new company will it return all the new analysis/" | Explained the live path; ran a real KOTAKBANK test on Render (first stream closed after the snapshot; rerun in progress). |
 | 53 | 2026-10-28 | "can we add a progress bar which actually work for the analysis being done?" | Server reports real completed steps (financials, each call, delivery check, annual report, bull/bear) as `progress` SSE events; Ask shows the current step, a bar and "N of M steps". Unexpected failures now end with an error event instead of a silent close. |
+| 54 | 2026-10-28 | "how to solve this 3 request per hour thing" | Explained why the cap exists and the shared-office-IP problem; proposed a global queue. |
+| 55 | 2026-10-28 | "i want. you to increase the limit and also queue it and notify when its done" | Per-IP limit 3 → 20 (only new builds count); `ResearchHub` runs at most 2 builds at once with queue positions, joins duplicate requests and keeps building after the viewer leaves; app-level research store, "Notify me" (system notification) and an in-app ready banner. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

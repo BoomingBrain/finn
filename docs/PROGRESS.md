@@ -63,6 +63,17 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-10-28 — Queued live research with notifications (user request)
+- **`finn/research_hub.py`:** at most `LIVE_RESEARCH_CONCURRENCY` (2) builds at once; waiting builds get `event: queued {"ahead": n}` whenever the line moves. A second request for the same symbol joins the running build and replays its history. A build is its own task, so a viewer leaving doesn't stop it. On completion it is remembered and saved (before "done" is sent). 4 hub tests.
+- **API:** joining a running build skips the limiter; the per-IP limit is 20 an hour (was 3; reviewers may share one IP).
+- **Web:**
+  - Research state moved into an app-level store, so a build keeps streaming while the investor uses other tabs.
+  - The Ask home lists builds still running.
+  - BuildProgress shows the queue position and a "Notify me when it's ready" button (Notification API).
+  - `ReadyBanner` appears when a live build finishes and the investor isn't looking at it.
+  - Tests for the state transitions and the announce rule.
+- **Timing correction:** a live build on Render starts with an empty cache, so 4 transcripts through the reasoning model take 15–30 min, not 3–7. The copy now says 10–30 min.
+
 ### 2026-10-28 — Real progress for live research (user request)
 - **Backend:**
   - `dossier.Progress` counts real units: financials 1, one per earnings call read, delivery check 1, annual report 1, bull/bear 1. It is thread-safe, because calls are read in worker threads.

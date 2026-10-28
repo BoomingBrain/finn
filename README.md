@@ -66,7 +66,14 @@ GitHub Actions (daily 20:00 IST): build missing, failed and outdated dossiers â”
 
 - **Viewers cost nothing.** Brief and Watch, and every precomputed dossier, are static files, so a viewer triggers no model call.
 - **Ingestion is incremental and cached.** Each filing is classified and enriched once, and every model response is cached in SQLite by its exact input.
-- **Live research is guarded:** an unknown ticker gets a 404 before any work, at most 3 new tickers per IP per hour, and a daily request budget. If screener.in can't be reached, the user gets a clear message, not a crash.
+- **Live research is queued and guarded:**
+  - an unknown ticker gets a 404 before any work
+  - at most 2 analyses build at once, and the rest wait in line with their position shown
+  - a second request for a company already building joins that build
+  - builds keep running if the viewer leaves, and the app shows a banner (or a system notification, if allowed) when one finishes
+  - up to 20 new analyses per IP an hour, plus a daily request budget
+  - a real progress bar counts completed steps
+  - if screener.in can't be reached, the user gets a clear message, not a crash
 
 ## Models and cost
 

@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import type { DeliveryRow } from "../api/types";
 import { parseHash } from "../hooks/useHashRoute";
-import { parseSSE, refusal } from "../hooks/useResearch";
+import { applyMessage, parseSSE, refusal } from "../hooks/useResearch";
+import { shouldAnnounce } from "./notify";
 import { citationHref, citationLabel, coverageText, deliveredText, deliverySummary, targetText } from "./research";
 
 const row = (verdict: DeliveryRow["verdict"], value: number | null = 24.1, quarters_in = 4): DeliveryRow => ({
@@ -42,7 +43,7 @@ describe("streaming", () => {
 
   it("maps server refusals to fixed copy", () => {
     expect(refusal("XYZ", 404, "unknown_symbol").message).toBe("FINN can't find XYZ on NSE.");
-    expect(refusal("XYZ", 429, "rate_limited").message).toMatch(/3 new tickers an hour/);
+    expect(refusal("XYZ", 429, "rate_limited").message).toMatch(/20 new analyses this hour/);
   });
 
   it("reads the originating event from the hash", () => {
@@ -64,5 +65,23 @@ describe("build progress", () => {
     const { messages } = parseSSE('event: progress\ndata: {"done":2,"total":8,"label":"Read the Aug 2026 earnings call (1 of 4)"}\n\n');
     expect(messages[0].event).toBe("progress");
     expect(JSON.parse(messages[0].data)).toEqual({ done: 2, total: 8, label: "Read the Aug 2026 earnings call (1 of 4)" });
+  });
+});
+
+describe("live build state", () => {
+  const empty = { sections: [], done: false, waking: true, error: null, progress: null, ahead: null, live: true };
+  it("moves from queued to building to done", () => {
+    let s = applyMessage(empty, { event: "queued", data: '{"ahead": 1}' });
+    expect(s).toMatchObject({ ahead: 1, waking: false });
+    s = applyMessage(s, { event: "progress", data: '{"done":1,"total":8,"label":"Reading"}' });
+    expect(s).toMatchObject({ ahead: null, progress: { done: 1 } });
+    s = applyMessage(s, { event: "message", data: '{"section":"snapshot","status":"ready","reason":null,"data":{},"citations":[]}' });
+    expect(applyMessage(s, { event: "done", data: "{}" })).toMatchObject({ done: true, sections: [{ section: "snapshot" }] });
+  });
+
+  it("announces a finished analysis only when the investor isn't looking at it", () => {
+    expect(shouldAnnounce("KOTAKBANK", "#/ask/KOTAKBANK", false)).toBe(false);
+    expect(shouldAnnounce("KOTAKBANK", "#/ask/KOTAKBANK", true)).toBe(true); // another tab
+    expect(shouldAnnounce("KOTAKBANK", "#/brief", false)).toBe(true);
   });
 });
