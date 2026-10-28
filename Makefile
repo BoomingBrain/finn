@@ -1,4 +1,4 @@
-.PHONY: test web api deploy-space ingest
+.PHONY: test web api deploy-space ingest eval
 
 test:
 	cd backend && uv run pytest -q
@@ -19,3 +19,6 @@ ingest:
 	git add data/snapshot && (git diff --cached --quiet || git commit -m "chore: ingest (local)")
 	git push origin main
 	./scripts/deploy_space.sh
+
+eval:
+	cd backend && uv run python -m eval.run

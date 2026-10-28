@@ -43,6 +43,8 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 37 | 2026-10-28 | "proceed to task 10" | Implemented Task 10 (Promised vs Delivered); switched extraction to the reason tier after a bulk-vs-reason comparison. |
 | 38 | 2026-10-28 | "continue with the work" | Implemented Task 11 (dossier builder, citation guard) and precomputed the 22 dossiers. |
 | 39 | 2026-10-28 | "continue with task" | Wrote Task 12 (research API, rate limit, symbol list) while the dossier precompute ran. |
+| 40 | 2026-10-28 | "the ask engine is not live yet?" | Explained the Space still had the Task 7 build; deployed the Ask screen to the Space now (12 of 22 dossiers rebuilt); redeploy when the precompute finishes. |
+| 41 | 2026-10-28 | "finish unfinished task from the plan" | Task 14 (cross-check + eval), then the Task 11 precompute wrap-up, Task 15 README/writeup/build history and a submission draft (not sent). |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

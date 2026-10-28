@@ -1,0 +1,37 @@
+# Hand-read from the rendered statement page of each filing (docs/spikes.md has the method). Values in ₹ crore,
+# columns = [current quarter, previous quarter, same quarter last year]. EBITDA = PBT + finance costs + D&A − other
+# income; NII = interest earned − interest expended (banks) or finance costs (NBFCs). Each column passes PBT − tax = PAT.
+- name: INFY Q2 FY27 (consolidated, Ind AS)
+  source: tests/fixtures/results/INFY_q2fy27_statements.pdf
+  metrics:
+    Revenue: [49244, 48211, 44490]
+    EBITDA: [11689, 11409, 10535]
+    PBT: [11063, 11028, 10229]
+    PAT: [7838, 7775, 7375]
+- name: HDFCBANK Q2 FY27 (bank, consolidated)
+  source: tests/fixtures/results/HDFCBANK_q2fy27.pdf
+  metrics:
+    NII: [44464.20, 42949.70, 40252.98]
+    PPOP: [32871.54, 30996.00, 30940.72]
+    PBT: [28662.54, 27193.16, 26658.89]
+    PAT: [21537.09, 20382.69, 20363.77]
+- name: BAJFINANCE Q2 FY27 (NBFC, consolidated; no PPOP line printed)
+  source: https://www.screener.in/company/source/quarter/372/9/2026/
+  metrics:
+    NII: [13334.66, 12570.64, 10785.37]
+    PBT: [8537.20, 8149.00, 6608.13]
+    PAT: [6366.57, 6080.60, 4947.76]
+- name: PIDILITIND Q4 FY26 (quarter and full-year columns, Rs crores)
+  source: https://www.screener.in/company/source/quarter/2478/3/2026/
+  metrics:
+    Revenue: [3583.38, 3709.91, 3141.14]
+    EBITDA: [822.85, 888.48, 606.86]
+    PBT: [776.65, 839.74, 576.21]
+    PAT: [584.15, 623.84, 427.52]
+- name: POLYCAB Q2 FY27 (reported in ₹ million)
+  source: https://www.screener.in/company/source/quarter/1274653/9/2026/
+  metrics:
+    Revenue: [9898.901, 8209.732, 6477.211]
+    EBITDA: [1422.498, 1136.199, 1020.749]
+    PBT: [1306.220, 1058.223, 921.001]
+    PAT: [989.997, 796.654, 692.959]

@@ -1,0 +1,24 @@
+# Every explicit numeric target for a fiscal period, judged by hand from candidate sentences (numbers near
+# forward-looking words) and the surrounding page. `acceptable` lists real statements without a fiscal period:
+# extracting them is neither required nor a false positive. A target matches on metric + period + value within 0.5.
+- name: PIDILITIND Aug 2026 call
+  symbol: PIDILITIND
+  said_on: 2026-08-01
+  targets:
+    - {metric: ebitda_margin, period: FY27, value: 20}   # "20% to 24% margin" corridor, p12 and p19
+  acceptable:
+    - {metric: other, value: 9}                          # 9-10% volume growth over 3-4 years, p20
+- name: HAL May 2026 call
+  symbol: HAL
+  said_on: 2026-05-01
+  targets:
+    - {metric: revenue_growth_yoy, period: FY27, value: 10}  # "10% to 12% minimum", p8 and p19
+    - {metric: ebitda_margin, period: FY27, value: 30}       # "around 30%, 31% ... will be maintained", p6
+  acceptable:
+    - {metric: other, value: 12000}                       # Rs 12,000 crore investment by 2030, p5
+    - {metric: other, value: 90000}                       # Rs 90,000 crore orders over 2 years, p5
+- name: CDSL Aug 2026 call
+  symbol: CDSL
+  said_on: 2026-08-01
+  targets: []
+  acceptable: []

@@ -18,9 +18,11 @@ from finn.push.classify import classify, classify_rule
 from finn.push.enrich import enrich
 from finn.push.signals import daily_metrics
 from finn.push.cluster import cluster_events
+from finn.push.crosscheck import apply_crosscheck
 from finn.snapshot import SnapshotStore
 from finn.sources.announcements import fetch_announcements
 from finn.sources.prices import fetch_eod
+from finn.sources.screener import fetch_company
 
 log = logging.getLogger(__name__)
 RETAIN_DAYS = 60
@@ -35,7 +37,7 @@ class IngestReport(BaseModel):
 
 
 def ingest(symbols: list[str] | None, days: int, store: SnapshotStore, llm: LLM, now: datetime,
-           fetch=fetch_announcements, enrich_fn=enrich, fetch_prices=fetch_eod,
+           fetch=fetch_announcements, enrich_fn=enrich, fetch_prices=fetch_eod, fetch_company=fetch_company,
            reprocess: frozenset[str] = frozenset()) -> IngestReport:
     portfolio = load_portfolio()
     holdings = [h for h in portfolio.holdings if not symbols or h.symbol in symbols]
@@ -59,6 +61,7 @@ def ingest(symbols: list[str] | None, days: int, store: SnapshotStore, llm: LLM,
     cutoff = now - timedelta(days=RETAIN_DAYS)
     items = [e for e in [*known.values(), *enriched] if e.announcement.filed_at >= cutoff]
     items.sort(key=lambda e: e.announcement.filed_at, reverse=True)
+    apply_crosscheck(items, fetch_company)
     store.save_push(PushSnapshot(as_of=now, announcements=items, failed_sources=[f"nse:{s}" for s in result.failed]))
     prices = store.load_prices()
     try:

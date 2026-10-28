@@ -20,7 +20,7 @@ Plan: [superpowers/plans/2026-10-28-finn.md](superpowers/plans/2026-10-28-finn.m
 | 11 | Dossier builder, citation guard, precompute demo set | Sat | 🟨 In progress | cb2b03e | Code done; 22-ticker precompute running (reason tier is slow) |
 | 12 | Research API, live fetch fallback, cost guard | Sat | ✅ Done | cb2b03e | Live on Render: 404 unknown, replay, Render reaches screener.in. 9 guard/API tests |
 | 13 | Ask screen and "Ask about this" | Sat | 🟨 In progress | | Built + 20 web tests; deploy after the precompute finishes |
-| 14 | Accuracy eval and results cross-check | Sun | ⬜ Not started | | |
+| 14 | Accuracy eval and results cross-check | Wed | ✅ Done | see log | Results 57/57 fields; guidance recall 3/3, precision 100%; 8/8 live cards verified vs screener |
 | 15 | Polish, README, writeup, build history, submit | Sun | ⬜ Not started | | |
 
 Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️ Cut
@@ -37,11 +37,39 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 ## Accuracy (filled by Task 14)
 
-_Not run yet._
+`make eval`, 28 Oct 2026. Gold values were read by hand from the rendered pages (`backend/eval/*.yaml`).
+
+### Results extraction (field accuracy, within 0.5%)
+
+| Filing | Correct | Misses |
+|---|---|---|
+| INFY Q2 FY27 (consolidated, Ind AS) | 12/12 | — |
+| HDFCBANK Q2 FY27 (bank, consolidated) | 12/12 | — |
+| BAJFINANCE Q2 FY27 (NBFC, consolidated; no PPOP line printed) | 9/9 | — |
+| PIDILITIND Q4 FY26 (quarter and full-year columns, Rs crores) | 12/12 | — |
+| POLYCAB Q2 FY27 (reported in ₹ million) | 12/12 | — |
+| **Total** | **57/57 (100%)** | |
+
+### Guidance extraction (Promised vs Delivered)
+
+| Call | Gold targets | Found | Extracted | False positives |
+|---|---|---|---|---|
+| PIDILITIND Aug 2026 call | 1 | 1 | 2 | 0: — |
+| HAL May 2026 call | 2 | 2 | 5 | 0: — |
+| CDSL Aug 2026 call | 0 | 0 | 0 | 0: — |
+| **Total** | 3 | recall **3/3** | | precision **100%** |
 
 ## Log
 
 Newest first.
+
+### 2026-10-28 — Task 14 complete: accuracy eval and screener cross-check
+- **`push/crosscheck.py`:** each readable results card is compared with screener's matching quarter (Revenue and PAT; PAT only for lenders) at 2% tolerance. Result: `verified` True/False with `mismatches`, or None (other basis, quarter not on screener, unreadable card). Runs in ingest; a screener failure leaves cards unmarked. 7 tests.
+- **Dry run on the live cards:** 8/8 verified (KPITTECH, LT, INFY, BAJFINANCE, HDFCBANK, PERSISTENT, POLYCAB, DMART).
+- **Gold set (`backend/eval/`):**
+  - **Results, 5 filings:** INFY, HDFCBANK (bank), BAJFINANCE (NBFC, no PPOP line), PIDILITIND Q4 with full-year columns, POLYCAB in ₹ million (no portfolio company reports in lakhs; millions exercises the same unit conversion).
+  - **Transcripts, 3 calls:** PIDILITIND Aug 2026, HAL May 2026, CDSL Aug 2026 (no targets: a precision check). Candidates were found by grepping for numbers near forward-looking words and judged by hand; statements without a fiscal period are "acceptable" (neither required nor false positives).
+- **`make eval`:** results 57/57 fields within 0.5%; guidance recall 3/3, precision 100%. Small gold set, so read these as "no known errors", not a population rate.
 
 ### 2026-10-28 — Tasks 11–13: dossiers, research API, Ask screen
 - **Task 11 (`pull/sections.py`, `pull/dossier.py`):** `GROUNDING_RULES` opens every prompt; `drop_uncited` runs on every model output; segment shares not printed on the cited page are blanked. Sections stream in fixed order with fixed reasons.
