@@ -14,6 +14,7 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 8 | 2026-10-28 | "task 0 done?" | Status report: Task 0 committed (247448d); 2 checks pending. |
 | 9 | 2026-10-28 | "complete task 0" | GitHub repo creation was blocked by the permission system; the API key is not set. Nothing uploaded. |
 | 10 | 2026-10-28 | "ignore the github repo creation for now add all things locally only rest task 0 is done/" | Marked Task 0 done with both open checks deferred; all work stays local. |
+| 11 | 2026-10-28 | "what are the results of task 0 every call and data retrival works?" | Per-source results summary (no new runs). |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)
