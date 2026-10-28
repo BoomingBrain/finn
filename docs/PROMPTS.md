@@ -10,7 +10,9 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 4 | 2026-10-28 | "also add a brief description of the each task in md and i want you to maintain a progress log and my prompt log somewhere" | Added per-task descriptions and an overview table to the plan; created `docs/PROGRESS.md` and this file. |
 | 5 | 2026-10-28 | Plan review with 15 requested changes (full text below) | Rewrote the plan: Tasks 0–15, vertical slice, offline ingestion + one HF Spaces service, cost guard, lender layout, code-judged guidance, eval, clustering, schedule + cut list. |
 | 6 | 2026-10-28 | "Before anything is built, prove that every data source works from where it will actually run. Throwaway scripts fetch real announcements, a real screener.in page and a real results PDF, save each response as a test fixture, and record in `docs/spikes.md` what worked, what was blocked and which fallback was chosen" | Ran Task 0 (data spikes). |
-
+| 7 | 2026-10-28 | Request to cut `/usage` costs of the superpowers plugin and writing-plans skill (interrupted by the user before any action) | Not acted on. |
+| 8 | 2026-10-28 | "task 0 done?" | Status report: Task 0 committed (247448d); 2 checks pending. |
+| 9 | 2026-10-28 | "complete task 0" | Ran the two pending Task 0 checks. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)
