@@ -41,6 +41,12 @@ jobs:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
         run: uv run python -m finn.pull.dossier --symbols-file finn/data/nifty50.txt --mode missing --limit 8 --parallel 2
 
+      - name: Rebuild the chat index
+        working-directory: backend
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+        run: uv run python -m finn.rag --build
+
       - name: Commit dossiers
         id: commit
         run: |

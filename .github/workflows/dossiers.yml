@@ -49,6 +49,12 @@ jobs:
           FINN_CONCURRENCY_REASON: "3"
         run: uv run python -m finn.pull.dossier --holdings --mode "${{ github.event.inputs.mode || 'refresh' }}" --parallel 2
 
+      - name: Rebuild the chat index
+        working-directory: backend
+        env:
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+        run: uv run python -m finn.rag --build
+
       - name: Commit dossiers
         id: commit
         run: |

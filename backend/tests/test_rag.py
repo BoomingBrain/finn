@@ -66,3 +66,57 @@ def test_unavailable_sections_produce_nothing():
 def test_ratios_keep_two_decimals():
     text = " ".join(p.text for p in chunk_dossier(dossier()))
     assert "debt to equity 0.03×" in text and "0.9×" in text
+
+
+# ---- Task 2: embedder and index ------------------------------------------------------------------------------
+
+import base64  # noqa: E402
+import hashlib  # noqa: E402
+import json  # noqa: E402
+
+import httpx  # noqa: E402
+import numpy as np  # noqa: E402
+
+from finn.rag import Embedder, build_index  # noqa: E402
+from finn.snapshot import SnapshotStore  # noqa: E402
+
+
+class FakeEmbedder:
+    dim = 8
+
+    def embed(self, texts, input_type):
+        return np.array([[b / 255 for b in hashlib.sha256(t.encode()).digest()[: self.dim]] for t in texts],
+                        dtype=np.float32)
+
+
+def test_build_index_round_trips_vectors(tmp_path):
+    store = SnapshotStore(tmp_path)
+    store.save_dossier("POLYCAB", dossier())
+    index = build_index(store, FakeEmbedder())
+    vectors = np.frombuffer(base64.b64decode(index["vectors"]), dtype=np.float16).reshape(len(index["passages"]), -1)
+    expected = FakeEmbedder().embed([p["text"] for p in index["passages"]], "passage")
+    assert vectors.shape == (len(index["passages"]), 8) and np.allclose(vectors, expected, atol=1e-3)
+    assert index["model"] == "nvidia/nemotron-3.5-embed-1b" and index["dim"] == 8
+
+
+def _transport(calls):
+    def handler(request):
+        body = json.loads(request.content)
+        calls.append(body)
+        return httpx.Response(200, json={"data": [{"embedding": [0.1, 0.2, 0.3]} for _ in body["input"]]})
+    return httpx.Client(transport=httpx.MockTransport(handler))
+
+
+def test_embedder_caches(tmp_path):
+    calls = []
+    e = Embedder("k", tmp_path / "emb.sqlite", client=_transport(calls))
+    e.embed(["a", "b"], "passage")
+    out = e.embed(["a", "b"], "passage")
+    assert len(calls) == 1 and out.shape == (2, 3)
+
+
+def test_embedder_batches_by_64(tmp_path):
+    calls = []
+    Embedder("k", tmp_path / "emb.sqlite", client=_transport(calls)).embed([f"t{i}" for i in range(130)], "passage")
+    assert [len(c["input"]) for c in calls] == [64, 64, 2]
+    assert calls[0]["input_type"] == "passage" and calls[0]["model"] == "nvidia/nemotron-3.5-embed-1b"

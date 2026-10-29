@@ -66,6 +66,10 @@ class SnapshotStore:
     def save_symbols(self, symbols: list[dict]) -> None:
         self._write("symbols.json", json.dumps(symbols, separators=(",", ":"), ensure_ascii=False))
 
+    # rag/index.json: the Chat tab's retrieval index
+    def save_rag_index(self, index: dict) -> None:
+        self._write("rag/index.json", json.dumps(index, separators=(",", ":"), ensure_ascii=False))
+
     def list_dossiers(self) -> list[str]:
         folder = self.root / "dossiers"
         return sorted(p.stem for p in folder.glob("*.json")) if folder.exists() else []
