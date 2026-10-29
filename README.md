@@ -55,6 +55,10 @@ Four demo tickers (PIDILITIND, HAL, CDSL, NAUKRI) and all 18 holdings are precom
 
 ## Architecture
 
+![FINN architecture: sources, scheduled jobs, model gateway, repository, static app and live research service](docs/architecture.png)
+
+The diagram's source is [docs/architecture/architecture.html](docs/architecture/architecture.html); re-render with headless Chrome at 1800×1250, scale 2.
+
 ```
 GitHub Actions (every 2 h on market days + 19:00 IST)
   NSE announcements ─┐

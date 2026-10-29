@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FINN architecture</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #121a24; --surface: #1a2431; --raise: #212d3c; --line: #2c3a4a; --text: #e6e1d6; --muted: #8c96a3;
+    --flow: #7fa7c9; --ai: #e8a33d; --code: #5dbb8a; --live: #c49be8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { width: 1800px; height: 1250px; background: var(--bg); color: var(--text); font: 13px/1.4 "Public Sans", sans-serif;
+         font-variant-numeric: tabular-nums; position: relative; overflow: hidden; }
+  .serif { font-family: "Newsreader", Georgia, serif; }
+  header { position: absolute; left: 40px; top: 30px; right: 40px; display: flex; justify-content: space-between; align-items: flex-end; }
+  header h1 { font: 600 34px/1.1 "Newsreader", serif; }
+  header p { color: var(--muted); font-size: 14px; margin-top: 6px; max-width: 900px; }
+  .legend { display: flex; gap: 22px; font-size: 12px; color: var(--muted); }
+  .legend span { display: inline-flex; align-items: center; gap: 8px; }
+  .legend i { display: inline-block; width: 28px; height: 0; border-top: 2px solid var(--flow); }
+  .legend i.dash { border-top: 2px dashed var(--live); }
+  .legend i.ai { border-top: 2px solid var(--ai); }
+  .legend b.code { width: 10px; height: 10px; border-radius: 2px; background: var(--code); display: inline-block; }
+  .legend b.aibox { width: 10px; height: 10px; border-radius: 2px; background: var(--ai); display: inline-block; }
+
+  .zone { position: absolute; border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .zone > h2 { font: 600 19px/1.2 "Newsreader", serif; }
+  .zone > .sub { color: var(--muted); font-size: 12px; margin: 2px 0 10px; }
+  .box { background: var(--surface); border-radius: 6px; padding: 8px 10px; }
+  .box + .box { margin-top: 8px; }
+  .box h3 { font-size: 13px; font-weight: 600; }
+  .box p, .box li { color: var(--muted); font-size: 12px; }
+  .box ul { list-style: none; }
+  .tag { display: inline-block; font-size: 10.5px; font-weight: 600; padding: 1px 6px; border-radius: 3px; margin-left: 6px; vertical-align: 1px; }
+  .tag.ai { color: var(--bg); background: var(--ai); }
+  .tag.code { color: var(--bg); background: var(--code); }
+  .num { display: inline-flex; width: 18px; height: 18px; border-radius: 50%; background: var(--raise); color: var(--text);
+         font-size: 11px; font-weight: 700; align-items: center; justify-content: center; margin-right: 6px; flex-shrink: 0; }
+  .step { display: flex; align-items: flex-start; }
+  .step + .step { margin-top: 6px; }
+  .lane { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px; }
+  .lane h4 { font-size: 12.5px; font-weight: 600; margin-bottom: 6px; }
+  .lane h4 small { color: var(--muted); font-weight: 400; }
+  .files { font-size: 12px; color: var(--muted); line-height: 1.7; }
+  .files b { color: var(--text); font-weight: 500; }
+  .tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+  .tabs .box { margin: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 12px; }
+  td { padding: 4px 6px 4px 0; vertical-align: top; color: var(--muted); }
+  td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+  .pipe { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .principles li { color: var(--text); font-size: 12.5px; margin-bottom: 9px; padding-left: 12px; position: relative; }
+  .principles li::before { content: ""; position: absolute; left: 0; top: 7px; width: 5px; height: 5px; border-radius: 50%; background: var(--code); }
+  .principles li span { display: block; color: var(--muted); font-size: 11.5px; }
+  svg { position: absolute; inset: 0; pointer-events: none; }
+  .lbl { position: absolute; font-size: 11px; color: var(--muted); background: var(--bg); padding: 0 5px; white-space: nowrap; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>FINN architecture</h1>
+    <p>Offline jobs read every source on a schedule and publish static data, so the app opens instantly and costs nothing per viewer.
+       A small live service researches any other NSE company on demand and saves the result for everyone.</p>
+  </div>
+  <div class="legend">
+    <span><i></i>scheduled data flow</span>
+    <span><i class="dash"></i>on-demand live research</span>
+    <span><i class="ai"></i>model call</span>
+    <span><b class="code"></b>computed in code</span>
+    <span><b class="aibox"></b>model reads or writes</span>
+  </div>
+</header>
+
+<!-- Sources -->
+<div class="zone" style="left:40px; top:130px; width:260px; height:580px;">
+  <h2>Primary sources</h2>
+  <p class="sub">Company filings only: no news, broker notes or outside model knowledge</p>
+  <div class="box"><h3>NSE corporate announcements</h3><p>Every filing for the 18 holdings, with attachments</p></div>
+  <div class="box"><h3>Yahoo Finance</h3><p>End-of-day price and volume, 120 sessions</p></div>
+  <div class="box"><h3>screener.in</h3><p>13 quarters, 12 years of P&amp;L, balance sheet, cash flow; links to transcripts and annual reports</p></div>
+  <div class="box"><h3>BSE and NSE file servers</h3><p>Results PDFs, earnings-call transcripts, annual reports</p></div>
+  <div class="box"><h3>NSE equity list</h3><p>2,618 symbols: what counts as a real ticker</p></div>
+</div>
+
+<!-- Scheduled pipeline -->
+<div class="zone" style="left:350px; top:130px; width:560px; height:580px;">
+  <h2>Scheduled jobs on GitHub Actions</h2>
+  <p class="sub">Offline and incremental: each filing is processed once, every model answer is cached</p>
+  <div class="lane" style="border-top:0; margin-top:0; padding-top:0;">
+    <h4>Ingest <small>every 2 h on market days, and 19:00 IST</small></h4>
+    <div class="pipe">
+      <div class="box"><div class="step"><span class="num">1</span><div><h3>Fetch</h3><p>New filings and closing prices</p></div></div></div>
+      <div class="box"><div class="step"><span class="num">2</span><div><h3>Classify <span class="tag code">rules</span></h3><p>17 categories into critical, notable, routine; rules settle 92%, a fast model the rest</p></div></div></div>
+      <div class="box"><div class="step"><span class="num">3</span><div><h3>Enrich <span class="tag ai">vision + fast</span></h3><p>Results page read as an image; profiles of new directors; one-line summaries</p></div></div></div>
+      <div class="box"><div class="step"><span class="num">4</span><div><h3>Check the numbers <span class="tag code">code</span></h3><p>PBT − tax = PAT and similar; failed check means one 200-dpi re-read, else "unreadable"; Revenue and PAT vs screener within 2%</p></div></div></div>
+      <div class="box"><div class="step"><span class="num">5</span><div><h3>Cluster <span class="tag code">code</span></h3><p>Same company and topic within 36 h becomes one event; price reaction on the next session</p></div></div></div>
+      <div class="box"><div class="step"><span class="num">6</span><div><h3>Signals <span class="tag code">code</span></h3><p>Daily move and volume against the 20-day average</p></div></div></div>
+    </div>
+  </div>
+  <div class="lane">
+    <h4>Refresh holdings' research <small>20:00 IST daily</small></h4>
+    <p style="color:var(--muted); font-size:12px;">Rebuilds a holding's dossier only when screener lists new results, a new earnings call or a new annual report. The check costs no model calls.</p>
+  </div>
+  <div class="lane">
+    <h4>Prebuild popular companies <small>02:30 IST nightly</small></h4>
+    <p style="color:var(--muted); font-size:12px;">Nifty 50 constituents without a dossier, 8 a night, so most tickers anyone types open instantly.</p>
+  </div>
+</div>
+
+<!-- Repository -->
+<div class="zone" style="left:960px; top:130px; width:270px; height:580px;">
+  <h2>GitHub repository</h2>
+  <p class="sub">Code and the published data, versioned together</p>
+  <div class="box files">
+    <h3 style="font-size:13px; color:var(--text); margin-bottom:4px;">data/snapshot/</h3>
+    <b>events.json</b> clustered events with results cards and profiles<br>
+    <b>push.json</b> every classified filing, 60 days<br>
+    <b>signals.json</b> daily moves for the portfolio<br>
+    <b>prices.json</b> closing prices<br>
+    <b>symbols.json</b> search list, instant ones marked<br>
+    <b>dossiers/{SYMBOL}.json</b> one research dossier each: 18 holdings, demo set, Nifty 50, and every company researched live
+  </div>
+  <div class="box" style="margin-top:8px;"><h3>Deploy</h3><p>Each job commits the snapshot, then publishes the built app plus data to the Space. Code-only changes redeploy the live service.</p></div>
+</div>
+
+<!-- Delivery -->
+<div class="zone" style="left:1280px; top:130px; width:480px; height:580px;">
+  <h2>Hugging Face Static Space, on the phone</h2>
+  <p class="sub">React 18 + TypeScript + Tailwind, installable web app; the data ships with the site</p>
+  <div class="tabs">
+    <div class="box"><h3>Brief</h3><p>What changed in 24 h, 3 d, 7 d or 30 d; critical first, routine collapsed; results cards, profiles, price reaction</p></div>
+    <div class="box"><h3>Portfolio</h3><p>Every holding's price line over 1 week, 1 month or 3 months; biggest movers first</p></div>
+    <div class="box"><h3>Watch</h3><p>Your alert rule and inbox; thresholds stored on the device, alerts computed in the browser, each slider backtested on 30 days</p></div>
+    <div class="box"><h3>Ask</h3><p>Search 2,618 companies; a ready dossier opens instantly, any other is researched live with real progress and a notification when done</p></div>
+  </div>
+  <div class="box" style="margin-top:8px;"><h3>Every number has a source</h3><p>Citation chips open the PDF on the exact page; cards say whether they match the reported quarter</p></div>
+</div>
+
+<!-- Principles -->
+<div class="zone" style="left:40px; top:770px; width:260px; height:450px;">
+  <h2>Design rules</h2>
+  <p class="sub">What keeps the output trustworthy</p>
+  <ul class="principles" style="list-style:none; margin-top:6px;">
+    <li>The model reads, the code decides<span>Every figure, verdict and alert is computed in code</span></li>
+    <li>No claim without a page<span>Model text must cite a page it was given, or it is dropped</span></li>
+    <li>Rules before models<span>Cheap and deterministic first; a model only for what rules can't settle</span></li>
+    <li>Viewers cost nothing<span>Everything a viewer opens is a static file</span></li>
+    <li>Measured, not assumed<span>Results fields 57/57; guidance recall 3/3, precision 100%; live cards 8/8 match screener</span></li>
+  </ul>
+</div>
+
+<!-- LLM gateway -->
+<div class="zone" style="left:350px; top:770px; width:560px; height:450px; border-color: rgba(232,163,61,.45);">
+  <h2>Model gateway</h2>
+  <p class="sub">One door for every model call: NVIDIA API catalog, free tier, one key</p>
+  <table>
+    <tr><td>Vision</td><td>Nemotron 3.5 Super VL 120B: results statement pages, scanned appointment filings</td></tr>
+    <tr><td>Fast</td><td>Nemotron 3.5 Lightning 30B, thinking off: leftover classification, summaries, profiles, business section, verdict lines</td></tr>
+    <tr><td>Reasoning</td><td>Nemotron 3 Ultra 550B, thinking on: management's targets from earnings calls, bull vs bear</td></tr>
+  </table>
+  <div class="pipe" style="margin-top:10px;">
+    <div class="box"><h3>Cached by exact input</h3><p>SQLite; a repeated request is free, across jobs and members of a model pool</p></div>
+    <div class="box"><h3>Paced and capped</h3><p>35 requests a minute; at most 2 reasoning calls in flight; daily request budget</p></div>
+    <div class="box"><h3>Robust replies</h3><p>Validated against a schema; cut-off JSON repaired; one re-ask; retries after 5, 20, 60 s</p></div>
+    <div class="box"><h3>Chosen on evidence</h3><p>Each job's model passed the accuracy test; 7 alternatives tested, none qualified</p></div>
+  </div>
+</div>
+
+<!-- Live research -->
+<div class="zone" style="left:960px; top:770px; width:800px; height:450px; border-color: rgba(196,155,232,.5);">
+  <h2>Live research service on Render</h2>
+  <p class="sub">FastAPI, used only for companies without a ready dossier; fetches the same primary sources live and streams results as server-sent events</p>
+  <div style="display:grid; grid-template-columns: 210px 1fr; gap: 10px;">
+    <div>
+      <div class="box"><div class="step"><span class="num">1</span><div><h3>Guard</h3><p>Unknown ticker: 404 before any work. 20 new analyses per IP an hour. Daily AI budget.</p></div></div></div>
+      <div class="box"><div class="step"><span class="num">2</span><div><h3>Queue</h3><p>At most 2 builds at once, position shown; a repeat request joins the running build; a build survives the viewer leaving</p></div></div></div>
+      <div class="box"><div class="step"><span class="num">4</span><div><h3>Save</h3><p>A complete dossier is committed to the repository and ships with the next deploy</p></div></div></div>
+    </div>
+    <div class="box" style="margin:0;">
+      <div class="step"><span class="num">3</span><div><h3>Build the dossier, reporting real progress</h3></div></div>
+      <div class="pipe" style="margin-top:8px;">
+        <div class="box" style="background:var(--raise); margin:0;"><h3>Financial snapshot <span class="tag code">code</span></h3><p>Growth, margins, returns, leverage, cash conversion, red flags, from screener</p></div>
+        <div class="box" style="background:var(--raise); margin:0;"><h3>The business <span class="tag ai">fast</span></h3><p>BRSR business-activity table plus narrative pages of the latest annual report; shares checked against the page</p></div>
+        <div class="box" style="background:var(--raise); margin:0;"><h3>Promised vs delivered <span class="tag ai">reasoning</span> <span class="tag code">verdict</span></h3><p>Passages from the last 4 calls that can hold a target; quotes checked on the page; code rules met, partly, missed, in progress or can't check</p></div>
+        <div class="box" style="background:var(--raise); margin:0;"><h3>Bull vs bear <span class="tag ai">reasoning</span></h3><p>At most 3 points a side, each citing pages it was given</p></div>
+      </div>
+      <p style="color:var(--muted); font-size:11.5px; margin-top:8px;">The annual report is read while the calls are. Each section arrives as it finishes; a failed one shows a fixed reason and the rest still arrive.</p>
+    </div>
+  </div>
+</div>
+
+<svg viewBox="0 0 1800 1250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7fa7c9"/></marker>
+    <marker id="d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c49be8"/></marker>
+    <marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#e8a33d"/></marker>
+  </defs>
+  <path d="M300,360 L346,360" stroke="#7fa7c9" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <path d="M910,360 L956,360" stroke="#7fa7c9" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <path d="M1230,360 L1276,360" stroke="#7fa7c9" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <path d="M630,710 L630,766" stroke="#e8a33d" stroke-width="2" fill="none" marker-end="url(#m)"/>
+  <path d="M960,1000 L914,1000" stroke="#e8a33d" stroke-width="2" fill="none" marker-end="url(#m)"/>
+  <path d="M1640,710 L1640,766" stroke="#c49be8" stroke-width="2" stroke-dasharray="6 5" fill="none" marker-end="url(#d)"/>
+  <path d="M1095,770 L1095,714" stroke="#c49be8" stroke-width="2" stroke-dasharray="6 5" fill="none" marker-end="url(#d)"/>
+</svg>
+<span class="lbl" style="left:1440px; top:731px;">no ready dossier: research it live</span>
+<span class="lbl" style="left:1107px; top:731px;">save the complete dossier</span>
+<span class="lbl" style="left:642px; top:731px;">every model call goes through the gateway</span>
+</body>
+</html>
