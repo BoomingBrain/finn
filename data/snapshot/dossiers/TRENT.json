@@ -1,10 +1,10 @@
 {
  "symbol": "TRENT",
  "name": "Trent Ltd",
- "built_at": "2026-10-28T13:13:16.330407Z",
+ "built_at": "2026-10-29T19:54:55.755087Z",
  "basis": "consolidated",
  "sources": {
-  "quarter": "Jun 2026",
+  "quarter": "Sep 2026",
   "transcript": null,
   "annual_report": 2026
  },
@@ -17,29 +17,24 @@
     "name": "Trent Ltd",
     "about": "Trent Ltd is engaged in retailing of apparels, footwear, accessories, toys, games, food, grocery & non food products through various of its retail formats/ concepts.[1]",
     "basis": "consolidated",
-    "built_at": "2026-10-28T13:13:16.304525+00:00",
+    "built_at": "2026-10-29T19:54:16.769431+00:00",
     "sources": {
-     "quarter": "Jun 2026",
+     "quarter": "Sep 2026",
      "transcript": null,
      "annual_report": 2026
     },
     "lender": false,
-    "revenue_ttm": 20946.0,
-    "pat_ttm": 1814.0,
+    "revenue_ttm": 22001.0,
+    "pat_ttm": 1909.0,
     "revenue_cagr_3y": 34.5,
     "pat_cagr_3y": 63.5,
     "opm_latest": 18.7,
     "opm_3y_ago": 13.5,
     "roce_latest": 28.0,
     "roe_latest": null,
-    "debt_to_equity": 0.37,
+    "debt_to_equity": 0.3,
     "cfo_to_pat_3y": 1.2,
     "quarterly": [
-     {
-      "label": "Sep 2024",
-      "revenue": 4157.0,
-      "pat": 335.0
-     },
      {
       "label": "Dec 2024",
       "revenue": 4657.0,
@@ -74,6 +69,11 @@
       "label": "Jun 2026",
       "revenue": 5755.0,
       "pat": 518.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 5873.0,
+      "pat": 468.0
      }
     ],
     "flags": []
@@ -95,108 +95,10 @@
   },
   {
    "section": "business",
-   "status": "ready",
-   "reason": null,
-   "data": {
-    "what_it_does": "Trent operates a portfolio of lifestyle fashion and retail brands in India, selling apparel, footwear, accessories, and FMCG products directly to consumers through its owned store network and digital channels. Its brands cater to diverse customer segments across price tiers, from premium to value, leveraging an integrated supply chain and own-brand strategy.",
-    "segments": [
-     {
-      "name": "Westside",
-      "share_pct": null,
-      "source_ids": [
-       "AR:2026:p117"
-      ]
-     },
-     {
-      "name": "Zudio",
-      "share_pct": null,
-      "source_ids": [
-       "AR:2026:p81",
-       "AR:2026:p123"
-      ]
-     },
-     {
-      "name": "Star",
-      "share_pct": null,
-      "source_ids": [
-       "AR:2026:p123"
-      ]
-     },
-     {
-      "name": "Westside (Beauty & Personal Care / StudioWest)",
-      "share_pct": null,
-      "source_ids": [
-       "AR:2026:p117"
-      ]
-     },
-     {
-      "name": "Footwear and innerwear (emerging categories)",
-      "share_pct": null,
-      "source_ids": [
-       "AR:2026:p117"
-      ]
-     },
-     {
-      "name": "POME (lab-grown diamond jewellery)",
-      "share_pct": null,
-      "source_ids": [
-       "AR:2026:p117"
-      ]
-     }
-    ],
-    "source_ids": [
-     "AR:2026:p8",
-     "AR:2026:p78",
-     "AR:2026:p81",
-     "AR:2026:p92",
-     "AR:2026:p117",
-     "AR:2026:p123",
-     "AR:2026:p128",
-     "AR:2026:p141"
-    ]
-   },
-   "citations": [
-    {
-     "source_id": "AR:2026:p8",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
-     "page": 8
-    },
-    {
-     "source_id": "AR:2026:p78",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
-     "page": 78
-    },
-    {
-     "source_id": "AR:2026:p81",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
-     "page": 81
-    },
-    {
-     "source_id": "AR:2026:p92",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
-     "page": 92
-    },
-    {
-     "source_id": "AR:2026:p117",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
-     "page": 117
-    },
-    {
-     "source_id": "AR:2026:p123",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
-     "page": 123
-    },
-    {
-     "source_id": "AR:2026:p128",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
-     "page": 128
-    },
-    {
-     "source_id": "AR:2026:p141",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
-     "page": 141
-    }
-   ]
+   "status": "unavailable",
+   "reason": "Analysis failed",
+   "data": null,
+   "citations": []
   },
   {
    "section": "bull_bear",
@@ -205,19 +107,19 @@
    "data": {
     "bull": [
      {
-      "text": "Trent achieved a 3-year revenue CAGR of 34.5% and PAT CAGR of 63.5%, reaching TTM revenue of ₹20,946 Cr and PAT of ₹1,814 Cr.",
+      "text": "The company has delivered a 3-year revenue CAGR of 34.5% and PAT CAGR of 63.5%, indicating strong growth momentum.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Operating margin improved from 13.5% to 18.7% over three years, and ROCE stands at 28%.",
+      "text": "Operating margin has expanded from 13.5% to 18.7% over three years, while ROCE stands at 28% with a low debt-to-equity of 0.3.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Debt-to-equity is low at 0.37, and operating cash flow covered PAT 1.2x over the last three years.",
+      "text": "Operating cash flow to PAT ratio of 1.2 over three years suggests high-quality earnings conversion.",
       "source_ids": [
        "SCR"
       ]
@@ -225,21 +127,21 @@
     ],
     "bear": [
      {
-      "text": "Return on equity is not disclosed (n/a), making it difficult to evaluate capital efficiency for shareholders.",
+      "text": "Quarterly PAT has been volatile, ranging from ₹413 Cr in Mar 2026 to ₹518 Cr in Jun 2026, with a decline to ₹468 Cr in Sep 2026.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Quarterly PAT fluctuated between ₹373 Cr and ₹518 Cr over the last four quarters, signaling earnings volatility.",
+      "text": "Quarterly revenue growth is uneven, with a dip to ₹5,028 Cr in Mar 2026 from ₹5,345 Cr in Dec 2025 before recovering.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "The company's operations are confined to India with no international presence mentioned, concentrating geographic risk.",
+      "text": "Return on equity (ROE) is not available, limiting assessment of shareholder returns.",
       "source_ids": [
-       "AR:2026:p8"
+       "SCR"
       ]
      }
     ]
@@ -249,11 +151,6 @@
      "source_id": "SCR",
      "url": "https://www.screener.in/company/TRENT/consolidated/",
      "page": null
-    },
-    {
-     "source_id": "AR:2026:p8",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3f6fa4a-3c51-453e-b634-3c3ef98f7361.pdf",
-     "page": 8
     }
    ]
   }

@@ -1,10 +1,10 @@
 {
  "symbol": "ASIANPAINT",
  "name": "Asian Paints Ltd",
- "built_at": "2026-10-28T12:48:31.019028Z",
+ "built_at": "2026-10-29T20:05:41.394735Z",
  "basis": "consolidated",
  "sources": {
-  "quarter": "Jun 2026",
+  "quarter": "Sep 2026",
   "transcript": "2026-08-01",
   "annual_report": 2026
  },
@@ -17,29 +17,24 @@
     "name": "Asian Paints Ltd",
     "about": "Asian Paints is thelargesthome decor company in India. The 80+yr old company has major brands like Asian Paints, Apco, etc under its umbrella. The co. is into wall paints, wall coverings, waterproofing, texture painting, wall stickers, mechanized tools, adhesives, modular kitchens, sanitaryware, lightings, soft furnishings, and uPVC windows.",
     "basis": "consolidated",
-    "built_at": "2026-10-28T12:47:59.485087+00:00",
+    "built_at": "2026-10-29T19:54:16.769126+00:00",
     "sources": {
-     "quarter": "Jun 2026",
+     "quarter": "Sep 2026",
      "transcript": "2026-08-01",
      "annual_report": 2026
     },
     "lender": false,
-    "revenue_ttm": 37187.0,
-    "pat_ttm": 4836.0,
+    "revenue_ttm": 38633.0,
+    "pat_ttm": 4903.0,
     "revenue_cagr_3y": 1.0,
     "pat_cagr_3y": 1.6,
     "opm_latest": 18.8,
     "opm_3y_ago": 18.2,
     "roce_latest": 26.0,
     "roe_latest": null,
-    "debt_to_equity": 0.18,
+    "debt_to_equity": 0.21,
     "cfo_to_pat_3y": 1.29,
     "quarterly": [
-     {
-      "label": "Sep 2024",
-      "revenue": 8028.0,
-      "pat": 694.0
-     },
      {
       "label": "Dec 2024",
       "revenue": 8549.0,
@@ -74,6 +69,11 @@
       "label": "Jun 2026",
       "revenue": 10542.0,
       "pat": 1559.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 9977.0,
+      "pat": 1085.0
      }
     ],
     "flags": []
@@ -102,9 +102,9 @@
       "target": {
        "metric": "revenue_growth_yoy",
        "raw_metric": "value growth",
-       "comparison": "between",
-       "value": 4.0,
-       "value_high": 6.0,
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
        "unit": "pct",
        "period": "FY26",
        "quote": "We are looking at mid-single-digit value growth for the full year.",
@@ -117,28 +117,7 @@
        "quarters_needed": 4
       },
       "verdict": "met",
-      "explanation": "Revenue grew 4.9% over FY26, just within the 4%–6% guided."
-     },
-     {
-      "target": {
-       "metric": "ebitda_margin",
-       "raw_metric": "PBDIT margin band",
-       "comparison": "between",
-       "value": 18.0,
-       "value_high": 20.0,
-       "unit": "pct",
-       "period": "FY26",
-       "quote": "it is okay to maintain the whole guidance of 18 to 20% PBDIT margin band. I would not qualify whether it should be at an 18% level or a higher level. But it's good to maintain 18-20% margin as we go ahead.",
-       "source_id": "T:2025-11-01:p27",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": 18.8,
-       "quarters_in": 4,
-       "quarters_needed": 4
-      },
-      "verdict": "met",
-      "explanation": "PBDIT margin reached 18.8% for FY26, inside the 18%–20% guided."
+      "explanation": "Value growth 4.9% met the 5% target for FY26."
      },
      {
       "target": {
@@ -154,12 +133,12 @@
        "said_on": "2026-08-01"
       },
       "actual": {
-       "value": 20.6,
-       "quarters_in": 1,
+       "value": 18.2,
+       "quarters_in": 2,
        "quarters_needed": 4
       },
       "verdict": "pending",
-      "explanation": "Guided PBDIT margins 18%–20% for FY27; delivered 20.6% so far (1 of 4 quarters)."
+      "explanation": "Guided PBDIT margins 18%–20% for FY27; delivered 18.2% so far (2 of 4 quarters)."
      },
      {
       "target": {
@@ -206,29 +185,8 @@
      {
       "target": {
        "metric": "other",
-       "raw_metric": "gross margin improvement from VAE",
-       "comparison": "between",
-       "value": 3.0,
-       "value_high": 5.0,
-       "unit": "pct",
-       "period": "FY29",
-       "quote": "Generally, overall, for the category of products it would translate into that 300-500 basis points band.",
-       "source_id": "T:2026-08-01:p25",
-       "said_on": "2026-08-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided gross margin improvement from VAE 3%–5% for FY29; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
        "raw_metric": "volume value gap",
-       "comparison": "between",
+       "comparison": "approx",
        "value": 3.0,
        "value_high": 4.0,
        "unit": "pct",
@@ -243,12 +201,54 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided volume value gap 3%–4% for FY27; not checkable from reported financials."
+      "explanation": "Guided volume value gap ≈ 3% for FY27; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "volume growth band",
+       "raw_metric": "volume-value gap",
+       "comparison": "between",
+       "value": 4.0,
+       "value_high": 5.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "this 4%-5% is a more realistic thing which would remain in the market",
+       "source_id": "T:2026-02-01:p35",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided volume-value gap 4%–5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "volume growth",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 10.0,
+       "unit": "pct",
+       "period": "Q4FY26",
+       "quote": "And therefore, anything in the volume, in the current context, which is between that 8% - 10% is a good growth, in terms of what I would say under the current circumstances.",
+       "source_id": "T:2026-02-01:p34",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided volume growth 8%–10% for Q4FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "volume growth",
        "comparison": "between",
        "value": 8.0,
        "value_high": 10.0,
@@ -264,7 +264,7 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided volume growth band 8%–10% for H2FY26; not checkable from reported financials."
+      "explanation": "Guided volume growth 8%–10% for H2FY26; not checkable from reported financials."
      },
      {
       "target": {
@@ -274,30 +274,9 @@
        "value": 4.0,
        "value_high": 5.0,
        "unit": "pct",
-       "period": "FY27",
-       "quote": "I would say that this 4%-5% is a more realistic thing which would remain in the market, so that possibly from a point of view of share you are able to concentrate far more holistically in terms of how the market is growing.",
-       "source_id": "T:2026-02-01:p35",
-       "said_on": "2026-02-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided volume-value gap 4%–5% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "VAM VAE project CAPEX",
-       "comparison": "approx",
-       "value": 3250.0,
-       "value_high": null,
-       "unit": "cr",
-       "period": "FY27",
-       "quote": "The second area is the VAM VAE project in which we have committed to the project a CAPEX of about Rs. 3,250 crores. Overall, one part of this project is also nearing completion. And that is something which we are going to look at unfolding in quarter one of next year.",
-       "source_id": "T:2025-11-01:p12",
+       "period": "FY26",
+       "quote": "we would anticipate that the gap between the volume and the value would remain in that zone of about 4-5%.",
+       "source_id": "T:2025-11-01:p25",
        "said_on": "2025-11-01"
       },
       "actual": {
@@ -306,33 +285,12 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided VAM VAE project CAPEX ≈ ₹3,250 Cr for FY27; not checkable from reported financials."
+      "explanation": "Guided volume-value gap 4%–5% for FY26; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "volume-value gap",
-       "comparison": "between",
-       "value": 4.0,
-       "value_high": 5.0,
-       "unit": "pct",
-       "period": "H2FY26",
-       "quote": "As we go ahead, we have also looked at saying that we will maintain a 4-5% difference between volume and value.",
-       "source_id": "T:2025-11-01:p26",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided volume-value gap 4%–5% for H2FY26; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "waterproofing category growth",
+       "raw_metric": "waterproofing/construction chemicals category growth",
        "comparison": "gte",
        "value": 10.0,
        "value_high": null,
@@ -348,7 +306,7 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided waterproofing category growth ≥ 10% for FY26; not checkable from reported financials."
+      "explanation": "Guided waterproofing/construction chemicals category growth ≥ 10% for FY26; not checkable from reported financials."
      }
     ]
    },
@@ -357,11 +315,6 @@
      "source_id": "T:2025-11-01:p25",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
      "page": 25
-    },
-    {
-     "source_id": "T:2025-11-01:p27",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
-     "page": 27
     },
     {
      "source_id": "T:2026-08-01:p20",
@@ -374,19 +327,9 @@
      "page": 21
     },
     {
-     "source_id": "T:2026-08-01:p25",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf",
-     "page": 25
-    },
-    {
      "source_id": "T:2026-06-01:p26",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a71cf39-800d-4765-8131-5d78e54925ce.pdf",
      "page": 26
-    },
-    {
-     "source_id": "T:2026-02-01:p36",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
-     "page": 36
     },
     {
      "source_id": "T:2026-02-01:p35",
@@ -394,14 +337,14 @@
      "page": 35
     },
     {
-     "source_id": "T:2025-11-01:p12",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
-     "page": 12
+     "source_id": "T:2026-02-01:p34",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
+     "page": 34
     },
     {
-     "source_id": "T:2025-11-01:p26",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
-     "page": 26
+     "source_id": "T:2026-02-01:p36",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
+     "page": 36
     },
     {
      "source_id": "T:2025-11-01:p30",
@@ -415,7 +358,7 @@
    "status": "ready",
    "reason": null,
    "data": {
-    "what_it_does": "Asian Paints sells paints, coatings, wallcoverings, adhesives, tools, kitchen solutions, and home décor products (including rugs, tiles, and sanitaryware) to homeowners, large projects, dealers, architects, interior designers, contractors, and influencers across India and internationally. The company also offers end-to-end design-to-execution painting and interior design services.",
+    "what_it_does": "Asian Paints sells paints, coatings, wallcoverings, adhesives, tools, kitchen solutions, and related home décor products (including rugs, furnishings, tiles, furniture, bath fittings, and sanitaryware) to homeowners, large projects, dealers, corporates, architects, interior designers, contractors, and influencers across India and internationally. The company also offers end-to-end design-to-execution services, residential painting services, and interior design services through a multi-channel distribution network of wholesalers, distributors, retail outlets, and e-commerce platforms.",
     "segments": [
      {
       "name": "Decorative Business India",
@@ -432,31 +375,31 @@
       ]
      },
      {
-      "name": "Emulsions and Waterproofing (International)",
+      "name": "Emulsions and Waterproofing",
       "share_pct": null,
       "source_ids": [
        "AR:2026:p31"
       ]
      },
      {
-      "name": "INDUSTRIAL BUSINESS IN INDIA",
+      "name": "Sri Lanka",
       "share_pct": null,
       "source_ids": [
-       "AR:2026:p37"
+       "AR:2026:p31"
       ]
      },
      {
-      "name": "Sustainability initiatives (Nilaya Naturals, Green Assure)",
+      "name": "Africa (Egypt, Ethiopia)",
       "share_pct": null,
       "source_ids": [
-       "AR:2026:p64"
+       "AR:2026:p31"
       ]
      },
      {
-      "name": "Home décor and related products (wallcoverings, adhesives, tools, kitchen solutions)",
+      "name": "Middle East",
       "share_pct": null,
       "source_ids": [
-       "AR:2026:p159"
+       "AR:2026:p31"
       ]
      }
     ],
@@ -484,16 +427,6 @@
      "source_id": "AR:2026:p31",
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/aeefecce-2626-4370-9455-c7c6dd94d670.pdf",
      "page": 31
-    },
-    {
-     "source_id": "AR:2026:p37",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/aeefecce-2626-4370-9455-c7c6dd94d670.pdf",
-     "page": 37
-    },
-    {
-     "source_id": "AR:2026:p64",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/aeefecce-2626-4370-9455-c7c6dd94d670.pdf",
-     "page": 64
     }
    ]
   },
@@ -504,43 +437,47 @@
    "data": {
     "bull": [
      {
-      "text": "Quarterly momentum is accelerating with revenue rising from ₹8,531 Cr in Sep 2025 to ₹10,542 Cr in Jun 2026 and PAT from ₹1,018 Cr to ₹1,559 Cr over the same period.",
+      "text": "The company delivers strong returns with ROCE of 26%, operating margin of 18.8% (up from 18.2% three years ago), low leverage at 0.21 debt-to-equity, and operating cash flow covering PAT 1.29x over three years.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "The company combines high capital efficiency (ROCE 26%) and expanding profitability (operating margin 18.8% vs 18.2% three years ago) with a conservative balance sheet (debt/equity 0.18) and strong cash conversion (operating cash flow/PAT 1.29x over three years).",
+      "text": "Recent quarterly performance shows accelerating momentum with June 2026 quarter recording the highest revenue of ₹10,542 Cr and PAT of ₹1,559 Cr among the last four quarters.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Management has a track record of meeting guidance, delivering 4.9% value growth against a mid-single-digit target and maintaining PBDIT margin at 18.8% within the 18-20% band across four quarters.",
+      "text": "Management's mid-single-digit value growth guidance was met with 4.9% delivered across all four tracked quarters, demonstrating execution credibility.",
       "source_ids": [
-       "T:2025-11-01:p25",
-       "T:2025-11-01:p27"
+       "T:2025-11-01:p25"
       ]
      }
     ],
     "bear": [
      {
-      "text": "Long-term growth is anemic with a 3-year revenue CAGR of just 1% and PAT CAGR of 1.6%, suggesting structural maturity in the core business.",
+      "text": "Three-year growth remains stagnant with revenue CAGR of only 1% and PAT CAGR of 1.6%, indicating structural growth challenges.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Forward guidance points to continued modest expansion: management targets only 8-10% volume growth for FY27 with a 4-5% value-volume gap, implying mid-single-digit value growth ahead.",
+      "text": "Quarterly results show significant volatility with September 2026 revenue declining to ₹9,977 Cr and PAT to ₹1,085 Cr from June 2026 peaks of ₹10,542 Cr and ₹1,559 Cr respectively.",
       "source_ids": [
-       "T:2026-08-01:p20",
-       "T:2026-02-01:p35"
+       "SCR"
       ]
      },
      {
-      "text": "Recent margin outperformance (20.6% PBDIT in one quarter) is early and unproven, with the full-year guidance still anchored at the 18-20% band and only one of four quarters reported.",
+      "text": "Multiple forward-looking management targets (8-10% volume growth, 8-10% FY27 growth, 3-4% price trajectory, double-digit category growth) have zero quarters of verified delivery, creating visibility risk.",
       "source_ids": [
-       "T:2026-08-01:p20"
+       "T:2026-08-01:p20",
+       "T:2026-08-01:p21",
+       "T:2026-06-01:p26",
+       "T:2026-02-01:p34",
+       "T:2026-02-01:p35",
+       "T:2026-02-01:p36",
+       "T:2025-11-01:p30"
       ]
      }
     ]
@@ -557,19 +494,39 @@
      "page": 25
     },
     {
-     "source_id": "T:2025-11-01:p27",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
-     "page": 27
-    },
-    {
      "source_id": "T:2026-08-01:p20",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf",
      "page": 20
     },
     {
+     "source_id": "T:2026-08-01:p21",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf",
+     "page": 21
+    },
+    {
+     "source_id": "T:2026-06-01:p26",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a71cf39-800d-4765-8131-5d78e54925ce.pdf",
+     "page": 26
+    },
+    {
+     "source_id": "T:2026-02-01:p34",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
+     "page": 34
+    },
+    {
      "source_id": "T:2026-02-01:p35",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
      "page": 35
+    },
+    {
+     "source_id": "T:2026-02-01:p36",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
+     "page": 36
+    },
+    {
+     "source_id": "T:2025-11-01:p30",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
+     "page": 30
     }
    ]
   }
