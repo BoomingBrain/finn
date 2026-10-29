@@ -1,6 +1,6 @@
 import { cleanup, fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { Chat } from "../screens/Chat";
+import { Chat, resetConversation } from "../screens/Chat";
 import { chatError } from "./chat";
 
 const answer = {
@@ -20,6 +20,7 @@ function mockFetch(...bodies: unknown[]) {
 
 afterEach(() => {
   cleanup();
+  resetConversation();
   vi.unstubAllGlobals();
 });
 
@@ -62,5 +63,18 @@ describe("chatError", () => {
     expect(chatError(503, "index_loading")).toBe("Chat is starting up; try again in a minute.");
     expect(chatError(429, "rate_limited")).toBe("You've asked 30 questions this hour. Try again later.");
     expect(chatError(0, undefined)).toBe("Couldn't reach the research server.");
+  });
+});
+
+describe("conversation", () => {
+  it("survives leaving the tab and coming back", async () => {
+    mockFetch(answer);
+    const first = render(<Chat apiBase="https://api.test" />);
+    fireEvent.change(screen.getByRole("textbox"), { target: { value: "Is Polycab's debt a concern?" } });
+    fireEvent.click(screen.getByRole("button", { name: "Send" }));
+    await screen.findByText("Polycab is nearly debt-free.");
+    first.unmount();
+    render(<Chat apiBase="https://api.test" />);
+    expect(screen.getByText("Polycab is nearly debt-free.")).toBeTruthy();
   });
 });

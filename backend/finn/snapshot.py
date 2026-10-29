@@ -67,6 +67,10 @@ class SnapshotStore:
         self._write("symbols.json", json.dumps(symbols, separators=(",", ":"), ensure_ascii=False))
 
     # rag/index.json: the Chat tab's retrieval index
+    def load_rag_index(self) -> dict | None:
+        text = self._read("rag/index.json")
+        return json.loads(text) if text else None
+
     def save_rag_index(self, index: dict) -> None:
         self._write("rag/index.json", json.dumps(index, separators=(",", ":"), ensure_ascii=False))
 

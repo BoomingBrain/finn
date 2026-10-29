@@ -182,3 +182,46 @@ def test_named_companies_share_the_results():
     idx = _index(passages, [[1, 0]] * 12 + [[0.9, 0.1]] * 3)
     hits = idx.search(np.array([1, 0], dtype=np.float32), "margin", symbols={"PERSISTENT", "INFY"}, k=12)
     assert sum(h.symbol == "INFY" for h in hits) == 3 and sum(h.symbol == "PERSISTENT" for h in hits) == 6
+
+
+# ---- final review fixes ----------------------------------------------------------------------------------------
+
+import time  # noqa: E402
+
+from finn.guard import nse_symbols  # noqa: E402
+from finn.rag import index_unchanged  # noqa: E402
+
+REAL = {s: nse_symbols()[s] for s in ["POLYCAB", "INFY", "RELIANCE", "BHARTIARTL", "SUNPHARMA", "LT", "DMART",
+                                       "NAUKRI", "KPITTECH", "TTKHLTCARE"]}
+
+
+def test_common_words_are_not_companies():  # review I-1
+    assert find_companies("What is the market share?", REAL, nse_symbols()) == ([], [])
+    assert find_companies("Is the future bright?", REAL, nse_symbols()) == ([], [])
+    assert find_companies("TTK Healthcare growth", REAL, nse_symbols()) == (["TTKHLTCARE"], [])
+
+
+def test_common_short_names_resolve():  # review I-2
+    nse = nse_symbols()
+    assert find_companies("How is Reliance doing?", REAL, nse)[0] == ["RELIANCE"]
+    assert find_companies("Airtel margins", REAL, nse)[0] == ["BHARTIARTL"]
+    assert find_companies("L&T order book", REAL, nse)[0] == ["LT"]
+    assert find_companies("Sun Pharma debt", REAL, nse)[0] == ["SUNPHARMA"]
+    assert find_companies("is naukri growing", REAL, nse)[0] == ["NAUKRI"]
+    assert find_companies("Compare Infosys and TCS", {**REAL, "INFY": nse["INFY"]}, nse) == (
+        ["INFY"], [("TCS", nse["TCS"])])
+
+
+def test_company_detection_is_fast():  # review I-3
+    nse = nse_symbols()
+    find_companies("warm up", REAL, nse)
+    start = time.perf_counter()
+    for _ in range(20):
+        find_companies("What is the market share of Polycab versus Kotak Mahindra Bank?", REAL, nse)
+    assert (time.perf_counter() - start) / 20 < 0.02
+
+
+def test_unchanged_index_is_detected():  # review I-5
+    a = {"model": "m", "dim": 2, "built_at": "t1", "passages": [{"id": "X#0"}], "vectors": "AAA="}
+    assert index_unchanged(a, {**a, "built_at": "t2"})
+    assert not index_unchanged(a, {**a, "vectors": "BBB="}) and not index_unchanged(None, a)

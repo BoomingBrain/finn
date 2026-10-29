@@ -57,6 +57,9 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
                embedder=None, chat_limiter: RateLimiter | None = None) -> FastAPI:
     @asynccontextmanager
     async def lifespan(_app):
+        if state["index"] is None and not origins:  # local run: the index file in this checkout
+            saved_index = store.load_rag_index()
+            state["index"] = Index.from_dict(saved_index) if saved_index else None
         loader = asyncio.create_task(keep_index_fresh()) if state["index"] is None and origins else None
         yield
         if loader:
@@ -226,7 +229,7 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
         nse = nse_symbols()
         researched = {sym: nse.get(sym, sym) for sym in idx.symbols}
         found, pending = find_companies(question, researched, nse)
-        if not found and not pending:  # a follow-up: "what about its margins?"
+        if not found:  # a follow-up: "what about its margins?", even if it also names an unresearched company
             found = [s for s in body.context if s in researched]
         out = {"points": [], "citations": [], "symbols": found, "not_covered": False,
                "pending": [{"symbol": s, "name": n} for s, n in pending]}

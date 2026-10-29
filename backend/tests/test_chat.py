@@ -121,3 +121,24 @@ def test_chip_labels_are_unambiguous():
     from finn.pull.chat import chip_label
     assert chip_label("T:2023-05-01:p14") == "May '23 call p14"
     assert chip_label("AR:2026:p73") == "AR p73" and chip_label("SCR") == "Screener"
+
+
+def test_pending_only_follow_up_still_answers_from_context(tmp_path):  # review I-1
+    client, _ = make_client(tmp_path, [reply([{"text": "Polycab's debt is low.", "source_ids": ["POLYCAB#0"]}])])
+    body = ask(client, "How does it compare with Kotak Mahindra Bank?", context=["POLYCAB"]).json()
+    assert body["symbols"] == ["POLYCAB"] and body["points"][0]["source_ids"] == ["POLYCAB#0"]
+    assert body["pending"][0]["symbol"] == "KOTAKBANK"
+
+
+def test_index_loads_from_disk_without_a_web_origin(tmp_path, monkeypatch):  # review I-4
+    from finn.rag import build_index
+    monkeypatch.delenv("WEB_ORIGIN", raising=False)
+    store = SnapshotStore(tmp_path)
+    store.save_dossier("POLYCAB", {"symbol": "POLYCAB", "name": "Polycab India Ltd", "sections": [
+        {"section": "snapshot", "status": "ready", "data": {"debt_to_equity": 0.02}, "citations": []}]})
+    store.save_rag_index(build_index(store, FakeEmbedder()))
+    fake = FakeCompleter([reply([{"text": "Low debt.", "source_ids": ["POLYCAB#0"]}])])
+    app = create_app(store=store, llm=LLM(cache_path=tmp_path / "c.sqlite", completer=fake), embedder=FakeEmbedder(),
+                     budget=RequestBudget(daily_requests=50))
+    with TestClient(app) as client:
+        assert ask(client, "Is Polycab's debt a concern?").status_code == 200

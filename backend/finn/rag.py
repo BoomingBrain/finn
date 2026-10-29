@@ -218,27 +218,77 @@ def _name_keys(name: str) -> str:
     return re.sub(r"\s*\(india\)\s*$", "", short_name(name), flags=re.I).lower()
 
 
+# Everyday short forms of company names (review, 29 Oct: "Airtel", "L&T", "Sun Pharma" weren't recognised).
+ALIASES = {"l&t": "LT", "airtel": "BHARTIARTL", "bharti airtel": "BHARTIARTL", "sun pharma": "SUNPHARMA",
+           "kpit": "KPITTECH", "dmart": "DMART", "naukri": "NAUKRI", "info edge": "NAUKRI", "tcs": "TCS",
+           "sbi": "SBIN", "j&k bank": "J&KBANK", "hul": "HINDUNILVR", "m&m": "M&M", "hdfc bank": "HDFCBANK",
+           "icici bank": "ICICIBANK", "kotak": "KOTAKBANK", "maruti": "MARUTI", "bajaj finance": "BAJFINANCE"}
+# Never read as a company on their own, even capitalised at the start of a question ("Share prices...").
+COMMON_WORDS = {"share", "future", "bright", "total", "focus", "quick", "happy", "royal", "healthcare", "global",
+                "national", "capital", "general", "first", "prime", "value", "india", "indian", "united", "power",
+                "great", "super", "smart", "star", "best", "good", "growth", "market", "money", "trust", "safe"}
+_PHRASE_WORDS = 6
+_matchers: dict[tuple, "_Matcher"] = {}
+
+
+class _Matcher:
+    """Lookup tables built once per (NSE list, researched set), so a question costs a few dictionary lookups
+    instead of 2,618 regex scans (review I-3: 190 ms per question)."""
+
+    def __init__(self, researched: dict[str, str], nse: dict[str, str]):
+        self.researched, self.nse = researched, nse
+        self.phrases: dict[str, str] = {}
+        firsts: dict[str, set[str]] = {}
+        for sym, name in nse.items():
+            key = _name_keys(name)
+            self.phrases.setdefault(key, sym)
+            firsts.setdefault(key.split(" ")[0], set()).add(sym)
+        for sym, name in researched.items():  # researched names win a clash
+            self.phrases[_name_keys(name)] = sym
+        self.phrases.update({k: v for k, v in ALIASES.items() if v in nse or v in researched})
+        self.firsts = {}
+        for word, syms in firsts.items():
+            mine = syms & researched.keys()
+            if len(word) >= 5 and (len(syms) == 1 or len(mine) == 1):  # ambiguous: prefer the researched one
+                self.firsts[word] = next(iter(mine)) if mine else next(iter(syms))
+
+    def find(self, question: str) -> tuple[list[str], list[tuple[str, str]]]:
+        found: list[str] = []
+        named = lambda sym: found.append(sym) if sym not in found else None  # noqa: E731
+        raw = re.findall(r"[A-Za-z0-9&'.-]+", question)
+        words = [w.strip("'.").removesuffix("'s").lower() for w in raw]
+        for w, orig in zip(words, raw):  # symbols: whole upper-case words; researched ones also in any case
+            token = orig.strip("'.").removesuffix("'s")
+            if token in self.researched or (len(w) >= 4 and w.upper() in self.researched):
+                named(token if token in self.researched else w.upper())
+            elif token.isupper() and len(token) >= 3 and token in self.nse:
+                named(token)
+        for n in range(_PHRASE_WORDS, 0, -1):  # names and aliases, longest first
+            for i in range(len(words) - n + 1):
+                sym = self.phrases.get(" ".join(words[i:i + n]))
+                if sym:
+                    named(sym)
+        for w, orig in zip(words, raw):  # a distinctive first word, written as a name
+            sym = self.firsts.get(w)
+            if sym and orig[:1].isupper() and (sym in self.researched or w not in COMMON_WORDS):
+                named(sym)
+        pending = [(s, self.nse[s]) for s in found if s not in self.researched and s in self.nse]
+        return [s for s in found if s in self.researched], pending
+
+
 def find_companies(question: str, researched: dict[str, str], nse: dict[str, str]) -> tuple[list[str], list[tuple[str, str]]]:
-    """(researched symbols named, unresearched (symbol, name) named). Symbols match as whole upper-case words; names
-    match whole-phrase without "Limited/Ltd" and "(India)", or by a distinctive first word (one NSE company only)."""
-    text = question.lower()
-    firsts: dict[str, list[str]] = {}
-    for sym, name in nse.items():
-        firsts.setdefault(_name_keys(name).split(" ")[0], []).append(sym)
+    """(researched symbols named, unresearched (symbol, name) named), by whole-word symbols, full names, everyday
+    aliases, or a distinctive capitalised first word; common English words never name a company on their own."""
+    key = (id(nse), len(nse), tuple(sorted(researched)))
+    if key not in _matchers:
+        _matchers.clear()
+        _matchers[key] = _Matcher(researched, nse)
+    return _matchers[key].find(question)
 
-    def named(sym: str, name: str, short_symbols_ok: bool) -> bool:
-        if (len(sym) >= 4 or short_symbols_ok) and re.search(rf"(?<![A-Za-z0-9]){re.escape(sym)}(?![A-Za-z0-9])", question):
-            return True
-        key = _name_keys(name)
-        if key and re.search(rf"(?<![a-z0-9]){re.escape(key)}(?![a-z0-9])", text):
-            return True
-        first = key.split(" ")[0]
-        return (len(first) >= 5 and firsts.get(first) == [sym]
-                and re.search(rf"(?<![a-z0-9]){re.escape(first)}(?![a-z0-9])", text) is not None)
 
-    found = [s for s, n in researched.items() if named(s, n, short_symbols_ok=True)]
-    pending = [(s, n) for s, n in nse.items() if s not in researched and named(s, n, short_symbols_ok=False)]
-    return found, pending
+def index_unchanged(old: dict | None, new: dict) -> bool:
+    """Same passages and vectors: rewriting the file would only change `built_at` and force a needless deploy."""
+    return old is not None and all(old.get(k) == new.get(k) for k in ("model", "passages", "vectors"))
 
 
 # ---- embeddings and the index ----------------------------------------------------------------------------------
@@ -305,6 +355,9 @@ def main() -> None:
         parser.error("pass --build")
     store = SnapshotStore()
     index = build_index(store, Embedder())
+    if index_unchanged(store.load_rag_index(), index):
+        log.info("chat index unchanged (%d passages); not rewritten", len(index["passages"]))
+        return
     store.save_rag_index(index)
     log.info("indexed %d passages from %d dossiers", len(index["passages"]), len(store.list_dossiers()))
 

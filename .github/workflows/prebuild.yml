@@ -42,6 +42,7 @@ jobs:
         run: uv run python -m finn.pull.dossier --symbols-file finn/data/nifty50.txt --mode missing --limit 8 --parallel 2
 
       - name: Rebuild the chat index
+        continue-on-error: true   # an embedding outage must not lose the dossiers built above
         working-directory: backend
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}

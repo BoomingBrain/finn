@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { apiBase as defaultApiBase } from "../api/client";
 import { ChatAnswer } from "../components/ChatAnswer";
 import { Statement } from "../components/Statement";
@@ -8,9 +8,27 @@ const SUGGESTIONS = ["Which holdings missed guidance?", "Is Polycab's debt a con
 
 type Turn = { question: string; answer?: Answer; error?: string };
 
+/* The conversation lives outside the screen, so following "Research it" to Ask and coming back keeps it. */
+let conversation: Turn[] = [];
+const listeners = new Set<() => void>();
+function setConversation(fn: (t: Turn[]) => Turn[]) {
+  conversation = fn(conversation);
+  listeners.forEach((l) => l());
+}
+function subscribe(l: () => void) {
+  listeners.add(l);
+  return () => {
+    listeners.delete(l);
+  };
+}
+/** Clears the conversation (tests). */
+export function resetConversation() {
+  conversation = [];
+}
+
 /** Questions answered only from FINN's research reports, each point with its source. */
 export function Chat({ apiBase = defaultApiBase }: { apiBase?: string }) {
-  const [turns, setTurns] = useState<Turn[]>([]);
+  const turns = useSyncExternalStore(subscribe, () => conversation);
   const [draft, setDraft] = useState("");
   const [waiting, setWaiting] = useState(false);
 
@@ -18,11 +36,11 @@ export function Chat({ apiBase = defaultApiBase }: { apiBase?: string }) {
     const q = question.trim();
     if (!q || waiting) return;
     const context = [...turns].reverse().find((t) => t.answer)?.answer?.symbols ?? [];
-    setTurns((t) => [...t, { question: q }]);
+    setConversation((t) => [...t, { question: q }]);
     setDraft("");
     setWaiting(true);
     const result = await sendChat(apiBase, q, context);
-    setTurns((t) => t.map((turn, i) => (i === t.length - 1 ? { ...turn, ...(result.ok ? { answer: result.answer } : { error: result.error }) } : turn)));
+    setConversation((t) => t.map((turn, i) => (i === t.length - 1 ? { ...turn, ...(result.ok ? { answer: result.answer } : { error: result.error }) } : turn)));
     setWaiting(false);
   }
 
