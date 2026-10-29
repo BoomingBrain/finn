@@ -1,13 +1,14 @@
 import asyncio
 import json
+import threading
 from datetime import date
 
 from finn.llm import LLM
 from finn.pull.dossier import build_dossier, needs_build, source_fingerprint
 from finn.pull.sections import Point, business_pages, drop_uncited
-from finn.sources.documents import DocText
+from finn.sources.documents import DocText, DocumentError
 from finn.sources.screener import CompanyData, DocLink, Table
-from tests.fakes import FakeCompleter
+from tests.fakes import Call, FakeCompleter
 
 VALID = {"SCR", "T:2026-08-01:p3", "AR:2026:p73"}
 
@@ -39,10 +40,49 @@ def company(transcripts=(), annual_reports=()) -> CompanyData:
                        transcripts=list(transcripts), annual_reports=list(annual_reports))
 
 
-def run(llm, c, docs, progress=None):
+def run(llm, c, docs, progress=None, fetch_fn=None):
     async def collect():
-        return [s async for s in build_dossier("ACME", llm, lambda _: c, lambda url: docs[url], progress=progress)]
+        return [s async for s in build_dossier("ACME", llm, lambda _: c, fetch_fn or (lambda url: docs[url]),
+                                               progress=progress)]
     return asyncio.run(collect())
+
+
+TRANSCRIPT = DocLink(label="Transcript Aug 2026", date=date(2026, 8, 1), url="t1")
+REPORT = DocLink(label="Annual Report 2026", date=date(2026, 3, 31), url="ar")
+TRANSCRIPT_DOC = DocText(url="t1", pages=["Opening remarks. " * 20, "",
+                                          "For FY27 we expect EBITDA margin of 20% to 24% for the full year."])
+AR_DOC = DocText(url="ar", pages=["Contents"] * 72 + [
+    "Our business segments: adhesives and sealants make up 80% of revenue; the rest is chemicals."])
+TARGET = {"metric": "ebitda_margin", "raw_metric": "EBITDA margin", "comparison": "between", "value": 20,
+          "value_high": 24, "unit": "pct", "period": "FY27", "forward_looking": True,
+          "quote": "For FY27 we expect EBITDA margin of 20% to 24%", "source_id": "T:2026-08-01:p3"}
+BUSINESS = {"what_it_does": "Acme makes adhesives and sealants.", "source_ids": ["AR:2026:p73"],
+            "segments": [{"name": "Adhesives", "share_pct": 80, "source_ids": ["AR:2026:p73"]},
+                         {"name": "Paints", "share_pct": 35, "source_ids": ["AR:2026:p73"]},
+                         {"name": "Exports", "share_pct": None, "source_ids": ["AR:2026:p9"]}]}
+BULL_BEAR = {"bull": [{"text": "Margin above the guided band", "source_ids": ["T:2026-08-01:p3", "SCR"]}],
+             "bear": [{"text": "Concentrated in adhesives", "source_ids": ["AR:2026:p73"]}]}
+
+
+class RoutingCompleter(FakeCompleter):
+    """Answers by what is asked, not by call order: the business section and guidance extraction run concurrently."""
+
+    def __call__(self, model, system, user, images, max_tokens, thinking):
+        self.calls.append(Call(model, system, user, images, max_tokens, thinking))
+        if "explicit numeric guidance" in system:
+            reply = {"targets": [TARGET]}
+        elif "explaining a guidance verdict" in system:
+            reply = {"lines": [{"i": 0, "text": "Running at 25% after one quarter."}]}
+        elif user.startswith("From the annual report pages"):
+            reply = BUSINESS
+        else:
+            reply = BULL_BEAR
+        return json.dumps(reply), 1, 1
+
+
+def llm_with_replies(tmp_path) -> tuple[LLM, RoutingCompleter]:
+    fake = RoutingCompleter([])
+    return LLM(cache_path=tmp_path / "c.sqlite", completer=fake), fake
 
 
 def test_missing_sources_give_fixed_reasons(tmp_path):
@@ -61,27 +101,9 @@ def test_missing_sources_give_fixed_reasons(tmp_path):
 
 
 def test_full_dossier_cites_real_pages(tmp_path):
-    transcript = DocLink(label="Transcript Aug 2026", date=date(2026, 8, 1), url="t1")
-    report = DocLink(label="Annual Report 2026", date=date(2026, 3, 31), url="ar")
-    docs = {"t1": DocText(url="t1", pages=["Opening remarks. " * 20, "",
-                                           "For FY27 we expect EBITDA margin of 20% to 24% for the full year."]),
-            "ar": DocText(url="ar", pages=["Contents"] * 72 + [
-                "Our business segments: adhesives and sealants make up 80% of revenue; the rest is chemicals."])}
-    target = {"metric": "ebitda_margin", "raw_metric": "EBITDA margin", "comparison": "between", "value": 20,
-              "value_high": 24, "unit": "pct", "period": "FY27", "forward_looking": True,
-              "quote": "For FY27 we expect EBITDA margin of 20% to 24%", "source_id": "T:2026-08-01:p3"}
-    business = {"what_it_does": "Acme makes adhesives and sealants.", "source_ids": ["AR:2026:p73"],
-                "segments": [{"name": "Adhesives", "share_pct": 80, "source_ids": ["AR:2026:p73"]},
-                             {"name": "Paints", "share_pct": 35, "source_ids": ["AR:2026:p73"]},
-                             {"name": "Exports", "share_pct": None, "source_ids": ["AR:2026:p9"]}]}
-    bull_bear = {"bull": [{"text": "Margin above the guided band", "source_ids": ["T:2026-08-01:p3", "SCR"]}],
-                 "bear": [{"text": "Concentrated in adhesives", "source_ids": ["AR:2026:p73"]}]}
-    replies = [{"targets": [target]}, {"lines": [{"i": 0, "text": "Running at 25% after one quarter."}]},
-               business, bull_bear]
-    fake = FakeCompleter([json.dumps(r) for r in replies])
+    llm, fake = llm_with_replies(tmp_path)
     steps = []
-    sections = run(LLM(cache_path=tmp_path / "c.sqlite", completer=fake), company([transcript], [report]), docs,
-                   progress=steps.append)
+    sections = run(llm, company([TRANSCRIPT], [REPORT]), {"t1": TRANSCRIPT_DOC, "ar": AR_DOC}, progress=steps.append)
     assert all(s.status == "ready" for s in sections)
     # 1 financials + 1 call + delivery check + annual report + bull/bear = 5 real steps, never going backwards
     assert [(x["done"], x["total"]) for x in steps][-1] == (5, 5)
@@ -96,7 +118,7 @@ def test_full_dossier_cites_real_pages(tmp_path):
     business_data = sections[2].data
     assert [s["name"] for s in business_data["segments"]] == ["Adhesives", "Paints"]  # uncited Exports dropped
     assert business_data["segments"][1]["share_pct"] is None  # 35% is not on the cited page
-    assert "[AR:2026:p73]" in fake.calls[2].user
+    assert any("[AR:2026:p73]" in c.user for c in fake.calls)
 
     assert {c.source_id for c in sections[3].citations} == {"T:2026-08-01:p3", "SCR", "AR:2026:p73"}
 
@@ -145,3 +167,32 @@ def test_bull_bear_sees_plain_verdicts(tmp_path):
     bull_bear(snap, [row], None, LLM(cache_path=tmp_path / "c.sqlite", completer=fake))
     sent = fake.calls[0].user
     assert "not_checkable" not in sent and "says nothing about delivery" in sent
+
+
+def test_annual_report_is_read_while_calls_are_read(tmp_path):
+    # fetching the transcript waits for the annual report: code that reads them one after the other times out
+    ar_fetched = threading.Event()
+
+    def fetch(url):
+        if url == "ar":
+            ar_fetched.set()
+            return AR_DOC
+        assert ar_fetched.wait(5), "annual report was not fetched in parallel"
+        return TRANSCRIPT_DOC
+
+    llm, _ = llm_with_replies(tmp_path)
+    sections = run(llm, company([TRANSCRIPT], [REPORT]), {}, fetch_fn=fetch)
+    assert [s.section for s in sections] == ["snapshot", "delivery", "business", "bull_bear"]
+    assert sections[1].status == "ready"
+
+
+def test_business_failure_does_not_touch_delivery(tmp_path):
+    def fetch(url):
+        if url == "ar":
+            raise DocumentError("BSE down")
+        return TRANSCRIPT_DOC
+
+    llm, _ = llm_with_replies(tmp_path)
+    sections = run(llm, company([TRANSCRIPT], [REPORT]), {}, fetch_fn=fetch)
+    assert sections[1].status == "ready"
+    assert (sections[2].status, sections[2].reason) == ("unavailable", "Analysis failed")

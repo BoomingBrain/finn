@@ -165,7 +165,7 @@ async def build_dossier(symbol: str, llm: LLM, fetch_company: Callable[[str], Co
     p.update("Reading reported financials from screener.in")
     c = await asyncio.to_thread(fetch_company, symbol)
     calls = max(1, len([t for t in c.transcripts if t.date][:TRANSCRIPTS_USED]))
-    after_delivery, after_business = 1 + calls + 1, 1 + calls + 2
+    after_business = 1 + calls + 2
     p.update(done=1, total=after_business + 1)
     path = f"/company/{c.symbol}/consolidated/" if c.basis == "consolidated" else f"/company/{c.symbol}/"
     urls = {"SCR": BASE + path}
@@ -177,6 +177,22 @@ async def build_dossier(symbol: str, llm: LLM, fetch_company: Callable[[str], Co
                              **snapshot.model_dump()},
                        citations=_citations(["SCR"], urls))
 
+    async def business_step() -> BusinessSnapshot | None:
+        try:
+            return await _business(c, llm, fetch_text, urls)
+        finally:
+            p.update(advance=1)  # the annual-report step, whenever it finishes
+
+    # The annual report is read while the earnings calls are: they don't depend on each other.
+    business_task = asyncio.create_task(business_step())
+    try:
+        async for event in _remaining_sections(c, llm, fetch_text, urls, p, snapshot, business_task, after_business):
+            yield event
+    finally:
+        business_task.cancel()  # a viewer who stops listening shouldn't leave the report being read
+
+
+async def _remaining_sections(c, llm, fetch_text, urls, p, snapshot, business_task, after_business):
     delivery: list[DeliveryRow] = []
     try:
         delivery = await _delivery(c, llm, fetch_text, urls, p)
@@ -189,10 +205,10 @@ async def build_dossier(symbol: str, llm: LLM, fetch_company: Callable[[str], Co
     except Exception as e:
         yield _unavailable("delivery", e)
 
-    p.update("Reading the latest annual report", done=after_delivery)
+    p.update("Reading the latest annual report" if not business_task.done() else None, advance=1)  # delivery check
     business = None
     try:
-        business = await _business(c, llm, fetch_text, urls)
+        business = await business_task
         if business is None:
             raise ValueError("no grounded business description")
         ids = business.source_ids + [i for s in business.segments for i in s.source_ids]
@@ -203,7 +219,7 @@ async def build_dossier(symbol: str, llm: LLM, fetch_company: Callable[[str], Co
     except Exception as e:
         yield _unavailable("business", e)
 
-    p.update("Weighing the bull and bear cases", done=after_business)
+    p.update("Weighing the bull and bear cases", done=after_business)  # max(): never moves the bar back
     try:
         bb = await asyncio.to_thread(bull_bear, snapshot, delivery, business, llm)
         ids = [i for p in bb.bull + bb.bear for i in p.source_ids]
