@@ -5,6 +5,7 @@ import { useHashRoute } from "./hooks/useHashRoute";
 import { useSettings } from "./hooks/useSettings";
 import { Ask } from "./screens/Ask";
 import { Brief } from "./screens/Brief";
+import { Chat } from "./screens/Chat";
 import { Portfolio } from "./screens/Portfolio";
 import { Watch } from "./screens/Watch";
 
@@ -18,6 +19,7 @@ export default function App() {
         {tab === "brief" && <Brief settings={settings} focusId={param} />}
         {tab === "portfolio" && <Portfolio />}
         {tab === "watch" && <Watch inbox={inbox} settings={settings} onSettings={setSettings} />}
+        {tab === "chat" && <Chat />}
         {tab === "ask" && <Ask symbol={param} eventId={query.event ?? null} />}
       </main>
       <ReadyBanner />

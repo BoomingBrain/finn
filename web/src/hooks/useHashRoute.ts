@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-export type Tab = "brief" | "portfolio" | "watch" | "ask";
+export type Tab = "brief" | "portfolio" | "watch" | "chat" | "ask";
 export type Route = { tab: Tab; param: string | null; query: Record<string, string> };
 
-const TABS: Tab[] = ["brief", "portfolio", "watch", "ask"];
+const TABS: Tab[] = ["brief", "portfolio", "watch", "chat", "ask"];
 
 /** "#/ask/PIDILITIND?event=abc" -> { tab: "ask", param: "PIDILITIND", query: { event: "abc" } } */
 export function parseHash(hash: string): Route {

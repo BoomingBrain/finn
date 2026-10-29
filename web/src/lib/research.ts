@@ -4,14 +4,14 @@ import { formatCrore } from "./format";
 const MONTH = new Intl.DateTimeFormat("en-IN", { month: "short", year: "numeric", timeZone: "UTC" });
 const SHORT_MONTH = new Intl.DateTimeFormat("en-IN", { month: "short", timeZone: "UTC" });
 
-/** Compact chip text: "T:2026-08-01:p12" -> "Aug 26 call p12"; "AR:2026:p73" -> "AR p73"; "SCR" -> "Screener" */
+/** Compact chip text: "T:2026-08-01:p12" -> "Aug '26 call p12"; "AR:2026:p73" -> "AR p73"; "SCR" -> "Screener" */
 export function citationLabel(sourceId: string): string {
   if (sourceId === "SCR") return "Screener";
   const [kind, doc, page] = sourceId.split(":");
   const p = page ? ` ${page}` : "";
   if (kind === "T") {
     const d = new Date(`${doc}T00:00:00Z`);
-    return `${SHORT_MONTH.format(d)} ${String(d.getUTCFullYear() % 100).padStart(2, "0")} call${p}`;
+    return `${SHORT_MONTH.format(d)} '${String(d.getUTCFullYear() % 100).padStart(2, "0")} call${p}`;
   }
   if (kind === "AR") return `AR${p}`;
   return sourceId;

@@ -4,9 +4,10 @@ const ICONS: Record<Tab, JSX.Element> = {
   brief: <path d="M5 6h14M5 12h14M5 18h9" />,
   portfolio: <path d="M4 8h16v11H4zM9 8V5h6v3M4 13h16" />,
   watch: <path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15zM10 20.5a2 2 0 0 0 4 0" />,
+  chat: <path d="M4 5h16v11H8l-4 4z" />,
   ask: <path d="M11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14zM16 16l5 5" />,
 };
-const LABELS: Record<Tab, string> = { brief: "Brief", portfolio: "Portfolio", watch: "Watch", ask: "Ask" };
+const LABELS: Record<Tab, string> = { brief: "Brief", portfolio: "Portfolio", watch: "Watch", chat: "Chat", ask: "Ask" };
 
 export function TabBar({ active, unread = 0 }: { active: Tab; unread?: number }) {
   return (

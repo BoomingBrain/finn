@@ -15,7 +15,7 @@ const row = (verdict: DeliveryRow["verdict"], value: number | null = 24.1, quart
 
 describe("research helpers", () => {
   it("labels and links citations to the exact page", () => {
-    expect(citationLabel("T:2026-08-01:p12")).toBe("Aug 26 call p12");
+    expect(citationLabel("T:2026-08-01:p12")).toBe("Aug '26 call p12");
     expect(citationLabel("AR:2026:p73")).toBe("AR p73");
     expect(citationLabel("SCR")).toBe("Screener");
     expect(citationHref({ source_id: "AR:2026:p73", url: "https://x/ar.pdf", page: 73 })).toBe("https://x/ar.pdf#page=73");

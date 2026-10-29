@@ -21,7 +21,7 @@ describe("DeliveryScorecard", () => {
     expect(screen.getAllByText("Met").every((el) => el.className.includes("text-up") || el.tagName === "DT")).toBe(true);
     const cantCheck = screen.getAllByText("Can't check").find((el) => el.closest("li"))!;
     expect(cantCheck.closest("li")!.className).toContain("text-muted");
-    const chips = screen.getAllByRole("link", { name: "Nov 25 call p5" });
+    const chips = screen.getAllByRole("link", { name: "Nov '25 call p5" });
     expect(chips[0].getAttribute("href")).toBe("https://bse/t.pdf#page=5");
   });
 
