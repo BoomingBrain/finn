@@ -1,0 +1,337 @@
+{
+ "symbol": "KOTAKBANK",
+ "name": "Kotak Mahindra Bank Ltd",
+ "built_at": "2026-10-29T09:16:52.124630Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-08-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Kotak Mahindra Bank Ltd",
+    "about": "Kotak Mahindra Bank is a diversified financial services group providing a wide range of banking and financial services including Retail Banking, Treasury and Corporate Banking, Investment Banking, Stock Broking, Vehicle Finance, Advisory services, Asset Management, Life Insurance and General Insurance.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-29T09:07:06.929422+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-08-01",
+     "annual_report": 2026
+    },
+    "lender": true,
+    "revenue_ttm": 73545.0,
+    "pat_ttm": 21472.0,
+    "revenue_cagr_3y": 18.3,
+    "pat_cagr_3y": 8.9,
+    "opm_latest": null,
+    "opm_3y_ago": null,
+    "roce_latest": null,
+    "roe_latest": 11.0,
+    "debt_to_equity": null,
+    "cfo_to_pat_3y": null,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 16633.0,
+      "pat": 4701.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 16772.0,
+      "pat": 4933.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 17248.0,
+      "pat": 4472.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 17199.0,
+      "pat": 4468.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 17507.0,
+      "pat": 4924.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 17827.0,
+      "pat": 5423.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 18355.0,
+      "pat": 5480.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 19856.0,
+      "pat": 5645.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/KOTAKBANK/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Aug 2026",
+     "Transcript May 2026",
+     "Transcript Jan 2026",
+     "Transcript Oct 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "one-time ECL transition impact on net worth",
+       "comparison": "lte",
+       "value": 2.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "As I had indicated earlier also, the one-time impact of the ECL transition is less than 2% of our net worth. And on an ongoing basis, we expect the credit cost to go up by about 12 to 15 bps once implemented.",
+       "source_id": "T:2026-08-01:p15",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided one-time ECL transition impact on net worth ≤ 2% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ongoing credit cost increase post ECL implementation",
+       "comparison": "between",
+       "value": 0.12,
+       "value_high": 0.15,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "As I had indicated earlier also, the one-time impact of the ECL transition is less than 2% of our net worth. And on an ongoing basis, we expect the credit cost to go up by about 12 to 15 bps once implemented.",
+       "source_id": "T:2026-08-01:p15",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ongoing credit cost increase post ECL implementation 0.1%–0.1% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ECL provision impact post-tax",
+       "comparison": "lte",
+       "value": 2.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "the impact of the ECL provision is less than 2% post-tax for us in the Bank.",
+       "source_id": "T:2026-01-01:p24",
+       "said_on": "2026-01-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ECL provision impact post-tax ≤ 2% for FY27; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-08-01:p15",
+     "url": "https://www.kotak.bank.in/content/dam/Kotak/investor-relation/Financial-Result/QuarterlyReport/FY-2027/q1/transcript/Q1FY27-Transcript.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2026-01-01:p24",
+     "url": "https://www.kotak.bank.in/content/dam/Kotak/investor-relation/Financial-Result/QuarterlyReport/FY-2026/q3/transcript/Q3FY26-Transcript.pdf",
+     "page": 24
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Kotak Mahindra Bank is a diversified financial services conglomerate offering a full range of banking, lending, investment, and insurance products to retail customers, SMEs, institutions, and high-net-worth individuals in India. It operates through a network of digital and physical channels, serving millions of customers across the country.",
+    "segments": [
+     {
+      "name": "Retail Banking",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p13"
+      ]
+     },
+     {
+      "name": "Corporate/Wholesale Banking",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p13"
+      ]
+     },
+     {
+      "name": "Treasury, BMU and Corporate Centre",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p13"
+      ]
+     },
+     {
+      "name": "SME",
+      "share_pct": 23.9,
+      "source_ids": [
+       "AR:2026:p16"
+      ]
+     },
+     {
+      "name": "Institutional",
+      "share_pct": 17.1,
+      "source_ids": [
+       "AR:2026:p16"
+      ]
+     },
+     {
+      "name": "Tractor Finance",
+      "share_pct": 12.8,
+      "source_ids": [
+       "AR:2026:p16"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p10",
+     "AR:2026:p11",
+     "AR:2026:p13",
+     "AR:2026:p14",
+     "AR:2026:p15",
+     "AR:2026:p16",
+     "AR:2026:p19"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p10",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c1b719fb-23e9-4cb8-b303-720eb0e31cc4.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "AR:2026:p11",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c1b719fb-23e9-4cb8-b303-720eb0e31cc4.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "AR:2026:p13",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c1b719fb-23e9-4cb8-b303-720eb0e31cc4.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "AR:2026:p14",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c1b719fb-23e9-4cb8-b303-720eb0e31cc4.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "AR:2026:p15",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c1b719fb-23e9-4cb8-b303-720eb0e31cc4.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "AR:2026:p16",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c1b719fb-23e9-4cb8-b303-720eb0e31cc4.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "AR:2026:p19",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c1b719fb-23e9-4cb8-b303-720eb0e31cc4.pdf",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "The bank has delivered strong top-line growth with a 3-year revenue CAGR of 18.3% and consistent quarterly revenue expansion from ₹17,507 Cr in Dec 2025 to ₹19,856 Cr in Sep 2026.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Profit after tax has grown steadily each quarter, rising from ₹4,924 Cr in Dec 2025 to ₹5,645 Cr in Sep 2026, supporting a 3-year PAT CAGR of 8.9%.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The ECL transition is expected to have a minimal one-time impact of less than 2% of net worth and only a 12-15 bps ongoing increase in credit costs.",
+      "source_ids": [
+       "T:2026-08-01:p15"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Return on equity stands at a modest 11%, which may limit shareholder returns.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "PAT growth (8.9% CAGR) lags revenue growth (18.3% CAGR) over three years, suggesting margin compression.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The bank faces an expected 12-15 bps increase in credit costs once ECL is fully implemented.",
+      "source_ids": [
+       "T:2026-08-01:p15"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/KOTAKBANK/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-08-01:p15",
+     "url": "https://www.kotak.bank.in/content/dam/Kotak/investor-relation/Financial-Result/QuarterlyReport/FY-2027/q1/transcript/Q1FY27-Transcript.pdf",
+     "page": 15
+    }
+   ]
+  }
+ ]
+}
