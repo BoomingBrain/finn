@@ -64,6 +64,8 @@ Every prompt given to the coding agent while building FINN, in order, with a one
 | 58 | 2026-10-28 | "how can we make things fast to do new reaserach" | Timed the live build (calls step ≈ 85%); proposed page pre-filtering, parallel annual report, prebuilt Nifty 50. |
 | 59 | 2026-10-28 | "can we add multiple model to the bottle neck step" | Built a model pool for extraction; tested 7 candidate models: none both available and accurate (GPT-OSS-20B recall 1/3), so the pool keeps one model for now. |
 | 60 | 2026-10-28 | "everything done?" | Status; found scheduled workflows not firing and triggered them manually. |
+| 61 | 2026-10-29 | "what left now?" | Confirmed scheduled workflows now run; listed remaining items. |
+| 62 | 2026-10-29 | "i want you to polish the ui of trigerred alert in watch section all the settings should not be in bottom it should be above in a more compact way and when clicked it expand and user can select the settings. use /frontend-design:frontend-design for this" | Watch: settings collapsed into one rule sentence at the top ("Alert me when a stock moves ±5.0%…"), "Change" expands compact sliders and filing chips in place; "Mark all as seen" moved above the list. |
 ## Full text of long prompts
 
 ### #5 — Plan review (2026-10-28)

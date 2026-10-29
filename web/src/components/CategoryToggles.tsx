@@ -9,8 +9,8 @@ export function CategoryToggles({ settings, onChange }: { settings: Settings; on
   const toggle = (c: Category) =>
     onChange({ ...settings, alert_categories: settings.alert_categories.includes(c) ? settings.alert_categories.filter((x) => x !== c) : [...settings.alert_categories, c] });
   return (
-    <fieldset className="mt-8">
-      <legend className="mb-3 font-serif text-[20px] font-medium">Alert me about</legend>
+    <fieldset className="mt-3">
+      <legend className="mb-2 text-[13px] font-semibold text-muted">Filings that alert you</legend>
       <div className="flex flex-wrap gap-2">
         {OFFERED.map((c) => {
           const on = settings.alert_categories.includes(c);

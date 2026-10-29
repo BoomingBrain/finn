@@ -1,8 +1,7 @@
 import type { EventsFile, SignalsFile } from "../api/types";
 import { AlertRow } from "../components/AlertRow";
-import { CategoryToggles } from "../components/CategoryToggles";
+import { AlertRule } from "../components/AlertRule";
 import { Statement } from "../components/Statement";
-import { ThresholdSliders } from "../components/ThresholdSliders";
 import { INBOX_DAYS, type Inbox } from "../hooks/useAlerts";
 import { useData } from "../hooks/useData";
 import type { Settings } from "../lib/signals";
@@ -17,9 +16,17 @@ export function Watch({ inbox, settings, onSettings }: { inbox: Inbox; settings:
 
   return (
     <>
-      <Statement detail={`From the last ${INBOX_DAYS} days, using your thresholds and the filing types you chose below.`}>{title}</Statement>
+      <Statement detail={`From the last ${INBOX_DAYS} days.`}>{title}</Statement>
+      <AlertRule file={signals.status === "ok" ? signals.data : null} settings={settings} onChange={onSettings} />
       {alerts.length > 0 && (
-        <section aria-label="Alerts" className="mb-10">
+        <section aria-label="Alerts">
+          {inbox.unread > 0 && (
+            <div className="mb-1 flex justify-end">
+              <button type="button" onClick={() => inbox.markSeen(alerts.map((a) => a.id))} className="text-[13px] text-notable">
+                Mark all as seen
+              </button>
+            </div>
+          )}
           <ul>
             {alerts.map((a) => (
               <AlertRow key={a.id} alert={a} name={names[a.symbol] ?? a.symbol} seen={inbox.isSeen(a.id)}
@@ -29,15 +36,8 @@ export function Watch({ inbox, settings, onSettings }: { inbox: Inbox; settings:
                 }} />
             ))}
           </ul>
-          {inbox.unread > 0 && (
-            <button type="button" onClick={() => inbox.markSeen(alerts.map((a) => a.id))} className="mt-3 text-[13px] text-notable">
-              Mark all as seen
-            </button>
-          )}
         </section>
       )}
-      <ThresholdSliders file={signals.status === "ok" ? signals.data : null} settings={settings} onChange={onSettings} />
-      <CategoryToggles settings={settings} onChange={onSettings} />
     </>
   );
 }

@@ -63,6 +63,11 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-10-29 — Watch: alert rule at the top (user request, /frontend-design)
+- **`AlertRule`:** the settings collapse to the rule they express, one serif sentence with the values in semibold, plus the 30-day evidence. "Change" expands the sliders and filing chips in place: a grid-rows height transition answering the tap, respecting reduced motion, with hidden controls `inert`. Done closes it.
+- Sliders and chips compacted (small labels instead of 20 px serif headings). "Mark all as seen" moved above the list; the subtitle no longer says "below".
+- **`lib/rule.ts`** builds the sentence parts (2 tests). Checked at 390 px open and closed. Headless Chrome's virtual clock doesn't run the transition; the panel's measured height with transitions off is 546 px.
+
 ### 2026-10-28 — Multi-model extraction pool: built, no second model qualifies yet
 - **`llm.ModelPool` / `complete_json(pool=...)`:** a job runs on whichever member has a free slot (2 per member); a cached answer from any member is reused. Guidance extraction uses `pool="extract"`. 3 tests.
 - **Candidates on this key, tested 28 Oct 19:30–20:15 IST:**
