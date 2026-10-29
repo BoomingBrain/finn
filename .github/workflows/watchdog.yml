@@ -1,0 +1,28 @@
+name: watchdog
+# GitHub delays or drops `schedule:` runs when busy. Twice an hour this checks when each job last started and starts
+# any that are overdue (rules and tests: backend/finn/watchdog.py). Odd minutes, away from the busy top of the hour.
+on:
+  schedule:
+    - cron: "23,53 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write    # start overdue workflows (allowed for the built-in token via workflow_dispatch)
+  contents: read
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: true
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Start overdue jobs
+        working-directory: backend
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run python -m finn.watchdog

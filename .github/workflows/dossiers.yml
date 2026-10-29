@@ -7,7 +7,7 @@ name: dossiers
 # Other companies (demo tickers, dossiers saved from live research) keep the dossier as built; each shows its date.
 on:
   schedule:
-    - cron: "30 14 * * *"   # 20:00 IST daily
+    - cron: "47 14 * * *"   # 20:17 IST daily
   workflow_dispatch:
     inputs:
       mode:

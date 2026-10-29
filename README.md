@@ -46,7 +46,7 @@ Four demo tickers (PIDILITIND, HAL, CDSL, NAUKRI) and all 18 holdings are precom
 
 **Every dossier is built once and kept current:**
 - **Saved permanently.** A finished live dossier is committed to the repo next to the precomputed ones (`finn/persist.py`). The server replays it from there instead of rebuilding, and the next deploy makes it a static, instant page. A dossier with a failed section is never saved.
-- **Holdings always present and current.** A daily job (`.github/workflows/dossiers.yml`, 20:00 IST) checks the 18 holdings only:
+- **Holdings always present and current.** A daily job (`.github/workflows/dossiers.yml`, 20:17 IST) checks the 18 holdings only:
   - builds any missing dossier and retries any with a failed section
   - rebuilds a dossier when its inputs changed: each one records the latest results quarter, concall and annual report it used, and the job compares that with screener.in (no model calls)
   - older transcripts come from the LLM cache, so a rebuild pays only for what is new
@@ -60,7 +60,7 @@ Four demo tickers (PIDILITIND, HAL, CDSL, NAUKRI) and all 18 holdings are precom
 The diagram's source is [docs/architecture/architecture.html](docs/architecture/architecture.html); re-render with headless Chrome at 1800×1250, scale 2.
 
 ```
-GitHub Actions (every 2 h on market days + 19:00 IST)
+GitHub Actions (every 2 h on market days + 19:11 IST; a watchdog restarts missed runs)
   NSE announcements ─┐
   yfinance EOD ──────┼─► classify (rules, then LLM for leftovers) ─► enrich (vision / bulk LLM) ─► cluster
   screener.in ───────┘                                                    │
@@ -68,7 +68,8 @@ GitHub Actions (every 2 h on market days + 19:00 IST)
 Hugging Face Static Space: React PWA + snapshot JSON + precomputed dossiers  (Brief, Watch, demo dossiers)
 Render (free): FastAPI, only for live research on tickers without a precomputed dossier (SSE);
   a finished live dossier is committed back to the repo, so it ships with the next deploy
-GitHub Actions (daily 20:00 IST): build missing, failed and outdated holding dossiers ─► commit ─► redeploy
+GitHub Actions (daily 20:17 IST): build missing, failed and outdated holding dossiers ─► commit ─► redeploy
+GitHub Actions (every 30 min): watchdog starts any overdue job (docs/SCHEDULER.md)
 ```
 
 - **Viewers cost nothing.** Brief and Watch, and every precomputed dossier, are static files, so a viewer triggers no model call.

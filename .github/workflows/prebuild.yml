@@ -4,7 +4,7 @@ name: prebuild
 # dossiers are never refreshed (only the holdings are, in dossiers.yml); each shows the date it was built.
 on:
   schedule:
-    - cron: "0 21 * * *"   # 02:30 IST, after the 20:00 holdings refresh
+    - cron: "13 21 * * *"  # 02:43 IST, after the evening holdings refresh
   workflow_dispatch:
 
 permissions:

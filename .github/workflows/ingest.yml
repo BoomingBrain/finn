@@ -3,8 +3,8 @@ name: ingest
 # All sources answered GitHub Actions runners in the Task 0 cloud check (run 40646213614).
 on:
   schedule:
-    - cron: "0 4-12/2 * * 1-5"   # every 2 h, ~09:30-17:30 IST, market days
-    - cron: "30 13 * * *"        # 19:00 IST daily, after end-of-day prices settle
+    - cron: "17 4-12/2 * * 1-5"  # every 2 h, 09:47-17:47 IST, market days (off the busy top of the hour)
+    - cron: "41 13 * * *"        # 19:11 IST daily, after end-of-day prices settle
   workflow_dispatch:
     inputs:
       days:

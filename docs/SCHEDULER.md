@@ -1,56 +1,20 @@
-# Reliable scheduling with cron-job.org
+# Scheduling
 
-GitHub Actions' built-in `schedule:` trigger skipped or delayed several runs on this repository (28–29 Oct), so the
-Brief's data went 13 hours without a refresh. An external scheduler starts each workflow on time through GitHub's
-API instead. The workflows don't change: each already accepts a manual start (`workflow_dispatch`).
+All jobs run on GitHub Actions. GitHub delays or drops `schedule:` runs when it is busy (several were skipped on
+28–29 Oct, leaving the Brief 13 hours old), so the schedule is made self-healing rather than trusted:
 
-## 1. Create a GitHub token that can only start workflows
-
-GitHub → Settings → Developer settings → Personal access tokens → **Fine-grained tokens** → Generate new token:
-
-- **Name:** `finn-scheduler`; **Expiration:** 90 days.
-- **Repository access:** Only select repositories → `BoomingBrain/finn`.
-- **Permissions → Repository → Actions:** Read and write. Nothing else.
-
-This token can start and read workflow runs and nothing more: it can't read code, push or change secrets.
-
-## 2. Test the token once
-
-```bash
-curl -i -X POST \
-  -H "Authorization: Bearer <TOKEN>" \
-  -H "Accept: application/vnd.github+json" \
-  -H "X-GitHub-Api-Version: 2022-11-28" \
-  https://api.github.com/repos/BoomingBrain/finn/actions/workflows/ingest.yml/dispatches \
-  -d '{"ref":"main"}'
-```
-
-Expected: `HTTP/2 204`. A new "ingest" run appears under the repository's Actions tab.
-
-## 3. Create the jobs on cron-job.org
-
-Sign up at cron-job.org. In Settings, set the time zone to **Asia/Kolkata**. Create one job per row:
-
-| Job | URL (POST) | Schedule (IST) |
+| Workflow | Schedule (IST) | Job |
 |---|---|---|
-| FINN ingest, market hours | `https://api.github.com/repos/BoomingBrain/finn/actions/workflows/ingest.yml/dispatches` | Mon–Fri at 09:30, 11:30, 13:30, 15:30, 17:30 |
-| FINN ingest, evening | same URL | Every day at 19:00 |
-| FINN holdings refresh | `https://api.github.com/repos/BoomingBrain/finn/actions/workflows/dossiers.yml/dispatches` | Every day at 20:00 |
-| FINN prebuild (optional) | `https://api.github.com/repos/BoomingBrain/finn/actions/workflows/prebuild.yml/dispatches` | Every day at 02:30 |
+| `ingest.yml` | Mon–Fri 09:47, 11:47, 13:47, 15:47, 17:47; daily 19:11 | Filings, prices, signals |
+| `dossiers.yml` | Daily 20:17 | Refresh the holdings' research when new results, calls or annual reports appear |
+| `prebuild.yml` | Daily 02:43 | Build missing Nifty 50 dossiers, 8 a night |
+| `watchdog.yml` | Every hour at :23 and :53 | Start any job above that is overdue |
 
-For every job, under **Advanced**:
+- **Off the hour:** every schedule avoids minute 0, where GitHub's load, and so its delays, peak.
+- **The watchdog** ([backend/finn/watchdog.py](../backend/finn/watchdog.py), with tests) asks GitHub when each job last started and starts it if overdue:
+  - ingest more than 2.5 h old during market hours (Mon–Fri 09:00–18:30) or 14 h otherwise
+  - the daily jobs more than 26 h old
 
-- **Request method:** POST
-- **Headers:**
-  - `Authorization: Bearer <TOKEN>`
-  - `Accept: application/vnd.github+json`
-  - `X-GitHub-Api-Version: 2022-11-28`
-  - `Content-Type: application/json`
-- **Request body:** `{"ref":"main"}`
-- **Success:** treat HTTP 204 as success, and turn on failure notifications so an expired token gets noticed.
-
-## 4. After the first scheduled run succeeds
-
-The workflows' own `schedule:` lines are then removed, so runs aren't duplicated. Duplicates would be harmless,
-because each workflow queues behind its own concurrency group and ingestion is incremental, but they waste Actions
-minutes. Renew the token before it expires (cron-job.org will email on the first failed call).
+  A missed run is caught within about 30 minutes. The watchdog uses the workflow's built-in token, so there is nothing to configure.
+- **Extra runs are harmless:** every job is incremental and queues behind its own concurrency group.
+- **Failures:** a job that ran and failed is not restarted every half hour. GitHub reports the failure instead.
