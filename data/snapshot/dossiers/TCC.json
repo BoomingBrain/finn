@@ -1,0 +1,258 @@
+{
+ "symbol": "TCC",
+ "name": "TCC Concept Ltd",
+ "built_at": "2026-10-29T06:01:11.315322Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": null,
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "TCC Concept Ltd",
+    "about": "Incorporated in 1984, TCC Concept Ltdis in the business of real estate services,property management services & rentingor leasing services involving own or leasednonresidential property[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-29T05:59:55.881510+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": null,
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 285.0,
+    "pat_ttm": 68.0,
+    "revenue_cagr_3y": 463.6,
+    "pat_cagr_3y": 302.1,
+    "opm_latest": 54.2,
+    "opm_3y_ago": 100.0,
+    "roce_latest": 6.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.18,
+    "cfo_to_pat_3y": 1.13,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 17.0,
+      "pat": 9.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 22.0,
+      "pat": 10.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 32.0,
+      "pat": 17.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 22.0,
+      "pat": 9.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 27.0,
+      "pat": 10.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 46.0,
+      "pat": 14.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 84.0,
+      "pat": 31.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 128.0,
+      "pat": 13.0
+     }
+    ],
+    "flags": [
+     "Margins compressing"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/TCC/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "unavailable",
+   "reason": "No concall transcripts on screener.in",
+   "data": null,
+   "citations": []
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "TCC Concept Limited is a diversified technology-led conglomerate operating across consumer commerce, real estate technology, cloud infrastructure, data centers, and supply chain solutions. Its core businesses include Pepperfry, an omnichannel furniture and home marketplace serving retail consumers and enterprise customers; PepCart, a logistics and fulfillment platform; and other ventures in PropTech, AI, and data-center infrastructure, all positioned for integrated, long-term growth.",
+    "segments": [
+     {
+      "name": "Pepperfry",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p11",
+       "AR:2026:p26",
+       "AR:2026:p32"
+      ]
+     },
+     {
+      "name": "PepCart",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p11",
+       "AR:2026:p26",
+       "AR:2026:p32"
+      ]
+     },
+     {
+      "name": "NES Data",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p26",
+       "AR:2026:p32"
+      ]
+     },
+     {
+      "name": "MyFlopy",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p26",
+       "AR:2026:p32"
+      ]
+     },
+     {
+      "name": "TryThat.ai",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p26",
+       "AR:2026:p32"
+      ]
+     },
+     {
+      "name": "Brantford",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p26"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p9",
+     "AR:2026:p11",
+     "AR:2026:p20",
+     "AR:2026:p26",
+     "AR:2026:p32",
+     "AR:2026:p35",
+     "AR:2026:p80"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p9",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2009fbb6-8561-48be-b03c-bb9c95ca9b47.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "AR:2026:p11",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2009fbb6-8561-48be-b03c-bb9c95ca9b47.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "AR:2026:p20",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2009fbb6-8561-48be-b03c-bb9c95ca9b47.pdf",
+     "page": 20
+    },
+    {
+     "source_id": "AR:2026:p26",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2009fbb6-8561-48be-b03c-bb9c95ca9b47.pdf",
+     "page": 26
+    },
+    {
+     "source_id": "AR:2026:p32",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2009fbb6-8561-48be-b03c-bb9c95ca9b47.pdf",
+     "page": 32
+    },
+    {
+     "source_id": "AR:2026:p35",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2009fbb6-8561-48be-b03c-bb9c95ca9b47.pdf",
+     "page": 35
+    },
+    {
+     "source_id": "AR:2026:p80",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2009fbb6-8561-48be-b03c-bb9c95ca9b47.pdf",
+     "page": 80
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Revenue grew at a 463.6% 3-year CAGR to ₹285 Cr TTM with PAT at ₹68 Cr (302.1% CAGR).",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin remains high at 54.2% with low leverage (debt/equity 0.18) and strong cash conversion (OCF/PAT 1.13x over 3 years).",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Quarterly revenue accelerated from ₹27 Cr in Sep 2025 to ₹128 Cr in Jun 2026, showing strong momentum.",
+      "source_ids": [
+       "SCR"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Operating margin compressed from 100% to 54.2% over three years, flagged as \"Margins compressing\".",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "ROCE is only 6% despite triple-digit revenue growth, indicating poor capital efficiency.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "PAT dropped to ₹13 Cr in Jun 2026 from ₹31 Cr in Mar 2026 even as revenue doubled to ₹128 Cr, showing earnings volatility.",
+      "source_ids": [
+       "SCR"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/TCC/consolidated/",
+     "page": null
+    }
+   ]
+  }
+ ]
+}
