@@ -50,3 +50,20 @@ export const CATEGORY_LABEL: Record<Category, string> = {
   bonus_split: "Bonus or split", capex: "Capex", press_release: "Company news", postal_ballot: "Postal ballot",
   agm_egm: "Shareholder meeting", pledging: "Promoter pledge", unclassified: "Routine filing",
 };
+
+/** "Indian Railway Catering And Tourism Corporation Limited" -> "Indian Railway Catering And Tourism Corporation" */
+export function companyName(name: string): string {
+  return name.replace(/\s+(Limited|Ltd\.?)$/i, "");
+}
+
+/** Colour for a figure where higher is better; `bad`/`good` thresholds mark the red/green zones. */
+export function toneAbove(v: number | null, bad: number, good: number): string {
+  if (v === null) return "text-muted";
+  return v < bad ? "text-down" : v >= good ? "text-up" : "";
+}
+
+/** Colour for a figure where lower is better (e.g. debt to equity). */
+export function toneBelow(v: number | null, good: number, bad: number): string {
+  if (v === null) return "text-muted";
+  return v > bad ? "text-down" : v <= good ? "text-up" : "";
+}

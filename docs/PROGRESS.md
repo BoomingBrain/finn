@@ -63,6 +63,18 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-10-29 — App-wide polish: boxes for numbers, less text, coloured figures (user request, /frontend-design)
+- **`StatBox`/`StatGrid`:** flat surface tiles with a small label and a large tabular figure. Used only where the content is numbers: the results card (2×2 with coloured QoQ/YoY, plus "Matches reported" when cross-checked), the report snapshot, verdict counts, Watch thresholds, and Portfolio best/worst/today. Words stay in hairline rows, so it doesn't become a card kit.
+- **Colour by meaning:** growth and changes up/down; ROCE/ROE, debt-to-equity and cash conversion coloured by their red-flag thresholds (`toneAbove`/`toneBelow`); verdicts met/partly/missed/in progress; bull/bear with green/red rules; segment shares as bars.
+- **Less text:**
+  - A filing's raw subject is shown only when there's no AI one-liner, otherwise clamped (`Clamp`).
+  - Screener's "about" is clamped to 3 lines and biographies to 2.
+  - "Limited/Ltd" is dropped from names.
+  - Method sentences are removed, and scorecard explanations sit behind "Details".
+  - Citation chips are compact ("AR p118", "Aug 26 call p12").
+  - Alert rows are two lines: company and time, then type and subject.
+- Checked Brief, Portfolio, Watch and a report at 390 px; 33 web tests updated and passing.
+
 ### 2026-10-29 — Watch: alert rule at the top (user request, /frontend-design)
 - **`AlertRule`:** the settings collapse to the rule they express, one serif sentence with the values in semibold, plus the 30-day evidence. "Change" expands the sliders and filing chips in place: a grid-rows height transition answering the tap, respecting reduced motion, with hidden controls `inert`. Done closes it.
 - Sliders and chips compacted (small labels instead of 20 px serif headings). "Mark all as seen" moved above the list; the subtitle no longer says "below".

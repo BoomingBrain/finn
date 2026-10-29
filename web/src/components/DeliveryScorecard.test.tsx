@@ -17,16 +17,17 @@ describe("DeliveryScorecard", () => {
     const data: DeliveryData = { transcripts: ["Transcript Nov 2025"], rows: [row("met", "EBITDA margin", 24.1), row("not_checkable", "A&SP", null)] };
     const citations = [{ source_id: "T:2025-11-01:p5", url: "https://bse/t.pdf", page: 5 }];
     render(<DeliveryScorecard data={data} citations={citations} />);
-    expect(screen.getByText("1 of 1 checkable promise met.")).toBeTruthy();
-    expect(screen.getByText("Met").className).toContain("text-up");
-    expect(screen.getByText("Can't check").closest("li")!.className).toContain("text-muted");
-    const chips = screen.getAllByRole("link", { name: "Nov 2025 call, p5" });
+    expect(screen.getByText("1 of 1 checkable promise met.")).toBeTruthy(); // for screen readers; boxes show counts
+    expect(screen.getAllByText("Met").every((el) => el.className.includes("text-up") || el.tagName === "DT")).toBe(true);
+    const cantCheck = screen.getAllByText("Can't check").find((el) => el.closest("li"))!;
+    expect(cantCheck.closest("li")!.className).toContain("text-muted");
+    const chips = screen.getAllByRole("link", { name: "Nov 25 call p5" });
     expect(chips[0].getAttribute("href")).toBe("https://bse/t.pdf#page=5");
   });
 
   it("says so when management gave no numeric targets", () => {
     render(<DeliveryScorecard data={{ transcripts: ["a", "b", "c", "d"], rows: [] }} citations={[]} />);
-    expect(screen.getByText(/no explicit numeric targets in the last 4 earnings calls/)).toBeTruthy();
+    expect(screen.getByText(/No explicit numeric targets in the last 4 earnings calls/)).toBeTruthy();
   });
 });
 

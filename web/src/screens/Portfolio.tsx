@@ -3,6 +3,7 @@ import { Statement } from "../components/Statement";
 import { useData } from "../hooks/useData";
 import { useStoredState } from "../hooks/useStoredState";
 import { directionClass, formatPct } from "../lib/format";
+import { StatBox, StatGrid } from "../components/StatBox";
 import { holdingRows, portfolioMove, RANGES, type HoldingRow } from "../lib/portfolio";
 
 const price = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 2 });
@@ -45,10 +46,12 @@ export function Portfolio() {
   const rows = holdingRows(signals.data, range.sessions);
   const up = rows.filter((r) => r.dayPct > 0).length;
   const lastDate = rows[0]?.lastDate;
+  const best = rows.reduce((a, b) => (b.rangePct > a.rangePct ? b : a), rows[0]);
+  const worst = rows.reduce((a, b) => (b.rangePct < a.rangePct ? b : a), rows[0]);
   return (
     <>
       <Statement
-        detail={`Equal-weighted across your ${rows.length} holdings. Today ${up} rose and ${rows.length - up} fell${lastDate ? `, closing prices to ${day(lastDate)}` : ""}.`}
+        detail={`Equal-weighted, ${rows.length} holdings${lastDate ? `, closes to ${day(lastDate)}` : ""}.`}
       >
         {headline(portfolioMove(rows), range.phrase)}
       </Statement>
@@ -72,7 +75,20 @@ export function Portfolio() {
         })}
       </div>
 
-      <p className="mb-1 text-[12px] text-muted">Biggest moves first. Tap a company to research it.</p>
+      {rows.length > 0 && (
+        <StatGrid cols={3} className="mb-4">
+          <StatBox label="Best" value={formatPct(best.rangePct)} tone={directionClass(best.rangePct)}>
+            <span className="text-muted">{best.symbol}</span>
+          </StatBox>
+          <StatBox label="Worst" value={formatPct(worst.rangePct)} tone={directionClass(worst.rangePct)}>
+            <span className="text-muted">{worst.symbol}</span>
+          </StatBox>
+          <StatBox label="Today" value={<><span className="text-up">{up}</span><span className="text-muted"> / </span><span className="text-down">{rows.length - up}</span></>}>
+            <span className="text-muted">up / down</span>
+          </StatBox>
+        </StatGrid>
+      )}
+      <p className="mb-1 text-[12px] text-muted">Biggest moves first</p>
       <ul>
         {rows.map((r) => (
           <li key={r.symbol} className="border-t border-line">

@@ -1,6 +1,7 @@
 /** Applies the investor's thresholds to precomputed per-day metrics. Measurement lives in the backend
  * (finn/push/signals.py, tested there); the browser only compares numbers. */
 import type { Category, Event, SignalsFile } from "../api/types";
+import { CATEGORY_LABEL } from "./format";
 
 export interface Settings {
   price_move_pct: number;
@@ -33,6 +34,8 @@ export interface Alert {
   id: string;
   symbol: string;
   title: string;
+  label: string; // filing type, or "Price move" / "Volume"
+  change: number | null; // a price move's direction, for colour
   source: "announcement" | "signal";
   refId: string;
   at: string;
@@ -85,10 +88,15 @@ export function backtest(file: SignalsFile, settings: Settings, days = 30): Back
 export function alertsFor(events: Event[], signals: Signal[], settings: Settings): Alert[] {
   const fromEvents: Alert[] = events
     .filter((e) => e.tier === "critical" && settings.alert_categories.includes(e.category))
-    .map((e) => ({ id: `event:${e.id}`, symbol: e.symbol, title: e.headline, source: "announcement", refId: e.id, at: e.first_at }));
+    .map((e) => ({
+      id: `event:${e.id}`, symbol: e.symbol, title: e.summary ?? e.headline, label: CATEGORY_LABEL[e.category], change: null,
+      source: "announcement", refId: e.id, at: e.first_at,
+    }));
   const fromSignals: Alert[] = signals.map((s) => ({
     id: `signal:${s.id}`, symbol: s.symbol, source: "signal", refId: s.id, at: sessionEnd(s.date),
-    title: s.kind === "price_move" ? `${s.value > 0 ? "Up" : "Down"} ${Math.abs(s.value).toFixed(1)}% in a day` : `Volume ${s.value.toFixed(1)}× its 20-day average`,
+    label: s.kind === "price_move" ? "Price move" : "Volume",
+    change: s.kind === "price_move" ? s.value : null,
+    title: s.kind === "price_move" ? `${s.value > 0 ? "Up" : "Down"} ${Math.abs(s.value).toFixed(1)}% in a day` : `${s.value.toFixed(1)}× its 20-day average`,
   }));
   return [...fromEvents, ...fromSignals].sort((a, b) => Date.parse(b.at) - Date.parse(a.at));
 }

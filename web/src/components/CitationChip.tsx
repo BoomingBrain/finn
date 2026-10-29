@@ -10,6 +10,7 @@ export function CitationChip({ id, citations }: { id: string; citations: Citatio
       href={citationHref(c)}
       target="_blank"
       rel="noreferrer"
+      title={citationLabel(id).startsWith("AR") ? "Annual report" : undefined}
       className="ml-1 inline-block rounded-sm border border-line px-1.5 py-px align-[1px] text-[11px] whitespace-nowrap text-muted hover:text-text"
     >
       {citationLabel(id)}

@@ -10,7 +10,7 @@ import { Statement } from "../components/Statement";
 import { SymbolSearch } from "../components/SymbolSearch";
 import { useApiHealth, type ApiHealth } from "../hooks/useApiHealth";
 import { useResearch, useRunningBuilds } from "../hooks/useResearch";
-import { coverageText } from "../lib/research";
+import { coverageShort } from "../lib/research";
 
 const SERVER_COPY: Record<ApiHealth, string> = {
   unset: "Live research for other companies isn't connected yet.",
@@ -76,7 +76,7 @@ function Dossier({ symbol, eventId }: { symbol: string; eventId: string | null }
   const snapshot = sections.find((s) => s.section === "snapshot");
   const snapData = snapshot?.data as SnapshotData | undefined;
   const name = snapData?.name ?? symbol;
-  const coverage = coverageText(snapData?.sources, snapData?.built_at);
+  const coverage = coverageShort(snapData?.sources);
 
   if (error && sections.length === 0)
     return (
@@ -110,7 +110,7 @@ export function Ask({ symbol, eventId = null }: { symbol: string | null; eventId
   if (symbol) return <Dossier key={symbol} symbol={symbol.toUpperCase()} eventId={eventId} />;
   return (
     <>
-      <Statement detail="Every answer comes from the company's own annual reports, earnings-call transcripts and filed results, with a link to the page it came from.">
+      <Statement detail="Answers come only from the company's filings, annual reports and call transcripts, each linked to its page.">
         Ask about any NSE company.
       </Statement>
       <ServerStatus />

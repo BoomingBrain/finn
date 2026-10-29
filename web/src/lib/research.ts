@@ -2,14 +2,18 @@ import type { Citation, DeliveryRow, DossierSources } from "../api/types";
 import { formatCrore } from "./format";
 
 const MONTH = new Intl.DateTimeFormat("en-IN", { month: "short", year: "numeric", timeZone: "UTC" });
+const SHORT_MONTH = new Intl.DateTimeFormat("en-IN", { month: "short", timeZone: "UTC" });
 
-/** "T:2026-08-01:p12" -> "Aug 2026 call, p12"; "AR:2026:p73" -> "Annual report 2026, p73"; "SCR" -> "screener.in" */
+/** Compact chip text: "T:2026-08-01:p12" -> "Aug 26 call p12"; "AR:2026:p73" -> "AR p73"; "SCR" -> "Screener" */
 export function citationLabel(sourceId: string): string {
-  if (sourceId === "SCR") return "screener.in";
+  if (sourceId === "SCR") return "Screener";
   const [kind, doc, page] = sourceId.split(":");
-  const p = page ? `, ${page}` : "";
-  if (kind === "T") return `${MONTH.format(new Date(`${doc}T00:00:00Z`))} call${p}`;
-  if (kind === "AR") return `Annual report ${doc}${p}`;
+  const p = page ? ` ${page}` : "";
+  if (kind === "T") {
+    const d = new Date(`${doc}T00:00:00Z`);
+    return `${SHORT_MONTH.format(d)} ${String(d.getUTCFullYear() % 100).padStart(2, "0")} call${p}`;
+  }
+  if (kind === "AR") return `AR${p}`;
   return sourceId;
 }
 
@@ -49,17 +53,13 @@ export function deliverySummary(rows: DeliveryRow[]): string {
   return pending ? `${head}; ${pending} still in progress.` : `${head}.`;
 }
 
-const DAY = new Intl.DateTimeFormat("en-IN", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Kolkata" });
-
-/** "Covers results to Sep 2026, the Aug 2026 call and the FY26 annual report. Updated 28 Oct 2026." */
-export function coverageText(sources: DossierSources | undefined, builtAt: string | undefined): string | null {
+/** The short form for headers: "Jun 2026 results, Aug 2026 call, FY26 report" */
+export function coverageShort(sources: DossierSources | undefined): string | null {
   if (!sources) return null;
   const parts = [
-    sources.quarter && `results to ${sources.quarter}`,
-    sources.transcript && `the ${MONTH.format(new Date(`${sources.transcript}T00:00:00Z`))} call`,
-    sources.annual_report && `the FY${String(sources.annual_report % 100).padStart(2, "0")} annual report`,
-  ].filter(Boolean) as string[];
-  if (parts.length === 0) return null;
-  const list = parts.length > 1 ? `${parts.slice(0, -1).join(", ")} and ${parts[parts.length - 1]}` : parts[0];
-  return `Covers ${list}.${builtAt ? ` Updated ${DAY.format(new Date(builtAt))}.` : ""}`;
+    sources.quarter && `${sources.quarter} results`,
+    sources.transcript && `${MONTH.format(new Date(`${sources.transcript}T00:00:00Z`))} call`,
+    sources.annual_report && `FY${String(sources.annual_report % 100).padStart(2, "0")} report`,
+  ].filter(Boolean);
+  return parts.length ? parts.join(", ") : null;
 }

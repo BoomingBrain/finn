@@ -1,6 +1,8 @@
 import type { Citation, QuarterPoint, SnapshotData } from "../api/types";
-import { formatCrore, formatPct } from "../lib/format";
+import { directionClass, formatCrore, formatPct, toneAbove, toneBelow } from "../lib/format";
 import { Chips } from "./CitationChip";
+import { Clamp } from "./Clamp";
+import { StatBox, StatGrid } from "./StatBox";
 
 const pct = (v: number | null) => (v === null ? "—" : `${v.toFixed(1)}%`);
 const cr = (v: number | null) => (v === null ? "—" : `₹${formatCrore(v)} Cr`);
@@ -20,7 +22,7 @@ export function Sparkline({ label, points }: { label: string; points: (number | 
   const last = points[points.length - 1];
   return (
     <figure className="min-w-0">
-      <figcaption className="text-[12px] text-muted">{label}, last {points.length} quarters</figcaption>
+      <figcaption className="text-[12px] text-muted">{label}, {points.length} qtrs</figcaption>
       <svg viewBox={`-2 0 ${w + 4} ${h}`} className="mt-1 h-8 w-full max-w-[160px]" role="img" aria-label={`${label} trend, latest ${cr(last)}`}>
         <path d={path} fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
         {last !== null && <circle cx={(points.length - 1) * step} cy={y(last)} r="2.5" fill="currentColor" />}
@@ -29,48 +31,51 @@ export function Sparkline({ label, points }: { label: string; points: (number | 
   );
 }
 
-function Tile({ label, value, note }: { label: string; value: string; note?: string }) {
-  return (
-    <div className="py-2">
-      <dt className="text-[12px] text-muted">{label}</dt>
-      <dd className="text-[17px] font-medium">{value}</dd>
-      {note && <dd className="text-[12px] text-muted">{note}</dd>}
-    </div>
-  );
-}
-
 export function SnapshotSection({ data, citations }: { data: SnapshotData; citations: Citation[] }) {
   const q: QuarterPoint[] = data.quarterly;
+  const marginMove = data.opm_latest !== null && data.opm_3y_ago !== null ? data.opm_latest - data.opm_3y_ago : null;
   return (
     <>
-      {data.about && <p className="mt-2 max-w-[60ch] text-muted">{data.about.replace(/\[\d+\]/g, "")}</p>}
-      <dl className="mt-3 grid grid-cols-2 gap-x-4 border-t border-line sm:grid-cols-3">
-        <Tile label="Revenue, last 4 quarters" value={cr(data.revenue_ttm)} note={data.revenue_cagr_3y === null ? undefined : `${formatPct(data.revenue_cagr_3y)} a year over 3 years`} />
-        <Tile label="Profit, last 4 quarters" value={cr(data.pat_ttm)} note={data.pat_cagr_3y === null ? undefined : `${formatPct(data.pat_cagr_3y)} a year over 3 years`} />
+      {data.about && <Clamp text={data.about.replace(/\[\d+\]/g, "")} lines={3} className="mt-2 text-[14px] text-muted" />}
+      <StatGrid className="mt-3">
+        <StatBox label="Revenue, last 4 qtrs" value={cr(data.revenue_ttm)}>
+          {data.revenue_cagr_3y !== null && (
+            <><span className={directionClass(data.revenue_cagr_3y)}>{formatPct(data.revenue_cagr_3y)}</span><span className="text-muted"> a year, 3 yrs</span></>
+          )}
+        </StatBox>
+        <StatBox label="Profit, last 4 qtrs" value={cr(data.pat_ttm)}>
+          {data.pat_cagr_3y !== null && (
+            <><span className={directionClass(data.pat_cagr_3y)}>{formatPct(data.pat_cagr_3y)}</span><span className="text-muted"> a year, 3 yrs</span></>
+          )}
+        </StatBox>
         {data.lender ? (
-          <Tile label="Return on equity" value={pct(data.roe_latest)} />
+          <StatBox label="Return on equity" value={pct(data.roe_latest)} tone={toneAbove(data.roe_latest, 10, 15)} />
         ) : (
           <>
-            <Tile label="Operating margin" value={pct(data.opm_latest)} note={data.opm_3y_ago === null ? undefined : `${pct(data.opm_3y_ago)} three years ago`} />
-            <Tile label="Return on capital" value={pct(data.roce_latest)} />
-            <Tile label="Debt to equity" value={ratio(data.debt_to_equity)} />
-            <Tile label="Cash from operations ÷ profit" value={ratio(data.cfo_to_pat_3y)} note="over 3 years" />
+            <StatBox label="Operating margin" value={pct(data.opm_latest)}>
+              {marginMove !== null && (
+                <><span className={directionClass(marginMove)}>{formatPct(marginMove).replace("%", " pts")}</span><span className="text-muted"> vs 3 yrs ago</span></>
+              )}
+            </StatBox>
+            <StatBox label="Return on capital" value={pct(data.roce_latest)} tone={toneAbove(data.roce_latest, 10, 18)} />
+            <StatBox label="Debt to equity" value={ratio(data.debt_to_equity)} tone={toneBelow(data.debt_to_equity, 0.5, 1)} />
+            <StatBox label="Cash ÷ profit, 3 yrs" value={ratio(data.cfo_to_pat_3y)} tone={toneAbove(data.cfo_to_pat_3y, 0.7, 1)} />
           </>
         )}
-      </dl>
-      <div className="mt-3 grid grid-cols-2 gap-4">
-        <Sparkline label="Revenue" points={q.map((p) => p.revenue)} />
-        <Sparkline label="Profit" points={q.map((p) => p.pat)} />
+      </StatGrid>
+      <div className="mt-2 grid grid-cols-2 gap-2">
+        <div className="rounded-md bg-surface px-3 py-2.5"><Sparkline label="Revenue" points={q.map((p) => p.revenue)} /></div>
+        <div className="rounded-md bg-surface px-3 py-2.5"><Sparkline label="Profit" points={q.map((p) => p.pat)} /></div>
       </div>
       {data.flags.length > 0 && (
-        <ul className="mt-3 space-y-1">
+        <ul className="mt-2 flex flex-wrap gap-2">
           {data.flags.map((f) => (
-            <li key={f} className="text-critical">{f}</li>
+            <li key={f} className="rounded-sm border border-critical px-2 py-0.5 text-[12px] text-critical">{f}</li>
           ))}
         </ul>
       )}
-      <p className="mt-3 text-[12px] text-muted">
-        {data.basis === "standalone" ? "Standalone" : "Consolidated"} figures computed by FINN from the company's reported numbers.
+      <p className="mt-2 text-[12px] text-muted">
+        {data.basis === "standalone" ? "Standalone" : "Consolidated"}, computed from reported numbers
         <Chips ids={["SCR"]} citations={citations} />
       </p>
     </>
