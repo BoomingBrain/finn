@@ -1,6 +1,29 @@
 {
- "as_of": "2026-10-29T00:29:47.584817+05:30",
+ "as_of": "2026-10-29T13:37:28.957933+05:30",
  "events": [
+  {
+   "id": "9ad9d96333dd670946a598d25ea98b38d3514022",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-10-29T08:55:40+05:30",
+   "last_at": "2026-10-29T08:55:40+05:30",
+   "headline": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 Voluntary strike off of Hamleys (Franchising) Limited",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 Voluntary strike off of Hamleys (Franchising) Limited",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_29102026084603_SE_29102026.pdf",
+     "filed_at": "2026-10-29T08:55:40+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "6b97d8a9e9243035114f26d12cb8eca2b723baf8",
    "symbol": "KPITTECH",
@@ -99,9 +122,9 @@
      "filed_at": "2026-10-28T17:43:39+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-10-28"
   },
   {
    "id": "44d470db8c209968fe27cb807e8c5de186ec6510",
@@ -150,9 +173,9 @@
      "filed_at": "2026-10-28T17:31:34+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.4,
+   "volume_multiple": 1.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "56e335589edb811fa948dab73cbffe1f17501d9a",
@@ -224,9 +247,9 @@
      "filed_at": "2026-10-28T13:28:05+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.9,
+   "volume_multiple": 3.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "c95a5fca41bb77726f4bf01579772cbd3b860ccf",
@@ -258,9 +281,9 @@
      "filed_at": "2026-10-28T13:28:05+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.9,
+   "volume_multiple": 3.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "477b3af1891042206bf7437749059580d59c8f5c",
@@ -286,9 +309,9 @@
      "filed_at": "2026-10-28T13:28:05+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.9,
+   "volume_multiple": 3.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "6f2ee009e5e9a3086c4564cef1bbc362c3c6922c",
@@ -309,9 +332,9 @@
      "filed_at": "2026-10-28T13:15:54+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.9,
+   "volume_multiple": 3.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "dd5d9a3f1e0f688137ba7cc0dbe6f34991ce80b5",
@@ -377,9 +400,9 @@
      "filed_at": "2026-10-28T12:57:10+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.9,
+   "volume_multiple": 3.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "8dc1b05e81942535938b3fe21e71c93e28313fee",
@@ -400,9 +423,9 @@
      "filed_at": "2026-10-28T12:23:25+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.4,
+   "volume_multiple": 0.5,
+   "price_date": "2026-10-28"
   },
   {
    "id": "bce618b1b00c1ce80485827dc260a8c0fe5606a6",
@@ -423,9 +446,9 @@
      "filed_at": "2026-10-28T10:24:43+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-10-28"
   },
   {
    "id": "20fe1f5c11018740cb1b7b3cd39a9811998c86e7",
@@ -446,9 +469,9 @@
      "filed_at": "2026-10-27T22:53:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.4,
+   "volume_multiple": 1.0,
+   "price_date": "2026-10-28"
   },
   {
    "id": "fb7ed8a231d208b027e86f43882fee448afc98bb",
@@ -469,9 +492,9 @@
      "filed_at": "2026-10-27T22:13:16+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.7,
+   "volume_multiple": 3.2,
+   "price_date": "2026-10-28"
   },
   {
    "id": "553ebd16025578eb87c93585c29d9b97699ad52d",
@@ -497,9 +520,9 @@
      "filed_at": "2026-10-27T22:11:29+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.2,
+   "volume_multiple": 1.5,
+   "price_date": "2026-10-28"
   },
   {
    "id": "8291ed2860f0d59ffd38848e9f3c9b2df293cec3",
@@ -520,9 +543,9 @@
      "filed_at": "2026-10-27T18:42:35+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-10-28"
   },
   {
    "id": "3f8c76fa9d26ff69a2a18240c092428f9d807b27",
@@ -588,9 +611,9 @@
      "filed_at": "2026-10-27T18:37:19+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.7,
+   "volume_multiple": 3.2,
+   "price_date": "2026-10-28"
   },
   {
    "id": "6b3edde301af782b9c468bd8e5cddb927cd3ad38",
@@ -611,9 +634,9 @@
      "filed_at": "2026-10-27T17:14:06+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -2.1,
+   "volume_multiple": 1.7,
+   "price_date": "2026-10-28"
   },
   {
    "id": "d6f7fe61da824412f8f79c42c7660ffc403f5541",

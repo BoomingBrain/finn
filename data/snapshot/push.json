@@ -1,6 +1,24 @@
 {
- "as_of": "2026-10-29T00:29:47.584817+05:30",
+ "as_of": "2026-10-29T13:37:28.957933+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "9ad9d96333dd670946a598d25ea98b38d3514022",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-29T08:55:40+05:30",
+    "subject": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 Voluntary strike off of Hamleys (Franchising) Limited",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_29102026084603_SE_29102026.pdf",
+    "raw_category": "Other Restructuring",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "6b97d8a9e9243035114f26d12cb8eca2b723baf8",
