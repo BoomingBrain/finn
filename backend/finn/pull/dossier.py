@@ -255,27 +255,31 @@ def needs_build(existing: dict | None, current_sources: dict | None = None) -> s
     return None
 
 
-async def _precompute(symbols: list[str], store: SnapshotStore, llm: LLM, mode: str, parallel: int):
+async def _reason_to_build(symbol: str, store: SnapshotStore, mode: str) -> str | None:
+    existing = store.load_dossier(symbol)
+    if mode == "all":
+        return "requested"
+    if mode == "missing":
+        return None if existing else "missing"
+    current = None
+    if mode == "refresh" and existing is not None:
+        try:
+            current = source_fingerprint(await asyncio.to_thread(fetch_company, symbol))
+        except Exception as e:
+            log.warning("%s: can't check sources, keeping the saved dossier: %r", symbol, e)
+    return needs_build(existing, current)
+
+
+async def _precompute(symbols: list[str], store: SnapshotStore, llm: LLM, mode: str, parallel: int,
+                      limit: int | None = None):
     """mode: "all" rebuilds every symbol; "missing" only absent ones; "failed" adds failed ones; "refresh" adds
-    ones whose sources changed (one cached screener fetch each, no model calls)."""
+    ones whose sources changed (one cached screener fetch each, no model calls). `limit` caps how many are built
+    this run, in input order; symbols that need nothing don't count."""
+    reasons = await asyncio.gather(*(_reason_to_build(s, store, mode) for s in symbols))
+    todo = [(s, why) for s, why in zip(symbols, reasons) if why][:limit]
     gate = asyncio.Semaphore(parallel)
 
-    async def one(symbol: str):
-        existing = store.load_dossier(symbol)
-        if mode == "all":
-            why = "requested"
-        elif mode == "missing":
-            why = None if existing else "missing"
-        else:
-            current = None
-            if mode == "refresh" and existing is not None:
-                try:
-                    current = source_fingerprint(await asyncio.to_thread(fetch_company, symbol))
-                except Exception as e:
-                    log.warning("%s: can't check sources, keeping the saved dossier: %r", symbol, e)
-            why = needs_build(existing, current)
-        if why is None:
-            return
+    async def one(symbol: str, why: str):
         async with gate:
             started = datetime.now()
             try:
@@ -287,7 +291,7 @@ async def _precompute(symbols: list[str], store: SnapshotStore, llm: LLM, mode: 
             states = " ".join(f"{s.section}={s.status}" for s in d.sections)
             log.info("%s rebuilt (%s) in %.0fs: %s", symbol, why, (datetime.now() - started).total_seconds(), states)
 
-    await asyncio.gather(*(one(s) for s in symbols))
+    await asyncio.gather(*(one(s, why) for s, why in todo))
 
 
 def main():
@@ -298,6 +302,8 @@ def main():
                         help="every holding, the research demo tickers and every saved dossier")
     parser.add_argument("--holdings", action="store_true", help="only the portfolio's holdings (the daily refresh)")
     parser.add_argument("--symbols", help="comma-separated tickers")
+    parser.add_argument("--symbols-file", help="one ticker per line; # starts a comment")
+    parser.add_argument("--limit", type=int, help="build at most this many this run")
     parser.add_argument("--mode", choices=["all", "missing", "failed", "refresh"], default="all",
                         help="all: rebuild; missing: only absent; failed: absent or failed; refresh: also outdated")
     parser.add_argument("--parallel", type=int, default=3)
@@ -307,11 +313,14 @@ def main():
         symbols = [h.symbol for h in load_portfolio().holdings]
     elif args.all:
         symbols = sorted(set(demo_symbols()) | set(store.list_dossiers()))
+    elif args.symbols_file:
+        with open(args.symbols_file) as f:
+            symbols = [line.split("#")[0].strip().upper() for line in f if line.split("#")[0].strip()]
     else:
         symbols = [s.strip().upper() for s in (args.symbols or "").split(",") if s.strip()]
     if not symbols:
-        parser.error("pass --holdings, --all or --symbols")
-    asyncio.run(_precompute(symbols, store, LLM(), args.mode, args.parallel))
+        parser.error("pass --holdings, --all, --symbols or --symbols-file")
+    asyncio.run(_precompute(symbols, store, LLM(), args.mode, args.parallel, args.limit))
     write_symbols(store)
     print(LLM().usage())
 

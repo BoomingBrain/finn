@@ -1,10 +1,12 @@
 import asyncio
 import json
 import threading
-from datetime import date
+from datetime import date, datetime, timezone
 
 from finn.llm import LLM
-from finn.pull.dossier import build_dossier, needs_build, source_fingerprint
+from finn.pull import dossier
+from finn.pull.dossier import Dossier, build_dossier, needs_build, source_fingerprint
+from finn.snapshot import SnapshotStore
 from finn.pull.sections import Point, business_pages, drop_uncited
 from finn.sources.documents import DocText, DocumentError
 from finn.sources.screener import CompanyData, DocLink, Table
@@ -196,3 +198,17 @@ def test_business_failure_does_not_touch_delivery(tmp_path):
     sections = run(llm, company([TRANSCRIPT], [REPORT]), {}, fetch_fn=fetch)
     assert sections[1].status == "ready"
     assert (sections[2].status, sections[2].reason) == ("unavailable", "Analysis failed")
+
+
+def test_limit_caps_new_builds(tmp_path, monkeypatch):
+    built = []
+
+    async def fake_collect(symbol, llm, **kw):
+        built.append(symbol)
+        return Dossier(symbol=symbol, name=symbol, built_at=datetime.now(timezone.utc), basis="", sections=[])
+
+    monkeypatch.setattr(dossier, "collect_dossier", fake_collect)
+    store = SnapshotStore(tmp_path)
+    store.save_dossier("A", {"symbol": "A", "sections": []})  # exists: skipped, not counted
+    asyncio.run(dossier._precompute(["A", "B", "C", "D"], store, None, mode="missing", parallel=1, limit=2))
+    assert built == ["B", "C"]
