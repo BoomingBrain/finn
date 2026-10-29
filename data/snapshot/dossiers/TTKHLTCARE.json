@@ -1,0 +1,256 @@
+{
+ "symbol": "TTKHLTCARE",
+ "name": "TTK Healthcare Ltd",
+ "built_at": "2026-10-29T06:01:00.531405Z",
+ "basis": "standalone",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": null,
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "TTK Healthcare Ltd",
+    "about": "TTK Healthcare Ltd is a standalone TTK Group company in consumer /OTC brands, animal health, medical devices, condoms/sexual-wellness and ready-to-fry foods. HumanPharma was divested in May 2022;agreements to sell EVA and GoodHome were signed in July 2026.[1][2]",
+    "basis": "standalone",
+    "built_at": "2026-10-29T06:00:09.575729+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": null,
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 889.0,
+    "pat_ttm": 74.0,
+    "revenue_cagr_3y": 5.7,
+    "pat_cagr_3y": -53.1,
+    "opm_latest": 3.0,
+    "opm_3y_ago": 4.3,
+    "roce_latest": 8.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.02,
+    "cfo_to_pat_3y": -0.14,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 198.0,
+      "pat": 17.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 205.0,
+      "pat": 17.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 190.0,
+      "pat": 16.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 226.0,
+      "pat": 13.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 204.0,
+      "pat": 20.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 209.0,
+      "pat": 11.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 218.0,
+      "pat": 22.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 258.0,
+      "pat": 21.0
+     }
+    ],
+    "flags": [
+     "Profits not converting to cash"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/TTKHLTCARE/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "unavailable",
+   "reason": "No concall transcripts on screener.in",
+   "data": null,
+   "citations": []
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "TTK Healthcare Limited manufactures and sells a diversified portfolio of consumer, animal welfare, food, medical device, and protective device products to customers across India and internationally. Its brands serve household, institutional, and healthcare markets, including surgeons, veterinarians, and pharmacies.",
+    "segments": [
+     {
+      "name": "Medical Devices",
+      "share_pct": 12.47,
+      "source_ids": [
+       "AR:2026:p45"
+      ]
+     },
+     {
+      "name": "Animal Welfare Products",
+      "share_pct": 16.46,
+      "source_ids": [
+       "AR:2026:p45"
+      ]
+     },
+     {
+      "name": "Food Products",
+      "share_pct": 17.63,
+      "source_ids": [
+       "AR:2026:p45"
+      ]
+     },
+     {
+      "name": "Male Contraceptives",
+      "share_pct": 25.26,
+      "source_ids": [
+       "AR:2026:p45"
+      ]
+     },
+     {
+      "name": "Home Care Products",
+      "share_pct": 9.45,
+      "source_ids": [
+       "AR:2026:p45"
+      ]
+     },
+     {
+      "name": "Cosmetics and Deodorant",
+      "share_pct": 7.88,
+      "source_ids": [
+       "AR:2026:p45"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p19",
+     "AR:2026:p20",
+     "AR:2026:p22",
+     "AR:2026:p23",
+     "AR:2026:p24",
+     "AR:2026:p44",
+     "AR:2026:p45"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p19",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/df414a28-17af-4a26-8090-80e8509a5386.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "AR:2026:p20",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/df414a28-17af-4a26-8090-80e8509a5386.pdf",
+     "page": 20
+    },
+    {
+     "source_id": "AR:2026:p22",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/df414a28-17af-4a26-8090-80e8509a5386.pdf",
+     "page": 22
+    },
+    {
+     "source_id": "AR:2026:p23",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/df414a28-17af-4a26-8090-80e8509a5386.pdf",
+     "page": 23
+    },
+    {
+     "source_id": "AR:2026:p24",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/df414a28-17af-4a26-8090-80e8509a5386.pdf",
+     "page": 24
+    },
+    {
+     "source_id": "AR:2026:p44",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/df414a28-17af-4a26-8090-80e8509a5386.pdf",
+     "page": 44
+    },
+    {
+     "source_id": "AR:2026:p45",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/df414a28-17af-4a26-8090-80e8509a5386.pdf",
+     "page": 45
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "The company operates a diversified portfolio across six segments with the largest (Male Contraceptives) contributing only 25.26% of revenue, reducing single-segment concentration risk.",
+      "source_ids": [
+       "AR:2026:p45"
+      ]
+     },
+     {
+      "text": "The balance sheet is nearly debt-free with a debt-to-equity ratio of just 0.02, providing financial flexibility.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Quarterly revenue has grown sequentially from ₹204 Cr in Sep 2025 to ₹258 Cr in Jun 2026, a 26% increase over three quarters.",
+      "source_ids": [
+       "SCR"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Despite a 5.7% revenue CAGR over three years, PAT has collapsed at a -53.1% CAGR, signaling severe margin erosion.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating cash flow has been negative relative to PAT over three years (ratio -0.14), with the screener flagging 'Profits not converting to cash'.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin has fallen from 4.3% to 3% and ROCE stands at only 8%, indicating deteriorating profitability and capital efficiency.",
+      "source_ids": [
+       "SCR"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p45",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/df414a28-17af-4a26-8090-80e8509a5386.pdf",
+     "page": 45
+    },
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/TTKHLTCARE/",
+     "page": null
+    }
+   ]
+  }
+ ]
+}
