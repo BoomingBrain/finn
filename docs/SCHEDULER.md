@@ -7,7 +7,6 @@ All jobs run on GitHub Actions. GitHub delays or drops `schedule:` runs when it 
 |---|---|---|
 | `ingest.yml` | Mon–Fri 09:47, 11:47, 13:47, 15:47, 17:47; daily 19:11 | Filings, prices, signals |
 | `dossiers.yml` | Daily 20:17 | Refresh the holdings' research when new results, calls or annual reports appear |
-| `prebuild.yml` | Daily 02:43 | Build missing Nifty 50 dossiers, 8 a night |
 | `watchdog.yml` | Every hour at :23 and :53 | Start any job above that is overdue |
 
 - **Off the hour:** every schedule avoids minute 0, where GitHub's load, and so its delays, peak.

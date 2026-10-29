@@ -103,10 +103,7 @@
     <h4>Refresh holdings' research <small>20:17 IST daily, then rebuild the chat index</small></h4>
     <p style="color:var(--muted); font-size:12px;">Rebuilds a holding's dossier only when screener lists new results, a new earnings call or a new annual report. The check costs no model calls.</p>
   </div>
-  <div class="lane">
-    <h4>Prebuild popular companies <small>02:43 IST nightly</small></h4>
-    <p style="color:var(--muted); font-size:12px;">Nifty 50 constituents without a dossier, 8 a night, so most tickers anyone types open instantly.</p>
-  </div>
+
 </div>
 
 <!-- Repository -->
@@ -120,7 +117,7 @@
     <b>signals.json</b> daily moves for the portfolio<br>
     <b>prices.json</b> closing prices<br>
     <b>symbols.json</b> search list, instant ones marked<br>
-    <b>dossiers/{SYMBOL}.json</b> one research dossier each: 18 holdings, demo set, Nifty 50, and every company researched live<br><b>rag/index.json</b> every report as cited passages with embeddings, for Chat
+    <b>dossiers/{SYMBOL}.json</b> one research dossier each: 18 holdings, demo set, and every company researched live<br><b>rag/index.json</b> every report as cited passages with embeddings, for Chat
   </div>
   <div class="box" style="margin-top:8px;"><h3>Deploy</h3><p>Each job commits the snapshot, then publishes the built app plus data to the Space. Code-only changes redeploy the live service.</p></div>
 </div>

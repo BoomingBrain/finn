@@ -58,6 +58,7 @@ are in [build-history/](build-history/); the task-by-task engineering record is 
 | 28 | Find out how to make live research faster, test whether more models can share the slow step, and plan the work. | Measured the bottleneck; tested 7 models (none qualified); plan for passage-level extraction, a parallel annual report and a nightly Nifty 50 prebuild ([plan](superpowers/plans/2026-10-29-faster-live-research.md)), executed task by task. |
 | 29 | Make scheduling robust using GitHub Actions only. | Schedules moved off the top of the hour; a watchdog workflow starts any job that's overdue. |
 | 30 | Add a chat section that answers questions about the holdings and researched companies only, says "research pending" for anything else, and uses retrieval over the researched content only. | Chat tab over an embedded index of every report's cited passages; uncited, off-topic and unresearched questions handled without inventing answers. |
+| 31 | Stop prebuilding the Nifty 50; research other companies only when asked. | Prebuild job and its company list removed, and the watchdog no longer restarts it. Live research results are still saved permanently. |
 
 ## Appendix: full text of the plan review
 

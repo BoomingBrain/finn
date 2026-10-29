@@ -15,8 +15,8 @@ log = logging.getLogger(__name__)
 
 MARKET_OPEN, MARKET_CLOSE = time(9, 0), time(18, 30)
 DAILY = timedelta(hours=26)  # a day plus slack for a late run
-MAX_AGE = {"dossiers": DAILY, "prebuild": DAILY}
-WORKFLOWS = {"ingest": "ingest.yml", "dossiers": "dossiers.yml", "prebuild": "prebuild.yml"}
+MAX_AGE = {"dossiers": DAILY}
+WORKFLOWS = {"ingest": "ingest.yml", "dossiers": "dossiers.yml"}
 
 
 def overdue(job: str, last_started: datetime | None, now: datetime) -> bool:

@@ -63,6 +63,12 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-10-29 — Nifty 50 prebuild stopped (user decision)
+- Removed `.github/workflows/prebuild.yml` and `finn/data/nifty50.txt`. The watchdog now watches only ingest and the holdings refresh, so it can't restart the prebuild (test `test_prebuild_is_not_watched`).
+- The first prebuild run (8 companies, nothing saved yet) was cancelled.
+- Other companies are researched live when asked; each complete result is still saved permanently and joins the chat index.
+- The generic CLI options (`--symbols-file`, `--limit`) stay.
+
 ### 2026-10-29 — Chat over the research reports (RAG)
 - **`finn/rag.py`:**
   - each dossier is chunked into cited passages, each naming its company

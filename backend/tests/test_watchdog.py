@@ -20,10 +20,14 @@ def test_ingest_allows_a_long_gap_outside_market_hours():
 def test_daily_jobs_overdue_after_26_hours():
     assert not overdue("dossiers", THU_11 - timedelta(hours=25), THU_11)
     assert overdue("dossiers", THU_11 - timedelta(hours=27), THU_11)
-    assert overdue("prebuild", THU_11 - timedelta(hours=27), THU_11)
 
 
 def test_never_run_is_overdue_and_times_compare_across_zones():
     assert overdue("ingest", None, THU_11)
     utc_recent = (THU_11 - timedelta(minutes=30)).astimezone(timezone.utc)
     assert not overdue("ingest", utc_recent, THU_11)
+
+
+def test_prebuild_is_not_watched():
+    from finn.watchdog import WORKFLOWS
+    assert set(WORKFLOWS) == {"ingest", "dossiers"}  # prebuilding was stopped on 29 Oct: research happens when asked
