@@ -1,6 +1,504 @@
 {
- "as_of": "2026-10-29T13:37:28.957933+05:30",
+ "as_of": "2026-10-29T20:47:57.871169+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "857e6075e28b0862e15c3e0b20a3683c9b5eaeff",
+    "symbol": "DEEPAKNTR",
+    "company": "Deepak Nitrite Limited",
+    "filed_at": "2026-10-29T18:41:23+05:30",
+    "subject": "Deepak Nitrite Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_29102026183918_NSE-29-10-2026-bm-ufr.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c7ca99b8cb31cd61cec8bd446743998553978b6a",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-29T17:40:50+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about allotment of Commercial Paper of Rs. 200 crores",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_29102026173942_CPAllotmentIntimation29102026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "notable",
+   "summary": "Avenue Supermarts allotted Rs. 200 crores of unsecured Commercial Paper due 11th December 2026 at 7.20% interest, rated ICRA A1+.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "3269790749d5bbcbf358626a643536814d6183b7",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-29T16:45:56+05:30",
+    "subject": "Asian Paints Limited has informed the Exchange about Investor Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026164544_SEIntimation_Investor_Presentation_Q2FY26-27pdfsigned.pdf",
+    "raw_category": "Investor Presentation",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "299b6b209492354dcc733fe5137a26f836976504",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-29T16:32:13+05:30",
+    "subject": "Trent Limited has informed the Exchange about Retirement of Mr. Noel N Tata as the Chairman",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026163122_AppointmentofDirector.pdf",
+    "raw_category": "Retirement",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. Noel N. Tata",
+    "role": "Chairman and Director",
+    "change": "retired",
+    "effective_date": "close of business hours on 11th November 2026",
+    "background": "Mr. Tata has been associated with the Company since 1997 and has provided exemplary leadership and strategic direction throughout his tenure.",
+    "prior_roles": [
+     "Director and Chairman of the Company"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "0a739bb5525e9eb21e19fcdd0e89480e1af24369",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-29T16:32:13+05:30",
+    "subject": "Trent Limited has informed the Exchange regarding Change in Director(s) of the company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026163102_AppointmentofDirector.pdf",
+    "raw_category": "Change in Director(s)",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. Noel N. Tata",
+    "role": "Chairman and Director",
+    "change": "retired",
+    "effective_date": "close of business hours on 11th November 2026",
+    "background": "Mr. Tata has been associated with the Company since 1997 and has provided exemplary leadership and strategic direction throughout his tenure.",
+    "prior_roles": [
+     "Director and Chairman of the Company"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "4711db57169515e89b1b4a7a09a4ba74ad20fec2",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-29T16:32:13+05:30",
+    "subject": "Trent Limited has informed the Exchange regarding Appointment of Mr Rajiv Dube as Non- Executive Director of the company w.e.f. October 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026163044_AppointmentofDirector.pdf",
+    "raw_category": "Appointment",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. Noel N. Tata",
+    "role": "Chairman and Director",
+    "change": "retired",
+    "effective_date": "close of business hours on 11th November 2026",
+    "background": "Mr. Tata has been associated with the Company since 1997 and has provided exemplary leadership and strategic direction throughout his tenure.",
+    "prior_roles": [
+     "Director and Chairman of the Company"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "3a01863da824d825a6ff7df284caa1e20e80c61a",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-29T16:32:13+05:30",
+    "subject": "Trent Limited has informed the Exchange regarding Appointment of Mrs Kalpana Merchant as Non- Executive Independent Director of the company w.e.f. October 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026163140_AppointmentofDirector.pdf",
+    "raw_category": "Appointment",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. Noel N. Tata",
+    "role": "Chairman and Director",
+    "change": "retired",
+    "effective_date": "close of business hours on 11th November 2026",
+    "background": "Mr. Tata has been associated with the Company since 1997 and has provided exemplary leadership and strategic direction throughout his tenure.",
+    "prior_roles": [
+     "Director and Chairman of the Company"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "f07ae39721e00197fa10367cf756666fb816b6b6",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-29T16:21:37+05:30",
+    "subject": "Trent Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Press Release on Unaudited Financial Results (Standalone and Consolidated) for thesecond quarter and half-year ended 30th September 2026\".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026162053_PressReleaseOct2026.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e2bd816f932a8db81c70126d0dab477ef3965289",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-29T16:17:38+05:30",
+    "subject": "Trent Limited has informed the Exchange about Investor Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026161637_InvestorPresentationQ2FY27.pdf",
+    "raw_category": "Investor Presentation",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d4a678e1312a5fd98369a8fa76717fb23911cf17",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-10-29T16:08:05+05:30",
+    "subject": "Trent Limited has submitted to the Exchange about Outcome of Board Meeting held today i.e. 29th October 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_29102026160446_DraftOutcomeofBM.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c3203ec726ab2f81a19dedf98c3854c28d3e0fc1",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-29T15:33:13+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about Copy of Newspaper Publication of Unaudited Consolidated Financial Results for the quarter and half year ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_29102026153248_Newspaper_Publication_Signed.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f4bed4694744b865c8252c28c780094d507a8867",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-29T15:15:01+05:30",
+    "subject": "Infosys Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/INFY_29102026151445_SE_intimation_Newspaper_ad_2.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "ff8ff37786072fe4fa748307ea0ec26546c5be1f",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-29T15:05:32+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Winners of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/INFY_29102026150417_PR_29102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys Finacle and Qorus announced 37 winners across 10 innovation categories from 538 projects submitted by 206 institutions in 68…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b573120c4de2b72051103bbd7bee2089c89943f4",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-29T14:14:43+05:30",
+    "subject": "Please find enclosed the Press Release on the performance of the Company for the quarter and half year ended 30th September 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026141409_OutcomeofBM29102026signed.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Board approved audited standalone and unaudited consolidated financial results for Q2 and H1 FY27, and an interim dividend of Rs. 5.75 per…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "ab8a387faa308369f7a896ffbb86760ed4308aee",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-29T14:12:34+05:30",
+    "subject": "The Board of Directors at their meeting held today i.e., 29th October 2026, has, inter alia, approved the payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 2027",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026141215_OutcomeofBM29102026signed.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "dividend",
+   "tier": "notable",
+   "summary": "Board approved interim dividend of Rs. 5.75 per share (face value Re. 1) for FY ending 31 March 2027, record date 4 November 2026, payment…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "07699c9fad9dc3a38adfc81edfce11c81e73d21c",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-29T14:10:22+05:30",
+    "subject": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 2027",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140936_OutcomeofBM29102026signed.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 9976.51,
+      "prev_q": 10541.94,
+      "year_ago": 8531.27,
+      "qoq_pct": -5.4,
+      "yoy_pct": 16.9
+     },
+     "EBITDA": {
+      "current": 1599.06,
+      "prev_q": 2206.92,
+      "year_ago": 1541.68,
+      "qoq_pct": -27.5,
+      "yoy_pct": 3.7
+     },
+     "PBT": {
+      "current": 1477.78,
+      "prev_q": 2095.75,
+      "year_ago": 1391.52,
+      "qoq_pct": -29.5,
+      "yoy_pct": 6.2
+     },
+     "PAT": {
+      "current": 1085.35,
+      "prev_q": 1559.45,
+      "year_ago": 1018.23,
+      "qoq_pct": -30.4,
+      "yoy_pct": 6.6
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": true,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "44bc041409a1f3f841f4a413b4f11e470e374df9",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-29T14:08:00+05:30",
+    "subject": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 2027.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140642_OutcomeofBM29102026signed.pdf",
+    "raw_category": "Dividend",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 9976.51,
+      "prev_q": 10541.94,
+      "year_ago": 8531.27,
+      "qoq_pct": -5.4,
+      "yoy_pct": 16.9
+     },
+     "EBITDA": {
+      "current": 1599.06,
+      "prev_q": 2206.92,
+      "year_ago": 1541.68,
+      "qoq_pct": -27.5,
+      "yoy_pct": 3.7
+     },
+     "PBT": {
+      "current": 1477.78,
+      "prev_q": 2095.75,
+      "year_ago": 1391.52,
+      "qoq_pct": -29.5,
+      "yoy_pct": 6.2
+     },
+     "PAT": {
+      "current": 1085.35,
+      "prev_q": 1559.45,
+      "year_ago": 1018.23,
+      "qoq_pct": -30.4,
+      "yoy_pct": 6.6
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": true,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "780fb9347a0736c396d110e6156495084f3804e7",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-29T14:04:43+05:30",
+    "subject": "Asian Paints Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140213_OutcomeofBM29102026signed.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 9976.51,
+      "prev_q": 10541.94,
+      "year_ago": 8531.27,
+      "qoq_pct": -5.4,
+      "yoy_pct": 16.9
+     },
+     "EBITDA": {
+      "current": 1599.06,
+      "prev_q": 2206.92,
+      "year_ago": 1541.68,
+      "qoq_pct": -27.5,
+      "yoy_pct": 3.7
+     },
+     "PBT": {
+      "current": 1477.78,
+      "prev_q": 2095.75,
+      "year_ago": 1391.52,
+      "qoq_pct": -29.5,
+      "yoy_pct": 6.2
+     },
+     "PAT": {
+      "current": 1085.35,
+      "prev_q": 1559.45,
+      "year_ago": 1018.23,
+      "qoq_pct": -30.4,
+      "yoy_pct": 6.6
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": true,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f363596e48367be5f1962f7c6a9c2bba826f0229",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-10-29T13:42:21+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_29102026134154_BhartiAirtelSTXIntimation.pdf",
+    "raw_category": "Action(s) taken or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "DoT Karnataka imposed a penalty of Rs. 2.14 lakh on Bharti Airtel for alleged subscriber verification norm violations in August 2026, and…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "9ad9d96333dd670946a598d25ea98b38d3514022",
