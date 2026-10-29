@@ -63,6 +63,26 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-10-29 — Chat over the research reports (RAG)
+- **`finn/rag.py`:**
+  - each dossier is chunked into cited passages, each naming its company
+  - `Embedder` uses NVIDIA `nemotron-3.5-embed-1b` (1.4 s a call; the 8B model took 14 s), batched by 64 and cached in SQLite
+  - `build_index` writes `rag/index.json` with float16 vectors: 709 passages from 26 reports, 4.2 MB, 35 s
+  - `Index.search` is hybrid: 0.6 × cosine + 0.4 × BM25. Named companies share the 12 slots; otherwise at most 4 per company.
+  - `find_companies` matches whole-word symbols, names, or a distinctive first word, and returns the researched companies named plus "pending" for others
+- **`pull/chat.py` + `POST /api/chat`:**
+  - fast-model answer with the citation guard
+  - a relevance gate: no company named and best cosine < 0.25 means not covered, with no model call (measured: relevant 0.33–0.59, off-topic 0.10–0.20)
+  - pending-only questions make no model call; follow-ups carry the previous companies
+  - 30 questions per IP an hour; 503 until the index loads
+  - Render fetches the index from the Space every 30 min; a dossier saved live joins it at once
+- **Web:** a Chat tab with suggestion chips, cited answers, "Research pending … Research it" and fixed error copy. Citation chips now read "May '23 call" (was "May 23", which looked like a date).
+- **Real-model checks:**
+  - "Is Polycab's debt a concern?": cited answer in 5.8 s
+  - "Which companies missed their guidance?": real misses across HAL, L&T, IRCTC and Titan, each citing the call page
+  - "What's the weather in Mumbai?": originally answered with irrelevant cited facts, which is what led to the relevance gate
+- Tests: backend 244, web 37.
+
 ### 2026-10-29 — App-wide polish: boxes for numbers, less text, coloured figures (user request, /frontend-design)
 - **`StatBox`/`StatGrid`:** flat surface tiles with a small label and a large tabular figure. Used only where the content is numbers: the results card (2×2 with coloured QoQ/YoY, plus "Matches reported" when cross-checked), the report snapshot, verdict counts, Watch thresholds, and Portfolio best/worst/today. Words stay in hairline rows, so it doesn't become a card kit.
 - **Colour by meaning:** growth and changes up/down; ROCE/ROE, debt-to-equity and cash conversion coloured by their red-flag thresholds (`toneAbove`/`toneBelow`); verdicts met/partly/missed/in progress; bull/bear with green/red rules; segment shares as bars.

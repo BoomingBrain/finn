@@ -7,6 +7,7 @@ FINN is a mobile-first web app for an investor who holds 18 Indian stocks. It ha
 - **Brief:** what changed across the portfolio in a time window you choose, with the few things that matter on top and everything routine collapsed.
 - **Watch:** alerts on the thresholds *you* set: filing types you care about, volume spikes, price moves. Each slider shows how often it would have fired over the last 30 days.
 - **Ask:** a research dossier on any NSE company, built only from its own filings, annual report and earnings-call transcripts, with every claim linked to the exact PDF page.
+- **Chat:** questions in your own words about your holdings and researched companies, answered only from FINN's reports, each sentence cited.
 
 ## Point of view
 
@@ -42,6 +43,13 @@ The scarce skill is not collecting information but deciding what to ignore, so F
 3. **The business:** what it sells and to whom, plus segments with their share of turnover. Shares come from the annual report's BRSR "business activities" table and are blanked unless printed on the cited page.
 4. **Bull vs bear:** at most three cited points each side, from the stronger reasoning model.
 
+**Chat (holdings and researched companies)**
+- **Ask in your own words:** "Is Polycab's debt a concern?", "Which holdings missed guidance?", "Compare margins of Infosys and Persistent".
+- **Retrieval over FINN's reports only.** Every report is split into small cited passages and embedded with NVIDIA's embedding model. A question is matched by meaning and keywords, and the fast model answers in at most 5 sentences, each citing a passage, so uncited sentences are dropped.
+- **Unknown companies:** a question naming a company without a report gets "Research pending for {name}", with a link to research it.
+- **Off-topic questions** (measured by how close they come to anything researched) get "The reports don't cover that", with no model call.
+- **Follow-ups** ("what about its margins?") keep the previous question's companies.
+
 Four demo tickers (PIDILITIND, HAL, CDSL, NAUKRI) and all 18 holdings are precomputed and open instantly. Any other ticker is researched live on the server, and its sections stream in as they finish.
 
 **Every dossier is built once and kept current:**
@@ -57,7 +65,7 @@ Four demo tickers (PIDILITIND, HAL, CDSL, NAUKRI) and all 18 holdings are precom
 
 ![FINN architecture: sources, scheduled jobs, model gateway, repository, static app and live research service](docs/architecture.png)
 
-The diagram's source is [docs/architecture/architecture.html](docs/architecture/architecture.html); re-render with headless Chrome at 1800×1250, scale 2.
+The diagram's source is [docs/architecture/architecture.html](docs/architecture/architecture.html); re-render with headless Chrome at 1800×1340, scale 2.
 
 ```
 GitHub Actions (every 2 h on market days + 19:11 IST; a watchdog restarts missed runs)

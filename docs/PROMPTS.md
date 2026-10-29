@@ -56,6 +56,8 @@ are in [build-history/](build-history/); the task-by-task engineering record is 
 | 26 | Move the Watch settings to the top as a compact, expandable summary. | The alert rule as threshold boxes; tap to edit in place. |
 | 27 | Polish the whole interface: less text, information in compact boxes, colour-coded numbers. | Stat boxes for every number group, threshold-coloured ratios, clamped non-AI text, compact citations. |
 | 28 | Find out how to make live research faster, test whether more models can share the slow step, and plan the work. | Measured the bottleneck; tested 7 models (none qualified); plan for passage-level extraction, a parallel annual report and a nightly Nifty 50 prebuild ([plan](superpowers/plans/2026-10-29-faster-live-research.md)), executed task by task. |
+| 29 | Make scheduling robust using GitHub Actions only. | Schedules moved off the top of the hour; a watchdog workflow starts any job that's overdue. |
+| 30 | Add a chat section that answers questions about the holdings and researched companies only, says "research pending" for anything else, and uses retrieval over the researched content only. | Chat tab over an embedded index of every report's cited passages; uncited, off-topic and unresearched questions handled without inventing answers. |
 
 ## Appendix: full text of the plan review
 

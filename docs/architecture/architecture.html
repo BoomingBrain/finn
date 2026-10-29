@@ -10,7 +10,7 @@
     --flow: #7fa7c9; --ai: #e8a33d; --code: #5dbb8a; --live: #c49be8;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { width: 1800px; height: 1250px; background: var(--bg); color: var(--text); font: 13px/1.4 "Public Sans", sans-serif;
+  body { width: 1800px; height: 1340px; background: var(--bg); color: var(--text); font: 13px/1.4 "Public Sans", sans-serif;
          font-variant-numeric: tabular-nums; position: relative; overflow: hidden; }
   .serif { font-family: "Newsreader", Georgia, serif; }
   header { position: absolute; left: 40px; top: 30px; right: 40px; display: flex; justify-content: space-between; align-items: flex-end; }
@@ -89,7 +89,7 @@
   <h2>Scheduled jobs on GitHub Actions</h2>
   <p class="sub">Offline and incremental: each filing is processed once, every model answer is cached</p>
   <div class="lane" style="border-top:0; margin-top:0; padding-top:0;">
-    <h4>Ingest <small>every 2 h on market days, and 19:00 IST</small></h4>
+    <h4>Ingest <small>every 2 h on market days, and 19:11 IST; a watchdog restarts missed runs</small></h4>
     <div class="pipe">
       <div class="box"><div class="step"><span class="num">1</span><div><h3>Fetch</h3><p>New filings and closing prices</p></div></div></div>
       <div class="box"><div class="step"><span class="num">2</span><div><h3>Classify <span class="tag code">rules</span></h3><p>17 categories into critical, notable, routine; rules settle 92%, a fast model the rest</p></div></div></div>
@@ -100,11 +100,11 @@
     </div>
   </div>
   <div class="lane">
-    <h4>Refresh holdings' research <small>20:00 IST daily</small></h4>
+    <h4>Refresh holdings' research <small>20:17 IST daily, then rebuild the chat index</small></h4>
     <p style="color:var(--muted); font-size:12px;">Rebuilds a holding's dossier only when screener lists new results, a new earnings call or a new annual report. The check costs no model calls.</p>
   </div>
   <div class="lane">
-    <h4>Prebuild popular companies <small>02:30 IST nightly</small></h4>
+    <h4>Prebuild popular companies <small>02:43 IST nightly</small></h4>
     <p style="color:var(--muted); font-size:12px;">Nifty 50 constituents without a dossier, 8 a night, so most tickers anyone types open instantly.</p>
   </div>
 </div>
@@ -120,7 +120,7 @@
     <b>signals.json</b> daily moves for the portfolio<br>
     <b>prices.json</b> closing prices<br>
     <b>symbols.json</b> search list, instant ones marked<br>
-    <b>dossiers/{SYMBOL}.json</b> one research dossier each: 18 holdings, demo set, Nifty 50, and every company researched live
+    <b>dossiers/{SYMBOL}.json</b> one research dossier each: 18 holdings, demo set, Nifty 50, and every company researched live<br><b>rag/index.json</b> every report as cited passages with embeddings, for Chat
   </div>
   <div class="box" style="margin-top:8px;"><h3>Deploy</h3><p>Each job commits the snapshot, then publishes the built app plus data to the Space. Code-only changes redeploy the live service.</p></div>
 </div>
@@ -134,12 +134,13 @@
     <div class="box"><h3>Portfolio</h3><p>Every holding's price line over 1 week, 1 month or 3 months; biggest movers first</p></div>
     <div class="box"><h3>Watch</h3><p>Your alert rule and inbox; thresholds stored on the device, alerts computed in the browser, each slider backtested on 30 days</p></div>
     <div class="box"><h3>Ask</h3><p>Search 2,618 companies; a ready dossier opens instantly, any other is researched live with real progress and a notification when done</p></div>
+    <div class="box"><h3>Chat</h3><p>Questions in your own words about holdings and researched companies; answered from the reports only, every sentence cited</p></div>
   </div>
   <div class="box" style="margin-top:8px;"><h3>Every number has a source</h3><p>Citation chips open the PDF on the exact page; cards say whether they match the reported quarter</p></div>
 </div>
 
 <!-- Principles -->
-<div class="zone" style="left:40px; top:770px; width:260px; height:450px;">
+<div class="zone" style="left:40px; top:770px; width:260px; height:540px;">
   <h2>Design rules</h2>
   <p class="sub">What keeps the output trustworthy</p>
   <ul class="principles" style="list-style:none; margin-top:6px;">
@@ -152,7 +153,7 @@
 </div>
 
 <!-- LLM gateway -->
-<div class="zone" style="left:350px; top:770px; width:560px; height:450px; border-color: rgba(232,163,61,.45);">
+<div class="zone" style="left:350px; top:770px; width:560px; height:540px; border-color: rgba(232,163,61,.45);">
   <h2>Model gateway</h2>
   <p class="sub">One door for every model call: NVIDIA API catalog, free tier, one key</p>
   <table>
@@ -169,10 +170,10 @@
 </div>
 
 <!-- Live research -->
-<div class="zone" style="left:960px; top:770px; width:800px; height:450px; border-color: rgba(196,155,232,.5);">
+<div class="zone" style="left:960px; top:770px; width:800px; height:540px; border-color: rgba(196,155,232,.5);">
   <h2>Live research service on Render</h2>
   <p class="sub">FastAPI, used only for companies without a ready dossier; fetches the same primary sources live and streams results as server-sent events</p>
-  <div style="display:grid; grid-template-columns: 210px 1fr; gap: 10px;">
+  <div style="display:grid; grid-template-columns: 210px 1fr; gap: 10px; align-items:start;">
     <div>
       <div class="box"><div class="step"><span class="num">1</span><div><h3>Guard</h3><p>Unknown ticker: 404 before any work. 20 new analyses per IP an hour. Daily AI budget.</p></div></div></div>
       <div class="box"><div class="step"><span class="num">2</span><div><h3>Queue</h3><p>At most 2 builds at once, position shown; a repeat request joins the running build; a build survives the viewer leaving</p></div></div></div>
@@ -188,10 +189,12 @@
       </div>
       <p style="color:var(--muted); font-size:11.5px; margin-top:8px;">The annual report is read while the calls are. Each section arrives as it finishes; a failed one shows a fixed reason and the rest still arrive.</p>
     </div>
+    <div></div>
+    <div class="box" style="margin:0;"><div class="step"><span class="num">5</span><div><h3>Chat <span class="tag ai">fast</span> <span class="tag code">retrieval</span></h3><p>Answers from every report's cited passages: NVIDIA embeddings plus keyword search; off-topic questions and unresearched companies ("research pending") get no model call; uncited sentences dropped</p></div></div></div>
   </div>
 </div>
 
-<svg viewBox="0 0 1800 1250" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1800 1340" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7fa7c9"/></marker>
     <marker id="d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c49be8"/></marker>
