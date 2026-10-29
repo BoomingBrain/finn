@@ -125,6 +125,115 @@ def chunk_dossier(dossier: dict) -> list[Passage]:
             for n, (sid, text) in enumerate(pieces)]
 
 
+# ---- retrieval -------------------------------------------------------------------------------------------------
+
+_WORD = re.compile(r"[a-z0-9]+")
+
+
+def bm25(query: str, docs: list[str], k1: float = 1.5, b: float = 0.75) -> list[float]:
+    """Okapi BM25 of `query` against each doc, lowercase word tokens."""
+    q = set(_WORD.findall(query.lower()))
+    toks = [_WORD.findall(d.lower()) for d in docs]
+    if not q or not toks:
+        return [0.0] * len(docs)
+    n, avg = len(toks), (sum(map(len, toks)) / len(toks)) or 1.0
+    df = {t: sum(1 for d in toks if t in d) for t in q}
+    scores = []
+    for d in toks:
+        s = 0.0
+        for t in q:
+            f = d.count(t)
+            if f:
+                idf = np.log(1 + (n - df[t] + 0.5) / (df[t] + 0.5))
+                s += idf * f * (k1 + 1) / (f + k1 * (1 - b + b * len(d) / avg))
+        scores.append(float(s))
+    return scores
+
+
+class Index:
+    """Passages plus L2-normalised vectors; hybrid search = 0.6 cosine + 0.4 BM25 (scaled to its maximum)."""
+
+    def __init__(self, passages: list[Passage], vectors: np.ndarray):
+        self.passages = list(passages)
+        self.vectors = self._normalise(np.asarray(vectors, dtype=np.float32).reshape(len(passages), -1))
+
+    @staticmethod
+    def _normalise(m: np.ndarray) -> np.ndarray:
+        norms = np.linalg.norm(m, axis=1, keepdims=True) if m.size else m
+        return m / np.where(norms == 0, 1, norms) if m.size else m
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "Index":
+        passages = [Passage(**p) for p in d["passages"]]
+        raw = np.frombuffer(base64.b64decode(d["vectors"]), dtype=np.float16).astype(np.float32)
+        return cls(passages, raw.reshape(len(passages), -1) if passages else np.zeros((0, 0)))
+
+    def add(self, passages: list[Passage], vectors: np.ndarray) -> None:
+        """Adds or replaces a company's passages (a dossier saved by live research)."""
+        symbols = {p.symbol for p in passages}
+        keep = [i for i, p in enumerate(self.passages) if p.symbol not in symbols]
+        new = self._normalise(np.asarray(vectors, dtype=np.float32).reshape(len(passages), -1))
+        old = self.vectors[keep] if keep else np.zeros((0, new.shape[1]), dtype=np.float32)
+        self.passages = [self.passages[i] for i in keep] + list(passages)
+        self.vectors = np.vstack([old, new]) if len(old) else new
+
+    @property
+    def symbols(self) -> set[str]:
+        return {p.symbol for p in self.passages}
+
+    def search(self, query_vec: np.ndarray, query_text: str, symbols: set[str] | None = None, k: int = 12,
+               per_company: int = 4) -> list[Passage]:
+        idx = [i for i, p in enumerate(self.passages) if symbols is None or p.symbol in symbols]
+        if not idx:
+            return []
+        q = np.asarray(query_vec, dtype=np.float32)
+        q = q / (np.linalg.norm(q) or 1)
+        cosine = self.vectors[idx] @ q
+        lexical = np.array(bm25(query_text, [self.passages[i].text for i in idx]))
+        lexical = lexical / lexical.max() if lexical.max() > 0 else lexical
+        order = np.argsort(-(0.6 * cosine + 0.4 * lexical), kind="stable")
+        # No company named: at most `per_company` each. Several named: they share the k slots, so a comparison
+        # sees every company instead of the strongest one crowding the rest out.
+        cap = per_company if symbols is None else max(1, k // len(symbols))
+        out, per = [], {}
+        for j in order:
+            p = self.passages[idx[j]]
+            if per.get(p.symbol, 0) >= cap:
+                continue
+            per[p.symbol] = per.get(p.symbol, 0) + 1
+            out.append(p)
+            if len(out) == k:
+                break
+        return out
+
+
+def _name_keys(name: str) -> str:
+    return re.sub(r"\s*\(india\)\s*$", "", short_name(name), flags=re.I).lower()
+
+
+def find_companies(question: str, researched: dict[str, str], nse: dict[str, str]) -> tuple[list[str], list[tuple[str, str]]]:
+    """(researched symbols named, unresearched (symbol, name) named). Symbols match as whole upper-case words; names
+    match whole-phrase without "Limited/Ltd" and "(India)", or by a distinctive first word (one NSE company only)."""
+    text = question.lower()
+    firsts: dict[str, list[str]] = {}
+    for sym, name in nse.items():
+        firsts.setdefault(_name_keys(name).split(" ")[0], []).append(sym)
+
+    def named(sym: str, name: str, short_symbols_ok: bool) -> bool:
+        if (len(sym) >= 4 or short_symbols_ok) and re.search(rf"(?<![A-Za-z0-9]){re.escape(sym)}(?![A-Za-z0-9])", question):
+            return True
+        key = _name_keys(name)
+        if key and re.search(rf"(?<![a-z0-9]){re.escape(key)}(?![a-z0-9])", text):
+            return True
+        first = key.split(" ")[0]
+        return (len(first) >= 5 and firsts.get(first) == [sym]
+                and re.search(rf"(?<![a-z0-9]){re.escape(first)}(?![a-z0-9])", text) is not None)
+
+    found = [s for s, n in researched.items() if named(s, n, short_symbols_ok=True)]
+    pending = [(s, n) for s, n in nse.items() if s not in researched and named(s, n, short_symbols_ok=False)]
+    return found, pending
+
+
 # ---- embeddings and the index ----------------------------------------------------------------------------------
 
 class Embedder:

@@ -120,3 +120,65 @@ def test_embedder_batches_by_64(tmp_path):
     Embedder("k", tmp_path / "emb.sqlite", client=_transport(calls)).embed([f"t{i}" for i in range(130)], "passage")
     assert [len(c["input"]) for c in calls] == [64, 64, 2]
     assert calls[0]["input_type"] == "passage" and calls[0]["model"] == "nvidia/nemotron-3.5-embed-1b"
+
+
+# ---- Task 3: retrieval and company detection -------------------------------------------------------------------
+
+from finn.rag import Index, bm25, find_companies  # noqa: E402
+
+
+def _p(i, symbol, text):
+    return Passage(id=f"{symbol}#{i}", symbol=symbol, company=symbol.title(), source_id="SCR", text=text, url=None,
+                   page=None)
+
+
+def _index(passages, vectors):
+    return Index(passages, np.asarray(vectors, dtype=np.float32))
+
+
+def test_search_restricts_to_named_companies():
+    idx = _index([_p(0, "INFY", "Infosys margin 21%"), _p(0, "TCS", "TCS margin 25%")], [[1, 0], [1, 0]])
+    hits = idx.search(np.array([1, 0], dtype=np.float32), "margin", symbols={"TCS"})
+    assert [h.symbol for h in hits] == ["TCS"]
+
+
+def test_search_caps_per_company_when_none_named():
+    passages = [_p(i, "POLYCAB", f"Polycab debt point {i}") for i in range(10)] + [_p(0, "INFY", "Infosys debt")]
+    idx = _index(passages, [[1, 0]] * 11)
+    hits = idx.search(np.array([1, 0], dtype=np.float32), "debt", k=12, per_company=4)
+    assert sum(h.symbol == "POLYCAB" for h in hits) == 4 and any(h.symbol == "INFY" for h in hits)
+
+
+def test_bm25_prefers_exact_terms():
+    idx = _index([_p(0, "A", "A revenue grew strongly"), _p(1, "A", "A debt to equity is 1.4")], [[1, 0], [1, 0]])
+    assert idx.search(np.array([1, 0], dtype=np.float32), "debt to equity")[0].id == "A#1"
+    assert bm25("debt", ["no match here", "debt debt"])[1] > 0 and bm25("debt", ["x"]) == [0.0]
+
+
+NSE = {"POLYCAB": "Polycab India Limited", "INFY": "Infosys Limited", "LT": "Larsen & Toubro Limited",
+       "ITC": "ITC Limited", "KOTAKBANK": "Kotak Mahindra Bank Limited"}
+RESEARCHED = {"POLYCAB": "Polycab India Limited", "INFY": "Infosys Limited", "LT": "Larsen & Toubro Limited",
+              "ITC": "ITC Limited"}
+
+
+def test_find_companies_by_symbol_and_name():
+    assert find_companies("Is Polycab's debt high?", RESEARCHED, NSE)[0] == ["POLYCAB"]
+    assert find_companies("INFY margins", RESEARCHED, NSE)[0] == ["INFY"]
+    assert find_companies("How is Larsen & Toubro doing?", RESEARCHED, NSE)[0] == ["LT"]
+
+
+def test_symbol_match_needs_word_boundary():
+    assert find_companies("results switch", RESEARCHED, NSE) == ([], [])
+
+
+def test_unresearched_company_is_pending():
+    found, pending = find_companies("What about Kotak Mahindra Bank?", RESEARCHED, NSE)
+    assert found == [] and pending == [("KOTAKBANK", "Kotak Mahindra Bank Limited")]
+
+
+def test_named_companies_share_the_results():
+    passages = [_p(i, "PERSISTENT", f"Persistent margin point {i}") for i in range(12)] + \
+               [_p(i, "INFY", f"Infosys margin point {i}") for i in range(3)]
+    idx = _index(passages, [[1, 0]] * 12 + [[0.9, 0.1]] * 3)
+    hits = idx.search(np.array([1, 0], dtype=np.float32), "margin", symbols={"PERSISTENT", "INFY"}, k=12)
+    assert sum(h.symbol == "INFY" for h in hits) == 3 and sum(h.symbol == "PERSISTENT" for h in hits) == 6
