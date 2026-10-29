@@ -151,5 +151,5 @@ make api                                       # live research server on :8000
 - **The plan:** [docs/superpowers/plans/2026-10-28-finn.md](docs/superpowers/plans/2026-10-28-finn.md)
 - **Data-source spikes and the decisions they forced:** [docs/spikes.md](docs/spikes.md)
 - **Task-by-task progress log:** [docs/PROGRESS.md](docs/PROGRESS.md)
-- **Every prompt I gave, with its outcome:** [docs/PROMPTS.md](docs/PROMPTS.md)
+- **The requests that directed the build, with outcomes (curated):** [docs/PROMPTS.md](docs/PROMPTS.md)
 - **Full session transcripts:** [docs/build-history/](docs/build-history/), both readable Markdown and raw `.jsonl` (secrets and email redacted)

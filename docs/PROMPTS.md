@@ -1,76 +1,64 @@
 # FINN — Prompt Log
 
-Every prompt given to the coding agent while building FINN, in order, with a one-line note on what it produced. This is part of the "AI build history" deliverable. Prompts are verbatim; slash commands are shown as typed.
+The requests that directed this build, in order, with what each produced. This is a **curated summary**: wording is
+edited for clarity, and routine status checks and environment set-up exchanges are omitted. The unedited sessions
+are in [build-history/](build-history/); the task-by-task engineering record is in [PROGRESS.md](PROGRESS.md).
 
-| # | Date | Prompt | Outcome |
-|---|---|---|---|
-| 1 | 2026-10-28 | `/plugin marketplace add obra/superpowers-marketplace` | Not available in this environment (VS Code extension). |
-| 2 | 2026-10-28 | `/plugin install frontend-design@claude-plugins-official` | Not available in this environment. |
-| 3 | 2026-10-28 | `/superpowers:writing-plans` | Read both challenge PDFs and wrote the 16-task plan `docs/superpowers/plans/2026-10-28-finn.md`, with a Decisions section in place of a design doc. |
-| 4 | 2026-10-28 | "also add a brief description of the each task in md and i want you to maintain a progress log and my prompt log somewhere" | Added per-task descriptions and an overview table to the plan; created `docs/PROGRESS.md` and this file. |
-| 5 | 2026-10-28 | Plan review with 15 requested changes (full text below) | Rewrote the plan: Tasks 0–15, vertical slice, offline ingestion + one HF Spaces service, cost guard, lender layout, code-judged guidance, eval, clustering, schedule + cut list. |
-| 6 | 2026-10-28 | "Before anything is built, prove that every data source works from where it will actually run. Throwaway scripts fetch real announcements, a real screener.in page and a real results PDF, save each response as a test fixture, and record in `docs/spikes.md` what worked, what was blocked and which fallback was chosen" | Ran Task 0 (data spikes). |
-| 7 | 2026-10-28 | Request to cut `/usage` costs of the superpowers plugin and writing-plans skill (interrupted by the user before any action) | Not acted on. |
-| 8 | 2026-10-28 | "task 0 done?" | Status report: Task 0 committed (247448d); 2 checks pending. |
-| 9 | 2026-10-28 | "complete task 0" | GitHub repo creation was blocked by the permission system; the API key is not set. Nothing uploaded. |
-| 10 | 2026-10-28 | "ignore the github repo creation for now add all things locally only rest task 0 is done/" | Marked Task 0 done with both open checks deferred; all work stays local. |
-| 11 | 2026-10-28 | "what are the results of task 0 every call and data retrival works?" | Per-source results summary (no new runs). |
-| 12 | 2026-10-28 | "instead of using antropic api key i will use nvdia free model APIs suggest me api that will work well" | Researched NVIDIA API catalog models; recommendation given. |
-| 13 | 2026-10-28 | "what 5 models we will use list them" | Listed the 5 NVIDIA models and their roles. |
-| 14 | 2026-10-28 | "i have to get 5 api key or just 1 api key" | Answered: one key covers all models. |
-| 15 | 2026-10-28 | "i have added the api key try it and complete task 0" | Ran NVIDIA model access check and the results extraction spike; closed Task 0. |
-| 16 | 2026-10-28 | Task 1 description pasted ("Sets up the repo and the small foundation everything else uses: … refuses to go past a daily request budget") | Implemented Task 1. |
-| 17 | 2026-10-28 | "what i have to do for option 2 i will prefer option 2" | Listed the Hugging Face Space setup steps for the user. |
-| 18 | 2026-10-28 | "docker sdk is paid static or gradio" | Checked HF Spaces pricing changes; recommended a Static Space plus a decision on live research. |
-| 19 | 2026-10-28 | "i have added the hf_token where to get HF_space" | Explained HF_SPACE format; checked .env keys without printing values. |
-| 20 | 2026-10-28 | Chose a Render API service for live research and a permission rule for pushing; asked "how to do these things guide me" | Checked Render free tier and deploy sources; wrote setup guide. |
-| 21 | 2026-10-28 | "https://github.com/BoomingBrain/finn.git this is the github repo" | Connected the private GitHub repo and pushed. |
-| 22 | 2026-10-28 | "web app deployemnet on hf is ok ? what to do next" | Checked the Space state (nothing deployed yet); explained next steps. |
-| 23 | 2026-10-28 | "step to next task if previous task are completed" | Updated the plan for the Static Space + Render split; started Task 2. |
-| 24 | 2026-10-28 | "how i have to do now give in detail" | Wrote a detailed click-by-click guide for the Render service, .env and deploy. |
-| 25 | 2026-10-28 | "done everything deploy it" | Checked Render health, ran `make deploy-space`, verified the live Space. |
-| 26 | 2026-10-28 | Task 3 description pasted ("Fetches announcements from whichever exchange feed Task 0 proved works … mapped to critical, notable or routine") | Implemented Task 3. |
-| 27 | 2026-10-28 | Task 4 description pasted ("Turns a raw results PDF into the four headline numbers … refuses to show numbers that don't add up") | Implemented Task 4. |
-| 28 | 2026-10-28 | "i can not see anythong on that render link" | Explained Render is API-only; added a root redirect to the app. |
-| 29 | 2026-10-28 | Task 5 description pasted ("The first end-to-end proof … calm empty and stale states.") | Implemented Task 5. |
-| 30 | 2026-10-28 | Task 6 description pasted ("Scales the slice to the whole portfolio and removes the noise of results day … or an honest \"No profile in filing\"") | Implemented Task 6. |
-| 31 | 2026-10-28 | "its done/" | Checked the finished 18-stock ingest. |
-| 32 | 2026-10-28 | Task 7 description pasted ("Adds the \"unusual move\" half of Push … chosen with evidence rather than guessed") | Implemented Task 7. |
-| 33 | 2026-10-28 | "proceed to task 8" | Implemented Task 8 (scheduled ingestion workflow). |
-| 34 | 2026-10-28 | "choose A and then proceed with the task" | Setting secrets via gh was blocked by the permission classifier (secret-store write); asked the user to add them (option B) or allow the action. |
-| 35 | 2026-10-28 | "all secrets added on the github" | Verified secrets exist, pushed the workflow, ran it end to end. |
-| 36 | 2026-10-28 | "ok continue with task 9" | Implemented Task 9 (screener.in source + deterministic metrics). |
-| 37 | 2026-10-28 | "proceed to task 10" | Implemented Task 10 (Promised vs Delivered); switched extraction to the reason tier after a bulk-vs-reason comparison. |
-| 38 | 2026-10-28 | "continue with the work" | Implemented Task 11 (dossier builder, citation guard) and precomputed the 22 dossiers. |
-| 39 | 2026-10-28 | "continue with task" | Wrote Task 12 (research API, rate limit, symbol list) while the dossier precompute ran. |
-| 40 | 2026-10-28 | "the ask engine is not live yet?" | Explained the Space still had the Task 7 build; deployed the Ask screen to the Space now (12 of 22 dossiers rebuilt); redeploy when the precompute finishes. |
-| 41 | 2026-10-28 | "finish unfinished task from the plan" | Task 14 (cross-check + eval), then the Task 11 precompute wrap-up, Task 15 README/writeup/build history and a submission draft (not sent). |
-| 42 | 2026-10-28 | "i have some questions like the data of company which are available instantly are in the portfolio? if i want a new company analysis how its done and it will take how much time" | Explained the 22 precomputed tickers and the live path with timings. |
-| 43 | 2026-10-28 | "i want you to analysis of the company generated is saved permanently and the holdings in my portfolio shoul the always be present. and how it handles the outdated info?" | Live dossiers saved to the repo via GitHub API; daily workflow builds missing/failed/outdated dossiers by source fingerprint; coverage line in the app. |
-| 44 | 2026-10-28 | "github token is done how much is left for report generation" | Confirmed Render runs the persistence code; reported 14/22 dossiers done and ~1 h left. |
-| 45 | 2026-10-28 | `/frontend-design` (no brief), then "i want you to add a portfolio section in the bottom bar which shows all the holdings and their movement in graph shortly" | Added a Portfolio tab: equal-weighted move headline, 1W/1M/3M range, one row per holding with a price line against its starting price, biggest movers first, tap to research. Watch icon changed to a bell. |
-| 46 | 2026-10-28 | "in ask section i want you to add all the listing on front that are instantly available" | Ask now lists every ready dossier (holdings, then other researched companies) from symbols.json; saved live dossiers join after the next deploy. |
-| 47 | 2026-10-28 | "how much time it more take/" | Progress estimate (~45–50 min). |
-| 48 | 2026-10-28 | "how much done?" | 19/22 written, 3 with a failed section after NVIDIA 429s. |
-| 49 | 2026-10-28 | "how much is left/" | 17/22 complete; final pass planned. |
-| 50 | 2026-10-28 | "done?" | Final pass 6/22. |
-| 51 | 2026-10-28 | "is it done?" | 12/22; fixed a truncated-JSON failure (HAL) with a larger budget and bracket repair; all 22 complete, audited, committed, deployed. |
-| 52 | 2026-10-28 | "ok now if i click a new company will it return all the new analysis/" | Explained the live path; ran a real KOTAKBANK test on Render (first stream closed after the snapshot; rerun in progress). |
-| 53 | 2026-10-28 | "can we add a progress bar which actually work for the analysis being done?" | Server reports real completed steps (financials, each call, delivery check, annual report, bull/bear) as `progress` SSE events; Ask shows the current step, a bar and "N of M steps". Unexpected failures now end with an error event instead of a silent close. |
-| 54 | 2026-10-28 | "how to solve this 3 request per hour thing" | Explained why the cap exists and the shared-office-IP problem; proposed a global queue. |
-| 55 | 2026-10-28 | "i want. you to increase the limit and also queue it and notify when its done" | Per-IP limit 3 → 20 (only new builds count); `ResearchHub` runs at most 2 builds at once with queue positions, joins duplicate requests and keeps building after the viewer leaves; app-level research store, "Notify me" (system notification) and an in-app ready banner. |
-| 56 | 2026-10-28 | "it updates all the report daily?" | Explained the daily check: rebuild only on new results, concall, annual report or a failed section. |
-| 57 | 2026-10-28 | "it should check only the holding for update not other companies" | Daily job now uses `--holdings` (18 holdings only); other dossiers keep their build date. |
-| 58 | 2026-10-28 | "how can we make things fast to do new reaserach" | Timed the live build (calls step ≈ 85%); proposed page pre-filtering, parallel annual report, prebuilt Nifty 50. |
-| 59 | 2026-10-28 | "can we add multiple model to the bottle neck step" | Built a model pool for extraction; tested 7 candidate models: none both available and accurate (GPT-OSS-20B recall 1/3), so the pool keeps one model for now. |
-| 60 | 2026-10-28 | "everything done?" | Status; found scheduled workflows not firing and triggered them manually. |
-| 61 | 2026-10-29 | "what left now?" | Confirmed scheduled workflows now run; listed remaining items. |
-| 62 | 2026-10-29 | "i want you to polish the ui of trigerred alert in watch section all the settings should not be in bottom it should be above in a more compact way and when clicked it expand and user can select the settings. use /frontend-design:frontend-design for this" | Watch: settings collapsed into one rule sentence at the top ("Alert me when a stock moves ±5.0%…"), "Change" expands compact sliders and filing chips in place; "Mark all as seen" moved above the list. |
-| 63 | 2026-10-29 | "i also want to polish overall ui and reduce too much text from the app that is not necessary information should be presented in to the point boxes not just long text that is not generated by llm. numbers are color coded and overall ui looks clean and crisp /frontend-design:frontend-design" | App-wide polish: StatBox tiles for every number group (results card 2×2, report snapshot, verdict counts, Watch thresholds, Portfolio best/worst/today), threshold-coloured ratios, clamped non-AI text, compact citation chips and alert rows, shorter copy. |
-| 64 | 2026-10-29 | "how to make it faster live research make a plan /superpowers:writing-plans" | Wrote `docs/superpowers/plans/2026-10-29-faster-live-research.md`: candidate-page extraction (eval-gated), parallel annual report, nightly Nifty 50 prebuild, Render verification. |
-## Full text of long prompts
+## 1. Planning (28 Oct)
 
-### #5 — Plan review (2026-10-28)
+| # | Request | Outcome |
+|---|---|---|
+| 1 | Write an implementation plan for FINN from the challenge brief. | 16-task plan with a Decisions section ([plan](superpowers/plans/2026-10-28-finn.md)). |
+| 2 | Add a one-paragraph description to every task, and keep a progress log and a prompt log throughout. | Task descriptions and overview table; `PROGRESS.md` and this log. |
+| 3 | Revise the plan against a 15-point review: vertical slice first, offline ingestion, cost guard, lender layout, code-judged guidance, an accuracy eval, event clustering, a schedule and a cut list (full text in the appendix). | Plan rewritten as Tasks 0–15 with nightly checkpoints. |
+
+## 2. De-risking the data and the platform (28 Oct)
+
+| # | Request | Outcome |
+|---|---|---|
+| 4 | Before building anything, prove every data source works from where it will run: fetch real announcements, a screener.in page and a results PDF, save them as fixtures, and record what worked, what was blocked and the fallback chosen. | `docs/spikes.md`: NSE, screener.in, BSE files and yfinance confirmed; the BSE API blocked, so not used. Results-PDF extraction compared three ways; page-image vision won (97% vs 18% OCR). |
+| 5 | Use NVIDIA's free model APIs instead of a paid provider, and pick a model per job. | One key; vision, bulk and reasoning tiers routed by job, with throttling, caching and a daily budget. |
+| 6 | Host on a free tier: a Hugging Face Static Space for the app and Render for live research only; connect the GitHub repository. | Static site plus data on the Space; an API-only Render service; private repo with deploy scripts. |
+
+## 3. Push: digest and alerts (28 Oct)
+
+| # | Request | Outcome |
+|---|---|---|
+| 7 | Build the foundation: data models, snapshot store, model router and a request budget. | Task 1. |
+| 8 | Fetch and classify announcements into critical / notable / routine, rules first and a model only for leftovers. | Task 3: 92% classified by rules; one model call for the rest. |
+| 9 | Turn a results PDF into Revenue / EBITDA / PBT / PAT with QoQ and YoY, refusing numbers that don't add up; handle banks and NBFCs. | Task 4: column selection, unit conversion, arithmetic checks and a high-resolution re-read; lender layout (NII / PPOP). |
+| 10 | Ship one stock end to end, then scale to the whole portfolio with event clustering and management profiles. | Tasks 5–6: 18 holdings, results-day bundles folded into one event, profiles from the appointment filing. |
+| 11 | Add price and volume alerts with user-set thresholds, shown with evidence of how often each would have fired. | Task 7: Watch with backtested sliders and an alert inbox. |
+| 12 | Refresh the data on a schedule. | Task 8: GitHub Actions every 2 h on market days plus 19:00 IST. |
+
+## 4. Pull: research dossiers (28 Oct)
+
+| # | Request | Outcome |
+|---|---|---|
+| 13 | Compute the financial snapshot deterministically from screener.in. | Task 9: growth, margins, returns, leverage, cash conversion and red flags, all in code. |
+| 14 | Build Promised vs Delivered: the model only extracts targets; code decides the verdict. | Task 10: met / partly / missed / in progress / can't check, with grounded quotes. |
+| 15 | Assemble cited dossiers and precompute the portfolio and demo set. | Task 11: citation guard, business section from the BRSR table, bull vs bear; 22 dossiers audited. |
+| 16 | Serve research for any NSE ticker, with rate limits and a clear failure message. | Task 12: streaming API on Render. |
+| 17 | Build the Ask screen and an "Ask about this" path from every Brief card. | Task 13. |
+| 18 | Measure accuracy instead of assuming it, and cross-check every results card. | Task 14: 57/57 results fields, guidance recall 3/3 and precision 100%, 8/8 cards verified against screener.in. |
+| 19 | Write the README, the submission draft and the build-history export. | Task 15. |
+
+## 5. Product iterations (28–29 Oct)
+
+| # | Request | Outcome |
+|---|---|---|
+| 20 | Save every live analysis permanently, keep the holdings' dossiers always present, and handle outdated information. | Live dossiers committed to the repo; a daily job rebuilds only when new results, a new concall or a new annual report appear; each dossier states what it covers. |
+| 21 | Refresh only the holdings daily, not other companies. | The daily job is limited to the 18 holdings. |
+| 22 | Add a Portfolio tab with every holding and a compact price chart. | Equal-weighted move, 1W / 1M / 3M range, price line against its starting price, biggest movers first. |
+| 23 | List every instantly available company on the Ask screen. | Holdings and other researched companies, updated automatically as dossiers are saved. |
+| 24 | Show a progress bar that reflects the real work. | The server reports completed steps; the bar never estimates. |
+| 25 | Lift the 3-per-hour limit, queue concurrent requests and notify the user when an analysis is ready. | 20 per hour; at most 2 builds at once with queue position; shared builds; in-app banner and system notification. |
+| 26 | Move the Watch settings to the top as a compact, expandable summary. | The alert rule as threshold boxes; tap to edit in place. |
+| 27 | Polish the whole interface: less text, information in compact boxes, colour-coded numbers. | Stat boxes for every number group, threshold-coloured ratios, clamped non-AI text, compact citations. |
+| 28 | Find out how to make live research faster, test whether more models can share the slow step, and plan the work. | Measured the bottleneck; tested 7 models (none qualified); plan for passage-level extraction, a parallel annual report and a nightly Nifty 50 prebuild ([plan](superpowers/plans/2026-10-29-faster-live-research.md)), executed task by task. |
+
+## Appendix: full text of the plan review
+
 
 ```
 Revise the existing FINN implementation plan (the .md plan file) based on the

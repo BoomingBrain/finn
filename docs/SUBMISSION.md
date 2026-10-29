@@ -12,7 +12,7 @@ Here is my submission for the AI Engineer Build Challenge: FINN, a financial inv
 **Links**
 - Prototype (open on a phone): https://ayush-rai-230265-finn.static.hf.space
 - Repository: https://github.com/BoomingBrain/finn
-- AI build history: https://github.com/BoomingBrain/finn/tree/main/docs/build-history (full Claude Code sessions, readable and raw), plus every prompt I gave with its outcome in [docs/PROMPTS.md](https://github.com/BoomingBrain/finn/blob/main/docs/PROMPTS.md) and the task-by-task log in [docs/PROGRESS.md](https://github.com/BoomingBrain/finn/blob/main/docs/PROGRESS.md)
+- AI build history: https://github.com/BoomingBrain/finn/tree/main/docs/build-history (full Claude Code sessions, readable and raw), plus a curated log of the requests that directed the build in [docs/PROMPTS.md](https://github.com/BoomingBrain/finn/blob/main/docs/PROMPTS.md) and the task-by-task log in [docs/PROGRESS.md](https://github.com/BoomingBrain/finn/blob/main/docs/PROGRESS.md)
 
 **What I built.** A mobile web app with three tabs over an 18-stock portfolio:
 - **Brief:** a windowed digest of every exchange filing, sorted into critical, notable and routine. Results filings get a Revenue / EBITDA / PBT / PAT card with QoQ and YoY; management changes get the incoming person's profile.
