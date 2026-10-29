@@ -1,6 +1,42 @@
 {
- "as_of": "2026-10-29T20:47:57.871169+05:30",
+ "as_of": "2026-10-30T00:42:54.563135+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "5dac31286d32e279e8388f4e84c95e4fd1ca9288",
+    "symbol": "DEEPAKNTR",
+    "company": "Deepak Nitrite Limited",
+    "filed_at": "2026-10-29T22:14:44+05:30",
+    "subject": "Deepak Nitrite Limited has informed the Exchange about General Updates- Q2 & H1 FY2027 Results Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_29102026221311_DNL_-_Q2_FY27_Results_Presentation_V2.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "9fd51fb7b1d71a5e57ce755e59ee6530b859dde7",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-10-29T21:18:39+05:30",
+    "subject": "Asian Paints Limited has informed the Exchange about Link of Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026211830_SE_intimation__Audio_Recording_Q2FY26-27signed.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "857e6075e28b0862e15c3e0b20a3683c9b5eaeff",
