@@ -177,6 +177,13 @@ class Index:
         self.passages = [self.passages[i] for i in keep] + list(passages)
         self.vectors = np.vstack([old, new]) if len(old) else new
 
+    def best_cosine(self, query_vec: np.ndarray) -> float:
+        """How close the question comes to anything researched; off-topic questions score far lower."""
+        if not self.passages:
+            return 0.0
+        q = np.asarray(query_vec, dtype=np.float32)
+        return float((self.vectors @ (q / (np.linalg.norm(q) or 1))).max())
+
     @property
     def symbols(self) -> set[str]:
         return {p.symbol for p in self.passages}
