@@ -1,0 +1,206 @@
+{
+ "symbol": "INDBANK",
+ "name": "Indbank Merchant Banking Services Ltd",
+ "built_at": "2026-10-29T06:01:41.043500Z",
+ "basis": "standalone",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": null,
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Indbank Merchant Banking Services Ltd",
+    "about": "Incorporated in 1989, Indbank Merchant Banking Services Ltd. is engaged in Merchant Banking, Stock Broking, Depository Participant and allied activities.",
+    "basis": "standalone",
+    "built_at": "2026-10-29T06:01:01.371894+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": null,
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 25.4,
+    "pat_ttm": 7.12,
+    "revenue_cagr_3y": 11.0,
+    "pat_cagr_3y": 26.7,
+    "opm_latest": 39.3,
+    "opm_3y_ago": 30.2,
+    "roce_latest": 10.26,
+    "roe_latest": null,
+    "debt_to_equity": 0.02,
+    "cfo_to_pat_3y": 0.03,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 5.63,
+      "pat": 1.17
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 5.31,
+      "pat": 1.14
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 6.69,
+      "pat": 2.14
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 6.28,
+      "pat": 1.86
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 6.25,
+      "pat": 1.92
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 5.89,
+      "pat": 1.21
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 6.9,
+      "pat": 2.38
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 6.36,
+      "pat": 1.61
+     }
+    ],
+    "flags": [
+     "Profits not converting to cash"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/INDBANK/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "unavailable",
+   "reason": "No concall transcripts on screener.in",
+   "data": null,
+   "citations": []
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Indbank Merchant Banking Services Ltd is a subsidiary of Indian Bank engaged in stock broking, depository participant operations, distribution of mutual funds and other investment products, and merchant banking services. It serves institutional and individual clients through NSE and BSE, and provides depository services to retail and institutional customers.",
+    "segments": [
+     {
+      "name": "Stock Broking",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p40"
+      ]
+     },
+     {
+      "name": "Depository Participant Operations",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p40"
+      ]
+     },
+     {
+      "name": "Distribution of Mutual Fund & other investment products",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p40"
+      ]
+     },
+     {
+      "name": "Merchant Banking",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p40"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p40"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p40",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/79230647-76a7-4d11-93a3-254d6f77885a.pdf",
+     "page": 40
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "PAT has grown at a 26.7% 3-year CAGR, outpacing revenue growth of 11%, driving operating margin expansion from 30.2% to 39.3%.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The company operates with negligible leverage, evidenced by a debt-to-equity ratio of just 0.02.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "As a subsidiary of Indian Bank, it benefits from a diversified revenue base across stock broking, depository services, mutual fund distribution, and merchant banking.",
+      "source_ids": [
+       "AR:2026:p40"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Profits are not converting to cash, with operating cash flow to PAT over three years at a mere 0.03.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Return on capital employed is low at 10.26%, suggesting inefficient capital deployment.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Quarterly results show stagnation, with revenue hovering around ₹6-7 Cr and PAT at ₹1-2 Cr over the last four quarters.",
+      "source_ids": [
+       "SCR"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/INDBANK/",
+     "page": null
+    },
+    {
+     "source_id": "AR:2026:p40",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/79230647-76a7-4d11-93a3-254d6f77885a.pdf",
+     "page": 40
+    }
+   ]
+  }
+ ]
+}
