@@ -1,6 +1,219 @@
 {
- "as_of": "2026-10-30T11:30:58.804382+05:30",
+ "as_of": "2026-10-30T16:25:29.771602+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "6882602ab501bf93fadaf996d5985a292ecf5f2a",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-30T16:19:57+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Investor Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf",
+    "raw_category": "Investor Presentation",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "0c2fc9321ef807062c548e0ccecad64a7950b581",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-30T16:10:12+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. Prithvi Vachani",
+    "role": "Executive Director",
+    "change": "appointed",
+    "effective_date": "30th October, 2026",
+    "background": "Mr. Prithvi Vachani is currently serving as the Vice President at Dixon Technologies (India) Limited. A 2017 graduate of Bentley University, Mr. Prithvi quickly demonstrated his strategic acumen upon entering the professional arena. His exceptional foresight and leadership were…",
+    "prior_roles": [
+     "Vice President at Dixon Technologies (India) Limited",
+     "Key account manager for Jio and Xiaomi in Dixon's mobile division",
+     "Led establishment of state-of-the-art facility in Chennai"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "4a6c482428935d272afc0ae85744915fd3db8cb5",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-30T16:07:23+05:30",
+    "subject": "Dixon Technologies (India) Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 21793.64,
+      "prev_q": 15547.66,
+      "year_ago": 14855.04,
+      "qoq_pct": 40.2,
+      "yoy_pct": 46.7
+     },
+     "EBITDA": {
+      "current": 599.63,
+      "prev_q": 471.76,
+      "year_ago": 562.48,
+      "qoq_pct": 27.1,
+      "yoy_pct": 6.6
+     },
+     "PBT": {
+      "current": 532.35,
+      "prev_q": 868.98,
+      "year_ago": 923.59,
+      "qoq_pct": -38.7,
+      "yoy_pct": -42.4
+     },
+     "PAT": {
+      "current": 410.87,
+      "prev_q": 717.83,
+      "year_ago": 745.7,
+      "qoq_pct": -42.8,
+      "yoy_pct": -44.9
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f4483914d38c3f92c11bc778f58bd5abcae64f14",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-10-30T15:23:54+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_30102026152337_STXintimationOctober302026.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "477080f18a62a8cf3b23b1b8423e3d497d660777",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-30T15:18:46+05:30",
+    "subject": "Appointment of Statutory Auditors Pursuant to Mandatory Auditor Rotation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026151827_BMOutcome30102026_Conclusion.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "4845f5beddd950d2b71a215413dffd27068674a5",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-10-30T14:53:37+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange regarding allotment of 2,06,950 securities pursuant to Non Convertible Securities at its meeting held on October 30, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_30102026145301_REG30_Allotment_intimation.pdf",
+    "raw_category": "Allotment of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "notable",
+   "summary": "Bajaj Finance allotted 206,950 Secured Redeemable Non-Convertible Debentures (NCDs) on Oct 30, 2026, at face value of Rs. 1 Lakh each…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6f5214d5381005d7d8ba47f6166c30a8695acb4c",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-30T14:15:10+05:30",
+    "subject": "Unaudited Financial Results for the quarter and half year ended 30 September 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8096055e3f062d0e3c7d7f2bcf2eafbc10b73117",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-30T13:24:25+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding Allotment of 4675598 Shares.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_30102026132409_SELetterESOP30102026.pdf",
+    "raw_category": "ESOP/ESOS/ESPS",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2940539705b43c908a2b7361bc0596b9ef81dbaf",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-10-30T12:20:09+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about the order passed by NCLAT setting aside the order of NCLT Ahmedabad bench dated October 07, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_30102026121954_SECIRP30102026.pdf",
+    "raw_category": "Corporate Insolvency Resolution Process",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "NCLAT set aside NCLT Ahmedabad order dated Oct 7, 2026, allowing Polycab's appeal in the Asier Metals case.",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "d3d6195bdd31b99fc604e7803d1e23c31e769b1a",
