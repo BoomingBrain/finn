@@ -1,6 +1,179 @@
 {
- "as_of": "2026-10-30T16:25:29.771602+05:30",
+ "as_of": "2026-10-30T23:35:22.657329+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "8ba6fd6a52be6ae09121c1652af822f3ae2d4180",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-10-30T22:40:24+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_30102026223927_BhartiAirtelSTXdisclosure.pdf",
+    "raw_category": "Action(s) taken or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "TRAI levied a financial disincentive of INR 54.06 lakh on Bharti Airtel for alleged non-compliance with Telecom Commercial Communications…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "3a3b30ab2988e07cb8fdbbfca35898cd4b0bfb2e",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-30T20:32:52+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Link of Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "887304552d1291b66607660441cd947e646f809c",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-30T20:13:58+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Link of Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_30102026201207_IntimationSE20261030_Q2FY27_Call_Recording_Signed.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "ad770b990b91b330132e6e90f859398dd932a425",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-30T19:47:12+05:30",
+    "subject": "Reliance Industries Limited has informed the Exchange about Investor Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194557_SE_30102026_IP.pdf",
+    "raw_category": "Investor Presentation",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1a5f81ec25cedb7c7b9ffba8196759ec0342bbec",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-30T19:43:24+05:30",
+    "subject": "In continuation of our letter of today's date on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026, we attach a copy of media release being issued by the Company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194315_SE_30102026_MR.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1cfa612756c84d0abf6f04b77566f531393a35d3",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-30T19:40:11+05:30",
+    "subject": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "unreadable",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": null,
+    "metrics": {},
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2aa8f1081d3cbf8c2ac606b963d0652faefb85c5",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-10-30T18:50:50+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Infosys Announces Expansion of Pocharam Development Center in Hyderabad'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/INFY_30102026185037_PR_30102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys inaugurated a new 1.1 million sq. ft. software development block at its Pocharam campus in Hyderabad, adding 10,000 seats to…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "33e91d0abe3d376c3bac24895cad40b9dbbcdacd",
+    "symbol": "DEEPAKNTR",
+    "company": "Deepak Nitrite Limited",
+    "filed_at": "2026-10-30T18:46:15+05:30",
+    "subject": "Deepak Nitrite Limited has informed the Exchange about Link of Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_30102026184526_NSE-CONCALL-AUDIO_RECORDING-882024.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c9e88b5cb882660aa12428a27465c2f06c42a561",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-10-30T18:03:05+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_30102026180249_ASLInitmationStoreOpening30102026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Avenue Supermarts opened a new store at GHS Mall, Pune, taking its total store count to 519.",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "6882602ab501bf93fadaf996d5985a292ecf5f2a",

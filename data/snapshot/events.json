@@ -1,6 +1,216 @@
 {
- "as_of": "2026-10-30T16:25:29.771602+05:30",
+ "as_of": "2026-10-30T23:35:22.657329+05:30",
  "events": [
+  {
+   "id": "f363596e48367be5f1962f7c6a9c2bba826f0229",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "litigation",
+   "tier": "critical",
+   "first_at": "2026-10-29T13:42:21+05:30",
+   "last_at": "2026-10-30T22:40:24+05:30",
+   "headline": "Action(s) taken or orders passed",
+   "summary": "DoT Karnataka imposed a penalty of Rs. 2.14 lakh on Bharti Airtel for alleged subscriber verification norm violations in August 2026, and…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Action(s) taken or orders passed",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_29102026134154_BhartiAirtelSTXIntimation.pdf",
+     "filed_at": "2026-10-29T13:42:21+05:30"
+    },
+    {
+     "title": "Action(s) taken or orders passed",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_30102026223927_BhartiAirtelSTXdisclosure.pdf",
+     "filed_at": "2026-10-30T22:40:24+05:30"
+    }
+   ],
+   "price_change_pct": 1.2,
+   "volume_multiple": 0.7,
+   "price_date": "2026-10-29"
+  },
+  {
+   "id": "3a3b30ab2988e07cb8fdbbfca35898cd4b0bfb2e",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-10-30T20:32:52+05:30",
+   "last_at": "2026-10-30T20:32:52+05:30",
+   "headline": "Link of Recording",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Link of Recording",
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf",
+     "filed_at": "2026-10-30T20:32:52+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "887304552d1291b66607660441cd947e646f809c",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-10-30T20:13:58+05:30",
+   "last_at": "2026-10-30T20:13:58+05:30",
+   "headline": "Link of Recording",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Link of Recording",
+     "url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_30102026201207_IntimationSE20261030_Q2FY27_Call_Recording_Signed.pdf",
+     "filed_at": "2026-10-30T20:13:58+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "ad770b990b91b330132e6e90f859398dd932a425",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-10-30T19:47:12+05:30",
+   "last_at": "2026-10-30T19:47:12+05:30",
+   "headline": "Investor Presentation",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Investor Presentation",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194557_SE_30102026_IP.pdf",
+     "filed_at": "2026-10-30T19:47:12+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "1cfa612756c84d0abf6f04b77566f531393a35d3",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-10-30T19:40:11+05:30",
+   "last_at": "2026-10-30T19:43:24+05:30",
+   "headline": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis",
+   "summary": null,
+   "results": {
+    "status": "unreadable",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": null,
+    "metrics": {},
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null,
+   "documents": [
+    {
+     "title": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf",
+     "filed_at": "2026-10-30T19:40:11+05:30"
+    },
+    {
+     "title": "In continuation of our letter of today's date on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026, we attach a copy of media release being issued by the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194315_SE_30102026_MR.pdf",
+     "filed_at": "2026-10-30T19:43:24+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "ff8ff37786072fe4fa748307ea0ec26546c5be1f",
+   "symbol": "INFY",
+   "company": "Infosys Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-10-29T15:05:32+05:30",
+   "last_at": "2026-10-30T18:50:50+05:30",
+   "headline": "Winners of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced",
+   "summary": "Infosys Finacle and Qorus announced 37 winners across 10 innovation categories from 538 projects submitted by 206 institutions in 68…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Winners of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced",
+     "url": "https://nsearchives.nseindia.com/corporate/INFY_29102026150417_PR_29102026.pdf",
+     "filed_at": "2026-10-29T15:05:32+05:30"
+    },
+    {
+     "title": "Infosys Announces Expansion of Pocharam Development Center in Hyderabad",
+     "url": "https://nsearchives.nseindia.com/corporate/INFY_30102026185037_PR_30102026.pdf",
+     "filed_at": "2026-10-30T18:50:50+05:30"
+    }
+   ],
+   "price_change_pct": 2.1,
+   "volume_multiple": 0.8,
+   "price_date": "2026-10-29"
+  },
+  {
+   "id": "33e91d0abe3d376c3bac24895cad40b9dbbcdacd",
+   "symbol": "DEEPAKNTR",
+   "company": "Deepak Nitrite Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-10-30T18:46:15+05:30",
+   "last_at": "2026-10-30T18:46:15+05:30",
+   "headline": "Link of Recording",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Link of Recording",
+     "url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_30102026184526_NSE-CONCALL-AUDIO_RECORDING-882024.pdf",
+     "filed_at": "2026-10-30T18:46:15+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "c9e88b5cb882660aa12428a27465c2f06c42a561",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-10-30T18:03:05+05:30",
+   "last_at": "2026-10-30T18:03:05+05:30",
+   "headline": "Store Opening",
+   "summary": "Avenue Supermarts opened a new store at GHS Mall, Pune, taking its total store count to 519.",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Store Opening",
+     "url": "https://nsearchives.nseindia.com/corporate/DMART_30102026180249_ASLInitmationStoreOpening30102026.pdf",
+     "filed_at": "2026-10-30T18:03:05+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "6882602ab501bf93fadaf996d5985a292ecf5f2a",
    "symbol": "DIXON",
@@ -574,29 +784,6 @@
    "price_date": "2026-10-29"
   },
   {
-   "id": "ff8ff37786072fe4fa748307ea0ec26546c5be1f",
-   "symbol": "INFY",
-   "company": "Infosys Limited",
-   "category": "press_release",
-   "tier": "notable",
-   "first_at": "2026-10-29T15:05:32+05:30",
-   "last_at": "2026-10-29T15:05:32+05:30",
-   "headline": "Winners of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced",
-   "summary": "Infosys Finacle and Qorus announced 37 winners across 10 innovation categories from 538 projects submitted by 206 institutions in 68…",
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Winners of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced",
-     "url": "https://nsearchives.nseindia.com/corporate/INFY_29102026150417_PR_29102026.pdf",
-     "filed_at": "2026-10-29T15:05:32+05:30"
-    }
-   ],
-   "price_change_pct": 2.1,
-   "volume_multiple": 0.8,
-   "price_date": "2026-10-29"
-  },
-  {
    "id": "b573120c4de2b72051103bbd7bee2089c89943f4",
    "symbol": "ASIANPAINT",
    "company": "Asian Paints Limited",
@@ -713,29 +900,6 @@
    ],
    "price_change_pct": 0.8,
    "volume_multiple": 3.7,
-   "price_date": "2026-10-29"
-  },
-  {
-   "id": "f363596e48367be5f1962f7c6a9c2bba826f0229",
-   "symbol": "BHARTIARTL",
-   "company": "Bharti Airtel Limited",
-   "category": "litigation",
-   "tier": "critical",
-   "first_at": "2026-10-29T13:42:21+05:30",
-   "last_at": "2026-10-29T13:42:21+05:30",
-   "headline": "Action(s) taken or orders passed",
-   "summary": "DoT Karnataka imposed a penalty of Rs. 2.14 lakh on Bharti Airtel for alleged subscriber verification norm violations in August 2026, and…",
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Action(s) taken or orders passed",
-     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_29102026134154_BhartiAirtelSTXIntimation.pdf",
-     "filed_at": "2026-10-29T13:42:21+05:30"
-    }
-   ],
-   "price_change_pct": 1.2,
-   "volume_multiple": 0.7,
    "price_date": "2026-10-29"
   },
   {
