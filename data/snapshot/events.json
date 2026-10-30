@@ -1,6 +1,29 @@
 {
- "as_of": "2026-10-30T00:42:54.563135+05:30",
+ "as_of": "2026-10-30T11:30:58.804382+05:30",
  "events": [
+  {
+   "id": "d3d6195bdd31b99fc604e7803d1e23c31e769b1a",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-10-30T08:05:47+05:30",
+   "last_at": "2026-10-30T08:05:47+05:30",
+   "headline": "A press release dated October 30, 2026, titled \"ILUMYA® (tildrakizumab-asmn) approved in the U.S. for the Treatment of Adults with Active Psoriatic Arthritis",
+   "summary": "FDA approved ILUMYA (tildrakizumab-asmn) for active psoriatic arthritis in adults, expanding its use beyond plaque psoriasis; approval…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "A press release dated October 30, 2026, titled \"ILUMYA® (tildrakizumab-asmn) approved in the U.S. for the Treatment of Adults with Active Psoriatic Arthritis",
+     "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026080437_SE_Intimation_of_Press_Release_ILUMYA_PsA_Approval.pdf",
+     "filed_at": "2026-10-30T08:05:47+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "857e6075e28b0862e15c3e0b20a3683c9b5eaeff",
    "symbol": "DEEPAKNTR",
@@ -288,9 +311,9 @@
      "filed_at": "2026-10-29T15:15:01+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.1,
+   "volume_multiple": 0.8,
+   "price_date": "2026-10-29"
   },
   {
    "id": "ff8ff37786072fe4fa748307ea0ec26546c5be1f",
@@ -311,9 +334,9 @@
      "filed_at": "2026-10-29T15:05:32+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.1,
+   "volume_multiple": 0.8,
+   "price_date": "2026-10-29"
   },
   {
    "id": "b573120c4de2b72051103bbd7bee2089c89943f4",
@@ -334,9 +357,9 @@
      "filed_at": "2026-10-29T14:14:43+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.8,
+   "volume_multiple": 3.7,
+   "price_date": "2026-10-29"
   },
   {
    "id": "ab8a387faa308369f7a896ffbb86760ed4308aee",
@@ -357,9 +380,9 @@
      "filed_at": "2026-10-29T14:12:34+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.8,
+   "volume_multiple": 3.7,
+   "price_date": "2026-10-29"
   },
   {
    "id": "780fb9347a0736c396d110e6156495084f3804e7",
@@ -430,9 +453,9 @@
      "filed_at": "2026-10-29T14:10:22+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.8,
+   "volume_multiple": 3.7,
+   "price_date": "2026-10-29"
   },
   {
    "id": "f363596e48367be5f1962f7c6a9c2bba826f0229",
@@ -453,9 +476,9 @@
      "filed_at": "2026-10-29T13:42:21+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.2,
+   "volume_multiple": 0.7,
+   "price_date": "2026-10-29"
   },
   {
    "id": "9ad9d96333dd670946a598d25ea98b38d3514022",
@@ -476,9 +499,9 @@
      "filed_at": "2026-10-29T08:55:40+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.8,
+   "volume_multiple": 1.4,
+   "price_date": "2026-10-29"
   },
   {
    "id": "6b97d8a9e9243035114f26d12cb8eca2b723baf8",
@@ -499,9 +522,9 @@
      "filed_at": "2026-10-28T21:53:40+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.6,
+   "volume_multiple": 0.6,
+   "price_date": "2026-10-29"
   },
   {
    "id": "11a84a66e29dee121fdefc6b4064a66f35b7ccc4",
@@ -550,9 +573,9 @@
      "filed_at": "2026-10-28T19:09:29+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.2,
+   "volume_multiple": 0.7,
+   "price_date": "2026-10-29"
   },
   {
    "id": "011425abbd31bc8ad417a093ddbd6f272e59b97e",
@@ -601,9 +624,9 @@
      "filed_at": "2026-10-28T17:38:42+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.1,
+   "volume_multiple": 0.8,
+   "price_date": "2026-10-29"
   },
   {
    "id": "51dcac7edbd121fe3dc2c13abf82b415c7ea0015",
@@ -652,9 +675,9 @@
      "filed_at": "2026-10-28T17:26:00+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.2,
+   "volume_multiple": 1.2,
+   "price_date": "2026-10-29"
   },
   {
    "id": "e5ebb46ce6a6fd9a2d6a83ddc471e7fd740a2742",

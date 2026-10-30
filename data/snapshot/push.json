@@ -1,6 +1,24 @@
 {
- "as_of": "2026-10-30T00:42:54.563135+05:30",
+ "as_of": "2026-10-30T11:30:58.804382+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "d3d6195bdd31b99fc604e7803d1e23c31e769b1a",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-30T08:05:47+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 30, 2026, titled \"ILUMYA® (tildrakizumab-asmn) approved in the U.S. for the Treatment of Adults with Active Psoriatic Arthritis\".",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026080437_SE_Intimation_of_Press_Release_ILUMYA_PsA_Approval.pdf",
+    "raw_category": "Press Release",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "FDA approved ILUMYA (tildrakizumab-asmn) for active psoriatic arthritis in adults, expanding its use beyond plaque psoriasis; approval…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "5dac31286d32e279e8388f4e84c95e4fd1ca9288",
