@@ -166,3 +166,20 @@ def test_unexpected_failure_ends_with_an_error_event(tmp_path):
 def test_live_stream_starts_with_queue_position(tmp_path):
     sent = events(client(tmp_path).get("/api/research/KOTAKBANK"), keep_queued=True)
     assert sent[0] == ("queued", json.dumps({"ahead": 0}))
+
+
+def test_keep_awake_starts_only_on_render(tmp_path, monkeypatch):
+    from finn import api
+    started = []
+
+    async def fake_keep_awake(hub, ping, interval=240):
+        started.append(ping.args)
+
+    monkeypatch.setattr(api, "keep_awake", fake_keep_awake)
+    monkeypatch.delenv("RENDER_EXTERNAL_URL", raising=False)
+    with TestClient(create_app(store=SnapshotStore(tmp_path))):
+        pass
+    monkeypatch.setenv("RENDER_EXTERNAL_URL", "https://finn.onrender.com")
+    with TestClient(create_app(store=SnapshotStore(tmp_path))):
+        pass
+    assert started == [("https://finn.onrender.com",)]

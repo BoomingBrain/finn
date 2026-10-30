@@ -1,7 +1,7 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import type { DeliveryRow } from "../api/types";
 import { parseHash } from "../hooks/useHashRoute";
-import { applyMessage, parseSSE, refusal } from "../hooks/useResearch";
+import { applyMessage, followBuild, parseSSE, refusal, type Research, type SSEMessage } from "../hooks/useResearch";
 import { shouldAnnounce } from "./notify";
 import { citationHref, citationLabel, coverageShort, deliveredText, deliverySummary, targetText } from "./research";
 
@@ -82,5 +82,39 @@ describe("live build state", () => {
     expect(shouldAnnounce("KOTAKBANK", "#/ask/KOTAKBANK", false)).toBe(false);
     expect(shouldAnnounce("KOTAKBANK", "#/ask/KOTAKBANK", true)).toBe(true); // another tab
     expect(shouldAnnounce("KOTAKBANK", "#/brief", false)).toBe(true);
+  });
+});
+
+describe("reconnecting", () => {
+  const sse = (body: string) => () => Promise.resolve(new Response(body, { status: 200 }));
+  const progress = 'event: progress\ndata: {"done":1,"total":8,"label":"Reading"}\n\n';
+  const snapshot = 'data: {"section":"snapshot","data":{}}\n\n';
+
+  function follow(opens: Array<() => Promise<Response>>, maxDrops = 3) {
+    let state: Research = { sections: [], done: false, waking: false, error: null, progress: null, ahead: null, live: true };
+    const open = vi.fn();
+    for (const o of opens) open.mockImplementationOnce(o);
+    const pause = vi.fn(() => Promise.resolve());
+    const result = followBuild(open, {
+      replay: () => (state = { ...state, sections: [] }),
+      message: (m: SSEMessage) => (state = applyMessage(state, m)),
+      refused: async () => {},
+    }, () => state.done, pause, maxDrops);
+    return { result, open, pause, state: () => state };
+  }
+
+  it("rejoins a build after the phone drops the connection, without duplicating sections", async () => {
+    const f = follow([sse(progress + snapshot), sse(progress + snapshot + 'data: {"section":"delivery","data":{}}\n\nevent: done\ndata: {}\n\n')]);
+    expect(await f.result).toBe(true);
+    expect(f.pause).toHaveBeenCalledTimes(1);
+    expect(f.state().sections).toHaveLength(2);
+    expect(f.state().done).toBe(true);
+  });
+
+  it("gives up after repeated failed reconnects", async () => {
+    const down = () => Promise.reject(new TypeError("network"));
+    const f = follow([down, down, down], 2);
+    expect(await f.result).toBe(false);
+    expect(f.open).toHaveBeenCalledTimes(3);
   });
 });

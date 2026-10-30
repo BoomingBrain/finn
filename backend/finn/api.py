@@ -7,6 +7,7 @@ import logging
 import os
 import time
 from contextlib import asynccontextmanager
+from functools import partial
 from datetime import datetime, timezone
 from typing import AsyncIterator, Callable
 
@@ -22,7 +23,7 @@ from finn.persist import GitHubStore
 from finn.pull.chat import NOT_COVERED, RELEVANCE_MIN, answer, chip_label
 from finn.pull.dossier import Dossier, SectionEvent, build_dossier, needs_build
 from finn.rag import Embedder, Index, chunk_dossier, find_companies
-from finn.research_hub import Build, ResearchHub
+from finn.research_hub import Build, ResearchHub, keep_awake
 from finn.snapshot import SnapshotStore
 from finn.sources.screener import CompanyNotFound, SourceUnreachable
 
@@ -46,6 +47,11 @@ class ChatRequest(BaseModel):
     context: list[str] = []
 
 
+async def ping(base_url: str) -> None:
+    async with httpx.AsyncClient(timeout=30) as client:
+        (await client.get(f"{base_url.rstrip('/')}/api/health")).raise_for_status()
+
+
 def _client_ip(request: Request) -> str:
     forwarded = request.headers.get("x-forwarded-for", "")
     return forwarded.split(",")[0].strip() or (request.client.host if request.client else "unknown")
@@ -61,9 +67,12 @@ def create_app(store: SnapshotStore | None = None, build: Callable[..., AsyncIte
             saved_index = store.load_rag_index()
             state["index"] = Index.from_dict(saved_index) if saved_index else None
         loader = asyncio.create_task(keep_index_fresh()) if state["index"] is None and origins else None
+        public_url = os.environ.get("RENDER_EXTERNAL_URL")  # set by Render
+        awake = asyncio.create_task(keep_awake(hub, partial(ping, public_url))) if public_url else None
         yield
-        if loader:
-            loader.cancel()
+        for task in (loader, awake):
+            if task:
+                task.cancel()
 
     app = FastAPI(title="FINN research API", docs_url=None, redoc_url=None, lifespan=lifespan)
     origins = [o.strip() for o in os.environ.get("WEB_ORIGIN", "").split(",") if o.strip()]

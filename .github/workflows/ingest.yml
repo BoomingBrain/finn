@@ -44,6 +44,7 @@ jobs:
         working-directory: backend
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run python -m finn.ingest --days "${{ github.event.inputs.days || '7' }}"
 
       - name: Commit snapshot

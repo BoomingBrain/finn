@@ -97,6 +97,68 @@ export function onResearchReady(fn: ReadyListener): () => void {
   };
 }
 
+/*
+ * A phone that backgrounds the page cuts the stream, but the server keeps building. So a stream that ends before
+ * "done" or "error" is rejoined; the server replays the build from the start, which `replay` clears the way for.
+ */
+const MAX_DROPS = 8;
+const RECONNECT_MS = 3_000;
+
+type BuildHandlers = {
+  replay: () => void;
+  message: (m: SSEMessage) => void;
+  refused: (res: Response) => Promise<void>;
+};
+
+/** Follows a live build until it ends (true) or the server stays unreachable for `maxDrops` reconnects (false). */
+export async function followBuild(
+  open: () => Promise<Response>,
+  on: BuildHandlers,
+  ended: () => boolean,
+  pause: () => Promise<void>,
+  maxDrops = MAX_DROPS,
+): Promise<boolean> {
+  for (let drops = 0; ; drops++) {
+    try {
+      const res = await open();
+      if (!res.ok || !res.body) {
+        await on.refused(res);
+        return true;
+      }
+      on.replay();
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+      for (;;) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        const parsed = parseSSE(buffer + decoder.decode(value, { stream: true }));
+        buffer = parsed.rest;
+        for (const m of parsed.messages) on.message(m);
+      }
+    } catch {
+      // dropped: rejoin below
+    }
+    if (ended()) return true;
+    if (drops >= maxDrops) return false;
+    await pause();
+  }
+}
+
+/** Waits until the page is on screen (a hidden page's requests are cut again), then a moment more. */
+function untilVisibleThenWait(): Promise<void> {
+  return new Promise((resolve) => {
+    const go = () => setTimeout(resolve, RECONNECT_MS);
+    if (document.visibilityState === "visible") return go();
+    const onChange = () => {
+      if (document.visibilityState !== "visible") return;
+      document.removeEventListener("visibilitychange", onChange);
+      go();
+    };
+    document.addEventListener("visibilitychange", onChange);
+  });
+}
+
 async function streamLive(symbol: string) {
   if (!apiBase) return update(symbol, (s) => ({ ...s, error: unreachable(symbol), done: true }));
   update(symbol, (s) => ({ ...s, live: true }));
@@ -104,28 +166,21 @@ async function streamLive(symbol: string) {
     () => update(symbol, (s) => (s.sections.length || s.progress || s.ahead !== null ? s : { ...s, waking: true })),
     WAKING_AFTER_MS,
   );
-  try {
-    const res = await fetch(`${apiBase}/api/research/${encodeURIComponent(symbol)}`);
-    if (!res.ok || !res.body) {
-      const body = await res.json().catch(() => ({}));
-      return update(symbol, (s) => ({ ...s, waking: false, error: refusal(symbol, res.status, body.error), done: true }));
-    }
-    const reader = res.body.getReader();
-    const decoder = new TextDecoder();
-    let buffer = "";
-    for (;;) {
-      const { value, done } = await reader.read();
-      if (done) break;
-      const parsed = parseSSE(buffer + decoder.decode(value, { stream: true }));
-      buffer = parsed.rest;
-      for (const m of parsed.messages) update(symbol, (s) => applyMessage(s, m));
-    }
-  } catch {
-    update(symbol, (s) => (s.done ? s : { ...s, error: unreachable(symbol), done: true }));
-  } finally {
-    clearTimeout(wakeTimer);
-  }
-  update(symbol, (s) => (s.done ? s : { ...s, error: s.error ?? unreachable(symbol), done: true }));
+  const ended = await followBuild(
+    () => fetch(`${apiBase}/api/research/${encodeURIComponent(symbol)}`),
+    {
+      replay: () => update(symbol, (s) => ({ ...s, sections: [] })),
+      message: (m) => update(symbol, (s) => applyMessage(s, m)),
+      refused: async (res) => {
+        const body = await res.json().catch(() => ({}));
+        update(symbol, (s) => ({ ...s, waking: false, error: refusal(symbol, res.status, body.error), done: true }));
+      },
+    },
+    () => builds.get(symbol)?.done ?? false,
+    untilVisibleThenWait,
+  );
+  clearTimeout(wakeTimer);
+  if (!ended) update(symbol, (s) => ({ ...s, error: s.error ?? unreachable(symbol), done: true }));
   const final = builds.get(symbol)!;
   if (!final.error) {
     const name = (final.sections[0]?.data as { name?: string } | null)?.name ?? symbol;

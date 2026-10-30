@@ -3,6 +3,7 @@ under the free-tier rate limit, caches every response and enforces a daily reque
 import base64
 import hashlib
 import json
+import logging
 import os
 import re
 import sqlite3
@@ -62,9 +63,14 @@ class ModelPool:
             self._cond.notify()
 
 NVIDIA_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+# Fallback when NVIDIA still fails after its retries, used only if GEMINI_API_KEY is set. Checked 30 Oct on the free
+# tier: gemini-3.5-flash answers in ~3 s and reads images; the Pro models have no free quota.
+GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+FALLBACK_MODEL = "gemini-3.5-flash"
 DEFAULT_CACHE = REPO_ROOT / "backend" / ".cache" / "llm.sqlite"
 
 T = TypeVar("T", bound=BaseModel)
+log = logging.getLogger(__name__)
 
 
 class LLMError(Exception):
@@ -132,25 +138,31 @@ class Throttle:
             self._next_at = max(now, self._next_at) + self.interval
 
 
-def load_api_key() -> str:
-    key = os.environ.get("NVIDIA_API_KEY", "").strip()
+def read_env_file(name: str) -> str:
     env_file = REPO_ROOT / ".env"
-    if not key and env_file.exists():
+    if env_file.exists():
         for line in env_file.read_text().splitlines():
-            name, sep, value = line.partition("=")
-            if sep and name.strip() == "NVIDIA_API_KEY":
-                key = value.strip().strip("\"'")
-    if not key:
-        raise LLMError("NVIDIA_API_KEY is not set (environment or .env)")
+            key, sep, value = line.partition("=")
+            if sep and key.strip() == name:
+                return value.strip().strip("\"'")
+    return ""
+
+
+def load_api_key(name: str = "NVIDIA_API_KEY", required: bool = True) -> str:
+    key = os.environ.get(name, "").strip() or read_env_file(name)
+    if not key and required:
+        raise LLMError(f"{name} is not set (environment or .env)")
     return key
 
 
 class NvidiaCompleter:
     """Calls NVIDIA's OpenAI-compatible chat completions endpoint."""
+    url = NVIDIA_URL
+    key_name = "NVIDIA_API_KEY"
 
     def __init__(self, api_key: str | None = None, timeout: float = 120, thinking_timeout: float = 300,
                  retry_waits: tuple[float, ...] = (5, 20, 60)):
-        self.api_key = api_key or load_api_key()
+        self.api_key = api_key or load_api_key(self.key_name)
         self.timeout = timeout
         self.thinking_timeout = thinking_timeout
         self.retry_waits = retry_waits
@@ -161,20 +173,20 @@ class NvidiaCompleter:
         messages = ([{"role": "system", "content": system}] if system else []) + [
             {"role": "user", "content": content + [{"type": "text", "text": user}] if images else user}]
         body = {"model": model, "messages": messages, "max_tokens": max_tokens, "temperature": 0}
-        if not thinking:
-            body["chat_template_kwargs"] = {"enable_thinking": False}
+        self._configure_thinking(body, thinking)
         headers = {"Authorization": f"Bearer {self.api_key}", "Accept": "application/json"}
         waits = list(self.retry_waits)
         while True:
             try:
-                r = httpx.post(NVIDIA_URL, json=body, headers=headers,
+                r = httpx.post(self.url, json=body, headers=headers,
                                timeout=self.thinking_timeout if thinking else self.timeout)
             except httpx.HTTPError as e:
                 if waits:
                     time.sleep(waits.pop(0))
                     continue
                 raise LLMError(f"{model}: {type(e).__name__}: {e}") from e
-            if (r.status_code == 429 or r.status_code >= 500) and waits:
+            daily_quota_gone = r.status_code == 429 and "PerDay" in r.text  # resets tomorrow: retrying wastes minutes
+            if (r.status_code == 429 or r.status_code >= 500) and waits and not daily_quota_gone:
                 time.sleep(waits.pop(0))
                 continue
             if r.status_code != 200:
@@ -183,6 +195,47 @@ class NvidiaCompleter:
             usage = data.get("usage") or {}
             text = data["choices"][0]["message"].get("content") or ""
             return text, usage.get("prompt_tokens", 0), usage.get("completion_tokens", 0)
+
+    def _configure_thinking(self, body: dict, thinking: bool) -> None:
+        if not thinking:
+            body["chat_template_kwargs"] = {"enable_thinking": False}
+
+
+class GeminiCompleter(NvidiaCompleter):
+    """Gemini's OpenAI-compatible endpoint. Its models always think a little; "low" keeps that from eating the
+    reply's token budget on the steps that don't need it."""
+    url = GEMINI_URL
+    key_name = "GEMINI_API_KEY"
+
+    def _configure_thinking(self, body: dict, thinking: bool) -> None:
+        if not thinking:
+            body["reasoning_effort"] = "low"
+
+
+class FallbackCompleter:
+    """NVIDIA first; if it still fails after its own retries, the same prompt goes to FALLBACK_MODEL. Answers
+    pass the same JSON validation and citation guard either way."""
+
+    def __init__(self, primary: Completer, fallback: Completer):
+        self.primary, self.fallback = primary, fallback
+        self.fallbacks = 0
+
+    def __call__(self, model, system, user, images, max_tokens, thinking):
+        try:
+            return self.primary(model, system, user, images, max_tokens, thinking)
+        except LLMError as e:
+            log.warning("%s failed (%s); falling back to %s", model, str(e)[:200], FALLBACK_MODEL)
+            self.fallbacks += 1
+            try:
+                return self.fallback(FALLBACK_MODEL, system, user, images, max_tokens, thinking)
+            except LLMError as f:
+                raise LLMError(f"{e}; fallback {f}") from f
+
+
+def default_completer() -> Completer:
+    nvidia = NvidiaCompleter()
+    gemini_key = load_api_key("GEMINI_API_KEY", required=False)
+    return FallbackCompleter(nvidia, GeminiCompleter(api_key=gemini_key)) if gemini_key else nvidia
 
 
 def close_truncated(text: str) -> str:
@@ -239,7 +292,7 @@ class LLM:
     @property
     def completer(self) -> Completer:
         if self._completer is None:  # created lazily so a server with only cached data needs no key
-            self._completer = NvidiaCompleter()
+            self._completer = default_completer()
         return self._completer
 
     def _key(self, model: str, system: str, user: str, schema: type, images: list[bytes]) -> str:

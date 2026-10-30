@@ -59,6 +59,8 @@ are in [build-history/](build-history/); the task-by-task engineering record is 
 | 29 | Make scheduling robust using GitHub Actions only. | Schedules moved off the top of the hour; a watchdog workflow starts any job that's overdue. |
 | 30 | Add a chat section that answers questions about the holdings and researched companies only, says "research pending" for anything else, and uses retrieval over the researched content only. | Chat tab over an embedded index of every report's cited passages; uncited, off-topic and unresearched questions handled without inventing answers. |
 | 31 | Stop prebuilding the Nifty 50; research other companies only when asked. | Prebuild job and its company list removed, and the watchdog no longer restarts it. Live research results are still saved permanently. |
+| 32 | Add a Gemini API key as a fallback model. | NVIDIA first; on failure the same prompt goes to `gemini-3.5-flash`, which scored 57/57 on the results eval. The free tier is 20 requests a day, so it rescues single calls. |
+| 33 | Live research works while the app is on screen but fails after switching away. | Two causes: the browser cut the stream and the app gave up, and Render's free tier stopped the idle server mid-build. The app now rejoins the build when the screen returns, and the server keeps itself awake while a build runs. |
 
 ## Appendix: full text of the plan review
 

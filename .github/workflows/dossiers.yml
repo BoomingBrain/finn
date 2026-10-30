@@ -46,6 +46,7 @@ jobs:
         working-directory: backend
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FINN_CONCURRENCY_REASON: "3"
         run: uv run python -m finn.pull.dossier --holdings --mode "${{ github.event.inputs.mode || 'refresh' }}" --parallel 2
 
@@ -54,6 +55,7 @@ jobs:
         working-directory: backend
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: uv run python -m finn.rag --build
 
       - name: Commit dossiers

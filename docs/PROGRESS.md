@@ -63,6 +63,18 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-10-30 — Live research survives leaving the screen; Gemini fallback
+- **Cause found from the user's observation:** builds failed only after switching away from the app.
+  - **The app gave up:** a backgrounded page loses its stream, and the app marked the build failed while the server was still running it. `followBuild` now rejoins the stream when the page is visible again. The server replays the build, so nothing is duplicated (tests in `research.test.ts`).
+  - **Render stopped the server:** its free tier stops after 15 minutes without incoming requests. While a build runs, `keep_awake` pings the server's own public URL every 4 minutes (`RENDER_EXTERNAL_URL`) (tests in `test_research_hub.py`, `test_guard.py`).
+  - Running builds are now held by the hub, so the event loop can't garbage-collect one.
+- **Gemini fallback:** `FallbackCompleter` sends a failed NVIDIA call to `gemini-3.5-flash`.
+  - With NVIDIA disabled, the results eval scored 57/57.
+  - The guidance eval stopped at the free tier's limit of 20 requests a day per model.
+  - A daily-quota 429 fails at once instead of retrying.
+  - Pro models have no free quota, and `gemini-3.8-flash` timed out.
+- **Open:** add `GEMINI_API_KEY` on Render; re-run the Kotak live-build timing with the screen off.
+
 ### 2026-10-29 — Nifty 50 prebuild stopped (user decision)
 - Removed `.github/workflows/prebuild.yml` and `finn/data/nifty50.txt`. The watchdog now watches only ingest and the holdings refresh, so it can't restart the prebuild (test `test_prebuild_is_not_watched`).
 - The first prebuild run (8 companies, nothing saved yet) was cancelled.

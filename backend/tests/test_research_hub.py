@@ -1,7 +1,7 @@
 import asyncio
 
 from finn.pull.dossier import SectionEvent
-from finn.research_hub import ResearchHub
+from finn.research_hub import ResearchHub, keep_awake
 
 
 def run(coro):
@@ -98,4 +98,44 @@ def test_failure_reaches_every_listener():
         hub = ResearchHub(broken)
         events = await drain(hub.start("X").listen())
         assert events[-1][0] == "error" and isinstance(events[-1][1], ConnectionError)
+    run(scenario())
+
+
+def test_keep_awake_pings_only_while_a_build_runs():
+    """Render's free tier stops a server after 15 minutes without incoming requests, which killed builds whose
+    viewer had left the screen. While a build runs, the server pings its own public URL."""
+    async def scenario():
+        gates, pings = {}, []
+        hub = ResearchHub(slow_build(gates, []), concurrency=1)
+        async def ping():
+            pings.append(hub.busy)
+        awake = asyncio.create_task(keep_awake(hub, ping, interval=0.01))
+        await asyncio.sleep(0.03)
+        assert pings == []  # idle: let the server sleep
+        hub.start("KOTAKBANK")
+        await asyncio.sleep(0.05)
+        assert pings and all(pings)
+        gates["KOTAKBANK"].set()
+        await asyncio.sleep(0.05)
+        assert not hub.busy
+        count = len(pings)
+        await asyncio.sleep(0.03)
+        assert len(pings) == count
+        awake.cancel()
+    run(scenario())
+
+
+def test_a_ping_failure_does_not_stop_keep_awake():
+    async def scenario():
+        gates, calls = {}, []
+        hub = ResearchHub(slow_build(gates, []), concurrency=1)
+        async def ping():
+            calls.append(1)
+            raise OSError("network")
+        awake = asyncio.create_task(keep_awake(hub, ping, interval=0.01))
+        hub.start("KOTAKBANK")
+        await asyncio.sleep(0.05)
+        assert len(calls) > 1 and not awake.done()
+        awake.cancel()
+        gates["KOTAKBANK"].set()
     run(scenario())

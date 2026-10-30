@@ -55,6 +55,7 @@ class ResearchHub:
         self.builds: dict[str, Build] = {}
         self.waiting: list[Build] = []
         self.running = 0
+        self._tasks: set[asyncio.Task] = set()  # the loop holds tasks weakly; a build must not be collected mid-run
         self._slots: asyncio.Semaphore | None = None  # created on the running loop
 
     def get(self, symbol: str) -> Build | None:
@@ -69,8 +70,14 @@ class ResearchHub:
         build = self.builds[symbol] = Build(symbol)
         self.waiting.append(build)
         self._announce_queue()
-        asyncio.get_running_loop().create_task(self._run(build))
+        task = asyncio.get_running_loop().create_task(self._run(build))
+        self._tasks.add(task)
+        task.add_done_callback(self._tasks.discard)
         return build
+
+    @property
+    def busy(self) -> bool:
+        return bool(self.builds)
 
     def _announce_queue(self) -> None:
         """Each waiting build learns how many builds must finish before it starts (0 = starting now)."""
@@ -114,3 +121,15 @@ class ResearchHub:
                 self._announce_queue()
             build.finished = True
             self.builds.pop(build.symbol, None)
+
+
+async def keep_awake(hub: ResearchHub, ping: Callable[[], Awaitable[None]], interval: float = 240) -> None:
+    """Render's free tier stops a server after 15 minutes without incoming requests, and a viewer who leaves the
+    screen stops sending any. While a build runs, `ping` (a request to the server's own public URL) counts as one."""
+    while True:
+        await asyncio.sleep(interval)
+        if hub.busy:
+            try:
+                await ping()
+            except Exception as e:  # a missed ping only matters if every one fails; keep trying
+                log.warning("keep-awake ping failed: %r", e)

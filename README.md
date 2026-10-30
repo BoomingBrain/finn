@@ -101,6 +101,10 @@ The NVIDIA API catalog's free tier, one key, each tier routed to the job it fits
 | bulk | `nemotron-3.5-lightning-30b-a3b` (thinking off) | Leftover classification, one-line summaries, profiles, business section, verdict explanations |
 | reason | `nemotron-3-ultra-550b-a55b` (thinking on) | Guidance extraction, bull vs bear |
 
+**Fallback:** when NVIDIA still fails after its retries, the same prompt goes to Google's `gemini-3.5-flash` (free tier, optional `GEMINI_API_KEY`).
+- With every call forced onto it, it scored 57/57 on results extraction.
+- The free tier allows 20 requests a day, so it rescues individual failed calls, not whole builds.
+
 **Choices made on evidence, not by default:**
 - **Results go to the vision model.** On real filings it scored 97% vs 18% for OCR text and 3% for a document parser (`docs/spikes.md`).
 - **Guidance went to the reasoning model.** The bulk model mislabelled past results and volume growth as revenue targets; the reasoning model returned only the real one.
