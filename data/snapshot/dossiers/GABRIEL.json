@@ -1,0 +1,724 @@
+{
+ "symbol": "GABRIEL",
+ "name": "Gabriel India Ltd",
+ "built_at": "2026-10-30T13:59:26.172681Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": "2026-07-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Gabriel India Ltd",
+    "about": "Gabriel India is part of ANAND Group. The Company has established a significant presence across all automotive customer segments, including OEMs, Aftermarket, and exports. Company manufactures over 500 models of ride control products.[1]Its products include shock absorbers, struts, front forks and others.[2]",
+    "basis": "consolidated",
+    "built_at": "2026-10-30T13:49:34.039564+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": "2026-07-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 5166.0,
+    "pat_ttm": 351.0,
+    "revenue_cagr_3y": null,
+    "pat_cagr_3y": null,
+    "opm_latest": 9.4,
+    "opm_3y_ago": null,
+    "roce_latest": 26.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.11,
+    "cfo_to_pat_3y": 1.07,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 1027.0,
+      "pat": 63.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 1017.0,
+      "pat": 60.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 1073.0,
+      "pat": 64.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 1234.0,
+      "pat": 105.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 1180.0,
+      "pat": 69.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 1179.0,
+      "pat": 55.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 1381.0,
+      "pat": 119.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 1426.0,
+      "pat": 108.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/GABRIEL/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Jul 2026",
+     "Transcript May 2026",
+     "Transcript Feb 2026",
+     "Transcript Nov 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "revenue",
+       "raw_metric": "revenue",
+       "comparison": "approx",
+       "value": 50000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY30",
+       "quote": "Okay. So I think I look at it overall group perspective. So INR50,000 crores, we will be targeting in 2030. That is what our plan is.",
+       "source_id": "T:2026-07-01:p7",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Revenue guidance pending with no quarters reported."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "new business margin at EBITDA level",
+       "comparison": "between",
+       "value": 12.0,
+       "value_high": 14.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "we continue to maintain our position that some new business margin at EBITDA level remains between 12% to 14%.",
+       "source_id": "T:2026-05-01:p6",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 8.7,
+       "quarters_in": 1,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "New business margin delivered at 8.7%, below guided 12–14%."
+     },
+     {
+      "target": {
+       "metric": "revenue",
+       "raw_metric": "going to INR50,000 crores",
+       "comparison": "gte",
+       "value": 50000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "our targets, whether margin improvement or whether it is going to INR50,000 crores or whether it is continuing the acquisition journey, I think they cannot get derailed, I would say, in the mind also because of certain happenings.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 1426.0,
+       "quarters_in": 1,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "INR50,000 Cr target delivered at ₹1,426 Cr, 1 of 4 quarters."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "first tranche payment for HL Klemove JV",
+       "comparison": "lte",
+       "value": 6128.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "Q2FY27",
+       "quote": "We will be paying USD 73.83 million on or before 15th September 2026, balance USD 24.61 million within 18 months of signing the definitive agreements.",
+       "source_id": "T:2026-07-01:p4",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided first tranche payment for HL Klemove JV ≤ ₹6,128 Cr for Q2FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "second tranche payment for HL Klemove JV",
+       "comparison": "lte",
+       "value": 2043.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY28",
+       "quote": "We will be paying USD 73.83 million on or before 15th September 2026, balance USD 24.61 million within 18 months of signing the definitive agreements.",
+       "source_id": "T:2026-07-01:p4",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided second tranche payment for HL Klemove JV ≤ ₹2,043 Cr for FY28; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "content per vehicle",
+       "comparison": "between",
+       "value": 0.002,
+       "value_high": 0.007,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "Yes, the content per vehicle will always depend actually. But I think in my view, it can go, I think my estimate is maybe INR20,000 to INR60,000, INR70,000 per vehicle, all will depend what kind of a level that our OEMs would like to target in their vehicle. But I think the content can go as high INR60,000 and as low as maybe INR20,000 or slightly less actually.",
+       "source_id": "T:2026-07-01:p9",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided content per vehicle ₹0 Cr–₹0 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "debt requirement",
+       "comparison": "approx",
+       "value": 1000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "is about INR1,600 crores. However, on the short and midterm basis, we feel that we will be requiring a debt of INR1,000 crores.",
+       "source_id": "T:2026-07-01:p10",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided debt requirement ≈ ₹1,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "exports",
+       "comparison": "gte",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "So I think this is the combination of all 3, we had set up a target of 10% exports in the coming timeline.",
+       "source_id": "T:2026-07-01:p14",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided exports ≥ 10% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "group sale share",
+       "comparison": "approx",
+       "value": 70.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "So we will be reaching almost 70%, so the balance 30% is left.",
+       "source_id": "T:2026-07-01:p14",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided group sale share ≈ 70% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "debt raise",
+       "comparison": "approx",
+       "value": 800.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "Q3FY27",
+       "quote": "So I think we are at a very comfortable stage of raising approximately INR800 crores of debt.",
+       "source_id": "T:2026-07-01:p17",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided debt raise ≈ ₹800 Cr for Q3FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ANAND Group revenue target",
+       "comparison": "approx",
+       "value": 50000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "2030",
+       "quote": "And as for INR50,000 crores, I think the target very much remains with us, and we are very hopeful that as we are progressing in this journey, we should be able to achieve this target in 2030.",
+       "source_id": "T:2026-05-01:p4",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ANAND Group revenue target ≈ ₹50,000 Cr for 2030; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "standalone capex",
+       "comparison": "between",
+       "value": 160.0,
+       "value_high": 190.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "Next year outlook is looking between INR160 crores to INR190-odd crores for standalone business.",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided standalone capex ₹160 Cr–₹190 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "annual turnover for Hyundai sunroof order",
+       "comparison": "approx",
+       "value": 120.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY28",
+       "quote": "The total volume expected is 130,000 with an annual turnover of roughly around INR120 crores. The start of production is expected to be by December of 2027.",
+       "source_id": "T:2026-02-01:p4",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided annual turnover for Hyundai sunroof order ≈ ₹120 Cr for FY28; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "utilization on the second line for sunroof",
+       "comparison": "between",
+       "value": 60.0,
+       "value_high": 70.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "we are looking at a more -- comfortably more than around 60% to 70% utilization on the second line also moving forward.",
+       "source_id": "T:2026-02-01:p7",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided utilization on the second line for sunroof 60%–70% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "sunroof localization target",
+       "comparison": "gte",
+       "value": 60.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "And we are -- the target is to take it to 60%.",
+       "source_id": "T:2026-02-01:p10",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided sunroof localization target ≥ 60% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex",
+       "comparison": "between",
+       "value": 150.0,
+       "value_high": 180.0,
+       "unit": "cr",
+       "period": "FY26",
+       "quote": "The H1 capex had MMAS asset acquisition and that was disclosed also. So that was the major number. And I think we anticipate about Rs. 150-odd crores as we've been doing regularly. And in case of any -- there are some upgradation of assets. So maybe we might hit Rs. 180-odd crores of capex this year.",
+       "source_id": "T:2025-11-01:p9",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex ₹150 Cr–₹180 Cr for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "EV 2-wheeler market share",
+       "comparison": "gte",
+       "value": 50.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "But we are looking at the target is to continue to have more than 50% share in this particular segment. So we continue to put our efforts towards that.",
+       "source_id": "T:2025-11-01:p6",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided EV 2-wheeler market share ≥ 50% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "sunroof business revenue",
+       "comparison": "gte",
+       "value": 1000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY31",
+       "quote": "I think looking at the current situation, I think we may not be able to achieve that number by 2030. While as I said, I think there are multiple RFQs in the pipeline under discussion. But I think a more realistic number is that -- the aspiration continues to be the same, but I think we may see a year or a two -year delay into achieving that number. We are reworking those numbers, but maybe the 2030 number of Rs. 1,000 crores may not happen in 2030. There can be a delay of one or two years.",
+       "source_id": "T:2025-11-01:p12",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided sunroof business revenue ≥ ₹1,000 Cr for FY31; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-07-01:p7",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/07/Gabriel-India_Q1FY27-Earnings-Call-Transcript.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-05-01:p6",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/06/Gabriel-India_Q4FY26-Earnings-Call-Transcript.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2026-05-01:p8",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/06/Gabriel-India_Q4FY26-Earnings-Call-Transcript.pdf",
+     "page": 8
+    },
+    {
+     "source_id": "T:2026-07-01:p4",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/07/Gabriel-India_Q1FY27-Earnings-Call-Transcript.pdf",
+     "page": 4
+    },
+    {
+     "source_id": "T:2026-07-01:p9",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/07/Gabriel-India_Q1FY27-Earnings-Call-Transcript.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-07-01:p10",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/07/Gabriel-India_Q1FY27-Earnings-Call-Transcript.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "T:2026-07-01:p14",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/07/Gabriel-India_Q1FY27-Earnings-Call-Transcript.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-07-01:p17",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/07/Gabriel-India_Q1FY27-Earnings-Call-Transcript.pdf",
+     "page": 17
+    },
+    {
+     "source_id": "T:2026-05-01:p4",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/06/Gabriel-India_Q4FY26-Earnings-Call-Transcript.pdf",
+     "page": 4
+    },
+    {
+     "source_id": "T:2026-05-01:p12",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/06/Gabriel-India_Q4FY26-Earnings-Call-Transcript.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-02-01:p4",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/02/Written-Transcript-Q3-FY26.pdf",
+     "page": 4
+    },
+    {
+     "source_id": "T:2026-02-01:p7",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/02/Written-Transcript-Q3-FY26.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-02-01:p10",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/02/Written-Transcript-Q3-FY26.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "T:2025-11-01:p9",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2025/11/SGA-GabrielIndia-Nov13-2025.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2025-11-01:p6",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2025/11/SGA-GabrielIndia-Nov13-2025.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2025-11-01:p12",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2025/11/SGA-GabrielIndia-Nov13-2025.pdf",
+     "page": 12
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Gabriel India Limited is a diversified automotive components manufacturer supplying shock absorbers, struts, front forks, sunroof systems, fasteners, and lubricants to OEMs and the aftermarket across two-wheelers, passenger vehicles, commercial vehicles, and railways, with growing exports.",
+    "segments": [
+     {
+      "name": "Two-Wheelers and Three-Wheelers",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p85"
+      ]
+     },
+     {
+      "name": "Passenger Vehicles",
+      "share_pct": 23.1,
+      "source_ids": [
+       "AR:2026:p85"
+      ]
+     },
+     {
+      "name": "Commercial Vehicles",
+      "share_pct": 11.0,
+      "source_ids": [
+       "AR:2026:p86"
+      ]
+     },
+     {
+      "name": "Railways",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p86"
+      ]
+     },
+     {
+      "name": "Aftermarket",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p86"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p84",
+     "AR:2026:p85",
+     "AR:2026:p86",
+     "AR:2026:p145"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p84",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/58a2e8cd-b465-4227-9659-5c3a871e7f8f.pdf",
+     "page": 84
+    },
+    {
+     "source_id": "AR:2026:p85",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/58a2e8cd-b465-4227-9659-5c3a871e7f8f.pdf",
+     "page": 85
+    },
+    {
+     "source_id": "AR:2026:p86",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/58a2e8cd-b465-4227-9659-5c3a871e7f8f.pdf",
+     "page": 86
+    },
+    {
+     "source_id": "AR:2026:p145",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/58a2e8cd-b465-4227-9659-5c3a871e7f8f.pdf",
+     "page": 145
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Strong return metrics with ROCE of 26%, low leverage at 0.11 debt-to-equity, and operating cash flow covering PAT 1.07x over three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Quarterly revenue grew sequentially from ₹1,179 Cr in Dec 2025 to ₹1,426 Cr in Jun 2026 while PAT rose from ₹55 Cr to ₹108 Cr over the same period.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management targets ₹50,000 Cr group revenue by 2030 and estimates content per vehicle could reach ₹60,000-70,000, implying significant per-vehicle revenue upside.",
+      "source_ids": [
+       "T:2026-07-01:p7",
+       "T:2026-07-01:p9"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "New business EBITDA margin target of 12-14% has delivered only 8.7% in the first of four tracked quarters.",
+      "source_ids": [
+       "T:2026-05-01:p6"
+      ]
+     },
+     {
+      "text": "Management acknowledged the ₹1,000 Cr revenue aspiration for 2030 may slip by one to two years.",
+      "source_ids": [
+       "T:2025-11-01:p12"
+      ]
+     },
+     {
+      "text": "Planned debt increase of ₹1,000 Cr in the short-to-medium term plus USD 98.44 million in acquisition payments could raise leverage from the current 0.11 debt-to-equity.",
+      "source_ids": [
+       "T:2026-07-01:p10",
+       "T:2026-07-01:p4"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/GABRIEL/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-07-01:p7",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/07/Gabriel-India_Q1FY27-Earnings-Call-Transcript.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-07-01:p9",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/07/Gabriel-India_Q1FY27-Earnings-Call-Transcript.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-05-01:p6",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/06/Gabriel-India_Q4FY26-Earnings-Call-Transcript.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2025-11-01:p12",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2025/11/SGA-GabrielIndia-Nov13-2025.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-07-01:p10",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/07/Gabriel-India_Q1FY27-Earnings-Call-Transcript.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "T:2026-07-01:p4",
+     "url": "https://www.anandgroupindia.com/wp-content/uploads/2026/07/Gabriel-India_Q1FY27-Earnings-Call-Transcript.pdf",
+     "page": 4
+    }
+   ]
+  }
+ ]
+}
