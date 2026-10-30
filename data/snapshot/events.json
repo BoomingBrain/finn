@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-30T23:35:22.657329+05:30",
+ "as_of": "2026-10-31T00:21:11.317488+05:30",
  "events": [
   {
    "id": "f363596e48367be5f1962f7c6a9c2bba826f0229",
@@ -350,9 +350,9 @@
      "filed_at": "2026-10-30T15:23:54+05:30"
     }
    ],
-   "price_change_pct": 0.1,
-   "volume_multiple": 0.8,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "477080f18a62a8cf3b23b1b8423e3d497d660777",
@@ -373,9 +373,9 @@
      "filed_at": "2026-10-30T15:18:46+05:30"
     }
    ],
-   "price_change_pct": 0.9,
-   "volume_multiple": 3.4,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "4845f5beddd950d2b71a215413dffd27068674a5",
@@ -396,9 +396,9 @@
      "filed_at": "2026-10-30T14:53:37+05:30"
     }
    ],
-   "price_change_pct": 0.0,
-   "volume_multiple": 1.1,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "6f5214d5381005d7d8ba47f6166c30a8695acb4c",
@@ -419,9 +419,9 @@
      "filed_at": "2026-10-30T14:15:10+05:30"
     }
    ],
-   "price_change_pct": 0.9,
-   "volume_multiple": 3.4,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "8096055e3f062d0e3c7d7f2bcf2eafbc10b73117",
@@ -442,9 +442,9 @@
      "filed_at": "2026-10-30T13:24:25+05:30"
     }
    ],
-   "price_change_pct": 1.4,
-   "volume_multiple": 0.7,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "2940539705b43c908a2b7361bc0596b9ef81dbaf",
@@ -465,9 +465,9 @@
      "filed_at": "2026-10-30T12:20:09+05:30"
     }
    ],
-   "price_change_pct": 0.5,
-   "volume_multiple": 0.7,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "d3d6195bdd31b99fc604e7803d1e23c31e769b1a",
@@ -488,9 +488,9 @@
      "filed_at": "2026-10-30T08:05:47+05:30"
     }
    ],
-   "price_change_pct": 0.9,
-   "volume_multiple": 3.4,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "857e6075e28b0862e15c3e0b20a3683c9b5eaeff",
@@ -516,9 +516,9 @@
      "filed_at": "2026-10-29T22:14:44+05:30"
     }
    ],
-   "price_change_pct": 2.9,
-   "volume_multiple": 24.1,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "9fd51fb7b1d71a5e57ce755e59ee6530b859dde7",
@@ -539,9 +539,9 @@
      "filed_at": "2026-10-29T21:18:39+05:30"
     }
    ],
-   "price_change_pct": 0.8,
-   "volume_multiple": 1.7,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "c7ca99b8cb31cd61cec8bd446743998553978b6a",
@@ -562,9 +562,9 @@
      "filed_at": "2026-10-29T17:40:50+05:30"
     }
    ],
-   "price_change_pct": 0.8,
-   "volume_multiple": 0.4,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "3269790749d5bbcbf358626a643536814d6183b7",
@@ -585,9 +585,9 @@
      "filed_at": "2026-10-29T16:45:56+05:30"
     }
    ],
-   "price_change_pct": 0.8,
-   "volume_multiple": 1.7,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "299b6b209492354dcc733fe5137a26f836976504",
@@ -632,9 +632,9 @@
      "filed_at": "2026-10-29T16:32:13+05:30"
     }
    ],
-   "price_change_pct": 5.4,
-   "volume_multiple": 3.9,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "d4a678e1312a5fd98369a8fa76717fb23911cf17",
@@ -660,9 +660,9 @@
      "filed_at": "2026-10-29T16:21:37+05:30"
     }
    ],
-   "price_change_pct": 5.4,
-   "volume_multiple": 3.9,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "e2bd816f932a8db81c70126d0dab477ef3965289",
@@ -683,9 +683,9 @@
      "filed_at": "2026-10-29T16:17:38+05:30"
     }
    ],
-   "price_change_pct": 5.4,
-   "volume_multiple": 3.9,
-   "price_date": "2026-10-30"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "dd5d9a3f1e0f688137ba7cc0dbe6f34991ce80b5",
