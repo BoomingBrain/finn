@@ -1,0 +1,718 @@
+{
+ "symbol": "YATHARTH",
+ "name": "Yatharth Hospital & Trauma Care Services Ltd",
+ "built_at": "2026-10-30T14:35:58.750172Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": "2026-08-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Yatharth Hospital & Trauma Care Services Ltd",
+    "about": "Incorporated in 2008, Yatharth Hospital and Trauma Care Services Limited is a multi-care hospitals at Noida, Greater Noida, and Noida Extension, Uttar Pradesh.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-10-30T14:12:24.238646+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": "2026-08-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 1334.0,
+    "pat_ttm": 174.0,
+    "revenue_cagr_3y": 36.2,
+    "pat_cagr_3y": 37.1,
+    "opm_latest": 25.3,
+    "opm_3y_ago": 28.2,
+    "roce_latest": 13.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.15,
+    "cfo_to_pat_3y": 0.8,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 218.0,
+      "pat": 31.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 219.0,
+      "pat": 30.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 232.0,
+      "pat": 39.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 258.0,
+      "pat": 42.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 279.0,
+      "pat": 41.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 320.0,
+      "pat": 43.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 342.0,
+      "pat": 45.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 393.0,
+      "pat": 45.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/YATHARTH/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Aug 2026",
+     "Transcript Jun 2026",
+     "Transcript Feb 2026",
+     "Transcript Nov 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin",
+       "comparison": "between",
+       "value": 24.0,
+       "value_high": 25.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "If you see what the guidance we are giving for the EBITDA, we are touching from 24 to 25% EBITDA margin as per the guidance.",
+       "source_id": "T:2026-08-01:p13",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": 23.4,
+       "quarters_in": 1,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "EBITDA margin 23.4% falls short of the 24%–25% guided for FY27."
+     },
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "revenue growth Y-o-Y",
+       "comparison": "gte",
+       "value": 37.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "As you can clearly see this year, we will easily surpass that growth even the EBITDA is concerned.",
+       "source_id": "T:2026-08-01:p9",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": 52.3,
+       "quarters_in": 1,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Revenue growth 52.3% exceeds the ≥37% guided for FY27."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "new hospitals EBITDA margin",
+       "comparison": "approx",
+       "value": 27.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "Yes, so I think within two years from today, I think new hospitals should be even upwards of 25% of EBITDA margin, somewhere around 27%, just like our existing mature units.",
+       "source_id": "T:2026-08-01:p16",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "New hospitals EBITDA margin n/a as 0 of 4 quarters reported for FY29."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ARPOB growth",
+       "comparison": "between",
+       "value": 9.0,
+       "value_high": 10.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "I think 9% to 10% is the right estimation to be taken.",
+       "source_id": "T:2026-08-01:p9",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ARPOB growth 9%–10% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ARPOB growth YoY",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 10.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "I think we have maintained that ARPOB will continue to grow somewhere between 8% to 10% Y-o-Y from each year. We are well on track for that. That's also expected for this fiscal year.",
+       "source_id": "T:2026-08-01:p16",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ARPOB growth YoY 8%–10% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex per bed",
+       "comparison": "between",
+       "value": 0.75,
+       "value_high": 0.8,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "I think the capex per bed should be around INR75 lakhs to INR80 lakhs capex per bed, which includes the greenfield, the brownfield, the acquisitions.",
+       "source_id": "T:2026-08-01:p18",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex per bed ₹0.8 Cr–₹0.8 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "quarterly depreciation",
+       "comparison": "approx",
+       "value": 29.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "Q2FY27-Q4FY27",
+       "quote": "If you see around INR20 crores to INR30 crores okay and the same trend will maintain so as and when we add in the Gurugram facility the then there is a margin increase in the at a group level group, consolidate level the trend we are projecting right now is around INR29 crores for a quarter.",
+       "source_id": "T:2026-08-01:p19",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided quarterly depreciation ≈ ₹29 Cr for Q2FY27-Q4FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "quarterly interest cost",
+       "comparison": "approx",
+       "value": 6.6,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "So, if you see, so we have reported around the interest cost of last quarter is INR5 crores. This quarter we have reported around INR6.6 crores. The same will continue as we are not going to take any fresh loan further.",
+       "source_id": "T:2026-08-01:p19",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided quarterly interest cost ≈ ₹6.6 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "acquisition share of new beds",
+       "comparison": "approx",
+       "value": 70.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "of these upcoming beds, we feel around 70% would be acquisitions, mostly, and 30% beds would be through Greenfield that we will be adding.",
+       "source_id": "T:2026-06-01:p9",
+       "said_on": "2026-06-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided acquisition share of new beds ≈ 70% for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "greenfield share of new beds",
+       "comparison": "approx",
+       "value": 30.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "of these upcoming beds, we feel around 70% would be acquisitions, mostly, and 30% beds would be through Greenfield that we will be adding.",
+       "source_id": "T:2026-06-01:p9",
+       "said_on": "2026-06-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided greenfield share of new beds ≈ 30% for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "CGHS rate hike revenue impact",
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "complete effect of 5% will come in the next financial by FY2027.",
+       "source_id": "T:2026-06-01:p14",
+       "said_on": "2026-06-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided CGHS rate hike revenue impact ≈ 5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "total bed capacity",
+       "comparison": "between",
+       "value": 5000.0,
+       "value_high": 6000.0,
+       "unit": "cr",
+       "period": "FY27-FY30",
+       "quote": "In totality, we have a plan to go around 5,000 to 6,000 beds, as we just told in the earlier question as well. So in the ramp-up stage, we may come with around additional 3,000 beds in the coming 3 to 4 years down the line.",
+       "source_id": "T:2026-02-01:p7",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided total bed capacity ₹5,000 Cr–₹6,000 Cr for FY27-FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Agra operational beds",
+       "comparison": "approx",
+       "value": 250.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "H1 FY27",
+       "quote": "Agra, we have just started in the month of February 2026. Just we have started it out, having current operational beds of around 150, which we will be going to expand to around 250 beds in the coming quarters.",
+       "source_id": "T:2026-02-01:p7",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Agra operational beds ≈ ₹250 Cr for H1 FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ALOS",
+       "comparison": "between",
+       "value": 4.0,
+       "value_high": 4.5,
+       "unit": "cr",
+       "period": "H1 FY27",
+       "quote": "So I think it will be anything around close to 4, 4.3, that's quite acceptable, within 4, 4.5, I think that's acceptable number, which we see that as you grow, probably the 2 years down the line, if you say, definitely there's going to be a lesser.",
+       "source_id": "T:2026-02-01:p9",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ALOS ₹4 Cr–₹4.5 Cr for H1 FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin",
+       "comparison": "between",
+       "value": 24.0,
+       "value_high": 25.0,
+       "unit": "pct",
+       "period": "FY27-FY29",
+       "quote": "But at a consolidated level, we feel somewhere around 24%, 25% EBITDA margin would be a right estimation.",
+       "source_id": "T:2026-02-01:p11",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided EBITDA margin 24%–25% for FY27-FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ARPOB year-on-year growth",
+       "comparison": "gte",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "10% ARPOB year-on-year, I think that's quite easily achievable for us. That's what our guidance.",
+       "source_id": "T:2026-02-01:p12",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ARPOB year-on-year growth ≥ 10% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "MVT business benefit",
+       "comparison": "between",
+       "value": 5.0,
+       "value_high": 6.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Yes. So we would see around 5% to 6% increase in the cost that we would be benefiting from that. That's our estimation on that specific business.",
+       "source_id": "T:2026-02-01:p13",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided MVT business benefit 5%–6% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex plan",
+       "comparison": "approx",
+       "value": 1500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY31",
+       "quote": "So we have discussed our overall capex plan for next 5 years. For it, deals will be announced within, let's say, in next 3, 3.5 years, but the fund deployment of the capex will take 5 years' time, and that is around INR1,500 crores for getting us a bed capacity of close to 5,000 beds.",
+       "source_id": "T:2026-02-01:p14",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex plan ≈ ₹1,500 Cr for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex",
+       "comparison": "approx",
+       "value": 1500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY29",
+       "quote": "And the combined capex that we are planning for this is around INR1,500 crores.",
+       "source_id": "T:2026-02-01:p18",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex ≈ ₹1,500 Cr for FY27-FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex per bed",
+       "comparison": "approx",
+       "value": 0.6,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY29",
+       "quote": "So this would be coming to around INR60 lakhs per bed because there is a mix of greenfield and asset-light.",
+       "source_id": "T:2026-02-01:p18",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex per bed ≈ ₹0.6 Cr for FY27-FY29; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-08-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c7e2611-d92c-4fe5-9f21-594939da0120.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-08-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c7e2611-d92c-4fe5-9f21-594939da0120.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-08-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c7e2611-d92c-4fe5-9f21-594939da0120.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-08-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c7e2611-d92c-4fe5-9f21-594939da0120.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-08-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c7e2611-d92c-4fe5-9f21-594939da0120.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2026-06-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c456e2f-071b-4702-99c7-958c097f05a2.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-06-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c456e2f-071b-4702-99c7-958c097f05a2.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-02-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-02-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-02-01:p11",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "T:2026-02-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-02-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-02-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-02-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+     "page": 18
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Yatharth Hospital & Trauma Care Services Limited operates a network of super-specialty hospitals in the National Capital Region (NCR) of Delhi, India, providing medical and trauma care services. The company has expanded its capacity significantly and is positioning itself in the Medical Value Travel (MVT) segment by leveraging its proximity to Noida International Airport to attract international patients seeking specialized healthcare in India.",
+    "segments": [
+     {
+      "name": "Hospital Business",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p79"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p38",
+     "AR:2026:p79"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p38",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/51dc17b1-d9f7-40c7-9bf6-76631a1b7e03.pdf",
+     "page": 38
+    },
+    {
+     "source_id": "AR:2026:p79",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/51dc17b1-d9f7-40c7-9bf6-76631a1b7e03.pdf",
+     "page": 79
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Revenue and PAT have compounded at 36.2% and 37.1% CAGR over three years, reaching TTM ₹1,334 Cr and ₹174 Cr respectively.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Balance sheet is conservatively leveraged with debt-to-equity of 0.15, while quarterly revenue has sequentially grown from ₹279 Cr in Sep 2025 to ₹393 Cr in Jun 2026.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management targets 5,000–6,000 beds (adding ~3,000 in 3–4 years) and is positioning for Medical Value Travel leveraging proximity to Noida International Airport.",
+      "source_ids": [
+       "T:2026-02-01:p7",
+       "AR:2026:p38"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Operating margin has declined from 28.2% three years ago to 25.3% TTM and ROCE remains modest at 13%.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Cash conversion is weak with operating cash flow / PAT averaging only 0.8 over the last three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Aggressive ₹1,500 Cr capex plan relies 70% on acquisitions, yet new hospitals target 25–27% EBITDA margin only in two years and current consolidated EBITDA margin guidance of 24–25% has delivered just 23.4% in the latest quarter.",
+      "source_ids": [
+       "T:2026-02-01:p14",
+       "T:2026-06-01:p9",
+       "T:2026-08-01:p13",
+       "T:2026-08-01:p16"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/YATHARTH/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-02-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "AR:2026:p38",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/51dc17b1-d9f7-40c7-9bf6-76631a1b7e03.pdf",
+     "page": 38
+    },
+    {
+     "source_id": "T:2026-02-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc2341a-f83b-44d4-92a2-9b4e3a13f63a.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-06-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c456e2f-071b-4702-99c7-958c097f05a2.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-08-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c7e2611-d92c-4fe5-9f21-594939da0120.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-08-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c7e2611-d92c-4fe5-9f21-594939da0120.pdf",
+     "page": 16
+    }
+   ]
+  }
+ ]
+}
