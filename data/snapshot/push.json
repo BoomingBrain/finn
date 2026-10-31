@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-31T00:21:11.317488+05:30",
+ "as_of": "2026-10-31T19:25:33.781448+05:30",
  "announcements": [
   {
    "announcement": {
@@ -273,7 +273,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -5698,5 +5698,20 @@
    "profile": null
   }
  ],
- "failed_sources": []
+ "failed_sources": [
+  "nse:RELIANCE",
+  "nse:HDFCBANK",
+  "nse:INFY",
+  "nse:BHARTIARTL",
+  "nse:ITC",
+  "nse:SUNPHARMA",
+  "nse:TITAN",
+  "nse:BAJFINANCE",
+  "nse:DMART",
+  "nse:PERSISTENT",
+  "nse:TRENT",
+  "nse:IRCTC",
+  "nse:DEEPAKNTR",
+  "nse:KPITTECH"
+ ]
 }
