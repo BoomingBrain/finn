@@ -1,6 +1,104 @@
 {
- "as_of": "2026-10-31T19:25:33.781448+05:30",
+ "as_of": "2026-10-31T23:25:57.359062+05:30",
  "events": [
+  {
+   "id": "4a6c482428935d272afc0ae85744915fd3db8cb5",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-10-30T16:07:23+05:30",
+   "last_at": "2026-10-31T19:32:44+05:30",
+   "headline": "The financial results for the period ended September 30, 2026",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 21793.64,
+      "prev_q": 15547.66,
+      "year_ago": 14855.04,
+      "qoq_pct": 40.2,
+      "yoy_pct": 46.7
+     },
+     "EBITDA": {
+      "current": 599.63,
+      "prev_q": 471.76,
+      "year_ago": 562.48,
+      "qoq_pct": 27.1,
+      "yoy_pct": 6.6
+     },
+     "PBT": {
+      "current": 532.35,
+      "prev_q": 868.98,
+      "year_ago": 923.59,
+      "qoq_pct": -38.7,
+      "yoy_pct": -42.4
+     },
+     "PAT": {
+      "current": 410.87,
+      "prev_q": 717.83,
+      "year_ago": 745.7,
+      "qoq_pct": -42.8,
+      "yoy_pct": -44.9
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": true,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null,
+   "documents": [
+    {
+     "title": "The financial results for the period ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf",
+     "filed_at": "2026-10-30T16:07:23+05:30"
+    },
+    {
+     "title": "Copy of newspaper publication of Unaudited Financial Results (standalone & consolidated) of the Company for the quarter and half year ended 30th September, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_31102026192630_NewspaperAdvertisement31101026.pdf",
+     "filed_at": "2026-10-31T19:32:44+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "d95a891272dc8189d3fd78f708cd6086e81b91f4",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "category": "management_change",
+   "tier": "critical",
+   "first_at": "2026-10-31T18:25:33+05:30",
+   "last_at": "2026-10-31T18:25:33+05:30",
+   "headline": "Prof. Rajiv Lal (DIN: 09360601) completed his 2nd term as an Independent Director of the Company on October 31, 2026, and consequently he has ceased to be a Director of the Company w.e.f. the end of business hours of said date",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Prof. Rajiv Lal",
+    "role": "Independent Director",
+    "change": "resigned",
+    "effective_date": "October 31, 2026, after the end of business hours",
+    "background": "",
+    "prior_roles": []
+   },
+   "documents": [
+    {
+     "title": "Prof. Rajiv Lal (DIN: 09360601) completed his 2nd term as an Independent Director of the Company on October 31, 2026, and consequently he has ceased to be a Director of the Company w.e.f. the end of business hours of said date",
+     "url": "https://nsearchives.nseindia.com/corporate/KPITTECH_31102026182503_KPIT_Rajiv_Lal_Completion_of_Tenure-S.pdf",
+     "filed_at": "2026-10-31T18:25:33+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "f363596e48367be5f1962f7c6a9c2bba826f0229",
    "symbol": "BHARTIARTL",
@@ -262,69 +360,6 @@
      "title": "Change in Management",
      "url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf",
      "filed_at": "2026-10-30T16:10:12+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "4a6c482428935d272afc0ae85744915fd3db8cb5",
-   "symbol": "DIXON",
-   "company": "Dixon Technologies (India) Limited",
-   "category": "results",
-   "tier": "critical",
-   "first_at": "2026-10-30T16:07:23+05:30",
-   "last_at": "2026-10-30T16:07:23+05:30",
-   "headline": "The financial results for the period ended September 30, 2026",
-   "summary": null,
-   "results": {
-    "status": "ok",
-    "layout": "corporate",
-    "basis": "consolidated",
-    "period_end": "2026-09-30",
-    "metrics": {
-     "Revenue": {
-      "current": 21793.64,
-      "prev_q": 15547.66,
-      "year_ago": 14855.04,
-      "qoq_pct": 40.2,
-      "yoy_pct": 46.7
-     },
-     "EBITDA": {
-      "current": 599.63,
-      "prev_q": 471.76,
-      "year_ago": 562.48,
-      "qoq_pct": 27.1,
-      "yoy_pct": 6.6
-     },
-     "PBT": {
-      "current": 532.35,
-      "prev_q": 868.98,
-      "year_ago": 923.59,
-      "qoq_pct": -38.7,
-      "yoy_pct": -42.4
-     },
-     "PAT": {
-      "current": 410.87,
-      "prev_q": 717.83,
-      "year_ago": 745.7,
-      "qoq_pct": -42.8,
-      "yoy_pct": -44.9
-     }
-    },
-    "not_applicable": [],
-    "missing": [],
-    "verified": true,
-    "mismatches": [],
-    "unit": "₹ Cr"
-   },
-   "profile": null,
-   "documents": [
-    {
-     "title": "The financial results for the period ended September 30, 2026",
-     "url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf",
-     "filed_at": "2026-10-30T16:07:23+05:30"
     }
    ],
    "price_change_pct": null,

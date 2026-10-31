@@ -1,6 +1,49 @@
 {
- "as_of": "2026-10-31T19:25:33.781448+05:30",
+ "as_of": "2026-10-31T23:25:57.359062+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "8278ae32c48c7377f8baf4ba4618a3e6c4793bf8",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-10-31T19:32:44+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about copy of newspaper publication of Unaudited Financial Results (standalone & consolidated) of the Company for the quarter and half year ended 30th September, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_31102026192630_NewspaperAdvertisement31101026.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d95a891272dc8189d3fd78f708cd6086e81b91f4",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-10-31T18:25:33+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange that Prof. Rajiv Lal (DIN: 09360601) completed his 2nd term as an Independent Director of the Company on October 31, 2026, and consequently he has ceased to be a Director of the Company w.e.f. the end of business hours of said date.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_31102026182503_KPIT_Rajiv_Lal_Completion_of_Tenure-S.pdf",
+    "raw_category": "Cessation",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Prof. Rajiv Lal",
+    "role": "Independent Director",
+    "change": "resigned",
+    "effective_date": "October 31, 2026, after the end of business hours",
+    "background": "",
+    "prior_roles": []
+   }
+  },
   {
    "announcement": {
     "id": "8ba6fd6a52be6ae09121c1652af822f3ae2d4180",
@@ -5704,14 +5747,8 @@
   "nse:INFY",
   "nse:BHARTIARTL",
   "nse:ITC",
+  "nse:LT",
   "nse:SUNPHARMA",
-  "nse:TITAN",
-  "nse:BAJFINANCE",
-  "nse:DMART",
-  "nse:PERSISTENT",
-  "nse:TRENT",
-  "nse:IRCTC",
-  "nse:DEEPAKNTR",
-  "nse:KPITTECH"
+  "nse:TITAN"
  ]
 }
