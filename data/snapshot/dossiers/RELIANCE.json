@@ -1,10 +1,10 @@
 {
  "symbol": "RELIANCE",
  "name": "Reliance Industries Ltd",
- "built_at": "2026-10-28T13:12:30.299886Z",
+ "built_at": "2026-10-31T19:07:38.184007Z",
  "basis": "consolidated",
  "sources": {
-  "quarter": "Jun 2026",
+  "quarter": "Sep 2026",
   "transcript": "2026-07-01",
   "annual_report": 2026
  },
@@ -17,29 +17,24 @@
     "name": "Reliance Industries Ltd",
     "about": "Reliance was founded by Dhirubhai Ambani and is now promoted and managed by his elder son, Mukesh Dhirubhai Ambani. Ambani's family has about 50% shareholding in the conglomerate.",
     "basis": "consolidated",
-    "built_at": "2026-10-28T13:11:58.064364+00:00",
+    "built_at": "2026-10-31T18:49:26.740393+00:00",
     "sources": {
-     "quarter": "Jun 2026",
+     "quarter": "Sep 2026",
      "transcript": "2026-07-01",
      "annual_report": 2026
     },
     "lender": false,
-    "revenue_ttm": 1123055.0,
-    "pat_ttm": 88167.0,
+    "revenue_ttm": 1199033.0,
+    "pat_ttm": 95625.0,
     "revenue_cagr_3y": 6.4,
     "pat_cagr_3y": 8.9,
     "opm_latest": 17.0,
     "opm_3y_ago": 16.2,
     "roce_latest": 10.0,
     "roe_latest": null,
-    "debt_to_equity": 0.45,
+    "debt_to_equity": 0.43,
     "cfo_to_pat_3y": 2.07,
     "quarterly": [
-     {
-      "label": "Sep 2024",
-      "revenue": 231535.0,
-      "pat": 19323.0
-     },
      {
       "label": "Dec 2024",
       "revenue": 239986.0,
@@ -74,6 +69,11 @@
       "label": "Jun 2026",
       "revenue": 309468.0,
       "pat": 23196.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 330601.0,
+      "pat": 29550.0
      }
     ],
     "flags": []
@@ -101,6 +101,48 @@
      {
       "target": {
        "metric": "other",
+       "raw_metric": "absolute EBITDA doubling over next three years",
+       "comparison": "gte",
+       "value": 100.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY29",
+       "quote": "What we are saying is we are looking to double our absolute EBITDA number.",
+       "source_id": "T:2026-07-01:p23",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided absolute EBITDA doubling over next three years ≥ 100% for FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "FMCG staples category revenue target",
+       "comparison": "approx",
+       "value": 100000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY30",
+       "quote": "like we have announced, the target continues to kind of grow leadership in all categories and we have anyway announced the target is to kind of take this to Rs.1 lakh Crores on FY2030.",
+       "source_id": "T:2026-07-01:p30",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided FMCG staples category revenue target ≈ ₹100,000 Cr for FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
        "raw_metric": "ARPU growth",
        "comparison": "between",
        "value": 4.0,
@@ -122,14 +164,14 @@
      {
       "target": {
        "metric": "other",
-       "raw_metric": "ethylene operating rates",
-       "comparison": "approx",
-       "value": 80.0,
+       "raw_metric": "beverage capacity",
+       "comparison": "gte",
+       "value": 100.0,
        "value_high": null,
        "unit": "pct",
        "period": "FY26",
-       "quote": "operating rates are likely to be at 80% levels only",
-       "source_id": "T:2026-01-01:p21",
+       "quote": "We will be more than doubling our capacity on beverages this year.",
+       "source_id": "T:2026-01-01:p12",
        "said_on": "2026-01-01"
       },
       "actual": {
@@ -138,20 +180,30 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided ethylene operating rates ≈ 80% for FY26; not checkable from reported financials."
+      "explanation": "Guided beverage capacity ≥ 100% for FY26; not checkable from reported financials."
      }
     ]
    },
    "citations": [
+    {
+     "source_id": "T:2026-07-01:p23",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
+     "page": 23
+    },
+    {
+     "source_id": "T:2026-07-01:p30",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
+     "page": 30
+    },
     {
      "source_id": "T:2026-04-01:p28",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf",
      "page": 28
     },
     {
-     "source_id": "T:2026-01-01:p21",
+     "source_id": "T:2026-01-01:p12",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf",
-     "page": 21
+     "page": 12
     }
    ]
   },
@@ -160,20 +212,21 @@
    "status": "ready",
    "reason": null,
    "data": {
-    "what_it_does": "Reliance Industries operates across energy, petrochemicals, retail, and digital services. Its energy and O2C segment produces and sells transportation fuels, polymers, and intermediates globally, while its retail segment (Reliance Retail) sells consumer electronics, fashion, and FMCG products to Indian consumers through a large network of stores and digital channels. Jio provides telecom and digital services to hundreds of millions of subscribers.",
+    "what_it_does": "Reliance Industries operates across energy, petrochemicals, retail, and digital services. Its oil-to-chemicals segment sells transportation fuels and polymers to industrial and consumer markets, while its retail arm (Reliance Retail) sells consumer electronics, fashion, and FMCG products to Indian consumers through a large network of stores and online platforms. The company also provides digital services and media content to millions of users via Jio and JioStar platforms.",
     "segments": [
      {
-      "name": "Energy & O2C",
-      "share_pct": null,
+      "name": "Oil-to-Chemicals (O2C)",
+      "share_pct": 9.1,
       "source_ids": [
        "AR:2026:p50"
       ]
      },
      {
       "name": "Retail",
-      "share_pct": 12.8,
+      "share_pct": null,
       "source_ids": [
-       "AR:2026:p46"
+       "AR:2026:p46",
+       "AR:2026:p47"
       ]
      },
      {
@@ -187,18 +240,18 @@
       "name": "Fashion and Lifestyle",
       "share_pct": null,
       "source_ids": [
-       "AR:2026:p46"
+       "AR:2026:p47"
       ]
      },
      {
-      "name": "FMCG",
+      "name": "FMCG (RCPL)",
       "share_pct": null,
       "source_ids": [
        "AR:2026:p47"
       ]
      },
      {
-      "name": "Media & Entertainment",
+      "name": "Media and Entertainment",
       "share_pct": null,
       "source_ids": [
        "AR:2026:p52"
@@ -253,39 +306,45 @@
    "data": {
     "bull": [
      {
-      "text": "Revenue grew at a 6.4% 3-year CAGR to ₹1,123,055 Cr TTM with PAT growing faster at an 8.9% CAGR to ₹88,167 Cr TTM.",
+      "text": "TTM PAT of ₹95,625 Cr with 3-year PAT CAGR of 8.9% and revenue CAGR of 6.4% on ₹1,199,033 Cr revenue.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Operating margin expanded to 17% from 16.2% three years ago, and operating cash flow covered PAT 2.07x over the last three years.",
+      "text": "Operating margin expanded from 16.2% to 17% over three years with operating cash flow/PAT of 2.07x.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Management expects 4-5% ARPU growth in digital services even without tariff increases.",
+      "text": "Management targets Rs.1 lakh Cr by FY2030, aims to double absolute EBITDA, expects 4-5% ARPU growth without tariff hikes, and plans to double beverages capacity.",
       "source_ids": [
-       "T:2026-04-01:p28"
+       "T:2026-07-01:p30",
+       "T:2026-07-01:p23",
+       "T:2026-04-01:p28",
+       "T:2026-01-01:p12"
       ]
      }
     ],
     "bear": [
      {
-      "text": "ROCE remains low at 10% despite the company's scale, and ROE is not reported.",
+      "text": "All management growth targets (doubling EBITDA, Rs.1 lakh Cr by FY2030, 4-5% ARPU growth, doubling beverages capacity) have zero quarters of delivery verification.",
+      "source_ids": [
+       "T:2026-07-01:p23",
+       "T:2026-07-01:p30",
+       "T:2026-04-01:p28",
+       "T:2026-01-01:p12"
+      ]
+     },
+     {
+      "text": "ROCE remains low at 10% despite ₹1,199,033 Cr TTM revenue.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Management guides for operating rates at only 80% levels, indicating persistent underutilization of capacity.",
-      "source_ids": [
-       "T:2026-01-01:p21"
-      ]
-     },
-     {
-      "text": "Quarterly PAT fell to ₹20,589 Cr in Mar 2026 from ₹22,290 Cr in Dec 2025 despite revenue rising to ₹294,059 Cr from ₹264,905 Cr.",
+      "text": "Quarterly PAT shows volatility: ₹22,290 Cr (Dec 2025), ₹20,589 Cr (Mar 2026), ₹23,196 Cr (Jun 2026), ₹29,550 Cr (Sep 2026).",
       "source_ids": [
        "SCR"
       ]
@@ -299,14 +358,24 @@
      "page": null
     },
     {
+     "source_id": "T:2026-07-01:p30",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
+     "page": 30
+    },
+    {
+     "source_id": "T:2026-07-01:p23",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
+     "page": 23
+    },
+    {
      "source_id": "T:2026-04-01:p28",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf",
      "page": 28
     },
     {
-     "source_id": "T:2026-01-01:p21",
+     "source_id": "T:2026-01-01:p12",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf",
-     "page": 21
+     "page": 12
     }
    ]
   }

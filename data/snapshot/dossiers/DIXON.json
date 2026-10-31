@@ -1,10 +1,10 @@
 {
  "symbol": "DIXON",
  "name": "Dixon Technologies (India) Ltd",
- "built_at": "2026-10-28T13:00:14.410934Z",
+ "built_at": "2026-10-31T19:34:12.876974Z",
  "basis": "consolidated",
  "sources": {
-  "quarter": "Jun 2026",
+  "quarter": "Sep 2026",
   "transcript": "2026-08-01",
   "annual_report": 2026
  },
@@ -17,15 +17,15 @@
     "name": "Dixon Technologies (India) Ltd",
     "about": "Dixon Technologies (India) Limited,  incorporated  in  1993 ,  is  a  Electronic  Manufacturing  Services  (EMS)  company  with operations in the electronic products vertical such as consumer electronics, lighting, home appliance, closed-circuit television cameras  (CCTVs), and mobile  phones. It also  undertakes reverse logistics operations.  Besides, it manufactures security surveillance equipment, wearables & audibles, AC-PCBs. Recently, it has entered a JV with Imagine Marketing Private Limited for designing and manufacturing wireless audio solutions in India.[1]",
     "basis": "consolidated",
-    "built_at": "2026-10-28T12:49:43.688244+00:00",
+    "built_at": "2026-10-31T18:55:52.658124+00:00",
     "sources": {
-     "quarter": "Jun 2026",
+     "quarter": "Sep 2026",
      "transcript": "2026-08-01",
      "annual_report": 2026
     },
     "lender": false,
-    "revenue_ttm": 51586.0,
-    "pat_ttm": 2083.0,
+    "revenue_ttm": 58525.0,
+    "pat_ttm": 1748.0,
     "revenue_cagr_3y": 58.9,
     "pat_cagr_3y": 86.1,
     "opm_latest": 3.8,
@@ -35,11 +35,6 @@
     "debt_to_equity": 0.21,
     "cfo_to_pat_3y": 1.08,
     "quarterly": [
-     {
-      "label": "Sep 2024",
-      "revenue": 11534.0,
-      "pat": 412.0
-     },
      {
       "label": "Dec 2024",
       "revenue": 10454.0,
@@ -74,6 +69,11 @@
       "label": "Jun 2026",
       "revenue": 15548.0,
       "pat": 718.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 21794.0,
+      "pat": 411.0
      }
     ],
     "flags": []
@@ -100,37 +100,16 @@
     "rows": [
      {
       "target": {
-       "metric": "ebitda_margin",
-       "raw_metric": "margin",
-       "comparison": "between",
-       "value": 4.0,
-       "value_high": 4.5,
-       "unit": "pct",
-       "period": "FY26",
-       "quote": "That's a bit more backward integration, operating leverage, and some bit of OEM business largely in refrigerator. And also yes, so, my sense is it should be very difficult to say, but, yes, the range can be somewhere around 4%, 4.5%.",
-       "source_id": "T:2025-10-01:p18",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": 3.8,
-       "quarters_in": 4,
-       "quarters_needed": 4
-      },
-      "verdict": "partly",
-      "explanation": "Guided margin 4%–4.5% for FY26; delivered 3.8%."
-     },
-     {
-      "target": {
        "metric": "revenue",
-       "raw_metric": "display business revenue target",
+       "raw_metric": "export revenue addition in a couple of years",
        "comparison": "between",
-       "value": 5500.0,
-       "value_high": 6000.0,
+       "value": 18000.0,
+       "value_high": 20000.0,
        "unit": "cr",
-       "period": "FY28",
-       "quote": "In the final picture of this business, the revenue target, once we start achieving 80% to 90% of the capacity utilization, the revenue generation is going to be almost INR5,500 crores to INR6,000 crores with a double-digit margin.",
-       "source_id": "T:2026-05-01:p18",
-       "said_on": "2026-05-01"
+       "period": "FY29",
+       "quote": "So which is an addition of almost INR18,000 crores to INR20,000 crores of revenue.",
+       "source_id": "T:2026-08-01:p10",
+       "said_on": "2026-08-01"
       },
       "actual": {
        "value": null,
@@ -138,17 +117,59 @@
        "quarters_needed": 4
       },
       "verdict": "pending",
-      "explanation": "Display revenue target pending with 0 of 4 quarters reported"
+      "explanation": "Export revenue addition in a couple of years ₹18,000 Cr–₹20,000 Cr for FY29, delivered n/a."
+     },
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "revenue growth (without Vivo)",
+       "comparison": "between",
+       "value": 15.0,
+       "value_high": 17.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We feel that without the Vivo also, the company will keep growing at almost 15% to 17%.",
+       "source_id": "T:2026-05-01:p15",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 34.9,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Revenue growth (without Vivo) 15%–17% for FY27, delivered 34.9%."
+     },
+     {
+      "target": {
+       "metric": "revenue",
+       "raw_metric": "revenue (without Vivo)",
+       "comparison": "approx",
+       "value": 56000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "Next year, we are targeting almost INR56,000 crores without the Vivo numbers, and mobile volume being flat.",
+       "source_id": "T:2026-05-01:p15",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 37342.0,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Revenue (without Vivo) ≈ ₹56,000 Cr for FY27, delivered ₹37,342 Cr."
      },
      {
       "target": {
        "metric": "ebitda_margin",
        "raw_metric": "display business margin",
-       "comparison": "between",
-       "value": 13.0,
-       "value_high": 17.0,
+       "comparison": "approx",
+       "value": 15.0,
+       "value_high": null,
        "unit": "pct",
-       "period": "FY28",
+       "period": "FY29",
        "quote": "We feel that it should be double-digit margin. Yes, it should be in mid-teens.",
        "source_id": "T:2026-05-01:p19",
        "said_on": "2026-05-01"
@@ -159,19 +180,19 @@
        "quarters_needed": 4
       },
       "verdict": "pending",
-      "explanation": "Display margin target pending with 0 of 4 quarters reported"
+      "explanation": "Display business margin ≈ 15% for FY29, delivered n/a."
      },
      {
       "target": {
        "metric": "revenue",
-       "raw_metric": "IT hardware domestic market revenue potential",
-       "comparison": "between",
-       "value": 12450.0,
-       "value_high": 16600.0,
+       "raw_metric": "telecom network equipment business revenue",
+       "comparison": "approx",
+       "value": 8300.0,
+       "value_high": null,
        "unit": "cr",
-       "period": "FY30",
-       "quote": "So, if one is able to cater to that, then I think for Dixon, it can be $1.5 billion to $2 billion business, domestic market.",
-       "source_id": "T:2025-10-01:p15",
+       "period": "FY28",
+       "quote": "in couple of years, this business should be somewhere around close to $1 billion",
+       "source_id": "T:2025-10-01:p8",
        "said_on": "2025-10-01"
       },
       "actual": {
@@ -180,7 +201,7 @@
        "quarters_needed": 4
       },
       "verdict": "pending",
-      "explanation": "IT hardware market potential pending with 0 of 4 quarters reported"
+      "explanation": "Telecom network equipment business revenue ≈ ₹8,300 Cr for FY28, delivered n/a."
      },
      {
       "target": {
@@ -206,6 +227,111 @@
      {
       "target": {
        "metric": "other",
+       "raw_metric": "smartphone volume growth Q2 vs Q1",
+       "comparison": "between",
+       "value": 20.0,
+       "value_high": 25.0,
+       "unit": "pct",
+       "period": "Q2FY27",
+       "quote": "We are talking about quarter 2. So as of now, we are giving short-term visibility. So quarter 2 against quarter 1, we are expecting a 20%, 25% kind of a growth.",
+       "source_id": "T:2026-08-01:p9",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided smartphone volume growth Q2 vs Q1 20%–25% for Q2FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "IT products revenue",
+       "comparison": "gte",
+       "value": 4000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "And we feel that our revenue in this fiscal is going to be more than INR4,000 crores.",
+       "source_id": "T:2026-05-01:p9",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided IT products revenue ≥ ₹4,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "camera module revenue",
+       "comparison": "approx",
+       "value": 2500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "We are targeting a revenue of almost INR2,500 crores in that business.",
+       "source_id": "T:2026-05-01:p9",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided camera module revenue ≈ ₹2,500 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "telecom network business revenue",
+       "comparison": "between",
+       "value": 7500.0,
+       "value_high": 8000.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "We are targeting almost INR7,500 crores, INR8,000 crores in '26, '27.",
+       "source_id": "T:2026-05-01:p9",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided telecom network business revenue ₹7,500 Cr–₹8,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "lighting revenue",
+       "comparison": "approx",
+       "value": 1700.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "The next year target is almost INR1,700 crores.",
+       "source_id": "T:2026-05-01:p9",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided lighting revenue ≈ ₹1,700 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
        "raw_metric": "IT hardware revenue",
        "comparison": "approx",
        "value": 4000.0,
@@ -226,78 +352,15 @@
      },
      {
       "target": {
-       "metric": "other",
-       "raw_metric": "camera module revenue",
-       "comparison": "approx",
-       "value": 2500.0,
-       "value_high": null,
-       "unit": "cr",
-       "period": "FY27",
-       "quote": "In our camera module acquisition of Q Tech, we are expanding capacity from present 70 million units to 80 million units to almost 190 million units. Last year, on an annualized basis, we did a revenue of INR1,700 crores. We are targeting a revenue of almost INR2,500 crores in that business.",
-       "source_id": "T:2026-05-01:p9",
-       "said_on": "2026-05-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided camera module revenue ≈ ₹2,500 Cr for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "telecom network revenue",
+       "metric": "ebitda_margin",
+       "raw_metric": "EBITDA margin expansion from last year",
        "comparison": "between",
-       "value": 7500.0,
-       "value_high": 8000.0,
-       "unit": "cr",
-       "period": "FY27",
-       "quote": "The other triggers of growth, the telecom network business is doing extremely well. We have grown from INR3,600 crores to INR5,000 crores in the current fiscal. We are targeting almost INR7,500 crores, INR8,000 crores in '26, '27.",
-       "source_id": "T:2026-05-01:p9",
-       "said_on": "2026-05-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided telecom network revenue ₹7,500 Cr–₹8,000 Cr for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "lighting revenue",
-       "comparison": "approx",
-       "value": 1700.0,
-       "value_high": null,
-       "unit": "cr",
-       "period": "FY27",
-       "quote": "In lighting, which was a laggard for us, we did almost INR800 crores, INR850 crores. The next year target is almost INR1,700 crores. We expect 2x after we have formed the JV with Signify.",
-       "source_id": "T:2026-05-01:p9",
-       "said_on": "2026-05-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided lighting revenue ≈ ₹1,700 Cr for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "revenue growth premium over volume growth",
-       "comparison": "between",
-       "value": 12.0,
-       "value_high": 15.0,
+       "value": 40.0,
+       "value_high": 50.0,
        "unit": "pct",
-       "period": "FY27",
-       "quote": "So we expect Pankaj to -- that the revenue growth should be at least 12% to 15% higher, if not more.",
-       "source_id": "T:2026-05-01:p10",
+       "period": "FY27-FY28",
+       "quote": "But finally, when the component play is completely deployed, there will be a margin expansion from last year's number by almost 40 bps, 50 bps.",
+       "source_id": "T:2026-05-01:p15",
        "said_on": "2026-05-01"
       },
       "actual": {
@@ -306,12 +369,12 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided revenue growth premium over volume growth 12%–15% for FY27; not checkable from reported financials."
+      "explanation": "Guided EBITDA margin expansion from last year 40%–50% for FY27-FY28; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "pricing growth",
+       "raw_metric": "mobile pricing growth",
        "comparison": "between",
        "value": 12.0,
        "value_high": 15.0,
@@ -327,7 +390,28 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided pricing growth 12%–15% for FY27; not checkable from reported financials."
+      "explanation": "Guided mobile pricing growth 12%–15% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "display business revenue at 80-90% utilization",
+       "comparison": "between",
+       "value": 5500.0,
+       "value_high": 6000.0,
+       "unit": "cr",
+       "period": "FY29",
+       "quote": "In the final picture of this business, the revenue target, once we start achieving 80% to 90% of the capacity utilization, the revenue generation is going to be almost INR5,500 crores to INR6,000 crores with a double-digit margin.",
+       "source_id": "T:2026-05-01:p18",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided display business revenue at 80-90% utilization ₹5,500 Cr–₹6,000 Cr for FY29; not checkable from reported financials."
      },
      {
       "target": {
@@ -353,55 +437,13 @@
      {
       "target": {
        "metric": "other",
-       "raw_metric": "mobile phone business margin",
-       "comparison": "between",
-       "value": 2.8,
-       "value_high": 3.2,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "We still feel that we should be able to have a margin of somewhere between 2.8% to 3.1%, 3.2% in our mobile phone business.",
-       "source_id": "T:2026-02-01:p10",
-       "said_on": "2026-02-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided mobile phone business margin 2.8%–3.2% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "component integration percentage",
-       "comparison": "between",
-       "value": 70.0,
-       "value_high": 80.0,
-       "unit": "pct",
-       "period": "FY28",
-       "quote": "almost 70%, 80% of our business would be integrated into the component landscape by '27-'28",
-       "source_id": "T:2026-02-01:p10",
-       "said_on": "2026-02-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided component integration percentage 70%–80% for FY28; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
        "raw_metric": "export revenue",
        "comparison": "between",
        "value": 5500.0,
        "value_high": 6000.0,
        "unit": "cr",
-       "period": "FY27",
-       "quote": "We feel we should be closing at almost INR5,500 crores, INR6,000 crores in the current fiscal. We feel that this is going to be the run rate in the forthcoming fiscal.",
+       "period": "FY26",
+       "quote": "We feel we should be closing at almost INR5,500 crores, INR6,000 crores in the current fiscal.",
        "source_id": "T:2026-02-01:p12",
        "said_on": "2026-02-01"
       },
@@ -411,12 +453,33 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided export revenue ₹5,500 Cr–₹6,000 Cr for FY27; not checkable from reported financials."
+      "explanation": "Guided export revenue ₹5,500 Cr–₹6,000 Cr for FY26; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "Q Tech revenue",
+       "raw_metric": "export run rate",
+       "comparison": "between",
+       "value": 5500.0,
+       "value_high": 6000.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "We feel that this is going to be the run rate in the forthcoming fiscal.",
+       "source_id": "T:2026-02-01:p12",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided export run rate ₹5,500 Cr–₹6,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Q Tech revenue run rate",
        "comparison": "approx",
        "value": 2000.0,
        "value_high": null,
@@ -432,18 +495,18 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided Q Tech revenue ≈ ₹2,000 Cr for FY27; not checkable from reported financials."
+      "explanation": "Guided Q Tech revenue run rate ≈ ₹2,000 Cr for FY27; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "capex",
+       "raw_metric": "capex outgo",
        "comparison": "between",
        "value": 1100.0,
-       "value_high": 1150.0,
+       "value_high": 1200.0,
        "unit": "cr",
        "period": "FY26",
-       "quote": "So we will do a capex of closer to INR1,100 crores, INR1,150-odd crores.",
+       "quote": "first 9 months, the capex outgo is INR720 crores. And we feel that in the overall fiscal, it should be somewhere between INR1,100 crores, INR1,200 crores.",
        "source_id": "T:2026-02-01:p17",
        "said_on": "2026-02-01"
       },
@@ -453,12 +516,12 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided capex ₹1,100 Cr–₹1,150 Cr for FY26; not checkable from reported financials."
+      "explanation": "Guided capex outgo ₹1,100 Cr–₹1,200 Cr for FY26; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "IT and hardware revenue",
+       "raw_metric": "revenue for IT and hardware products",
        "comparison": "approx",
        "value": 1500.0,
        "value_high": null,
@@ -474,12 +537,12 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided IT and hardware revenue ≈ ₹1,500 Cr for FY26; not checkable from reported financials."
+      "explanation": "Guided revenue for IT and hardware products ≈ ₹1,500 Cr for FY26; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "IT and hardware revenue",
+       "raw_metric": "revenue for IT and hardware products next year",
        "comparison": "between",
        "value": 3500.0,
        "value_high": 4000.0,
@@ -495,7 +558,7 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided IT and hardware revenue ₹3,500 Cr–₹4,000 Cr for FY27; not checkable from reported financials."
+      "explanation": "Guided revenue for IT and hardware products next year ₹3,500 Cr–₹4,000 Cr for FY27; not checkable from reported financials."
      },
      {
       "target": {
@@ -542,7 +605,7 @@
      {
       "target": {
        "metric": "revenue",
-       "raw_metric": "Q Tech smartphone camera module revenue",
+       "raw_metric": "smartphone camera module annual revenue",
        "comparison": "between",
        "value": 6000.0,
        "value_high": 7000.0,
@@ -558,12 +621,12 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided Q Tech smartphone camera module revenue ₹6,000 Cr–₹7,000 Cr for FY27-FY29; not checkable from reported financials."
+      "explanation": "Guided smartphone camera module annual revenue ₹6,000 Cr–₹7,000 Cr for FY27-FY29; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "ebitda_margin",
-       "raw_metric": "Q Tech smartphone camera module EBITDA margin",
+       "raw_metric": "smartphone camera module EBITDA margin",
        "comparison": "lte",
        "value": 10.0,
        "value_high": null,
@@ -579,17 +642,17 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided Q Tech smartphone camera module EBITDA margin ≤ 10% for FY27-FY29; not checkable from reported financials."
+      "explanation": "Guided smartphone camera module EBITDA margin ≤ 10% for FY27-FY29; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "ECMS components investment commitment",
+       "raw_metric": "ECMS investment commitment",
        "comparison": "approx",
        "value": 3000.0,
        "value_high": null,
        "unit": "cr",
-       "period": "FY27-FY29",
+       "period": "FY26-FY28",
        "quote": "We have filed a components ECMS applications for display modules, camera module enclosures, lithium-ion batteries, optical transceiver - SFP and also mechanical enclosures with investment commitment of approximately INR 3,000 crores over the next three years.",
        "source_id": "T:2025-10-01:p4",
        "said_on": "2025-10-01"
@@ -600,40 +663,19 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided ECMS components investment commitment ≈ ₹3,000 Cr for FY27-FY29; not checkable from reported financials."
+      "explanation": "Guided ECMS investment commitment ≈ ₹3,000 Cr for FY26-FY28; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "telecom network equipment commercial production",
-       "comparison": "approx",
-       "value": 1.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "Q4FY26",
-       "quote": "We are targeting the pilots to happen by December and the commercial production to happen in the Q4 of the current fiscal.",
-       "source_id": "T:2025-10-01:p8",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided telecom network equipment commercial production ≈ 1% for Q4FY26; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "telecom network equipment exports start",
+       "raw_metric": "mobile market share of addressable market",
        "comparison": "between",
-       "value": 2.0,
-       "value_high": 3.0,
+       "value": 65.0,
+       "value_high": 70.0,
        "unit": "pct",
        "period": "FY27",
-       "quote": "by Q2 or Q3 of next fiscal, the exports are going to start",
-       "source_id": "T:2025-10-01:p8",
+       "quote": "In mobile, we already we feel we are going to get 65%, 70% of the Internet addressable market.",
+       "source_id": "T:2025-10-01:p15",
        "said_on": "2025-10-01"
       },
       "actual": {
@@ -642,209 +684,20 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided telecom network equipment exports start 2%–3% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "mobile phone volumes",
-       "comparison": "between",
-       "value": 40.0,
-       "value_high": 42.0,
-       "unit": "pct",
-       "period": "FY26",
-       "quote": "So, we feel that this year numbers are going to be similar, 40 million, 42 million. That is what we have been talking about.",
-       "source_id": "T:2025-10-01:p9",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided mobile phone volumes 40%–42% for FY26; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "mobile phone volumes",
-       "comparison": "between",
-       "value": 60.0,
-       "value_high": 65.0,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "One still maintains somewhere between 60 to 65 something like that.",
-       "source_id": "T:2025-10-01:p9",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided mobile phone volumes 60%–65% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "front load washing machine capacity",
-       "comparison": "between",
-       "value": 150.0,
-       "value_high": 200.0,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "Initially, we feel the capacity is going to be somewhere between 150 to 200K.",
-       "source_id": "T:2025-10-01:p9",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided front load washing machine capacity 150%–200% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "festival season mobile phone volumes",
-       "comparison": "approx",
-       "value": 42.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "Q3FY26",
-       "quote": "Overall, we are sharing with you. It is going to be 42-odd million in this particular festival. And we already done around 20 million till now.",
-       "source_id": "T:2025-10-01:p10",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided festival season mobile phone volumes ≈ 42% for Q3FY26; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "Longcheer JV operational",
-       "comparison": "approx",
-       "value": 1.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "Q1FY27",
-       "quote": "the JV should become operational by first quarter of next fiscal",
-       "source_id": "T:2025-10-01:p11",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided Longcheer JV operational ≈ 1% for Q1FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "Longcheer JV volumes",
-       "comparison": "between",
-       "value": 8.0,
-       "value_high": 10.0,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "the volumes in this JV for the next fiscal should be somewhere around 8 to 10 million",
-       "source_id": "T:2025-10-01:p11",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided Longcheer JV volumes 8%–10% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "total mobile phone volumes",
-       "comparison": "between",
-       "value": 60.0,
-       "value_high": 65.0,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "this is going to be a part of 60 million, 65 million that we are talking about for next fiscal",
-       "source_id": "T:2025-10-01:p11",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided total mobile phone volumes 60%–65% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "ebitda_margin",
-       "raw_metric": "margin",
-       "comparison": "between",
-       "value": 15.0,
-       "value_high": 19.0,
-       "unit": "pct",
-       "period": "FY27-FY28",
-       "quote": "So, as a margin, we feel that is going to be in mid to high teens.",
-       "source_id": "T:2025-10-01:p20",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided margin 15%–19% for FY27-FY28; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "revenue",
-       "raw_metric": "TV display revenue",
-       "comparison": "approx",
-       "value": 4980.0,
-       "value_high": null,
-       "unit": "cr",
-       "period": "FY27-FY28",
-       "quote": "And then we are talking about the TV display which is going to be almost 1.2 to 1,5 million. It is going to be another $60 million.",
-       "source_id": "T:2025-10-01:p20",
-       "said_on": "2025-10-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided TV display revenue ≈ ₹4,980 Cr for FY27-FY28; not checkable from reported financials."
+      "explanation": "Guided mobile market share of addressable market 65%–70% for FY27; not checkable from reported financials."
      }
     ]
    },
    "citations": [
     {
-     "source_id": "T:2025-10-01:p18",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
-     "page": 18
+     "source_id": "T:2026-08-01:p10",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf",
+     "page": 10
     },
     {
-     "source_id": "T:2026-05-01:p18",
+     "source_id": "T:2026-05-01:p15",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
-     "page": 18
+     "page": 15
     },
     {
      "source_id": "T:2026-05-01:p19",
@@ -852,9 +705,9 @@
      "page": 19
     },
     {
-     "source_id": "T:2025-10-01:p15",
+     "source_id": "T:2025-10-01:p8",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
-     "page": 15
+     "page": 8
     },
     {
      "source_id": "T:2026-08-01:p4",
@@ -862,9 +715,9 @@
      "page": 4
     },
     {
-     "source_id": "T:2026-05-01:p12",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
-     "page": 12
+     "source_id": "T:2026-08-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf",
+     "page": 9
     },
     {
      "source_id": "T:2026-05-01:p9",
@@ -872,14 +725,14 @@
      "page": 9
     },
     {
-     "source_id": "T:2026-05-01:p10",
+     "source_id": "T:2026-05-01:p12",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
-     "page": 10
+     "page": 12
     },
     {
-     "source_id": "T:2026-02-01:p10",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf",
-     "page": 10
+     "source_id": "T:2026-05-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
+     "page": 18
     },
     {
      "source_id": "T:2026-02-01:p12",
@@ -902,29 +755,9 @@
      "page": 4
     },
     {
-     "source_id": "T:2025-10-01:p8",
+     "source_id": "T:2025-10-01:p15",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
-     "page": 8
-    },
-    {
-     "source_id": "T:2025-10-01:p9",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
-     "page": 9
-    },
-    {
-     "source_id": "T:2025-10-01:p10",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
-     "page": 10
-    },
-    {
-     "source_id": "T:2025-10-01:p11",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
-     "page": 11
-    },
-    {
-     "source_id": "T:2025-10-01:p20",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
-     "page": 20
+     "page": 15
     }
    ]
   },
@@ -933,7 +766,7 @@
    "status": "ready",
    "reason": null,
    "data": {
-    "what_it_does": "Dixon Technologies (India) Limited is a manufacturing services company that produces a wide range of electronics and appliances for domestic and international OEM and ODM customers. Its business spans mobile phones, consumer electronics, home appliances, lighting, and telecom/networking hardware, serving both Indian and global brands.",
+    "what_it_does": "Dixon Technologies (India) Limited is a diversified Electronics Manufacturing Services (EMS) company that manufactures and designs a wide range of electronics and appliances for domestic and international OEM/ODM customers. Its business spans consumer electronics, home appliances, mobile phones, wearables, telecom equipment, and IT hardware, serving both Indian and global brands.",
     "segments": [
      {
       "name": "Consumer Electronics",
@@ -964,14 +797,14 @@
       ]
      },
      {
-      "name": "Telecom & Networking Products",
+      "name": "Wearables & Hearables",
       "share_pct": null,
       "source_ids": [
-       "AR:2026:p81"
+       "AR:2026:p80"
       ]
      },
      {
-      "name": "Emerging Businesses",
+      "name": "Telecom & Networking Products",
       "share_pct": null,
       "source_ids": [
        "AR:2026:p81"
@@ -981,7 +814,9 @@
     "source_ids": [
      "AR:2026:p237",
      "AR:2026:p80",
-     "AR:2026:p81"
+     "AR:2026:p81",
+     "AR:2026:p84",
+     "AR:2026:p85"
     ]
    },
    "citations": [
@@ -999,6 +834,16 @@
      "source_id": "AR:2026:p81",
      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5ef88e3c-352d-4223-a8ec-bdd7d3aa31c1.pdf",
      "page": 81
+    },
+    {
+     "source_id": "AR:2026:p84",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5ef88e3c-352d-4223-a8ec-bdd7d3aa31c1.pdf",
+     "page": 84
+    },
+    {
+     "source_id": "AR:2026:p85",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5ef88e3c-352d-4223-a8ec-bdd7d3aa31c1.pdf",
+     "page": 85
     }
    ]
   },
@@ -1009,45 +854,42 @@
    "data": {
     "bull": [
      {
-      "text": "The company delivered a 3-year revenue CAGR of 58.9% and PAT CAGR of 86.1% with a ROCE of 29% and low leverage (debt/equity 0.21).",
+      "text": "The company has delivered exceptional growth with a 3-year revenue CAGR of 58.9% and PAT CAGR of 86.1%, reaching TTM revenue of ₹58,525 Cr and PAT of ₹1,748 Cr.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Management targets camera module revenue to grow from INR 1,700 Cr to INR 2,500 Cr, telecom networking from INR 5,000 Cr to INR 7,500-8,000 Cr, and lighting to double to INR 1,700 Cr after the Signify JV.",
+      "text": "Capital efficiency is strong with ROCE of 29%, low leverage (debt-to-equity 0.21), and operating cash flow covering PAT 1.08x over three years.",
       "source_ids": [
-       "T:2026-05-01:p9"
+       "SCR"
       ]
      },
      {
-      "text": "Operating cash flow covered PAT 1.08x over three years and the company has filed component scheme applications with ~INR 3,000 Cr investment over three years for backward integration.",
+      "text": "Management guides for significant revenue expansion targeting an addition of ₹18,000-20,000 Cr and ₹56,000 Cr without Vivo, implying continued high growth trajectory.",
       "source_ids": [
-       "SCR",
-       "T:2025-10-01:p4"
+       "T:2026-08-01:p10",
+       "T:2026-05-01:p15"
       ]
      }
     ],
     "bear": [
      {
-      "text": "Operating margin has fallen from 4.3% to 3.8% over three years and the mobile phone segment margin is guided at only 2.8-3.2%, indicating structurally low profitability.",
-      "source_ids": [
-       "SCR",
-       "T:2026-02-01:p10"
-      ]
-     },
-     {
-      "text": "Quarterly revenue is volatile, swinging from INR 14,855 Cr (Sep 2025) to INR 10,511 Cr (Mar 2026) before rebounding to INR 15,548 Cr (Jun 2026).",
+      "text": "Operating margin has declined from 4.3% three years ago to 3.8% currently, indicating margin pressure despite scale.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Most forward guidance remains undelivered: the 4-4.5% margin target was only partly met at 3.8%, while double-digit margin and revenue targets for new businesses are still 'in progress' or 'cannot be checked'.",
+      "text": "Net profit margin remains thin at approximately 3% (₹1,748 Cr PAT on ₹58,525 Cr revenue), limiting earnings leverage.",
       "source_ids": [
-       "T:2025-10-01:p18",
-       "T:2026-05-01:p18",
-       "T:2026-05-01:p19"
+       "SCR"
+      ]
+     },
+     {
+      "text": "Revenue is heavily concentrated in lower-margin segments with Consumer Electronics (54%) and Home Appliances (36%) dominating, while higher-margin Mobile Phones contributes only 2%.",
+      "source_ids": [
+       "AR:2026:p237"
       ]
      }
     ]
@@ -1059,34 +901,19 @@
      "page": null
     },
     {
-     "source_id": "T:2026-05-01:p9",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
-     "page": 9
-    },
-    {
-     "source_id": "T:2025-10-01:p4",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
-     "page": 4
-    },
-    {
-     "source_id": "T:2026-02-01:p10",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf",
+     "source_id": "T:2026-08-01:p10",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf",
      "page": 10
     },
     {
-     "source_id": "T:2025-10-01:p18",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
-     "page": 18
+     "source_id": "T:2026-05-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
+     "page": 15
     },
     {
-     "source_id": "T:2026-05-01:p18",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
-     "page": 18
-    },
-    {
-     "source_id": "T:2026-05-01:p19",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
-     "page": 19
+     "source_id": "AR:2026:p237",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5ef88e3c-352d-4223-a8ec-bdd7d3aa31c1.pdf",
+     "page": 237
     }
    ]
   }

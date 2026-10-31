@@ -1,10 +1,10 @@
 {
  "symbol": "SUNPHARMA",
  "name": "Sun Pharmaceutical Industries Ltd",
- "built_at": "2026-10-28T13:13:16.290078Z",
+ "built_at": "2026-10-31T18:55:52.652721Z",
  "basis": "consolidated",
  "sources": {
-  "quarter": "Jun 2026",
+  "quarter": "Sep 2026",
   "transcript": "2026-08-01",
   "annual_report": 2026
  },
@@ -17,29 +17,24 @@
     "name": "Sun Pharmaceutical Industries Ltd",
     "about": "Sun Pharmaceutical Industries Ltd is engaged in the business of manufacturing, developing and marketing a wide range of branded and generic formulations and Active Pharma Ingredients (APIs). The company and its subsidiaries has various manufacturing facilities spread across the world with trading and other incidental and related activities extending to global market.[1]It is the largest pharmaceutical company in India.[2]",
     "basis": "consolidated",
-    "built_at": "2026-10-28T13:12:30.316156+00:00",
+    "built_at": "2026-10-31T18:49:26.740070+00:00",
     "sources": {
-     "quarter": "Jun 2026",
+     "quarter": "Sep 2026",
      "transcript": "2026-08-01",
      "annual_report": 2026
     },
     "lender": false,
-    "revenue_ttm": 59911.0,
-    "pat_ttm": 12117.0,
+    "revenue_ttm": 61632.0,
+    "pat_ttm": 10987.0,
     "revenue_cagr_3y": 10.0,
     "pat_cagr_3y": 10.6,
     "opm_latest": 28.2,
     "opm_3y_ago": 26.5,
     "roce_latest": 21.0,
     "roe_latest": null,
-    "debt_to_equity": 0.06,
+    "debt_to_equity": 0.04,
     "cfo_to_pat_3y": 1.2,
     "quarterly": [
-     {
-      "label": "Sep 2024",
-      "revenue": 13291.0,
-      "pat": 3037.0
-     },
      {
       "label": "Dec 2024",
       "revenue": 13675.0,
@@ -74,6 +69,11 @@
       "label": "Jun 2026",
       "revenue": 15300.0,
       "pat": 2901.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 16199.0,
+      "pat": 1995.0
      }
     ],
     "flags": []
@@ -100,71 +100,29 @@
     "rows": [
      {
       "target": {
-       "metric": "other",
-       "raw_metric": "ETR",
+       "metric": "revenue",
+       "raw_metric": "combined company revenues",
        "comparison": "approx",
-       "value": 27.8,
+       "value": 1240.0,
        "value_high": null,
-       "unit": "pct",
+       "unit": "cr",
        "period": "FY27",
-       "quote": "The overall ETR for this quarter was about 27.8%. And we expect this range to sort of continue for some time until we have the Organon transaction completed.",
-       "source_id": "T:2026-08-01:p17",
-       "said_on": "2026-08-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided ETR ≈ 27.8% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "R&D spend as % of sales",
-       "comparison": "between",
-       "value": 6.0,
-       "value_high": 7.0,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "We expect our FY27 R&D spend to be 6% to 7% of the sales for the next year.",
-       "source_id": "T:2026-05-01:p6",
+       "quote": "I think the combined company's revenues will be $12.4 billion.",
+       "source_id": "T:2026-05-01:p7",
        "said_on": "2026-05-01"
       },
       "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
+       "value": 31499.0,
+       "quarters_in": 2,
+       "quarters_needed": 4
       },
-      "verdict": "not_checkable",
-      "explanation": "Guided R&D spend as % of sales 6%–7% for FY27; not checkable from reported financials."
+      "verdict": "pending",
+      "explanation": "Revenue reached ₹31,499 Cr across 2 of 4 quarters, pending full FY27 guidance."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "effective tax rate",
-       "comparison": "approx",
-       "value": 25.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "We expect the effective tax rate to be in the range of 25%.",
-       "source_id": "T:2026-05-01:p17",
-       "said_on": "2026-05-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided effective tax rate ≈ 25% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "innovative part of the business revenue share",
+       "raw_metric": "innovative revenue share",
        "comparison": "approx",
        "value": 27.0,
        "value_high": null,
@@ -180,7 +138,7 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided innovative part of the business revenue share ≈ 27% for FY27; not checkable from reported financials."
+      "explanation": "Guided innovative revenue share ≈ 27% for FY27; not checkable from reported financials."
      },
      {
       "target": {
@@ -206,34 +164,13 @@
      {
       "target": {
        "metric": "other",
-       "raw_metric": "innovative medicine revenue share",
-       "comparison": "approx",
-       "value": 27.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "the innovative part of medicine becomes 27%, generic become 15% and biosimilar which is one of the growth areas becomes 6% of our total revenues.",
-       "source_id": "T:2026-05-01:p8",
-       "said_on": "2026-05-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided innovative medicine revenue share ≈ 27% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
        "raw_metric": "generic revenue share",
        "comparison": "approx",
        "value": 15.0,
        "value_high": null,
        "unit": "pct",
        "period": "FY27",
-       "quote": "the innovative part of medicine becomes 27%, generic become 15% and biosimilar which is one of the growth areas becomes 6% of our total revenues.",
+       "quote": "generic become 15% of our total revenues.",
        "source_id": "T:2026-05-01:p8",
        "said_on": "2026-05-01"
       },
@@ -254,7 +191,7 @@
        "value_high": null,
        "unit": "pct",
        "period": "FY27",
-       "quote": "the innovative part of medicine becomes 27%, generic become 15% and biosimilar which is one of the growth areas becomes 6% of our total revenues.",
+       "quote": "biosimilar which is one of the growth areas becomes 6% of our total revenues.",
        "source_id": "T:2026-05-01:p8",
        "said_on": "2026-05-01"
       },
@@ -275,7 +212,7 @@
        "value_high": null,
        "unit": "pct",
        "period": "FY27",
-       "quote": "US become the 27% of the sale, emerging market become one of the big market for us with 29% contribution coming from them, India goes down to 17%, but ROW which includes Europe and all other market contribute 28%.",
+       "quote": "US become the 27% of the sale.",
        "source_id": "T:2026-05-01:p8",
        "said_on": "2026-05-01"
       },
@@ -296,7 +233,7 @@
        "value_high": null,
        "unit": "pct",
        "period": "FY27",
-       "quote": "US become the 27% of the sale, emerging market become one of the big market for us with 29% contribution coming from them, India goes down to 17%, but ROW which includes Europe and all other market contribute 28%.",
+       "quote": "emerging market become one of the big market for us with 29% contribution coming from them.",
        "source_id": "T:2026-05-01:p8",
        "said_on": "2026-05-01"
       },
@@ -317,7 +254,7 @@
        "value_high": null,
        "unit": "pct",
        "period": "FY27",
-       "quote": "US become the 27% of the sale, emerging market become one of the big market for us with 29% contribution coming from them, India goes down to 17%, but ROW which includes Europe and all other market contribute 28%.",
+       "quote": "India goes down to 17%.",
        "source_id": "T:2026-05-01:p8",
        "said_on": "2026-05-01"
       },
@@ -338,7 +275,7 @@
        "value_high": null,
        "unit": "pct",
        "period": "FY27",
-       "quote": "US become the 27% of the sale, emerging market become one of the big market for us with 29% contribution coming from them, India goes down to 17%, but ROW which includes Europe and all other market contribute 28%.",
+       "quote": "ROW which includes Europe and all other market contribute 28%.",
        "source_id": "T:2026-05-01:p8",
        "said_on": "2026-05-01"
       },
@@ -353,14 +290,14 @@
      {
       "target": {
        "metric": "other",
-       "raw_metric": "established product business growth",
-       "comparison": "between",
-       "value": 0.0,
-       "value_high": 10.0,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "I'm hopeful that the established product business which is stagnant today and not growing will also turn around and will start showing some single digit growth, yes.",
-       "source_id": "T:2026-05-01:p16",
+       "raw_metric": "synergies",
+       "comparison": "approx",
+       "value": 35.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27-FY30",
+       "quote": "significant potential synergies that could come out, which we have highlighted could be in the range of about $350 million which could be materialized in the next two to four years.",
+       "source_id": "T:2026-05-01:p9",
        "said_on": "2026-05-01"
       },
       "actual": {
@@ -369,26 +306,74 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided established product business growth 0%–10% for FY27; not checkable from reported financials."
+      "explanation": "Guided synergies ≈ ₹35 Cr for FY27-FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "free cash flow",
+       "comparison": "between",
+       "value": 200.0,
+       "value_high": 250.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "both the entities together generating free cash flows of close to $2 billion, $2.5 billion on an annual basis.",
+       "source_id": "T:2026-05-01:p9",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided free cash flow ₹200 Cr–₹250 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "cost synergies estimate",
+       "comparison": "approx",
+       "value": 2905.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "As far as the synergies are concerned, as I mentioned the $350 million estimated is purely on the cost front where we think there are multiple opportunities that one could look at.",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided cost synergies estimate ≈ ₹2,905 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ETR (effective tax rate)",
+       "comparison": "approx",
+       "value": 25.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27-FY28",
+       "quote": "I think it would be sort of in the range we guess.",
+       "source_id": "T:2026-02-01:p18",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ETR (effective tax rate) ≈ 25% for FY27-FY28; not checkable from reported financials."
      }
     ]
    },
    "citations": [
-    {
-     "source_id": "T:2026-08-01:p17",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf",
-     "page": 17
-    },
-    {
-     "source_id": "T:2026-05-01:p6",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
-     "page": 6
-    },
-    {
-     "source_id": "T:2026-05-01:p17",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
-     "page": 17
-    },
     {
      "source_id": "T:2026-05-01:p7",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
@@ -400,74 +385,28 @@
      "page": 8
     },
     {
-     "source_id": "T:2026-05-01:p16",
+     "source_id": "T:2026-05-01:p9",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
-     "page": 16
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-05-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-02-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1082d0ab-d6fb-40f5-873e-d7301397cd05.pdf",
+     "page": 18
     }
    ]
   },
   {
    "section": "business",
-   "status": "ready",
-   "reason": null,
-   "data": {
-    "what_it_does": "Sun Pharma is India's largest pharmaceutical company with an 8.4% market share, selling a comprehensive portfolio of pharmaceuticals, branded generics, generics, APIs, and consumer healthcare products across India and approximately 90 countries globally. Its business spans innovative medicines focused on dermatology, ophthalmology, and onco-dermatology, as well as a large generic and API business serving both domestic and international markets.",
-    "segments": [
-     {
-      "name": "India Business",
-      "share_pct": 33.0,
-      "source_ids": [
-       "AR:2026:p39"
-      ]
-     },
-     {
-      "name": "API Business",
-      "share_pct": 4.0,
-      "source_ids": [
-       "AR:2026:p44"
-      ]
-     },
-     {
-      "name": "Innovative Medicines",
-      "share_pct": null,
-      "source_ids": [
-       "AR:2026:p32",
-       "AR:2026:p39"
-      ]
-     }
-    ],
-    "source_ids": [
-     "AR:2026:p6",
-     "AR:2026:p108"
-    ]
-   },
-   "citations": [
-    {
-     "source_id": "AR:2026:p6",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb65dea5-416a-4f98-95e2-0b58761b7442.pdf",
-     "page": 6
-    },
-    {
-     "source_id": "AR:2026:p108",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb65dea5-416a-4f98-95e2-0b58761b7442.pdf",
-     "page": 108
-    },
-    {
-     "source_id": "AR:2026:p39",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb65dea5-416a-4f98-95e2-0b58761b7442.pdf",
-     "page": 39
-    },
-    {
-     "source_id": "AR:2026:p44",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb65dea5-416a-4f98-95e2-0b58761b7442.pdf",
-     "page": 44
-    },
-    {
-     "source_id": "AR:2026:p32",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb65dea5-416a-4f98-95e2-0b58761b7442.pdf",
-     "page": 32
-    }
-   ]
+   "status": "unavailable",
+   "reason": "Analysis failed",
+   "data": null,
+   "citations": []
   },
   {
    "section": "bull_bear",
@@ -476,42 +415,45 @@
    "data": {
     "bull": [
      {
-      "text": "The company delivered 3-year revenue and PAT CAGR of 10% and 10.6% respectively, with operating margin expanding from 26.5% to 28.2% and ROCE at 21%.",
+      "text": "The company has delivered consistent 3-year CAGR of 10% in revenue and 10.6% in PAT while expanding operating margin from 26.5% to 28.2% and maintaining ROCE at 21%.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Balance sheet strength is evident with a low debt-to-equity of 0.06 and operating cash flow covering PAT 1.2x over the last three years.",
+      "text": "The balance sheet is strong with a low debt-to-equity of 0.04 and robust cash conversion evidenced by operating cash flow to PAT of 1.2x over three years.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Sun Pharma is India's largest pharmaceutical company with an 8.4% domestic market share and a diversified presence across approximately 90 countries.",
+      "text": "Management guides for combined revenues of $12.4 billion with two of four quarters already delivered and targets $350 million in cost synergies over the next two to four years.",
       "source_ids": [
-       "AR:2026:p6"
+       "T:2026-05-01:p7",
+       "T:2026-05-01:p9"
       ]
      }
     ],
     "bear": [
      {
-      "text": "Quarterly PAT has declined sequentially from ₹3,381 Cr in Dec 2025 to ₹2,710 Cr in Mar 2026 and ₹2,901 Cr in Jun 2026 despite stable revenue.",
+      "text": "PAT has declined sequentially from ₹3,381 Cr in Dec 2025 to ₹1,995 Cr in Sep 2026 despite revenue rising to ₹16,199 Cr, signaling margin compression.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "The India business contributes 33% of revenue but management expects its share to fall to 17%, increasing geographic concentration risk.",
+      "text": "Nearly all strategic targets — including business mix shifts (innovative to 27%, branded generics >51%, generics 15%, biosimilars 6%), geographic mix (US 27%, emerging markets 29%, India 17%, ROW 28%), and synergy realization — remain unverifiable from reported financials.",
       "source_ids": [
-       "AR:2026:p39",
-       "T:2026-05-01:p8"
+       "T:2026-05-01:p7",
+       "T:2026-05-01:p8",
+       "T:2026-05-01:p9"
       ]
      },
      {
-      "text": "Management acknowledges the established product business is currently stagnant and not growing, with only a hope for single-digit growth ahead.",
+      "text": "Free cash flow guidance of $2–2.5 billion annually lacks verification, and ROE is not available, limiting return-on-equity assessment.",
       "source_ids": [
-       "T:2026-05-01:p16"
+       "T:2026-05-01:p9",
+       "SCR"
       ]
      }
     ]
@@ -523,24 +465,19 @@
      "page": null
     },
     {
-     "source_id": "AR:2026:p6",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb65dea5-416a-4f98-95e2-0b58761b7442.pdf",
-     "page": 6
+     "source_id": "T:2026-05-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "page": 7
     },
     {
-     "source_id": "AR:2026:p39",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb65dea5-416a-4f98-95e2-0b58761b7442.pdf",
-     "page": 39
+     "source_id": "T:2026-05-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "page": 9
     },
     {
      "source_id": "T:2026-05-01:p8",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
      "page": 8
-    },
-    {
-     "source_id": "T:2026-05-01:p16",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
-     "page": 16
     }
    ]
   }
