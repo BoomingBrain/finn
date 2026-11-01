@@ -2,9 +2,10 @@
 
 **Try it on a phone:** https://ayush-rai-230265-finn.static.hf.space
 
-FINN is a mobile-first web app for an investor who holds 18 Indian stocks. It has three tabs:
+FINN is a mobile-first web app for an investor who holds 18 Indian stocks. It has five tabs:
 
 - **Brief:** what changed across the portfolio in a time window you choose, with the few things that matter on top and everything routine collapsed.
+- **Portfolio:** every holding with a compact price chart, biggest movers first.
 - **Watch:** alerts on the thresholds *you* set: filing types you care about, volume spikes, price moves. Each slider shows how often it would have fired over the last 30 days.
 - **Ask:** a research dossier on any NSE company, built only from its own filings, annual report and earnings-call transcripts, with every claim linked to the exact PDF page.
 - **Chat:** questions in your own words about your holdings and researched companies, answered only from FINN's reports, each sentence cited.
@@ -65,20 +66,130 @@ Four demo tickers (PIDILITIND, HAL, CDSL, NAUKRI) and all 18 holdings are precom
 
 ![FINN architecture: sources, scheduled jobs, model gateway, repository, static app and live research service](docs/architecture.png)
 
-The diagram's source is [docs/architecture/architecture.html](docs/architecture/architecture.html); re-render with headless Chrome at 1800×1340, scale 2.
+The diagram's source is [docs/architecture/architecture.html](docs/architecture/architecture.html); re-render with headless Chrome at 1800×1340, scale 2. The flowcharts below show the same system as flows.
 
+### System overview
+
+Scheduled jobs publish static data, so opening the app costs nothing. A small server handles only what can't be precomputed.
+
+```mermaid
+flowchart LR
+  subgraph SRC["Primary sources"]
+    NSE["NSE announcements"]
+    YF["Yahoo Finance prices"]
+    SCR["screener.in financials"]
+    PDF["Results PDFs, call transcripts, annual reports"]
+  end
+
+  subgraph GHA["GitHub Actions"]
+    ING["Ingest<br/>every 2 h on market days, 19:11 IST"]
+    DOS["Refresh holdings' research<br/>20:17 IST"]
+    WD["Watchdog, every 30 min<br/>starts overdue jobs"]
+  end
+
+  GW["Model gateway<br/>routing, cache, throttle, budget"]
+  NV["NVIDIA free tier<br/>vision, fast, reasoning, embeddings"]
+  GEM["Gemini free tier<br/>fallback for failed calls"]
+  REPO[("GitHub repository<br/>data/snapshot/")]
+  SPACE["Hugging Face Static Space<br/>app + data"]
+  API["Render FastAPI<br/>live research + Chat"]
+  USER(["Investor's phone"])
+
+  SRC --> ING
+  SRC --> DOS
+  WD -.-> ING
+  WD -.-> DOS
+  ING --> GW
+  DOS --> GW
+  API --> GW
+  GW --> NV
+  GW -.->|on failure| GEM
+  ING --> REPO
+  DOS --> REPO
+  REPO -->|deploy| SPACE
+  SPACE -->|"Brief, Portfolio, Watch, ready reports"| USER
+  USER <-->|"new company, Chat"| API
+  SRC --> API
+  API -->|save finished report| REPO
+  SPACE -->|chat index| API
 ```
-GitHub Actions (every 2 h on market days + 19:11 IST; a watchdog restarts missed runs)
-  NSE announcements ─┐
-  yfinance EOD ──────┼─► classify (rules, then LLM for leftovers) ─► enrich (vision / bulk LLM) ─► cluster
-  screener.in ───────┘                                                    │
-                                                    commit data/snapshot/*.json ─► redeploy the static Space
-Hugging Face Static Space: React PWA + snapshot JSON + precomputed dossiers  (Brief, Watch, demo dossiers)
-Render (free): FastAPI, only for live research on tickers without a precomputed dossier (SSE);
-  a finished live dossier is committed back to the repo, so it ships with the next deploy
-GitHub Actions (daily 20:17 IST): build missing, failed and outdated holding dossiers ─► commit ─► redeploy
-GitHub Actions (every 30 min): watchdog starts any overdue job (docs/SCHEDULER.md)
+
+### Scheduled ingest
+
+Rules and code do most of the work. A model is called only where they can't decide, and its answer is cached.
+
+```mermaid
+flowchart TD
+  A["Fetch new filings and closing prices"] --> B{"Do the rules<br/>classify it?"}
+  B -->|"yes, about 92%"| C["Critical, notable or routine"]
+  B -->|no| B2["Fast model picks the category"] --> C
+  C --> D{"Which tier and type?"}
+  D -->|results| E["Vision model reads the statement page"]
+  D -->|management change| F["Profile from the appointment filing"]
+  D -->|other notable| G["One-line summary"]
+  D -->|routine| H["No model call"]
+  E --> I{"Does the<br/>arithmetic hold?"}
+  I -->|yes| J["Results card, cross-checked against screener.in"]
+  I -->|no| K["One 200-dpi re-read"]
+  K --> L{"Holds now?"}
+  L -->|yes| J
+  L -->|no| M["Shown as unreadable, with a link to the filing"]
+  J --> N["Cluster filings within 36 h into one event"]
+  M --> N
+  F --> N
+  G --> N
+  H --> N
+  N --> O["Compute price and volume signals"]
+  O --> P["Commit the snapshot and deploy the Space"]
 ```
+
+### Live research on a new company
+
+```mermaid
+flowchart TD
+  A(["Investor picks a company"]) --> B{"Report already<br/>published?"}
+  B -->|yes| C(["Opens instantly"])
+  B -->|no| D{"Saved on the server,<br/>or building now?"}
+  D -->|saved| E(["Replayed from the saved report"])
+  D -->|building| F["Join that build and replay its progress"]
+  D -->|neither| G{"Real NSE symbol,<br/>within limits?"}
+  G -->|no| H(["Fixed message: unknown symbol or limit reached"])
+  G -->|yes| I["Queue, at most 2 builds at once"]
+  I --> J["Financial snapshot, computed in code"]
+  J --> K["Read the last 4 calls:<br/>reasoning model extracts targets"]
+  J --> L["Read the annual report:<br/>fast model writes the business section"]
+  K --> M["Code rules met, partly, missed,<br/>in progress or can't check"]
+  L --> N["Bull vs bear, reasoning model"]
+  M --> N
+  N --> O["Drop any sentence without a valid citation"]
+  O --> P["Save the report to GitHub"]
+  P --> Q(["Done: banner or notification"])
+  F --> J
+  J -.->|"each step streams to the app"| R["Progress bar and sections"]
+  R -.->|"connection cut when the app leaves the screen"| S["Rejoin when the screen returns"]
+  S -.-> F
+```
+
+### Chat
+
+```mermaid
+flowchart TD
+  A(["Investor asks a question"]) --> B{"Within the<br/>limits?"}
+  B -->|no| C(["Fixed message, no model call"])
+  B -->|yes| D["Find the companies named,<br/>or carry them over from the last question"]
+  D --> E{"Named company<br/>has no report?"}
+  E -->|"none of them do"| F(["Research pending for that company,<br/>with a link to research it"])
+  E -->|no, or some do| G{"Close to anything researched?<br/>No company named and best match under 0.25 means no"}
+  G -->|no| H(["The reports don't cover that"])
+  G -->|yes| I["Hybrid search over report passages:<br/>0.6 meaning + 0.4 keywords, top 12"]
+  I --> J["Fast model answers from those passages only"]
+  J --> K["Drop any sentence without a valid citation"]
+  K --> L{"Anything left?"}
+  L -->|no| H
+  L -->|yes| M(["Answer with chips that open the cited page"])
+```
+
+### Design notes
 
 - **Viewers cost nothing.** Brief and Watch, and every precomputed dossier, are static files, so a viewer triggers no model call.
 - **Ingestion is incremental and cached.** Each filing is classified and enriched once, and every model response is cached in SQLite by its exact input.
@@ -111,7 +222,7 @@ The NVIDIA API catalog's free tier, one key, each tier routed to the job it fits
 - **Rules classify about 92% of filings** before any model is called.
 
 **Cost: ₹0.**
-- All development, ingestion and 22 precomputed dossiers so far took 465 model calls (154 bulk, 20 vision, 291 reason) on the free tier.
+- The first 22 precomputed dossiers, with all development and ingestion up to that point, took 465 model calls (154 bulk, 20 vision, 291 reason) on the free tier.
 - A viewer of the deployed app costs nothing.
 - The reasoning tier is capped at 2 calls in flight to stay inside the free rate limit.
 
@@ -127,9 +238,17 @@ The NVIDIA API catalog's free tier, one key, each tier routed to the job it fits
 
 The gold set is small, so read this as "no known errors on a deliberately varied sample", not as a population rate.
 
+## Known limitations
+
+- **Live research is free-tier infrastructure.** A new company took 13 minutes on the last full test, and the first request after the server has slept takes about a minute longer.
+- **Leaving the screen:** tested twice with the viewer gone. TVS Motor finished and saved in 13 minutes; an earlier Maruti run never saved, for a reason I couldn't establish, and the same company then finished normally with a viewer attached. If a build is lost, asking again restarts it.
+- **The keep-awake ping is untested past Render's 15-minute idle limit,** since the successful run finished inside it.
+- **Gemini fallback:** the free tier allows 20 requests a day. It scored 57/57 on results extraction, but the quota ran out before the guidance eval, so its guidance accuracy is unmeasured.
+- **"Approximately" targets:** a company that far beats one is marked missed (L&T's margin was 12.6% against about 8.5%). The rule treats it as a band and needs a direction.
+
 ## Testing
 
-- **Coverage:** 192 backend tests (pytest) and 20 web tests (Vitest).
+- **Coverage:** 260 backend tests (pytest) and 40 web tests (Vitest).
 - **Where the tests sit:** on the logic a wrong answer would hide in. That means tier rules, column selection and unit conversion, the arithmetic checks, event clustering, signals, the verdict matrix, the citation guard, the rate limiter and the API's refusal paths.
 - **Fakes vs real:** model calls are faked in tests. Real fixtures (NSE JSON, screener pages, results PDFs, a transcript) pin the parsers.
 
@@ -139,16 +258,15 @@ The gold set is small, so read this as "no known errors on a deliberately varied
 - **LinkedIn bios:** the appointment filing is a primary source and always available. Scraping LinkedIn is brittle and against its terms.
 - **Web push notifications:** alerts update on each scheduled refresh; push would need a service worker and subscription storage.
 - **Intraday or real-time feeds:** the brief's data is end-of-day.
-- **Natural-language chat over the dossier:** a fixed, cited structure is easier to trust and faster to scan than a chat transcript.
+- **Acting on items, editing the portfolio, comparison views:** I considered these for interactivity and built only Chat, which reaches furthest with one new surface.
 
 ## Next
 
-1. **Natural-language questions over a dossier,** answered only from its cited pages.
-2. **Swipe to triage Brief cards,** with dismissals that teach the tier rules.
-3. **Web push** for critical alerts.
-4. **A real-time exchange feed** instead of 2-hourly polling.
-5. **Accounts,** so each investor has their own portfolio.
-6. **Grading regulatory fines by size** against revenue.
+1. **Swipe to triage Brief cards,** with dismissals that teach the tier rules.
+2. **Web push** for critical alerts.
+3. **A real-time exchange feed** instead of 2-hourly polling.
+4. **Accounts,** so each investor has their own portfolio.
+5. **Grading regulatory fines by size** against revenue.
 
 ## Run it locally
 
@@ -164,9 +282,9 @@ make api                                       # live research server on :8000
 
 ## How it was built
 
-- **Builder:** Claude Code (Opus) in one long session, working from a written plan that was reviewed and revised before any code.
+- **Builder:** Claude Code (Opus), working from a written plan that was reviewed and revised before any code.
 - **The plan:** [docs/superpowers/plans/2026-10-28-finn.md](docs/superpowers/plans/2026-10-28-finn.md)
 - **Data-source spikes and the decisions they forced:** [docs/spikes.md](docs/spikes.md)
 - **Task-by-task progress log:** [docs/PROGRESS.md](docs/PROGRESS.md)
-- **The requests that directed the build, with outcomes (curated):** [docs/PROMPTS.md](docs/PROMPTS.md)
-- **Full session transcripts:** [docs/build-history/](docs/build-history/), both readable Markdown and raw `.jsonl` (secrets and email redacted)
+- **Every request, with its outcome (wording edited for clarity):** [docs/PROMPTS.md](docs/PROMPTS.md)
+- **Exact, unedited session transcripts:** [docs/build-history/](docs/build-history/), both readable Markdown and raw `.jsonl` (only secrets and my email are redacted)

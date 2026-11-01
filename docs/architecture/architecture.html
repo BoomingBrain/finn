@@ -152,7 +152,7 @@
 <!-- LLM gateway -->
 <div class="zone" style="left:350px; top:770px; width:560px; height:540px; border-color: rgba(232,163,61,.45);">
   <h2>Model gateway</h2>
-  <p class="sub">One door for every model call: NVIDIA API catalog, free tier, one key</p>
+  <p class="sub">One door for every model call: NVIDIA API catalog, free tier, one key; Gemini as the fallback</p>
   <table>
     <tr><td>Vision</td><td>Nemotron 3.5 Super VL 120B: results statement pages, scanned appointment filings</td></tr>
     <tr><td>Fast</td><td>Nemotron 3.5 Lightning 30B, thinking off: leftover classification, summaries, profiles, business section, verdict lines</td></tr>
@@ -163,6 +163,8 @@
     <div class="box"><h3>Paced and capped</h3><p>35 requests a minute; at most 2 reasoning calls in flight; daily request budget</p></div>
     <div class="box"><h3>Robust replies</h3><p>Validated against a schema; cut-off JSON repaired; one re-ask; retries after 5, 20, 60 s</p></div>
     <div class="box"><h3>Chosen on evidence</h3><p>Each job's model passed the accuracy test; 7 alternatives tested, none qualified</p></div>
+    <div class="box"><h3>Fallback</h3><p>A call NVIDIA still fails goes to Gemini 3.5 Flash; free tier, 20 requests a day, so it rescues single calls</p></div>
+    <div class="box"><h3>Same guards</h3><p>Every answer passes the same schema check and citation guard, whichever model wrote it</p></div>
   </div>
 </div>
 
@@ -173,7 +175,7 @@
   <div style="display:grid; grid-template-columns: 210px 1fr; gap: 10px; align-items:start;">
     <div>
       <div class="box"><div class="step"><span class="num">1</span><div><h3>Guard</h3><p>Unknown ticker: 404 before any work. 20 new analyses per IP an hour. Daily AI budget.</p></div></div></div>
-      <div class="box"><div class="step"><span class="num">2</span><div><h3>Queue</h3><p>At most 2 builds at once, position shown; a repeat request joins the running build; a build survives the viewer leaving</p></div></div></div>
+      <div class="box"><div class="step"><span class="num">2</span><div><h3>Queue</h3><p>At most 2 builds at once, position shown; repeats join the running build; the app rejoins it on returning to the screen</p></div></div></div>
       <div class="box"><div class="step"><span class="num">4</span><div><h3>Save</h3><p>A complete dossier is committed to the repository and ships with the next deploy</p></div></div></div>
     </div>
     <div class="box" style="margin:0;">

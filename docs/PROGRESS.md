@@ -63,6 +63,12 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done · ⛔ Blocked · ✂️
 
 Newest first.
 
+### 2026-11-01 — Final submission preparation
+- **No-viewer tests on the live server:** MARUTI (30 Oct) never saved, cause not established; MARUTI with a viewer attached finished in 136 s, reusing some cached work; TVSMOTOR with no viewer finished and saved in about 13 minutes. The TVS run ended inside Render's 15-minute idle limit, so it doesn't exercise the keep-awake ping. Recorded under Known limitations in the README.
+- `docs/PROMPTS.md` rewritten as a complete, ordered log, labelled as edited; the exact sessions stay in `docs/build-history/`.
+- README gained four Mermaid flowcharts and Known limitations; the architecture image gained the fallback and rejoin.
+- `scripts/export_history.py` now exports listed build sessions only, redacts every `.env` value and Gemini keys, and writes nothing if a secret survives.
+
 ### 2026-10-30 — Live research survives leaving the screen; Gemini fallback
 - **Cause found from the user's observation:** builds failed only after switching away from the app.
   - **The app gave up:** a backgrounded page loses its stream, and the app marked the build failed while the server was still running it. `followBuild` now rejoins the stream when the page is visible again. The server replays the build, so nothing is duplicated (tests in `research.test.ts`).

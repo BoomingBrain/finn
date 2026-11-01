@@ -1,7 +1,9 @@
 """Exports this project's Claude Code sessions into docs/build-history/ for the submission's "AI build history".
 
 For each session: a redacted copy of the raw .jsonl, and a readable Markdown transcript (prompts, replies, and one
-line per tool call). Redacts anything key-shaped and the author's email. Run: python3 scripts/export_history.py"""
+line per tool call). Redacts anything key-shaped, every value in .env and the author's email, and refuses to finish if
+one survives. Only the sessions listed in BUILD_SESSIONS are exported; other work in this folder isn't part of the
+build. Run: python3 scripts/export_history.py"""
 import json
 import re
 import sys
@@ -9,10 +11,21 @@ from pathlib import Path
 
 SESSIONS = Path.home() / ".claude/projects/-Users-ayushrai-Downloads-Enam-holdings"
 OUT = Path(__file__).resolve().parents[1] / "docs" / "build-history"
-SECRET = re.compile(r"(nvapi-|hf_|gh[pousr]_|sk-)[A-Za-z0-9_-]{16,}|[\w.+-]+@gmail\.com")
+ROOT = Path(__file__).resolve().parents[1]
+BUILD_SESSIONS = ["5cc6a662-768e-4653-b659-84ab7b01e825", "df29b36f-b1bf-4d4e-862b-29df1f45cd68"]
+SECRET = re.compile(r"(nvapi-|hf_|gh[pousr]_|github_pat_|rnd_|sk-)[A-Za-z0-9_-]{16,}|AIza[0-9A-Za-z_-]{30,}"
+                    r"|[\w.+-]+@gmail\.com|raiayush1306")
+
+
+def env_values() -> list[str]:
+    env = ROOT / ".env"
+    pairs = (line.partition("=")[2].strip().strip("\"'") for line in env.read_text().splitlines()) if env.exists() else []
+    return [v for v in pairs if len(v) >= 12 and not v.startswith("http")]
 
 
 def redact(text: str) -> str:
+    for value in env_values():
+        text = text.replace(value, "<redacted>")
     return SECRET.sub("<redacted>", text)
 
 
@@ -54,9 +67,13 @@ def markdown(path: Path) -> str:
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    for path in sorted(SESSIONS.glob("*.jsonl")):
-        (OUT / path.name).write_text(redact(path.read_text()))
-        (OUT / f"{path.stem}.md").write_text(markdown(path))
+    for session in BUILD_SESSIONS:
+        path = SESSIONS / f"{session}.jsonl"
+        raw, readable = redact(path.read_text()), markdown(path)
+        if SECRET.search(raw + readable) or any(v in raw + readable for v in env_values()):
+            sys.exit(f"secret survived redaction in {session}: nothing written")
+        (OUT / path.name).write_text(raw)
+        (OUT / f"{path.stem}.md").write_text(readable)
         print(f"exported {path.name}", file=sys.stderr)
 
 
