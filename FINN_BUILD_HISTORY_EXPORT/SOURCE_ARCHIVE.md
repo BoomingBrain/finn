@@ -1,13 +1,5 @@
 # Source archive manifest
 
-The session exports in `source_sessions/` are the Claude Code logs with these removals, and nothing else changed:
-
-- **Discussion of the prompt log's wording and the build history's format,** including two whole exchanges on 29 Oct and part of one message on 1 Nov. No FINN code changed in the two exchanges.
-- **Unrelated personal details,** such as file names and references to other work.
-- **Secrets and my email address.**
-
-Each removal is marked in place with `[Removed: ...]`, except secrets and the email, which show `<redacted>`. The prompt log and the build summary are separate documents written from these sessions.
-
 | File | SHA-256 | Size |
 |---|---|---:|
 | `5cc6a662-768e-4653-b659-84ab7b01e825.md` | `b7157a5c89e3775f0bb23f05df8b10ffdd392d7a0543ef3586cd3a519ecd4ed7` | 2,079 bytes |
