@@ -1,0 +1,225 @@
+{
+ "symbol": "MARUTI",
+ "name": "Maruti Suzuki India Ltd",
+ "built_at": "2026-11-01T04:34:22.614384Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-04-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Maruti Suzuki India Ltd",
+    "about": "The Company was established in 1981. A joint venture agreement was signed between the Government of India and Suzuki MotorCorporation (SMC), Japan in 1982. The Company became a subsidiary of SMC in 2002.It is the market leader in passenger vehicle segment in India. In terms of production volume and sales, the Company is now SMC’s largest subsidiary. SMC currently holds 56.28% of its equity stake.The principal activities of the Company are manufacturing, purchase and sale of motor vehicles, components and spare parts.",
+    "basis": "consolidated",
+    "built_at": "2026-11-01T04:32:10.990697+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-04-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 208192.0,
+    "pat_ttm": 13451.0,
+    "revenue_cagr_3y": 15.7,
+    "pat_cagr_3y": 21.1,
+    "opm_latest": 11.7,
+    "opm_3y_ago": 11.1,
+    "roce_latest": 19.0,
+    "roe_latest": null,
+    "debt_to_equity": 0.0,
+    "cfo_to_pat_3y": 1.22,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 38764.0,
+      "pat": 3727.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 40920.0,
+      "pat": 3911.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 38605.0,
+      "pat": 3792.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 42344.0,
+      "pat": 3349.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 49904.0,
+      "pat": 3879.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 52462.0,
+      "pat": 3659.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 52470.0,
+      "pat": 3447.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 53356.0,
+      "pat": 2466.0
+     }
+    ],
+    "flags": []
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/MARUTI/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Apr 2026",
+     "Transcript Jan 2026",
+     "Transcript Oct 2025",
+     "Transcript Aug 2025"
+    ],
+    "rows": []
+   },
+   "citations": []
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Maruti Suzuki India Limited manufactures and sells passenger and commercial vehicles in India through its Nexa and Arena channels, and also sells motor vehicle parts and accessories under the Maruti Suzuki Genuine Parts and Genuine Accessories brands. Its vehicles are offered to individual customers and fleet operators across the country.",
+    "segments": [
+     {
+      "name": "Hatchback",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p144"
+      ]
+     },
+     {
+      "name": "Sedan",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p144"
+      ]
+     },
+     {
+      "name": "SUV",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p144"
+      ]
+     },
+     {
+      "name": "MPV",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p144"
+      ]
+     },
+     {
+      "name": "Van",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p144"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p182",
+     "AR:2026:p144"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p182",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/09d38ee6-9c30-4892-b483-8d7c34697a7a.pdf",
+     "page": 182
+    },
+    {
+     "source_id": "AR:2026:p144",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/09d38ee6-9c30-4892-b483-8d7c34697a7a.pdf",
+     "page": 144
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Maruti Suzuki delivered strong 3-year CAGR of 15.7% in revenue and 21.1% in PAT, reaching TTM revenue of ₹208,192 Cr and PAT of ₹13,451 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin expanded from 11.1% to 11.7% over three years with a solid ROCE of 19%, indicating improving capital efficiency.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "The company maintains a debt-free balance sheet (debt-to-equity 0.0) and generates strong cash flows with operating cash flow to PAT of 1.22 over three years.",
+      "source_ids": [
+       "SCR"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Quarterly PAT has declined sequentially from ₹3,879 Cr in Dec 2025 to ₹2,466 Cr in Sep 2026 despite revenue growing from ₹49,904 Cr to ₹53,356 Cr, signaling margin pressure.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin improvement has been modest at only 60 basis points over three years, and ROE is not available, limiting profitability assessment.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Business remains concentrated in the Indian passenger vehicle market across hatchback, sedan, SUV, MPV, and van segments with no meaningful geographic diversification.",
+      "source_ids": [
+       "AR:2026:p144"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/MARUTI/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "AR:2026:p144",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/09d38ee6-9c30-4892-b483-8d7c34697a7a.pdf",
+     "page": 144
+    }
+   ]
+  }
+ ]
+}
