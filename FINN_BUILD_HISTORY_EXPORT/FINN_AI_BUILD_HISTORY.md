@@ -141,7 +141,7 @@ The final session did not establish that every long-running build would reliably
 
 The work was carried out through Claude Code sessions using the Superpowers, Context7 and frontend-design plugins. The prompt log records 65 substantive requests grouped by planning, data validation, Push, Pull, product iteration, interface/scheduling and reliability/final checks.
 
-The prompt log is a readable, curated account of those requests and their outcomes. The exact wording is in the two original session exports, in both Markdown and JSONL formats, preserved unchanged in this package.
+The prompt log is a readable, curated account of those requests and their outcomes. The exact wording is in the two session exports, in both Markdown and JSONL formats, which are unchanged apart from the marked removals listed in [SOURCE_ARCHIVE.md](SOURCE_ARCHIVE.md).
 
 - [Curated prompt log](PROMPTS.md)
 - [Session 1 — Markdown transcript](source_sessions/5cc6a662-768e-4653-b659-84ab7b01e825.md) · [JSONL archive](source_sessions/5cc6a662-768e-4653-b659-84ab7b01e825.jsonl)

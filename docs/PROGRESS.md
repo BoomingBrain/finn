@@ -67,6 +67,7 @@ Newest first.
 - **No-viewer tests on the live server:** MARUTI (30 Oct) never saved, cause not established; MARUTI with a viewer attached finished in 136 s, reusing some cached work; TVSMOTOR with no viewer finished and saved in about 13 minutes. The TVS run ended inside Render's 15-minute idle limit, so it doesn't exercise the keep-awake ping. Recorded under Known limitations in the README.
 - `FINN_BUILD_HISTORY_EXPORT/PROMPTS.md` written as a complete, ordered account of every request; the exact sessions are in `FINN_BUILD_HISTORY_EXPORT/source_sessions/`.
 - README gained four Mermaid flowcharts and Known limitations; the architecture image gained the fallback and rejoin.
+- Session exports: discussion of the prompt log's wording and unrelated personal details removed and marked in place, listed in `SOURCE_ARCHIVE.md`. Git history rewritten so the earlier copies are no longer on `main`.
 - Build history moved from `docs/build-history/` to `FINN_BUILD_HISTORY_EXPORT/`: the same session files, byte for byte, plus a written account and a SHA-256 manifest.
 - `scripts/export_history.py` now exports listed build sessions only, redacts every `.env` value and Gemini keys, and writes nothing if a secret survives.
 

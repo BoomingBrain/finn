@@ -12,7 +12,7 @@ Here is my submission for the AI Engineer Build Challenge: FINN, a financial inv
 **Links**
 - Prototype (open on a phone): https://ayush-rai-230265-finn.static.hf.space
 - Repository: https://github.com/BoomingBrain/finn
-- AI build history: https://github.com/BoomingBrain/finn/tree/main/FINN_BUILD_HISTORY_EXPORT (a written account of the build, plus the exact Claude Code sessions, readable and raw, in `source_sessions/`), plus a curated account of every request and its outcome in [PROMPTS.md](https://github.com/BoomingBrain/finn/blob/main/FINN_BUILD_HISTORY_EXPORT/PROMPTS.md) and the task-by-task log in [docs/PROGRESS.md](https://github.com/BoomingBrain/finn/blob/main/docs/PROGRESS.md)
+- AI build history: https://github.com/BoomingBrain/finn/tree/main/FINN_BUILD_HISTORY_EXPORT (a written account of the build, plus the Claude Code sessions, readable and raw, in `source_sessions/`. I removed discussion of the prompt log's wording and unrelated personal details from the sessions; each removal is marked and listed in `SOURCE_ARCHIVE.md`), plus a curated account of every request and its outcome in [PROMPTS.md](https://github.com/BoomingBrain/finn/blob/main/FINN_BUILD_HISTORY_EXPORT/PROMPTS.md) and the task-by-task log in [docs/PROGRESS.md](https://github.com/BoomingBrain/finn/blob/main/docs/PROGRESS.md)
 
 **What I built.** A mobile web app with five tabs over an 18-stock portfolio:
 - **Brief:** a windowed digest of every exchange filing, sorted into critical, notable and routine. Results filings get a Revenue / EBITDA / PBT / PAT card with QoQ and YoY; management changes get the incoming person's profile.
