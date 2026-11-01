@@ -1,7 +1,5 @@
 # FINN — Prompt Log
 
-The original session exports are preserved separately and have not been rewritten:
-
 - [Session 1 — plugin and development-environment setup (Markdown)](source_sessions/5cc6a662-768e-4653-b659-84ab7b01e825.md) · [raw JSONL](source_sessions/5cc6a662-768e-4653-b659-84ab7b01e825.jsonl)
 - [Session 2 — FINN planning, implementation and submission (Markdown)](source_sessions/df29b36f-b1bf-4d4e-862b-29df1f45cd68.md) · [raw JSONL](source_sessions/df29b36f-b1bf-4d4e-862b-29df1f45cd68.jsonl)
 
@@ -12,7 +10,7 @@ Use this file for the readable, curated account of the work and the linked sessi
 | # | Request | Outcome |
 |---|---|---|
 | 1 | Set up the development environment: install the Superpowers, Context7 and frontend-design plugins for Claude Code. | Plugins installed and active. |
-| 2 | Write an implementation plan for FINN from the challenge brief. | 16-task plan with a Decisions section ([plan](superpowers/plans/2026-10-28-finn.md)). |
+| 2 | Write an implementation plan for FINN from the challenge brief. | 16-task plan with a Decisions section ([plan](../docs/superpowers/plans/2026-10-28-finn.md)). |
 | 3 | Add a short description to every task, and keep a progress log and a prompt log throughout. | Task descriptions and an overview table; `PROGRESS.md` and this log. |
 | 4 | Revise the plan against a 15-point review: vertical slice first, offline ingestion, cost guard, lender layout, code-judged guidance, an accuracy eval, event clustering, a schedule and a cut list (full text in the appendix). | Plan rewritten as Tasks 0–15. |
 | 5 | Review the tool-usage report and reduce the overhead of the planning skill and plugins, showing each change first. | Reviewed; no changes made. |
@@ -81,7 +79,7 @@ Use this file for the readable, curated account of the work and the linked sessi
 | 43 | What work remains? | Remaining items listed. |
 | 44 | Polish the Watch alerts: move the settings from the bottom to a compact summary at the top that expands for editing. | The alert rule as threshold boxes; tap to edit in place. |
 | 45 | Polish the whole interface: remove unnecessary text, present non-AI information in concise boxes, colour-code numbers, and keep it clean and crisp. | Stat boxes for every number group, threshold-coloured ratios, clamped text, compact citations. |
-| 46 | Write a plan to make live research faster. | Plan for passage-level extraction, a parallel annual report and a nightly Nifty 50 prebuild ([plan](superpowers/plans/2026-10-29-faster-live-research.md)). |
+| 46 | Write a plan to make live research faster. | Plan for passage-level extraction, a parallel annual report and a nightly Nifty 50 prebuild ([plan](../docs/superpowers/plans/2026-10-29-faster-live-research.md)). |
 | 47 | The plan looks good. Execute it natively, task by task. | Parallel read kept; passage-level extraction reverted because it failed the accuracy gate. |
 | 48 | Produce a proper architecture diagram as a PNG, explaining the system in detail. | `docs/architecture.png`, linked from the README. |
 | 49 | How many tasks remain, and what is running now? | Status reported. |
@@ -91,7 +89,7 @@ Use this file for the readable, curated account of the work and the linked sessi
 | 53 | What is running in the background? | Reported, and flagged that GitHub was skipping scheduled runs. |
 | 54 | Agreed, let's fix the unreliable schedule, using GitHub cron only and making it robust. | Schedules moved off the top of the hour; a watchdog workflow starts any overdue job. |
 | 55 | Make the product more interactive. Brainstorm and plan ideas: acting on an item, asking in my own words, changing the portfolio, comparing companies. | Options reviewed; narrowed to chat. |
-| 56 | Add only a Chat section. It answers on the holdings and researched companies, says "research pending" for anything else, and uses a RAG system over researched content. Retrieve from the reports only. | [Design](superpowers/specs/2026-10-29-chat-design.md) and [plan](superpowers/plans/2026-10-29-chat.md) written. |
+| 56 | Add only a Chat section. It answers on the holdings and researched companies, says "research pending" for anything else, and uses a RAG system over researched content. Retrieve from the reports only. | [Design](../docs/superpowers/specs/2026-10-29-chat-design.md) and [plan](../docs/superpowers/plans/2026-10-29-chat.md) written. |
 | 57 | Design approved, and plan approved. | Chat tab over an embedded index of every report's cited passages, with hybrid search, a relevance gate and no uncited sentences. |
 | 58 | What is the Nifty 50 prebuild, and how much of it is done? | Explained, with progress reported. |
 | 59 | Stop prebuilding. Research other companies only when asked. | Prebuild job and its list removed; the watchdog no longer restarts it. |

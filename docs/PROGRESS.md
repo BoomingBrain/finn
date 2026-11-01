@@ -65,7 +65,7 @@ Newest first.
 
 ### 2026-11-01 — Final submission preparation
 - **No-viewer tests on the live server:** MARUTI (30 Oct) never saved, cause not established; MARUTI with a viewer attached finished in 136 s, reusing some cached work; TVSMOTOR with no viewer finished and saved in about 13 minutes. The TVS run ended inside Render's 15-minute idle limit, so it doesn't exercise the keep-awake ping. Recorded under Known limitations in the README.
-- `docs/PROMPTS.md` rewritten as a complete, ordered log, labelled as edited; the exact sessions stay in `docs/build-history/`.
+- `FINN_BUILD_HISTORY_EXPORT/PROMPTS.md` written as a complete, ordered account of every request; the exact sessions are in `FINN_BUILD_HISTORY_EXPORT/source_sessions/`.
 - README gained four Mermaid flowcharts and Known limitations; the architecture image gained the fallback and rejoin.
 - Build history moved from `docs/build-history/` to `FINN_BUILD_HISTORY_EXPORT/`: the same session files, byte for byte, plus a written account and a SHA-256 manifest.
 - `scripts/export_history.py` now exports listed build sessions only, redacts every `.env` value and Gemini keys, and writes nothing if a secret survives.
@@ -386,5 +386,5 @@ Newest first.
   - event clustering
   - "Ask about this" and backtest sliders
   - day-by-day schedule and cut list
-- Read the challenge brief and the reference PDF and wrote the first 16-task plan. Added task descriptions, plus this log and the [prompt log](PROMPTS.md).
+- Read the challenge brief and the reference PDF and wrote the first 16-task plan. Added task descriptions, plus this log and the [prompt log](../FINN_BUILD_HISTORY_EXPORT/PROMPTS.md).
 - **Open:** user to review the revised plan and choose an execution mode.

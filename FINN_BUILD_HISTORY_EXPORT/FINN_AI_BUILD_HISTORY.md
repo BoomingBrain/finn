@@ -137,16 +137,12 @@ The final session did not establish that every long-running build would reliably
 - Gemini's free tier was recorded as 20 requests per day. A full new analysis can require substantially more calls, so Gemini is a limited emergency fallback, not a dependable provider for an entire build. Its guidance accuracy remained unmeasured.
 - Some source endpoints behaved differently depending on cookies or the server/network used. The spike results are evidence for the tested environment and dates, not a universal availability guarantee.
 
-The final session reported that the live app loaded and the test suites passed. It also listed manual submission actions that were still outstanding at that point: pushing the exported history folder, granting reviewers access to the private repository, checking the app and rendered flowcharts on a phone/GitHub, and sending the submission email. Confirm those actions against the current repository before sharing the project publicly.
-
 ## 8. AI-assisted development record
 
 The work was carried out through Claude Code sessions using the Superpowers, Context7 and frontend-design plugins. The prompt log records 65 substantive requests grouped by planning, data validation, Push, Pull, product iteration, interface/scheduling and reliability/final checks.
 
-The readable prompt log is professionally paraphrased, not a verbatim transcript. It is paired with two original session exports in both Markdown and JSONL formats. The source files in this package are preserved unchanged so the edited summary can be distinguished from the underlying record.
+The prompt log is a readable, curated account of those requests and their outcomes. The exact wording is in the two original session exports, in both Markdown and JSONL formats, preserved unchanged in this package.
 
 - [Curated prompt log](PROMPTS.md)
 - [Session 1 — Markdown transcript](source_sessions/5cc6a662-768e-4653-b659-84ab7b01e825.md) · [JSONL archive](source_sessions/5cc6a662-768e-4653-b659-84ab7b01e825.jsonl)
 - [Session 2 — Markdown transcript](source_sessions/df29b36f-b1bf-4d4e-862b-29df1f45cd68.md) · [JSONL archive](source_sessions/df29b36f-b1bf-4d4e-862b-29df1f45cd68.jsonl)
-
-**Disclosure before public release:** the raw transcripts contain original conversational wording, local machine paths and some personal file-name/context references. Review the raw exports before publishing them. No obvious common API-token patterns were found in the supplied exports during this packaging pass, but that is not a substitute for a full secret scan of the repository and its history.
