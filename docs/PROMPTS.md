@@ -1,6 +1,6 @@
 # FINN — Prompt Log
 
-Every request I gave the coding agent while building FINN, in order, with what each one produced. **The wording here is edited for clarity and tone, and it is not verbatim.** My requests about the format of this log itself are left out. The exact, unedited sessions are in [build-history/](build-history/), and the task-by-task engineering record is in [PROGRESS.md](PROGRESS.md).
+Every request I gave the coding agent while building FINN, in order, with what each one produced. **The wording here is edited for clarity and tone, and it is not verbatim.** My requests about the format of this log itself are left out. The exact, unedited sessions are in [source_sessions/](../FINN_BUILD_HISTORY_EXPORT/source_sessions/), and the task-by-task engineering record is in [PROGRESS.md](PROGRESS.md).
 
 ## 1. Planning and environment (28 Oct)
 

@@ -1,4 +1,4 @@
-"""Exports this project's Claude Code sessions into docs/build-history/ for the submission's "AI build history".
+"""Exports this project's Claude Code sessions into FINN_BUILD_HISTORY_EXPORT/source_sessions/ for the submission's "AI build history".
 
 For each session: a redacted copy of the raw .jsonl, and a readable Markdown transcript (prompts, replies, and one
 line per tool call). Redacts anything key-shaped, every value in .env and the author's email, and refuses to finish if
@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 SESSIONS = Path.home() / ".claude/projects/-Users-ayushrai-Downloads-Enam-holdings"
-OUT = Path(__file__).resolve().parents[1] / "docs" / "build-history"
+OUT = Path(__file__).resolve().parents[1] / "FINN_BUILD_HISTORY_EXPORT" / "source_sessions"  # update SOURCE_ARCHIVE.md after a re-export
 ROOT = Path(__file__).resolve().parents[1]
 BUILD_SESSIONS = ["5cc6a662-768e-4653-b659-84ab7b01e825", "df29b36f-b1bf-4d4e-862b-29df1f45cd68"]
 SECRET = re.compile(r"(nvapi-|hf_|gh[pousr]_|github_pat_|rnd_|sk-)[A-Za-z0-9_-]{16,}|AIza[0-9A-Za-z_-]{30,}"
