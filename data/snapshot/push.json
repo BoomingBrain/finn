@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-01T20:03:39.373004+05:30",
+ "as_of": "2026-11-02T00:03:35.146089+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "d68ca05bce32b7d7ec55d682281a36018600d172",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-11-01T23:09:22+05:30",
+    "subject": "Transcript of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, at the analyst meet held on October 30, 2026, is attached and also available on the website of the Company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_01112026230907_SE_01112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "7e058b5443cf352d1cf521df7e530d3431fa8bab",
