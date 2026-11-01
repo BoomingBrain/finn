@@ -1,0 +1,442 @@
+{
+ "symbol": "TVSMOTOR",
+ "name": "TVS Motor Company Ltd",
+ "built_at": "2026-11-01T04:47:47.438962Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Sep 2026",
+  "transcript": "2026-07-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "TVS Motor Company Ltd",
+    "about": "TVS Motor Company Ltd (TVSM) is engaged in manufacturing two-wheelers and its accessories; it currently manufactures a wide range of two-wheelers and three-wheelers.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-11-01T04:35:09.770157+00:00",
+    "sources": {
+     "quarter": "Sep 2026",
+     "transcript": "2026-07-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 65579.0,
+    "pat_ttm": 3988.0,
+    "revenue_cagr_3y": 20.6,
+    "pat_cagr_3y": 34.5,
+    "opm_latest": 14.9,
+    "opm_3y_ago": 12.6,
+    "roce_latest": 17.0,
+    "roe_latest": null,
+    "debt_to_equity": 3.48,
+    "cfo_to_pat_3y": 0.56,
+    "quarterly": [
+     {
+      "label": "Dec 2024",
+      "revenue": 11035.0,
+      "pat": 609.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 11542.0,
+      "pat": 698.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 12210.0,
+      "pat": 643.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 14051.0,
+      "pat": 833.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 14756.0,
+      "pat": 891.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 15053.0,
+      "pat": 820.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 16296.0,
+      "pat": 1058.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 19474.0,
+      "pat": 1219.0
+     }
+    ],
+    "flags": [
+     "Profits not converting to cash",
+     "High leverage"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/TVSMOTOR/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Jul 2026",
+     "Transcript May 2026",
+     "Transcript Feb 2026",
+     "Transcript Oct 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex for new products and capacity expansion",
+       "comparison": "approx",
+       "value": 3500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "I think last time I highlighted, we are going for 8.3 million from the current capacity of about 6.8 million. And in 3-wheeler, we are going from 0.25 million capacity to about 0.42 million. So this is a big, big increase, and that's why we are also investing somewhere around, including our new products, we are investing about INR 3,500 crores, new products plus all the capacity expansion, which is going to come over the last, next one quarter is over second quarter, third quarter. By fourth quarter, we will reach is 8.3 million capacity.",
+       "source_id": "T:2026-07-01:p12",
+       "said_on": "2026-07-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex for new products and capacity expansion ≈ ₹3,500 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "scooter category share",
+       "comparison": "gte",
+       "value": 40.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "And according to me, that is likely to go over 40%, which means scooters are likely to grow faster.",
+       "source_id": "T:2026-05-01:p7",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided scooter category share ≥ 40% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "commodity inflation as percentage of revenue",
+       "comparison": "between",
+       "value": 3.0,
+       "value_high": 5.0,
+       "unit": "pct",
+       "period": "Q1FY27",
+       "quote": "I think it is around 3% to 5% because as we speak, there are challenges, but we were able to increase prices 35% of the price increases we were able to offset by increasing prices.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided commodity inflation as percentage of revenue 3%–5% for Q1FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "capex",
+       "comparison": "approx",
+       "value": 3500.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "So all put together, the capex for next year for TVS Motor will be likely to be around INR3,500 crores.",
+       "source_id": "T:2026-05-01:p11",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided capex ≈ ₹3,500 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "total investments",
+       "comparison": "between",
+       "value": 1800.0,
+       "value_high": 1900.0,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "Next year, the investments will be much lower. It will be maybe another INR500 crores, INR600 crores lower than this INR2,400 because we are very confident that many of the investments whatever we have made is going to start yielding better revenues and start getting results for us.",
+       "source_id": "T:2026-05-01:p11",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided total investments ₹1,800 Cr–₹1,900 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "2-wheeler industry growth",
+       "comparison": "approx",
+       "value": 8.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "H2FY26",
+       "quote": "That's the reason I said Q3 and Q4, if I look at the 2-wheeler industry is likely to grow around 8%, which according to me is a good number because last year, we had a good base on top of it",
+       "source_id": "T:2025-10-01:p9",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided 2-wheeler industry growth ≈ 8% for H2FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "growth assumption for Q3 and Q4",
+       "comparison": "approx",
+       "value": 8.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "H2FY26",
+       "quote": "When I put 8% Q3 and Q4, I'm pretty confident that you will see the change in rural going forward.",
+       "source_id": "T:2025-10-01:p15",
+       "said_on": "2025-10-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided growth assumption for Q3 and Q4 ≈ 8% for H2FY26; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-07-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e99280ca-79c3-4fa1-8188-f0f34294abfa.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-05-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d60c3c01-cbb0-4df1-9cba-9e23ccc6fc27.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-05-01:p8",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d60c3c01-cbb0-4df1-9cba-9e23ccc6fc27.pdf",
+     "page": 8
+    },
+    {
+     "source_id": "T:2026-05-01:p11",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d60c3c01-cbb0-4df1-9cba-9e23ccc6fc27.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "T:2025-10-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b229be02-d7b5-472f-a675-4eef6177031f.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2025-10-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b229be02-d7b5-472f-a675-4eef6177031f.pdf",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "TVS Motor Company manufactures and sells motorcycles, scooters, mopeds, and three-wheelers (both ICE and EV) in India and internationally, serving a broad spectrum of users from daily commuters to performance enthusiasts and commercial operators. Its product portfolio spans domestic and international markets with offerings across mopeds, motorcycles, petrol and electric scooters, three-wheelers, and premium motorcycles.",
+    "segments": [
+     {
+      "name": "Two-wheelers (ICE + EV)",
+      "share_pct": 85.0,
+      "source_ids": [
+       "AR:2026:p79"
+      ]
+     },
+     {
+      "name": "Three-wheelers",
+      "share_pct": 4.0,
+      "source_ids": [
+       "AR:2026:p79"
+      ]
+     },
+     {
+      "name": "Parts & Accessories",
+      "share_pct": 10.0,
+      "source_ids": [
+       "AR:2026:p79"
+      ]
+     },
+     {
+      "name": "International Business - Two-wheelers",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p58"
+      ]
+     },
+     {
+      "name": "International Business - Three-wheelers",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p58"
+      ]
+     },
+     {
+      "name": "EV two-wheelers (India)",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p58"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p19",
+     "AR:2026:p58",
+     "AR:2026:p59",
+     "AR:2026:p79"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p19",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4e988d1e-e2c9-40c8-aa8d-8760675c59d6.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "AR:2026:p58",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4e988d1e-e2c9-40c8-aa8d-8760675c59d6.pdf",
+     "page": 58
+    },
+    {
+     "source_id": "AR:2026:p59",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4e988d1e-e2c9-40c8-aa8d-8760675c59d6.pdf",
+     "page": 59
+    },
+    {
+     "source_id": "AR:2026:p79",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4e988d1e-e2c9-40c8-aa8d-8760675c59d6.pdf",
+     "page": 79
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Revenue and PAT have compounded at 20.6% and 34.5% CAGR over three years, reaching ₹65,579 Cr and ₹3,988 Cr TTM respectively.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin expanded from 12.6% to 14.9% over three years with ROCE at 17%, while quarterly revenue accelerated from ₹14,756 Cr in Dec 2025 to ₹19,474 Cr in Sep 2026.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Management is investing ~₹3,500 Cr to raise two-wheeler capacity from 6.8M to 8.3M and three-wheeler capacity from 0.25M to 0.42M by Q4, targeting scooter growth above 40%.",
+      "source_ids": [
+       "T:2026-07-01:p12",
+       "T:2026-05-01:p7"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "Leverage is high with debt-to-equity at 3.48, and operating cash flow has covered only 56% of PAT over three years, flagging poor cash conversion.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Capex of ~₹3,500 Cr for next year will keep cash flows pressured, though management expects it to decline by ₹500-600 Cr thereafter.",
+      "source_ids": [
+       "T:2026-05-01:p11"
+      ]
+     },
+     {
+      "text": "Management admits only 35% of cost increases were offset by price hikes, leaving a 3-5% margin headwind.",
+      "source_ids": [
+       "T:2026-05-01:p8"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/TVSMOTOR/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-07-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e99280ca-79c3-4fa1-8188-f0f34294abfa.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-05-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d60c3c01-cbb0-4df1-9cba-9e23ccc6fc27.pdf",
+     "page": 7
+    },
+    {
+     "source_id": "T:2026-05-01:p11",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d60c3c01-cbb0-4df1-9cba-9e23ccc6fc27.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "T:2026-05-01:p8",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d60c3c01-cbb0-4df1-9cba-9e23ccc6fc27.pdf",
+     "page": 8
+    }
+   ]
+  }
+ ]
+}
