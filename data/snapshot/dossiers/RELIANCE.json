@@ -1,11 +1,11 @@
 {
  "symbol": "RELIANCE",
  "name": "Reliance Industries Ltd",
- "built_at": "2026-10-31T19:07:38.184007Z",
+ "built_at": "2026-11-01T19:22:30.167343Z",
  "basis": "consolidated",
  "sources": {
   "quarter": "Sep 2026",
-  "transcript": "2026-07-01",
+  "transcript": "2026-11-01",
   "annual_report": 2026
  },
  "sections": [
@@ -17,10 +17,10 @@
     "name": "Reliance Industries Ltd",
     "about": "Reliance was founded by Dhirubhai Ambani and is now promoted and managed by his elder son, Mukesh Dhirubhai Ambani. Ambani's family has about 50% shareholding in the conglomerate.",
     "basis": "consolidated",
-    "built_at": "2026-10-31T18:49:26.740393+00:00",
+    "built_at": "2026-11-01T19:14:12.238620+00:00",
     "sources": {
      "quarter": "Sep 2026",
-     "transcript": "2026-07-01",
+     "transcript": "2026-11-01",
      "annual_report": 2026
     },
     "lender": false,
@@ -92,12 +92,33 @@
    "reason": null,
    "data": {
     "transcripts": [
+     "Transcript Nov 2026",
      "Transcript Jul 2026",
      "Transcript Apr 2026",
-     "Transcript Jan 2026",
      "Transcript Jan 2026"
     ],
     "rows": [
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "O2C earnings",
+       "comparison": "approx",
+       "value": 80000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "Financial performance, strongest ever quarterly performance and like Srikanth said, we are well on the course to do exceedingly well in this year, Rs.80,000 Crores on the O2C basis.",
+       "source_id": "T:2026-11-01:p15",
+       "said_on": "2026-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided O2C earnings ≈ ₹80,000 Cr for FY27; not checkable from reported financials."
+     },
      {
       "target": {
        "metric": "other",
@@ -160,31 +181,15 @@
       },
       "verdict": "not_checkable",
       "explanation": "Guided ARPU growth 4%–5% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "beverage capacity",
-       "comparison": "gte",
-       "value": 100.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY26",
-       "quote": "We will be more than doubling our capacity on beverages this year.",
-       "source_id": "T:2026-01-01:p12",
-       "said_on": "2026-01-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided beverage capacity ≥ 100% for FY26; not checkable from reported financials."
      }
     ]
    },
    "citations": [
+    {
+     "source_id": "T:2026-11-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e997741-4d35-4188-933a-cf020fb9c816.pdf",
+     "page": 15
+    },
     {
      "source_id": "T:2026-07-01:p23",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
@@ -199,11 +204,6 @@
      "source_id": "T:2026-04-01:p28",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf",
      "page": 28
-    },
-    {
-     "source_id": "T:2026-01-01:p12",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf",
-     "page": 12
     }
    ]
   },
@@ -306,45 +306,43 @@
    "data": {
     "bull": [
      {
-      "text": "TTM PAT of ₹95,625 Cr with 3-year PAT CAGR of 8.9% and revenue CAGR of 6.4% on ₹1,199,033 Cr revenue.",
+      "text": "TTM revenue of ₹1,199,033 Cr and PAT of ₹95,625 Cr with 3-year CAGR of 6.4% for revenue and 8.9% for PAT demonstrate consistent top-line and bottom-line growth.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Operating margin expanded from 16.2% to 17% over three years with operating cash flow/PAT of 2.07x.",
+      "text": "Operating margin improved from 16.2% to 17% over three years, operating cash flow to PAT ratio of 2.07 over three years, and low debt-to-equity of 0.43 indicate strong financial health and cash generation.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Management targets Rs.1 lakh Cr by FY2030, aims to double absolute EBITDA, expects 4-5% ARPU growth without tariff hikes, and plans to double beverages capacity.",
+      "text": "Management targets Rs.80,000 Cr on O2C basis, aims to double absolute EBITDA, and has set a Rs.1 lakh Cr target for FY2030, signaling ambitious growth aspirations.",
       "source_ids": [
-       "T:2026-07-01:p30",
+       "T:2026-11-01:p15",
        "T:2026-07-01:p23",
-       "T:2026-04-01:p28",
-       "T:2026-01-01:p12"
+       "T:2026-07-01:p30"
       ]
      }
     ],
     "bear": [
      {
-      "text": "All management growth targets (doubling EBITDA, Rs.1 lakh Cr by FY2030, 4-5% ARPU growth, doubling beverages capacity) have zero quarters of delivery verification.",
-      "source_ids": [
-       "T:2026-07-01:p23",
-       "T:2026-07-01:p30",
-       "T:2026-04-01:p28",
-       "T:2026-01-01:p12"
-      ]
-     },
-     {
-      "text": "ROCE remains low at 10% despite ₹1,199,033 Cr TTM revenue.",
+      "text": "ROCE of only 10% and ROE not available suggest modest returns on capital employed despite the company's large scale.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Quarterly PAT shows volatility: ₹22,290 Cr (Dec 2025), ₹20,589 Cr (Mar 2026), ₹23,196 Cr (Jun 2026), ₹29,550 Cr (Sep 2026).",
+      "text": "Management's key targets (Rs.80k Cr O2C, double EBITDA, Rs.1 lakh Cr by FY2030) are explicitly noted as unverified and cannot be checked from reported financials.",
+      "source_ids": [
+       "T:2026-11-01:p15",
+       "T:2026-07-01:p23",
+       "T:2026-07-01:p30"
+      ]
+     },
+     {
+      "text": "Quarterly PAT shows volatility with ₹22,290 Cr (Dec 2025), ₹20,589 Cr (Mar 2026), ₹23,196 Cr (Jun 2026), and ₹29,550 Cr (Sep 2026), indicating inconsistent quarterly profitability.",
       "source_ids": [
        "SCR"
       ]
@@ -358,9 +356,9 @@
      "page": null
     },
     {
-     "source_id": "T:2026-07-01:p30",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
-     "page": 30
+     "source_id": "T:2026-11-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e997741-4d35-4188-933a-cf020fb9c816.pdf",
+     "page": 15
     },
     {
      "source_id": "T:2026-07-01:p23",
@@ -368,14 +366,9 @@
      "page": 23
     },
     {
-     "source_id": "T:2026-04-01:p28",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf",
-     "page": 28
-    },
-    {
-     "source_id": "T:2026-01-01:p12",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf",
-     "page": 12
+     "source_id": "T:2026-07-01:p30",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
+     "page": 30
     }
    ]
   }

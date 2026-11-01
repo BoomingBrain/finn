@@ -1,7 +1,7 @@
 {
  "symbol": "SUNPHARMA",
  "name": "Sun Pharmaceutical Industries Ltd",
- "built_at": "2026-10-31T18:55:52.652721Z",
+ "built_at": "2026-11-01T19:23:21.978938Z",
  "basis": "consolidated",
  "sources": {
   "quarter": "Sep 2026",
@@ -17,7 +17,7 @@
     "name": "Sun Pharmaceutical Industries Ltd",
     "about": "Sun Pharmaceutical Industries Ltd is engaged in the business of manufacturing, developing and marketing a wide range of branded and generic formulations and Active Pharma Ingredients (APIs). The company and its subsidiaries has various manufacturing facilities spread across the world with trading and other incidental and related activities extending to global market.[1]It is the largest pharmaceutical company in India.[2]",
     "basis": "consolidated",
-    "built_at": "2026-10-31T18:49:26.740070+00:00",
+    "built_at": "2026-11-01T19:14:12.238375+00:00",
     "sources": {
      "quarter": "Sep 2026",
      "transcript": "2026-08-01",
@@ -118,6 +118,90 @@
       },
       "verdict": "pending",
       "explanation": "Revenue reached ₹31,499 Cr across 2 of 4 quarters, pending full FY27 guidance."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "effective tax rate (ETR)",
+       "comparison": "approx",
+       "value": 27.8,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "The overall ETR for this quarter was about 27.8%. And we expect this range to sort of continue for some time until we have the Organon transaction completed.",
+       "source_id": "T:2026-08-01:p17",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided effective tax rate (ETR) ≈ 27.8% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "R&D spend as % of sales",
+       "comparison": "between",
+       "value": 6.0,
+       "value_high": 7.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We expect our FY27 R&D spend to be 6% to 7% of the sales for the next year.",
+       "source_id": "T:2026-05-01:p6",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided R&D spend as % of sales 6%–7% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Innovative business contribution",
+       "comparison": "between",
+       "value": 26.0,
+       "value_high": 27.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "And the women's health is an innovative business, which will also add to our innovative business and our Innovative business contribution, both combined together goes to 26% to 27%.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Innovative business contribution 26%–27% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "effective tax rate",
+       "comparison": "approx",
+       "value": 25.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "Yes. We expect the effective tax rate to be in the range of 25%.",
+       "source_id": "T:2026-05-01:p17",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided effective tax rate ≈ 25% for FY27; not checkable from reported financials."
      },
      {
       "target": {
@@ -376,22 +460,37 @@
    "citations": [
     {
      "source_id": "T:2026-05-01:p7",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
      "page": 7
     },
     {
+     "source_id": "T:2026-08-01:p17",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf",
+     "page": 17
+    },
+    {
+     "source_id": "T:2026-05-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+     "page": 6
+    },
+    {
      "source_id": "T:2026-05-01:p8",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
      "page": 8
     },
     {
+     "source_id": "T:2026-05-01:p17",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+     "page": 17
+    },
+    {
      "source_id": "T:2026-05-01:p9",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
      "page": 9
     },
     {
      "source_id": "T:2026-05-01:p12",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
      "page": 12
     },
     {
@@ -415,19 +514,19 @@
    "data": {
     "bull": [
      {
-      "text": "The company has delivered consistent 3-year CAGR of 10% in revenue and 10.6% in PAT while expanding operating margin from 26.5% to 28.2% and maintaining ROCE at 21%.",
+      "text": "The company has delivered consistent profitable growth with 10% revenue CAGR and 10.6% PAT CAGR over three years, while expanding operating margin to 28.2% from 26.5% three years ago.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "The balance sheet is strong with a low debt-to-equity of 0.04 and robust cash conversion evidenced by operating cash flow to PAT of 1.2x over three years.",
+      "text": "Balance sheet strength is evident with minimal leverage (debt-to-equity 0.04) and strong cash conversion (operating cash flow/PAT of 1.2x over three years).",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Management guides for combined revenues of $12.4 billion with two of four quarters already delivered and targets $350 million in cost synergies over the next two to four years.",
+      "text": "Management targets combined revenue of $12.4 billion and $350 million in cost synergies over 2-4 years, with the combined entity generating $2-2.5 billion annual free cash flow.",
       "source_ids": [
        "T:2026-05-01:p7",
        "T:2026-05-01:p9"
@@ -436,24 +535,21 @@
     ],
     "bear": [
      {
-      "text": "PAT has declined sequentially from ₹3,381 Cr in Dec 2025 to ₹1,995 Cr in Sep 2026 despite revenue rising to ₹16,199 Cr, signaling margin compression.",
+      "text": "Quarterly profitability has deteriorated sharply, with PAT falling from ₹3,381 Cr in Dec 2025 to ₹1,995 Cr in Sep 2026 despite revenue holding above ₹14,600 Cr.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Nearly all strategic targets — including business mix shifts (innovative to 27%, branded generics >51%, generics 15%, biosimilars 6%), geographic mix (US 27%, emerging markets 29%, India 17%, ROW 28%), and synergy realization — remain unverifiable from reported financials.",
+      "text": "The effective tax rate remains elevated at 27.8% and is expected to stay in that range until the Organon transaction completes, creating uncertainty.",
       "source_ids": [
-       "T:2026-05-01:p7",
-       "T:2026-05-01:p8",
-       "T:2026-05-01:p9"
+       "T:2026-08-01:p17"
       ]
      },
      {
-      "text": "Free cash flow guidance of $2–2.5 billion annually lacks verification, and ROE is not available, limiting return-on-equity assessment.",
+      "text": "Key strategic targets (innovative mix 26-27%, US 27% of sales, biosimilars 6%) are unverified as management guidance has not yet been reflected in reported financials.",
       "source_ids": [
-       "T:2026-05-01:p9",
-       "SCR"
+       "T:2026-05-01:p8"
       ]
      }
     ]
@@ -466,17 +562,22 @@
     },
     {
      "source_id": "T:2026-05-01:p7",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
      "page": 7
     },
     {
      "source_id": "T:2026-05-01:p9",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
      "page": 9
     },
     {
+     "source_id": "T:2026-08-01:p17",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf",
+     "page": 17
+    },
+    {
      "source_id": "T:2026-05-01:p8",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
      "page": 8
     }
    ]
