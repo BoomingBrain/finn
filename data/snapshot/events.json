@@ -1,6 +1,61 @@
 {
- "as_of": "2026-10-31T23:25:57.359062+05:30",
+ "as_of": "2026-11-01T20:03:39.373004+05:30",
  "events": [
+  {
+   "id": "7e058b5443cf352d1cf521df7e530d3431fa8bab",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "category": "management_change",
+   "tier": "critical",
+   "first_at": "2026-10-31T22:16:44+05:30",
+   "last_at": "2026-10-31T22:16:44+05:30",
+   "headline": "Change in Management",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Sanjay D'Souza",
+    "role": "Group Head – Business Banking, Emerging & Micro Enterprises Group and a Senior Management Personnel",
+    "change": "resigned",
+    "effective_date": "October 31, 2026",
+    "background": "During his association with the Bank for nearly 27 years, Mr. Sanjay D'Souza was one of the key architects of the Bank's SME business, contributing significantly across both Credit and Business.",
+    "prior_roles": [
+     "Group Head – Business Banking, Emerging & Micro Enterprises Group"
+    ]
+   },
+   "documents": [
+    {
+     "title": "Change in Management",
+     "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_31102026221631_SE_INTIMATION-_Sanjay_Dsouza.pdf",
+     "filed_at": "2026-10-31T22:16:44+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "ba3c4f6acdb0c2d79058ba29823d5e3e814ec6ce",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "first_at": "2026-10-31T20:14:24+05:30",
+   "last_at": "2026-10-31T20:14:24+05:30",
+   "headline": "Completion and Results of Postal Ballot dated 01 October 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Completion and Results of Postal Ballot dated 01 October 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_31102026201341_SEIntimationforVR_-_31_October_2026.pdf",
+     "filed_at": "2026-10-31T20:14:24+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "4a6c482428935d272afc0ae85744915fd3db8cb5",
    "symbol": "DIXON",
@@ -100,6 +155,101 @@
    "price_date": null
   },
   {
+   "id": "1cfa612756c84d0abf6f04b77566f531393a35d3",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-10-30T19:40:11+05:30",
+   "last_at": "2026-10-31T17:34:03+05:30",
+   "headline": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis",
+   "summary": null,
+   "results": {
+    "status": "unreadable",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": null,
+    "metrics": {},
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null,
+   "documents": [
+    {
+     "title": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf",
+     "filed_at": "2026-10-30T19:40:11+05:30"
+    },
+    {
+     "title": "In continuation of our letter of today's date on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026, we attach a copy of media release being issued by the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194315_SE_30102026_MR.pdf",
+     "filed_at": "2026-10-30T19:43:24+05:30"
+    },
+    {
+     "title": "Audio recording of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, at the analyst meet held on October 30, 2026, is available on the website of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_31102026173331_SE_31102026_AR.pdf",
+     "filed_at": "2026-10-31T17:34:03+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "6f5214d5381005d7d8ba47f6166c30a8695acb4c",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-10-30T14:15:10+05:30",
+   "last_at": "2026-10-31T17:32:02+05:30",
+   "headline": "Unaudited Financial Results for the quarter and half year ended 30 September 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Unaudited Financial Results for the quarter and half year ended 30 September 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
+     "filed_at": "2026-10-30T14:15:10+05:30"
+    },
+    {
+     "title": "Copy of Newspaper Publication",
+     "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_31102026173121_SEIntimationforFinancialResultsNewspaperadvertisement.pdf",
+     "filed_at": "2026-10-31T17:32:02+05:30"
+    }
+   ],
+   "price_change_pct": 0.9,
+   "volume_multiple": 3.4,
+   "price_date": "2026-10-30"
+  },
+  {
+   "id": "66ca87b864c74e1a75220e5e5b5528e943cb8db6",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "category": "M&A",
+   "tier": "critical",
+   "first_at": "2026-10-31T13:00:35+05:30",
+   "last_at": "2026-10-31T13:00:35+05:30",
+   "headline": "Updates on the Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and Share Purchase Agreement towards sale of entire stake held in L&T Network Services Private Limited to Vyoma Extension of timeline of completion",
+   "summary": "The estimated completion date for the Business Transfer Agreement with Vyoma.AI and Share Purchase Agreement for L&T Network Services…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Updates on the Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and Share Purchase Agreement towards sale of entire stake held in L&T Network Services Private Limited to Vyoma Extension of timeline of completion",
+     "url": "https://nsearchives.nseindia.com/corporate/AB_31102026130022_SEIntimation_ExtensionofBTAVyoma_31102026.pdf",
+     "filed_at": "2026-10-31T13:00:35+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
    "id": "f363596e48367be5f1962f7c6a9c2bba826f0229",
    "symbol": "BHARTIARTL",
    "company": "Bharti Airtel Limited",
@@ -190,45 +340,6 @@
      "title": "Investor Presentation",
      "url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194557_SE_30102026_IP.pdf",
      "filed_at": "2026-10-30T19:47:12+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "1cfa612756c84d0abf6f04b77566f531393a35d3",
-   "symbol": "RELIANCE",
-   "company": "Reliance Industries Limited",
-   "category": "results",
-   "tier": "critical",
-   "first_at": "2026-10-30T19:40:11+05:30",
-   "last_at": "2026-10-30T19:43:24+05:30",
-   "headline": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis",
-   "summary": null,
-   "results": {
-    "status": "unreadable",
-    "layout": "corporate",
-    "basis": "consolidated",
-    "period_end": null,
-    "metrics": {},
-    "not_applicable": [],
-    "missing": [],
-    "verified": null,
-    "mismatches": [],
-    "unit": "₹ Cr"
-   },
-   "profile": null,
-   "documents": [
-    {
-     "title": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis",
-     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf",
-     "filed_at": "2026-10-30T19:40:11+05:30"
-    },
-    {
-     "title": "In continuation of our letter of today's date on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026, we attach a copy of media release being issued by the Company",
-     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194315_SE_30102026_MR.pdf",
-     "filed_at": "2026-10-30T19:43:24+05:30"
     }
    ],
    "price_change_pct": null,
@@ -433,29 +544,6 @@
    ],
    "price_change_pct": 0.0,
    "volume_multiple": 1.1,
-   "price_date": "2026-10-30"
-  },
-  {
-   "id": "6f5214d5381005d7d8ba47f6166c30a8695acb4c",
-   "symbol": "SUNPHARMA",
-   "company": "Sun Pharmaceutical Industries Limited",
-   "category": "results",
-   "tier": "critical",
-   "first_at": "2026-10-30T14:15:10+05:30",
-   "last_at": "2026-10-30T14:15:10+05:30",
-   "headline": "Unaudited Financial Results for the quarter and half year ended 30 September 2026",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Unaudited Financial Results for the quarter and half year ended 30 September 2026",
-     "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
-     "filed_at": "2026-10-30T14:15:10+05:30"
-    }
-   ],
-   "price_change_pct": 0.9,
-   "volume_multiple": 3.4,
    "price_date": "2026-10-30"
   },
   {

@@ -1,6 +1,51 @@
 {
- "as_of": "2026-10-31T23:25:57.359062+05:30",
+ "as_of": "2026-11-01T20:03:39.373004+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "7e058b5443cf352d1cf521df7e530d3431fa8bab",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-10-31T22:16:44+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about change in Management",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_31102026221631_SE_INTIMATION-_Sanjay_Dsouza.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Sanjay D'Souza",
+    "role": "Group Head – Business Banking, Emerging & Micro Enterprises Group and a Senior Management Personnel",
+    "change": "resigned",
+    "effective_date": "October 31, 2026",
+    "background": "During his association with the Bank for nearly 27 years, Mr. Sanjay D'Souza was one of the key architects of the Bank's SME business, contributing significantly across both Credit and Business.",
+    "prior_roles": [
+     "Group Head – Business Banking, Emerging & Micro Enterprises Group"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "ba3c4f6acdb0c2d79058ba29823d5e3e814ec6ce",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-31T20:14:24+05:30",
+    "subject": "Completion and Results of Postal Ballot dated 01 October 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_31102026201341_SEIntimationforVR_-_31_October_2026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "8278ae32c48c7377f8baf4ba4618a3e6c4793bf8",
@@ -43,6 +88,60 @@
     "background": "",
     "prior_roles": []
    }
+  },
+  {
+   "announcement": {
+    "id": "dd09956338cc4c66d06f93118db4703c07de2655",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-10-31T17:34:03+05:30",
+    "subject": "Audio recording of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, at the analyst meet held on October 30, 2026, is available on the website of the Company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_31102026173331_SE_31102026_AR.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "40ede63617b7b9c5c4fe28eda65e2c58ec5fbbc7",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-10-31T17:32:02+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_31102026173121_SEIntimationforFinancialResultsNewspaperadvertisement.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "66ca87b864c74e1a75220e5e5b5528e943cb8db6",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-10-31T13:00:35+05:30",
+    "subject": "Updates on the Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and Share Purchase Agreement towards sale of entire stake held in L&T Network Services Private Limited to Vyoma Extension of timeline of completion",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/AB_31102026130022_SEIntimation_ExtensionofBTAVyoma_31102026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "The estimated completion date for the Business Transfer Agreement with Vyoma.AI and Share Purchase Agreement for L&T Network Services…",
+   "results": null,
+   "profile": null
   },
   {
    "announcement": {
@@ -5741,14 +5840,5 @@
    "profile": null
   }
  ],
- "failed_sources": [
-  "nse:RELIANCE",
-  "nse:HDFCBANK",
-  "nse:INFY",
-  "nse:BHARTIARTL",
-  "nse:ITC",
-  "nse:LT",
-  "nse:SUNPHARMA",
-  "nse:TITAN"
- ]
+ "failed_sources": []
 }
