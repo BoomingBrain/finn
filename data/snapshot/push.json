@@ -1,6 +1,114 @@
 {
- "as_of": "2026-11-02T18:06:34.402186+05:30",
+ "as_of": "2026-11-03T03:58:11.882985+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "9cbfe72ba54d495d20cf605356482d75c5e3f531",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-11-02T20:58:22+05:30",
+    "subject": "Clarification regarding news report relating to the Company s Assam facility",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_02112026205719_Reply_to_SEs_-_Rumour_Verification02112026.pdf",
+    "raw_category": "Rumour Verification - Regulation 30(11)",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "The company clarified that a news report about halting production at its Assam facility relates to events in August 2026, not new…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "39e41aee4cedae98257b8802fbe457fccc295094",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-11-02T19:31:06+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange regarding Proceedings of Extraordinary General Meeting held on November 02, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_02112026193032_BFLEGMProceedings.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "agm_egm",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "0267dcd7c58ebdaa90e64b0b31ad12f3cf007118",
+    "symbol": "ITC",
+    "company": "ITC Limited",
+    "filed_at": "2026-11-02T18:45:24+05:30",
+    "subject": "ITC Limited has informed the Exchange about Amalgamation/Merger",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026184512_SE_Sproutlife_.pdf",
+    "raw_category": "Amalgamation/Merger",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "Board approved Scheme of Amalgamation of Sproutlife Foods Private Limited, a wholly owned subsidiary, with ITC effective 1st April 2026…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e0b136d33d00121891697ee2b6508fa0aa9732d6",
+    "symbol": "ITC",
+    "company": "ITC Limited",
+    "filed_at": "2026-11-02T18:32:13+05:30",
+    "subject": "ITC Limited has informed the Exchange about Media Statement and Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026183159_SE_Media_.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "ITC reported 19% consolidated revenue growth YoY (23% ex-Atta) for Q2 FY27, with FMCG revenue at a 14-quarter high and Paper segment…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d4f974bad592746dec5ee174bbb6ca3f959c0a25",
+    "symbol": "ITC",
+    "company": "ITC Limited",
+    "filed_at": "2026-11-02T18:20:16+05:30",
+    "subject": "ITC Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "07b17797b45c79aa0b4d144be774ffc89c37b771",
+    "symbol": "ITC",
+    "company": "ITC Limited",
+    "filed_at": "2026-11-02T18:15:57+05:30",
+    "subject": "ITC Limited has informed the Exchange regarding Board meeting held on November 02, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181547_SE_Results_.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "bf6f1c4e5dc58172b38970159ab7f80549e0f021",

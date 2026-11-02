@@ -1,6 +1,131 @@
 {
- "as_of": "2026-11-02T18:06:34.402186+05:30",
+ "as_of": "2026-11-03T03:58:11.882985+05:30",
  "events": [
+  {
+   "id": "78ed91a061a42207d1c529adb7d320f55849c0d2",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-02T14:18:39+05:30",
+   "last_at": "2026-11-02T20:58:22+05:30",
+   "headline": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is awaited",
+   "summary": "The company clarified that a news report about halting production at its Assam facility relates to events in August 2026, not new…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is awaited",
+     "url": null,
+     "filed_at": "2026-11-02T14:18:39+05:30"
+    },
+    {
+     "title": "Clarification regarding news report relating to the Company s Assam facility",
+     "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_02112026205719_Reply_to_SEs_-_Rumour_Verification02112026.pdf",
+     "filed_at": "2026-11-02T20:58:22+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "39e41aee4cedae98257b8802fbe457fccc295094",
+   "symbol": "BAJFINANCE",
+   "company": "Bajaj Finance Limited",
+   "category": "agm_egm",
+   "tier": "routine",
+   "first_at": "2026-11-02T19:31:06+05:30",
+   "last_at": "2026-11-02T19:31:06+05:30",
+   "headline": "Proceedings of Extraordinary General Meeting held on November 02, 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Proceedings of Extraordinary General Meeting held on November 02, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_02112026193032_BFLEGMProceedings.pdf",
+     "filed_at": "2026-11-02T19:31:06+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "0267dcd7c58ebdaa90e64b0b31ad12f3cf007118",
+   "symbol": "ITC",
+   "company": "ITC Limited",
+   "category": "M&A",
+   "tier": "critical",
+   "first_at": "2026-11-02T18:45:24+05:30",
+   "last_at": "2026-11-02T18:45:24+05:30",
+   "headline": "Amalgamation/Merger",
+   "summary": "Board approved Scheme of Amalgamation of Sproutlife Foods Private Limited, a wholly owned subsidiary, with ITC effective 1st April 2026…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Amalgamation/Merger",
+     "url": "https://nsearchives.nseindia.com/corporate/ITC_02112026184512_SE_Sproutlife_.pdf",
+     "filed_at": "2026-11-02T18:45:24+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "e0b136d33d00121891697ee2b6508fa0aa9732d6",
+   "symbol": "ITC",
+   "company": "ITC Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-02T18:32:13+05:30",
+   "last_at": "2026-11-02T18:32:13+05:30",
+   "headline": "Media Statement and Presentation",
+   "summary": "ITC reported 19% consolidated revenue growth YoY (23% ex-Atta) for Q2 FY27, with FMCG revenue at a 14-quarter high and Paper segment…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Media Statement and Presentation",
+     "url": "https://nsearchives.nseindia.com/corporate/ITC_02112026183159_SE_Media_.pdf",
+     "filed_at": "2026-11-02T18:32:13+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "07b17797b45c79aa0b4d144be774ffc89c37b771",
+   "symbol": "ITC",
+   "company": "ITC Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-11-02T18:15:57+05:30",
+   "last_at": "2026-11-02T18:20:16+05:30",
+   "headline": "Board meeting held on November 02, 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Board meeting held on November 02, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181547_SE_Results_.pdf",
+     "filed_at": "2026-11-02T18:15:57+05:30"
+    },
+    {
+     "title": "The financial results for the period ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/ITC_02112026181912_SE_Results_.pdf",
+     "filed_at": "2026-11-02T18:20:16+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "bf6f1c4e5dc58172b38970159ab7f80549e0f021",
    "symbol": "LT",
@@ -25,29 +150,6 @@
    "price_date": null
   },
   {
-   "id": "78ed91a061a42207d1c529adb7d320f55849c0d2",
-   "symbol": "SUNPHARMA",
-   "company": "Sun Pharmaceutical Industries Limited",
-   "category": "press_release",
-   "tier": "notable",
-   "first_at": "2026-11-02T14:18:39+05:30",
-   "last_at": "2026-11-02T14:18:39+05:30",
-   "headline": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is awaited",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is awaited",
-     "url": null,
-     "filed_at": "2026-11-02T14:18:39+05:30"
-    }
-   ],
-   "price_change_pct": -0.4,
-   "volume_multiple": 2.1,
-   "price_date": "2026-11-02"
-  },
-  {
    "id": "f9ff68ff8258514b9845b1f7cd6d88572e392008",
    "symbol": "TRENT",
    "company": "Trent Limited",
@@ -66,9 +168,9 @@
      "filed_at": "2026-11-02T13:26:56+05:30"
     }
    ],
-   "price_change_pct": 1.0,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "6cd2304f2af35862a7f06fa6c1879b377313e073",
@@ -89,9 +191,9 @@
      "filed_at": "2026-11-02T10:18:49+05:30"
     }
    ],
-   "price_change_pct": 1.8,
-   "volume_multiple": 1.0,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "d68ca05bce32b7d7ec55d682281a36018600d172",
@@ -112,9 +214,9 @@
      "filed_at": "2026-11-01T23:09:22+05:30"
     }
    ],
-   "price_change_pct": 11.6,
-   "volume_multiple": 5.8,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "7e058b5443cf352d1cf521df7e530d3431fa8bab",
@@ -144,9 +246,9 @@
      "filed_at": "2026-10-31T22:16:44+05:30"
     }
    ],
-   "price_change_pct": 1.0,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "ba3c4f6acdb0c2d79058ba29823d5e3e814ec6ce",
@@ -167,9 +269,9 @@
      "filed_at": "2026-10-31T20:14:24+05:30"
     }
    ],
-   "price_change_pct": -0.4,
-   "volume_multiple": 2.1,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "4a6c482428935d272afc0ae85744915fd3db8cb5",
@@ -235,9 +337,9 @@
      "filed_at": "2026-10-31T19:32:44+05:30"
     }
    ],
-   "price_change_pct": 12.0,
-   "volume_multiple": 6.0,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "d95a891272dc8189d3fd78f708cd6086e81b91f4",
@@ -265,9 +367,9 @@
      "filed_at": "2026-10-31T18:25:33+05:30"
     }
    ],
-   "price_change_pct": 0.3,
-   "volume_multiple": 0.4,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "1cfa612756c84d0abf6f04b77566f531393a35d3",
@@ -309,9 +411,9 @@
      "filed_at": "2026-10-31T17:34:03+05:30"
     }
    ],
-   "price_change_pct": 11.6,
-   "volume_multiple": 5.8,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "6f5214d5381005d7d8ba47f6166c30a8695acb4c",
@@ -360,9 +462,9 @@
      "filed_at": "2026-10-31T13:00:35+05:30"
     }
    ],
-   "price_change_pct": 1.8,
-   "volume_multiple": 1.0,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "f363596e48367be5f1962f7c6a9c2bba826f0229",
@@ -411,9 +513,9 @@
      "filed_at": "2026-10-30T20:32:52+05:30"
     }
    ],
-   "price_change_pct": 12.0,
-   "volume_multiple": 6.0,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "887304552d1291b66607660441cd947e646f809c",
@@ -434,9 +536,9 @@
      "filed_at": "2026-10-30T20:13:58+05:30"
     }
    ],
-   "price_change_pct": -0.4,
-   "volume_multiple": 2.1,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "ad770b990b91b330132e6e90f859398dd932a425",
@@ -457,9 +559,9 @@
      "filed_at": "2026-10-30T19:47:12+05:30"
     }
    ],
-   "price_change_pct": 11.6,
-   "volume_multiple": 5.8,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "ff8ff37786072fe4fa748307ea0ec26546c5be1f",
@@ -508,9 +610,9 @@
      "filed_at": "2026-10-30T18:46:15+05:30"
     }
    ],
-   "price_change_pct": 0.8,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "c9e88b5cb882660aa12428a27465c2f06c42a561",
@@ -531,9 +633,9 @@
      "filed_at": "2026-10-30T18:03:05+05:30"
     }
    ],
-   "price_change_pct": 1.0,
-   "volume_multiple": 0.2,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "6882602ab501bf93fadaf996d5985a292ecf5f2a",
@@ -554,9 +656,9 @@
      "filed_at": "2026-10-30T16:19:57+05:30"
     }
    ],
-   "price_change_pct": 12.0,
-   "volume_multiple": 6.0,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "0c2fc9321ef807062c548e0ccecad64a7950b581",
@@ -588,9 +690,9 @@
      "filed_at": "2026-10-30T16:10:12+05:30"
     }
    ],
-   "price_change_pct": 12.0,
-   "volume_multiple": 6.0,
-   "price_date": "2026-11-02"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "f4483914d38c3f92c11bc778f58bd5abcae64f14",
