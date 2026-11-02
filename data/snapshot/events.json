@@ -1,6 +1,29 @@
 {
- "as_of": "2026-11-02T15:36:33.438856+05:30",
+ "as_of": "2026-11-02T18:06:34.402186+05:30",
  "events": [
+  {
+   "id": "bf6f1c4e5dc58172b38970159ab7f80549e0f021",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-11-02T17:56:36+05:30",
+   "last_at": "2026-11-02T17:56:36+05:30",
+   "headline": "Transcript",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/PAM_02112026175603_TranscriptSep2026.pdf",
+     "filed_at": "2026-11-02T17:56:36+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "78ed91a061a42207d1c529adb7d320f55849c0d2",
    "symbol": "SUNPHARMA",
@@ -20,9 +43,9 @@
      "filed_at": "2026-11-02T14:18:39+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.4,
+   "volume_multiple": 2.1,
+   "price_date": "2026-11-02"
   },
   {
    "id": "f9ff68ff8258514b9845b1f7cd6d88572e392008",
@@ -43,9 +66,9 @@
      "filed_at": "2026-11-02T13:26:56+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.0,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-02"
   },
   {
    "id": "6cd2304f2af35862a7f06fa6c1879b377313e073",
@@ -66,9 +89,9 @@
      "filed_at": "2026-11-02T10:18:49+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.8,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-02"
   },
   {
    "id": "d68ca05bce32b7d7ec55d682281a36018600d172",
@@ -89,9 +112,9 @@
      "filed_at": "2026-11-01T23:09:22+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 11.6,
+   "volume_multiple": 5.8,
+   "price_date": "2026-11-02"
   },
   {
    "id": "7e058b5443cf352d1cf521df7e530d3431fa8bab",
@@ -121,9 +144,9 @@
      "filed_at": "2026-10-31T22:16:44+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.0,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-02"
   },
   {
    "id": "ba3c4f6acdb0c2d79058ba29823d5e3e814ec6ce",
@@ -144,9 +167,9 @@
      "filed_at": "2026-10-31T20:14:24+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.4,
+   "volume_multiple": 2.1,
+   "price_date": "2026-11-02"
   },
   {
    "id": "4a6c482428935d272afc0ae85744915fd3db8cb5",
@@ -212,9 +235,9 @@
      "filed_at": "2026-10-31T19:32:44+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 12.0,
+   "volume_multiple": 6.0,
+   "price_date": "2026-11-02"
   },
   {
    "id": "d95a891272dc8189d3fd78f708cd6086e81b91f4",
@@ -242,9 +265,9 @@
      "filed_at": "2026-10-31T18:25:33+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.3,
+   "volume_multiple": 0.4,
+   "price_date": "2026-11-02"
   },
   {
    "id": "1cfa612756c84d0abf6f04b77566f531393a35d3",
@@ -286,9 +309,9 @@
      "filed_at": "2026-10-31T17:34:03+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 11.6,
+   "volume_multiple": 5.8,
+   "price_date": "2026-11-02"
   },
   {
    "id": "6f5214d5381005d7d8ba47f6166c30a8695acb4c",
@@ -337,9 +360,9 @@
      "filed_at": "2026-10-31T13:00:35+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.8,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-02"
   },
   {
    "id": "f363596e48367be5f1962f7c6a9c2bba826f0229",
@@ -388,9 +411,9 @@
      "filed_at": "2026-10-30T20:32:52+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 12.0,
+   "volume_multiple": 6.0,
+   "price_date": "2026-11-02"
   },
   {
    "id": "887304552d1291b66607660441cd947e646f809c",
@@ -411,9 +434,9 @@
      "filed_at": "2026-10-30T20:13:58+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.4,
+   "volume_multiple": 2.1,
+   "price_date": "2026-11-02"
   },
   {
    "id": "ad770b990b91b330132e6e90f859398dd932a425",
@@ -434,9 +457,9 @@
      "filed_at": "2026-10-30T19:47:12+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 11.6,
+   "volume_multiple": 5.8,
+   "price_date": "2026-11-02"
   },
   {
    "id": "ff8ff37786072fe4fa748307ea0ec26546c5be1f",
@@ -485,9 +508,9 @@
      "filed_at": "2026-10-30T18:46:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.8,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-02"
   },
   {
    "id": "c9e88b5cb882660aa12428a27465c2f06c42a561",
@@ -508,9 +531,9 @@
      "filed_at": "2026-10-30T18:03:05+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.0,
+   "volume_multiple": 0.2,
+   "price_date": "2026-11-02"
   },
   {
    "id": "6882602ab501bf93fadaf996d5985a292ecf5f2a",
@@ -531,9 +554,9 @@
      "filed_at": "2026-10-30T16:19:57+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 12.0,
+   "volume_multiple": 6.0,
+   "price_date": "2026-11-02"
   },
   {
    "id": "0c2fc9321ef807062c548e0ccecad64a7950b581",
@@ -565,9 +588,9 @@
      "filed_at": "2026-10-30T16:10:12+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 12.0,
+   "volume_multiple": 6.0,
+   "price_date": "2026-11-02"
   },
   {
    "id": "f4483914d38c3f92c11bc778f58bd5abcae64f14",

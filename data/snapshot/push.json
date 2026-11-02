@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-02T15:36:33.438856+05:30",
+ "as_of": "2026-11-02T18:06:34.402186+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "bf6f1c4e5dc58172b38970159ab7f80549e0f021",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-11-02T17:56:36+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Transcript",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_02112026175603_TranscriptSep2026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "78ed91a061a42207d1c529adb7d320f55849c0d2",
