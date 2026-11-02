@@ -1,6 +1,75 @@
 {
- "as_of": "2026-11-02T00:03:35.146089+05:30",
+ "as_of": "2026-11-02T15:36:33.438856+05:30",
  "events": [
+  {
+   "id": "78ed91a061a42207d1c529adb7d320f55849c0d2",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-02T14:18:39+05:30",
+   "last_at": "2026-11-02T14:18:39+05:30",
+   "headline": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is awaited",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is awaited",
+     "url": null,
+     "filed_at": "2026-11-02T14:18:39+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "f9ff68ff8258514b9845b1f7cd6d88572e392008",
+   "symbol": "TRENT",
+   "company": "Trent Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-11-02T13:26:56+05:30",
+   "last_at": "2026-11-02T13:26:56+05:30",
+   "headline": "Newspaper Publication on Unaudited Financial Results (Standalone and Consolidated) for the second quarter and half-year ended 30th September 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Newspaper Publication on Unaudited Financial Results (Standalone and Consolidated) for the second quarter and half-year ended 30th September 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/TRENT_02112026132637_Q2FY27_Financial_Results_-_Newspaper_Publication.pdf",
+     "filed_at": "2026-11-02T13:26:56+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "6cd2304f2af35862a7f06fa6c1879b377313e073",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-02T10:18:49+05:30",
+   "last_at": "2026-11-02T10:18:49+05:30",
+   "headline": "Bagging/Receiving of orders/contracts",
+   "summary": "L&T's RCF business secured orders for 18 residential towers in Mumbai and Bengaluru, and a 5-basement, 22-floor commercial tower in…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/PAM_02112026101835_PressRelease02112026.pdf",
+     "filed_at": "2026-11-02T10:18:49+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "d68ca05bce32b7d7ec55d682281a36018600d172",
    "symbol": "RELIANCE",
