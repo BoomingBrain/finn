@@ -1,6 +1,52 @@
 {
- "as_of": "2026-11-03T15:38:54.679961+05:30",
+ "as_of": "2026-11-03T17:32:15.505110+05:30",
  "events": [
+  {
+   "id": "33b6ce032b4b624fc993e8319413e41ac45e4396",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-03T17:30:12+05:30",
+   "last_at": "2026-11-03T17:30:12+05:30",
+   "headline": "Change in Corporate Office Address of RTA with effect from 01st December 2026",
+   "summary": "KFin Technologies Limited shifted its corporate office from Selenium Tower B, Gachibowli, Hyderabad-500032 to 6-25th Floor, South Tower…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Change in Corporate Office Address of RTA with effect from 01st December 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_03112026172946_Regulation30DisclosureRTAAddress.pdf",
+     "filed_at": "2026-11-03T17:30:12+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "9a668aa12b9e3e4fc8fa6233acd5268db19a12fb",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-03T16:01:15+05:30",
+   "last_at": "2026-11-03T16:01:15+05:30",
+   "headline": "Allotment of 3403 Shares",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Allotment of 3403 Shares",
+     "url": "https://nsearchives.nseindia.com/corporate/POLYCAB_03112026160106_IntimationtoStockexchange.pdf",
+     "filed_at": "2026-11-03T16:01:15+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "14cef83a2645b141133029e97dbfd8aeec8d897d",
    "symbol": "DIXON",
@@ -20,9 +66,9 @@
      "filed_at": "2026-11-03T11:24:09+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.4,
+   "volume_multiple": 1.5,
+   "price_date": "2026-11-03"
   },
   {
    "id": "78ed91a061a42207d1c529adb7d320f55849c0d2",
@@ -71,9 +117,9 @@
      "filed_at": "2026-11-02T19:31:06+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.1,
+   "volume_multiple": 0.9,
+   "price_date": "2026-11-03"
   },
   {
    "id": "0267dcd7c58ebdaa90e64b0b31ad12f3cf007118",
@@ -94,9 +140,9 @@
      "filed_at": "2026-11-02T18:45:24+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.8,
+   "volume_multiple": 1.4,
+   "price_date": "2026-11-03"
   },
   {
    "id": "e0b136d33d00121891697ee2b6508fa0aa9732d6",
@@ -117,9 +163,9 @@
      "filed_at": "2026-11-02T18:32:13+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.8,
+   "volume_multiple": 1.4,
+   "price_date": "2026-11-03"
   },
   {
    "id": "07b17797b45c79aa0b4d144be774ffc89c37b771",
@@ -145,9 +191,9 @@
      "filed_at": "2026-11-02T18:20:16+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.8,
+   "volume_multiple": 1.4,
+   "price_date": "2026-11-03"
   },
   {
    "id": "bf6f1c4e5dc58172b38970159ab7f80549e0f021",
@@ -168,9 +214,9 @@
      "filed_at": "2026-11-02T17:56:36+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.2,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-03"
   },
   {
    "id": "f9ff68ff8258514b9845b1f7cd6d88572e392008",

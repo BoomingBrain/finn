@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03T15:38:54.679961+05:30",
+ "as_of": "2026-11-03T17:32:15.505110+05:30",
  "names": {
   "RELIANCE": "Reliance Industries",
   "HDFCBANK": "HDFC Bank",
@@ -22,12 +22,6 @@
  },
  "series": {
   "RELIANCE": [
-   {
-    "date": "2026-08-06",
-    "close": 1325.0,
-    "change_pct": 3.52,
-    "volume_multiple": 1.7
-   },
    {
     "date": "2026-08-07",
     "close": 1334.800048828125,
@@ -381,15 +375,15 @@
     "close": 1300.0,
     "change_pct": 11.6,
     "volume_multiple": 5.83
+   },
+   {
+    "date": "2026-11-03",
+    "close": 1307.9000244140625,
+    "change_pct": 0.61,
+    "volume_multiple": 2.27
    }
   ],
   "HDFCBANK": [
-   {
-    "date": "2026-08-06",
-    "close": 734.2999877929688,
-    "change_pct": -0.1,
-    "volume_multiple": 1.5
-   },
    {
     "date": "2026-08-07",
     "close": 731.0,
@@ -743,15 +737,15 @@
     "close": 700.0,
     "change_pct": 1.04,
     "volume_multiple": 0.7
+   },
+   {
+    "date": "2026-11-03",
+    "close": 725.5,
+    "change_pct": 3.64,
+    "volume_multiple": 1.42
    }
   ],
   "INFY": [
-   {
-    "date": "2026-08-06",
-    "close": 1138.910400390625,
-    "change_pct": -0.77,
-    "volume_multiple": 0.58
-   },
    {
     "date": "2026-08-07",
     "close": 1148.7841796875,
@@ -1105,15 +1099,15 @@
     "close": 1135.0,
     "change_pct": -2.03,
     "volume_multiple": 0.77
+   },
+   {
+    "date": "2026-11-03",
+    "close": 1148.0999755859375,
+    "change_pct": 1.15,
+    "volume_multiple": 0.63
    }
   ],
   "BHARTIARTL": [
-   {
-    "date": "2026-08-06",
-    "close": 1948.0,
-    "change_pct": -1.52,
-    "volume_multiple": 0.84
-   },
    {
     "date": "2026-08-07",
     "close": 1959.9000244140625,
@@ -1467,15 +1461,15 @@
     "close": 1989.9000244140625,
     "change_pct": 0.82,
     "volume_multiple": 0.76
+   },
+   {
+    "date": "2026-11-03",
+    "close": 2065.0,
+    "change_pct": 3.77,
+    "volume_multiple": 2.06
    }
   ],
   "ITC": [
-   {
-    "date": "2026-08-06",
-    "close": 285.8999938964844,
-    "change_pct": -0.37,
-    "volume_multiple": 0.77
-   },
    {
     "date": "2026-08-07",
     "close": 286.1000061035156,
@@ -1829,15 +1823,15 @@
     "close": 266.3999938964844,
     "change_pct": 0.3,
     "volume_multiple": 0.56
+   },
+   {
+    "date": "2026-11-03",
+    "close": 273.8999938964844,
+    "change_pct": 2.82,
+    "volume_multiple": 1.35
    }
   ],
   "LT": [
-   {
-    "date": "2026-08-06",
-    "close": 4061.800048828125,
-    "change_pct": 0.12,
-    "volume_multiple": 0.67
-   },
    {
     "date": "2026-08-07",
     "close": 4056.0,
@@ -2191,15 +2185,15 @@
     "close": 3939.89990234375,
     "change_pct": 1.76,
     "volume_multiple": 0.98
+   },
+   {
+    "date": "2026-11-03",
+    "close": 3948.199951171875,
+    "change_pct": 0.21,
+    "volume_multiple": 1.03
    }
   ],
   "SUNPHARMA": [
-   {
-    "date": "2026-08-06",
-    "close": 1951.0,
-    "change_pct": 0.57,
-    "volume_multiple": 0.71
-   },
    {
     "date": "2026-08-07",
     "close": 1945.0,
@@ -2553,15 +2547,15 @@
     "close": 1770.0,
     "change_pct": -0.43,
     "volume_multiple": 2.12
+   },
+   {
+    "date": "2026-11-03",
+    "close": 1769.9000244140625,
+    "change_pct": -0.01,
+    "volume_multiple": 1.56
    }
   ],
   "TITAN": [
-   {
-    "date": "2026-08-06",
-    "close": 4998.0,
-    "change_pct": 1.74,
-    "volume_multiple": 1.64
-   },
    {
     "date": "2026-08-07",
     "close": 4941.0,
@@ -2915,15 +2909,15 @@
     "close": 4476.2998046875,
     "change_pct": 0.9,
     "volume_multiple": 0.75
+   },
+   {
+    "date": "2026-11-03",
+    "close": 4562.0,
+    "change_pct": 1.91,
+    "volume_multiple": 0.96
    }
   ],
   "BAJFINANCE": [
-   {
-    "date": "2026-08-06",
-    "close": 1144.800048828125,
-    "change_pct": -1.21,
-    "volume_multiple": 0.63
-   },
    {
     "date": "2026-08-07",
     "close": 1078.0,
@@ -3277,15 +3271,15 @@
     "close": 959.4000244140625,
     "change_pct": 2.16,
     "volume_multiple": 0.8
+   },
+   {
+    "date": "2026-11-03",
+    "close": 970.0,
+    "change_pct": 1.1,
+    "volume_multiple": 0.9
    }
   ],
   "ASIANPAINT": [
-   {
-    "date": "2026-08-06",
-    "close": 2755.0,
-    "change_pct": -0.18,
-    "volume_multiple": 0.77
-   },
    {
     "date": "2026-08-07",
     "close": 2735.0,
@@ -3639,15 +3633,15 @@
     "close": 2344.300048828125,
     "change_pct": 1.05,
     "volume_multiple": 0.99
+   },
+   {
+    "date": "2026-11-03",
+    "close": 2437.800048828125,
+    "change_pct": 3.99,
+    "volume_multiple": 2.55
    }
   ],
   "DMART": [
-   {
-    "date": "2026-08-06",
-    "close": 3931.199951171875,
-    "change_pct": -0.38,
-    "volume_multiple": 0.37
-   },
    {
     "date": "2026-08-07",
     "close": 3900.0,
@@ -4001,15 +3995,15 @@
     "close": 3230.0,
     "change_pct": 0.97,
     "volume_multiple": 0.24
+   },
+   {
+    "date": "2026-11-03",
+    "close": 3359.0,
+    "change_pct": 3.99,
+    "volume_multiple": 0.95
    }
   ],
   "POLYCAB": [
-   {
-    "date": "2026-08-06",
-    "close": 9315.0,
-    "change_pct": 1.25,
-    "volume_multiple": 0.59
-   },
    {
     "date": "2026-08-07",
     "close": 9218.0,
@@ -4363,15 +4357,15 @@
     "close": 7920.0,
     "change_pct": 1.71,
     "volume_multiple": 0.68
+   },
+   {
+    "date": "2026-11-03",
+    "close": 7837.0,
+    "change_pct": -1.05,
+    "volume_multiple": 0.54
    }
   ],
   "DIXON": [
-   {
-    "date": "2026-08-06",
-    "close": 14189.0810546875,
-    "change_pct": -0.77,
-    "volume_multiple": 0.34
-   },
    {
     "date": "2026-08-07",
     "close": 14189.0810546875,
@@ -4725,15 +4719,15 @@
     "close": 12319.0,
     "change_pct": 11.99,
     "volume_multiple": 5.95
+   },
+   {
+    "date": "2026-11-03",
+    "close": 12270.0,
+    "change_pct": -0.4,
+    "volume_multiple": 1.54
    }
   ],
   "PERSISTENT": [
-   {
-    "date": "2026-08-06",
-    "close": 5459.5,
-    "change_pct": -1.1,
-    "volume_multiple": 0.34
-   },
    {
     "date": "2026-08-07",
     "close": 5475.0,
@@ -5087,15 +5081,15 @@
     "close": 6051.0,
     "change_pct": 0.05,
     "volume_multiple": 1.05
+   },
+   {
+    "date": "2026-11-03",
+    "close": 6097.0,
+    "change_pct": 0.76,
+    "volume_multiple": 0.48
    }
   ],
   "TRENT": [
-   {
-    "date": "2026-08-06",
-    "close": 3107.10009765625,
-    "change_pct": -0.7,
-    "volume_multiple": 4.83
-   },
    {
     "date": "2026-08-07",
     "close": 2997.0,
@@ -5449,15 +5443,15 @@
     "close": 3046.39990234375,
     "change_pct": 0.96,
     "volume_multiple": 0.75
+   },
+   {
+    "date": "2026-11-03",
+    "close": 3036.5,
+    "change_pct": -0.32,
+    "volume_multiple": 0.64
    }
   ],
   "IRCTC": [
-   {
-    "date": "2026-08-06",
-    "close": 519.8971557617188,
-    "change_pct": 2.0,
-    "volume_multiple": 1.71
-   },
    {
     "date": "2026-08-07",
     "close": 519.397705078125,
@@ -5811,15 +5805,15 @@
     "close": 447.54998779296875,
     "change_pct": 2.6,
     "volume_multiple": 0.95
+   },
+   {
+    "date": "2026-11-03",
+    "close": 447.5,
+    "change_pct": -0.01,
+    "volume_multiple": 0.56
    }
   ],
   "DEEPAKNTR": [
-   {
-    "date": "2026-08-06",
-    "close": 1750.4000244140625,
-    "change_pct": 0.79,
-    "volume_multiple": 1.21
-   },
    {
     "date": "2026-08-07",
     "close": 1796.5,
@@ -6173,15 +6167,15 @@
     "close": 1531.199951171875,
     "change_pct": 0.78,
     "volume_multiple": 0.73
+   },
+   {
+    "date": "2026-11-03",
+    "close": 1520.5999755859375,
+    "change_pct": -0.69,
+    "volume_multiple": 0.67
    }
   ],
   "KPITTECH": [
-   {
-    "date": "2026-08-06",
-    "close": 617.7835083007812,
-    "change_pct": 0.0,
-    "volume_multiple": 0.65
-   },
    {
     "date": "2026-08-07",
     "close": 624.625732421875,
@@ -6535,6 +6529,12 @@
     "close": 531.9500122070312,
     "change_pct": 0.32,
     "volume_multiple": 0.38
+   },
+   {
+    "date": "2026-11-03",
+    "close": 519.7999877929688,
+    "change_pct": -2.28,
+    "volume_multiple": 0.34
    }
   ]
  }

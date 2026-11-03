@@ -1,6 +1,42 @@
 {
- "as_of": "2026-11-03T15:38:54.679961+05:30",
+ "as_of": "2026-11-03T17:32:15.505110+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "33b6ce032b4b624fc993e8319413e41ac45e4396",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-11-03T17:30:12+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange regarding 'Change in Corporate Office Address of RTA with effect from 01st December 2026'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_03112026172946_Regulation30DisclosureRTAAddress.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "KFin Technologies Limited shifted its corporate office from Selenium Tower B, Gachibowli, Hyderabad-500032 to 6-25th Floor, South Tower…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "9a668aa12b9e3e4fc8fa6233acd5268db19a12fb",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-11-03T16:01:15+05:30",
+    "subject": "Polycab India Limited has informed the Exchange regarding Allotment of 3403 Shares.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_03112026160106_IntimationtoStockexchange.pdf",
+    "raw_category": "ESOP/ESOS/ESPS",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "14cef83a2645b141133029e97dbfd8aeec8d897d",
