@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-03T03:58:11.882985+05:30",
+ "as_of": "2026-11-03T15:38:54.679961+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "14cef83a2645b141133029e97dbfd8aeec8d897d",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-11-03T11:24:09+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst or Institutional Investor Meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_03112026112356_InvestorMeetOutcome031102026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "9cbfe72ba54d495d20cf605356482d75c5e3f531",
