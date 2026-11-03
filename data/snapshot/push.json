@@ -1,6 +1,96 @@
 {
- "as_of": "2026-11-03T17:32:15.505110+05:30",
+ "as_of": "2026-11-04T01:06:44.663936+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "b20084f35d15e09553e9484b597d970ec312fb4b",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-11-03T22:39:48+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange regarding 'change in the address of the Corporate Office of the KFin Technologies Limited, Registrar and Share Transfer Agent with effect from December 1, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_03112026223157_KPIT_RTA_change_in_Corporate_office_S.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e5079d23710b88e8d76922292b1099e69cbe0ca2",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-03T22:33:13+05:30",
+    "subject": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company ).",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_03112026222840_Airtelstx.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2d181fc791806bfbd74cbc3257d44704eab3a06f",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-11-03T22:07:58+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about Transcript of the Post Earnings Conference call for the quarter ended September 30, 2026, conducted on October 28, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_03112026220723_KPIT_Q2FY27_Transcript_Signed.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e7fadfd2092b30b0db95d2f00a3e178efe43dd96",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-11-03T18:24:12+05:30",
+    "subject": "Asian Paints Limited has informed the Exchange about Transcript of the investor conference call held on 29th October 2026 on the performance of the Company for the quarter and half year ended 30th September 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6a04fa195164c10542637e23f7028182eec1ae2c",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-11-03T17:36:03+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_03112026173548_ASLInitmationStoreOpening03112026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Avenue Supermarts opened a new store in Kiwale, Pune, taking its total store count to 520.",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "33b6ce032b4b624fc993e8319413e41ac45e4396",

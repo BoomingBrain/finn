@@ -1,6 +1,121 @@
 {
- "as_of": "2026-11-03T17:32:15.505110+05:30",
+ "as_of": "2026-11-04T01:06:44.663936+05:30",
  "events": [
+  {
+   "id": "b20084f35d15e09553e9484b597d970ec312fb4b",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-03T22:39:48+05:30",
+   "last_at": "2026-11-03T22:39:48+05:30",
+   "headline": "Change in the address of the Corporate Office of the KFin Technologies Limited, Registrar and Share Transfer Agent with effect from December 1, 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Change in the address of the Corporate Office of the KFin Technologies Limited, Registrar and Share Transfer Agent with effect from December 1, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/KPITTECH_03112026223157_KPIT_RTA_change_in_Corporate_office_S.pdf",
+     "filed_at": "2026-11-03T22:39:48+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "e5079d23710b88e8d76922292b1099e69cbe0ca2",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "first_at": "2026-11-03T22:33:13+05:30",
+   "last_at": "2026-11-03T22:33:13+05:30",
+   "headline": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company )",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company )",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_03112026222840_Airtelstx.pdf",
+     "filed_at": "2026-11-03T22:33:13+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "2d181fc791806bfbd74cbc3257d44704eab3a06f",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-11-03T22:07:58+05:30",
+   "last_at": "2026-11-03T22:07:58+05:30",
+   "headline": "Transcript of the Post Earnings Conference call for the quarter ended September 30, 2026, conducted on October 28, 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Transcript of the Post Earnings Conference call for the quarter ended September 30, 2026, conducted on October 28, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/KPITTECH_03112026220723_KPIT_Q2FY27_Transcript_Signed.pdf",
+     "filed_at": "2026-11-03T22:07:58+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "e7fadfd2092b30b0db95d2f00a3e178efe43dd96",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-03T18:24:12+05:30",
+   "last_at": "2026-11-03T18:24:12+05:30",
+   "headline": "Transcript of the investor conference call held on 29th October 2026 on the performance of the Company for the quarter and half year ended 30th September 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Transcript of the investor conference call held on 29th October 2026 on the performance of the Company for the quarter and half year ended 30th September 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_03112026182217_Stock_exchange_intimation_Transcript_Q2FY26.pdf",
+     "filed_at": "2026-11-03T18:24:12+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "6a04fa195164c10542637e23f7028182eec1ae2c",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-03T17:36:03+05:30",
+   "last_at": "2026-11-03T17:36:03+05:30",
+   "headline": "Store Opening Intimation",
+   "summary": "Avenue Supermarts opened a new store in Kiwale, Pune, taking its total store count to 520.",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Store Opening Intimation",
+     "url": "https://nsearchives.nseindia.com/corporate/DMART_03112026173548_ASLInitmationStoreOpening03112026.pdf",
+     "filed_at": "2026-11-03T17:36:03+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "33b6ce032b4b624fc993e8319413e41ac45e4396",
    "symbol": "DIXON",
@@ -66,9 +181,9 @@
      "filed_at": "2026-11-03T11:24:09+05:30"
     }
    ],
-   "price_change_pct": -0.4,
-   "volume_multiple": 1.5,
-   "price_date": "2026-11-03"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "78ed91a061a42207d1c529adb7d320f55849c0d2",
@@ -117,9 +232,9 @@
      "filed_at": "2026-11-02T19:31:06+05:30"
     }
    ],
-   "price_change_pct": 1.1,
-   "volume_multiple": 0.9,
-   "price_date": "2026-11-03"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "0267dcd7c58ebdaa90e64b0b31ad12f3cf007118",
@@ -140,9 +255,9 @@
      "filed_at": "2026-11-02T18:45:24+05:30"
     }
    ],
-   "price_change_pct": 2.8,
-   "volume_multiple": 1.4,
-   "price_date": "2026-11-03"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "e0b136d33d00121891697ee2b6508fa0aa9732d6",
@@ -163,9 +278,9 @@
      "filed_at": "2026-11-02T18:32:13+05:30"
     }
    ],
-   "price_change_pct": 2.8,
-   "volume_multiple": 1.4,
-   "price_date": "2026-11-03"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "07b17797b45c79aa0b4d144be774ffc89c37b771",
@@ -191,9 +306,9 @@
      "filed_at": "2026-11-02T18:20:16+05:30"
     }
    ],
-   "price_change_pct": 2.8,
-   "volume_multiple": 1.4,
-   "price_date": "2026-11-03"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "bf6f1c4e5dc58172b38970159ab7f80549e0f021",
@@ -214,9 +329,9 @@
      "filed_at": "2026-11-02T17:56:36+05:30"
     }
    ],
-   "price_change_pct": 0.2,
-   "volume_multiple": 1.0,
-   "price_date": "2026-11-03"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "f9ff68ff8258514b9845b1f7cd6d88572e392008",
