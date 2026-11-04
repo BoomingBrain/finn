@@ -1,6 +1,96 @@
 {
- "as_of": "2026-11-04T17:47:12.444740+05:30",
+ "as_of": "2026-11-05T01:25:54.971387+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "9cdecb7fb17d1edf0262298e1412db4e692f108f",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-04T21:59:47+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange regarding Notice of Postal Ballot",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026214407_STXIntimationPostalBallotNotice.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1425855cc31234948941e4d98ab50c0ea60a3506",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-11-04T21:01:36+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/INFY_04112026210117_SE_filing_Investor_conference_04112026_signed.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "79ec73a27c745c545e440a67233231770ee960c9",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-11-04T20:47:14+05:30",
+    "subject": "Reliance Industries Limited has informed the Exchange about Credit Rating",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_04112026204646_SE_RIL_041126.pdf",
+    "raw_category": "Credit Rating",
+    "source": "nse"
+   },
+   "category": "credit_rating",
+   "tier": "notable",
+   "summary": "S&P Global Ratings reaffirmed the company's 'A –' rating with a 'Stable' outlook for its Senior Unsecured US$ Denominated Fixed Rate Notes.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "92ae5204706359d1c707c6ac6bee1b98d67fa39f",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-11-04T19:15:34+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Transcript",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_04112026191520_IntimationSE20261104EarningsCallTranscriptQ2FY27_Signed.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "5c0089132b760840b3bb4798be04250619006e86",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-11-04T18:51:07+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange regarding Change in Corporate Office Address of Registrar and Share Transfer Agent '.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_04112026185041_Intimation04112026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "KFin Technologies Limited, the company's Registrar and Share Transfer Agent, shifted its corporate office to 6,23,24,25th Floor, South…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "4ebb01bcbd712f3c50434def6abdb09bef6275c0",

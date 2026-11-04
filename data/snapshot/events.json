@@ -1,6 +1,126 @@
 {
- "as_of": "2026-11-04T17:47:12.444740+05:30",
+ "as_of": "2026-11-05T01:25:54.971387+05:30",
  "events": [
+  {
+   "id": "e5079d23710b88e8d76922292b1099e69cbe0ca2",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "first_at": "2026-11-03T22:33:13+05:30",
+   "last_at": "2026-11-04T21:59:47+05:30",
+   "headline": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company )",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company )",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_03112026222840_Airtelstx.pdf",
+     "filed_at": "2026-11-03T22:33:13+05:30"
+    },
+    {
+     "title": "Notice of Postal Ballot",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026214407_STXIntimationPostalBallotNotice.pdf",
+     "filed_at": "2026-11-04T21:59:47+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "1425855cc31234948941e4d98ab50c0ea60a3506",
+   "symbol": "INFY",
+   "company": "Infosys Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-04T21:01:36+05:30",
+   "last_at": "2026-11-04T21:01:36+05:30",
+   "headline": "Investor Conference",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Investor Conference",
+     "url": "https://nsearchives.nseindia.com/corporate/INFY_04112026210117_SE_filing_Investor_conference_04112026_signed.pdf",
+     "filed_at": "2026-11-04T21:01:36+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "79ec73a27c745c545e440a67233231770ee960c9",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "credit_rating",
+   "tier": "notable",
+   "first_at": "2026-11-04T20:47:14+05:30",
+   "last_at": "2026-11-04T20:47:14+05:30",
+   "headline": "Credit Rating",
+   "summary": "S&P Global Ratings reaffirmed the company's 'A –' rating with a 'Stable' outlook for its Senior Unsecured US$ Denominated Fixed Rate Notes.",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Credit Rating",
+     "url": "https://nsearchives.nseindia.com/corporate/PVIVINMA_04112026204646_SE_RIL_041126.pdf",
+     "filed_at": "2026-11-04T20:47:14+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "92ae5204706359d1c707c6ac6bee1b98d67fa39f",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-11-04T19:15:34+05:30",
+   "last_at": "2026-11-04T19:15:34+05:30",
+   "headline": "Transcript",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_04112026191520_IntimationSE20261104EarningsCallTranscriptQ2FY27_Signed.pdf",
+     "filed_at": "2026-11-04T19:15:34+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "5c0089132b760840b3bb4798be04250619006e86",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-04T18:51:07+05:30",
+   "last_at": "2026-11-04T18:51:07+05:30",
+   "headline": "Change in Corporate Office Address of Registrar and Share Transfer Agent",
+   "summary": "KFin Technologies Limited, the company's Registrar and Share Transfer Agent, shifted its corporate office to 6,23,24,25th Floor, South…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Change in Corporate Office Address of Registrar and Share Transfer Agent",
+     "url": "https://nsearchives.nseindia.com/corporate/PAM_04112026185041_Intimation04112026.pdf",
+     "filed_at": "2026-11-04T18:51:07+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "4ebb01bcbd712f3c50434def6abdb09bef6275c0",
    "symbol": "BHARTIARTL",
@@ -89,9 +209,9 @@
      "filed_at": "2026-11-04T15:29:09+05:30"
     }
    ],
-   "price_change_pct": 2.5,
-   "volume_multiple": 1.8,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "a0324e80efc226c96c4d2600d011e0704698a87c",
@@ -117,9 +237,9 @@
      "filed_at": "2026-11-04T15:09:23+05:30"
     }
    ],
-   "price_change_pct": -0.5,
-   "volume_multiple": 0.5,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "9888b0134f0857c3bfe92de5bd832b1c3e376702",
@@ -140,9 +260,9 @@
      "filed_at": "2026-11-04T12:18:34+05:30"
     }
    ],
-   "price_change_pct": 2.2,
-   "volume_multiple": 1.9,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "da25a7a11db46e6d970c13c083ec6424255546f6",
@@ -163,9 +283,9 @@
      "filed_at": "2026-11-04T11:15:41+05:30"
     }
    ],
-   "price_change_pct": 3.8,
-   "volume_multiple": 0.9,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "5670da00c3924e8ee3ca86c8a22560c6faad2f6f",
@@ -186,9 +306,9 @@
      "filed_at": "2026-11-04T10:04:11+05:30"
     }
    ],
-   "price_change_pct": 0.2,
-   "volume_multiple": 2.8,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "b20084f35d15e09553e9484b597d970ec312fb4b",
@@ -209,32 +329,9 @@
      "filed_at": "2026-11-03T22:39:48+05:30"
     }
    ],
-   "price_change_pct": 0.0,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-04"
-  },
-  {
-   "id": "e5079d23710b88e8d76922292b1099e69cbe0ca2",
-   "symbol": "BHARTIARTL",
-   "company": "Bharti Airtel Limited",
-   "category": "postal_ballot",
-   "tier": "routine",
-   "first_at": "2026-11-03T22:33:13+05:30",
-   "last_at": "2026-11-03T22:33:13+05:30",
-   "headline": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company )",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Second Reminder Notice for Payment of First and Final Call on partly paid-up equity shares of Bharti Airtel Limited ( Company )",
-     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_03112026222840_Airtelstx.pdf",
-     "filed_at": "2026-11-03T22:33:13+05:30"
-    }
-   ],
-   "price_change_pct": 0.1,
-   "volume_multiple": 1.2,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "2d181fc791806bfbd74cbc3257d44704eab3a06f",
@@ -255,9 +352,9 @@
      "filed_at": "2026-11-03T22:07:58+05:30"
     }
    ],
-   "price_change_pct": 0.0,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "e7fadfd2092b30b0db95d2f00a3e178efe43dd96",
@@ -278,9 +375,9 @@
      "filed_at": "2026-11-03T18:24:12+05:30"
     }
    ],
-   "price_change_pct": -0.6,
-   "volume_multiple": 1.6,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "6a04fa195164c10542637e23f7028182eec1ae2c",
@@ -301,9 +398,9 @@
      "filed_at": "2026-11-03T17:36:03+05:30"
     }
    ],
-   "price_change_pct": 1.6,
-   "volume_multiple": 1.5,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "33b6ce032b4b624fc993e8319413e41ac45e4396",
@@ -324,9 +421,9 @@
      "filed_at": "2026-11-03T17:30:12+05:30"
     }
    ],
-   "price_change_pct": 0.2,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "9a668aa12b9e3e4fc8fa6233acd5268db19a12fb",
@@ -347,9 +444,9 @@
      "filed_at": "2026-11-03T16:01:15+05:30"
     }
    ],
-   "price_change_pct": 1.2,
-   "volume_multiple": 0.3,
-   "price_date": "2026-11-04"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "14cef83a2645b141133029e97dbfd8aeec8d897d",
