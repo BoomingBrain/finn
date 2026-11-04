@@ -1,11 +1,11 @@
 {
  "symbol": "SUNPHARMA",
  "name": "Sun Pharmaceutical Industries Ltd",
- "built_at": "2026-11-03T20:40:45.267180Z",
+ "built_at": "2026-11-04T21:00:39.829090Z",
  "basis": "consolidated",
  "sources": {
   "quarter": "Sep 2026",
-  "transcript": "2026-08-01",
+  "transcript": "2026-11-01",
   "annual_report": 2026
  },
  "sections": [
@@ -17,10 +17,10 @@
     "name": "Sun Pharmaceutical Industries Ltd",
     "about": "Sun Pharmaceutical Industries Ltd is engaged in the business of manufacturing, developing and marketing a wide range of branded and generic formulations and Active Pharma Ingredients (APIs). The company and its subsidiaries has various manufacturing facilities spread across the world with trading and other incidental and related activities extending to global market.[1]It is the largest pharmaceutical company in India.[2]",
     "basis": "consolidated",
-    "built_at": "2026-11-03T20:40:45.225791+00:00",
+    "built_at": "2026-11-04T20:57:43.367041+00:00",
     "sources": {
      "quarter": "Sep 2026",
-     "transcript": "2026-08-01",
+     "transcript": "2026-11-01",
      "annual_report": 2026
     },
     "lender": false,
@@ -92,10 +92,10 @@
    "reason": null,
    "data": {
     "transcripts": [
+     "Transcript Nov 2026",
      "Transcript Aug 2026",
      "Transcript May 2026",
-     "Transcript May 2026",
-     "Transcript Feb 2026"
+     "Transcript May 2026"
     ],
     "rows": [
      {
@@ -433,34 +433,13 @@
       },
       "verdict": "not_checkable",
       "explanation": "Guided cost synergies estimate ≈ ₹2,905 Cr for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "ETR (effective tax rate)",
-       "comparison": "approx",
-       "value": 25.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY27-FY28",
-       "quote": "I think it would be sort of in the range we guess.",
-       "source_id": "T:2026-02-01:p18",
-       "said_on": "2026-02-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided ETR (effective tax rate) ≈ 25% for FY27-FY28; not checkable from reported financials."
      }
     ]
    },
    "citations": [
     {
      "source_id": "T:2026-05-01:p7",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
      "page": 7
     },
     {
@@ -470,33 +449,28 @@
     },
     {
      "source_id": "T:2026-05-01:p6",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
      "page": 6
     },
     {
      "source_id": "T:2026-05-01:p8",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
      "page": 8
     },
     {
      "source_id": "T:2026-05-01:p17",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
      "page": 17
     },
     {
      "source_id": "T:2026-05-01:p9",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
      "page": 9
     },
     {
      "source_id": "T:2026-05-01:p12",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
      "page": 12
-    },
-    {
-     "source_id": "T:2026-02-01:p18",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1082d0ab-d6fb-40f5-873e-d7301397cd05.pdf",
-     "page": 18
     }
    ]
   },
@@ -514,7 +488,7 @@
    "data": {
     "bull": [
      {
-      "text": "The company has delivered consistent profitable growth with 10% revenue CAGR and 10.6% PAT CAGR over three years, while expanding operating margin to 28.2% from 26.5% three years ago.",
+      "text": "The company has delivered consistent profitable growth with 10% revenue CAGR and 10.6% PAT CAGR over three years, while expanding operating margin to 28.2% from 26.5% and achieving 21% ROCE.",
       "source_ids": [
        "SCR"
       ]
@@ -526,7 +500,7 @@
       ]
      },
      {
-      "text": "Management targets combined revenue of $12.4 billion and $350 million in cost synergies over 2-4 years, with the combined entity generating $2-2.5 billion annual free cash flow.",
+      "text": "Management guides for $12.4 billion in combined revenues (with two of four quarters delivered) and targets $350 million in cost synergies over 2-4 years alongside $2-2.5 billion annual free cash flow.",
       "source_ids": [
        "T:2026-05-01:p7",
        "T:2026-05-01:p9"
@@ -541,15 +515,18 @@
       ]
      },
      {
-      "text": "The effective tax rate remains elevated at 27.8% and is expected to stay in that range until the Organon transaction completes, creating uncertainty.",
+      "text": "Key management targets—including business mix shifts, tax rate normalization to 25%, and R&D spend at 6-7% of sales—remain unverified as they \"cannot be checked from reported financials.\"",
       "source_ids": [
-       "T:2026-08-01:p17"
+       "T:2026-05-01:p7",
+       "T:2026-05-01:p8",
+       "T:2026-05-01:p6",
+       "T:2026-05-01:p17"
       ]
      },
      {
-      "text": "Key strategic targets (innovative mix 26-27%, US 27% of sales, biosimilars 6%) are unverified as management guidance has not yet been reflected in reported financials.",
+      "text": "The effective tax rate remains elevated at 27.8% and is expected to persist until the Organon transaction completes, creating uncertainty around net earnings.",
       "source_ids": [
-       "T:2026-05-01:p8"
+       "T:2026-08-01:p17"
       ]
      }
     ]
@@ -562,23 +539,33 @@
     },
     {
      "source_id": "T:2026-05-01:p7",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
      "page": 7
     },
     {
      "source_id": "T:2026-05-01:p9",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
      "page": 9
+    },
+    {
+     "source_id": "T:2026-05-01:p8",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "page": 8
+    },
+    {
+     "source_id": "T:2026-05-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2026-05-01:p17",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "page": 17
     },
     {
      "source_id": "T:2026-08-01:p17",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf",
      "page": 17
-    },
-    {
-     "source_id": "T:2026-05-01:p8",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=287022b2-8de5-487d-8d0d-77b819ee3eb4.pdf",
-     "page": 8
     }
    ]
   }

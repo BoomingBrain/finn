@@ -1,11 +1,11 @@
 {
  "symbol": "ASIANPAINT",
  "name": "Asian Paints Ltd",
- "built_at": "2026-10-29T20:05:41.394735Z",
+ "built_at": "2026-11-04T21:01:21.539472Z",
  "basis": "consolidated",
  "sources": {
   "quarter": "Sep 2026",
-  "transcript": "2026-08-01",
+  "transcript": "2026-11-01",
   "annual_report": 2026
  },
  "sections": [
@@ -17,10 +17,10 @@
     "name": "Asian Paints Ltd",
     "about": "Asian Paints is thelargesthome decor company in India. The 80+yr old company has major brands like Asian Paints, Apco, etc under its umbrella. The co. is into wall paints, wall coverings, waterproofing, texture painting, wall stickers, mechanized tools, adhesives, modular kitchens, sanitaryware, lightings, soft furnishings, and uPVC windows.",
     "basis": "consolidated",
-    "built_at": "2026-10-29T19:54:16.769126+00:00",
+    "built_at": "2026-11-04T20:57:43.366707+00:00",
     "sources": {
      "quarter": "Sep 2026",
-     "transcript": "2026-08-01",
+     "transcript": "2026-11-01",
      "annual_report": 2026
     },
     "lender": false,
@@ -92,45 +92,24 @@
    "reason": null,
    "data": {
     "transcripts": [
+     "Transcript Nov 2026",
      "Transcript Aug 2026",
      "Transcript Jun 2026",
-     "Transcript Feb 2026",
-     "Transcript Nov 2025"
+     "Transcript Feb 2026"
     ],
     "rows": [
      {
       "target": {
-       "metric": "revenue_growth_yoy",
-       "raw_metric": "value growth",
-       "comparison": "approx",
-       "value": 5.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY26",
-       "quote": "We are looking at mid-single-digit value growth for the full year.",
-       "source_id": "T:2025-11-01:p25",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": 4.9,
-       "quarters_in": 4,
-       "quarters_needed": 4
-      },
-      "verdict": "met",
-      "explanation": "Value growth 4.9% met the 5% target for FY26."
-     },
-     {
-      "target": {
        "metric": "ebitda_margin",
-       "raw_metric": "PBDIT margins",
+       "raw_metric": "300 bps to 500 bps on relevant products",
        "comparison": "between",
-       "value": 18.0,
-       "value_high": 20.0,
+       "value": 3.0,
+       "value_high": 5.0,
        "unit": "pct",
        "period": "FY27",
-       "quote": "We are still garnering around the guidance of 18-20% of our PBDIT margins holds.",
-       "source_id": "T:2026-08-01:p20",
-       "said_on": "2026-08-01"
+       "quote": "300 bps to 500 bps on relevant products. Absolutely.",
+       "source_id": "T:2026-11-01:p33",
+       "said_on": "2026-11-01"
       },
       "actual": {
        "value": 18.2,
@@ -138,7 +117,91 @@
        "quarters_needed": 4
       },
       "verdict": "pending",
-      "explanation": "Guided PBDIT margins 18%–20% for FY27; delivered 18.2% so far (2 of 4 quarters)."
+      "explanation": "Relevant product growth 18.2% trails the 300–500 bps guidance range."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "total CapEx for GenNext Green Technology",
+       "comparison": "approx",
+       "value": 3250.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY28",
+       "quote": "Today we have got the phase 1 of it, out of the total CapEx of about Rs. 3,250 crores which is there. The capacity is quite big. What we are confident about is that, as we go forward, within a year's time we should be able to ramp up to full capacity offering this GenNext emulsion which comes in a very different way.",
+       "source_id": "T:2026-11-01:p13",
+       "said_on": "2026-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided total CapEx for GenNext Green Technology ≈ ₹3,250 Cr for FY28; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "gross margin",
+       "comparison": "between",
+       "value": 41.0,
+       "value_high": 43.0,
+       "unit": "pct",
+       "period": "H2FY27",
+       "quote": "This band of about 41% to 43% would really be the band we should be looking forward to.",
+       "source_id": "T:2026-11-01:p27",
+       "said_on": "2026-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided gross margin 41%–43% for H2FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "volume growth",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 9.0,
+       "unit": "pct",
+       "period": "H2FY27",
+       "quote": "we feel that it would be reasonable to expect to see a volume growth of about 8% to 9% going forward.",
+       "source_id": "T:2026-11-01:p29",
+       "said_on": "2026-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided volume growth 8%–9% for H2FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "anti-dumping duty cost impact",
+       "comparison": "between",
+       "value": 2.0,
+       "value_high": 3.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "it could have an impact from anywhere between 2% to 3% of the overall thing.",
+       "source_id": "T:2026-11-01:p30",
+       "said_on": "2026-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided anti-dumping duty cost impact 2%–3% for FY27; not checkable from reported financials."
      },
      {
       "target": {
@@ -206,6 +269,27 @@
      {
       "target": {
        "metric": "other",
+       "raw_metric": "volume growth",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 10.0,
+       "unit": "pct",
+       "period": "Q4FY26",
+       "quote": "And therefore, anything in the volume, in the current context, which is between that 8% - 10% is a good growth, in terms of what I would say under the current circumstances.",
+       "source_id": "T:2026-02-01:p34",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided volume growth 8%–10% for Q4FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
        "raw_metric": "volume-value gap",
        "comparison": "between",
        "value": 4.0,
@@ -232,27 +316,6 @@
        "value": 8.0,
        "value_high": 10.0,
        "unit": "pct",
-       "period": "Q4FY26",
-       "quote": "And therefore, anything in the volume, in the current context, which is between that 8% - 10% is a good growth, in terms of what I would say under the current circumstances.",
-       "source_id": "T:2026-02-01:p34",
-       "said_on": "2026-02-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided volume growth 8%–10% for Q4FY26; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "volume growth",
-       "comparison": "between",
-       "value": 8.0,
-       "value_high": 10.0,
-       "unit": "pct",
        "period": "H2FY26",
        "quote": "No, I think I have been maintaining that, as I said that, band of 8- 10% for volume and gap between the volume and the value is a good indicator, because see, this whole thing of channel filling is something which is always artificial.",
        "source_id": "T:2026-02-01:p36",
@@ -265,56 +328,34 @@
       },
       "verdict": "not_checkable",
       "explanation": "Guided volume growth 8%–10% for H2FY26; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "volume-value gap",
-       "comparison": "between",
-       "value": 4.0,
-       "value_high": 5.0,
-       "unit": "pct",
-       "period": "FY26",
-       "quote": "we would anticipate that the gap between the volume and the value would remain in that zone of about 4-5%.",
-       "source_id": "T:2025-11-01:p25",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided volume-value gap 4%–5% for FY26; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "waterproofing/construction chemicals category growth",
-       "comparison": "gte",
-       "value": 10.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY26",
-       "quote": "Overall, we are looking at growing more than double digits in that category.",
-       "source_id": "T:2025-11-01:p30",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided waterproofing/construction chemicals category growth ≥ 10% for FY26; not checkable from reported financials."
      }
     ]
    },
    "citations": [
     {
-     "source_id": "T:2025-11-01:p25",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
-     "page": 25
+     "source_id": "T:2026-11-01:p33",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf",
+     "page": 33
+    },
+    {
+     "source_id": "T:2026-11-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-11-01:p27",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf",
+     "page": 27
+    },
+    {
+     "source_id": "T:2026-11-01:p29",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf",
+     "page": 29
+    },
+    {
+     "source_id": "T:2026-11-01:p30",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf",
+     "page": 30
     },
     {
      "source_id": "T:2026-08-01:p20",
@@ -332,24 +373,19 @@
      "page": 26
     },
     {
-     "source_id": "T:2026-02-01:p35",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
-     "page": 35
-    },
-    {
      "source_id": "T:2026-02-01:p34",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
      "page": 34
     },
     {
+     "source_id": "T:2026-02-01:p35",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
+     "page": 35
+    },
+    {
      "source_id": "T:2026-02-01:p36",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
      "page": 36
-    },
-    {
-     "source_id": "T:2025-11-01:p30",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
-     "page": 30
     }
    ]
   },
@@ -437,47 +473,46 @@
    "data": {
     "bull": [
      {
-      "text": "The company delivers strong returns with ROCE of 26%, operating margin of 18.8% (up from 18.2% three years ago), low leverage at 0.21 debt-to-equity, and operating cash flow covering PAT 1.29x over three years.",
+      "text": "The company delivers strong profitability with ROCE of 26%, operating margin of 18.8% (up from 18.2% three years ago), low leverage (debt-to-equity 0.21), and operating cash flow covering PAT 1.29x over three years.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Recent quarterly performance shows accelerating momentum with June 2026 quarter recording the highest revenue of ₹10,542 Cr and PAT of ₹1,559 Cr among the last four quarters.",
+      "text": "The June 2026 quarter showed peak recent performance with revenue of ₹10,542 Cr and PAT of ₹1,559 Cr, well above the other three quarters in the trailing twelve months.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Management's mid-single-digit value growth guidance was met with 4.9% delivered across all four tracked quarters, demonstrating execution credibility.",
+      "text": "Management guides for 8-10% volume growth in FY27, a sustained 3-4% price growth trajectory, and a ₹3,250 Cr CapEx program for GenNext emulsion expected to reach full capacity within a year.",
       "source_ids": [
-       "T:2025-11-01:p25"
+       "T:2026-08-01:p20",
+       "T:2026-06-01:p26",
+       "T:2026-11-01:p13"
       ]
      }
     ],
     "bear": [
      {
-      "text": "Three-year growth remains stagnant with revenue CAGR of only 1% and PAT CAGR of 1.6%, indicating structural growth challenges.",
+      "text": "Three-year CAGR remains muted at 1% for revenue and 1.6% for PAT, indicating structural growth stagnation despite scale.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Quarterly results show significant volatility with September 2026 revenue declining to ₹9,977 Cr and PAT to ₹1,085 Cr from June 2026 peaks of ₹10,542 Cr and ₹1,559 Cr respectively.",
+      "text": "Quarterly earnings are volatile: PAT fell 30% sequentially from ₹1,559 Cr in June 2026 to ₹1,085 Cr in September 2026, with revenue also declining 5% over the same period.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Multiple forward-looking management targets (8-10% volume growth, 8-10% FY27 growth, 3-4% price trajectory, double-digit category growth) have zero quarters of verified delivery, creating visibility risk.",
+      "text": "Key forward-looking targets — volume growth of 8-10%, margin band of 41-43%, price growth of 3-4%, and GenNext emulsion ramp-up — have not yet been verified against reported financials, creating execution uncertainty.",
       "source_ids": [
-       "T:2026-08-01:p20",
-       "T:2026-08-01:p21",
+       "T:2026-11-01:p27",
+       "T:2026-11-01:p29",
        "T:2026-06-01:p26",
-       "T:2026-02-01:p34",
-       "T:2026-02-01:p35",
-       "T:2026-02-01:p36",
-       "T:2025-11-01:p30"
+       "T:2026-11-01:p13"
       ]
      }
     ]
@@ -489,19 +524,9 @@
      "page": null
     },
     {
-     "source_id": "T:2025-11-01:p25",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
-     "page": 25
-    },
-    {
      "source_id": "T:2026-08-01:p20",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf",
      "page": 20
-    },
-    {
-     "source_id": "T:2026-08-01:p21",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf",
-     "page": 21
     },
     {
      "source_id": "T:2026-06-01:p26",
@@ -509,24 +534,19 @@
      "page": 26
     },
     {
-     "source_id": "T:2026-02-01:p34",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
-     "page": 34
+     "source_id": "T:2026-11-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf",
+     "page": 13
     },
     {
-     "source_id": "T:2026-02-01:p35",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
-     "page": 35
+     "source_id": "T:2026-11-01:p27",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf",
+     "page": 27
     },
     {
-     "source_id": "T:2026-02-01:p36",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
-     "page": 36
-    },
-    {
-     "source_id": "T:2025-11-01:p30",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
-     "page": 30
+     "source_id": "T:2026-11-01:p29",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf",
+     "page": 29
     }
    ]
   }
