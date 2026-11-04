@@ -1,0 +1,999 @@
+{
+ "symbol": "M&M",
+ "name": "Mahindra & Mahindra Ltd",
+ "built_at": "2026-11-04T05:14:49.905571Z",
+ "basis": "consolidated",
+ "sources": {
+  "quarter": "Jun 2026",
+  "transcript": "2026-08-01",
+  "annual_report": 2026
+ },
+ "sections": [
+  {
+   "section": "snapshot",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "name": "Mahindra & Mahindra Ltd",
+    "about": "Mahindra & Mahindra Ltd is one of the most diversified automobile company in India with presence across 2-wheelers, 3-wheelers, PVs, CVs, tractors & earthmovers.It also has presence across financial services, auto components, hospitality, infrastructure, retail, logistics, steel trading and processing, IT businesses, agri, aerospace, consulting services, defence, energy and industrial equipmentthrough its subsidiaries and group companies.It was incorporated in 1945 by Ghulam Mohammad and two Mahindra Brothers (KC & JC Mahindra) and was later renamed as Mahindra & Mahindra in 1948.[1]",
+    "basis": "consolidated",
+    "built_at": "2026-11-04T04:57:43.347438+00:00",
+    "sources": {
+     "quarter": "Jun 2026",
+     "transcript": "2026-08-01",
+     "annual_report": 2026
+    },
+    "lender": false,
+    "revenue_ttm": 211376.0,
+    "pat_ttm": 20243.0,
+    "revenue_cagr_3y": 17.8,
+    "pat_cagr_3y": 17.9,
+    "opm_latest": 18.6,
+    "opm_3y_ago": 16.7,
+    "roce_latest": 15.0,
+    "roe_latest": null,
+    "debt_to_equity": 1.47,
+    "cfo_to_pat_3y": 0.2,
+    "quarterly": [
+     {
+      "label": "Sep 2024",
+      "revenue": 37924.0,
+      "pat": 3361.0
+     },
+     {
+      "label": "Dec 2024",
+      "revenue": 41470.0,
+      "pat": 3624.0
+     },
+     {
+      "label": "Mar 2025",
+      "revenue": 42599.0,
+      "pat": 3542.0
+     },
+     {
+      "label": "Jun 2025",
+      "revenue": 45529.0,
+      "pat": 4377.0
+     },
+     {
+      "label": "Sep 2025",
+      "revenue": 46106.0,
+      "pat": 3964.0
+     },
+     {
+      "label": "Dec 2025",
+      "revenue": 52100.0,
+      "pat": 5021.0
+     },
+     {
+      "label": "Mar 2026",
+      "revenue": 54982.0,
+      "pat": 5260.0
+     },
+     {
+      "label": "Jun 2026",
+      "revenue": 58188.0,
+      "pat": 5998.0
+     }
+    ],
+    "flags": [
+     "Profits not converting to cash",
+     "High leverage"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/M&M/consolidated/",
+     "page": null
+    }
+   ]
+  },
+  {
+   "section": "delivery",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "transcripts": [
+     "Transcript Aug 2026",
+     "Transcript May 2026",
+     "Transcript Feb 2026",
+     "Transcript Nov 2025"
+    ],
+    "rows": [
+     {
+      "target": {
+       "metric": "revenue",
+       "raw_metric": "delivery of 4,100 crores in terms of revenue",
+       "comparison": "approx",
+       "value": 4100.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "For F27, what we are tracking is a delivery of 4,100 crores in terms of revenue, 2 to 3% points in terms of customer satisfaction, which is off a high base already, and 10% reduction in time for a new product development.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 58188.0,
+       "quarters_in": 1,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Revenue reached ₹58,188 Cr in Q1 FY27, exceeding the FY27 target of ₹4,100 Cr."
+     },
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "tractor EBITDA margin band",
+       "comparison": "between",
+       "value": 18.0,
+       "value_high": 21.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "We show this chart to kind of say that our margins in tractors will operate within a band. There will be volatility on industry growth. And we do manage our margins within a band, typically of 18 to 21%, depending on what's happening to industry growth.",
+       "source_id": "T:2026-05-01:p10",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 18.6,
+       "quarters_in": 1,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Tractor EBITDA margin settled at 18.6% in Q1 FY27, within the guided 18%–21% band for FY27."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROE",
+       "comparison": "gte",
+       "value": 18.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "A chart you are familiar with, a number that you are not familiar with is 23%, which is for ROE. And I will stay with my standard approach which is, our target is 18%, so we will go slightly up and above 18%. But 23% is higher than what we expected as well. So, we are not resetting expectations, we will stay with 18% as a target there.",
+       "source_id": "T:2026-08-01:p6",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROE ≥ 18% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "used vehicle disbursement share",
+       "comparison": "between",
+       "value": 16.0,
+       "value_high": 19.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "from now on we will see us going up that scale, the 16 to 19 that I talked about.",
+       "source_id": "T:2026-08-01:p13",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided used vehicle disbursement share 16%–19% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "pre-sales",
+       "comparison": "gte",
+       "value": 10000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY30",
+       "quote": "And we codified that we want to be a 10,000 crores company pre-sales by FY30.",
+       "source_id": "T:2026-08-01:p16",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided pre-sales ≥ ₹10,000 Cr for FY30; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "non-wheels share of lending book",
+       "comparison": "approx",
+       "value": 30.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY31",
+       "quote": "we will very well trend towards that 70-30. We have said by 2031 - 70% of the book will still be mobility, 30% will be non-wheels.",
+       "source_id": "T:2026-08-01:p18",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided non-wheels share of lending book ≈ 30% for FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "lending book size",
+       "comparison": "approx",
+       "value": 300000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY31",
+       "quote": "And we are targeting a ₹3 lakh crore book by 2031.",
+       "source_id": "T:2026-08-01:p18",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided lending book size ≈ ₹300,000 Cr for FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "ROA",
+       "comparison": "between",
+       "value": 2.2,
+       "value_high": 2.5,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "On ROA, first goal is to be between 2.2%-2.5%.",
+       "source_id": "T:2026-08-01:p18",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided ROA 2.2%–2.5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "aerospace business total growth over a decade",
+       "comparison": "approx",
+       "value": 2900.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY36",
+       "quote": "During the Global Investor Day we are given an aspiration target that organic and inorganic put together we want to grow the business by almost 30 times in a decade, out of which organic was 10 times.",
+       "source_id": "T:2026-08-01:p19",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided aerospace business total growth over a decade ≈ 2,900% for FY36; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "aerospace business organic growth over a decade",
+       "comparison": "approx",
+       "value": 900.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY36",
+       "quote": "During the Global Investor Day we are given an aspiration target that organic and inorganic put together we want to grow the business by almost 30 times in a decade, out of which organic was 10 times.",
+       "source_id": "T:2026-08-01:p19",
+       "said_on": "2026-08-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided aerospace business organic growth over a decade ≈ 900% for FY36; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "2 to 3% points in terms of customer satisfaction",
+       "comparison": "between",
+       "value": 2.0,
+       "value_high": 3.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "For F27, what we are tracking is a delivery of 4,100 crores in terms of revenue, 2 to 3% points in terms of customer satisfaction, which is off a high base already, and 10% reduction in time for a new product development.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided 2 to 3% points in terms of customer satisfaction 2%–3% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "10% reduction in time for a new product development",
+       "comparison": "approx",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "For F27, what we are tracking is a delivery of 4,100 crores in terms of revenue, 2 to 3% points in terms of customer satisfaction, which is off a high base already, and 10% reduction in time for a new product development.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided 10% reduction in time for a new product development ≈ 10% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "10,000 crore more of disbursements because of AI",
+       "comparison": "approx",
+       "value": 10000.0,
+       "value_high": null,
+       "unit": "cr",
+       "period": "FY27",
+       "quote": "For this year, we expect to have 10,000 crore more of disbursements because of AI. 20% increase in thin file conversions, 80% Agentic operations.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided 10,000 crore more of disbursements because of AI ≈ ₹10,000 Cr for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "20% increase in thin file conversions",
+       "comparison": "approx",
+       "value": 20.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "For this year, we expect to have 10,000 crore more of disbursements because of AI. 20% increase in thin file conversions, 80% Agentic operations.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided 20% increase in thin file conversions ≈ 20% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "80% Agentic operations",
+       "comparison": "approx",
+       "value": 80.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "For this year, we expect to have 10,000 crore more of disbursements because of AI. 20% increase in thin file conversions, 80% Agentic operations.",
+       "source_id": "T:2026-05-01:p8",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided 80% Agentic operations ≈ 80% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "60% do-it-yourself servicing",
+       "comparison": "approx",
+       "value": 60.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "60% do-it-yourself servicing, 75% assisted live contract collections. This is everything we're planning for F27 outcomes right now",
+       "source_id": "T:2026-05-01:p9",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided 60% do-it-yourself servicing ≈ 60% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "75% assisted live contract collections",
+       "comparison": "approx",
+       "value": 75.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "60% do-it-yourself servicing, 75% assisted live contract collections. This is everything we're planning for F27 outcomes right now",
+       "source_id": "T:2026-05-01:p9",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided 75% assisted live contract collections ≈ 75% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "SUV growth",
+       "comparison": "between",
+       "value": 15.0,
+       "value_high": 19.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "On the SUV side, we are expecting mid-to-high teens.",
+       "source_id": "T:2026-05-01:p11",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided SUV growth 15%–19% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "SUV volume growth",
+       "comparison": "between",
+       "value": 15.0,
+       "value_high": 18.0,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "we believe that 15 to 18% is not out of the realm of possibility, right.",
+       "source_id": "T:2026-05-01:p13",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided SUV volume growth 15%–18% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "pat_growth_yoy",
+       "raw_metric": "EPS growth",
+       "comparison": "between",
+       "value": 15.0,
+       "value_high": 20.0,
+       "unit": "pct",
+       "period": "FY27-FY31",
+       "quote": "if I were to look at the next 5 years again, we'd be very comfortable in saying that we will grow 15%-20% a year for the next 5 years.",
+       "source_id": "T:2026-05-01:p14",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided EPS growth 15%–20% for FY27-FY31; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "tractor industry growth",
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "So, there's no science to this but just putting all of this together we think 5% is not unreasonable.",
+       "source_id": "T:2026-05-01:p16",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided tractor industry growth ≈ 5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "EV penetration for CAFE compliance",
+       "comparison": "between",
+       "value": 13.0,
+       "value_high": 21.0,
+       "unit": "pct",
+       "period": "5-year block",
+       "quote": "Between 13 to 21.",
+       "source_id": "T:2026-05-01:p19",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided EV penetration for CAFE compliance 13%–21% for 5-year block; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "tractor volume growth assumption",
+       "comparison": "approx",
+       "value": 5.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "That's what we are counting on when we are doing this 5% and that's why I'm saying it will have to be kind of moderated.",
+       "source_id": "T:2026-05-01:p20",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided tractor volume growth assumption ≈ 5% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "EV mix target for FY28",
+       "comparison": "approx",
+       "value": 25.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY28",
+       "quote": "You gave a number of 25%, I don't know, that 25% that we had put out was our own target, was not linked to what is needed by CAFE norm.",
+       "source_id": "T:2026-02-01:p10",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided EV mix target for FY28 ≈ 25% for FY28; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Tractor industry long-term CAGR",
+       "comparison": "approx",
+       "value": 9.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "long-term",
+       "quote": "we are preparing for the longer term growth trend which we spoke about on investor day of about 9% CAGR.",
+       "source_id": "T:2026-02-01:p10",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Tractor industry long-term CAGR ≈ 9% for long-term; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Tractor industry growth FY26",
+       "comparison": "approx",
+       "value": 24.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "As recently as two months back, we said it will be low double digits and this year is going to end at twice that, literally. So low double digits, if you say 11 or 12, we're going to end this year at 24.",
+       "source_id": "T:2026-02-01:p10",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Tractor industry growth FY26 ≈ 24% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "EBIT margin",
+       "comparison": "gte",
+       "value": 15.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "It is on track to deliver what it has to in its first phase which ends by F27 and it has to get to a 15% EBIT margin.",
+       "source_id": "T:2026-02-01:p12",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided EBIT margin ≥ 15% for FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "PLI accrual percentage",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 13.0,
+       "unit": "pct",
+       "period": "Q1FY27",
+       "quote": "So, it could range anywhere between 8 and 13 depending on which suppliers also qualify for PLI in your value chain.",
+       "source_id": "T:2026-02-01:p15",
+       "said_on": "2026-02-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided PLI accrual percentage 8%–13% for Q1FY27; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "Pack One mix",
+       "comparison": "lte",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "Pack One continues to be sub-10%, which is what we would desire by way of delivery.",
+       "source_id": "T:2025-11-01:p14",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided Pack One mix ≤ 10% for FY26; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "tractor industry growth",
+       "comparison": "between",
+       "value": 10.0,
+       "value_high": 12.0,
+       "unit": "pct",
+       "period": "FY26",
+       "quote": "we just stay with our outlook for this year moving up from 5%-7% industry growth to 10%-12% industry growth.",
+       "source_id": "T:2025-11-01:p15",
+       "said_on": "2025-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided tractor industry growth 10%–12% for FY26; not checkable from reported financials."
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "T:2026-05-01:p8",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+     "page": 8
+    },
+    {
+     "source_id": "T:2026-05-01:p10",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "T:2026-08-01:p6",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f451beeb-32aa-45da-8e1a-417884693047.pdf",
+     "page": 6
+    },
+    {
+     "source_id": "T:2026-08-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f451beeb-32aa-45da-8e1a-417884693047.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-08-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f451beeb-32aa-45da-8e1a-417884693047.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-08-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f451beeb-32aa-45da-8e1a-417884693047.pdf",
+     "page": 18
+    },
+    {
+     "source_id": "T:2026-08-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f451beeb-32aa-45da-8e1a-417884693047.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2026-05-01:p9",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+     "page": 9
+    },
+    {
+     "source_id": "T:2026-05-01:p11",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+     "page": 11
+    },
+    {
+     "source_id": "T:2026-05-01:p13",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+     "page": 13
+    },
+    {
+     "source_id": "T:2026-05-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-05-01:p16",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "T:2026-05-01:p19",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+     "page": 19
+    },
+    {
+     "source_id": "T:2026-05-01:p20",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+     "page": 20
+    },
+    {
+     "source_id": "T:2026-02-01:p10",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ceb5575-dd97-489b-9c43-5e0c1deff006.pdf",
+     "page": 10
+    },
+    {
+     "source_id": "T:2026-02-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ceb5575-dd97-489b-9c43-5e0c1deff006.pdf",
+     "page": 12
+    },
+    {
+     "source_id": "T:2026-02-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ceb5575-dd97-489b-9c43-5e0c1deff006.pdf",
+     "page": 15
+    },
+    {
+     "source_id": "T:2025-11-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a935377d-5627-472b-8cd6-605b32ea0cb6.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2025-11-01:p15",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a935377d-5627-472b-8cd6-605b32ea0cb6.pdf",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "section": "business",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "what_it_does": "Mahindra & Mahindra sells a diverse portfolio of vehicles and equipment across India and globally. Its Automotive segment sells passenger vehicles (including SUVs and EVs), light commercial vehicles, and trucks & buses to both consumer and commercial customers. Its Farm Equipment segment sells tractors, harvesters, and other farm machinery to farmers and agricultural businesses. The company also manufactures aerostructures for global aerospace OEMs.",
+    "segments": [
+     {
+      "name": "Automotive",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p52"
+      ]
+     },
+     {
+      "name": "Farm Equipment",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p52"
+      ]
+     },
+     {
+      "name": "Trucks & Buses",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p16",
+       "AR:2026:p17"
+      ]
+     },
+     {
+      "name": "Farm Machinery",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p90"
+      ]
+     },
+     {
+      "name": "Aerostructures",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p21"
+      ]
+     },
+     {
+      "name": "Classic Legends",
+      "share_pct": null,
+      "source_ids": [
+       "AR:2026:p17"
+      ]
+     }
+    ],
+    "source_ids": [
+     "AR:2026:p16",
+     "AR:2026:p17",
+     "AR:2026:p21",
+     "AR:2026:p52",
+     "AR:2026:p86",
+     "AR:2026:p90",
+     "AR:2026:p93"
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "AR:2026:p16",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44de8025-5ba1-4dfd-b7ef-ed83aa31bd7e.pdf",
+     "page": 16
+    },
+    {
+     "source_id": "AR:2026:p17",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44de8025-5ba1-4dfd-b7ef-ed83aa31bd7e.pdf",
+     "page": 17
+    },
+    {
+     "source_id": "AR:2026:p21",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44de8025-5ba1-4dfd-b7ef-ed83aa31bd7e.pdf",
+     "page": 21
+    },
+    {
+     "source_id": "AR:2026:p52",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44de8025-5ba1-4dfd-b7ef-ed83aa31bd7e.pdf",
+     "page": 52
+    },
+    {
+     "source_id": "AR:2026:p86",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44de8025-5ba1-4dfd-b7ef-ed83aa31bd7e.pdf",
+     "page": 86
+    },
+    {
+     "source_id": "AR:2026:p90",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44de8025-5ba1-4dfd-b7ef-ed83aa31bd7e.pdf",
+     "page": 90
+    },
+    {
+     "source_id": "AR:2026:p93",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44de8025-5ba1-4dfd-b7ef-ed83aa31bd7e.pdf",
+     "page": 93
+    }
+   ]
+  },
+  {
+   "section": "bull_bear",
+   "status": "ready",
+   "reason": null,
+   "data": {
+    "bull": [
+     {
+      "text": "Revenue and PAT have grown at 17.8% and 17.9% CAGR over 3 years, reaching TTM revenue of ₹211,376 Cr and PAT of ₹20,243 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin improved to 18.6% from 16.7% three years ago, with ROCE at 15%.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Quarterly momentum shows consistent growth: Jun 2026 quarter revenue ₹58,188 Cr and PAT ₹5,998 Cr, up from Sep 2025's ₹46,106 Cr and ₹3,964 Cr.",
+      "source_ids": [
+       "SCR"
+      ]
+     }
+    ],
+    "bear": [
+     {
+      "text": "High leverage with debt-to-equity of 1.47 and poor cash conversion (operating cash flow/PAT of only 0.2 over 3 years).",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Profits not converting to cash is explicitly flagged as a key risk.",
+      "source_ids": [
+       "SCR"
+      ]
+     },
+     {
+      "text": "Many management growth targets (e.g., 15-20% annual growth for 5 years, ₹3 lakh crore book by 2031) remain aspirational and unverified by reported financials.",
+      "source_ids": [
+       "T:2026-05-01:p14",
+       "T:2026-08-01:p18"
+      ]
+     }
+    ]
+   },
+   "citations": [
+    {
+     "source_id": "SCR",
+     "url": "https://www.screener.in/company/M&M/consolidated/",
+     "page": null
+    },
+    {
+     "source_id": "T:2026-05-01:p14",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d65d81e-ab74-4196-8fc3-f78ef9e3af9d.pdf",
+     "page": 14
+    },
+    {
+     "source_id": "T:2026-08-01:p18",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f451beeb-32aa-45da-8e1a-417884693047.pdf",
+     "page": 18
+    }
+   ]
+  }
+ ]
+}
