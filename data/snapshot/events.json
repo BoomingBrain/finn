@@ -1,6 +1,195 @@
 {
- "as_of": "2026-11-04T01:46:47.132815+05:30",
+ "as_of": "2026-11-04T17:47:12.444740+05:30",
  "events": [
+  {
+   "id": "4ebb01bcbd712f3c50434def6abdb09bef6275c0",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-04T17:03:04+05:30",
+   "last_at": "2026-11-04T17:03:04+05:30",
+   "headline": "Updates",
+   "summary": "KFin Technologies Limited, the Registrar and Share Transfer Agent, is shifting its corporate office from Selenium Tower B, Gachibowli to…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Updates",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026165700_BhartiAirtelSTXintimation.pdf",
+     "filed_at": "2026-11-04T17:03:04+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "84a01234bc4393d22a7e07fc2b4d9263ce83a5a2",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "litigation",
+   "tier": "critical",
+   "first_at": "2026-11-04T16:47:51+05:30",
+   "last_at": "2026-11-04T16:47:51+05:30",
+   "headline": "Action(s) taken or orders passed",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Action(s) taken or orders passed",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026164737_BhartiAirtelSTXdisclosure.pdf",
+     "filed_at": "2026-11-04T16:47:51+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "1232565df307b27522ea3be6e8597b1eb6df98f6",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-04T15:38:58+05:30",
+   "last_at": "2026-11-04T15:38:58+05:30",
+   "headline": "Newspaper advertisement in respect of the Second Reminder Notice for payment of First and Final call money on partly paid-up equity shares of the Company",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Newspaper advertisement in respect of the Second Reminder Notice for payment of First and Final call money on partly paid-up equity shares of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026153131_STXintimation.pdf",
+     "filed_at": "2026-11-04T15:38:58+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "428ee9ec542071ec6060849a0b36cbc6f6bb8ba7",
+   "symbol": "BAJFINANCE",
+   "company": "Bajaj Finance Limited",
+   "category": "agm_egm",
+   "tier": "routine",
+   "first_at": "2026-11-04T15:29:09+05:30",
+   "last_at": "2026-11-04T15:29:09+05:30",
+   "headline": "Voting results",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Voting results",
+     "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_04112026152849_SEintimationsScrutinizersReportSignedForUpload.pdf",
+     "filed_at": "2026-11-04T15:29:09+05:30"
+    }
+   ],
+   "price_change_pct": 2.5,
+   "volume_multiple": 1.8,
+   "price_date": "2026-11-04"
+  },
+  {
+   "id": "a0324e80efc226c96c4d2600d011e0704698a87c",
+   "symbol": "PERSISTENT",
+   "company": "Persistent Systems Limited",
+   "category": "fund_raise",
+   "tier": "critical",
+   "first_at": "2026-11-04T15:04:42+05:30",
+   "last_at": "2026-11-04T15:09:23+05:30",
+   "headline": "Outcome of Committee Meeting held on November 04, 2026",
+   "summary": "Special Committee approved allotment of 700,000 NCDs with face value of INR 0.10 million each, aggregating INR 70 billion, at 8.95%…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Outcome of Committee Meeting held on November 04, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_04112026150426_PersistentSEOutcomeAllotmentofNCDsNovember42026Signed.pdf",
+     "filed_at": "2026-11-04T15:04:42+05:30"
+    },
+    {
+     "title": "Allotment of 700000 securities pursuant to Non Convertible Securities at its meeting held on November 04, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_04112026150907_PersistentSEOutcomeAllotmentofNCDsNovember42026Signed.pdf",
+     "filed_at": "2026-11-04T15:09:23+05:30"
+    }
+   ],
+   "price_change_pct": -0.5,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-04"
+  },
+  {
+   "id": "9888b0134f0857c3bfe92de5bd832b1c3e376702",
+   "symbol": "ITC",
+   "company": "ITC Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-04T12:18:34+05:30",
+   "last_at": "2026-11-04T12:18:34+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.com/corporate/ITC_04112026121821_SE.pdf",
+     "filed_at": "2026-11-04T12:18:34+05:30"
+    }
+   ],
+   "price_change_pct": 2.2,
+   "volume_multiple": 1.9,
+   "price_date": "2026-11-04"
+  },
+  {
+   "id": "da25a7a11db46e6d970c13c083ec6424255546f6",
+   "symbol": "DEEPAKNTR",
+   "company": "Deepak Nitrite Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-11-04T11:15:41+05:30",
+   "last_at": "2026-11-04T11:15:41+05:30",
+   "headline": "Transcript",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_04112026111452_NSE-concall_transcript.pdf",
+     "filed_at": "2026-11-04T11:15:41+05:30"
+    }
+   ],
+   "price_change_pct": 3.8,
+   "volume_multiple": 0.9,
+   "price_date": "2026-11-04"
+  },
+  {
+   "id": "5670da00c3924e8ee3ca86c8a22560c6faad2f6f",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "litigation",
+   "tier": "critical",
+   "first_at": "2026-11-04T10:04:11+05:30",
+   "last_at": "2026-11-04T10:04:11+05:30",
+   "headline": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is attached",
+   "summary": "The company clarified that a 2026 news report about halting eye-care drug production at its Assam plant due to quality lapses is outdated…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "The Exchange has sought clarification from Sun Pharmaceutical Industries Limited with respect to recent news item captioned India orders Sun Pharma to halt eye-care drug production at plant after quality lapses. The response from the Company is attached",
+     "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_04112026100317_Reply_to_SEs_-_Rumour_Verification02112026.pdf",
+     "filed_at": "2026-11-04T10:04:11+05:30"
+    }
+   ],
+   "price_change_pct": 0.2,
+   "volume_multiple": 2.8,
+   "price_date": "2026-11-04"
+  },
   {
    "id": "b20084f35d15e09553e9484b597d970ec312fb4b",
    "symbol": "KPITTECH",
@@ -20,9 +209,9 @@
      "filed_at": "2026-11-03T22:39:48+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.0,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-04"
   },
   {
    "id": "e5079d23710b88e8d76922292b1099e69cbe0ca2",
@@ -43,9 +232,9 @@
      "filed_at": "2026-11-03T22:33:13+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.1,
+   "volume_multiple": 1.2,
+   "price_date": "2026-11-04"
   },
   {
    "id": "2d181fc791806bfbd74cbc3257d44704eab3a06f",
@@ -66,9 +255,9 @@
      "filed_at": "2026-11-03T22:07:58+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.0,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-04"
   },
   {
    "id": "e7fadfd2092b30b0db95d2f00a3e178efe43dd96",
@@ -89,9 +278,9 @@
      "filed_at": "2026-11-03T18:24:12+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.6,
+   "volume_multiple": 1.6,
+   "price_date": "2026-11-04"
   },
   {
    "id": "6a04fa195164c10542637e23f7028182eec1ae2c",
@@ -112,9 +301,9 @@
      "filed_at": "2026-11-03T17:36:03+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.6,
+   "volume_multiple": 1.5,
+   "price_date": "2026-11-04"
   },
   {
    "id": "33b6ce032b4b624fc993e8319413e41ac45e4396",
@@ -135,9 +324,9 @@
      "filed_at": "2026-11-03T17:30:12+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.2,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-04"
   },
   {
    "id": "9a668aa12b9e3e4fc8fa6233acd5268db19a12fb",
@@ -158,9 +347,9 @@
      "filed_at": "2026-11-03T16:01:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.2,
+   "volume_multiple": 0.3,
+   "price_date": "2026-11-04"
   },
   {
    "id": "14cef83a2645b141133029e97dbfd8aeec8d897d",
@@ -181,9 +370,9 @@
      "filed_at": "2026-11-03T11:24:09+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.4,
+   "volume_multiple": 1.5,
+   "price_date": "2026-11-03"
   },
   {
    "id": "78ed91a061a42207d1c529adb7d320f55849c0d2",
@@ -232,9 +421,9 @@
      "filed_at": "2026-11-02T19:31:06+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.1,
+   "volume_multiple": 0.9,
+   "price_date": "2026-11-03"
   },
   {
    "id": "0267dcd7c58ebdaa90e64b0b31ad12f3cf007118",
@@ -255,9 +444,9 @@
      "filed_at": "2026-11-02T18:45:24+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.8,
+   "volume_multiple": 1.4,
+   "price_date": "2026-11-03"
   },
   {
    "id": "e0b136d33d00121891697ee2b6508fa0aa9732d6",
@@ -278,9 +467,9 @@
      "filed_at": "2026-11-02T18:32:13+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.8,
+   "volume_multiple": 1.4,
+   "price_date": "2026-11-03"
   },
   {
    "id": "07b17797b45c79aa0b4d144be774ffc89c37b771",
@@ -306,9 +495,9 @@
      "filed_at": "2026-11-02T18:20:16+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.8,
+   "volume_multiple": 1.4,
+   "price_date": "2026-11-03"
   },
   {
    "id": "bf6f1c4e5dc58172b38970159ab7f80549e0f021",
@@ -329,9 +518,9 @@
      "filed_at": "2026-11-02T17:56:36+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.2,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-03"
   },
   {
    "id": "f9ff68ff8258514b9845b1f7cd6d88572e392008",
