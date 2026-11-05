@@ -1,6 +1,198 @@
 {
- "as_of": "2026-11-05T18:00:17.487447+05:30",
+ "as_of": "2026-11-06T02:19:03.077710+05:30",
  "events": [
+  {
+   "id": "973759ef2f294ceb5c5938ebefd6a40e1fa86ce7",
+   "symbol": "PERSISTENT",
+   "company": "Persistent Systems Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-05T23:30:49+05:30",
+   "last_at": "2026-11-05T23:30:49+05:30",
+   "headline": "General Updates",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "General Updates",
+     "url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_05112026233015_PersistentSEOutcomeAllotmentofCPsNovember52026signed.pdf",
+     "filed_at": "2026-11-05T23:30:49+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "5abef19c3d3d993a07cf81f74e085dc7f4c2e4cf",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-05T17:16:16+05:30",
+   "last_at": "2026-11-05T20:33:40+05:30",
+   "headline": "Investor Presentation",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Investor Presentation",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026171559_SEinvestorpreQ227.pdf",
+     "filed_at": "2026-11-05T17:16:16+05:30"
+    },
+    {
+     "title": "Analyst Call Recording",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026203327_SEaudiocallQ227.pdf",
+     "filed_at": "2026-11-05T20:33:40+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "4ebb01bcbd712f3c50434def6abdb09bef6275c0",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-04T17:03:04+05:30",
+   "last_at": "2026-11-05T19:35:15+05:30",
+   "headline": "Updates",
+   "summary": "KFin Technologies Limited, the Registrar and Share Transfer Agent, is shifting its corporate office from Selenium Tower B, Gachibowli to…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Updates",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026165700_BhartiAirtelSTXintimation.pdf",
+     "filed_at": "2026-11-04T17:03:04+05:30"
+    },
+    {
+     "title": "Monitoring Agency Report for the quarter ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193332_STX_IntimationMAReport.pdf",
+     "filed_at": "2026-11-05T19:33:57+05:30"
+    },
+    {
+     "title": "Statement of deviation(s) or variation(s) under Reg. 32",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193500_STX_IntimationMAReport.pdf",
+     "filed_at": "2026-11-05T19:35:15+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "6a76306c6eeb79fef772503c6be242ccc5e7f4fb",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "management_change",
+   "tier": "critical",
+   "first_at": "2026-11-05T18:36:30+05:30",
+   "last_at": "2026-11-05T18:51:55+05:30",
+   "headline": "Change in Auditors of the company",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "M/s Price Waterhouse Chartered Accountants LLP",
+    "role": "Statutory Auditor",
+    "change": "appointed",
+    "effective_date": "from the conclusion of the 43rd Annual General Meeting until the conclusion of the 48th Annual General Meeting",
+    "background": "Price Waterhouse Chartered Accountants LLP, a firm of Chartered Accountants registered with the Institute of Chartered Accountants of India. The Firm was established in the year 1991 and was converted into a limited liability partnership in the year 2014.",
+    "prior_roles": [
+     "Chartered Accountants registered with the Institute of Chartered Accountants of India",
+     "Firm established in 1991",
+     "Converted into a limited liability partnership in 2014"
+    ]
+   },
+   "documents": [
+    {
+     "title": "Change in Auditors of the company",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf",
+     "filed_at": "2026-11-05T18:36:30+05:30"
+    },
+    {
+     "title": "Retirement of Mr. Noel N. Tata as Director and Vice-Chairman",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026185140_SENNTata.pdf",
+     "filed_at": "2026-11-05T18:51:55+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "0c9f60f951178cff6f94a12c3e38307b58a9d015",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-05T18:51:31+05:30",
+   "last_at": "2026-11-05T18:51:31+05:30",
+   "headline": "Allotment of 1204 Shares under Avenue Supermarts Limited ESOP Scheme 2023",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Allotment of 1204 Shares under Avenue Supermarts Limited ESOP Scheme 2023",
+     "url": "https://nsearchives.nseindia.com/corporate/DMART_05112026185022_ASLESOPAllotment_05112026.pdf",
+     "filed_at": "2026-11-05T18:51:31+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "51d8338824369a13b735e19e9897de5b4137a3e9",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "fund_raise",
+   "tier": "notable",
+   "first_at": "2026-11-05T18:23:47+05:30",
+   "last_at": "2026-11-05T18:23:47+05:30",
+   "headline": "Redemption of Commercial Paper",
+   "summary": "Titan Company fully redeemed ₹1,600 crore of Commercial Paper (ISIN: INE280A14609) issued on 7th August 2026, with maturity proceeds paid…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Redemption of Commercial Paper",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026182331_SECPRedemption05112026.pdf",
+     "filed_at": "2026-11-05T18:23:47+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "62e71a43f493681e0f375bc671414fad3c7cc642",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-05T18:02:26+05:30",
+   "last_at": "2026-11-05T18:02:26+05:30",
+   "headline": "Certificate pursuant to SEBI Circular no. SEBI/HO/DDHS/P/CIR/2021/613 dated August 10, 2021",
+   "summary": "Titan Company issued Commercial Paper worth Rs. 13,750 crore in Q2 FY27, all for Working Capital purposes.",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Certificate pursuant to SEBI Circular no. SEBI/HO/DDHS/P/CIR/2021/613 dated August 10, 2021",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026180204_SECPQ2.pdf",
+     "filed_at": "2026-11-05T18:02:26+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "073ed9d6d3c0a380c35e599f794f0f1057effbc6",
    "symbol": "DIXON",
@@ -18,29 +210,6 @@
      "title": "Allotment of 37750 securities pursuant to ESOP/ESPS at its meeting held on November 05, 2026",
      "url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026171618_Reg30ESOPAllotmentNov.pdf",
      "filed_at": "2026-11-05T17:16:41+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "5abef19c3d3d993a07cf81f74e085dc7f4c2e4cf",
-   "symbol": "TITAN",
-   "company": "Titan Company Limited",
-   "category": "investor_meetings",
-   "tier": "routine",
-   "first_at": "2026-11-05T17:16:16+05:30",
-   "last_at": "2026-11-05T17:16:16+05:30",
-   "headline": "Investor Presentation",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Investor Presentation",
-     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026171559_SEinvestorpreQ227.pdf",
-     "filed_at": "2026-11-05T17:16:16+05:30"
     }
    ],
    "price_change_pct": null,
@@ -195,9 +364,9 @@
      "filed_at": "2026-11-05T14:01:30+05:30"
     }
    ],
-   "price_change_pct": -0.5,
-   "volume_multiple": 1.0,
-   "price_date": "2026-11-05"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "e5079d23710b88e8d76922292b1099e69cbe0ca2",
@@ -246,9 +415,9 @@
      "filed_at": "2026-11-04T21:01:36+05:30"
     }
    ],
-   "price_change_pct": 3.5,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-05"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "79ec73a27c745c545e440a67233231770ee960c9",
@@ -269,9 +438,9 @@
      "filed_at": "2026-11-04T20:47:14+05:30"
     }
    ],
-   "price_change_pct": 0.2,
-   "volume_multiple": 1.0,
-   "price_date": "2026-11-05"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "92ae5204706359d1c707c6ac6bee1b98d67fa39f",
@@ -292,9 +461,9 @@
      "filed_at": "2026-11-04T19:15:34+05:30"
     }
    ],
-   "price_change_pct": 3.1,
-   "volume_multiple": 2.0,
-   "price_date": "2026-11-05"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "5c0089132b760840b3bb4798be04250619006e86",
@@ -315,32 +484,9 @@
      "filed_at": "2026-11-04T18:51:07+05:30"
     }
    ],
-   "price_change_pct": 2.7,
-   "volume_multiple": 1.8,
-   "price_date": "2026-11-05"
-  },
-  {
-   "id": "4ebb01bcbd712f3c50434def6abdb09bef6275c0",
-   "symbol": "BHARTIARTL",
-   "company": "Bharti Airtel Limited",
-   "category": "press_release",
-   "tier": "notable",
-   "first_at": "2026-11-04T17:03:04+05:30",
-   "last_at": "2026-11-04T17:03:04+05:30",
-   "headline": "Updates",
-   "summary": "KFin Technologies Limited, the Registrar and Share Transfer Agent, is shifting its corporate office from Selenium Tower B, Gachibowli to…",
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Updates",
-     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026165700_BhartiAirtelSTXintimation.pdf",
-     "filed_at": "2026-11-04T17:03:04+05:30"
-    }
-   ],
-   "price_change_pct": -0.5,
-   "volume_multiple": 1.0,
-   "price_date": "2026-11-05"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "84a01234bc4393d22a7e07fc2b4d9263ce83a5a2",
@@ -361,9 +507,9 @@
      "filed_at": "2026-11-04T16:47:51+05:30"
     }
    ],
-   "price_change_pct": -0.5,
-   "volume_multiple": 1.0,
-   "price_date": "2026-11-05"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "428ee9ec542071ec6060849a0b36cbc6f6bb8ba7",

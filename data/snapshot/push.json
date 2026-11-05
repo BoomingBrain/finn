@@ -1,6 +1,186 @@
 {
- "as_of": "2026-11-05T18:00:17.487447+05:30",
+ "as_of": "2026-11-06T02:19:03.077710+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "973759ef2f294ceb5c5938ebefd6a40e1fa86ce7",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-11-05T23:30:49+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_05112026233015_PersistentSEOutcomeAllotmentofCPsNovember52026signed.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "5c651a9d7a393dbb322a1b122655831c98d13c08",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-05T20:33:40+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Analyst Call Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026203327_SEaudiocallQ227.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "5afdb46e71883cf74d9cbf22c3e8855d264b5f47",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-05T19:35:15+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about statement of deviation(s) or variation(s) under Reg. 32",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193500_STX_IntimationMAReport.pdf",
+    "raw_category": "Statement of deviation(s) or variation(s) under Reg. 32",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Bharti Airtel submitted a nil deviation statement for the quarter ended September 30, 2026, confirming that the First and Final Call…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f43838f29f162375f3f4a6d2b70d6c8c0992ce91",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-05T19:33:57+05:30",
+    "subject": "Monitoring Agency Report for the quarter ended September 30, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026193332_STX_IntimationMAReport.pdf",
+    "raw_category": "Monitoring Agency Report",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Axis Bank monitoring report for Bharti Airtel's Q2 FY27 partly paid-up equity shares shows nil deviation in utilization of Rs. 15,695.98…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "5229a701f9e86853676a267a900a7b464c3469d1",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-05T18:51:55+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Retirement of Mr. Noel N. Tata as Director and Vice-Chairman",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026185140_SENNTata.pdf",
+    "raw_category": "Retirement",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Noel N. Tata",
+    "role": "Non-Executive, Non-Independent Director and Vice-Chairman",
+    "change": "retired",
+    "effective_date": "12th November 2026",
+    "background": "",
+    "prior_roles": []
+   }
+  },
+  {
+   "announcement": {
+    "id": "0c9f60f951178cff6f94a12c3e38307b58a9d015",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-11-05T18:51:31+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange regarding Allotment of 1204 Shares under Avenue Supermarts Limited ESOP Scheme 2023",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_05112026185022_ASLESOPAllotment_05112026.pdf",
+    "raw_category": "ESOP/ESOS/ESPS",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6a76306c6eeb79fef772503c6be242ccc5e7f4fb",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-05T18:36:30+05:30",
+    "subject": "Titan Company Limited has informed the Exchange regarding Change in Auditors of the company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026183608_SEappoinmentofstatutoryauditor.pdf",
+    "raw_category": "Change in Auditors",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "M/s Price Waterhouse Chartered Accountants LLP",
+    "role": "Statutory Auditor",
+    "change": "appointed",
+    "effective_date": "from the conclusion of the 43rd Annual General Meeting until the conclusion of the 48th Annual General Meeting",
+    "background": "Price Waterhouse Chartered Accountants LLP, a firm of Chartered Accountants registered with the Institute of Chartered Accountants of India. The Firm was established in the year 1991 and was converted into a limited liability partnership in the year 2014.",
+    "prior_roles": [
+     "Chartered Accountants registered with the Institute of Chartered Accountants of India",
+     "Firm established in 1991",
+     "Converted into a limited liability partnership in 2014"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "51d8338824369a13b735e19e9897de5b4137a3e9",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-05T18:23:47+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Redemption of Commercial Paper",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026182331_SECPRedemption05112026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "notable",
+   "summary": "Titan Company fully redeemed ₹1,600 crore of Commercial Paper (ISIN: INE280A14609) issued on 7th August 2026, with maturity proceeds paid…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "62e71a43f493681e0f375bc671414fad3c7cc642",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-05T18:02:26+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Certificate pursuant to SEBI Circular no. SEBI/HO/DDHS/P/CIR/2021/613 dated August 10, 2021",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026180204_SECPQ2.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Titan Company issued Commercial Paper worth Rs. 13,750 crore in Q2 FY27, all for Working Capital purposes.",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "073ed9d6d3c0a380c35e599f794f0f1057effbc6",
