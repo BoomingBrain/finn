@@ -1,6 +1,204 @@
 {
- "as_of": "2026-11-05T12:30:11.019989+05:30",
+ "as_of": "2026-11-05T18:00:17.487447+05:30",
  "events": [
+  {
+   "id": "073ed9d6d3c0a380c35e599f794f0f1057effbc6",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-05T17:16:41+05:30",
+   "last_at": "2026-11-05T17:16:41+05:30",
+   "headline": "Allotment of 37750 securities pursuant to ESOP/ESPS at its meeting held on November 05, 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Allotment of 37750 securities pursuant to ESOP/ESPS at its meeting held on November 05, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026171618_Reg30ESOPAllotmentNov.pdf",
+     "filed_at": "2026-11-05T17:16:41+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "5abef19c3d3d993a07cf81f74e085dc7f4c2e4cf",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-05T17:16:16+05:30",
+   "last_at": "2026-11-05T17:16:16+05:30",
+   "headline": "Investor Presentation",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Investor Presentation",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026171559_SEinvestorpreQ227.pdf",
+     "filed_at": "2026-11-05T17:16:16+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "8bac297dfbcadbd01bf5369fa711ca877fd1d031",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-11-05T16:50:49+05:30",
+   "last_at": "2026-11-05T16:50:49+05:30",
+   "headline": "The financial results for the period ended September 30, 2026",
+   "summary": null,
+   "results": {
+    "status": "unreadable",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": null,
+    "metrics": {},
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null,
+   "documents": [
+    {
+     "title": "The financial results for the period ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf",
+     "filed_at": "2026-11-05T16:50:49+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "606388929d6825cf978fef326537eb8863094c59",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-11-05T16:36:21+05:30",
+   "last_at": "2026-11-05T16:36:21+05:30",
+   "headline": "Transcript",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_05112026163605_EarningCallTranscriptQ2Intimation.pdf",
+     "filed_at": "2026-11-05T16:36:21+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "ebc1a90f2630fef416dc434e441d9dad8da7eecd",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-11-05T16:20:40+05:30",
+   "last_at": "2026-11-05T16:25:56+05:30",
+   "headline": "Bharti Airtel Limited has informed the Exchange regarding Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026",
+   "summary": null,
+   "results": {
+    "status": "unreadable",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": null,
+    "metrics": {},
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null,
+   "documents": [
+    {
+     "title": "The financial results for the period ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162023_FR.pdf",
+     "filed_at": "2026-11-05T16:20:40+05:30"
+    },
+    {
+     "title": "A press release dated November 05, 2026, titled \"Bharti Airtel Limited has informed the Exchange regarding a press release dated November 5, 2026, titled financial results for second quarter (Q2) and six months ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162337_PR.pdf",
+     "filed_at": "2026-11-05T16:23:51+05:30"
+    },
+    {
+     "title": "Bharti Airtel Limited has informed the Exchange regarding Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162542_QR.pdf",
+     "filed_at": "2026-11-05T16:25:56+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "9d336461b179e95d5548ea1a75e74de8fa89897a",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-05T15:54:14+05:30",
+   "last_at": "2026-11-05T15:54:14+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_05112026155401_IntimationSE20261105_for_Analyst_and_Investor_meeting_Signed.pdf",
+     "filed_at": "2026-11-05T15:54:14+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "1232565df307b27522ea3be6e8597b1eb6df98f6",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-04T15:38:58+05:30",
+   "last_at": "2026-11-05T14:01:30+05:30",
+   "headline": "Newspaper advertisement in respect of the Second Reminder Notice for payment of First and Final call money on partly paid-up equity shares of the Company",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Newspaper advertisement in respect of the Second Reminder Notice for payment of First and Final call money on partly paid-up equity shares of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026153131_STXintimation.pdf",
+     "filed_at": "2026-11-04T15:38:58+05:30"
+    },
+    {
+     "title": "Copy of Newspaper Publication",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026140108_StxIntimation__2_.pdf",
+     "filed_at": "2026-11-05T14:01:30+05:30"
+    }
+   ],
+   "price_change_pct": -0.5,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-05"
+  },
   {
    "id": "e5079d23710b88e8d76922292b1099e69cbe0ca2",
    "symbol": "BHARTIARTL",
@@ -48,9 +246,9 @@
      "filed_at": "2026-11-04T21:01:36+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-05"
   },
   {
    "id": "79ec73a27c745c545e440a67233231770ee960c9",
@@ -71,9 +269,9 @@
      "filed_at": "2026-11-04T20:47:14+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.2,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-05"
   },
   {
    "id": "92ae5204706359d1c707c6ac6bee1b98d67fa39f",
@@ -94,9 +292,9 @@
      "filed_at": "2026-11-04T19:15:34+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.1,
+   "volume_multiple": 2.0,
+   "price_date": "2026-11-05"
   },
   {
    "id": "5c0089132b760840b3bb4798be04250619006e86",
@@ -117,9 +315,9 @@
      "filed_at": "2026-11-04T18:51:07+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.7,
+   "volume_multiple": 1.8,
+   "price_date": "2026-11-05"
   },
   {
    "id": "4ebb01bcbd712f3c50434def6abdb09bef6275c0",
@@ -140,9 +338,9 @@
      "filed_at": "2026-11-04T17:03:04+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-05"
   },
   {
    "id": "84a01234bc4393d22a7e07fc2b4d9263ce83a5a2",
@@ -163,32 +361,9 @@
      "filed_at": "2026-11-04T16:47:51+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "1232565df307b27522ea3be6e8597b1eb6df98f6",
-   "symbol": "BHARTIARTL",
-   "company": "Bharti Airtel Limited",
-   "category": "unclassified",
-   "tier": "routine",
-   "first_at": "2026-11-04T15:38:58+05:30",
-   "last_at": "2026-11-04T15:38:58+05:30",
-   "headline": "Newspaper advertisement in respect of the Second Reminder Notice for payment of First and Final call money on partly paid-up equity shares of the Company",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Newspaper advertisement in respect of the Second Reminder Notice for payment of First and Final call money on partly paid-up equity shares of the Company",
-     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_04112026153131_STXintimation.pdf",
-     "filed_at": "2026-11-04T15:38:58+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-05"
   },
   {
    "id": "428ee9ec542071ec6060849a0b36cbc6f6bb8ba7",
@@ -283,9 +458,9 @@
      "filed_at": "2026-11-04T11:15:41+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.8,
+   "volume_multiple": 0.9,
+   "price_date": "2026-11-04"
   },
   {
    "id": "5670da00c3924e8ee3ca86c8a22560c6faad2f6f",
@@ -444,9 +619,9 @@
      "filed_at": "2026-11-03T16:01:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.2,
+   "volume_multiple": 0.3,
+   "price_date": "2026-11-04"
   },
   {
    "id": "14cef83a2645b141133029e97dbfd8aeec8d897d",
