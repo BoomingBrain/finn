@@ -1,6 +1,136 @@
 {
- "as_of": "2026-11-06T17:43:48.606610+05:30",
+ "as_of": "2026-11-07T01:02:03.579671+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "e4588b9e90186499664ecaa3c4c3b5d0c1ae280e",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-11-06T22:27:43+05:30",
+    "subject": "HDFC Bank Limited has submitted the Exchange a copy Srutinizers report of Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "46e9a9046ede1eb5ee1fdecc84ef6a2f605fd574",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-11-06T22:06:58+05:30",
+    "subject": "Asian Paints Limited has informed the Exchange regarding Appointment of Mr Leo Puri as Independent Director of the company w.e.f. September 07, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026220521_SE_intimation_-_Appointment_of_ID.pdf",
+    "raw_category": "Appointment",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Leo Puri",
+    "role": "Independent Director",
+    "change": "appointed",
+    "effective_date": "7th September 2026",
+    "background": "Leo Puri holds a Bachelor of Arts degree from St. Stephen's College, Delhi and a Master's in Business Administration from the Faculty of Management Studies, Delhi. He has over 30 years of experience in the financial services industry.",
+    "prior_roles": [
+     "Senior Executive at Kotak Mahindra Bank",
+     "Senior Executive at HDFC Bank",
+     "Senior Executive at ICICI Bank"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "4149785be09a4f4a9f4a693c7b3bf90ea790f1f6",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-11-06T22:03:41+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_06112026220329_Intimationtostockexchange.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "712aa02a571af016d6d7232ac3e9c224fa1f24c8",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-11-06T22:02:45+05:30",
+    "subject": "Asian Paints Limited has informed the Exchange regarding Change in Director(s) of the company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026220150_SE_intimation_-_Appointment_of_ID.pdf",
+    "raw_category": "Change in Director(s)",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Leo Puri",
+    "role": "Independent Director",
+    "change": "appointed",
+    "effective_date": "7th September 2026",
+    "background": "Leo Puri holds a Bachelor of Arts degree from St. Stephen's College, Delhi and a Master's in Business Administration from the Faculty of Management Studies, Delhi. He has over 30 years of experience in the financial services industry.",
+    "prior_roles": [
+     "Senior Executive at Kotak Mahindra Bank",
+     "Senior Executive at HDFC Bank",
+     "Senior Executive at ICICI Bank"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "ddde65e0126cc7dc3819dffa67a9d6989078aea3",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-11-06T21:46:25+05:30",
+    "subject": "Please find enclosed the following: 1. Voting results of postal ballot pursuant to Regulation 44(3) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and 2. Scrutinizer s Report dated 6th November 2026 on remote e-Voting pursuant to Section 108 of the Companies Act, 2013 read with the Companies (Management and Administration) Rules, 2014",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026214436_SE_intimation_Result_of_Postal_ballot.pdf",
+    "raw_category": "Shareholders meeting",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1ef11544e66f3fe0a19eddf3e385f92e024846a9",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-11-06T19:10:58+05:30",
+    "subject": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - CLSA India Forum, scheduled to be held on November 16, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_06112026191022_Pre_CLSA_SE_06112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "9ad2c152e9d6ba0689543889f26a324bf3b66833",

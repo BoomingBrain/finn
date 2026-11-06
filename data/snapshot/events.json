@@ -1,6 +1,137 @@
 {
- "as_of": "2026-11-06T17:43:48.606610+05:30",
+ "as_of": "2026-11-07T01:02:03.579671+05:30",
  "events": [
+  {
+   "id": "e4588b9e90186499664ecaa3c4c3b5d0c1ae280e",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "first_at": "2026-11-06T22:27:43+05:30",
+   "last_at": "2026-11-06T22:27:43+05:30",
+   "headline": "Voting results",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Voting results",
+     "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_06112026222722_SEIntimation_PBResults_06112026.pdf",
+     "filed_at": "2026-11-06T22:27:43+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "712aa02a571af016d6d7232ac3e9c224fa1f24c8",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "category": "management_change",
+   "tier": "critical",
+   "first_at": "2026-11-06T22:02:45+05:30",
+   "last_at": "2026-11-06T22:06:58+05:30",
+   "headline": "Change in Director(s) of the company",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Leo Puri",
+    "role": "Independent Director",
+    "change": "appointed",
+    "effective_date": "7th September 2026",
+    "background": "Leo Puri holds a Bachelor of Arts degree from St. Stephen's College, Delhi and a Master's in Business Administration from the Faculty of Management Studies, Delhi. He has over 30 years of experience in the financial services industry.",
+    "prior_roles": [
+     "Senior Executive at Kotak Mahindra Bank",
+     "Senior Executive at HDFC Bank",
+     "Senior Executive at ICICI Bank"
+    ]
+   },
+   "documents": [
+    {
+     "title": "Change in Director(s) of the company",
+     "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026220150_SE_intimation_-_Appointment_of_ID.pdf",
+     "filed_at": "2026-11-06T22:02:45+05:30"
+    },
+    {
+     "title": "Appointment of Mr Leo Puri as Independent Director of the company w.e.f. September 07, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026220521_SE_intimation_-_Appointment_of_ID.pdf",
+     "filed_at": "2026-11-06T22:06:58+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "4149785be09a4f4a9f4a693c7b3bf90ea790f1f6",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-06T22:03:41+05:30",
+   "last_at": "2026-11-06T22:03:41+05:30",
+   "headline": "Analyst(s)/Investor(s) meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Analyst(s)/Investor(s) meet",
+     "url": "https://nsearchives.nseindia.com/corporate/POLYCAB_06112026220329_Intimationtostockexchange.pdf",
+     "filed_at": "2026-11-06T22:03:41+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "ddde65e0126cc7dc3819dffa67a9d6989078aea3",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "first_at": "2026-11-06T21:46:25+05:30",
+   "last_at": "2026-11-06T21:46:25+05:30",
+   "headline": "Please find enclosed the following: 1. Voting results of postal ballot pursuant to Regulation 44(3) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and 2. Scrutinizer s Report dated 6th November 2026 on remote e-Voting pursuant to Section 108 of the Companies Act, 2013 read with the Companies (Management and Administration) Rules, 2014",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Please find enclosed the following: 1. Voting results of postal ballot pursuant to Regulation 44(3) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and 2. Scrutinizer s Report dated 6th November 2026 on remote e-Voting pursuant to Section 108 of the Companies Act, 2013 read with the Companies (Management and Administration) Rules, 2014",
+     "url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06112026214436_SE_intimation_Result_of_Postal_ballot.pdf",
+     "filed_at": "2026-11-06T21:46:25+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "1ef11544e66f3fe0a19eddf3e385f92e024846a9",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-06T19:10:58+05:30",
+   "last_at": "2026-11-06T19:10:58+05:30",
+   "headline": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - CLSA India Forum, scheduled to be held on November 16, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - CLSA India Forum, scheduled to be held on November 16, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_06112026191022_Pre_CLSA_SE_06112026.pdf",
+     "filed_at": "2026-11-06T19:10:58+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "8bac297dfbcadbd01bf5369fa711ca877fd1d031",
    "symbol": "TITAN",
@@ -36,9 +167,9 @@
      "filed_at": "2026-11-06T16:56:24+05:30"
     }
    ],
-   "price_change_pct": 3.4,
-   "volume_multiple": 5.6,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "8be1d4f6e120453f37fc5016a6bf6bdfc4528ded",
@@ -114,9 +245,9 @@
      "filed_at": "2026-11-06T15:21:56+05:30"
     }
    ],
-   "price_change_pct": 3.7,
-   "volume_multiple": 2.3,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "a8b33b59430831bbd41a726a67266931806f6acb",
@@ -137,9 +268,9 @@
      "filed_at": "2026-11-06T14:50:32+05:30"
     }
    ],
-   "price_change_pct": 2.4,
-   "volume_multiple": 1.8,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "ebc1a90f2630fef416dc434e441d9dad8da7eecd",
@@ -186,9 +317,9 @@
      "filed_at": "2026-11-06T13:04:48+05:30"
     }
    ],
-   "price_change_pct": 2.4,
-   "volume_multiple": 1.8,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "b5991a1fe5ba2c54b73bd69581b8e695eecb4723",
@@ -209,9 +340,9 @@
      "filed_at": "2026-11-06T10:35:35+05:30"
     }
    ],
-   "price_change_pct": 0.8,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "973759ef2f294ceb5c5938ebefd6a40e1fa86ce7",
@@ -232,9 +363,9 @@
      "filed_at": "2026-11-05T23:30:49+05:30"
     }
    ],
-   "price_change_pct": -0.9,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "5abef19c3d3d993a07cf81f74e085dc7f4c2e4cf",
@@ -260,9 +391,9 @@
      "filed_at": "2026-11-05T20:33:40+05:30"
     }
    ],
-   "price_change_pct": 3.4,
-   "volume_multiple": 5.6,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "4ebb01bcbd712f3c50434def6abdb09bef6275c0",
@@ -332,9 +463,9 @@
      "filed_at": "2026-11-05T18:51:55+05:30"
     }
    ],
-   "price_change_pct": 3.4,
-   "volume_multiple": 5.6,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "0c9f60f951178cff6f94a12c3e38307b58a9d015",
@@ -355,9 +486,9 @@
      "filed_at": "2026-11-05T18:51:31+05:30"
     }
    ],
-   "price_change_pct": 0.1,
-   "volume_multiple": 0.4,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "51d8338824369a13b735e19e9897de5b4137a3e9",
@@ -378,9 +509,9 @@
      "filed_at": "2026-11-05T18:23:47+05:30"
     }
    ],
-   "price_change_pct": 3.4,
-   "volume_multiple": 5.6,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "62e71a43f493681e0f375bc671414fad3c7cc642",
@@ -401,9 +532,9 @@
      "filed_at": "2026-11-05T18:02:26+05:30"
     }
    ],
-   "price_change_pct": 3.4,
-   "volume_multiple": 5.6,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "073ed9d6d3c0a380c35e599f794f0f1057effbc6",
@@ -424,9 +555,9 @@
      "filed_at": "2026-11-05T17:16:41+05:30"
     }
    ],
-   "price_change_pct": 0.1,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "606388929d6825cf978fef326537eb8863094c59",
@@ -447,9 +578,9 @@
      "filed_at": "2026-11-05T16:36:21+05:30"
     }
    ],
-   "price_change_pct": 0.1,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "9d336461b179e95d5548ea1a75e74de8fa89897a",
@@ -470,9 +601,9 @@
      "filed_at": "2026-11-05T15:54:14+05:30"
     }
    ],
-   "price_change_pct": 1.7,
-   "volume_multiple": 1.1,
-   "price_date": "2026-11-06"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "1232565df307b27522ea3be6e8597b1eb6df98f6",
