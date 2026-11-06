@@ -1,6 +1,42 @@
 {
- "as_of": "2026-11-06T02:19:03.077710+05:30",
+ "as_of": "2026-11-06T14:05:56.476391+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "40fbdd7b2aa6853d19d40094946c7b6a307da75b",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-06T13:04:48+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Publication of Newspaper Advertisements w.r.t Audited Financial Results for the second quarter (Q2) and six months ended September 30, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026130412_StxIntimationNewspaperAdv.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b5991a1fe5ba2c54b73bd69581b8e695eecb4723",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-11-06T10:35:35+05:30",
+    "subject": "Trent Limited has informed the Exchange about Intimation of schedule of Analyst / Institutional Investors Meeting",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_06112026103411_Investor_Analyst_Meeting_06112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "973759ef2f294ceb5c5938ebefd6a40e1fa86ce7",

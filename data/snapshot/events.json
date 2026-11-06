@@ -1,6 +1,78 @@
 {
- "as_of": "2026-11-06T02:19:03.077710+05:30",
+ "as_of": "2026-11-06T14:05:56.476391+05:30",
  "events": [
+  {
+   "id": "ebc1a90f2630fef416dc434e441d9dad8da7eecd",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-11-05T16:20:40+05:30",
+   "last_at": "2026-11-06T13:04:48+05:30",
+   "headline": "Bharti Airtel Limited has informed the Exchange regarding Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026",
+   "summary": null,
+   "results": {
+    "status": "unreadable",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": null,
+    "metrics": {},
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null,
+   "documents": [
+    {
+     "title": "The financial results for the period ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162023_FR.pdf",
+     "filed_at": "2026-11-05T16:20:40+05:30"
+    },
+    {
+     "title": "A press release dated November 05, 2026, titled \"Bharti Airtel Limited has informed the Exchange regarding a press release dated November 5, 2026, titled financial results for second quarter (Q2) and six months ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162337_PR.pdf",
+     "filed_at": "2026-11-05T16:23:51+05:30"
+    },
+    {
+     "title": "Bharti Airtel Limited has informed the Exchange regarding Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162542_QR.pdf",
+     "filed_at": "2026-11-05T16:25:56+05:30"
+    },
+    {
+     "title": "Publication of Newspaper Advertisements w.r.t Audited Financial Results for the second quarter (Q2) and six months ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026130412_StxIntimationNewspaperAdv.pdf",
+     "filed_at": "2026-11-06T13:04:48+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "b5991a1fe5ba2c54b73bd69581b8e695eecb4723",
+   "symbol": "TRENT",
+   "company": "Trent Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-06T10:35:35+05:30",
+   "last_at": "2026-11-06T10:35:35+05:30",
+   "headline": "Intimation of schedule of Analyst / Institutional Investors Meeting",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Intimation of schedule of Analyst / Institutional Investors Meeting",
+     "url": "https://nsearchives.nseindia.com/corporate/TRENT_06112026103411_Investor_Analyst_Meeting_06112026.pdf",
+     "filed_at": "2026-11-06T10:35:35+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "973759ef2f294ceb5c5938ebefd6a40e1fa86ce7",
    "symbol": "PERSISTENT",
@@ -81,9 +153,9 @@
      "filed_at": "2026-11-05T19:35:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-05"
   },
   {
    "id": "6a76306c6eeb79fef772503c6be242ccc5e7f4fb",
@@ -274,50 +346,6 @@
    "price_date": null
   },
   {
-   "id": "ebc1a90f2630fef416dc434e441d9dad8da7eecd",
-   "symbol": "BHARTIARTL",
-   "company": "Bharti Airtel Limited",
-   "category": "results",
-   "tier": "critical",
-   "first_at": "2026-11-05T16:20:40+05:30",
-   "last_at": "2026-11-05T16:25:56+05:30",
-   "headline": "Bharti Airtel Limited has informed the Exchange regarding Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026",
-   "summary": null,
-   "results": {
-    "status": "unreadable",
-    "layout": "corporate",
-    "basis": "consolidated",
-    "period_end": null,
-    "metrics": {},
-    "not_applicable": [],
-    "missing": [],
-    "verified": null,
-    "mismatches": [],
-    "unit": "₹ Cr"
-   },
-   "profile": null,
-   "documents": [
-    {
-     "title": "The financial results for the period ended September 30, 2026",
-     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162023_FR.pdf",
-     "filed_at": "2026-11-05T16:20:40+05:30"
-    },
-    {
-     "title": "A press release dated November 05, 2026, titled \"Bharti Airtel Limited has informed the Exchange regarding a press release dated November 5, 2026, titled financial results for second quarter (Q2) and six months ended September 30, 2026",
-     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162337_PR.pdf",
-     "filed_at": "2026-11-05T16:23:51+05:30"
-    },
-    {
-     "title": "Bharti Airtel Limited has informed the Exchange regarding Quarterly Report w.r.t. Financial Results second quarter (Q2) and six months ended September 30, 2026",
-     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_05112026162542_QR.pdf",
-     "filed_at": "2026-11-05T16:25:56+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
    "id": "9d336461b179e95d5548ea1a75e74de8fa89897a",
    "symbol": "SUNPHARMA",
    "company": "Sun Pharmaceutical Industries Limited",
@@ -364,9 +392,9 @@
      "filed_at": "2026-11-05T14:01:30+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-05"
   },
   {
    "id": "e5079d23710b88e8d76922292b1099e69cbe0ca2",
@@ -415,9 +443,9 @@
      "filed_at": "2026-11-04T21:01:36+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-05"
   },
   {
    "id": "79ec73a27c745c545e440a67233231770ee960c9",
@@ -438,9 +466,9 @@
      "filed_at": "2026-11-04T20:47:14+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.2,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-05"
   },
   {
    "id": "92ae5204706359d1c707c6ac6bee1b98d67fa39f",
@@ -461,9 +489,9 @@
      "filed_at": "2026-11-04T19:15:34+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.1,
+   "volume_multiple": 2.0,
+   "price_date": "2026-11-05"
   },
   {
    "id": "5c0089132b760840b3bb4798be04250619006e86",
@@ -484,9 +512,9 @@
      "filed_at": "2026-11-04T18:51:07+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.7,
+   "volume_multiple": 1.8,
+   "price_date": "2026-11-05"
   },
   {
    "id": "84a01234bc4393d22a7e07fc2b4d9263ce83a5a2",
@@ -507,9 +535,9 @@
      "filed_at": "2026-11-04T16:47:51+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-05"
   },
   {
    "id": "428ee9ec542071ec6060849a0b36cbc6f6bb8ba7",
