@@ -1,6 +1,146 @@
 {
- "as_of": "2026-11-06T14:05:56.476391+05:30",
+ "as_of": "2026-11-06T17:43:48.606610+05:30",
  "events": [
+  {
+   "id": "8bac297dfbcadbd01bf5369fa711ca877fd1d031",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-11-05T16:50:49+05:30",
+   "last_at": "2026-11-06T16:56:24+05:30",
+   "headline": "The financial results for the period ended September 30, 2026",
+   "summary": null,
+   "results": {
+    "status": "unreadable",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": null,
+    "metrics": {},
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null,
+   "documents": [
+    {
+     "title": "The financial results for the period ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf",
+     "filed_at": "2026-11-05T16:50:49+05:30"
+    },
+    {
+     "title": "Newspaper publication for Unaudited financial results for the second quarter and halfyear ended 30th September 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_06112026165556_SEnewspaperadresultQ2-combined.pdf",
+     "filed_at": "2026-11-06T16:56:24+05:30"
+    }
+   ],
+   "price_change_pct": 3.4,
+   "volume_multiple": 5.6,
+   "price_date": "2026-11-06"
+  },
+  {
+   "id": "8be1d4f6e120453f37fc5016a6bf6bdfc4528ded",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-11-06T16:11:04+05:30",
+   "last_at": "2026-11-06T16:11:04+05:30",
+   "headline": "Link of Recording",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Link of Recording",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026160637_BhartiAirtelSTXdisclosure.pdf",
+     "filed_at": "2026-11-06T16:11:04+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "629bc45648078ab9b5e810a3dfde62c4d7a17ad1",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-06T15:36:59+05:30",
+   "last_at": "2026-11-06T15:36:59+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.com/corporate/PAM_06112026153645_AnalystMeetIntimation06112026.pdf",
+     "filed_at": "2026-11-06T15:36:59+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "404d5ea5cc14bb48663ff057c320ab1c2db9d6cd",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "category": "management_change",
+   "tier": "critical",
+   "first_at": "2026-11-06T15:21:56+05:30",
+   "last_at": "2026-11-06T15:21:56+05:30",
+   "headline": "Change in Management",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. V. N. Srivatsan",
+    "role": "Chief Compliance Officer",
+    "change": "appointed",
+    "effective_date": "November 6, 2026",
+    "background": "Mr. V. N. Srivatsan has approximately 34 years of overall professional experience, including around 25 years in the BFSI sector and close to 10 years of direct experience in Compliance and Regulatory Inspection.",
+    "prior_roles": [
+     "Head – Compliance: Overseas Banking and Subsidiaries & Data Privacy Officer at ICICI Bank Limited"
+    ]
+   },
+   "documents": [
+    {
+     "title": "Change in Management",
+     "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_06112026152141_SE_Intimation-Srivatsan.pdf",
+     "filed_at": "2026-11-06T15:21:56+05:30"
+    }
+   ],
+   "price_change_pct": 3.7,
+   "volume_multiple": 2.3,
+   "price_date": "2026-11-06"
+  },
+  {
+   "id": "a8b33b59430831bbd41a726a67266931806f6acb",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "litigation",
+   "tier": "critical",
+   "first_at": "2026-11-06T14:50:32+05:30",
+   "last_at": "2026-11-06T14:50:32+05:30",
+   "headline": "Action(s) taken or orders passed",
+   "summary": "Airtel received two DoT penalty notices on Nov 5, 2026: Rs. 1.6 lakh for J&K LSA subscriber verification violation and Rs. 1.02 lakh for…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Action(s) taken or orders passed",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026144741_BhartiAirtelReg30disclosure.pdf",
+     "filed_at": "2026-11-06T14:50:32+05:30"
+    }
+   ],
+   "price_change_pct": 2.4,
+   "volume_multiple": 1.8,
+   "price_date": "2026-11-06"
+  },
   {
    "id": "ebc1a90f2630fef416dc434e441d9dad8da7eecd",
    "symbol": "BHARTIARTL",
@@ -46,9 +186,9 @@
      "filed_at": "2026-11-06T13:04:48+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.4,
+   "volume_multiple": 1.8,
+   "price_date": "2026-11-06"
   },
   {
    "id": "b5991a1fe5ba2c54b73bd69581b8e695eecb4723",
@@ -69,9 +209,9 @@
      "filed_at": "2026-11-06T10:35:35+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.8,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-06"
   },
   {
    "id": "973759ef2f294ceb5c5938ebefd6a40e1fa86ce7",
@@ -92,9 +232,9 @@
      "filed_at": "2026-11-05T23:30:49+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.9,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-06"
   },
   {
    "id": "5abef19c3d3d993a07cf81f74e085dc7f4c2e4cf",
@@ -120,9 +260,9 @@
      "filed_at": "2026-11-05T20:33:40+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.4,
+   "volume_multiple": 5.6,
+   "price_date": "2026-11-06"
   },
   {
    "id": "4ebb01bcbd712f3c50434def6abdb09bef6275c0",
@@ -192,9 +332,9 @@
      "filed_at": "2026-11-05T18:51:55+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.4,
+   "volume_multiple": 5.6,
+   "price_date": "2026-11-06"
   },
   {
    "id": "0c9f60f951178cff6f94a12c3e38307b58a9d015",
@@ -215,9 +355,9 @@
      "filed_at": "2026-11-05T18:51:31+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.1,
+   "volume_multiple": 0.4,
+   "price_date": "2026-11-06"
   },
   {
    "id": "51d8338824369a13b735e19e9897de5b4137a3e9",
@@ -238,9 +378,9 @@
      "filed_at": "2026-11-05T18:23:47+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.4,
+   "volume_multiple": 5.6,
+   "price_date": "2026-11-06"
   },
   {
    "id": "62e71a43f493681e0f375bc671414fad3c7cc642",
@@ -261,9 +401,9 @@
      "filed_at": "2026-11-05T18:02:26+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.4,
+   "volume_multiple": 5.6,
+   "price_date": "2026-11-06"
   },
   {
    "id": "073ed9d6d3c0a380c35e599f794f0f1057effbc6",
@@ -284,43 +424,9 @@
      "filed_at": "2026-11-05T17:16:41+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "8bac297dfbcadbd01bf5369fa711ca877fd1d031",
-   "symbol": "TITAN",
-   "company": "Titan Company Limited",
-   "category": "results",
-   "tier": "critical",
-   "first_at": "2026-11-05T16:50:49+05:30",
-   "last_at": "2026-11-05T16:50:49+05:30",
-   "headline": "The financial results for the period ended September 30, 2026",
-   "summary": null,
-   "results": {
-    "status": "unreadable",
-    "layout": "corporate",
-    "basis": "consolidated",
-    "period_end": null,
-    "metrics": {},
-    "not_applicable": [],
-    "missing": [],
-    "verified": null,
-    "mismatches": [],
-    "unit": "₹ Cr"
-   },
-   "profile": null,
-   "documents": [
-    {
-     "title": "The financial results for the period ended September 30, 2026",
-     "url": "https://nsearchives.nseindia.com/corporate/TITAN_05112026165028_SEoutcomeQ227.pdf",
-     "filed_at": "2026-11-05T16:50:49+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.1,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-06"
   },
   {
    "id": "606388929d6825cf978fef326537eb8863094c59",
@@ -341,9 +447,9 @@
      "filed_at": "2026-11-05T16:36:21+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.1,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-06"
   },
   {
    "id": "9d336461b179e95d5548ea1a75e74de8fa89897a",
@@ -364,9 +470,9 @@
      "filed_at": "2026-11-05T15:54:14+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.7,
+   "volume_multiple": 1.1,
+   "price_date": "2026-11-06"
   },
   {
    "id": "1232565df307b27522ea3be6e8597b1eb6df98f6",

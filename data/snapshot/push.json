@@ -1,6 +1,105 @@
 {
- "as_of": "2026-11-06T14:05:56.476391+05:30",
+ "as_of": "2026-11-06T17:43:48.606610+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "9ad2c152e9d6ba0689543889f26a324bf3b66833",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-06T16:56:24+05:30",
+    "subject": "Newspaper publication for Unaudited financial results for the second quarter and halfyear ended 30th September 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_06112026165556_SEnewspaperadresultQ2-combined.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8be1d4f6e120453f37fc5016a6bf6bdfc4528ded",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-06T16:11:04+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Link of Recording",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026160637_BhartiAirtelSTXdisclosure.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "629bc45648078ab9b5e810a3dfde62c4d7a17ad1",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-11-06T15:36:59+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_06112026153645_AnalystMeetIntimation06112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "404d5ea5cc14bb48663ff057c320ab1c2db9d6cd",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-11-06T15:21:56+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about change in Management",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_06112026152141_SE_Intimation-Srivatsan.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. V. N. Srivatsan",
+    "role": "Chief Compliance Officer",
+    "change": "appointed",
+    "effective_date": "November 6, 2026",
+    "background": "Mr. V. N. Srivatsan has approximately 34 years of overall professional experience, including around 25 years in the BFSI sector and close to 10 years of direct experience in Compliance and Regulatory Inspection.",
+    "prior_roles": [
+     "Head – Compliance: Overseas Banking and Subsidiaries & Data Privacy Officer at ICICI Bank Limited"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "a8b33b59430831bbd41a726a67266931806f6acb",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-06T14:50:32+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_06112026144741_BhartiAirtelReg30disclosure.pdf",
+    "raw_category": "Action(s) taken or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "Airtel received two DoT penalty notices on Nov 5, 2026: Rs. 1.6 lakh for J&K LSA subscriber verification violation and Rs. 1.02 lakh for…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "40fbdd7b2aa6853d19d40094946c7b6a307da75b",
