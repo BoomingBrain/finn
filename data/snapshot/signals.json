@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-08T20:52:33.535310+05:30",
+ "as_of": "2026-11-08T23:59:54.399813+05:30",
  "names": {
   "RELIANCE": "Reliance Industries",
   "HDFCBANK": "HDFC Bank",
@@ -2190,7 +2190,7 @@
     "date": "2026-11-08",
     "close": 4110.0,
     "change_pct": -0.19,
-    "volume_multiple": 0.13
+    "volume_multiple": 0.14
    }
   ],
   "SUNPHARMA": [
