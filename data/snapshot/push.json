@@ -1,6 +1,42 @@
 {
- "as_of": "2026-11-09T15:55:52.729089+05:30",
+ "as_of": "2026-11-09T18:30:52.854171+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "e9f2edd7cead8d32b5dea48ab68c91ac55dfc7d7",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-11-09T18:11:20+05:30",
+    "subject": "The Company will be participating in the analyst/institutional investor conferences/meetings on 18th and 19th November 2026 as per enclosed schedule.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_09112026175712_SEINTIMATIONANALYSTMEETSNOV2026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "bdce48222275f296ea5e1af173efe7377c2db70f",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-11-09T16:56:39+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about Repayment of Commercial Paper",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_09112026165607_RedemptionofCP_09112026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "notable",
+   "summary": "Avenue Supermarts repaid 6,000 commercial papers (ISIN INE192R14360) worth Rs. 300 crores at maturity on 9th November 2026, leaving…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "97d50fde7fb15b867104d04ff0bef3754ab2a972",
