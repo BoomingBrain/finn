@@ -1,6 +1,78 @@
 {
- "as_of": "2026-11-08T23:59:54.399813+05:30",
+ "as_of": "2026-11-09T15:55:52.729089+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "97d50fde7fb15b867104d04ff0bef3754ab2a972",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-09T15:06:51+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Redemption of Commercial Paper",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_09112026150627_SECPRedemption09112026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "notable",
+   "summary": "Titan Company fully redeemed ₹850 crore of Commercial Paper issued on 11th and 15th September 2026, with maturity proceeds paid to holders…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "3e0e962808d1519645c20cedac0dee631a1488e6",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-09T14:58:25+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_09112026145809_SEintimation_9_Nov_26.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "10a4bbe7973d9c9fc5392b4b5c9ede69959040f1",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-11-09T13:00:58+05:30",
+    "subject": "Trent Limited has informed the Exchange about intimation of schedule of Analyst / Institutional Investors Meetings",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_09112026125235_Investor_Analyst_Meeting_09112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "b86b38cc5264ed562c08b17c11e75a8ca663096c",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-11-09T10:37:33+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/PAM_09112026103717_PressRelease09112026.pdf",
+    "raw_category": "Bagging/Receiving of orders/contracts",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "L&T's Heavy Civil Infrastructure unit secured a significant order from Noida Metro for the Aqua Line Extension, covering 15.1 km of…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "bfb01d08d78ef6ee5169b6611fa035fe6cd59d38",

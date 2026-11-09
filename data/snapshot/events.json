@@ -1,6 +1,98 @@
 {
- "as_of": "2026-11-08T23:59:54.399813+05:30",
+ "as_of": "2026-11-09T15:55:52.729089+05:30",
  "events": [
+  {
+   "id": "97d50fde7fb15b867104d04ff0bef3754ab2a972",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "fund_raise",
+   "tier": "notable",
+   "first_at": "2026-11-09T15:06:51+05:30",
+   "last_at": "2026-11-09T15:06:51+05:30",
+   "headline": "Redemption of Commercial Paper",
+   "summary": "Titan Company fully redeemed ₹850 crore of Commercial Paper issued on 11th and 15th September 2026, with maturity proceeds paid to holders…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Redemption of Commercial Paper",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_09112026150627_SECPRedemption09112026.pdf",
+     "filed_at": "2026-11-09T15:06:51+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "3e0e962808d1519645c20cedac0dee631a1488e6",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-09T14:58:25+05:30",
+   "last_at": "2026-11-09T14:58:25+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_09112026145809_SEintimation_9_Nov_26.pdf",
+     "filed_at": "2026-11-09T14:58:25+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "10a4bbe7973d9c9fc5392b4b5c9ede69959040f1",
+   "symbol": "TRENT",
+   "company": "Trent Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-09T13:00:58+05:30",
+   "last_at": "2026-11-09T13:00:58+05:30",
+   "headline": "Intimation of schedule of Analyst / Institutional Investors Meetings",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Intimation of schedule of Analyst / Institutional Investors Meetings",
+     "url": "https://nsearchives.nseindia.com/corporate/TRENT_09112026125235_Investor_Analyst_Meeting_09112026.pdf",
+     "filed_at": "2026-11-09T13:00:58+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "b86b38cc5264ed562c08b17c11e75a8ca663096c",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-09T10:37:33+05:30",
+   "last_at": "2026-11-09T10:37:33+05:30",
+   "headline": "Bagging/Receiving of orders/contracts",
+   "summary": "L&T's Heavy Civil Infrastructure unit secured a significant order from Noida Metro for the Aqua Line Extension, covering 15.1 km of…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/PAM_09112026103717_PressRelease09112026.pdf",
+     "filed_at": "2026-11-09T10:37:33+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "bfb01d08d78ef6ee5169b6611fa035fe6cd59d38",
    "symbol": "BAJFINANCE",
@@ -20,9 +112,9 @@
      "filed_at": "2026-11-07T16:41:29+05:30"
     }
    ],
-   "price_change_pct": -0.6,
-   "volume_multiple": 0.1,
-   "price_date": "2026-11-08"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "e4588b9e90186499664ecaa3c4c3b5d0c1ae280e",
@@ -43,9 +135,9 @@
      "filed_at": "2026-11-06T22:27:43+05:30"
     }
    ],
-   "price_change_pct": -0.5,
-   "volume_multiple": 0.2,
-   "price_date": "2026-11-08"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "712aa02a571af016d6d7232ac3e9c224fa1f24c8",
@@ -82,9 +174,9 @@
      "filed_at": "2026-11-06T22:06:58+05:30"
     }
    ],
-   "price_change_pct": -0.7,
-   "volume_multiple": 0.1,
-   "price_date": "2026-11-08"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "4149785be09a4f4a9f4a693c7b3bf90ea790f1f6",
@@ -105,9 +197,9 @@
      "filed_at": "2026-11-06T22:03:41+05:30"
     }
    ],
-   "price_change_pct": -0.4,
-   "volume_multiple": 0.1,
-   "price_date": "2026-11-08"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "ddde65e0126cc7dc3819dffa67a9d6989078aea3",
@@ -128,9 +220,9 @@
      "filed_at": "2026-11-06T21:46:25+05:30"
     }
    ],
-   "price_change_pct": -0.7,
-   "volume_multiple": 0.1,
-   "price_date": "2026-11-08"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "1ef11544e66f3fe0a19eddf3e385f92e024846a9",
@@ -151,9 +243,9 @@
      "filed_at": "2026-11-06T19:10:58+05:30"
     }
    ],
-   "price_change_pct": 0.3,
-   "volume_multiple": 0.2,
-   "price_date": "2026-11-08"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "8bac297dfbcadbd01bf5369fa711ca877fd1d031",
@@ -213,9 +305,9 @@
      "filed_at": "2026-11-06T16:11:04+05:30"
     }
    ],
-   "price_change_pct": -1.0,
-   "volume_multiple": 0.0,
-   "price_date": "2026-11-08"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "629bc45648078ab9b5e810a3dfde62c4d7a17ad1",
@@ -236,9 +328,9 @@
      "filed_at": "2026-11-06T15:36:59+05:30"
     }
    ],
-   "price_change_pct": -0.2,
-   "volume_multiple": 0.1,
-   "price_date": "2026-11-08"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "404d5ea5cc14bb48663ff057c320ab1c2db9d6cd",
