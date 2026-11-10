@@ -1,6 +1,42 @@
 {
- "as_of": "2026-11-10T09:09:04.123895+05:30",
+ "as_of": "2026-11-10T17:22:13.487245+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "408e511925deceb4fd7459c990e65280d25cb4d2",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-11-10T12:58:49+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange regarding allotment of 5,74,25,740 securities pursuant to Preferential Issue at its meeting held on November 10, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10112026125828_BFL_Reg_30__Allotment_of_warrants_Final_1.pdf",
+    "raw_category": "Allotment of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Bajaj Finance allotted 5,74,25,740 warrants convertible into equity shares at Rs. 1,010 each to Bajaj Finserv Limited, increasing its…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "be3ee6526bee21b5efd88d3b4f593bb2e20602a4",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-11-10T12:15:58+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange regarding Outcome of PI 2026 - Special Committee Meeting held on November 10, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10112026121523_BFL_Reg_30_Outcome_PricingofPIpostVRFinal.pdf",
+    "raw_category": "Committee Meeting Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Bajaj Finance approved a preferential issue of 5.74 crore warrants to Bajaj Finserv Limited at ₹1,010 each, aggregating ₹57.99 billion.",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "e9f2edd7cead8d32b5dea48ab68c91ac55dfc7d7",
