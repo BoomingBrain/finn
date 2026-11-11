@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-11T12:15:18.835907+05:30",
+ "as_of": "2026-11-11T17:27:03.662586+05:30",
  "events": [
   {
    "id": "408e511925deceb4fd7459c990e65280d25cb4d2",
@@ -8,7 +8,7 @@
    "category": "fund_raise",
    "tier": "critical",
    "first_at": "2026-11-10T12:58:49+05:30",
-   "last_at": "2026-11-10T12:58:49+05:30",
+   "last_at": "2026-11-11T17:13:26+05:30",
    "headline": "Allotment of 5,74,25,740 securities pursuant to Preferential Issue at its meeting held on November 10, 2026",
    "summary": "Bajaj Finance allotted 5,74,25,740 warrants convertible into equity shares at Rs. 1,010 each to Bajaj Finserv Limited, increasing its…",
    "results": null,
@@ -18,11 +18,39 @@
      "title": "Allotment of 5,74,25,740 securities pursuant to Preferential Issue at its meeting held on November 10, 2026",
      "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10112026125828_BFL_Reg_30__Allotment_of_warrants_Final_1.pdf",
      "filed_at": "2026-11-10T12:58:49+05:30"
+    },
+    {
+     "title": "Outcome of QIP 2026 - Special Committee meeting",
+     "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_11112026171309_SEintimationopeningofissue.pdf",
+     "filed_at": "2026-11-11T17:13:26+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.3,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-11"
+  },
+  {
+   "id": "babd5146c06fe395630d61025c452d8b00dfab4f",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-11-11T14:39:56+05:30",
+   "last_at": "2026-11-11T14:39:56+05:30",
+   "headline": "Earnings Call Transcripts",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Earnings Call Transcripts",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_11112026143915_SEearningcalltranscriptsQ2.pdf",
+     "filed_at": "2026-11-11T14:39:56+05:30"
+    }
+   ],
+   "price_change_pct": -0.7,
+   "volume_multiple": 1.9,
+   "price_date": "2026-11-11"
   },
   {
    "id": "be3ee6526bee21b5efd88d3b4f593bb2e20602a4",
@@ -43,9 +71,9 @@
      "filed_at": "2026-11-10T12:15:58+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.3,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-11"
   },
   {
    "id": "e9f2edd7cead8d32b5dea48ab68c91ac55dfc7d7",
@@ -66,9 +94,9 @@
      "filed_at": "2026-11-09T18:11:20+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.6,
+   "volume_multiple": 1.2,
+   "price_date": "2026-11-11"
   },
   {
    "id": "bdce48222275f296ea5e1af173efe7377c2db70f",
@@ -89,9 +117,9 @@
      "filed_at": "2026-11-09T16:56:39+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.0,
+   "volume_multiple": 0.4,
+   "price_date": "2026-11-11"
   },
   {
    "id": "97d50fde7fb15b867104d04ff0bef3754ab2a972",
