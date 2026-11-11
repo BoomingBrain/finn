@@ -1,11 +1,11 @@
 {
  "symbol": "TITAN",
  "name": "Titan Company Ltd",
- "built_at": "2026-11-05T22:17:07.465248Z",
+ "built_at": "2026-11-11T21:39:38.529606Z",
  "basis": "consolidated",
  "sources": {
   "quarter": "Sep 2026",
-  "transcript": "2026-08-01",
+  "transcript": "2026-11-01",
   "annual_report": 2026
  },
  "sections": [
@@ -17,10 +17,10 @@
     "name": "Titan Company Ltd",
     "about": "Titan Company Ltd is among India’s most respected lifestyle companies. It has established leadership positions in the Watches, Jewellery and Eyewear categories led by its trusted brands and differentiated customer experience. It was founded in 1984 as a joint-venture between TATA Group and Tamilnadu Industrial Development Corporation (TIDCO).[1]",
     "basis": "consolidated",
-    "built_at": "2026-11-05T21:15:07.675612+00:00",
+    "built_at": "2026-11-11T21:35:30.243208+00:00",
     "sources": {
      "quarter": "Sep 2026",
-     "transcript": "2026-08-01",
+     "transcript": "2026-11-01",
      "annual_report": 2026
     },
     "lender": false,
@@ -95,12 +95,75 @@
    "reason": null,
    "data": {
     "transcripts": [
+     "Transcript Nov 2026",
      "Transcript Aug 2026",
      "Transcript Jun 2026",
-     "Transcript Feb 2026",
-     "Transcript Nov 2025"
+     "Transcript Feb 2026"
     ],
     "rows": [
+     {
+      "target": {
+       "metric": "ebitda_margin",
+       "raw_metric": "margin guidance anchored around 11%",
+       "comparison": "approx",
+       "value": 11.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "One thing I will add to Arun's point, and while some of you suggest us that should we relook at our margin guidance, and we keep saying that, no, we want to keep it anchored around 11%",
+       "source_id": "T:2026-11-01:p17",
+       "said_on": "2026-11-01"
+      },
+      "actual": {
+       "value": 14.0,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Margin guidance anchored around 11% delivered 14% for FY27, 2 of 4 quarters reported."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "CaratLane EBIT margin",
+       "comparison": "between",
+       "value": 8.0,
+       "value_high": 9.0,
+       "unit": "pct",
+       "period": "FY28-FY29",
+       "quote": "But if you look at the entire H1 margin profile of CaratLane, still remains healthy, still remains as per our plan that gradually their EBIT margin should start inching up from 8% to 9%, and then further from there in next couple of years.",
+       "source_id": "T:2026-11-01:p4",
+       "said_on": "2026-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided CaratLane EBIT margin 8%–9% for FY28-FY29; not checkable from reported financials."
+     },
+     {
+      "target": {
+       "metric": "other",
+       "raw_metric": "jewellery margin target",
+       "comparison": "approx",
+       "value": 11.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "I think we still, Mihir, would like to anchor our margin target at around 11%.",
+       "source_id": "T:2026-11-01:p7",
+       "said_on": "2026-11-01"
+      },
+      "actual": {
+       "value": null,
+       "quarters_in": 0,
+       "quarters_needed": 0
+      },
+      "verdict": "not_checkable",
+      "explanation": "Guided jewellery margin target ≈ 11% for FY27; not checkable from reported financials."
+     },
      {
       "target": {
        "metric": "other",
@@ -184,31 +247,25 @@
       },
       "verdict": "not_checkable",
       "explanation": "Guided Jewellery sales growth (annualized/CAGR) 15%–20% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "ebitda_margin",
-       "raw_metric": "watch business EBITDA margin",
-       "comparison": "between",
-       "value": 15.0,
-       "value_high": 16.0,
-       "unit": "pct",
-       "period": "FY26-FY27",
-       "quote": "And on a long term, I would say the kind of investments are required, mid-teen is a good number to aim for, 15% to 16% for the business, at least in the 1-year, 2-year time frame.",
-       "source_id": "T:2025-11-01:p8",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided watch business EBITDA margin 15%–16% for FY26-FY27; not checkable from reported financials."
      }
     ]
    },
    "citations": [
+    {
+     "source_id": "T:2026-11-01:p17",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daa6c172-771a-4af5-b4b3-9813fdf7536a.pdf",
+     "page": 17
+    },
+    {
+     "source_id": "T:2026-11-01:p4",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daa6c172-771a-4af5-b4b3-9813fdf7536a.pdf",
+     "page": 4
+    },
+    {
+     "source_id": "T:2026-11-01:p7",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daa6c172-771a-4af5-b4b3-9813fdf7536a.pdf",
+     "page": 7
+    },
     {
      "source_id": "T:2026-08-01:p15",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf",
@@ -218,11 +275,6 @@
      "source_id": "T:2026-06-01:p9",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a3bc0e3-c7ff-4887-a18a-f73fd400e8ca.pdf",
      "page": 9
-    },
-    {
-     "source_id": "T:2025-11-01:p8",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3a5d70a-78ac-4407-aed7-e06b93e17a8f.pdf",
-     "page": 8
     }
    ]
   },
@@ -300,42 +352,42 @@
    "data": {
     "bull": [
      {
-      "text": "Revenue has grown at a 29.2% 3-year CAGR to ₹94,306 Cr TTM with PAT at ₹7,033 Cr.",
+      "text": "Revenue grew at a 29.2% 3-year CAGR to ₹94,306 Cr TTM with PAT growing at 15.7% CAGR to ₹7,033 Cr.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Management guides for 15-20% annualized growth over the next 3-4 years.",
+      "text": "ROCE stands at a healthy 21% despite margin pressure.",
       "source_ids": [
-       "T:2026-06-01:p9"
+       "SCR"
       ]
      },
      {
-      "text": "ROCE stands at 21% and management targets normalized margins of 12-16% long-term.",
+      "text": "Management maintains long-term margin guidance anchored at 11% with potential to gravitate toward 12-16% over time.",
       "source_ids": [
-       "SCR",
+       "T:2026-11-01:p17",
        "T:2026-08-01:p15"
       ]
      }
     ],
     "bear": [
      {
-      "text": "Operating margin has compressed from 12% to 9.5% over three years.",
+      "text": "Operating margin has contracted from 12% three years ago to 9.5% currently.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "High leverage with debt-to-equity of 1.51 and poor cash conversion (operating cash flow/PAT of 0.57 over 3 years).",
+      "text": "Leverage is high with debt-to-equity at 1.51 and operating cash flow converts only 57% of PAT over three years.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Extreme concentration risk with 91.52% of revenue from the jewellery segment.",
+      "text": "Quarterly PAT shows significant volatility, ranging from ₹1,179 Cr in Mar 2026 to ₹2,393 Cr in Sep 2026.",
       "source_ids": [
-       "AR:2026:p218"
+       "SCR"
       ]
      }
     ]
@@ -347,19 +399,14 @@
      "page": null
     },
     {
-     "source_id": "T:2026-06-01:p9",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a3bc0e3-c7ff-4887-a18a-f73fd400e8ca.pdf",
-     "page": 9
+     "source_id": "T:2026-11-01:p17",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daa6c172-771a-4af5-b4b3-9813fdf7536a.pdf",
+     "page": 17
     },
     {
      "source_id": "T:2026-08-01:p15",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf",
      "page": 15
-    },
-    {
-     "source_id": "AR:2026:p218",
-     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1e85b157-d3b6-44c8-ab75-4776048dab00.pdf",
-     "page": 218
     }
    ]
   }
