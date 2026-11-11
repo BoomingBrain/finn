@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-11T17:27:03.662586+05:30",
+ "as_of": "2026-11-12T01:13:18.416989+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "d240159fd5e4d14e1b864ec892952a6ec3f77b20",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-11T18:33:53+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_11112026183310_BhartiAirtelSTXIntimation.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "c6cc1c003b35c34fe23353b6b2d505b3c4f67aa4",
