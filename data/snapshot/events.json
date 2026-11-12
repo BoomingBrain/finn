@@ -1,6 +1,154 @@
 {
- "as_of": "2026-11-12T15:53:17.311310+05:30",
+ "as_of": "2026-11-12T18:24:09.171215+05:30",
  "events": [
+  {
+   "id": "a72b60122d5e1ab22cd41b700c1a53b4ae79755b",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-11-12T17:36:21+05:30",
+   "last_at": "2026-11-12T17:36:21+05:30",
+   "headline": "Transcript",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_12112026172851_Airtel_Stx_Intimation.pdf",
+     "filed_at": "2026-11-12T17:36:21+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "872f3d30dfe5c3d2f57db91a7d359f50b12c365a",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "category": "management_change",
+   "tier": "critical",
+   "first_at": "2026-11-12T17:33:25+05:30",
+   "last_at": "2026-11-12T17:33:25+05:30",
+   "headline": "Approval from the Reserve Bank of India for re-appointment of Mr. V. Srinivasa Rangan asthe Whole-time Director (designated as Executive Director) of HDFC Bank Limited",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. V. Srinivasa Rangan",
+    "role": "Whole-time Director (designated as Executive Director)",
+    "change": "appointed",
+    "effective_date": "November 23, 2026",
+    "background": "Mr. V. Srinivasa Rangan has over 30 years of experience in banking and finance. He holds a Bachelor of Commerce degree from the University of Madras.",
+    "prior_roles": [
+     "Whole-time Director",
+     "Executive Director",
+     "Banking roles"
+    ]
+   },
+   "documents": [
+    {
+     "title": "Approval from the Reserve Bank of India for re-appointment of Mr. V. Srinivasa Rangan asthe Whole-time Director (designated as Executive Director) of HDFC Bank Limited",
+     "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_12112026173223_SE_Intimation-_VSR.pdf",
+     "filed_at": "2026-11-12T17:33:25+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "dbd659fc972fb44187149f40ab628993ca3d744a",
+   "symbol": "IRCTC",
+   "company": "Indian Railway Catering And Tourism Corporation Limited",
+   "category": "results",
+   "tier": "critical",
+   "first_at": "2026-11-12T17:32:14+05:30",
+   "last_at": "2026-11-12T17:32:14+05:30",
+   "headline": "The financial results for the period ended September 30, 2026",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 1333.07,
+      "prev_q": 1369.53,
+      "year_ago": 1145.99,
+      "qoq_pct": -2.7,
+      "yoy_pct": 16.3
+     },
+     "EBITDA": {
+      "current": 291.66,
+      "prev_q": 386.68,
+      "year_ago": 413.04,
+      "qoq_pct": -24.6,
+      "yoy_pct": -29.4
+     },
+     "PBT": {
+      "current": 355.95,
+      "prev_q": 441.68,
+      "year_ago": 457.21,
+      "qoq_pct": -19.4,
+      "yoy_pct": -22.1
+     },
+     "PAT": {
+      "current": 263.56,
+      "prev_q": 330.16,
+      "year_ago": 342.02,
+      "qoq_pct": -20.2,
+      "yoy_pct": -22.9
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null,
+   "documents": [
+    {
+     "title": "The financial results for the period ended September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/IRCTC_12112026173058_Outcomeofboardmeeting12112026.pdf",
+     "filed_at": "2026-11-12T17:32:14+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "e0ee0ed3d2f7d8dfd751909332e94f4444e8db7f",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-12T16:20:13+05:30",
+   "last_at": "2026-11-12T16:20:13+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.com/corporate/KPITTECH_12112026161901_KPIT_Investor_Conference_Avendus_and_JM_Financials_S.pdf",
+     "filed_at": "2026-11-12T16:20:13+05:30"
+    },
+    {
+     "title": "Schedule of Investors/Analyst Conference to be held on Monday, November 16, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/KPITTECH_12112026161655_KPIT_Investor_Conference_Avendus_and_JM_Financials_S.pdf",
+     "filed_at": "2026-11-12T16:20:13+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "0eca30334ab347f7a6de037c48791fb0280ce90a",
    "symbol": "TITAN",
@@ -43,9 +191,9 @@
      "filed_at": "2026-11-12T14:27:53+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.7,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-12"
   },
   {
    "id": "a7d7d9a627b840eae68d4a8042390875853b7d2e",
@@ -66,9 +214,9 @@
      "filed_at": "2026-11-12T11:19:58+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.3,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-12"
   },
   {
    "id": "d240159fd5e4d14e1b864ec892952a6ec3f77b20",
@@ -89,9 +237,9 @@
      "filed_at": "2026-11-11T18:33:53+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.6,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-12"
   },
   {
    "id": "408e511925deceb4fd7459c990e65280d25cb4d2",

@@ -1,6 +1,147 @@
 {
- "as_of": "2026-11-12T15:53:17.311310+05:30",
+ "as_of": "2026-11-12T18:24:09.171215+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "a72b60122d5e1ab22cd41b700c1a53b4ae79755b",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-12T17:36:21+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Transcript",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_12112026172851_Airtel_Stx_Intimation.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "earnings_call",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "872f3d30dfe5c3d2f57db91a7d359f50b12c365a",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-11-12T17:33:25+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about Approval from the Reserve Bank of India for re-appointment of Mr. V. Srinivasa Rangan asthe Whole-time Director (designated as Executive Director) of HDFC Bank Limited",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_12112026173223_SE_Intimation-_VSR.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. V. Srinivasa Rangan",
+    "role": "Whole-time Director (designated as Executive Director)",
+    "change": "appointed",
+    "effective_date": "November 23, 2026",
+    "background": "Mr. V. Srinivasa Rangan has over 30 years of experience in banking and finance. He holds a Bachelor of Commerce degree from the University of Madras.",
+    "prior_roles": [
+     "Whole-time Director",
+     "Executive Director",
+     "Banking roles"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "dbd659fc972fb44187149f40ab628993ca3d744a",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-11-12T17:32:14+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_12112026173058_Outcomeofboardmeeting12112026.pdf",
+    "raw_category": "Outcome of Board Meeting",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": {
+    "status": "ok",
+    "layout": "corporate",
+    "basis": "consolidated",
+    "period_end": "2026-09-30",
+    "metrics": {
+     "Revenue": {
+      "current": 1333.07,
+      "prev_q": 1369.53,
+      "year_ago": 1145.99,
+      "qoq_pct": -2.7,
+      "yoy_pct": 16.3
+     },
+     "EBITDA": {
+      "current": 291.66,
+      "prev_q": 386.68,
+      "year_ago": 413.04,
+      "qoq_pct": -24.6,
+      "yoy_pct": -29.4
+     },
+     "PBT": {
+      "current": 355.95,
+      "prev_q": 441.68,
+      "year_ago": 457.21,
+      "qoq_pct": -19.4,
+      "yoy_pct": -22.1
+     },
+     "PAT": {
+      "current": 263.56,
+      "prev_q": 330.16,
+      "year_ago": 342.02,
+      "qoq_pct": -20.2,
+      "yoy_pct": -22.9
+     }
+    },
+    "not_applicable": [],
+    "missing": [],
+    "verified": null,
+    "mismatches": [],
+    "unit": "₹ Cr"
+   },
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e0ee0ed3d2f7d8dfd751909332e94f4444e8db7f",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-11-12T16:20:13+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_12112026161901_KPIT_Investor_Conference_Avendus_and_JM_Financials_S.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "4e0069bd5884a96fbfed457e3cf9a638173cf769",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-11-12T16:20:13+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about Schedule of Investors/Analyst Conference to be held on Monday, November 16, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_12112026161655_KPIT_Investor_Conference_Avendus_and_JM_Financials_S.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "0eca30334ab347f7a6de037c48791fb0280ce90a",
