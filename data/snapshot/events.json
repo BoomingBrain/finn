@@ -1,6 +1,75 @@
 {
- "as_of": "2026-11-12T01:13:18.416989+05:30",
+ "as_of": "2026-11-12T15:53:17.311310+05:30",
  "events": [
+  {
+   "id": "0eca30334ab347f7a6de037c48791fb0280ce90a",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-12T15:30:00+05:30",
+   "last_at": "2026-11-12T15:30:00+05:30",
+   "headline": "Schedule of Analyst / Institutional Investor Meeting",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of Analyst / Institutional Investor Meeting",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_12112026152942_SEintimation_12_Nov_26.pdf",
+     "filed_at": "2026-11-12T15:30:00+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "8f702f3b149447c94e0a4a064f8bed8fd19606a8",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-12T14:27:53+05:30",
+   "last_at": "2026-11-12T14:27:53+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_12112026142725_Analystmeetintimation12112026.pdf",
+     "filed_at": "2026-11-12T14:27:53+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "a7d7d9a627b840eae68d4a8042390875853b7d2e",
+   "symbol": "INFY",
+   "company": "Infosys Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-12T11:19:58+05:30",
+   "last_at": "2026-11-12T11:19:58+05:30",
+   "headline": "Six Promising Researchers Win the Infosys Prize 2026 Awarded by the Infosys Science Foundation",
+   "summary": "Infosys Prize 2026 awarded to six researchers under 40 in categories including Economics (Karthik Sastry), Engineering (Swarun Kumar)…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Six Promising Researchers Win the Infosys Prize 2026 Awarded by the Infosys Science Foundation",
+     "url": "https://nsearchives.nseindia.com/corporate/Infosys_12112026111940_PR_12112026.pdf",
+     "filed_at": "2026-11-12T11:19:58+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "d240159fd5e4d14e1b864ec892952a6ec3f77b20",
    "symbol": "BHARTIARTL",
@@ -48,9 +117,9 @@
      "filed_at": "2026-11-11T17:13:26+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.3,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-11"
   },
   {
    "id": "babd5146c06fe395630d61025c452d8b00dfab4f",
@@ -71,9 +140,9 @@
      "filed_at": "2026-11-11T14:39:56+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.7,
+   "volume_multiple": 1.9,
+   "price_date": "2026-11-11"
   },
   {
    "id": "be3ee6526bee21b5efd88d3b4f593bb2e20602a4",
@@ -94,9 +163,9 @@
      "filed_at": "2026-11-10T12:15:58+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.3,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-11"
   },
   {
    "id": "e9f2edd7cead8d32b5dea48ab68c91ac55dfc7d7",
@@ -117,9 +186,9 @@
      "filed_at": "2026-11-09T18:11:20+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.6,
+   "volume_multiple": 1.2,
+   "price_date": "2026-11-11"
   },
   {
    "id": "bdce48222275f296ea5e1af173efe7377c2db70f",
@@ -140,9 +209,9 @@
      "filed_at": "2026-11-09T16:56:39+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.0,
+   "volume_multiple": 0.4,
+   "price_date": "2026-11-11"
   },
   {
    "id": "97d50fde7fb15b867104d04ff0bef3754ab2a972",

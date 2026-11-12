@@ -1,6 +1,60 @@
 {
- "as_of": "2026-11-12T01:13:18.416989+05:30",
+ "as_of": "2026-11-12T15:53:17.311310+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "0eca30334ab347f7a6de037c48791fb0280ce90a",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-12T15:30:00+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Schedule of Analyst / Institutional Investor Meeting",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TITAN_12112026152942_SEintimation_12_Nov_26.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8f702f3b149447c94e0a4a064f8bed8fd19606a8",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-11-12T14:27:53+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_12112026142725_Analystmeetintimation12112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "a7d7d9a627b840eae68d4a8042390875853b7d2e",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-11-12T11:19:58+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Six Promising Researchers Win the Infosys Prize 2026 Awarded by the Infosys Science Foundation'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/Infosys_12112026111940_PR_12112026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys Prize 2026 awarded to six researchers under 40 in categories including Economics (Karthik Sastry), Engineering (Swarun Kumar)…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "d240159fd5e4d14e1b864ec892952a6ec3f77b20",
