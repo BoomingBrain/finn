@@ -1,11 +1,11 @@
 {
  "symbol": "BHARTIARTL",
  "name": "Bharti Airtel Ltd",
- "built_at": "2026-11-05T22:16:30.489266Z",
+ "built_at": "2026-11-12T21:39:07.741985Z",
  "basis": "consolidated",
  "sources": {
   "quarter": "Sep 2026",
-  "transcript": "2026-08-01",
+  "transcript": "2026-11-01",
   "annual_report": 2026
  },
  "sections": [
@@ -17,10 +17,10 @@
     "name": "Bharti Airtel Ltd",
     "about": "Bharti Airtel Ltd is one of the world’s leading providers of telecommunication services with presence in 18 countries representing India, SriLanka, 14 countries in Africa.[1]",
     "basis": "consolidated",
-    "built_at": "2026-11-05T21:15:07.643750+00:00",
+    "built_at": "2026-11-12T21:37:06.203135+00:00",
     "sources": {
      "quarter": "Sep 2026",
-     "transcript": "2026-08-01",
+     "transcript": "2026-11-01",
      "annual_report": 2026
     },
     "lender": false,
@@ -94,10 +94,10 @@
    "reason": null,
    "data": {
     "transcripts": [
+     "Transcript Nov 2026",
      "Transcript Aug 2026",
      "Transcript May 2026",
-     "Transcript Feb 2026",
-     "Transcript Nov 2025"
+     "Transcript Feb 2026"
     ],
     "rows": [
      {
@@ -204,90 +204,6 @@
       },
       "verdict": "not_checkable",
       "explanation": "Guided B2B underlying business growth ≈ 10% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "equipment performance improvement",
-       "comparison": "approx",
-       "value": 15.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "At Nxtra, we aim to achieve 15% improvement in equipment performance, a 25% boost in the operational productivity, and a 10% reduction in non-IT energy consumption, all with the help of AI.",
-       "source_id": "T:2025-11-01:p3",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided equipment performance improvement ≈ 15% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "operational productivity boost",
-       "comparison": "approx",
-       "value": 25.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "At Nxtra, we aim to achieve 15% improvement in equipment performance, a 25% boost in the operational productivity, and a 10% reduction in non-IT energy consumption, all with the help of AI.",
-       "source_id": "T:2025-11-01:p3",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided operational productivity boost ≈ 25% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "non-IT energy consumption reduction",
-       "comparison": "approx",
-       "value": 10.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "At Nxtra, we aim to achieve 15% improvement in equipment performance, a 25% boost in the operational productivity, and a 10% reduction in non-IT energy consumption, all with the help of AI.",
-       "source_id": "T:2025-11-01:p3",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided non-IT energy consumption reduction ≈ 10% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "postpaid upgrades",
-       "comparison": "approx",
-       "value": 9.0,
-       "value_high": null,
-       "unit": "cr",
-       "period": "FY27",
-       "quote": "Our focus is to upgrade 90 million credit-scored potential customers to our postpaid services.",
-       "source_id": "T:2025-11-01:p4",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided postpaid upgrades ≈ ₹9 Cr for FY27; not checkable from reported financials."
      }
     ]
    },
@@ -311,16 +227,6 @@
      "source_id": "T:2026-02-01:p10",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fbe1f35-07ac-4458-9799-d075511bcd53.pdf",
      "page": 10
-    },
-    {
-     "source_id": "T:2025-11-01:p3",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8f70dc5-c46b-481a-961c-ecbd39a6f45d.pdf",
-     "page": 3
-    },
-    {
-     "source_id": "T:2025-11-01:p4",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8f70dc5-c46b-481a-961c-ecbd39a6f45d.pdf",
-     "page": 4
     }
    ]
   },
@@ -399,19 +305,19 @@
    "data": {
     "bull": [
      {
-      "text": "PAT grew at a 40.1% 3-year CAGR with operating margin expanding from 51.2% to 55.2%.",
+      "text": "Bharti Airtel delivered a 3-year PAT CAGR of 40.1% and revenue CAGR of 14.9% while expanding operating margin from 51.2% to 55.2%.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Quarterly revenue and PAT showed consistent growth: revenue from ₹53,982 Cr (Dec 2025) to ₹60,878 Cr (Sep 2026), PAT from ₹8,503 Cr to ₹10,710 Cr.",
+      "text": "Quarterly revenue grew sequentially from ₹53,982 Cr in Dec 2025 to ₹60,878 Cr in Sep 2026, with PAT rising from ₹8,503 Cr to ₹10,710 Cr over the same period.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Operating cash flow to PAT ratio of 3.75x over 3 years indicates strong cash conversion.",
+      "text": "Operating cash flow over the last three years was 3.75x PAT, indicating strong cash conversion and earnings quality.",
       "source_ids": [
        "SCR"
       ]
@@ -419,24 +325,24 @@
     ],
     "bear": [
      {
-      "text": "High leverage with debt-to-equity of 1.26.",
+      "text": "The company carries high leverage with a debt-to-equity ratio of 1.26, flagged as a risk in the financial snapshot.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Significant capex commitment of ₹20,000 Cr over 5 years (₹14,000 Cr from Airtel) may pressure cash flows.",
+      "text": "Management's key growth drivers — 4-5% ARPU-led growth over 5-7 years, Rs. 20,000 Cr capex plan (Rs. 14,000 Cr from Airtel), 1 GW data center target for 25% share, and 10% underlying growth after shedding low-margin business — are all unverified against reported financials.",
       "source_ids": [
-       "T:2026-05-01:p12"
+       "T:2026-08-01:p12",
+       "T:2026-05-01:p12",
+       "T:2026-02-01:p6",
+       "T:2026-02-01:p10"
       ]
      },
      {
-      "text": "Multiple management forward-looking targets (ARPU growth, data center capacity, Nxtra efficiency, postpaid upgrades) remain unverified per source assessments.",
+      "text": "ROE is not available in the financial snapshot, limiting assessment of shareholder returns.",
       "source_ids": [
-       "T:2026-08-01:p12",
-       "T:2026-02-01:p6",
-       "T:2025-11-01:p3",
-       "T:2025-11-01:p4"
+       "SCR"
       ]
      }
     ]
@@ -448,13 +354,13 @@
      "page": null
     },
     {
-     "source_id": "T:2026-05-01:p12",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf",
+     "source_id": "T:2026-08-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf",
      "page": 12
     },
     {
-     "source_id": "T:2026-08-01:p12",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf",
+     "source_id": "T:2026-05-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf",
      "page": 12
     },
     {
@@ -463,14 +369,9 @@
      "page": 6
     },
     {
-     "source_id": "T:2025-11-01:p3",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8f70dc5-c46b-481a-961c-ecbd39a6f45d.pdf",
-     "page": 3
-    },
-    {
-     "source_id": "T:2025-11-01:p4",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8f70dc5-c46b-481a-961c-ecbd39a6f45d.pdf",
-     "page": 4
+     "source_id": "T:2026-02-01:p10",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fbe1f35-07ac-4458-9799-d075511bcd53.pdf",
+     "page": 10
     }
    ]
   }
