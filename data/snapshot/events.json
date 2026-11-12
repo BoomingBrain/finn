@@ -1,6 +1,52 @@
 {
- "as_of": "2026-11-12T18:24:09.171215+05:30",
+ "as_of": "2026-11-13T02:36:03.294548+05:30",
  "events": [
+  {
+   "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-12T20:23:38+05:30",
+   "last_at": "2026-11-12T20:23:38+05:30",
+   "headline": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_12112026202324_SE_12112026.pdf",
+     "filed_at": "2026-11-12T20:23:38+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "6440a9df149037178b4d238e8d0163b853492791",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "fund_raise",
+   "tier": "notable",
+   "first_at": "2026-11-12T18:45:52+05:30",
+   "last_at": "2026-11-12T18:45:52+05:30",
+   "headline": "Redemption of Commercial Paper",
+   "summary": "Titan Company fully redeemed ₹1000 crore of Commercial Paper (ISIN: INE280A14617) issued on 14th August 2026, with maturity proceeds paid…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Redemption of Commercial Paper",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_12112026184505_SECPRedemption12112026.pdf",
+     "filed_at": "2026-11-12T18:45:52+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "a72b60122d5e1ab22cd41b700c1a53b4ae79755b",
    "symbol": "BHARTIARTL",
@@ -191,9 +237,9 @@
      "filed_at": "2026-11-12T14:27:53+05:30"
     }
    ],
-   "price_change_pct": 0.7,
-   "volume_multiple": 1.0,
-   "price_date": "2026-11-12"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "a7d7d9a627b840eae68d4a8042390875853b7d2e",
@@ -214,9 +260,9 @@
      "filed_at": "2026-11-12T11:19:58+05:30"
     }
    ],
-   "price_change_pct": -0.3,
-   "volume_multiple": 0.5,
-   "price_date": "2026-11-12"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "d240159fd5e4d14e1b864ec892952a6ec3f77b20",
@@ -237,9 +283,9 @@
      "filed_at": "2026-11-11T18:33:53+05:30"
     }
    ],
-   "price_change_pct": -0.6,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-12"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "408e511925deceb4fd7459c990e65280d25cb4d2",
