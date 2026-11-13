@@ -1,6 +1,99 @@
 {
- "as_of": "2026-11-13T12:26:36.552595+05:30",
+ "as_of": "2026-11-13T17:51:00.325056+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "aef6f69a80a3888aff5abf291de37edbdbf6863a",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-11-13T16:35:23+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_13112026163422_SE_Intimation-_VSR.pdf",
+    "raw_category": "Change in Director(s)",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Mr. V. Srinivasa Rangan",
+    "role": "Whole-time Director (designated as Executive Director)",
+    "change": "appointed",
+    "effective_date": "November 23, 2026",
+    "background": "Mr. V. Srinivasa Rangan, aged sixty-six (66) years, is the Executive Director of the Bank and heads the Human Resources, Corporate Legal, Group Oversight & Secretarial, Investment Banking, Information Security Group, Ethics Function and Fraud & Vigilance functions of the Bank.…",
+    "prior_roles": [
+     "Executive Director & Chief Financial Officer of HDFC Limited",
+     "Key Managerial Personnel of HDFC Bank Limited"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "ab8979a4719ed849b98dda323a22caf7d2f3e5db",
+    "symbol": "ITC",
+    "company": "ITC Limited",
+    "filed_at": "2026-11-13T15:19:16+05:30",
+    "subject": "ITC Limited has informed the Exchange regarding Allotment of 785300 Shares.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/ITC_13112026151900_SE.pdf",
+    "raw_category": "ESOP/ESOS/ESPS",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "182b7295d18c80c2eeef27480d815f6753849789",
+    "symbol": "IRCTC",
+    "company": "Indian Railway Catering And Tourism Corporation Limited",
+    "filed_at": "2026-11-13T15:11:44+05:30",
+    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange about copy of Newspaper Publication regarding Q2FY27 Results.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_13112026151135_Stxintimationnewspaper_Q2.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "results",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "c066ec2eee895717674564022851291280575da9",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-11-13T13:17:44+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about Changes in Senior Management Personnel of the Company",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_13112026131650_ChangeinManagement13112026.pdf",
+    "raw_category": "Change in Management",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Sanjeev Shankaran",
+    "role": "Vice President - General Merchandising",
+    "change": "appointed",
+    "effective_date": "16th November, 2026",
+    "background": "Mr. Sanjeev Shankaran is a commerce graduate and completed his PGDM (part time) from AIMA Delhi in 2005. He joined Dmart in September 2021 with over two decades of prior work experience, having worked with major FMCG companies such as Dabur & Kellogs. In his last role at Dabur…",
+    "prior_roles": [
+     "National Key Account Manager, MT & Ecom Head, Dabur India Ltd",
+     "worked with major FMCG companies such as Dabur & Kellogs",
+     "commerce graduate"
+    ]
+   }
+  },
   {
    "announcement": {
     "id": "9950b26d19e333f66d2bbf480d4ee62d13d50c65",

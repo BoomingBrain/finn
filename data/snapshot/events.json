@@ -1,98 +1,6 @@
 {
- "as_of": "2026-11-13T12:26:36.552595+05:30",
+ "as_of": "2026-11-13T17:51:00.325056+05:30",
  "events": [
-  {
-   "id": "9950b26d19e333f66d2bbf480d4ee62d13d50c65",
-   "symbol": "TRENT",
-   "company": "Trent Limited",
-   "category": "postal_ballot",
-   "tier": "routine",
-   "first_at": "2026-11-13T11:24:22+05:30",
-   "last_at": "2026-11-13T11:24:22+05:30",
-   "headline": "Reminder letter to shareholders to Dematerialise the Shares",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Reminder letter to shareholders to Dematerialise the Shares",
-     "url": "https://nsearchives.nseindia.com/corporate/TRENT_13112026112141_Reg_30_-_Dematerialisation_letter_to_shareholders.pdf",
-     "filed_at": "2026-11-13T11:24:22+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",
-   "symbol": "RELIANCE",
-   "company": "Reliance Industries Limited",
-   "category": "investor_meetings",
-   "tier": "routine",
-   "first_at": "2026-11-12T20:23:38+05:30",
-   "last_at": "2026-11-12T20:23:38+05:30",
-   "headline": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
-     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_12112026202324_SE_12112026.pdf",
-     "filed_at": "2026-11-12T20:23:38+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "6440a9df149037178b4d238e8d0163b853492791",
-   "symbol": "TITAN",
-   "company": "Titan Company Limited",
-   "category": "fund_raise",
-   "tier": "notable",
-   "first_at": "2026-11-12T18:45:52+05:30",
-   "last_at": "2026-11-12T18:45:52+05:30",
-   "headline": "Redemption of Commercial Paper",
-   "summary": "Titan Company fully redeemed ₹1000 crore of Commercial Paper (ISIN: INE280A14617) issued on 14th August 2026, with maturity proceeds paid…",
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Redemption of Commercial Paper",
-     "url": "https://nsearchives.nseindia.com/corporate/TITAN_12112026184505_SECPRedemption12112026.pdf",
-     "filed_at": "2026-11-12T18:45:52+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "a72b60122d5e1ab22cd41b700c1a53b4ae79755b",
-   "symbol": "BHARTIARTL",
-   "company": "Bharti Airtel Limited",
-   "category": "earnings_call",
-   "tier": "routine",
-   "first_at": "2026-11-12T17:36:21+05:30",
-   "last_at": "2026-11-12T17:36:21+05:30",
-   "headline": "Transcript",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Transcript",
-     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_12112026172851_Airtel_Stx_Intimation.pdf",
-     "filed_at": "2026-11-12T17:36:21+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
   {
    "id": "872f3d30dfe5c3d2f57db91a7d359f50b12c365a",
    "symbol": "HDFCBANK",
@@ -100,7 +8,7 @@
    "category": "management_change",
    "tier": "critical",
    "first_at": "2026-11-12T17:33:25+05:30",
-   "last_at": "2026-11-12T17:33:25+05:30",
+   "last_at": "2026-11-13T16:35:23+05:30",
    "headline": "Approval from the Reserve Bank of India for re-appointment of Mr. V. Srinivasa Rangan asthe Whole-time Director (designated as Executive Director) of HDFC Bank Limited",
    "summary": null,
    "results": null,
@@ -121,11 +29,39 @@
      "title": "Approval from the Reserve Bank of India for re-appointment of Mr. V. Srinivasa Rangan asthe Whole-time Director (designated as Executive Director) of HDFC Bank Limited",
      "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_12112026173223_SE_Intimation-_VSR.pdf",
      "filed_at": "2026-11-12T17:33:25+05:30"
+    },
+    {
+     "title": "Change in Director(s) of the company",
+     "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_13112026163422_SE_Intimation-_VSR.pdf",
+     "filed_at": "2026-11-13T16:35:23+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.0,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-13"
+  },
+  {
+   "id": "ab8979a4719ed849b98dda323a22caf7d2f3e5db",
+   "symbol": "ITC",
+   "company": "ITC Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-13T15:19:16+05:30",
+   "last_at": "2026-11-13T15:19:16+05:30",
+   "headline": "Allotment of 785300 Shares",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Allotment of 785300 Shares",
+     "url": "https://nsearchives.nseindia.com/corporate/ITC_13112026151900_SE.pdf",
+     "filed_at": "2026-11-13T15:19:16+05:30"
+    }
+   ],
+   "price_change_pct": 0.3,
+   "volume_multiple": 0.4,
+   "price_date": "2026-11-13"
   },
   {
    "id": "dbd659fc972fb44187149f40ab628993ca3d744a",
@@ -134,7 +70,7 @@
    "category": "results",
    "tier": "critical",
    "first_at": "2026-11-12T17:32:14+05:30",
-   "last_at": "2026-11-12T17:32:14+05:30",
+   "last_at": "2026-11-13T15:11:44+05:30",
    "headline": "The financial results for the period ended September 30, 2026",
    "summary": null,
    "results": {
@@ -184,11 +120,142 @@
      "title": "The financial results for the period ended September 30, 2026",
      "url": "https://nsearchives.nseindia.com/corporate/IRCTC_12112026173058_Outcomeofboardmeeting12112026.pdf",
      "filed_at": "2026-11-12T17:32:14+05:30"
+    },
+    {
+     "title": "Copy of Newspaper Publication regarding Q2FY27 Results",
+     "url": "https://nsearchives.nseindia.com/corporate/IRCTC_13112026151135_Stxintimationnewspaper_Q2.pdf",
+     "filed_at": "2026-11-13T15:11:44+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -2.8,
+   "volume_multiple": 1.6,
+   "price_date": "2026-11-13"
+  },
+  {
+   "id": "c066ec2eee895717674564022851291280575da9",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "category": "management_change",
+   "tier": "critical",
+   "first_at": "2026-11-13T13:17:44+05:30",
+   "last_at": "2026-11-13T13:17:44+05:30",
+   "headline": "Changes in Senior Management Personnel of the Company",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Sanjeev Shankaran",
+    "role": "Vice President - General Merchandising",
+    "change": "appointed",
+    "effective_date": "16th November, 2026",
+    "background": "Mr. Sanjeev Shankaran is a commerce graduate and completed his PGDM (part time) from AIMA Delhi in 2005. He joined Dmart in September 2021 with over two decades of prior work experience, having worked with major FMCG companies such as Dabur & Kellogs. In his last role at Dabur…",
+    "prior_roles": [
+     "National Key Account Manager, MT & Ecom Head, Dabur India Ltd",
+     "worked with major FMCG companies such as Dabur & Kellogs",
+     "commerce graduate"
+    ]
+   },
+   "documents": [
+    {
+     "title": "Changes in Senior Management Personnel of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/DMART_13112026131650_ChangeinManagement13112026.pdf",
+     "filed_at": "2026-11-13T13:17:44+05:30"
+    }
+   ],
+   "price_change_pct": -0.4,
+   "volume_multiple": 0.3,
+   "price_date": "2026-11-13"
+  },
+  {
+   "id": "9950b26d19e333f66d2bbf480d4ee62d13d50c65",
+   "symbol": "TRENT",
+   "company": "Trent Limited",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "first_at": "2026-11-13T11:24:22+05:30",
+   "last_at": "2026-11-13T11:24:22+05:30",
+   "headline": "Reminder letter to shareholders to Dematerialise the Shares",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Reminder letter to shareholders to Dematerialise the Shares",
+     "url": "https://nsearchives.nseindia.com/corporate/TRENT_13112026112141_Reg_30_-_Dematerialisation_letter_to_shareholders.pdf",
+     "filed_at": "2026-11-13T11:24:22+05:30"
+    }
+   ],
+   "price_change_pct": -0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-13"
+  },
+  {
+   "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-12T20:23:38+05:30",
+   "last_at": "2026-11-12T20:23:38+05:30",
+   "headline": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_12112026202324_SE_12112026.pdf",
+     "filed_at": "2026-11-12T20:23:38+05:30"
+    }
+   ],
+   "price_change_pct": 0.0,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-13"
+  },
+  {
+   "id": "6440a9df149037178b4d238e8d0163b853492791",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "fund_raise",
+   "tier": "notable",
+   "first_at": "2026-11-12T18:45:52+05:30",
+   "last_at": "2026-11-12T18:45:52+05:30",
+   "headline": "Redemption of Commercial Paper",
+   "summary": "Titan Company fully redeemed ₹1000 crore of Commercial Paper (ISIN: INE280A14617) issued on 14th August 2026, with maturity proceeds paid…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Redemption of Commercial Paper",
+     "url": "https://nsearchives.nseindia.com/corporate/TITAN_12112026184505_SECPRedemption12112026.pdf",
+     "filed_at": "2026-11-12T18:45:52+05:30"
+    }
+   ],
+   "price_change_pct": -1.6,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-13"
+  },
+  {
+   "id": "a72b60122d5e1ab22cd41b700c1a53b4ae79755b",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "earnings_call",
+   "tier": "routine",
+   "first_at": "2026-11-12T17:36:21+05:30",
+   "last_at": "2026-11-12T17:36:21+05:30",
+   "headline": "Transcript",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_12112026172851_Airtel_Stx_Intimation.pdf",
+     "filed_at": "2026-11-12T17:36:21+05:30"
+    }
+   ],
+   "price_change_pct": 0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-13"
   },
   {
    "id": "e0ee0ed3d2f7d8dfd751909332e94f4444e8db7f",
@@ -214,9 +281,9 @@
      "filed_at": "2026-11-12T16:20:13+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.1,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-13"
   },
   {
    "id": "0eca30334ab347f7a6de037c48791fb0280ce90a",
@@ -237,9 +304,9 @@
      "filed_at": "2026-11-12T15:30:00+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.6,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-13"
   },
   {
    "id": "8f702f3b149447c94e0a4a064f8bed8fd19606a8",
