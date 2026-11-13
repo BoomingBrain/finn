@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-13T02:36:03.294548+05:30",
+ "as_of": "2026-11-13T12:26:36.552595+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "9950b26d19e333f66d2bbf480d4ee62d13d50c65",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-11-13T11:24:22+05:30",
+    "subject": "Trent Limited has informed the Exchange about Reminder letter to shareholders to Dematerialise the Shares",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/TRENT_13112026112141_Reg_30_-_Dematerialisation_letter_to_shareholders.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "postal_ballot",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",

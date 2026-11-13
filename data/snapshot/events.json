@@ -1,6 +1,29 @@
 {
- "as_of": "2026-11-13T02:36:03.294548+05:30",
+ "as_of": "2026-11-13T12:26:36.552595+05:30",
  "events": [
+  {
+   "id": "9950b26d19e333f66d2bbf480d4ee62d13d50c65",
+   "symbol": "TRENT",
+   "company": "Trent Limited",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "first_at": "2026-11-13T11:24:22+05:30",
+   "last_at": "2026-11-13T11:24:22+05:30",
+   "headline": "Reminder letter to shareholders to Dematerialise the Shares",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Reminder letter to shareholders to Dematerialise the Shares",
+     "url": "https://nsearchives.nseindia.com/corporate/TRENT_13112026112141_Reg_30_-_Dematerialisation_letter_to_shareholders.pdf",
+     "filed_at": "2026-11-13T11:24:22+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",
    "symbol": "RELIANCE",
@@ -237,9 +260,9 @@
      "filed_at": "2026-11-12T14:27:53+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.7,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-12"
   },
   {
    "id": "a7d7d9a627b840eae68d4a8042390875853b7d2e",
@@ -260,9 +283,9 @@
      "filed_at": "2026-11-12T11:19:58+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.3,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-12"
   },
   {
    "id": "d240159fd5e4d14e1b864ec892952a6ec3f77b20",
@@ -283,9 +306,9 @@
      "filed_at": "2026-11-11T18:33:53+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.6,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-12"
   },
   {
    "id": "408e511925deceb4fd7459c990e65280d25cb4d2",
