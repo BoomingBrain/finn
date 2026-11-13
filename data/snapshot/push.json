@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-13T17:51:00.325056+05:30",
+ "as_of": "2026-11-14T02:09:13.934406+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "b211f85cace9c35c46ebd6457d48e877cc4c8cdc",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-11-13T18:25:01+05:30",
+    "subject": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - Morgan Stanley 25th Annual Asia-Pacific Summit, scheduled to be held on November 18 & 19, 2026 at Singapore. It is expected that the meeting with the investors will be on one-on-one basis.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.com/corporate/kavinavora_13112026182446_SE_13112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "aef6f69a80a3888aff5abf291de37edbdbf6863a",

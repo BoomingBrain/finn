@@ -1,6 +1,34 @@
 {
- "as_of": "2026-11-13T17:51:00.325056+05:30",
+ "as_of": "2026-11-14T02:09:13.934406+05:30",
  "events": [
+  {
+   "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-12T20:23:38+05:30",
+   "last_at": "2026-11-13T18:25:01+05:30",
+   "headline": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_12112026202324_SE_12112026.pdf",
+     "filed_at": "2026-11-12T20:23:38+05:30"
+    },
+    {
+     "title": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - Morgan Stanley 25th Annual Asia-Pacific Summit, scheduled to be held on November 18 & 19, 2026 at Singapore. It is expected that the meeting with the investors will be on one-on-one basis",
+     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_13112026182446_SE_13112026.pdf",
+     "filed_at": "2026-11-13T18:25:01+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "872f3d30dfe5c3d2f57db91a7d359f50b12c365a",
    "symbol": "HDFCBANK",
@@ -36,9 +64,9 @@
      "filed_at": "2026-11-13T16:35:23+05:30"
     }
    ],
-   "price_change_pct": -1.0,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-13"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "ab8979a4719ed849b98dda323a22caf7d2f3e5db",
@@ -59,9 +87,9 @@
      "filed_at": "2026-11-13T15:19:16+05:30"
     }
    ],
-   "price_change_pct": 0.3,
-   "volume_multiple": 0.4,
-   "price_date": "2026-11-13"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "dbd659fc972fb44187149f40ab628993ca3d744a",
@@ -127,9 +155,9 @@
      "filed_at": "2026-11-13T15:11:44+05:30"
     }
    ],
-   "price_change_pct": -2.8,
-   "volume_multiple": 1.6,
-   "price_date": "2026-11-13"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "c066ec2eee895717674564022851291280575da9",
@@ -161,9 +189,9 @@
      "filed_at": "2026-11-13T13:17:44+05:30"
     }
    ],
-   "price_change_pct": -0.4,
-   "volume_multiple": 0.3,
-   "price_date": "2026-11-13"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "9950b26d19e333f66d2bbf480d4ee62d13d50c65",
@@ -184,32 +212,9 @@
      "filed_at": "2026-11-13T11:24:22+05:30"
     }
    ],
-   "price_change_pct": -0.5,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-13"
-  },
-  {
-   "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",
-   "symbol": "RELIANCE",
-   "company": "Reliance Industries Limited",
-   "category": "investor_meetings",
-   "tier": "routine",
-   "first_at": "2026-11-12T20:23:38+05:30",
-   "last_at": "2026-11-12T20:23:38+05:30",
-   "headline": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
-     "url": "https://nsearchives.nseindia.com/corporate/kavinavora_12112026202324_SE_12112026.pdf",
-     "filed_at": "2026-11-12T20:23:38+05:30"
-    }
-   ],
-   "price_change_pct": 0.0,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-13"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "6440a9df149037178b4d238e8d0163b853492791",
@@ -230,9 +235,9 @@
      "filed_at": "2026-11-12T18:45:52+05:30"
     }
    ],
-   "price_change_pct": -1.6,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-13"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "a72b60122d5e1ab22cd41b700c1a53b4ae79755b",
@@ -253,9 +258,9 @@
      "filed_at": "2026-11-12T17:36:21+05:30"
     }
    ],
-   "price_change_pct": 0.5,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-13"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "e0ee0ed3d2f7d8dfd751909332e94f4444e8db7f",
@@ -281,9 +286,9 @@
      "filed_at": "2026-11-12T16:20:13+05:30"
     }
    ],
-   "price_change_pct": -1.1,
-   "volume_multiple": 0.5,
-   "price_date": "2026-11-13"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "0eca30334ab347f7a6de037c48791fb0280ce90a",
@@ -304,9 +309,9 @@
      "filed_at": "2026-11-12T15:30:00+05:30"
     }
    ],
-   "price_change_pct": -1.6,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-13"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "8f702f3b149447c94e0a4a064f8bed8fd19606a8",
