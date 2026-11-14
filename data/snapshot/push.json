@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-14T02:09:13.934406+05:30",
+ "as_of": "2026-11-14T20:41:48.322630+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "e907006201a83fd9009396006b14f7da15eb248d",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-14T15:52:08+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_14112026155152_STX_intimation.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "b211f85cace9c35c46ebd6457d48e877cc4c8cdc",
@@ -265,7 +283,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },

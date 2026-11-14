@@ -1,6 +1,29 @@
 {
- "as_of": "2026-11-14T02:09:13.934406+05:30",
+ "as_of": "2026-11-14T20:41:48.322630+05:30",
  "events": [
+  {
+   "id": "e907006201a83fd9009396006b14f7da15eb248d",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-14T15:52:08+05:30",
+   "last_at": "2026-11-14T15:52:08+05:30",
+   "headline": "Copy of Newspaper Publication",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Copy of Newspaper Publication",
+     "url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_14112026155152_STX_intimation.pdf",
+     "filed_at": "2026-11-14T15:52:08+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",
    "symbol": "RELIANCE",
@@ -25,9 +48,9 @@
      "filed_at": "2026-11-13T18:25:01+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.0,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-13"
   },
   {
    "id": "872f3d30dfe5c3d2f57db91a7d359f50b12c365a",
@@ -64,9 +87,9 @@
      "filed_at": "2026-11-13T16:35:23+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.0,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-13"
   },
   {
    "id": "ab8979a4719ed849b98dda323a22caf7d2f3e5db",
@@ -87,9 +110,9 @@
      "filed_at": "2026-11-13T15:19:16+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.3,
+   "volume_multiple": 0.4,
+   "price_date": "2026-11-13"
   },
   {
    "id": "dbd659fc972fb44187149f40ab628993ca3d744a",
@@ -138,7 +161,7 @@
     },
     "not_applicable": [],
     "missing": [],
-    "verified": null,
+    "verified": true,
     "mismatches": [],
     "unit": "₹ Cr"
    },
@@ -155,9 +178,9 @@
      "filed_at": "2026-11-13T15:11:44+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -2.8,
+   "volume_multiple": 1.6,
+   "price_date": "2026-11-13"
   },
   {
    "id": "c066ec2eee895717674564022851291280575da9",
@@ -189,9 +212,9 @@
      "filed_at": "2026-11-13T13:17:44+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.4,
+   "volume_multiple": 0.3,
+   "price_date": "2026-11-13"
   },
   {
    "id": "9950b26d19e333f66d2bbf480d4ee62d13d50c65",
@@ -212,9 +235,9 @@
      "filed_at": "2026-11-13T11:24:22+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-13"
   },
   {
    "id": "6440a9df149037178b4d238e8d0163b853492791",
@@ -235,9 +258,9 @@
      "filed_at": "2026-11-12T18:45:52+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.6,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-13"
   },
   {
    "id": "a72b60122d5e1ab22cd41b700c1a53b4ae79755b",
@@ -258,9 +281,9 @@
      "filed_at": "2026-11-12T17:36:21+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-13"
   },
   {
    "id": "e0ee0ed3d2f7d8dfd751909332e94f4444e8db7f",
@@ -286,9 +309,9 @@
      "filed_at": "2026-11-12T16:20:13+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.1,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-13"
   },
   {
    "id": "0eca30334ab347f7a6de037c48791fb0280ce90a",
@@ -309,9 +332,9 @@
      "filed_at": "2026-11-12T15:30:00+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.6,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-13"
   },
   {
    "id": "8f702f3b149447c94e0a4a064f8bed8fd19606a8",
