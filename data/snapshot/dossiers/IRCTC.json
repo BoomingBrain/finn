@@ -1,10 +1,10 @@
 {
  "symbol": "IRCTC",
  "name": "Indian Railway Catering & Tourism Corporation Ltd",
- "built_at": "2026-10-28T13:07:32.511228Z",
+ "built_at": "2026-11-14T19:36:35.310034Z",
  "basis": "consolidated",
  "sources": {
-  "quarter": "Jun 2026",
+  "quarter": "Sep 2026",
   "transcript": "2026-08-01",
   "annual_report": 2026
  },
@@ -17,15 +17,15 @@
     "name": "Indian Railway Catering & Tourism Corporation Ltd",
     "about": "Incorporated in 1999, IRCTC is a Navratna (Category 1, Central Public Sector Enterprises ) and the only company authorized by the Indian government to provide online railway tickets, catering services, and packaged drinking waterat railway stations and trains in India[1]",
     "basis": "consolidated",
-    "built_at": "2026-10-28T13:05:18.616055+00:00",
+    "built_at": "2026-11-14T19:30:53.508552+00:00",
     "sources": {
-     "quarter": "Jun 2026",
+     "quarter": "Sep 2026",
      "transcript": "2026-08-01",
      "annual_report": 2026
     },
     "lender": false,
-    "revenue_ttm": 5425.0,
-    "pat_ttm": 1392.0,
+    "revenue_ttm": 5612.0,
+    "pat_ttm": 1314.0,
     "revenue_cagr_3y": 13.8,
     "pat_cagr_3y": 11.5,
     "opm_latest": 31.9,
@@ -35,11 +35,6 @@
     "debt_to_equity": 0.02,
     "cfo_to_pat_3y": 0.78,
     "quarterly": [
-     {
-      "label": "Sep 2024",
-      "revenue": 1064.0,
-      "pat": 308.0
-     },
      {
       "label": "Dec 2024",
       "revenue": 1225.0,
@@ -74,6 +69,11 @@
       "label": "Jun 2026",
       "revenue": 1370.0,
       "pat": 330.0
+     },
+     {
+      "label": "Sep 2026",
+      "revenue": 1333.0,
+      "pat": 264.0
      }
     ],
     "flags": [
@@ -119,13 +119,13 @@
        "quarters_needed": 4
       },
       "verdict": "missed",
-      "explanation": "Revenue grew 11.5% over the full year, just short of the 15% guided."
+      "explanation": "Revenue target of 15% guided, delivered 11.5% over four quarters."
      },
      {
       "target": {
        "metric": "ebitda_margin",
        "raw_metric": "EBITDA margin",
-       "comparison": "gte",
+       "comparison": "approx",
        "value": 30.0,
        "value_high": null,
        "unit": "pct",
@@ -135,12 +135,33 @@
        "said_on": "2026-05-01"
       },
       "actual": {
-       "value": 28.2,
-       "quarters_in": 1,
+       "value": 29.4,
+       "quarters_in": 2,
        "quarters_needed": 4
       },
       "verdict": "pending",
-      "explanation": "EBITDA margin came in at 28.2%, below the 30% threshold for FY27."
+      "explanation": "EBITDA margin target of 30% for FY27, delivered 29.4% over two quarters."
+     },
+     {
+      "target": {
+       "metric": "revenue_growth_yoy",
+       "raw_metric": "non-convenience fee revenue growth",
+       "comparison": "approx",
+       "value": 10.0,
+       "value_high": null,
+       "unit": "pct",
+       "period": "FY27",
+       "quote": "IT business is 7%. We want to increase the non-convenience fee. And for that we are already working on unified portal and iPay. So, that will be around 10%. We want to maintain that.",
+       "source_id": "T:2026-05-01:p12",
+       "said_on": "2026-05-01"
+      },
+      "actual": {
+       "value": 17.2,
+       "quarters_in": 2,
+       "quarters_needed": 4
+      },
+      "verdict": "pending",
+      "explanation": "Non-convenience fee revenue growth target of 10% for FY27, delivered 17.2% over two quarters."
      },
      {
       "target": {
@@ -166,27 +187,6 @@
      {
       "target": {
        "metric": "other",
-       "raw_metric": "passenger growth yoy",
-       "comparison": "approx",
-       "value": 8.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "there is 8% growth in passengers also year-on-year from the railways figure.",
-       "source_id": "T:2026-08-01:p13",
-       "said_on": "2026-08-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided passenger growth yoy ≈ 8% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
        "raw_metric": "tourism revenue",
        "comparison": "gte",
        "value": 1000.0,
@@ -208,13 +208,13 @@
      {
       "target": {
        "metric": "other",
-       "raw_metric": "number of Vande Bharat sleeper trains introduced",
+       "raw_metric": "non-convenience fee revenue",
        "comparison": "approx",
-       "value": 20.0,
+       "value": 150.0,
        "value_high": null,
        "unit": "cr",
        "period": "FY27",
-       "quote": "there may be around 20 Vande Bharat sleeper trains introduced in this financial year or the period of next one year. So, the license fee of this can be calibrated to around INR6 crores per train to INR120 crores.",
+       "quote": "So we will try to come back to INR150 crores in this segment also.",
        "source_id": "T:2026-08-01:p17",
        "said_on": "2026-08-01"
       },
@@ -224,18 +224,18 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided number of Vande Bharat sleeper trains introduced ≈ ₹20 Cr for FY27; not checkable from reported financials."
+      "explanation": "Guided non-convenience fee revenue ≈ ₹150 Cr for FY27; not checkable from reported financials."
      },
      {
       "target": {
        "metric": "other",
-       "raw_metric": "license fee revenue from Vande Bharat sleeper trains",
+       "raw_metric": "license fee from Vande Bharat sleeper trains",
        "comparison": "approx",
        "value": 120.0,
        "value_high": null,
        "unit": "cr",
        "period": "FY27",
-       "quote": "there may be around 20 Vande Bharat sleeper trains introduced in this financial year or the period of next one year. So, the license fee of this can be calibrated to around INR6 crores per train to INR120 crores.",
+       "quote": "So, the license fee of this can be calibrated to around INR6 crores per train to INR120 crores.",
        "source_id": "T:2026-08-01:p17",
        "said_on": "2026-08-01"
       },
@@ -245,70 +245,7 @@
        "quarters_needed": 0
       },
       "verdict": "not_checkable",
-      "explanation": "Guided license fee revenue from Vande Bharat sleeper trains ≈ ₹120 Cr for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "catering revenue growth",
-       "comparison": "approx",
-       "value": 15.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "You see, revenue-wise primary growth I see in catering it will continue to maintain around 15%.",
-       "source_id": "T:2026-05-01:p12",
-       "said_on": "2026-05-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided catering revenue growth ≈ 15% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "tourism revenue growth",
-       "comparison": "approx",
-       "value": 20.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "tourism we are eyeing to continue with around this year we are looking to 19% should continue to be around 20%.",
-       "source_id": "T:2026-05-01:p12",
-       "said_on": "2026-05-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided tourism revenue growth ≈ 20% for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "non-convenience fee revenue growth",
-       "comparison": "approx",
-       "value": 10.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY27",
-       "quote": "IT business is 7%. We want to increase the non-convenience fee. And for that we are already working on unified portal and iPay. So, that will be around 10%. We want to maintain that.",
-       "source_id": "T:2026-05-01:p12",
-       "said_on": "2026-05-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided non-convenience fee revenue growth ≈ 10% for FY27; not checkable from reported financials."
+      "explanation": "Guided license fee from Vande Bharat sleeper trains ≈ ₹120 Cr for FY27; not checkable from reported financials."
      },
      {
       "target": {
@@ -330,27 +267,6 @@
       },
       "verdict": "not_checkable",
       "explanation": "Guided CSR expenditure ₹32 Cr–₹36 Cr for FY27; not checkable from reported financials."
-     },
-     {
-      "target": {
-       "metric": "other",
-       "raw_metric": "minimum margin for MICE business",
-       "comparison": "gte",
-       "value": 8.0,
-       "value_high": null,
-       "unit": "pct",
-       "period": "FY26",
-       "quote": "You see, it will be what we have thought of as a minimum margin of 8% will keep.",
-       "source_id": "T:2025-11-01:p9",
-       "said_on": "2025-11-01"
-      },
-      "actual": {
-       "value": null,
-       "quarters_in": 0,
-       "quarters_needed": 0
-      },
-      "verdict": "not_checkable",
-      "explanation": "Guided minimum margin for MICE business ≥ 8% for FY26; not checkable from reported financials."
      }
     ]
    },
@@ -366,6 +282,11 @@
      "page": 8
     },
     {
+     "source_id": "T:2026-05-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b914f14-22d6-44be-b3bb-8d31b83e4499.pdf",
+     "page": 12
+    },
+    {
      "source_id": "T:2026-08-01:p13",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87a3947a-975c-43aa-b153-218d6518615c.pdf",
      "page": 13
@@ -379,16 +300,6 @@
      "source_id": "T:2026-08-01:p17",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87a3947a-975c-43aa-b153-218d6518615c.pdf",
      "page": 17
-    },
-    {
-     "source_id": "T:2026-05-01:p12",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b914f14-22d6-44be-b3bb-8d31b83e4499.pdf",
-     "page": 12
-    },
-    {
-     "source_id": "T:2025-11-01:p9",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ce0acc5-6b05-46de-9e10-a8c90fd96325.pdf",
-     "page": 9
     }
    ]
   },
@@ -397,7 +308,7 @@
    "status": "ready",
    "reason": null,
    "data": {
-    "what_it_does": "IRCTC is India's leading integrated railway services company that sells hospitality, tourism, and digital ticketing solutions to railway passengers and travelers. Its core offerings include onboard and station catering, e-catering, packaged drinking water (Rail Neer), internet and mobile ticketing for trains and other transport, and domestic and international tour packages through its tourism portal.",
+    "what_it_does": "IRCTC is India's leading integrated travel and hospitality company serving the railway ecosystem. It sells digital ticketing, onboard and station catering, packaged drinking water, and tour packages to millions of Indian rail passengers and tourists.",
     "segments": [
      {
       "name": "Catering & Hospitality",
@@ -425,20 +336,6 @@
       "share_pct": null,
       "source_ids": [
        "AR:2026:p31"
-      ]
-     },
-     {
-      "name": "Mobile Catering",
-      "share_pct": null,
-      "source_ids": [
-       "AR:2026:p13"
-      ]
-     },
-     {
-      "name": "E-Catering",
-      "share_pct": null,
-      "source_ids": [
-       "AR:2026:p13"
       ]
      }
     ],
@@ -473,42 +370,42 @@
    "data": {
     "bull": [
      {
-      "text": "IRCTC delivers strong profitable growth with TTM revenue of ₹5,425 Cr and PAT of ₹1,392 Cr, compounding at 13.8% and 11.5% CAGR over three years.",
+      "text": "IRCTC delivers strong profitability with 46% ROCE, 31.9% operating margin, and minimal leverage (debt/equity 0.02) alongside 3-year revenue and PAT CAGRs of 13.8% and 11.5% respectively.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "The company enjoys high capital efficiency with 46% ROCE, 31.9% operating margin, and negligible debt (D/E 0.02).",
-      "source_ids": [
-       "SCR"
-      ]
-     },
-     {
-      "text": "Multiple growth levers exist: tourism revenue rose from ₹745 Cr to ₹890 Cr with management targeting ₹1,000+ Cr, while ~20 Vande Bharat sleeper trains could add ~₹120 Cr in license fees.",
+      "text": "Management projects tourism revenue to exceed ₹1,000 Cr from ₹890 Cr and aims to restore a segment to ₹150 Cr, signaling growth in high-margin travel and hospitality.",
       "source_ids": [
        "T:2026-08-01:p16",
        "T:2026-08-01:p17"
+      ]
+     },
+     {
+      "text": "The IT business's non-convenience fee contribution has already reached 17.2% against a 10% target, demonstrating successful digital monetization beyond expectations.",
+      "source_ids": [
+       "T:2026-05-01:p12"
       ]
      }
     ],
     "bear": [
      {
-      "text": "Operating margins have compressed from 36% to 31.9% over three years, with the screener explicitly flagging margin compression.",
+      "text": "Management missed its 15% sustainable growth target, delivering only 11.5% over four quarters, while the last four quarters show sequential declines in both revenue (₹1,449 Cr to ₹1,333 Cr) and PAT (₹394 Cr to ₹264 Cr).",
+      "source_ids": [
+       "T:2026-02-01:p7",
+       "SCR"
+      ]
+     },
+     {
+      "text": "Operating margin has compressed from 36% three years ago to 31.9% currently, with the screener explicitly flagging margin compression.",
       "source_ids": [
        "SCR"
       ]
      },
      {
-      "text": "Management's 15% sustainable growth target was missed, delivering only 11.5% over the last four quarters.",
+      "text": "Cash conversion remains weak with operating cash flow at only 0.78x PAT over three years, indicating earnings are not translating into cash.",
       "source_ids": [
-       "T:2026-02-01:p7"
-      ]
-     },
-     {
-      "text": "The 30% margin aspiration is off track with only 28.2% delivered in the first quarter of the period, and cash conversion remains weak at 0.78x PAT over three years.",
-      "source_ids": [
-       "T:2026-05-01:p8",
        "SCR"
       ]
      }
@@ -531,14 +428,14 @@
      "page": 17
     },
     {
+     "source_id": "T:2026-05-01:p12",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b914f14-22d6-44be-b3bb-8d31b83e4499.pdf",
+     "page": 12
+    },
+    {
      "source_id": "T:2026-02-01:p7",
      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1cfad47d-e4a8-47fe-a883-38462f3036c3.pdf",
      "page": 7
-    },
-    {
-     "source_id": "T:2026-05-01:p8",
-     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b914f14-22d6-44be-b3bb-8d31b83e4499.pdf",
-     "page": 8
     }
    ]
   }
