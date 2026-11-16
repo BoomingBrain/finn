@@ -1,6 +1,52 @@
 {
- "as_of": "2026-11-16T00:57:54.893324+05:30",
+ "as_of": "2026-11-16T17:13:59.166168+05:30",
  "events": [
+  {
+   "id": "170a507610677ce7330ba579d55de9850749fccf",
+   "symbol": "TRENT",
+   "company": "Trent Limited",
+   "category": "credit_rating",
+   "tier": "notable",
+   "first_at": "2026-11-16T17:02:39+05:30",
+   "last_at": "2026-11-16T17:02:39+05:30",
+   "headline": "Credit Rating",
+   "summary": "CARE Ratings re-affirmed CARE A1+ rating for Trent's Commercial Papers, enhanced from ₹500 Crore to ₹750 Crore on 16th November 2026.",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Credit Rating",
+     "url": "https://nsearchives.nseindia.in/corporate/TRENT_16112026170133_BSENSECARERATING161120260signed.pdf",
+     "filed_at": "2026-11-16T17:02:39+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "1c53e1148b833022f1c86ccc85f14bf3a70e6e64",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-16T11:28:25+05:30",
+   "last_at": "2026-11-16T11:28:25+05:30",
+   "headline": "Analyst(s)/Investor(s) meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Analyst(s)/Investor(s) meet",
+     "url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16112026112810_Intimationtostockexchange.pdf",
+     "filed_at": "2026-11-16T11:28:25+05:30"
+    }
+   ],
+   "price_change_pct": 0.7,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-16"
+  },
   {
    "id": "e907006201a83fd9009396006b14f7da15eb248d",
    "symbol": "BHARTIARTL",
@@ -20,9 +66,9 @@
      "filed_at": "2026-11-14T15:52:08+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.3,
+   "volume_multiple": 0.9,
+   "price_date": "2026-11-16"
   },
   {
    "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",

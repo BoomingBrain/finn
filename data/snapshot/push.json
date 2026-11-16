@@ -1,6 +1,42 @@
 {
- "as_of": "2026-11-16T00:57:54.893324+05:30",
+ "as_of": "2026-11-16T17:13:59.166168+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "170a507610677ce7330ba579d55de9850749fccf",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-11-16T17:02:39+05:30",
+    "subject": "Trent Limited has informed the Exchange about Credit Rating",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/TRENT_16112026170133_BSENSECARERATING161120260signed.pdf",
+    "raw_category": "Credit Rating",
+    "source": "nse"
+   },
+   "category": "credit_rating",
+   "tier": "notable",
+   "summary": "CARE Ratings re-affirmed CARE A1+ rating for Trent's Commercial Papers, enhanced from ₹500 Crore to ₹750 Crore on 16th November 2026.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "1c53e1148b833022f1c86ccc85f14bf3a70e6e64",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-11-16T11:28:25+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16112026112810_Intimationtostockexchange.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "e907006201a83fd9009396006b14f7da15eb248d",
