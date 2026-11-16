@@ -1,6 +1,57 @@
 {
- "as_of": "2026-11-16T17:13:59.166168+05:30",
+ "as_of": "2026-11-16T18:24:00.908104+05:30",
  "events": [
+  {
+   "id": "1c53e1148b833022f1c86ccc85f14bf3a70e6e64",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-16T11:28:25+05:30",
+   "last_at": "2026-11-16T17:55:24+05:30",
+   "headline": "Analyst(s)/Investor(s) meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Analyst(s)/Investor(s) meet",
+     "url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16112026112810_Intimationtostockexchange.pdf",
+     "filed_at": "2026-11-16T11:28:25+05:30"
+    },
+    {
+     "title": "Analyst(s)/Investor(s) meet",
+     "url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16112026175513_Intimationtostockexchange.pdf",
+     "filed_at": "2026-11-16T17:55:24+05:30"
+    }
+   ],
+   "price_change_pct": 0.7,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-16"
+  },
+  {
+   "id": "24aae9923094f2dcbfdd4b1e8d63faa2db0eb292",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-16T17:44:54+05:30",
+   "last_at": "2026-11-16T17:44:54+05:30",
+   "headline": "Outcome of Analyst or Institutional Investor Meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Outcome of Analyst or Institutional Investor Meet",
+     "url": "https://nsearchives.nseindia.in/corporate/DIXON_16112026174441_InvestorMeetOutcome16112026.pdf",
+     "filed_at": "2026-11-16T17:44:54+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "170a507610677ce7330ba579d55de9850749fccf",
    "symbol": "TRENT",
@@ -23,29 +74,6 @@
    "price_change_pct": null,
    "volume_multiple": null,
    "price_date": null
-  },
-  {
-   "id": "1c53e1148b833022f1c86ccc85f14bf3a70e6e64",
-   "symbol": "POLYCAB",
-   "company": "Polycab India Limited",
-   "category": "investor_meetings",
-   "tier": "routine",
-   "first_at": "2026-11-16T11:28:25+05:30",
-   "last_at": "2026-11-16T11:28:25+05:30",
-   "headline": "Analyst(s)/Investor(s) meet",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Analyst(s)/Investor(s) meet",
-     "url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16112026112810_Intimationtostockexchange.pdf",
-     "filed_at": "2026-11-16T11:28:25+05:30"
-    }
-   ],
-   "price_change_pct": 0.7,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-16"
   },
   {
    "id": "e907006201a83fd9009396006b14f7da15eb248d",

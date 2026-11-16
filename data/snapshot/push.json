@@ -1,6 +1,42 @@
 {
- "as_of": "2026-11-16T17:13:59.166168+05:30",
+ "as_of": "2026-11-16T18:24:00.908104+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "8066e6ce59f139704d411fa615ddb6bc5f5ddf9d",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-11-16T17:55:24+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_16112026175513_Intimationtostockexchange.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "24aae9923094f2dcbfdd4b1e8d63faa2db0eb292",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-11-16T17:44:54+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst or Institutional Investor Meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DIXON_16112026174441_InvestorMeetOutcome16112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "170a507610677ce7330ba579d55de9850749fccf",
