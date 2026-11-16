@@ -1,6 +1,96 @@
 {
- "as_of": "2026-11-16T18:24:00.908104+05:30",
+ "as_of": "2026-11-17T04:31:45.624392+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "c25b0b5d9c79d5112145f8b901c4df6be7c96917",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-11-16T23:49:36+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about the outcome of QIP 2026 - Special Committee Meeting",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16112026234915_BSENSE_Intimation_Issue_closing_pricing.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "QIP 2026 closed on Nov 16, 2026, with 114,146,341 equity shares allocated at ₹1,025 per share.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2158732763dbab1ad02fa181d20c8caf48a9b5e8",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-11-16T20:14:56+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about execution of an Asset Purchase Agreement between Dixon Technologies (India) Limited and Vimal Plast (India) Private Limited",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DIXON_16112026201438_Regulation30AnnouncementVimal16112026.pdf",
+    "raw_category": "Agreements",
+    "source": "nse"
+   },
+   "category": "M&A",
+   "tier": "critical",
+   "summary": "Dixon Technologies entered into an Asset Purchase Agreement on 16th November 2026 to acquire movable assets from Vimal Plast (India)…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "de3bb03cc3fe10a6b1dff09f78b768324510af93",
+    "symbol": "KPITTECH",
+    "company": "KPIT Technologies Limited",
+    "filed_at": "2026-11-16T20:00:01+05:30",
+    "subject": "KPIT Technologies Limited has informed the Exchange about Outcome",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/KPITTECH_16112026195704_KPIT_Avendus_Spark_INDS_outcome_Signed.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "d71adec80c1f43a082bae8fad890fd3276d70a75",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-11-16T19:26:15+05:30",
+    "subject": "This is further to the disclosure dated November 6, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - CLSA India Forum and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/kavinavora_16112026192449_SE_16112026__1_.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "53f9e719d97e919cf83466eee0297341c9f796a5",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-16T19:07:17+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_16112026190520_BhartiAirtelSTXdisclosure.pdf",
+    "raw_category": "Action(s) taken or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "DoT imposed a penalty of Rs. 13,72,000 on Bharti Airtel for alleged subscriber verification norm violations following a CAF Audit for…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "8066e6ce59f139704d411fa615ddb6bc5f5ddf9d",

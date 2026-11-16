@@ -1,6 +1,121 @@
 {
- "as_of": "2026-11-16T18:24:00.908104+05:30",
+ "as_of": "2026-11-17T04:31:45.624392+05:30",
  "events": [
+  {
+   "id": "c25b0b5d9c79d5112145f8b901c4df6be7c96917",
+   "symbol": "BAJFINANCE",
+   "company": "Bajaj Finance Limited",
+   "category": "fund_raise",
+   "tier": "critical",
+   "first_at": "2026-11-16T23:49:36+05:30",
+   "last_at": "2026-11-16T23:49:36+05:30",
+   "headline": "The outcome of QIP 2026 - Special Committee Meeting",
+   "summary": "QIP 2026 closed on Nov 16, 2026, with 114,146,341 equity shares allocated at ₹1,025 per share.",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "The outcome of QIP 2026 - Special Committee Meeting",
+     "url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16112026234915_BSENSE_Intimation_Issue_closing_pricing.pdf",
+     "filed_at": "2026-11-16T23:49:36+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "2158732763dbab1ad02fa181d20c8caf48a9b5e8",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "M&A",
+   "tier": "critical",
+   "first_at": "2026-11-16T20:14:56+05:30",
+   "last_at": "2026-11-16T20:14:56+05:30",
+   "headline": "Execution of an Asset Purchase Agreement between Dixon Technologies (India) Limited and Vimal Plast (India) Private Limited",
+   "summary": "Dixon Technologies entered into an Asset Purchase Agreement on 16th November 2026 to acquire movable assets from Vimal Plast (India)…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Execution of an Asset Purchase Agreement between Dixon Technologies (India) Limited and Vimal Plast (India) Private Limited",
+     "url": "https://nsearchives.nseindia.in/corporate/DIXON_16112026201438_Regulation30AnnouncementVimal16112026.pdf",
+     "filed_at": "2026-11-16T20:14:56+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "de3bb03cc3fe10a6b1dff09f78b768324510af93",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-16T20:00:01+05:30",
+   "last_at": "2026-11-16T20:00:01+05:30",
+   "headline": "Outcome",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Outcome",
+     "url": "https://nsearchives.nseindia.in/corporate/KPITTECH_16112026195704_KPIT_Avendus_Spark_INDS_outcome_Signed.pdf",
+     "filed_at": "2026-11-16T20:00:01+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "d71adec80c1f43a082bae8fad890fd3276d70a75",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-16T19:26:15+05:30",
+   "last_at": "2026-11-16T19:26:15+05:30",
+   "headline": "This is further to the disclosure dated November 6, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - CLSA India Forum and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "This is further to the disclosure dated November 6, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - CLSA India Forum and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting",
+     "url": "https://nsearchives.nseindia.in/corporate/kavinavora_16112026192449_SE_16112026__1_.pdf",
+     "filed_at": "2026-11-16T19:26:15+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "53f9e719d97e919cf83466eee0297341c9f796a5",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "litigation",
+   "tier": "critical",
+   "first_at": "2026-11-16T19:07:17+05:30",
+   "last_at": "2026-11-16T19:07:17+05:30",
+   "headline": "Action(s) taken or orders passed",
+   "summary": "DoT imposed a penalty of Rs. 13,72,000 on Bharti Airtel for alleged subscriber verification norm violations following a CAF Audit for…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Action(s) taken or orders passed",
+     "url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_16112026190520_BhartiAirtelSTXdisclosure.pdf",
+     "filed_at": "2026-11-16T19:07:17+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "1c53e1148b833022f1c86ccc85f14bf3a70e6e64",
    "symbol": "POLYCAB",
@@ -25,9 +140,9 @@
      "filed_at": "2026-11-16T17:55:24+05:30"
     }
    ],
-   "price_change_pct": 0.7,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-16"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "24aae9923094f2dcbfdd4b1e8d63faa2db0eb292",
@@ -94,9 +209,9 @@
      "filed_at": "2026-11-14T15:52:08+05:30"
     }
    ],
-   "price_change_pct": 2.3,
-   "volume_multiple": 0.9,
-   "price_date": "2026-11-16"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",
