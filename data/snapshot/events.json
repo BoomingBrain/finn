@@ -1,6 +1,108 @@
 {
- "as_of": "2026-11-17T09:29:33.676128+05:30",
+ "as_of": "2026-11-17T19:07:06.607444+05:30",
  "events": [
+  {
+   "id": "d71adec80c1f43a082bae8fad890fd3276d70a75",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-16T19:26:15+05:30",
+   "last_at": "2026-11-17T18:47:04+05:30",
+   "headline": "This is further to the disclosure dated November 6, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - CLSA India Forum and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "This is further to the disclosure dated November 6, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - CLSA India Forum and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting",
+     "url": "https://nsearchives.nseindia.in/corporate/kavinavora_16112026192449_SE_16112026__1_.pdf",
+     "filed_at": "2026-11-16T19:26:15+05:30"
+    },
+    {
+     "title": "This is further to the disclosure dated November 12, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - JM Financial India Conference and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting",
+     "url": "https://nsearchives.nseindia.in/corporate/kavinavora_17112026184407_SE_17112026.pdf",
+     "filed_at": "2026-11-17T18:47:04+05:30"
+    }
+   ],
+   "price_change_pct": 1.7,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-17"
+  },
+  {
+   "id": "2bb8992363c21de0e6b9514b47092a04dc968371",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-17T13:59:06+05:30",
+   "last_at": "2026-11-17T15:54:23+05:30",
+   "headline": "Allotment of 1412278 Shares",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Allotment of 1412278 Shares",
+     "url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_17112026135613_SELetterESOP17112026.pdf",
+     "filed_at": "2026-11-17T13:59:06+05:30"
+    },
+    {
+     "title": "Grant of stock options under Employee Stock Option Scheme (ESOS Plan H-2024) and Grant of Restricted Stock Units under Employees Stock Incentive Master Scheme 2022",
+     "url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_17112026155359_SE_Intimation_grant_of_ESOP_17112026.pdf",
+     "filed_at": "2026-11-17T15:54:23+05:30"
+    }
+   ],
+   "price_change_pct": -0.2,
+   "volume_multiple": 0.9,
+   "price_date": "2026-11-17"
+  },
+  {
+   "id": "a489a68919e9f0b942a0f1f882940165273064be",
+   "symbol": "INFY",
+   "company": "Infosys Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-17T14:58:50+05:30",
+   "last_at": "2026-11-17T14:58:50+05:30",
+   "headline": "Infosys Positioned as a Leader in the 2026 Gartner® Magic Quadrant for Public Cloud Optimization and Transformation Services for the Fourth Consecutive Year",
+   "summary": "Infosys named a Leader in the 2026 Gartner Magic Quadrant for Public Cloud Optimization and Transformation Services for the fourth…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Infosys Positioned as a Leader in the 2026 Gartner® Magic Quadrant for Public Cloud Optimization and Transformation Services for the Fourth Consecutive Year",
+     "url": "https://nsearchives.nseindia.in/corporate/Infosys_17112026145826_PR_17112026.pdf",
+     "filed_at": "2026-11-17T14:58:50+05:30"
+    }
+   ],
+   "price_change_pct": -1.3,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-17"
+  },
+  {
+   "id": "706151ce5fa7584822c954779bd83c2826e4d26a",
+   "symbol": "TRENT",
+   "company": "Trent Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-17T14:06:22+05:30",
+   "last_at": "2026-11-17T14:06:22+05:30",
+   "headline": "Intimation of schedule of Analyst / Institutional Investors Meetings",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Intimation of schedule of Analyst / Institutional Investors Meetings",
+     "url": "https://nsearchives.nseindia.in/corporate/TRENT_17112026140114_Investor_Analyst_Meeting_17112026.pdf",
+     "filed_at": "2026-11-17T14:06:22+05:30"
+    }
+   ],
+   "price_change_pct": -0.9,
+   "volume_multiple": 0.8,
+   "price_date": "2026-11-17"
+  },
   {
    "id": "c25b0b5d9c79d5112145f8b901c4df6be7c96917",
    "symbol": "BAJFINANCE",
@@ -25,9 +127,9 @@
      "filed_at": "2026-11-17T08:25:32+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.0,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-17"
   },
   {
    "id": "2158732763dbab1ad02fa181d20c8caf48a9b5e8",
@@ -48,9 +150,9 @@
      "filed_at": "2026-11-16T20:14:56+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.5,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-17"
   },
   {
    "id": "de3bb03cc3fe10a6b1dff09f78b768324510af93",
@@ -71,32 +173,9 @@
      "filed_at": "2026-11-16T20:00:01+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "d71adec80c1f43a082bae8fad890fd3276d70a75",
-   "symbol": "RELIANCE",
-   "company": "Reliance Industries Limited",
-   "category": "investor_meetings",
-   "tier": "routine",
-   "first_at": "2026-11-16T19:26:15+05:30",
-   "last_at": "2026-11-16T19:26:15+05:30",
-   "headline": "This is further to the disclosure dated November 6, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - CLSA India Forum and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "This is further to the disclosure dated November 6, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - CLSA India Forum and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting",
-     "url": "https://nsearchives.nseindia.in/corporate/kavinavora_16112026192449_SE_16112026__1_.pdf",
-     "filed_at": "2026-11-16T19:26:15+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.9,
+   "volume_multiple": 0.4,
+   "price_date": "2026-11-17"
   },
   {
    "id": "53f9e719d97e919cf83466eee0297341c9f796a5",
@@ -117,9 +196,9 @@
      "filed_at": "2026-11-16T19:07:17+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.7,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-17"
   },
   {
    "id": "1c53e1148b833022f1c86ccc85f14bf3a70e6e64",
@@ -168,9 +247,9 @@
      "filed_at": "2026-11-16T17:44:54+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.5,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-17"
   },
   {
    "id": "170a507610677ce7330ba579d55de9850749fccf",
@@ -191,9 +270,9 @@
      "filed_at": "2026-11-16T17:02:39+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.9,
+   "volume_multiple": 0.8,
+   "price_date": "2026-11-17"
   },
   {
    "id": "e907006201a83fd9009396006b14f7da15eb248d",
