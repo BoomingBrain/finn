@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-17T04:31:45.624392+05:30",
+ "as_of": "2026-11-17T09:29:33.676128+05:30",
  "events": [
   {
    "id": "c25b0b5d9c79d5112145f8b901c4df6be7c96917",
@@ -8,7 +8,7 @@
    "category": "fund_raise",
    "tier": "critical",
    "first_at": "2026-11-16T23:49:36+05:30",
-   "last_at": "2026-11-16T23:49:36+05:30",
+   "last_at": "2026-11-17T08:25:32+05:30",
    "headline": "The outcome of QIP 2026 - Special Committee Meeting",
    "summary": "QIP 2026 closed on Nov 16, 2026, with 114,146,341 equity shares allocated at ₹1,025 per share.",
    "results": null,
@@ -18,6 +18,11 @@
      "title": "The outcome of QIP 2026 - Special Committee Meeting",
      "url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16112026234915_BSENSE_Intimation_Issue_closing_pricing.pdf",
      "filed_at": "2026-11-16T23:49:36+05:30"
+    },
+    {
+     "title": "Allotment of 114146341 securities pursuant to Qualified Institution Placement at its meeting held on November 17, 2026",
+     "url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_17112026082518_BSENSE_Intimationofallotment.pdf",
+     "filed_at": "2026-11-17T08:25:32+05:30"
     }
    ],
    "price_change_pct": null,
@@ -140,9 +145,9 @@
      "filed_at": "2026-11-16T17:55:24+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.7,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-16"
   },
   {
    "id": "24aae9923094f2dcbfdd4b1e8d63faa2db0eb292",
@@ -209,9 +214,9 @@
      "filed_at": "2026-11-14T15:52:08+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.3,
+   "volume_multiple": 0.9,
+   "price_date": "2026-11-16"
   },
   {
    "id": "538dbcae51561e04448bd4a0977ee6ab4dae47b7",
