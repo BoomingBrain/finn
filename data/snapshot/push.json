@@ -1,6 +1,60 @@
 {
- "as_of": "2026-11-18T18:41:52.903094+05:30",
+ "as_of": "2026-11-19T03:05:40.262683+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "12a2c7eed3870f0887e3bd41b5de4d50c0e39d4a",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-11-18T22:10:55+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Change in Corporate office address of the Company s Registrar and Share Transfer Agent'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/INFY_18112026221036_SE_filing_17112027__1_.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys' Registrar and Share Transfer Agent, KFin Technologies Limited, changed its corporate office address to 6,23,24,25th Floor, South…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8aef261dc20c52c699fb013801e9bfb3135a06d3",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-11-18T22:06:40+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Disclosure Under Regulation 30 Of SEBI LODR Regulations'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/INFY_18112026220604_Reg_30_disclosure_18112026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys will invest JPY 1.59bn to acquire a 10.1% stake in NTT Docomo Playspace Inc., a Japan-based AI-powered metaverse joint venture…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "391dc183fdbfce96ed96b9b4f4fa5693333259fb",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-18T20:53:56+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/TITAN_18112026205330_SEintimation_18_Nov_26.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "23e5f2cc67c9c6876572fea2c91af3f21d1741ff",

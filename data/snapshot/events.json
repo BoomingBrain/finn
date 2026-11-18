@@ -1,6 +1,62 @@
 {
- "as_of": "2026-11-18T18:41:52.903094+05:30",
+ "as_of": "2026-11-19T03:05:40.262683+05:30",
  "events": [
+  {
+   "id": "a489a68919e9f0b942a0f1f882940165273064be",
+   "symbol": "INFY",
+   "company": "Infosys Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-17T14:58:50+05:30",
+   "last_at": "2026-11-18T22:10:55+05:30",
+   "headline": "Infosys Positioned as a Leader in the 2026 Gartner® Magic Quadrant for Public Cloud Optimization and Transformation Services for the Fourth Consecutive Year",
+   "summary": "Infosys named a Leader in the 2026 Gartner Magic Quadrant for Public Cloud Optimization and Transformation Services for the fourth…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Infosys Positioned as a Leader in the 2026 Gartner® Magic Quadrant for Public Cloud Optimization and Transformation Services for the Fourth Consecutive Year",
+     "url": "https://nsearchives.nseindia.in/corporate/Infosys_17112026145826_PR_17112026.pdf",
+     "filed_at": "2026-11-17T14:58:50+05:30"
+    },
+    {
+     "title": "Disclosure Under Regulation 30 Of SEBI LODR Regulations",
+     "url": "https://nsearchives.nseindia.in/corporate/INFY_18112026220604_Reg_30_disclosure_18112026.pdf",
+     "filed_at": "2026-11-18T22:06:40+05:30"
+    },
+    {
+     "title": "Change in Corporate office address of the Company s Registrar and Share Transfer Agent",
+     "url": "https://nsearchives.nseindia.in/corporate/INFY_18112026221036_SE_filing_17112027__1_.pdf",
+     "filed_at": "2026-11-18T22:10:55+05:30"
+    }
+   ],
+   "price_change_pct": -1.3,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-17"
+  },
+  {
+   "id": "391dc183fdbfce96ed96b9b4f4fa5693333259fb",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-18T20:53:56+05:30",
+   "last_at": "2026-11-18T20:53:56+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.in/corporate/TITAN_18112026205330_SEintimation_18_Nov_26.pdf",
+     "filed_at": "2026-11-18T20:53:56+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "23e5f2cc67c9c6876572fea2c91af3f21d1741ff",
    "symbol": "KPITTECH",
@@ -124,29 +180,6 @@
    ],
    "price_change_pct": -0.2,
    "volume_multiple": 0.9,
-   "price_date": "2026-11-17"
-  },
-  {
-   "id": "a489a68919e9f0b942a0f1f882940165273064be",
-   "symbol": "INFY",
-   "company": "Infosys Limited",
-   "category": "press_release",
-   "tier": "notable",
-   "first_at": "2026-11-17T14:58:50+05:30",
-   "last_at": "2026-11-17T14:58:50+05:30",
-   "headline": "Infosys Positioned as a Leader in the 2026 Gartner® Magic Quadrant for Public Cloud Optimization and Transformation Services for the Fourth Consecutive Year",
-   "summary": "Infosys named a Leader in the 2026 Gartner Magic Quadrant for Public Cloud Optimization and Transformation Services for the fourth…",
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Infosys Positioned as a Leader in the 2026 Gartner® Magic Quadrant for Public Cloud Optimization and Transformation Services for the Fourth Consecutive Year",
-     "url": "https://nsearchives.nseindia.in/corporate/Infosys_17112026145826_PR_17112026.pdf",
-     "filed_at": "2026-11-17T14:58:50+05:30"
-    }
-   ],
-   "price_change_pct": -1.3,
-   "volume_multiple": 0.5,
    "price_date": "2026-11-17"
   },
   {
