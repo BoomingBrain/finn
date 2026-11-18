@@ -1,6 +1,42 @@
 {
- "as_of": "2026-11-18T09:14:49.326002+05:30",
+ "as_of": "2026-11-18T17:50:36.670607+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "ba1f35ff8619881ab891597b4c09c8a34b66e629",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-11-18T17:01:11+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about Repayment of Commercial Paper",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DMART_18112026165453_RedemptionofCP_18112026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "notable",
+   "summary": "Avenue Supermarts repaid 4,000 commercial papers (ISIN INE192R14378) worth Rs. 200 crores at maturity on 18th November 2026, leaving…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e2bb5dde4fc31f3478a1e1722232aaacdcdb5ecc",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-18T15:38:37+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_18112026153820_Newspaper_Advertisement.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "2b073b6dfe1a15afccf379262d3f9778224159f7",
