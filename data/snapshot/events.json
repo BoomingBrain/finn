@@ -1,6 +1,29 @@
 {
- "as_of": "2026-11-18T17:50:36.670607+05:30",
+ "as_of": "2026-11-18T18:41:52.903094+05:30",
  "events": [
+  {
+   "id": "23e5f2cc67c9c6876572fea2c91af3f21d1741ff",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-18T18:34:15+05:30",
+   "last_at": "2026-11-18T18:34:15+05:30",
+   "headline": "The Outcome of Investor conference held on Wednesday, November 18, 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "The Outcome of Investor conference held on Wednesday, November 18, 2026",
+     "url": "https://nsearchives.nseindia.in/corporate/KPITTECH_18112026183153_KPIT_JM_Financial_India_Xchange_outcome_S.pdf",
+     "filed_at": "2026-11-18T18:34:15+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "ba1f35ff8619881ab891597b4c09c8a34b66e629",
    "symbol": "DMART",
