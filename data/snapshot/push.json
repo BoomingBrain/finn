@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-19T15:59:46.081727+05:30",
+ "as_of": "2026-11-19T18:58:57.444286+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "1383f71797f1936ffa914f380aa0aa806637dce9",
+    "symbol": "RELIANCE",
+    "company": "Reliance Industries Limited",
+    "filed_at": "2026-11-19T18:35:25+05:30",
+    "subject": "This is further to the disclosure dated November 13, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - Morgan Stanley 25th Annual Asia-Pacific Summit and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/kavinavora_19112026183441_SE_19112026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "12a2c7eed3870f0887e3bd41b5de4d50c0e39d4a",

@@ -1,6 +1,29 @@
 {
- "as_of": "2026-11-19T15:59:46.081727+05:30",
+ "as_of": "2026-11-19T18:58:57.444286+05:30",
  "events": [
+  {
+   "id": "1383f71797f1936ffa914f380aa0aa806637dce9",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-19T18:35:25+05:30",
+   "last_at": "2026-11-19T18:35:25+05:30",
+   "headline": "This is further to the disclosure dated November 13, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - Morgan Stanley 25th Annual Asia-Pacific Summit and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "This is further to the disclosure dated November 13, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - Morgan Stanley 25th Annual Asia-Pacific Summit and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting",
+     "url": "https://nsearchives.nseindia.in/corporate/kavinavora_19112026183441_SE_19112026.pdf",
+     "filed_at": "2026-11-19T18:35:25+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "a489a68919e9f0b942a0f1f882940165273064be",
    "symbol": "INFY",
@@ -53,9 +76,9 @@
      "filed_at": "2026-11-18T20:53:56+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.1,
+   "volume_multiple": 1.1,
+   "price_date": "2026-11-19"
   },
   {
    "id": "23e5f2cc67c9c6876572fea2c91af3f21d1741ff",
@@ -76,9 +99,9 @@
      "filed_at": "2026-11-18T18:34:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.1,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-19"
   },
   {
    "id": "ba1f35ff8619881ab891597b4c09c8a34b66e629",
@@ -99,9 +122,9 @@
      "filed_at": "2026-11-18T17:01:11+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.2,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-19"
   },
   {
    "id": "e2bb5dde4fc31f3478a1e1722232aaacdcdb5ecc",
@@ -122,9 +145,9 @@
      "filed_at": "2026-11-18T15:38:37+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.6,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-19"
   },
   {
    "id": "d71adec80c1f43a082bae8fad890fd3276d70a75",
