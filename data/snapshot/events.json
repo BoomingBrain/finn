@@ -1,6 +1,29 @@
 {
- "as_of": "2026-11-20T18:38:35.306563+05:30",
+ "as_of": "2026-11-21T03:01:31.084588+05:30",
  "events": [
+  {
+   "id": "6d1486c4304e08760ea723011869a7e889dddeee",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "category": "postal_ballot",
+   "tier": "routine",
+   "first_at": "2026-11-20T20:43:09+05:30",
+   "last_at": "2026-11-20T20:43:09+05:30",
+   "headline": "Voting results",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Voting results",
+     "url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_20112026204256_SE_Intimation_-_PB_Results_-20112026.pdf",
+     "filed_at": "2026-11-20T20:43:09+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "781e61ebb155b1a5c3276615e8895182740f8ee4",
    "symbol": "TRENT",
@@ -94,9 +117,9 @@
      "filed_at": "2026-11-20T12:13:59+05:30"
     }
    ],
-   "price_change_pct": 0.5,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-20"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "790a15f537939f129587a6f586f204a98781b43c",
@@ -117,9 +140,9 @@
      "filed_at": "2026-11-20T11:20:15+05:30"
     }
    ],
-   "price_change_pct": 0.5,
-   "volume_multiple": 0.4,
-   "price_date": "2026-11-20"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "1383f71797f1936ffa914f380aa0aa806637dce9",
@@ -140,9 +163,9 @@
      "filed_at": "2026-11-19T18:35:25+05:30"
     }
    ],
-   "price_change_pct": 0.1,
-   "volume_multiple": 0.6,
-   "price_date": "2026-11-20"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "a489a68919e9f0b942a0f1f882940165273064be",
