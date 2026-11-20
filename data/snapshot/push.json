@@ -1,6 +1,42 @@
 {
- "as_of": "2026-11-20T03:17:40.483554+05:30",
+ "as_of": "2026-11-20T14:11:21.148453+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "cfdb615eaba91eb46ba93336ca4ab3118a70f7d0",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-11-20T12:13:59+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst /Institutional Investor Meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DIXON_20112026121311_InvestorMeetOutcome20112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "790a15f537939f129587a6f586f204a98781b43c",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-11-20T11:20:15+05:30",
+    "subject": "Asian Paints Limited has informed the Exchange regarding Trading Plan pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_20112026111957_Stock_Exchange_Intimation.pdf",
+    "raw_category": "Trading Plan under PIT",
+    "source": "nse"
+   },
+   "category": "insider_trading",
+   "tier": "notable",
+   "summary": "Designated person Pinkal Kumar Patel submitted a trading plan to sell up to 765 shares between 23rd and 30th March 2027 at a price not…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "1383f71797f1936ffa914f380aa0aa806637dce9",
