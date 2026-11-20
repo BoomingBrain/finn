@@ -1,6 +1,78 @@
 {
- "as_of": "2026-11-20T14:11:21.148453+05:30",
+ "as_of": "2026-11-20T18:38:35.306563+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "781e61ebb155b1a5c3276615e8895182740f8ee4",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-11-20T18:07:41+05:30",
+    "subject": "Trent Limited has informed the Exchange about Intimation of schedule of Analyst / Institutional Investors Meetings",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/TRENT_20112026175823_InvestorAnalystMeeting20112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6c0566764ad92969f34b5f16f5d9b7879d86e68e",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-20T17:36:07+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/Titan002_20112026173557_SEintimation_20_November.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f81c9afb732538a3809b96efba8e45f3734d7da0",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-20T17:32:33+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/Titan002_20112026173215_SEintimation_20_Nov.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "a63d1e6ba6ced7ed31ca394fd6d7406e1fbae247",
+    "symbol": "DEEPAKNTR",
+    "company": "Deepak Nitrite Limited",
+    "filed_at": "2026-11-20T16:32:00+05:30",
+    "subject": "Deepak Nitrite Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DEEPAKNTR_20112026163129_NSESE20112026.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "cfdb615eaba91eb46ba93336ca4ab3118a70f7d0",

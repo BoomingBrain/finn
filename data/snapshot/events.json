@@ -1,6 +1,80 @@
 {
- "as_of": "2026-11-20T14:11:21.148453+05:30",
+ "as_of": "2026-11-20T18:38:35.306563+05:30",
  "events": [
+  {
+   "id": "781e61ebb155b1a5c3276615e8895182740f8ee4",
+   "symbol": "TRENT",
+   "company": "Trent Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-20T18:07:41+05:30",
+   "last_at": "2026-11-20T18:07:41+05:30",
+   "headline": "Intimation of schedule of Analyst / Institutional Investors Meetings",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Intimation of schedule of Analyst / Institutional Investors Meetings",
+     "url": "https://nsearchives.nseindia.in/corporate/TRENT_20112026175823_InvestorAnalystMeeting20112026.pdf",
+     "filed_at": "2026-11-20T18:07:41+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "f81c9afb732538a3809b96efba8e45f3734d7da0",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-20T17:32:33+05:30",
+   "last_at": "2026-11-20T17:36:07+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.in/corporate/Titan002_20112026173215_SEintimation_20_Nov.pdf",
+     "filed_at": "2026-11-20T17:32:33+05:30"
+    },
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.in/corporate/Titan002_20112026173557_SEintimation_20_November.pdf",
+     "filed_at": "2026-11-20T17:36:07+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "a63d1e6ba6ced7ed31ca394fd6d7406e1fbae247",
+   "symbol": "DEEPAKNTR",
+   "company": "Deepak Nitrite Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-20T16:32:00+05:30",
+   "last_at": "2026-11-20T16:32:00+05:30",
+   "headline": "General Updates",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "General Updates",
+     "url": "https://nsearchives.nseindia.in/corporate/DEEPAKNTR_20112026163129_NSESE20112026.pdf",
+     "filed_at": "2026-11-20T16:32:00+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "cfdb615eaba91eb46ba93336ca4ab3118a70f7d0",
    "symbol": "DIXON",
@@ -20,9 +94,9 @@
      "filed_at": "2026-11-20T12:13:59+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-20"
   },
   {
    "id": "790a15f537939f129587a6f586f204a98781b43c",
@@ -43,9 +117,9 @@
      "filed_at": "2026-11-20T11:20:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.5,
+   "volume_multiple": 0.4,
+   "price_date": "2026-11-20"
   },
   {
    "id": "1383f71797f1936ffa914f380aa0aa806637dce9",
@@ -66,9 +140,9 @@
      "filed_at": "2026-11-19T18:35:25+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.1,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-20"
   },
   {
    "id": "a489a68919e9f0b942a0f1f882940165273064be",
@@ -145,9 +219,9 @@
      "filed_at": "2026-11-18T18:34:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.1,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-19"
   },
   {
    "id": "ba1f35ff8619881ab891597b4c09c8a34b66e629",
@@ -168,9 +242,9 @@
      "filed_at": "2026-11-18T17:01:11+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.2,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-19"
   },
   {
    "id": "e2bb5dde4fc31f3478a1e1722232aaacdcdb5ecc",
