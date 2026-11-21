@@ -1,6 +1,52 @@
 {
- "as_of": "2026-11-21T03:01:31.084588+05:30",
+ "as_of": "2026-11-21T18:18:43.386294+05:30",
  "events": [
+  {
+   "id": "e84c0fdff17cdd9ad8f88ad19ee7bf950333fdc5",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-21T18:05:46+05:30",
+   "last_at": "2026-11-21T18:05:46+05:30",
+   "headline": "Store Opening Intimation",
+   "summary": "Avenue Supermarts opened a new store in Sivakasi, Virudhunagar, Tamil Nadu, taking its total store count to 521.",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Store Opening Intimation",
+     "url": "https://nsearchives.nseindia.in/corporate/DMART_21112026180536_ASLInitmationStoreOpening21112026.pdf",
+     "filed_at": "2026-11-21T18:05:46+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "219d1cc0048b363029a5938ceef1964139ec07bd",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "unclassified",
+   "tier": "routine",
+   "first_at": "2026-11-21T12:47:03+05:30",
+   "last_at": "2026-11-21T12:47:03+05:30",
+   "headline": "Newspaper Advertisements about opening of Special Window for transfer of physical shares",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Newspaper Advertisements about opening of Special Window for transfer of physical shares",
+     "url": "https://nsearchives.nseindia.in/corporate/SUNSEC_21112026124625_SEIntimationSpecialWindow21112026_signed.pdf",
+     "filed_at": "2026-11-21T12:47:03+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "6d1486c4304e08760ea723011869a7e889dddeee",
    "symbol": "HDFCBANK",
@@ -117,9 +163,9 @@
      "filed_at": "2026-11-20T12:13:59+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.5,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-20"
   },
   {
    "id": "790a15f537939f129587a6f586f204a98781b43c",
@@ -140,9 +186,9 @@
      "filed_at": "2026-11-20T11:20:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.5,
+   "volume_multiple": 0.4,
+   "price_date": "2026-11-20"
   },
   {
    "id": "1383f71797f1936ffa914f380aa0aa806637dce9",
@@ -163,9 +209,9 @@
      "filed_at": "2026-11-19T18:35:25+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.1,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-20"
   },
   {
    "id": "a489a68919e9f0b942a0f1f882940165273064be",

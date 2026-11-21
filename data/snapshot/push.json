@@ -1,6 +1,42 @@
 {
- "as_of": "2026-11-21T03:01:31.084588+05:30",
+ "as_of": "2026-11-21T18:18:43.386294+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "e84c0fdff17cdd9ad8f88ad19ee7bf950333fdc5",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-11-21T18:05:46+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening Intimation'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DMART_21112026180536_ASLInitmationStoreOpening21112026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Avenue Supermarts opened a new store in Sivakasi, Virudhunagar, Tamil Nadu, taking its total store count to 521.",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "219d1cc0048b363029a5938ceef1964139ec07bd",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-11-21T12:47:03+05:30",
+    "subject": "Newspaper Advertisements about opening of Special Window for transfer of physical shares",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_21112026124625_SEIntimationSpecialWindow21112026_signed.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "6d1486c4304e08760ea723011869a7e889dddeee",
