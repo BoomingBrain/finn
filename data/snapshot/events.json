@@ -1,6 +1,29 @@
 {
- "as_of": "2026-11-21T18:18:43.386294+05:30",
+ "as_of": "2026-11-22T01:45:13.831466+05:30",
  "events": [
+  {
+   "id": "7d37f5eb9e21a5a7b8d554460c33ab4c44a48234",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "M&A",
+   "tier": "critical",
+   "first_at": "2026-11-21T20:31:34+05:30",
+   "last_at": "2026-11-21T20:31:34+05:30",
+   "headline": "Update on Asset Purchase Agreement executed between Dixon Technologies (India) Limited and Vimal Plast (India) Private Limited",
+   "summary": "Dixon Technologies completed the acquisition of movable assets from Vimal Plast for up to INR 49.75 crores on 21st November 2026.",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Update on Asset Purchase Agreement executed between Dixon Technologies (India) Limited and Vimal Plast (India) Private Limited",
+     "url": "https://nsearchives.nseindia.in/corporate/DIXON_21112026203112_VimalClosingAnnouncement21112026.pdf",
+     "filed_at": "2026-11-21T20:31:34+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "e84c0fdff17cdd9ad8f88ad19ee7bf950333fdc5",
    "symbol": "DMART",
