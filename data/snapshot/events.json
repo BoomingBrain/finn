@@ -1,6 +1,98 @@
 {
- "as_of": "2026-11-23T15:22:58.845391+05:30",
+ "as_of": "2026-11-23T20:24:02.593590+05:30",
  "events": [
+  {
+   "id": "dfaf1dceb006e2b8313a4fbf6be4f7ee89a32612",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-23T17:56:51+05:30",
+   "last_at": "2026-11-23T17:56:51+05:30",
+   "headline": "Analyst/Institutional Investor Meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Analyst/Institutional Investor Meet",
+     "url": "https://nsearchives.nseindia.in/corporate/DIXON_23112026175353_InvestorMeetOutcome23112026.pdf",
+     "filed_at": "2026-11-23T17:56:51+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "08bc362f03239dbc3db3ba4fcaef3427593066af",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-23T17:44:23+05:30",
+   "last_at": "2026-11-23T17:44:23+05:30",
+   "headline": "Find enclosed communication with respect to the institutional investor meeting to be held on 27th November 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Find enclosed communication with respect to the institutional investor meeting to be held on 27th November 2026",
+     "url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_23112026174359_SEINTIMATIONANALYSTMEETSNOV272026signed.pdf",
+     "filed_at": "2026-11-23T17:44:23+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "aee970a678377a0fe94bd2f3d4a44f0e583c9b0e",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "credit_rating",
+   "tier": "notable",
+   "first_at": "2026-11-23T16:56:23+05:30",
+   "last_at": "2026-11-23T16:56:23+05:30",
+   "headline": "Credit Rating",
+   "summary": "ICRA reaffirmed [ICRA]AAA (Stable) ratings for Titan's long-term fixed deposit programme (Rs. 3,000 cr) and fund-based term loans (Rs.…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Credit Rating",
+     "url": "https://nsearchives.nseindia.in/corporate/TITAN_23112026164341_SEcreditrating23112026.pdf",
+     "filed_at": "2026-11-23T16:56:23+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "3fabecf0708e8b5226b38cbe982bc40fd0aa5261",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-23T15:33:02+05:30",
+   "last_at": "2026-11-23T15:33:02+05:30",
+   "headline": "Schedule of Investors/Analyst Conference to be held on Friday, November 27, 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of Investors/Analyst Conference to be held on Friday, November 27, 2026",
+     "url": "https://nsearchives.nseindia.in/corporate/KPITTECH_23112026153129_KPIT_Investor_Conference_Kotak_Midcap_S.pdf",
+     "filed_at": "2026-11-23T15:33:02+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "cb4997518098e9fca88c41913d28b27b2ee4ac1f",
    "symbol": "LT",
@@ -20,9 +112,9 @@
      "filed_at": "2026-11-23T09:34:04+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -2.6,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-23"
   },
   {
    "id": "61dce970cb28f47c3425570406443b47c2f2d002",
@@ -43,9 +135,9 @@
      "filed_at": "2026-11-23T07:43:12+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.6,
+   "volume_multiple": 2.1,
+   "price_date": "2026-11-23"
   },
   {
    "id": "7d37f5eb9e21a5a7b8d554460c33ab4c44a48234",
@@ -66,9 +158,9 @@
      "filed_at": "2026-11-21T20:31:34+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.1,
+   "volume_multiple": 1.3,
+   "price_date": "2026-11-23"
   },
   {
    "id": "e84c0fdff17cdd9ad8f88ad19ee7bf950333fdc5",
@@ -89,9 +181,9 @@
      "filed_at": "2026-11-21T18:05:46+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -2.4,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-23"
   },
   {
    "id": "219d1cc0048b363029a5938ceef1964139ec07bd",
@@ -112,9 +204,9 @@
      "filed_at": "2026-11-21T12:47:03+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.3,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-23"
   },
   {
    "id": "6d1486c4304e08760ea723011869a7e889dddeee",
@@ -135,9 +227,9 @@
      "filed_at": "2026-11-20T20:43:09+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.3,
+   "volume_multiple": 1.4,
+   "price_date": "2026-11-23"
   },
   {
    "id": "781e61ebb155b1a5c3276615e8895182740f8ee4",
@@ -158,9 +250,9 @@
      "filed_at": "2026-11-20T18:07:41+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.5,
+   "volume_multiple": 0.4,
+   "price_date": "2026-11-23"
   },
   {
    "id": "f81c9afb732538a3809b96efba8e45f3734d7da0",
@@ -186,9 +278,9 @@
      "filed_at": "2026-11-20T17:36:07+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.3,
+   "volume_multiple": 0.9,
+   "price_date": "2026-11-23"
   },
   {
    "id": "a63d1e6ba6ced7ed31ca394fd6d7406e1fbae247",
@@ -209,9 +301,9 @@
      "filed_at": "2026-11-20T16:32:00+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.7,
+   "volume_multiple": 0.2,
+   "price_date": "2026-11-23"
   },
   {
    "id": "cfdb615eaba91eb46ba93336ca4ab3118a70f7d0",
