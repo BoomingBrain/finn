@@ -1,6 +1,42 @@
 {
- "as_of": "2026-11-23T01:58:20.182872+05:30",
+ "as_of": "2026-11-23T15:22:58.845391+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "cb4997518098e9fca88c41913d28b27b2ee4ac1f",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-11-23T09:34:04+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/PAM_23112026093338_PressRelease23112026.pdf",
+    "raw_category": "Bagging/Receiving of orders/contracts",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "LTN Compute secured a multi-year engagement to deploy additional NVIDIA B300 GPUs at its Chennai data center, powering an inference…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "61dce970cb28f47c3425570406443b47c2f2d002",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-11-23T07:43:12+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange regarding 'Company Statement'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/PERSISTENTUSER1_23112026074246_CompanyStatementforexchangesreleaseNov232026Signed.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Persistent Systems disclosed that a U.S. law firm handling its immigration matters experienced a cybersecurity incident, potentially…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "7d37f5eb9e21a5a7b8d554460c33ab4c44a48234",
