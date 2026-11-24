@@ -1,6 +1,29 @@
 {
- "as_of": "2026-11-23T20:24:02.593590+05:30",
+ "as_of": "2026-11-24T06:42:26.720224+05:30",
  "events": [
+  {
+   "id": "33614df62b627c9370c290027510230e1f6cb92b",
+   "symbol": "SUNPHARMA",
+   "company": "Sun Pharmaceutical Industries Limited",
+   "category": "credit_rating",
+   "tier": "notable",
+   "first_at": "2026-11-23T20:35:37+05:30",
+   "last_at": "2026-11-23T20:35:37+05:30",
+   "headline": "Credit Rating",
+   "summary": "S&P Global Ratings assigned a preliminary 'BBB+' long-term issuer credit rating to Sun Pharma Global Treasury Centre IFSC, equalizing it…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Credit Rating",
+     "url": "https://nsearchives.nseindia.in/corporate/SUNSEC_23112026203508_Intimation_to_SE_-_GTC_SP_Credit_Rating.pdf",
+     "filed_at": "2026-11-23T20:35:37+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "dfaf1dceb006e2b8313a4fbf6be4f7ee89a32612",
    "symbol": "DIXON",
@@ -112,9 +135,9 @@
      "filed_at": "2026-11-23T09:34:04+05:30"
     }
    ],
-   "price_change_pct": -2.6,
-   "volume_multiple": 0.5,
-   "price_date": "2026-11-23"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "61dce970cb28f47c3425570406443b47c2f2d002",
@@ -135,9 +158,9 @@
      "filed_at": "2026-11-23T07:43:12+05:30"
     }
    ],
-   "price_change_pct": 2.6,
-   "volume_multiple": 2.1,
-   "price_date": "2026-11-23"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "7d37f5eb9e21a5a7b8d554460c33ab4c44a48234",
@@ -158,9 +181,9 @@
      "filed_at": "2026-11-21T20:31:34+05:30"
     }
    ],
-   "price_change_pct": 2.1,
-   "volume_multiple": 1.3,
-   "price_date": "2026-11-23"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "e84c0fdff17cdd9ad8f88ad19ee7bf950333fdc5",
@@ -181,9 +204,9 @@
      "filed_at": "2026-11-21T18:05:46+05:30"
     }
    ],
-   "price_change_pct": -2.4,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-23"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "219d1cc0048b363029a5938ceef1964139ec07bd",
@@ -204,9 +227,9 @@
      "filed_at": "2026-11-21T12:47:03+05:30"
     }
    ],
-   "price_change_pct": -1.3,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-23"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "6d1486c4304e08760ea723011869a7e889dddeee",
@@ -227,9 +250,9 @@
      "filed_at": "2026-11-20T20:43:09+05:30"
     }
    ],
-   "price_change_pct": -3.3,
-   "volume_multiple": 1.4,
-   "price_date": "2026-11-23"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "781e61ebb155b1a5c3276615e8895182740f8ee4",
@@ -250,9 +273,9 @@
      "filed_at": "2026-11-20T18:07:41+05:30"
     }
    ],
-   "price_change_pct": -1.5,
-   "volume_multiple": 0.4,
-   "price_date": "2026-11-23"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "f81c9afb732538a3809b96efba8e45f3734d7da0",
@@ -278,9 +301,9 @@
      "filed_at": "2026-11-20T17:36:07+05:30"
     }
    ],
-   "price_change_pct": 1.3,
-   "volume_multiple": 0.9,
-   "price_date": "2026-11-23"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "a63d1e6ba6ced7ed31ca394fd6d7406e1fbae247",
@@ -301,9 +324,9 @@
      "filed_at": "2026-11-20T16:32:00+05:30"
     }
    ],
-   "price_change_pct": -0.7,
-   "volume_multiple": 0.2,
-   "price_date": "2026-11-23"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "cfdb615eaba91eb46ba93336ca4ab3118a70f7d0",

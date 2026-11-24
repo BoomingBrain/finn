@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-23T20:24:02.593590+05:30",
+ "as_of": "2026-11-24T06:42:26.720224+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "33614df62b627c9370c290027510230e1f6cb92b",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-11-23T20:35:37+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Credit Rating",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_23112026203508_Intimation_to_SE_-_GTC_SP_Credit_Rating.pdf",
+    "raw_category": "Credit Rating",
+    "source": "nse"
+   },
+   "category": "credit_rating",
+   "tier": "notable",
+   "summary": "S&P Global Ratings assigned a preliminary 'BBB+' long-term issuer credit rating to Sun Pharma Global Treasury Centre IFSC, equalizing it…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "dfaf1dceb006e2b8313a4fbf6be4f7ee89a32612",
