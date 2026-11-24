@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-24T06:42:26.720224+05:30",
+ "as_of": "2026-11-24T11:06:47.661573+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "10d8595e96dd402eab192d92929245c8fb2bf30f",
+    "symbol": "POLYCAB",
+    "company": "Polycab India Limited",
+    "filed_at": "2026-11-24T10:46:47+05:30",
+    "subject": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/POLYCAB_24112026104607_Intimationtostockexchange.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "33614df62b627c9370c290027510230e1f6cb92b",
