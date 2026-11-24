@@ -1,6 +1,107 @@
 {
- "as_of": "2026-11-24T11:06:47.661573+05:30",
+ "as_of": "2026-11-24T20:28:53.430919+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "1a9bf4327ac8e41261306366b14c0547022b0862",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-11-24T17:33:26+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/PAM_24112026173302_Intimation24112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "0534f16d36da254599d151eae90c136bf1cd5b29",
+    "symbol": "DMART",
+    "company": "Avenue Supermarts Limited",
+    "filed_at": "2026-11-24T15:34:15+05:30",
+    "subject": "Avenue Supermarts Limited has informed the Exchange about Credit Rating",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DMART_24112026153252_CRISLRevisioninCreditRating24112026.pdf",
+    "raw_category": "Credit Rating",
+    "source": "nse"
+   },
+   "category": "credit_rating",
+   "tier": "notable",
+   "summary": "CRISIL reaffirmed the company's long-term credit rating of AAA/Stable on enhanced bank facilities of Rs. 1,135 crores, up from Rs. 500…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "19bbf6d15b3abb6897324e156123646b752e2147",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-11-24T15:04:54+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange regarding Appointment of Ms Aruna Jayanthi (DIN: 00817860) as Other of the company w.e.f. November 24, 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DIXON_24112026150148_Reg30DisclosureArunaJayanthi24112026.pdf",
+    "raw_category": "Appointment",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Ms. Aruna Jayanthi",
+    "role": "Non-Executive & Independent Director",
+    "change": "appointed",
+    "effective_date": "24th November, 2026",
+    "background": "Ms. Aruna Jayanthi holds a Master's degree in Management Studies in Finance from the Narsee Monjee Institute of Management Studies in Mumbai. Ms. Aruna, till March 2026, was leading Capgemini's business in Canada and Latin America.",
+    "prior_roles": [
+     "CEO Capgemini India",
+     "CEO Business Services",
+     "Head of Asia-Pacific and Latin America"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "c3bc3108b340e8cc8cfd8768e5e62cf2cd031f6f",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-11-24T14:24:16+05:30",
+    "subject": "This is to inform you that the management representatives would be meeting the members of the Promoter(s) & Promoter(s) Group on Friday, 27th November 2026, 4.00 pm (IST) onwards in Mumbai, to brief them on the performance of the Company for the quarter and half year ended 30th September 2026.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_24112026142403_SEINTIMATIONPROMOTERMEETNOV2026signed.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "88dab2d2376ffca9cb77d3adad246e7941cb561b",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-24T13:13:15+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_24112026131238_BhartiAirtelSTXdisclosure.pdf",
+    "raw_category": "Action(s) taken or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "DoT imposed a penalty of Rs. 7,96,000 on Bharti Airtel for alleged subscriber verification norm violations following a CAF Audit for June…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "10d8595e96dd402eab192d92929245c8fb2bf30f",

@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-24T11:06:47.661573+05:30",
+ "as_of": "2026-11-24T20:28:53.430919+05:30",
  "names": {
   "RELIANCE": "Reliance Industries",
   "HDFCBANK": "HDFC Bank",
@@ -1109,12 +1109,6 @@
   ],
   "BHARTIARTL": [
    {
-    "date": "2026-08-25",
-    "close": 1947.0,
-    "change_pct": 0.62,
-    "volume_multiple": 0.58
-   },
-   {
     "date": "2026-08-26",
     "close": 1902.0999755859375,
     "change_pct": -2.31,
@@ -1467,6 +1461,12 @@
     "close": 2161.699951171875,
     "change_pct": 0.83,
     "volume_multiple": 0.57
+   },
+   {
+    "date": "2026-11-23",
+    "close": 2128.5,
+    "change_pct": -1.54,
+    "volume_multiple": 0.64
    }
   ],
   "ITC": [
@@ -2195,12 +2195,6 @@
   ],
   "SUNPHARMA": [
    {
-    "date": "2026-08-25",
-    "close": 1922.0,
-    "change_pct": 0.63,
-    "volume_multiple": 0.56
-   },
-   {
     "date": "2026-08-26",
     "close": 1899.5,
     "change_pct": -1.17,
@@ -2553,6 +2547,12 @@
     "close": 1884.9000244140625,
     "change_pct": -0.79,
     "volume_multiple": 0.82
+   },
+   {
+    "date": "2026-11-23",
+    "close": 1860.0,
+    "change_pct": -1.32,
+    "volume_multiple": 0.67
    }
   ],
   "TITAN": [
@@ -4005,12 +4005,6 @@
   ],
   "POLYCAB": [
    {
-    "date": "2026-08-25",
-    "close": 9098.0,
-    "change_pct": 0.49,
-    "volume_multiple": 1.25
-   },
-   {
     "date": "2026-08-26",
     "close": 9060.0,
     "change_pct": -0.42,
@@ -4363,6 +4357,12 @@
     "close": 7570.0,
     "change_pct": 0.26,
     "volume_multiple": 1.65
+   },
+   {
+    "date": "2026-11-23",
+    "close": 7430.0,
+    "change_pct": -1.85,
+    "volume_multiple": 1.28
    }
   ],
   "DIXON": [

@@ -1,6 +1,137 @@
 {
- "as_of": "2026-11-24T11:06:47.661573+05:30",
+ "as_of": "2026-11-24T20:28:53.430919+05:30",
  "events": [
+  {
+   "id": "1a9bf4327ac8e41261306366b14c0547022b0862",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-24T17:33:26+05:30",
+   "last_at": "2026-11-24T17:33:26+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.in/corporate/PAM_24112026173302_Intimation24112026.pdf",
+     "filed_at": "2026-11-24T17:33:26+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "0534f16d36da254599d151eae90c136bf1cd5b29",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "category": "credit_rating",
+   "tier": "notable",
+   "first_at": "2026-11-24T15:34:15+05:30",
+   "last_at": "2026-11-24T15:34:15+05:30",
+   "headline": "Credit Rating",
+   "summary": "CRISIL reaffirmed the company's long-term credit rating of AAA/Stable on enhanced bank facilities of Rs. 1,135 crores, up from Rs. 500…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Credit Rating",
+     "url": "https://nsearchives.nseindia.in/corporate/DMART_24112026153252_CRISLRevisioninCreditRating24112026.pdf",
+     "filed_at": "2026-11-24T15:34:15+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "19bbf6d15b3abb6897324e156123646b752e2147",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "management_change",
+   "tier": "critical",
+   "first_at": "2026-11-24T15:04:54+05:30",
+   "last_at": "2026-11-24T15:04:54+05:30",
+   "headline": "Appointment of Ms Aruna Jayanthi (DIN: 00817860) as Other of the company w.e.f. November 24, 2026",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Ms. Aruna Jayanthi",
+    "role": "Non-Executive & Independent Director",
+    "change": "appointed",
+    "effective_date": "24th November, 2026",
+    "background": "Ms. Aruna Jayanthi holds a Master's degree in Management Studies in Finance from the Narsee Monjee Institute of Management Studies in Mumbai. Ms. Aruna, till March 2026, was leading Capgemini's business in Canada and Latin America.",
+    "prior_roles": [
+     "CEO Capgemini India",
+     "CEO Business Services",
+     "Head of Asia-Pacific and Latin America"
+    ]
+   },
+   "documents": [
+    {
+     "title": "Appointment of Ms Aruna Jayanthi (DIN: 00817860) as Other of the company w.e.f. November 24, 2026",
+     "url": "https://nsearchives.nseindia.in/corporate/DIXON_24112026150148_Reg30DisclosureArunaJayanthi24112026.pdf",
+     "filed_at": "2026-11-24T15:04:54+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "08bc362f03239dbc3db3ba4fcaef3427593066af",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-23T17:44:23+05:30",
+   "last_at": "2026-11-24T14:24:16+05:30",
+   "headline": "Find enclosed communication with respect to the institutional investor meeting to be held on 27th November 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Find enclosed communication with respect to the institutional investor meeting to be held on 27th November 2026",
+     "url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_23112026174359_SEINTIMATIONANALYSTMEETSNOV272026signed.pdf",
+     "filed_at": "2026-11-23T17:44:23+05:30"
+    },
+    {
+     "title": "This is to inform you that the management representatives would be meeting the members of the Promoter(s) & Promoter(s) Group on Friday, 27th November 2026, 4.00 pm (IST) onwards in Mumbai, to brief them on the performance of the Company for the quarter and half year ended 30th September 2026",
+     "url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_24112026142403_SEINTIMATIONPROMOTERMEETNOV2026signed.pdf",
+     "filed_at": "2026-11-24T14:24:16+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "88dab2d2376ffca9cb77d3adad246e7941cb561b",
+   "symbol": "BHARTIARTL",
+   "company": "Bharti Airtel Limited",
+   "category": "litigation",
+   "tier": "critical",
+   "first_at": "2026-11-24T13:13:15+05:30",
+   "last_at": "2026-11-24T13:13:15+05:30",
+   "headline": "Action(s) taken or orders passed",
+   "summary": "DoT imposed a penalty of Rs. 7,96,000 on Bharti Airtel for alleged subscriber verification norm violations following a CAF Audit for June…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Action(s) taken or orders passed",
+     "url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_24112026131238_BhartiAirtelSTXdisclosure.pdf",
+     "filed_at": "2026-11-24T13:13:15+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "10d8595e96dd402eab192d92929245c8fb2bf30f",
    "symbol": "POLYCAB",
@@ -64,29 +195,6 @@
      "title": "Analyst/Institutional Investor Meet",
      "url": "https://nsearchives.nseindia.in/corporate/DIXON_23112026175353_InvestorMeetOutcome23112026.pdf",
      "filed_at": "2026-11-23T17:56:51+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "08bc362f03239dbc3db3ba4fcaef3427593066af",
-   "symbol": "ASIANPAINT",
-   "company": "Asian Paints Limited",
-   "category": "investor_meetings",
-   "tier": "routine",
-   "first_at": "2026-11-23T17:44:23+05:30",
-   "last_at": "2026-11-23T17:44:23+05:30",
-   "headline": "Find enclosed communication with respect to the institutional investor meeting to be held on 27th November 2026",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Find enclosed communication with respect to the institutional investor meeting to be held on 27th November 2026",
-     "url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_23112026174359_SEINTIMATIONANALYSTMEETSNOV272026signed.pdf",
-     "filed_at": "2026-11-23T17:44:23+05:30"
     }
    ],
    "price_change_pct": null,
@@ -250,9 +358,9 @@
      "filed_at": "2026-11-21T12:47:03+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.3,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-23"
   },
   {
    "id": "6d1486c4304e08760ea723011869a7e889dddeee",
