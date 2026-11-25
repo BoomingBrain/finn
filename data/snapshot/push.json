@@ -1,6 +1,60 @@
 {
- "as_of": "2026-11-25T04:46:03.213254+05:30",
+ "as_of": "2026-11-25T15:25:40.973521+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "0eb9f5cda8b53abf81993a2aba06c02531ffccaf",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-11-25T15:00:58+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Infosys Becomes the World s First Organization to Achieve CMMI AI Maturity (AIM) Level 5'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/Infosys_25112026150030_PR_25112026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "Infosys became the world's first organization to achieve CMMI AI Maturity (AIM) Level 5, assessed by Benchmarked Pty Ltd across 1,000+…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8fa3d64b89354b8168b0145fa080aa1f57308c06",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-11-25T12:55:34+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange regarding allotment of 142700 Non Convertible Securities at its meeting held on November 25, 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_25112026125508_REG30_Allotment_intimation_291_T10.pdf",
+    "raw_category": "Allotment of Securities",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "notable",
+   "summary": "Bajaj Finance allotted 142,700 Secured Redeemable NCDs at Rs. 1 lakh face value, aggregating Rs. 1,440.75 crore, with 8.70% p.a. coupon…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "2118acdb1a1ddc45b2de0e63647a85f747a05bea",
+    "symbol": "LT",
+    "company": "Larsen & Toubro Limited",
+    "filed_at": "2026-11-25T11:21:42+05:30",
+    "subject": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/PAM_25112026112131_PressRelease25112026.pdf",
+    "raw_category": "Bagging/Receiving of orders/contracts",
+    "source": "nse"
+   },
+   "category": "press_release",
+   "tier": "notable",
+   "summary": "L&T's Renewables and LTEPS verticals jointly won a significant order to develop a 300 MW / 900 MWh Battery Energy Storage System at Khavda…",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "1a9bf4327ac8e41261306366b14c0547022b0862",

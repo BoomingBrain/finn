@@ -1,6 +1,75 @@
 {
- "as_of": "2026-11-25T04:46:03.213254+05:30",
+ "as_of": "2026-11-25T15:25:40.973521+05:30",
  "events": [
+  {
+   "id": "0eb9f5cda8b53abf81993a2aba06c02531ffccaf",
+   "symbol": "INFY",
+   "company": "Infosys Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-25T15:00:58+05:30",
+   "last_at": "2026-11-25T15:00:58+05:30",
+   "headline": "Infosys Becomes the World s First Organization to Achieve CMMI AI Maturity (AIM) Level 5",
+   "summary": "Infosys became the world's first organization to achieve CMMI AI Maturity (AIM) Level 5, assessed by Benchmarked Pty Ltd across 1,000+…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Infosys Becomes the World s First Organization to Achieve CMMI AI Maturity (AIM) Level 5",
+     "url": "https://nsearchives.nseindia.in/corporate/Infosys_25112026150030_PR_25112026.pdf",
+     "filed_at": "2026-11-25T15:00:58+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "8fa3d64b89354b8168b0145fa080aa1f57308c06",
+   "symbol": "BAJFINANCE",
+   "company": "Bajaj Finance Limited",
+   "category": "fund_raise",
+   "tier": "notable",
+   "first_at": "2026-11-25T12:55:34+05:30",
+   "last_at": "2026-11-25T12:55:34+05:30",
+   "headline": "Allotment of 142700 Non Convertible Securities at its meeting held on November 25, 2026",
+   "summary": "Bajaj Finance allotted 142,700 Secured Redeemable NCDs at Rs. 1 lakh face value, aggregating Rs. 1,440.75 crore, with 8.70% p.a. coupon…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Allotment of 142700 Non Convertible Securities at its meeting held on November 25, 2026",
+     "url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_25112026125508_REG30_Allotment_intimation_291_T10.pdf",
+     "filed_at": "2026-11-25T12:55:34+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "2118acdb1a1ddc45b2de0e63647a85f747a05bea",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "category": "press_release",
+   "tier": "notable",
+   "first_at": "2026-11-25T11:21:42+05:30",
+   "last_at": "2026-11-25T11:21:42+05:30",
+   "headline": "Bagging/Receiving of orders/contracts",
+   "summary": "L&T's Renewables and LTEPS verticals jointly won a significant order to develop a 300 MW / 900 MWh Battery Energy Storage System at Khavda…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.in/corporate/PAM_25112026112131_PressRelease25112026.pdf",
+     "filed_at": "2026-11-25T11:21:42+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "1a9bf4327ac8e41261306366b14c0547022b0862",
    "symbol": "LT",
