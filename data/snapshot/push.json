@@ -1,6 +1,89 @@
 {
- "as_of": "2026-11-25T15:25:40.973521+05:30",
+ "as_of": "2026-11-25T20:04:23.644088+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "3213d667bcca95735de01d68cb55d57e0d391fdf",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-11-25T18:41:56+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about Schedule of Investor meet to be held on 7 December 2026",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_25112026184120_BSENSE_Intimation_Investor_meet.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "285839fef7367207c02bce9be5415d8139fac3e3",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-11-25T18:01:30+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_25112026180104_SE_intimation-_HKB.pdf",
+    "raw_category": "Change in Director(s)",
+    "source": "nse"
+   },
+   "category": "management_change",
+   "tier": "critical",
+   "summary": null,
+   "results": null,
+   "profile": {
+    "name": "Dr. (Mr.) Harsh Kumar Bhanwala",
+    "role": "Independent Director",
+    "change": "appointed",
+    "effective_date": "January 25, 2027",
+    "background": "Dr. (Mr.) Harsh Kumar Bhanwala, has a vast experience of 40 years in areas such as Board governance & management, Finance, Rural development, promoting & supporting sustainable agriculture, and supervision & development of Rural Cooperative Banks and Regional Rural Banks.",
+    "prior_roles": [
+     "Chairman of the National Bank for Agriculture and Rural Development (NABARD)",
+     "Executive Director and later Chairman cum Managing Director of India Infrastructure Finance Company Ltd. (IIFCL)",
+     "Managing Director of the Delhi State Cooperative Bank"
+    ]
+   }
+  },
+  {
+   "announcement": {
+    "id": "5c05bf186a9f8b68d5551e8d8d3b1f5f2c21eca9",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-11-25T17:03:35+05:30",
+    "subject": "This is to inform you that the Company through its representatives, will be participating in the meeting as per enclosed schedule.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_25112026170311_SEINTIMATIONANALYSTMEETSDEC2026signed.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "86f9e509ca9902180e82eaa5b34e43ca083e74c5",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-11-25T16:39:15+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DIXON_25112026163756_InvestorMeetIntimation25112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "0eb9f5cda8b53abf81993a2aba06c02531ffccaf",
