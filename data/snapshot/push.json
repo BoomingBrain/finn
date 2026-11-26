@@ -1,6 +1,60 @@
 {
- "as_of": "2026-11-26T19:30:33.896483+05:30",
+ "as_of": "2026-11-27T04:05:24.450910+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "4e8602e7cd9ca0862528864e6dc64caee48556cb",
+    "symbol": "INFY",
+    "company": "Infosys Limited",
+    "filed_at": "2026-11-26T22:17:06+05:30",
+    "subject": "Infosys Limited has informed the Exchange regarding 'Investor Conference'.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/Infosys_26112026221607_SE_filing_Investor_conference_26112026.pdf",
+    "raw_category": "Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "9dd79c8b5cc7d6d1820b523797823c3a9fa6ed01",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-11-26T20:14:09+05:30",
+    "subject": "Asian Paints Limited has informed the Exchange about Investor Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_26112026201352_Investor_Presentation_Japan_filingsigned.pdf",
+    "raw_category": "Investor Presentation",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "806e98a646bf95727aaa82f139036a43d06b82f1",
+    "symbol": "SUNPHARMA",
+    "company": "Sun Pharmaceutical Industries Limited",
+    "filed_at": "2026-11-26T19:58:39+05:30",
+    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange about Investor Presentation",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/SUNPHARMA456_26112026195823_IntimationSE20261126_Investor_Presenatation_Nov2026_Signed.pdf",
+    "raw_category": "Investor Presentation",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "834adb9eef60025e96eb4497a62d874fb392c3ed",
