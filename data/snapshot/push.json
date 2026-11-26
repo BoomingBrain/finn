@@ -1,6 +1,96 @@
 {
- "as_of": "2026-11-26T04:14:43.982422+05:30",
+ "as_of": "2026-11-26T18:21:57.302236+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "834adb9eef60025e96eb4497a62d874fb392c3ed",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-26T17:21:22+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Redemption of Commercial Paper",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/Titan002_26112026171852_SECPRedemption26112026_1.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "notable",
+   "summary": "Titan Company fully redeemed Commercial Papers worth ₹1,075 crore (ISIN: INE280A14625) issued on 28 August 2026, with maturity proceeds…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "da1fec797e2be1f206ee3ed1065ae52892b86b56",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-26T17:09:49+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Schedule of meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/Titan002_26112026170841_SEintimation_20_Novfinal.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "f9589ac4a8832faaffff09a8fc0a375b633c1bfa",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-11-26T14:50:10+05:30",
+    "subject": "Trent Limited has informed the Exchange about Intimation of schedule of Analyst / Institutional Investors Meeting",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/TRENT_26112026143736_InvestorAnalystMeeting261120261.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "ec56608755a8fd6cfc398c04c5b37b37a1b83678",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-11-26T11:22:56+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Analyst/Institutional Investor Meet",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DIXON_26112026111744_InvestorMeetOutcome26112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "acb7ab298ffba7429708e9b6fc8c8979b2b18a39",
+    "symbol": "TRENT",
+    "company": "Trent Limited",
+    "filed_at": "2026-11-26T10:58:27+05:30",
+    "subject": "Trent Limited has informed the Exchange about Intimation of schedule of Analyst / Institutional Investors Meetings",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/TRENT_26112026105032_InvestorAnalystMeeting26112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "3213d667bcca95735de01d68cb55d57e0d391fdf",

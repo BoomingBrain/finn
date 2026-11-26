@@ -1,6 +1,108 @@
 {
- "as_of": "2026-11-26T04:14:43.982422+05:30",
+ "as_of": "2026-11-26T18:21:57.302236+05:30",
  "events": [
+  {
+   "id": "834adb9eef60025e96eb4497a62d874fb392c3ed",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "fund_raise",
+   "tier": "notable",
+   "first_at": "2026-11-26T17:21:22+05:30",
+   "last_at": "2026-11-26T17:21:22+05:30",
+   "headline": "Redemption of Commercial Paper",
+   "summary": "Titan Company fully redeemed Commercial Papers worth ₹1,075 crore (ISIN: INE280A14625) issued on 28 August 2026, with maturity proceeds…",
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Redemption of Commercial Paper",
+     "url": "https://nsearchives.nseindia.in/corporate/Titan002_26112026171852_SECPRedemption26112026_1.pdf",
+     "filed_at": "2026-11-26T17:21:22+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "da1fec797e2be1f206ee3ed1065ae52892b86b56",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-26T17:09:49+05:30",
+   "last_at": "2026-11-26T17:09:49+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.in/corporate/Titan002_26112026170841_SEintimation_20_Novfinal.pdf",
+     "filed_at": "2026-11-26T17:09:49+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
+  {
+   "id": "acb7ab298ffba7429708e9b6fc8c8979b2b18a39",
+   "symbol": "TRENT",
+   "company": "Trent Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-26T10:58:27+05:30",
+   "last_at": "2026-11-26T14:50:10+05:30",
+   "headline": "Intimation of schedule of Analyst / Institutional Investors Meetings",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Intimation of schedule of Analyst / Institutional Investors Meetings",
+     "url": "https://nsearchives.nseindia.in/corporate/TRENT_26112026105032_InvestorAnalystMeeting26112026.pdf",
+     "filed_at": "2026-11-26T10:58:27+05:30"
+    },
+    {
+     "title": "Intimation of schedule of Analyst / Institutional Investors Meeting",
+     "url": "https://nsearchives.nseindia.in/corporate/TRENT_26112026143736_InvestorAnalystMeeting261120261.pdf",
+     "filed_at": "2026-11-26T14:50:10+05:30"
+    }
+   ],
+   "price_change_pct": -1.7,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-26"
+  },
+  {
+   "id": "86f9e509ca9902180e82eaa5b34e43ca083e74c5",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-25T16:39:15+05:30",
+   "last_at": "2026-11-26T11:22:56+05:30",
+   "headline": "Schedule of meet",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.in/corporate/DIXON_25112026163756_InvestorMeetIntimation25112026.pdf",
+     "filed_at": "2026-11-25T16:39:15+05:30"
+    },
+    {
+     "title": "Analyst/Institutional Investor Meet",
+     "url": "https://nsearchives.nseindia.in/corporate/DIXON_26112026111744_InvestorMeetOutcome26112026.pdf",
+     "filed_at": "2026-11-26T11:22:56+05:30"
+    }
+   ],
+   "price_change_pct": -2.0,
+   "volume_multiple": 1.1,
+   "price_date": "2026-11-26"
+  },
   {
    "id": "3213d667bcca95735de01d68cb55d57e0d391fdf",
    "symbol": "BAJFINANCE",
@@ -20,9 +122,9 @@
      "filed_at": "2026-11-25T18:41:56+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.0,
+   "volume_multiple": 0.8,
+   "price_date": "2026-11-26"
   },
   {
    "id": "285839fef7367207c02bce9be5415d8139fac3e3",
@@ -54,9 +156,9 @@
      "filed_at": "2026-11-25T18:01:30+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.9,
+   "volume_multiple": 1.7,
+   "price_date": "2026-11-26"
   },
   {
    "id": "5c05bf186a9f8b68d5551e8d8d3b1f5f2c21eca9",
@@ -77,32 +179,9 @@
      "filed_at": "2026-11-25T17:03:35+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
-  },
-  {
-   "id": "86f9e509ca9902180e82eaa5b34e43ca083e74c5",
-   "symbol": "DIXON",
-   "company": "Dixon Technologies (India) Limited",
-   "category": "investor_meetings",
-   "tier": "routine",
-   "first_at": "2026-11-25T16:39:15+05:30",
-   "last_at": "2026-11-25T16:39:15+05:30",
-   "headline": "Schedule of meet",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Schedule of meet",
-     "url": "https://nsearchives.nseindia.in/corporate/DIXON_25112026163756_InvestorMeetIntimation25112026.pdf",
-     "filed_at": "2026-11-25T16:39:15+05:30"
-    }
-   ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.0,
+   "volume_multiple": 0.8,
+   "price_date": "2026-11-26"
   },
   {
    "id": "0eb9f5cda8b53abf81993a2aba06c02531ffccaf",
@@ -123,9 +202,9 @@
      "filed_at": "2026-11-25T15:00:58+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.4,
+   "volume_multiple": 1.2,
+   "price_date": "2026-11-25"
   },
   {
    "id": "8fa3d64b89354b8168b0145fa080aa1f57308c06",
@@ -146,9 +225,9 @@
      "filed_at": "2026-11-25T12:55:34+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 3.3,
+   "volume_multiple": 1.1,
+   "price_date": "2026-11-25"
   },
   {
    "id": "2118acdb1a1ddc45b2de0e63647a85f747a05bea",
@@ -169,9 +248,9 @@
      "filed_at": "2026-11-25T11:21:42+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.4,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-25"
   },
   {
    "id": "1a9bf4327ac8e41261306366b14c0547022b0862",
@@ -192,9 +271,9 @@
      "filed_at": "2026-11-24T17:33:26+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.4,
+   "volume_multiple": 0.6,
+   "price_date": "2026-11-25"
   },
   {
    "id": "0534f16d36da254599d151eae90c136bf1cd5b29",
@@ -215,9 +294,9 @@
      "filed_at": "2026-11-24T15:34:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 5.5,
+   "volume_multiple": 2.6,
+   "price_date": "2026-11-25"
   },
   {
    "id": "19bbf6d15b3abb6897324e156123646b752e2147",
@@ -249,9 +328,9 @@
      "filed_at": "2026-11-24T15:04:54+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.1,
+   "volume_multiple": 1.3,
+   "price_date": "2026-11-25"
   },
   {
    "id": "08bc362f03239dbc3db3ba4fcaef3427593066af",
@@ -277,9 +356,9 @@
      "filed_at": "2026-11-24T14:24:16+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.6,
+   "volume_multiple": 0.7,
+   "price_date": "2026-11-25"
   },
   {
    "id": "88dab2d2376ffca9cb77d3adad246e7941cb561b",
@@ -300,9 +379,9 @@
      "filed_at": "2026-11-24T13:13:15+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.5,
+   "volume_multiple": 0.8,
+   "price_date": "2026-11-25"
   },
   {
    "id": "10d8595e96dd402eab192d92929245c8fb2bf30f",
@@ -323,9 +402,9 @@
      "filed_at": "2026-11-24T10:46:47+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -0.7,
+   "volume_multiple": 1.4,
+   "price_date": "2026-11-25"
   },
   {
    "id": "33614df62b627c9370c290027510230e1f6cb92b",
@@ -346,9 +425,9 @@
      "filed_at": "2026-11-23T20:35:37+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 2.2,
+   "volume_multiple": 1.0,
+   "price_date": "2026-11-25"
   },
   {
    "id": "dfaf1dceb006e2b8313a4fbf6be4f7ee89a32612",
@@ -369,9 +448,9 @@
      "filed_at": "2026-11-23T17:56:51+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.1,
+   "volume_multiple": 1.3,
+   "price_date": "2026-11-25"
   },
   {
    "id": "aee970a678377a0fe94bd2f3d4a44f0e583c9b0e",
@@ -392,9 +471,9 @@
      "filed_at": "2026-11-23T16:56:23+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 0.1,
+   "volume_multiple": 0.8,
+   "price_date": "2026-11-25"
   },
   {
    "id": "3fabecf0708e8b5226b38cbe982bc40fd0aa5261",
@@ -415,9 +494,9 @@
      "filed_at": "2026-11-23T15:33:02+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.8,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-25"
   },
   {
    "id": "cb4997518098e9fca88c41913d28b27b2ee4ac1f",
