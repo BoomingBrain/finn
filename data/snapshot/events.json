@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-27T04:05:24.450910+05:30",
+ "as_of": "2026-11-27T09:49:55.528644+05:30",
  "events": [
   {
    "id": "4e8602e7cd9ca0862528864e6dc64caee48556cb",
@@ -48,9 +48,9 @@
      "filed_at": "2026-11-26T20:14:09+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.0,
+   "volume_multiple": 0.8,
+   "price_date": "2026-11-26"
   },
   {
    "id": "806e98a646bf95727aaa82f139036a43d06b82f1",
@@ -145,9 +145,9 @@
      "filed_at": "2026-11-26T14:50:10+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -1.7,
+   "volume_multiple": 0.5,
+   "price_date": "2026-11-26"
   },
   {
    "id": "86f9e509ca9902180e82eaa5b34e43ca083e74c5",
@@ -196,9 +196,9 @@
      "filed_at": "2026-11-25T18:41:56+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": -3.0,
+   "volume_multiple": 0.8,
+   "price_date": "2026-11-26"
   },
   {
    "id": "285839fef7367207c02bce9be5415d8139fac3e3",
@@ -230,9 +230,9 @@
      "filed_at": "2026-11-25T18:01:30+05:30"
     }
    ],
-   "price_change_pct": null,
-   "volume_multiple": null,
-   "price_date": null
+   "price_change_pct": 1.9,
+   "volume_multiple": 1.7,
+   "price_date": "2026-11-26"
   },
   {
    "id": "0eb9f5cda8b53abf81993a2aba06c02531ffccaf",
@@ -9057,29 +9057,6 @@
    "price_change_pct": -1.1,
    "volume_multiple": 4.1,
    "price_date": "2026-09-29"
-  },
-  {
-   "id": "e2c860df046ab3015b1174afd6a903f6d775673a",
-   "symbol": "SUNPHARMA",
-   "company": "Sun Pharmaceutical Industries Limited",
-   "category": "press_release",
-   "tier": "notable",
-   "first_at": "2026-09-28T08:20:40+05:30",
-   "last_at": "2026-09-28T08:20:40+05:30",
-   "headline": "A press release for Lerodalcibep licensing agreement",
-   "summary": "Sun Pharma and LIB Therapeutics signed a global licensing agreement for lerodalcibep (Lyrokaul/Lerochol), a PCSK9 inhibitor, granting Sun…",
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "A press release for Lerodalcibep licensing agreement",
-     "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_28092026082027_SE_Intimation_of_PR_for_lerodalcibep_licensing.pdf",
-     "filed_at": "2026-09-28T08:20:40+05:30"
-    }
-   ],
-   "price_change_pct": -0.8,
-   "volume_multiple": 0.6,
-   "price_date": "2026-09-28"
   }
  ]
 }

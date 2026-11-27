@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-27T04:05:24.450910+05:30",
+ "as_of": "2026-11-27T09:49:55.528644+05:30",
  "announcements": [
   {
    "announcement": {
@@ -8737,24 +8737,6 @@
    "category": "unclassified",
    "tier": "routine",
    "summary": null,
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "e2c860df046ab3015b1174afd6a903f6d775673a",
-    "symbol": "SUNPHARMA",
-    "company": "Sun Pharmaceutical Industries Limited",
-    "filed_at": "2026-09-28T08:20:40+05:30",
-    "subject": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release for Lerodalcibep licensing agreement.",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_28092026082027_SE_Intimation_of_PR_for_lerodalcibep_licensing.pdf",
-    "raw_category": "Press Release",
-    "source": "nse"
-   },
-   "category": "press_release",
-   "tier": "notable",
-   "summary": "Sun Pharma and LIB Therapeutics signed a global licensing agreement for lerodalcibep (Lyrokaul/Lerochol), a PCSK9 inhibitor, granting Sun…",
    "results": null,
    "profile": null
   }
