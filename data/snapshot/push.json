@@ -1,6 +1,114 @@
 {
- "as_of": "2026-11-27T09:49:55.528644+05:30",
+ "as_of": "2026-11-27T19:29:15.203614+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "8ce97f4eb2cd7fc86928f83a44f59c798e976b5f",
+    "symbol": "TITAN",
+    "company": "Titan Company Limited",
+    "filed_at": "2026-11-27T16:47:01+05:30",
+    "subject": "Titan Company Limited has informed the Exchange about Schedule of Analysts / Institutional Investors Meeting",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/Titan002_27112026164524_SEintimation_27_Nov.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "12ffd1d61b2be4676f75531ad317907040f43108",
+    "symbol": "HDFCBANK",
+    "company": "HDFC Bank Limited",
+    "filed_at": "2026-11-27T16:12:40+05:30",
+    "subject": "HDFC Bank Limited has informed the Exchange about Copy of Newspaper Publication",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_27112026160926_SEspecialwindowfortransferAdv27112026.pdf",
+    "raw_category": "Copy of Newspaper Publication",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "8d0b716a1f5ab9d8104baa55234d525c4cf0b82b",
+    "symbol": "BHARTIARTL",
+    "company": "Bharti Airtel Limited",
+    "filed_at": "2026-11-27T15:10:59+05:30",
+    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_27112026151040_BhartiAirtelReg30disclosure.pdf",
+    "raw_category": "Action(s) taken or orders passed",
+    "source": "nse"
+   },
+   "category": "litigation",
+   "tier": "critical",
+   "summary": "DoT Karnataka imposed a penalty of Rs. 2.2 lakh on Airtel for alleged subscriber verification norm violations in a September 2026 CAF…",
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "6dfd524ee63aaaad42d0efb62a07f4e37d889fc8",
+    "symbol": "PERSISTENT",
+    "company": "Persistent Systems Limited",
+    "filed_at": "2026-11-27T14:48:23+05:30",
+    "subject": "Persistent Systems Limited has informed the Exchange about General Updates",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/PERSISTENTUSER1_27112026144800_IntimationofscheduledpurchasefromthesecondarymarketNov2026Sd.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "unclassified",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "3476efb5f1b9c522b0cb18973f3262266b3d9844",
+    "symbol": "DIXON",
+    "company": "Dixon Technologies (India) Limited",
+    "filed_at": "2026-11-27T14:18:49+05:30",
+    "subject": "Dixon Technologies (India) Limited has informed the Exchange about Analyst/Institutional Investor Meet Outcome",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/DIXON_27112026141544_InvestorMeetOutcome27112026.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
+  {
+   "announcement": {
+    "id": "e5925adef59924c2ff1b9bf685a37faf3d60cd04",
+    "symbol": "ASIANPAINT",
+    "company": "Asian Paints Limited",
+    "filed_at": "2026-11-27T13:07:45+05:30",
+    "subject": "The Company vide its letter no. APL/SEC/57/2026-27/44 dated 23rd November 2026 had informed that the Company, through its representatives, would be participating in a One - on -One meeting with Capital International, an Institutional Investor, at Mumbai on 27th November 2026, 11.00 a.m. IST onwards. We wish to inform you that the said meeting has been cancelled due to unforeseen exigencies.",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/ASIANPAINT_27112026130734_SEINTIMATIONANALYSTMEETSNOV2026_-_cancelled.pdf",
+    "raw_category": "Analysts/Institutional Investor Meet/Con. Call Updates",
+    "source": "nse"
+   },
+   "category": "investor_meetings",
+   "tier": "routine",
+   "summary": null,
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "4e8602e7cd9ca0862528864e6dc64caee48556cb",
@@ -8663,78 +8771,6 @@
     "source": "nse"
    },
    "category": "investor_meetings",
-   "tier": "routine",
-   "summary": null,
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "319238f796cfa632fff77f89783dfb6b48792eca",
-    "symbol": "DIXON",
-    "company": "Dixon Technologies (India) Limited",
-    "filed_at": "2026-09-28T19:26:50+05:30",
-    "subject": "Proceeding of 33rd AGM of Dixon Technologies (India) Limited held on 28th September, 2026.",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_28092026192515_Proceedingsof33rdAGM28092026.pdf",
-    "raw_category": "Shareholders meeting",
-    "source": "nse"
-   },
-   "category": "agm_egm",
-   "tier": "routine",
-   "summary": null,
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "7a8c31682f8e0293ce4ed2d857e9b19e1a88d409",
-    "symbol": "BAJFINANCE",
-    "company": "Bajaj Finance Limited",
-    "filed_at": "2026-09-28T19:22:37+05:30",
-    "subject": "Bajaj Finance Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_28092026192213_TWC_Intimation-BFL.pdf",
-    "raw_category": "Trading Window",
-    "source": "nse"
-   },
-   "category": "unclassified",
-   "tier": "routine",
-   "summary": null,
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "282a92e10e30070f3b928a2b05509c8caa602098",
-    "symbol": "DMART",
-    "company": "Avenue Supermarts Limited",
-    "filed_at": "2026-09-28T18:27:00+05:30",
-    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Repayment Of Commercial Paper'.",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_28092026182626_RedemptionofCP2809026.pdf",
-    "raw_category": "Updates",
-    "source": "nse"
-   },
-   "category": "fund_raise",
-   "tier": "notable",
-   "summary": "Avenue Supermarts repaid 4,000 commercial papers (ISIN INE192R14345) worth Rs. 200 crores at maturity on 28th September 2026, leaving…",
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "7a13c543fa000af9bdd7b3e5146dfb6a78742fe2",
-    "symbol": "POLYCAB",
-    "company": "Polycab India Limited",
-    "filed_at": "2026-09-28T17:25:05+05:30",
-    "subject": "Polycab India Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/POLYCAB_28092026172448_Intimation_Trading_Window_Closure.pdf",
-    "raw_category": "Trading Window",
-    "source": "nse"
-   },
-   "category": "unclassified",
    "tier": "routine",
    "summary": null,
    "results": null,
