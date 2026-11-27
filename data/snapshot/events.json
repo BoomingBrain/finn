@@ -1,6 +1,29 @@
 {
- "as_of": "2026-11-27T19:29:15.203614+05:30",
+ "as_of": "2026-11-28T03:49:52.045512+05:30",
  "events": [
+  {
+   "id": "d16797b8986cebb80bad66df75c4e313e3895399",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "category": "investor_meetings",
+   "tier": "routine",
+   "first_at": "2026-11-27T19:49:43+05:30",
+   "last_at": "2026-11-27T19:49:43+05:30",
+   "headline": "The Outcome of Investor conference held on Friday, November 27, 2026",
+   "summary": null,
+   "results": null,
+   "profile": null,
+   "documents": [
+    {
+     "title": "The Outcome of Investor conference held on Friday, November 27, 2026",
+     "url": "https://nsearchives.nseindia.in/corporate/KPITTECH_27112026194907_KPIT_Kotak_Midcap_Conference_outcome_S.pdf",
+     "filed_at": "2026-11-27T19:49:43+05:30"
+    }
+   ],
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
+  },
   {
    "id": "da1fec797e2be1f206ee3ed1065ae52892b86b56",
    "symbol": "TITAN",
@@ -25,9 +48,9 @@
      "filed_at": "2026-11-27T16:47:01+05:30"
     }
    ],
-   "price_change_pct": 1.0,
-   "volume_multiple": 1.3,
-   "price_date": "2026-11-27"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "12ffd1d61b2be4676f75531ad317907040f43108",
@@ -71,9 +94,9 @@
      "filed_at": "2026-11-27T15:10:59+05:30"
     }
    ],
-   "price_change_pct": -1.6,
-   "volume_multiple": 0.4,
-   "price_date": "2026-11-27"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "6dfd524ee63aaaad42d0efb62a07f4e37d889fc8",
@@ -94,9 +117,9 @@
      "filed_at": "2026-11-27T14:48:23+05:30"
     }
    ],
-   "price_change_pct": 1.9,
-   "volume_multiple": 0.9,
-   "price_date": "2026-11-27"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "3476efb5f1b9c522b0cb18973f3262266b3d9844",
@@ -117,9 +140,9 @@
      "filed_at": "2026-11-27T14:18:49+05:30"
     }
    ],
-   "price_change_pct": 3.3,
-   "volume_multiple": 1.1,
-   "price_date": "2026-11-27"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "e5925adef59924c2ff1b9bf685a37faf3d60cd04",
@@ -140,9 +163,9 @@
      "filed_at": "2026-11-27T13:07:45+05:30"
     }
    ],
-   "price_change_pct": -0.4,
-   "volume_multiple": 0.5,
-   "price_date": "2026-11-27"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "4e8602e7cd9ca0862528864e6dc64caee48556cb",
@@ -163,9 +186,9 @@
      "filed_at": "2026-11-26T22:17:06+05:30"
     }
    ],
-   "price_change_pct": -2.7,
-   "volume_multiple": 0.9,
-   "price_date": "2026-11-27"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "5c05bf186a9f8b68d5551e8d8d3b1f5f2c21eca9",
@@ -214,9 +237,9 @@
      "filed_at": "2026-11-26T19:58:39+05:30"
     }
    ],
-   "price_change_pct": -0.8,
-   "volume_multiple": 0.7,
-   "price_date": "2026-11-27"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "834adb9eef60025e96eb4497a62d874fb392c3ed",
@@ -237,9 +260,9 @@
      "filed_at": "2026-11-26T17:21:22+05:30"
     }
    ],
-   "price_change_pct": 1.0,
-   "volume_multiple": 1.3,
-   "price_date": "2026-11-27"
+   "price_change_pct": null,
+   "volume_multiple": null,
+   "price_date": null
   },
   {
    "id": "acb7ab298ffba7429708e9b6fc8c8979b2b18a39",
@@ -8622,12 +8645,12 @@
    "price_date": "2026-10-01"
   },
   {
-   "id": "ede3c6c544d5c0503a3451ebe045eabae5c6683e",
+   "id": "f88129a71165ac8d0c7de8775926bebf627789a6",
    "symbol": "PERSISTENT",
    "company": "Persistent Systems Limited",
    "category": "investor_meetings",
    "tier": "routine",
-   "first_at": "2026-09-30T19:18:56+05:30",
+   "first_at": "2026-09-29T18:51:10+05:30",
    "last_at": "2026-09-30T19:18:56+05:30",
    "headline": "Presentation",
    "summary": null,
@@ -8636,13 +8659,23 @@
    "documents": [
     {
      "title": "Presentation",
+     "url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_29092026185028_PSLOutcomeofInvestorSessionsSeptember292026sd.pdf",
+     "filed_at": "2026-09-29T18:51:10+05:30"
+    },
+    {
+     "title": "Schedule of meet",
+     "url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_29092026190118_PSLIntimationUpdateSeptember292026sd.pdf",
+     "filed_at": "2026-09-29T19:01:27+05:30"
+    },
+    {
+     "title": "Presentation",
      "url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_30092026191838_PSLOutcomeofInvestorSessionsSeptember302026sd.pdf",
      "filed_at": "2026-09-30T19:18:56+05:30"
     }
    ],
-   "price_change_pct": 1.7,
-   "volume_multiple": 1.2,
-   "price_date": "2026-10-01"
+   "price_change_pct": 2.3,
+   "volume_multiple": 1.4,
+   "price_date": "2026-09-30"
   },
   {
    "id": "200d5cbe168fd902525d99507ff95b68bc3cedd0",
@@ -8872,39 +8905,6 @@
    "price_date": "2026-09-30"
   },
   {
-   "id": "39c671852efdca70717a0fb952b740cf3628031c",
-   "symbol": "PERSISTENT",
-   "company": "Persistent Systems Limited",
-   "category": "investor_meetings",
-   "tier": "routine",
-   "first_at": "2026-09-28T19:44:25+05:30",
-   "last_at": "2026-09-29T19:01:27+05:30",
-   "headline": "Presentation",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Presentation",
-     "url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_28092026194403_PSLOutcomeofInvestorSessionsSeptember282026Sd.pdf",
-     "filed_at": "2026-09-28T19:44:25+05:30"
-    },
-    {
-     "title": "Presentation",
-     "url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_29092026185028_PSLOutcomeofInvestorSessionsSeptember292026sd.pdf",
-     "filed_at": "2026-09-29T18:51:10+05:30"
-    },
-    {
-     "title": "Schedule of meet",
-     "url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_29092026190118_PSLIntimationUpdateSeptember292026sd.pdf",
-     "filed_at": "2026-09-29T19:01:27+05:30"
-    }
-   ],
-   "price_change_pct": -3.1,
-   "volume_multiple": 0.6,
-   "price_date": "2026-09-29"
-  },
-  {
    "id": "b8b8b5747fb2cccc686613ce6d2e0b7de3001111",
    "symbol": "DEEPAKNTR",
    "company": "Deepak Nitrite Limited",
@@ -9056,52 +9056,6 @@
    ],
    "price_change_pct": 0.5,
    "volume_multiple": 1.3,
-   "price_date": "2026-09-29"
-  },
-  {
-   "id": "72f38020fe795f6820a72e42701649fdaa1774e8",
-   "symbol": "ITC",
-   "company": "ITC Limited",
-   "category": "M&A",
-   "tier": "critical",
-   "first_at": "2026-09-28T20:28:57+05:30",
-   "last_at": "2026-09-28T20:28:57+05:30",
-   "headline": "Acquisition of shares of Sproutlife Foods Private Limited",
-   "summary": "ITC acquired 13,445 shares for ~₹645 crores, increasing its stake in Sproutlife Foods from ~47.50% to 100%, making it a wholly owned…",
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Acquisition of shares of Sproutlife Foods Private Limited",
-     "url": "https://nsearchives.nseindia.com/corporate/ITC_28092026202850_SE_SFPL_.pdf",
-     "filed_at": "2026-09-28T20:28:57+05:30"
-    }
-   ],
-   "price_change_pct": -0.0,
-   "volume_multiple": 1.1,
-   "price_date": "2026-09-29"
-  },
-  {
-   "id": "72c0468cf57b16981bddf222deef759ae9e28d88",
-   "symbol": "SUNPHARMA",
-   "company": "Sun Pharmaceutical Industries Limited",
-   "category": "postal_ballot",
-   "tier": "routine",
-   "first_at": "2026-09-28T20:09:05+05:30",
-   "last_at": "2026-09-28T20:09:05+05:30",
-   "headline": "Completion and Result of Postal Ballot dated 25 August 2026",
-   "summary": null,
-   "results": null,
-   "profile": null,
-   "documents": [
-    {
-     "title": "Completion and Result of Postal Ballot dated 25 August 2026",
-     "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_28092026200828_SEIntimationforVR.pdf",
-     "filed_at": "2026-09-28T20:09:05+05:30"
-    }
-   ],
-   "price_change_pct": 1.5,
-   "volume_multiple": 2.0,
    "price_date": "2026-09-29"
   }
  ]
