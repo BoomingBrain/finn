@@ -1,6 +1,24 @@
 {
- "as_of": "2026-11-28T03:49:52.045512+05:30",
+ "as_of": "2026-11-28T18:46:34.442813+05:30",
  "announcements": [
+  {
+   "announcement": {
+    "id": "8c636ecc2245e1a800f57abe7e217f1127a2d614",
+    "symbol": "BAJFINANCE",
+    "company": "Bajaj Finance Limited",
+    "filed_at": "2026-11-28T18:04:47+05:30",
+    "subject": "Bajaj Finance Limited has informed the Exchange about establishment of Euro Medium Term Note Programme (\"MTN Programme\")",
+    "body": "",
+    "attachment_url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_28112026180421_BSENSEIntimationMTNCommittee_Approval_for_program_establishment.pdf",
+    "raw_category": "General Updates",
+    "source": "nse"
+   },
+   "category": "fund_raise",
+   "tier": "critical",
+   "summary": "Bajaj Finance established a USD 5 billion Euro Medium Term Note Programme on 28 November 2026.",
+   "results": null,
+   "profile": null
+  },
   {
    "announcement": {
     "id": "d16797b8986cebb80bad66df75c4e313e3895399",
@@ -8576,161 +8594,6 @@
     "subject": "Deepak Nitrite Limited has informed the Exchange about General Updates-Disclosure under Regulation 30 of SEBI LODR Regulations, 2015",
     "body": "",
     "attachment_url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_29092026184031_NSE-REGULATION_30_Disclosure-29-9-2026.pdf",
-    "raw_category": "General Updates",
-    "source": "nse"
-   },
-   "category": "unclassified",
-   "tier": "routine",
-   "summary": null,
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "200d5cbe168fd902525d99507ff95b68bc3cedd0",
-    "symbol": "IRCTC",
-    "company": "Indian Railway Catering And Tourism Corporation Limited",
-    "filed_at": "2026-09-29T18:41:40+05:30",
-    "subject": "Indian Railway Catering And Tourism Corporation Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on September 29, 2026",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/IRCTC_29092026183516_SEFilingforProceedingsof27AGM.pdf",
-    "raw_category": "Shareholders meeting",
-    "source": "nse"
-   },
-   "category": "agm_egm",
-   "tier": "routine",
-   "summary": null,
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "8728254ca3341ed9adce592ecea7e447e6fe2b7e",
-    "symbol": "DMART",
-    "company": "Avenue Supermarts Limited",
-    "filed_at": "2026-09-29T18:39:20+05:30",
-    "subject": "Avenue Supermarts Limited has informed the Exchange regarding 'Repayment of Commercial Paper'.",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/DMART_29092026183814_RedemptionofCP2909026.pdf",
-    "raw_category": "Updates",
-    "source": "nse"
-   },
-   "category": "fund_raise",
-   "tier": "notable",
-   "summary": "Avenue Supermarts repaid 6,000 commercial papers (ISIN INE192R14352) worth Rs. 300 crores at maturity on 29th September 2026, leaving…",
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "a83153d6cf0e5772ebac715ffa0ce563f11356d8",
-    "symbol": "DIXON",
-    "company": "Dixon Technologies (India) Limited",
-    "filed_at": "2026-09-29T18:33:09+05:30",
-    "subject": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_29092026182828_Regulation30DisclosureAGM28092026.pdf",
-    "raw_category": "Change in Management",
-    "source": "nse"
-   },
-   "category": "management_change",
-   "tier": "critical",
-   "summary": null,
-   "results": null,
-   "profile": {
-    "name": "Mr. Sunil Vachani",
-    "role": "Whole Time Director",
-    "change": "appointed",
-    "effective_date": "5th May, 2027",
-    "background": "Mr. Sunil Vachani has over three decades of experience in the EMS industry. He is associated with the Company since its inception and under his reins, the Company has been adjudged as one of the leading Indian EMS by various trade journals and industry bodies.",
-    "prior_roles": [
-     "associated with Benin for over 10 years as their Honorary Consul General",
-     "Vice President (South) of Consumer Electronics and Appliances Manufacturers Association",
-     "chairman of the Electronics and Computer Software Export Promotion Council of India"
-    ]
-   }
-  },
-  {
-   "announcement": {
-    "id": "a278a59fac3b7dbd57782ba73fc2a64307be8a44",
-    "symbol": "DIXON",
-    "company": "Dixon Technologies (India) Limited",
-    "filed_at": "2026-09-29T18:11:56+05:30",
-    "subject": "Dixon Technologies (India) Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_29092026181144_TradingWindowClosureIntimation30092026.pdf",
-    "raw_category": "Trading Window",
-    "source": "nse"
-   },
-   "category": "unclassified",
-   "tier": "routine",
-   "summary": null,
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "640146d8f06513b9685f08ab1b322590392ba362",
-    "symbol": "DIXON",
-    "company": "Dixon Technologies (India) Limited",
-    "filed_at": "2026-09-29T17:38:55+05:30",
-    "subject": "Dixon Technologies (India) Limited has submitted the Exchange a copy Srutinizers report of Annual General Meeting held on September 28, 2026. Further, the company has informed the Exchange regarding voting results.",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/DIXON_29092026173545_Scrutinizer_Report_Cover_Page29092026.pdf",
-    "raw_category": "Shareholders meeting",
-    "source": "nse"
-   },
-   "category": "agm_egm",
-   "tier": "routine",
-   "summary": null,
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "20e5a1e235cd3504c0bf6d1dc97ae42e7fda36b2",
-    "symbol": "BHARTIARTL",
-    "company": "Bharti Airtel Limited",
-    "filed_at": "2026-09-29T17:29:24+05:30",
-    "subject": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_29092026172859_BhartiAirtel-Reg30disclosure.pdf",
-    "raw_category": "Action(s) taken or orders passed",
-    "source": "nse"
-   },
-   "category": "litigation",
-   "tier": "critical",
-   "summary": "Bharti Airtel received two penalty notices from DoT (Delhi and Karnataka LSAs) totaling Rs.3.53 lakh for alleged subscriber verification…",
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "b8b8b5747fb2cccc686613ce6d2e0b7de3001111",
-    "symbol": "DEEPAKNTR",
-    "company": "Deepak Nitrite Limited",
-    "filed_at": "2026-09-29T13:43:23+05:30",
-    "subject": "Deepak Nitrite Limited has informed the Exchange about General Updates",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/DEEPAKNTR_29092026134249_NSE_Letter-investment-29-9-2026.pdf",
-    "raw_category": "General Updates",
-    "source": "nse"
-   },
-   "category": "unclassified",
-   "tier": "routine",
-   "summary": null,
-   "results": null,
-   "profile": null
-  },
-  {
-   "announcement": {
-    "id": "099706cd847e1a9a54ef6cefb638834fb505779e",
-    "symbol": "HDFCBANK",
-    "company": "HDFC Bank Limited",
-    "filed_at": "2026-09-29T12:12:17+05:30",
-    "subject": "Newspaper publication regarding special window for transfer and dematerialization of physical shares of HDFC Bank Limited.",
-    "body": "",
-    "attachment_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_29092026121137_SE_Intimation_-_Special_window.pdf",
     "raw_category": "General Updates",
     "source": "nse"
    },
